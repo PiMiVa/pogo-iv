@@ -6147,11 +6147,17 @@ function PvpokeImport$merge$lambda_1($byId, $byDex) {
     return tmp_0;
   };
 }
+function PvpokeImport$merge$lambda_2($byId) {
+  return function (id, _unused_var__etf5q3, _unused_var__etf5q3_0) {
+    var tmp0_safe_receiver = $byId.x1(id);
+    return tmp0_safe_receiver == null ? null : tmp0_safe_receiver.a1e_1;
+  };
+}
 function PvpokeImport() {
   PvpokeImport_instance = this;
   this.t1p_1 = mapOf([to('Alolan', 'Alola'), to('Galarian', 'Galar'), to('Hisuian', 'Hisui'), to('Paldean', 'Paldea')]);
 }
-protoOf(PvpokeImport).u1p = function (gamemasterText, baseName, moveName, evolution) {
+protoOf(PvpokeImport).u1p = function (gamemasterText, baseName, moveName, evolution, displayName) {
   var root = get_jsonObject(Default_getInstance().u11(gamemasterText));
   var missing = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.map' call
@@ -6257,13 +6263,22 @@ protoOf(PvpokeImport).u1p = function (gamemasterText, baseName, moveName, evolut
     if (charSequenceLength(form) === 0) {
       tmp_3 = base;
     } else {
-      var tmp2_elvis_lhs = PvpokeImport_getInstance().t1p_1.x1(form);
-      tmp_3 = base + ' (' + (tmp2_elvis_lhs == null ? form : tmp2_elvis_lhs) + ')';
+      var tmp2_safe_receiver = PvpokeImport_getInstance().t1p_1.x1(form);
+      var tmp_4;
+      if (tmp2_safe_receiver == null) {
+        tmp_4 = null;
+      } else {
+        // Inline function 'kotlin.let' call
+        tmp_4 = base + ' (' + tmp2_safe_receiver + ')';
+      }
+      var tmp3_elvis_lhs = tmp_4;
+      var tmp4_elvis_lhs = tmp3_elvis_lhs == null ? displayName(id, base, form) : tmp3_elvis_lhs;
+      tmp_3 = tmp4_elvis_lhs == null ? base + ' (' + form + ')' : tmp4_elvis_lhs;
     }
-    var tmp_4 = tmp_3;
-    var tmp_5 = get_int(get_jsonPrimitive(getValue(stats, 'atk')));
-    var tmp_6 = get_int(get_jsonPrimitive(getValue(stats, 'def')));
-    var tmp_7 = get_int(get_jsonPrimitive(getValue(stats, 'hp')));
+    var tmp_5 = tmp_3;
+    var tmp_6 = get_int(get_jsonPrimitive(getValue(stats, 'atk')));
+    var tmp_7 = get_int(get_jsonPrimitive(getValue(stats, 'def')));
+    var tmp_8 = get_int(get_jsonPrimitive(getValue(stats, 'hp')));
     // Inline function 'kotlin.collections.filter' call
     var tmp0_0 = strings(PvpokeImport_getInstance(), item_0, 'types');
     // Inline function 'kotlin.collections.filterTo' call
@@ -6275,7 +6290,7 @@ protoOf(PvpokeImport).u1p = function (gamemasterText, baseName, moveName, evolut
         destination_4.h(element_2);
       }
     }
-    var tmp$ret$12 = new SpeciesData(id, dex, tmp_4, base, tmp_5, tmp_6, tmp_7, destination_4, strings(PvpokeImport_getInstance(), item_0, 'fastMoves'), strings(PvpokeImport_getInstance(), item_0, 'chargedMoves'), strings(PvpokeImport_getInstance(), item_0, 'tags'), evolutions, strings(PvpokeImport_getInstance(), item_0, 'eliteMoves'), strings(PvpokeImport_getInstance(), item_0, 'legacyMoves'));
+    var tmp$ret$12 = new SpeciesData(id, dex, tmp_5, base, tmp_6, tmp_7, tmp_8, destination_4, strings(PvpokeImport_getInstance(), item_0, 'fastMoves'), strings(PvpokeImport_getInstance(), item_0, 'chargedMoves'), strings(PvpokeImport_getInstance(), item_0, 'tags'), evolutions, strings(PvpokeImport_getInstance(), item_0, 'eliteMoves'), strings(PvpokeImport_getInstance(), item_0, 'legacyMoves'));
     destination_2.h(tmp$ret$12);
   }
   var species = destination_2;
@@ -6286,8 +6301,8 @@ protoOf(PvpokeImport).u1p = function (gamemasterText, baseName, moveName, evolut
   var _iterator__ex2g4s_5 = this_2.i();
   while (_iterator__ex2g4s_5.j()) {
     var item_1 = _iterator__ex2g4s_5.k();
-    var tmp$ret$31 = get_jsonObject(item_1);
-    destination_5.h(tmp$ret$31);
+    var tmp$ret$33 = get_jsonObject(item_1);
+    destination_5.h(tmp$ret$33);
   }
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
@@ -6297,17 +6312,17 @@ protoOf(PvpokeImport).u1p = function (gamemasterText, baseName, moveName, evolut
     var item_2 = _iterator__ex2g4s_6.k();
     var id_0 = str(PvpokeImport_getInstance(), item_2, 'moveId');
     var tmp0_elvis_lhs_2 = moveName(id_0);
-    var tmp_8;
+    var tmp_9;
     if (tmp0_elvis_lhs_2 == null) {
       // Inline function 'kotlin.also' call
       var this_3 = str(PvpokeImport_getInstance(), item_2, 'name');
       missing.h('Attacke: ' + id_0);
-      tmp_8 = this_3;
+      tmp_9 = this_3;
     } else {
-      tmp_8 = tmp0_elvis_lhs_2;
+      tmp_9 = tmp0_elvis_lhs_2;
     }
-    var tmp$ret$34 = new MoveData(id_0, tmp_8, str(PvpokeImport_getInstance(), item_2, 'type'), read$number(item_2, 'power'), read$number(item_2, 'energy'), read$number(item_2, 'energyGain'), read$number(item_2, 'turns'));
-    destination_6.h(tmp$ret$34);
+    var tmp$ret$36 = new MoveData(id_0, tmp_9, str(PvpokeImport_getInstance(), item_2, 'type'), read$number(item_2, 'power'), read$number(item_2, 'energy'), read$number(item_2, 'energyGain'), read$number(item_2, 'turns'));
+    destination_6.h(tmp$ret$36);
   }
   var moves = destination_6;
   return new Result(species, moves, missing);
@@ -6367,7 +6382,8 @@ protoOf(PvpokeImport).v1p = function (base, gamemasterText) {
   }
   var tmp_0 = PvpokeImport$merge$lambda(names);
   var tmp_1 = PvpokeImport$merge$lambda_0(moveNames);
-  var result = this.u1p(gamemasterText, tmp_0, tmp_1, PvpokeImport$merge$lambda_1(byId, byDex));
+  var tmp_2 = PvpokeImport$merge$lambda_1(byId, byDex);
+  var result = this.u1p(gamemasterText, tmp_0, tmp_1, tmp_2, PvpokeImport$merge$lambda_2(byId));
   // Inline function 'kotlin.collections.associateBy' call
   var this_2 = base.v1e_1;
   var capacity_1 = coerceAtLeast(mapCapacity(collectionSizeOrDefault(this_2, 10)), 16);
@@ -6388,28 +6404,28 @@ protoOf(PvpokeImport).v1p = function (base, gamemasterText) {
   while (_iterator__ex2g4s_4.j()) {
     var item = _iterator__ex2g4s_4.k();
     var tmp0_safe_receiver = pve.x1(item.i1i_1);
-    var tmp_2;
+    var tmp_3;
     if (tmp0_safe_receiver == null) {
-      tmp_2 = null;
+      tmp_3 = null;
     } else {
       // Inline function 'kotlin.takeIf' call
-      var tmp_3;
+      var tmp_4;
       if (tmp0_safe_receiver.f1m()) {
-        tmp_3 = tmp0_safe_receiver;
+        tmp_4 = tmp0_safe_receiver;
       } else {
-        tmp_3 = null;
+        tmp_4 = null;
       }
-      tmp_2 = tmp_3;
+      tmp_3 = tmp_4;
     }
-    var tmp1_safe_receiver = tmp_2;
-    var tmp_4;
+    var tmp1_safe_receiver = tmp_3;
+    var tmp_5;
     if (tmp1_safe_receiver == null) {
-      tmp_4 = null;
+      tmp_5 = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp_4 = item.h1m(VOID, VOID, VOID, VOID, VOID, VOID, VOID, tmp1_safe_receiver.p1i_1, tmp1_safe_receiver.q1i_1, tmp1_safe_receiver.r1i_1);
+      tmp_5 = item.h1m(VOID, VOID, VOID, VOID, VOID, VOID, VOID, tmp1_safe_receiver.p1i_1, tmp1_safe_receiver.q1i_1, tmp1_safe_receiver.r1i_1);
     }
-    var tmp2_elvis_lhs = tmp_4;
+    var tmp2_elvis_lhs = tmp_5;
     var tmp$ret$16 = tmp2_elvis_lhs == null ? item : tmp2_elvis_lhs;
     destination_2.h(tmp$ret$16);
   }

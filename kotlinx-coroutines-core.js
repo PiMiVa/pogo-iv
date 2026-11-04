@@ -74,9 +74,9 @@ import {
   getKClassFromExpression348iqjl4fnx2f as getKClassFromExpression,
   Exception_init_$Create$1oj5if0wqsosr as Exception_init_$Create$,
   removeFirstOrNull15yg2tczrh8a7 as removeFirstOrNull,
+  Collection1k04j3hzsbod0 as Collection,
   KtList3hktaavzmj137 as KtList,
   MutableIterablez3x4ksk1fmrm as MutableIterable,
-  Collection1k04j3hzsbod0 as Collection,
   coerceIn302bduskdb54x as coerceIn,
   convertToIntofdoxh9bstof as convertToInt,
   CancellationException_init_$Init$j2lw4famt4h2 as CancellationException_init_$Init$_0,
@@ -172,7 +172,7 @@ initMetadataForClass(ContextScope, 'ContextScope', VOID, VOID, [CoroutineScope])
 initMetadataForClass(Symbol, 'Symbol');
 initMetadataForClass(SetTimeoutBasedDispatcher, 'SetTimeoutBasedDispatcher', VOID, CoroutineDispatcher, [Delay], [1]);
 initMetadataForObject(NodeDispatcher, 'NodeDispatcher', VOID, SetTimeoutBasedDispatcher, VOID, [1]);
-initMetadataForClass(MessageQueue, 'MessageQueue', VOID, VOID, [KtList, MutableIterable, Collection]);
+initMetadataForClass(MessageQueue, 'MessageQueue', VOID, VOID, [Collection, KtList, MutableIterable]);
 initMetadataForClass(ScheduledMessageQueue, 'ScheduledMessageQueue', VOID, MessageQueue);
 initMetadataForClass(WindowMessageQueue, 'WindowMessageQueue', VOID, MessageQueue);
 initMetadataForClass(UnconfinedEventLoop, 'UnconfinedEventLoop', UnconfinedEventLoop, EventLoop);
