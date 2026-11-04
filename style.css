@@ -295,6 +295,18 @@ button:disabled { opacity: .45; cursor: default; }
 }
 .switch.on { background: var(--accent); }
 .switch.on::after { left: 23px; }
+.bosses { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+.boss {
+  flex: 0 0 84px; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  background: var(--card); border-radius: 16px; padding: 8px 4px; cursor: pointer;
+}
+.boss.on { background: var(--accent-soft); color: var(--accent-on-soft); }
+.boss .n { font-size: .72rem; font-weight: 700; max-width: 76px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rank-dot {
+  width: 24px; height: 24px; flex: 0 0 24px; border-radius: 50%; background: var(--card-2);
+  display: flex; align-items: center; justify-content: center; font-size: .75rem; font-weight: 800;
+}
+.moves-edit .chips { margin: 4px 0; }
 .rating { display: flex; align-items: center; gap: 10px; padding: 4px 0; }
 
 /* Dialog */
