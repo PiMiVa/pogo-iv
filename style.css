@@ -295,6 +295,7 @@ button:disabled { opacity: .45; cursor: default; }
 }
 .switch.on { background: var(--accent); }
 .switch.on::after { left: 23px; }
+.too-high { color: var(--bad); font-weight: 800; font-size: .9rem; }
 .bosses { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
 .boss {
   flex: 0 0 84px; display: flex; flex-direction: column; align-items: center; gap: 2px;

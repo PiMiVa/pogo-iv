@@ -1454,7 +1454,7 @@ function CollectionView$details$lambda_1($row, $species, $target) {
     }
     var cost = $row.o1d_1;
     if (cost == null)
-      add_0($this$add, 'div', 'small', 'Bereits zu hoch gelevelt');
+      add_0($this$add, 'div', 'too-high', '\u26A0 Bereits zu hoch gelevelt');
     else {
       var tmp2_elvis_lhs = $species;
       costRow($this$add, cost, tmp2_elvis_lhs == null ? $target : tmp2_elvis_lhs);
