@@ -137,7 +137,7 @@ import {
   multiply18i3gv3wlmcjg as multiply,
   divide3tol6kxdi8xn6 as divide,
   convertToIntofdoxh9bstof as convertToInt,
-} from './kotlin-kotlin-stdlib.js';
+} from './kotlin-kotlin-stdlib.js?v=1793917218284';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -155,7 +155,7 @@ import {
   SerializableWithd2dap36updxd as SerializableWith,
   BooleanSerializer_getInstance22aja3hu17sxf as BooleanSerializer_getInstance,
   LinkedHashMapSerializermaoj2nyji7op as LinkedHashMapSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1793917218284';
 import {
   Jsonsmkyu9xjl7fv as Json,
   get_jsonPrimitivez17tyd5rw1ql as get_jsonPrimitive,
@@ -167,7 +167,7 @@ import {
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
   JsonObjectee06ihoeeiqj as JsonObject,
   get_int2y6jf75ftml0w as get_int,
-} from './kotlinx-serialization-kotlinx-serialization-json.js';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1793917218284';
 //region block: imports
 var imul = Math.imul;
 //endregion

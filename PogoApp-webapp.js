@@ -114,7 +114,7 @@ import {
   getOrNull1go7ef9ldk0df as getOrNull,
   toInt2q8uldh7sc951 as toInt,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js';
+} from './kotlin-kotlin-stdlib.js?v=1793917218284';
 import {
   Variant_NORMAL_getInstance23fgbcbkjs7l7 as Variant_NORMAL_getInstance,
   CollectionFile_getInstance2j0yylyz79xvd as CollectionFile_getInstance,
@@ -155,7 +155,7 @@ import {
   AppraisalReader_instanceiikfg1vmw8rb as AppraisalReader_instance,
   ScanParser_getInstance1dj216dqwcrgf as ScanParser_getInstance,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js';
+} from './PogoApp-core.js?v=1793917218284';
 import {
   launch1c91vkjzdi9sd as launch,
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
@@ -164,9 +164,9 @@ import {
   awaitxmqwgrq6yfmw as await_0,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js';
+} from './kotlinx-coroutines-core.js?v=1793917218284';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1793917218284';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1793917218284';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -6303,16 +6303,27 @@ protoOf($initCOROUTINE$).d8 = function () {
       var tmp = this.v7_1;
       switch (tmp) {
         case 0:
-          this.w7_1 = 5;
-          this.z2j_1 = Companion_getInstance_2();
+          this.w7_1 = 6;
           this.v7_1 = 1;
-          suspendResult = fetchText(this.w2j_1, 'gamedata.json', this);
+          var tmp_0 = window;
+          var this_0 = {cache: 'no-cache'};
+          suspendResult = await_0(tmp_0.fetch('gamedata.json', this_0), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
 
           continue $sm;
         case 1:
+          var response = suspendResult;
+          this.z2j_1 = Companion_getInstance_2();
+          this.v7_1 = 2;
+          suspendResult = await_0(response.text(), this);
+          if (suspendResult === get_COROUTINE_SUSPENDED()) {
+            return suspendResult;
+          }
+
+          continue $sm;
+        case 2:
           var ARGUMENT = suspendResult;
           var ARGUMENT_0 = this.z2j_1.hi(ARGUMENT);
           this.w2j_1.l28_1 = ARGUMENT_0;
@@ -6324,84 +6335,84 @@ protoOf($initCOROUTINE$).d8 = function () {
             null;
           else {
             Store_getInstance();
-            var tmp_0;
+            var tmp_1;
             try {
               var value = CollectionFile_getInstance().hi(tmp0_safe_receiver);
-              tmp_0 = _Result___init__impl__xyqfz8(value);
+              tmp_1 = _Result___init__impl__xyqfz8(value);
             } catch ($p) {
-              var tmp_1;
+              var tmp_2;
               if ($p instanceof Error) {
                 var e = $p;
-                tmp_1 = _Result___init__impl__xyqfz8(createFailure(e));
+                tmp_2 = _Result___init__impl__xyqfz8(createFailure(e));
               } else {
                 throw $p;
               }
-              tmp_0 = tmp_1;
+              tmp_1 = tmp_2;
             }
-            var this_0 = tmp_0;
-            var tmp0_safe_receiver_0 = _Result___get_isFailure__impl__jpiriv(this_0) ? null : _Result___get_value__impl__bjfvqg(this_0);
-            var tmp_2;
+            var this_1 = tmp_1;
+            var tmp0_safe_receiver_0 = _Result___get_isFailure__impl__jpiriv(this_1) ? null : _Result___get_value__impl__bjfvqg(this_1);
+            var tmp_3;
             if (tmp0_safe_receiver_0 == null) {
-              tmp_2 = null;
+              tmp_3 = null;
             } else {
-              tmp_2 = Store_getInstance().b28_1.p(tmp0_safe_receiver_0);
+              tmp_3 = Store_getInstance().b28_1.p(tmp0_safe_receiver_0);
             }
           }
 
           var tmp1_safe_receiver = localStorage.getItem('pogo.papierkorb');
-          var tmp_3;
+          var tmp_4;
           if (tmp1_safe_receiver == null) {
-            tmp_3 = null;
+            tmp_4 = null;
           } else {
-            tmp_3 = Trash_getInstance().hi(tmp1_safe_receiver);
+            tmp_4 = Trash_getInstance().hi(tmp1_safe_receiver);
           }
 
-          var tmp0_elvis_lhs = tmp_3;
+          var tmp0_elvis_lhs = tmp_4;
           var stored = tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
           this.w2j_1.q28_1.p(Trash_getInstance().w1v(stored, this.w2j_1.c2b()));
           if (!(this.w2j_1.q28_1.l() === stored.l())) {
             persistTrash(this.w2j_1);
           }
 
-          var this_1 = this.w2j_1;
-          this.w7_1 = 3;
+          var this_2 = this.w2j_1;
+          this.w7_1 = 4;
           this.y2j_1 = Companion_instance;
-          this.v7_1 = 2;
-          suspendResult = applyCached(this_1, this);
+          this.v7_1 = 3;
+          suspendResult = applyCached(this_2, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
 
           continue $sm;
-        case 2:
-          var tmp_4 = this;
-          this.y2j_1;
-          tmp_4.x2j_1 = _Result___init__impl__xyqfz8(Unit_instance);
-          this.w7_1 = 5;
-          this.v7_1 = 4;
-          continue $sm;
         case 3:
-          this.w7_1 = 5;
-          var tmp_5 = this.y7_1;
-          if (tmp_5 instanceof Error) {
+          var tmp_5 = this;
+          this.y2j_1;
+          tmp_5.x2j_1 = _Result___init__impl__xyqfz8(Unit_instance);
+          this.w7_1 = 6;
+          this.v7_1 = 5;
+          continue $sm;
+        case 4:
+          this.w7_1 = 6;
+          var tmp_6 = this.y7_1;
+          if (tmp_6 instanceof Error) {
             var e_0 = this.y7_1;
-            var tmp_6 = this;
-            tmp_6.x2j_1 = _Result___init__impl__xyqfz8(createFailure(e_0));
-            this.v7_1 = 4;
+            var tmp_7 = this;
+            tmp_7.x2j_1 = _Result___init__impl__xyqfz8(createFailure(e_0));
+            this.v7_1 = 5;
             continue $sm;
           } else {
             throw this.y7_1;
           }
 
-        case 4:
-          this.w7_1 = 5;
-          return Unit_instance;
         case 5:
+          this.w7_1 = 6;
+          return Unit_instance;
+        case 6:
           throw this.y7_1;
       }
     } catch ($p_0) {
       var e_1 = $p_0;
-      if (this.w7_1 === 5) {
+      if (this.w7_1 === 6) {
         throw e_1;
       } else {
         this.v7_1 = this.w7_1;
