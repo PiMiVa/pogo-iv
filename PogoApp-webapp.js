@@ -24,6 +24,8 @@ import {
   Collection1k04j3hzsbod0 as Collection,
   sortedWith2csnbbb21k0lg as sortedWith,
   noWhenBranchMatchedException2a6r7ubxgky5j as noWhenBranchMatchedException,
+  collectionSizeOrDefault36dulx8yinfqm as collectionSizeOrDefault,
+  ArrayList_init_$Create$a978fvbbts3d as ArrayList_init_$Create$_0,
   checkCountOverflow1ro2fe1r4xvgf as checkCountOverflow,
   take9j4462mea726 as take,
   Companion_instancejy2056q2ma5w as Companion_instance,
@@ -35,6 +37,8 @@ import {
   FunctionAdapter3lcrrz3moet5b as FunctionAdapter,
   Comparator2b3maoeh98xtg as Comparator,
   hashCodeq5arwsb9dgti as hashCode,
+  toSet2orjxp16sotqu as toSet,
+  emptyList1g2z5xcrvp2zy as emptyList,
   listOfNotNull2woi2boe01ub4 as listOfNotNull,
   joinToString1cxrrlmo0chqs as joinToString,
   CoroutineImpl2sn3kjnwmfr10 as CoroutineImpl,
@@ -43,21 +47,20 @@ import {
   initMetadataForLambda3af3he42mmnh as initMetadataForLambda,
   constructCallableReference23y65rf941mch as constructCallableReference,
   compareValues1n2ayl87ihzfk as compareValues,
+  setOf1u3mizs95ngxo as setOf,
   listOf1jh22dvmctj1r as listOf,
   to2cs3ny02qtbcb as to,
-  emptyList1g2z5xcrvp2zy as emptyList,
+  toList3jhuyej2anx2q as toList,
   listOfvhqybd2zx248 as listOf_0,
   plus310ted5e4i90h as plus,
   take3onnpy6q7ctcz as take_0,
   minus1djrl64vbav3y as minus,
   NoSuchElementException_init_$Create$14710snnwdnfb as NoSuchElementException_init_$Create$,
   compareTo3ankvs086tmwq as compareTo,
+  HashSet_init_$Create$b2fvq2b4c4v2 as HashSet_init_$Create$,
   HashMap_init_$Create$g6b5bm370ovq as HashMap_init_$Create$,
-  toList3jhuyej2anx2q as toList,
   initMetadataForObject1cxne3s9w65el as initMetadataForObject,
   throwUninitializedPropertyAccessException14fok093f3k3t as throwUninitializedPropertyAccessException,
-  collectionSizeOrDefault36dulx8yinfqm as collectionSizeOrDefault,
-  ArrayList_init_$Create$a978fvbbts3d as ArrayList_init_$Create$_0,
   toIntOrNull3w2d066r9pvwm as toIntOrNull,
   firstOrNull1982767dljvdy as firstOrNull,
   replace3le3ie7l9k8aq as replace,
@@ -78,7 +81,6 @@ import {
   coerceIn1xblvmyr0tby6 as coerceIn,
   zipfdxxupzuj2p9 as zip,
   plus20p0vtfmu0596 as plus_0,
-  HashSet_init_$Create$b2fvq2b4c4v2 as HashSet_init_$Create$,
   toString30pk9tzaqopn as toString_1,
   IllegalArgumentException_init_$Create$1gox8sdqs91jy as IllegalArgumentException_init_$Create$,
   coerceAtLeast2bkz8m9ik7hep as coerceAtLeast,
@@ -87,6 +89,7 @@ import {
   withIndex37cl61h9v5txo as withIndex,
   numberToLong345n6tb1n1i71 as numberToLong,
   removeAll3o43e67jmwdpc as removeAll,
+  toHashSet1qrcsl3g8ugc8 as toHashSet,
   IllegalStateException_init_$Create$38ax6c90susjc as IllegalStateException_init_$Create$,
   json3n35pf5np6si4 as json,
   isArray1hxjqtqy632bc as isArray,
@@ -116,6 +119,7 @@ import {
   League_SUPER_getInstance3o7b5bpv3tmzy as League_SUPER_getInstance,
   League_HYPER_getInstance1myrx3oa0pt8w as League_HYPER_getInstance,
   get_entries3r8sgzryiygsc as get_entries,
+  Trash_getInstance3in0y0wwaddjr as Trash_getInstance,
   SavedPokemon20mkuer2bldbm as SavedPokemon,
   Iv21hyr5k5mza68 as Iv,
   CustomCup115ax4nxuq2kr as CustomCup,
@@ -186,6 +190,7 @@ initMetadataForLambda(RaidView$counters$slambda, CoroutineImpl, VOID, [1]);
 initMetadataForLambda(RaidView$typeMeta$slambda, CoroutineImpl, VOID, [1]);
 initMetadataForObject(RaidView, 'RaidView');
 initMetadataForClass(Draft, 'Draft');
+initMetadataForClass(sam$kotlin_Comparator$0_7, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForCoroutine($initCOROUTINE$, CoroutineImpl);
 initMetadataForCoroutine($fetchTextCOROUTINE$, CoroutineImpl);
 initMetadataForCoroutine($cachePutCOROUTINE$, CoroutineImpl);
@@ -241,13 +246,13 @@ function get_entries_1() {
 var $ENTRIES;
 function Sort(name, ordinal, label) {
   Enum.call(this, name, ordinal);
-  this.f25_1 = label;
+  this.s25_1 = label;
 }
 function Best(target, percent, metaRank, rank) {
-  this.g25_1 = target;
-  this.h25_1 = percent;
-  this.i25_1 = metaRank;
-  this.j25_1 = rank;
+  this.t25_1 = target;
+  this.u25_1 = percent;
+  this.v25_1 = metaRank;
+  this.w25_1 = rank;
 }
 function Summary$best$lambda(it) {
   var tmp0_elvis_lhs = it.p1d_1;
@@ -257,10 +262,10 @@ function Summary$best$lambda_0(it) {
   return -ensureNotNull(it.n1d_1).n1g_1;
 }
 function Summary(evals) {
-  this.k25_1 = evals;
+  this.x25_1 = evals;
   var tmp = this;
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = this.k25_1;
+  var tmp0 = this.x25_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$();
   var _iterator__ex2g4s = tmp0.i();
@@ -305,17 +310,17 @@ function Summary(evals) {
     var tmp$ret$12 = new Best(r.m1d_1, ensureNotNull(r.n1d_1).n1g_1, r.p1d_1, ensureNotNull(r.n1d_1).m1g_1);
     destination_1.b2(tmp_1, tmp$ret$12);
   }
-  tmp.l25_1 = destination_1;
+  tmp.y25_1 = destination_1;
   var tmp_3 = this;
   // Inline function 'kotlin.collections.mapNotNull' call
-  var tmp0_0 = this.l25_1.z1();
+  var tmp0_0 = this.y25_1.z1();
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination_2 = ArrayList_init_$Create$();
   // Inline function 'kotlin.collections.forEach' call
   var _iterator__ex2g4s_2 = tmp0_0.i();
   while (_iterator__ex2g4s_2.j()) {
     var element_2 = _iterator__ex2g4s_2.k();
-    var tmp0_safe_receiver = element_2.i25_1;
+    var tmp0_safe_receiver = element_2.v25_1;
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -323,42 +328,46 @@ function Summary(evals) {
       destination_2.h(tmp0_safe_receiver);
     }
   }
-  tmp_3.m25_1 = minOrNull(destination_2);
+  tmp_3.z25_1 = minOrNull(destination_2);
 }
 function title(p) {
-  var tmp0_safe_receiver = Store_getInstance().k26().d1f().x1(p.i1j_1);
+  var tmp0_safe_receiver = Store_getInstance().z26().d1f().x1(p.i1j_1);
   var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.a1e_1;
   return (tmp1_elvis_lhs == null ? p.i1j_1 : tmp1_elvis_lhs) + (!p.p1j_1.equals(Variant_NORMAL_getInstance()) ? ' (' + variantName(p.p1j_1) + ')' : '');
+}
+function endSelection($this) {
+  $this.f27_1 = false;
+  $this.g27_1.e2();
 }
 function key($this, p) {
   return p.i1j_1 + '|' + p.l1j_1 + '|' + p.m1j_1 + '|' + p.n1j_1 + '|' + p.o1j_1 + '|' + p.p1j_1.toString();
 }
 function summary($this, p) {
-  return $this.q26_1.x1(key($this, p));
+  return $this.j27_1.x1(key($this, p));
 }
 function ensureSummaries($this) {
-  if (!($this.r26_1 === Store_getInstance().v25_1)) {
-    $this.q26_1.e2();
-    $this.r26_1 = Store_getInstance().v25_1;
-    var tmp0_safe_receiver = $this.s26_1;
+  if (!($this.k27_1 === Store_getInstance().i26_1)) {
+    $this.j27_1.e2();
+    $this.k27_1 = Store_getInstance().i26_1;
+    var tmp0_safe_receiver = $this.l27_1;
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.f1v();
+      tmp0_safe_receiver.s1v();
     }
-    $this.s26_1 = null;
+    $this.l27_1 = null;
   }
-  var tmp1_safe_receiver = $this.s26_1;
-  if ((tmp1_safe_receiver == null ? null : tmp1_safe_receiver.a1u()) === true)
+  var tmp1_safe_receiver = $this.l27_1;
+  if ((tmp1_safe_receiver == null ? null : tmp1_safe_receiver.n1u()) === true)
     return Unit_instance;
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = Store_getInstance().r25_1;
+  var tmp0 = Store_getInstance().e26_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$();
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_0 = CollectionView_getInstance().q26_1;
+    var tmp0_0 = CollectionView_getInstance().j27_1;
     // Inline function 'kotlin.collections.contains' call
     // Inline function 'kotlin.collections.containsKey' call
     var key_0 = key(CollectionView_getInstance(), element);
@@ -370,11 +379,11 @@ function ensureSummaries($this) {
   if (missing.r())
     return Unit_instance;
   var tmp = $this;
-  var tmp_0 = App_getInstance().v26_1;
-  tmp.s26_1 = launch(tmp_0, VOID, VOID, CollectionView$ensureSummaries$slambda_0(missing, null));
+  var tmp_0 = App_getInstance().o27_1;
+  tmp.l27_1 = launch(tmp_0, VOID, VOID, CollectionView$ensureSummaries$slambda_0(missing, null));
 }
 function renderList($this) {
-  var tmp0_elvis_lhs = $this.t26_1;
+  var tmp0_elvis_lhs = $this.m27_1;
   var tmp;
   if (tmp0_elvis_lhs == null) {
     return Unit_instance;
@@ -383,9 +392,9 @@ function renderList($this) {
   }
   var host = tmp;
   host.textContent = '';
-  var all = Store_getInstance().r25_1;
+  var all = Store_getInstance().e26_1;
   // Inline function 'kotlin.text.trim' call
-  var this_0 = $this.m26_1;
+  var this_0 = $this.b27_1;
   var q = toString(trim(isCharSequence(this_0) ? this_0 : THROW_CCE()));
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
@@ -405,7 +414,7 @@ function renderList($this) {
       tmp_0 = true;
     } else {
       var tmp0_safe_receiver = summary(CollectionView_getInstance(), element);
-      var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.k25_1;
+      var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.x25_1;
       var tmp_2;
       if (tmp1_safe_receiver == null) {
         tmp_2 = null;
@@ -442,7 +451,7 @@ function renderList($this) {
     }
   }
   var list = destination;
-  if ($this.n26_1) {
+  if ($this.c27_1) {
     // Inline function 'kotlin.collections.filter' call
     var tmp0 = list;
     // Inline function 'kotlin.collections.filterTo' call
@@ -451,7 +460,7 @@ function renderList($this) {
     while (_iterator__ex2g4s_1.j()) {
       var element_1 = _iterator__ex2g4s_1.k();
       var tmp0_safe_receiver_0 = summary(CollectionView_getInstance(), element_1);
-      var tmp1_elvis_lhs = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.m25_1;
+      var tmp1_elvis_lhs = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.z25_1;
       if ((tmp1_elvis_lhs == null ? 2147483647 : tmp1_elvis_lhs) <= 100) {
         destination_0.h(element_1);
       }
@@ -459,7 +468,7 @@ function renderList($this) {
     list = destination_0;
   }
   var tmp_4;
-  switch ($this.l26_1.g2_1) {
+  switch ($this.a27_1.g2_1) {
     case 0:
       tmp_4 = list;
       break;
@@ -528,24 +537,36 @@ function renderList($this) {
       break;
   }
   list = tmp_4;
-  var tmp$ret$22;
+  var tmp_11 = $this;
+  // Inline function 'kotlin.collections.map' call
+  var this_7 = list;
+  // Inline function 'kotlin.collections.mapTo' call
+  var destination_1 = ArrayList_init_$Create$_0(collectionSizeOrDefault(this_7, 10));
+  var _iterator__ex2g4s_2 = this_7.i();
+  while (_iterator__ex2g4s_2.j()) {
+    var item = _iterator__ex2g4s_2.k();
+    var tmp$ret$24 = item.h1j_1;
+    destination_1.h(tmp$ret$24);
+  }
+  tmp_11.i27_1 = destination_1;
+  var tmp$ret$25;
   $l$block_1: {
     // Inline function 'kotlin.collections.count' call
-    var tmp_11;
+    var tmp_12;
     if (isInterface(all, Collection)) {
-      tmp_11 = all.r();
+      tmp_12 = all.r();
     } else {
-      tmp_11 = false;
+      tmp_12 = false;
     }
-    if (tmp_11) {
-      tmp$ret$22 = 0;
+    if (tmp_12) {
+      tmp$ret$25 = 0;
       break $l$block_1;
     }
     var count = 0;
-    var _iterator__ex2g4s_2 = all.i();
-    while (_iterator__ex2g4s_2.j()) {
-      var element_2 = _iterator__ex2g4s_2.k();
-      var tmp0_0 = CollectionView_getInstance().q26_1;
+    var _iterator__ex2g4s_3 = all.i();
+    while (_iterator__ex2g4s_3.j()) {
+      var element_2 = _iterator__ex2g4s_3.k();
+      var tmp0_0 = CollectionView_getInstance().j27_1;
       // Inline function 'kotlin.collections.contains' call
       // Inline function 'kotlin.collections.containsKey' call
       var key_0 = key(CollectionView_getInstance(), element_2);
@@ -554,35 +575,48 @@ function renderList($this) {
         checkCountOverflow(count);
       }
     }
-    tmp$ret$22 = count;
+    tmp$ret$25 = count;
   }
-  var missing = tmp$ret$22;
-  var tmp_12;
+  var missing = tmp$ret$25;
+  var tmp_13;
   if (missing > 0) {
     // Inline function 'kotlin.collections.isNotEmpty' call
-    tmp_12 = !all.r();
+    tmp_13 = !all.r();
   } else {
-    tmp_12 = false;
+    tmp_13 = false;
   }
-  if (tmp_12) {
-    var tmp_13 = $this;
+  if (tmp_13) {
+    var tmp_14 = $this;
     // Inline function 'kotlin.also' call
-    var this_7 = new Progress(host, 'Rechne Liga-Werte', '' + all.l() + ' Pok\xE9mon');
-    this_7.b27(1.0 - missing / all.l());
-    tmp_13.u26_1 = this_7;
+    var this_8 = new Progress(host, 'Rechne Liga-Werte', '' + all.l() + ' Pok\xE9mon');
+    this_8.u27(1.0 - missing / all.l());
+    tmp_14.n27_1 = this_8;
   } else {
-    $this.u26_1 = null;
-    add_0(host, 'p', 'note', all.r() ? 'Noch nichts gespeichert. Im Reiter Video eine Bildschirmaufnahme einlesen.' : '' + list.l() + ' von ' + all.l() + ' Pok\xE9mon \xB7 antippen f\xFCr Details');
+    $this.n27_1 = null;
+    add_0(host, 'p', 'note', all.r() ? 'Noch nichts gespeichert. Im Reiter Video eine Bildschirmaufnahme einlesen.' : $this.f27_1 ? '' + list.l() + ' von ' + all.l() + ' Pok\xE9mon \xB7 antippen zum Ausw\xE4hlen' : '' + list.l() + ' von ' + all.l() + ' Pok\xE9mon \xB7 antippen f\xFCr Details');
   }
-  var _iterator__ex2g4s_3 = list.i();
-  while (_iterator__ex2g4s_3.j()) {
-    var p = _iterator__ex2g4s_3.k();
+  var _iterator__ex2g4s_4 = list.i();
+  while (_iterator__ex2g4s_4.j()) {
+    var p = _iterator__ex2g4s_4.k();
     entry($this, host, p, summary($this, p));
   }
 }
 function entry($this, host, p, s) {
-  var species = Store_getInstance().k26().d1f().x1(p.i1j_1);
-  add_0(host, 'section', 'card entry', VOID, CollectionView$entry$lambda(s, p, species));
+  var species = Store_getInstance().z26().d1f().x1(p.i1j_1);
+  var isSelected = $this.f27_1 && $this.g27_1.c1(p.h1j_1);
+  var tmp = isSelected ? 'card entry picked' : 'card entry';
+  add_0(host, 'section', tmp, VOID, CollectionView$entry$lambda(s, p, species, isSelected));
+}
+function trashDialog($this) {
+  var overlay = tag('div', 'overlay');
+  var box = add_0(overlay, 'div', 'dialog');
+  overlay.onclick = CollectionView$trashDialog$lambda(overlay);
+  trashDialog$fill(box, overlay);
+  var tmp0_safe_receiver = document.body;
+  if (tmp0_safe_receiver == null)
+    null;
+  else
+    tmp0_safe_receiver.appendChild(overlay);
 }
 function moveEdit($this, host, p, species) {
   // Inline function 'kotlin.collections.mapNotNull' call
@@ -593,7 +627,7 @@ function moveEdit($this, host, p, species) {
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = Store_getInstance().k26().w1l().x1(element);
+    var tmp0_safe_receiver = Store_getInstance().z26().w1l().x1(element);
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -610,7 +644,7 @@ function moveEdit($this, host, p, species) {
   var _iterator__ex2g4s_0 = tmp0_0.i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
-    var tmp0_safe_receiver_0 = Store_getInstance().k26().w1l().x1(element_0);
+    var tmp0_safe_receiver_0 = Store_getInstance().z26().w1l().x1(element_0);
     if (tmp0_safe_receiver_0 == null)
       null;
     else {
@@ -626,7 +660,7 @@ function moveEdit($this, host, p, species) {
 }
 function details($this, host, summary, species) {
   // Inline function 'kotlin.collections.groupBy' call
-  var tmp0 = summary.k25_1;
+  var tmp0 = summary.x25_1;
   // Inline function 'kotlin.collections.groupByTo' call
   var destination = LinkedHashMap_init_$Create$();
   var _iterator__ex2g4s = tmp0.i();
@@ -671,7 +705,7 @@ function export_0($this) {
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
-  var tmp = [CollectionFile_getInstance().h1k(Store_getInstance().r25_1)];
+  var tmp = [CollectionFile_getInstance().h1k(Store_getInstance().e26_1)];
   // Inline function 'org.w3c.files.BlobPropertyBag' call
   var type = 'application/json';
   var o = {};
@@ -690,15 +724,15 @@ function export_0($this) {
   link.click();
   link.remove();
   URL.revokeObjectURL(url);
-  $this.p26_1 = '' + Store_getInstance().r25_1.l() + ' Pok\xE9mon exportiert.';
-  App_getInstance().c27();
+  $this.e27_1 = '' + Store_getInstance().e26_1.l() + ' Pok\xE9mon exportiert.';
+  App_getInstance().v27();
 }
 function import_0($this, text) {
   var tmp = $this;
   // Inline function 'kotlin.runCatching' call
   var tmp_0;
   try {
-    var _destruct__k2r9zo = Store_getInstance().d27(text);
+    var _destruct__k2r9zo = Store_getInstance().w27(text);
     var added = _destruct__k2r9zo.i9();
     var skipped = _destruct__k2r9zo.j9();
     // Inline function 'kotlin.Companion.success' call
@@ -724,20 +758,20 @@ function import_0($this, text) {
   } else {
     tmp_2 = 'Diese Datei ist kein Sammlungs-Export.';
   }
-  tmp.p26_1 = tmp_2;
-  App_getInstance().c27();
+  tmp.e27_1 = tmp_2;
+  App_getInstance().v27();
 }
 function sam$kotlin_Comparator$0(function_0) {
-  this.e27_1 = function_0;
+  this.x27_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0).qc = function (a, b) {
-  return this.e27_1(a, b);
+  return this.x27_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0).compare = function (a, b) {
   return this.qc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0).p2 = function () {
-  return this.e27_1;
+  return this.x27_1;
 };
 protoOf(sam$kotlin_Comparator$0).equals = function (other) {
   var tmp;
@@ -758,16 +792,16 @@ protoOf(sam$kotlin_Comparator$0).hashCode = function () {
   return hashCode(this.p2());
 };
 function sam$kotlin_Comparator$0_0(function_0) {
-  this.f27_1 = function_0;
+  this.y27_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_0).qc = function (a, b) {
-  return this.f27_1(a, b);
+  return this.y27_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_0).compare = function (a, b) {
   return this.qc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_0).p2 = function () {
-  return this.f27_1;
+  return this.y27_1;
 };
 protoOf(sam$kotlin_Comparator$0_0).equals = function (other) {
   var tmp;
@@ -799,7 +833,7 @@ function CollectionView$render$lambda$lambda() {
 }
 function CollectionView$render$lambda$lambda_0() {
   var tmp = CollectionView_getInstance();
-  tmp.g27('.json,application/json,text/plain', CollectionView$render$lambda$lambda$lambda);
+  tmp.z27('.json,application/json,text/plain', CollectionView$render$lambda$lambda$lambda);
   return Unit_instance;
 }
 function CollectionView$render$lambda$lambda$lambda(text) {
@@ -807,12 +841,44 @@ function CollectionView$render$lambda$lambda$lambda(text) {
   return Unit_instance;
 }
 function CollectionView$render$lambda$lambda_1() {
-  Editor_instance.h27(null, null);
+  Editor_instance.a28(null, null);
+  return Unit_instance;
+}
+function CollectionView$render$lambda_0($this$add) {
+  add_0($this$add, 'div', 'line', VOID, CollectionView$render$lambda$lambda_2);
+  return Unit_instance;
+}
+function CollectionView$render$lambda$lambda_2($this$add) {
+  add_0($this$add, 'div', 'grow', CollectionView_getInstance().h27_1.l() === 1 ? title(CollectionView_getInstance().h27_1.q(0)) + ' liegt im Papierkorb.' : '' + CollectionView_getInstance().h27_1.l() + ' Pok\xE9mon liegen im Papierkorb.');
+  button($this$add, 'R\xFCckg\xE4ngig', 'flat', CollectionView$render$lambda$lambda$lambda_0);
+  button($this$add, '\u2715', 'flat', CollectionView$render$lambda$lambda$lambda_1);
+  return Unit_instance;
+}
+function CollectionView$render$lambda$lambda$lambda_0() {
+  var tmp = Store_getInstance();
+  // Inline function 'kotlin.collections.map' call
+  var this_0 = CollectionView_getInstance().h27_1;
+  // Inline function 'kotlin.collections.mapTo' call
+  var destination = ArrayList_init_$Create$_0(collectionSizeOrDefault(this_0, 10));
+  var _iterator__ex2g4s = this_0.i();
+  while (_iterator__ex2g4s.j()) {
+    var item = _iterator__ex2g4s.k();
+    var tmp$ret$2 = item.h1j_1;
+    destination.h(tmp$ret$2);
+  }
+  tmp.b28(toSet(destination));
+  CollectionView_getInstance().h27_1 = emptyList();
+  App_getInstance().v27();
+  return Unit_instance;
+}
+function CollectionView$render$lambda$lambda$lambda_1() {
+  CollectionView_getInstance().h27_1 = emptyList();
+  App_getInstance().v27();
   return Unit_instance;
 }
 function CollectionView$render$lambda$lambda$lambda$lambda($d) {
   return function (it) {
-    Editor_instance.h27(null, $d);
+    Editor_instance.a28(null, $d);
     return Unit_instance;
   };
 }
@@ -820,12 +886,12 @@ function CollectionView$render$lambda$lambda$lambda$lambda_0($this$add) {
   $this$add.style.color = 'var(--warn-c)';
   return Unit_instance;
 }
-function CollectionView$render$lambda$lambda$lambda_0($d) {
+function CollectionView$render$lambda$lambda$lambda_2($d) {
   return function ($this$add) {
     $this$add.style.cursor = 'pointer';
     $this$add.onclick = CollectionView$render$lambda$lambda$lambda$lambda($d);
-    add_0($this$add, 'div', 'title', $d.j27_1);
-    var tmp0_safe_receiver = $d.n27_1;
+    add_0($this$add, 'div', 'title', $d.d28_1);
+    var tmp0_safe_receiver = $d.h28_1;
     var tmp;
     if (tmp0_safe_receiver == null) {
       tmp = null;
@@ -834,7 +900,7 @@ function CollectionView$render$lambda$lambda$lambda_0($d) {
       tmp = '' + tmp0_safe_receiver.e1i_1 + '/' + tmp0_safe_receiver.f1i_1 + '/' + tmp0_safe_receiver.g1i_1;
     }
     var tmp_0 = tmp;
-    var tmp1_safe_receiver = $d.m27_1;
+    var tmp1_safe_receiver = $d.g28_1;
     var tmp_1;
     if (tmp1_safe_receiver == null) {
       tmp_1 = null;
@@ -843,7 +909,7 @@ function CollectionView$render$lambda$lambda$lambda_0($d) {
       tmp_1 = '' + tmp1_safe_receiver + ' KP';
     }
     var tmp_2 = tmp_1;
-    var tmp2_safe_receiver = $d.l27_1;
+    var tmp2_safe_receiver = $d.f28_1;
     var tmp_3;
     if (tmp2_safe_receiver == null) {
       tmp_3 = null;
@@ -857,80 +923,172 @@ function CollectionView$render$lambda$lambda$lambda_0($d) {
     return Unit_instance;
   };
 }
-function CollectionView$render$lambda$lambda$lambda_1($d) {
+function CollectionView$render$lambda$lambda$lambda_3($d) {
   return function () {
-    Store_getInstance().s25_1.g3($d);
-    App_getInstance().c27();
+    Store_getInstance().f26_1.g3($d);
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
-function CollectionView$render$lambda$lambda_2($d) {
+function CollectionView$render$lambda$lambda_3($d) {
   return function ($this$add) {
-    var tmp0_safe_receiver = $d.k27_1;
+    var tmp0_safe_receiver = $d.e28_1;
     var tmp;
     if (tmp0_safe_receiver == null) {
       tmp = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp = Store_getInstance().k26().d1f().x1(tmp0_safe_receiver);
+      tmp = Store_getInstance().z26().d1f().x1(tmp0_safe_receiver);
     }
-    sprite($this$add, tmp, 44, $d.o27_1);
-    add_0($this$add, 'div', 'grow', VOID, CollectionView$render$lambda$lambda$lambda_0($d));
-    button($this$add, 'Verwerfen', 'flat', CollectionView$render$lambda$lambda$lambda_1($d));
+    sprite($this$add, tmp, 44, $d.i28_1);
+    add_0($this$add, 'div', 'grow', VOID, CollectionView$render$lambda$lambda$lambda_2($d));
+    button($this$add, 'Verwerfen', 'flat', CollectionView$render$lambda$lambda$lambda_3($d));
     return Unit_instance;
   };
 }
-function CollectionView$render$lambda_0($d) {
+function CollectionView$render$lambda_1($d) {
   return function ($this$add) {
-    add_0($this$add, 'div', 'line', VOID, CollectionView$render$lambda$lambda_2($d));
+    add_0($this$add, 'div', 'line', VOID, CollectionView$render$lambda$lambda_3($d));
     return Unit_instance;
   };
 }
-function CollectionView$render$lambda_1($this$add) {
-  var tmp = CollectionView_getInstance().m26_1;
-  input($this$add, '', tmp, false, CollectionView$render$lambda$lambda_3).placeholder = '\uD83D\uDD0D  Suchen, auch nach Entwicklung';
+function CollectionView$render$lambda_2($this$add) {
+  var tmp = CollectionView_getInstance().b27_1;
+  input($this$add, '', tmp, false, CollectionView$render$lambda$lambda_4).placeholder = '\uD83D\uDD0D  Suchen, auch nach Entwicklung';
   return Unit_instance;
 }
-function CollectionView$render$lambda$lambda_3(it) {
-  CollectionView_getInstance().m26_1 = it;
+function CollectionView$render$lambda$lambda_4(it) {
+  CollectionView_getInstance().b27_1 = it;
   renderList(CollectionView_getInstance());
   return Unit_instance;
 }
-function CollectionView$render$lambda_2($this$add) {
-  var tmp = CollectionView_getInstance().n26_1;
-  chip($this$add, 'Nur Meta-Top 100', tmp, CollectionView$render$lambda$lambda_4);
+function CollectionView$render$lambda_3($this$add) {
+  var tmp = CollectionView_getInstance().c27_1;
+  chip($this$add, 'Nur Meta-Top 100', tmp, CollectionView$render$lambda$lambda_5);
   var _iterator__ex2g4s = get_entries_1().i();
   while (_iterator__ex2g4s.j()) {
     var s = _iterator__ex2g4s.k();
-    var tmp_0 = CollectionView_getInstance().l26_1.equals(s);
-    chip($this$add, s.f25_1, tmp_0, CollectionView$render$lambda$lambda_5(s));
+    var tmp_0 = CollectionView_getInstance().a27_1.equals(s);
+    chip($this$add, s.s25_1, tmp_0, CollectionView$render$lambda$lambda_6(s));
   }
   return Unit_instance;
 }
-function CollectionView$render$lambda$lambda_4() {
-  CollectionView_getInstance().n26_1 = !CollectionView_getInstance().n26_1;
-  App_getInstance().c27();
+function CollectionView$render$lambda$lambda_5() {
+  CollectionView_getInstance().c27_1 = !CollectionView_getInstance().c27_1;
+  App_getInstance().v27();
   return Unit_instance;
 }
-function CollectionView$render$lambda$lambda_5($s) {
+function CollectionView$render$lambda$lambda_6($s) {
   return function () {
-    CollectionView_getInstance().l26_1 = $s;
-    App_getInstance().c27();
+    CollectionView_getInstance().a27_1 = $s;
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
+function CollectionView$render$lambda_4($this$add) {
+  if (CollectionView_getInstance().f27_1) {
+    add_0($this$add, 'div', 'select-bar', VOID, CollectionView$render$lambda$lambda_7);
+  } else {
+    // Inline function 'kotlin.collections.isNotEmpty' call
+    if (!Store_getInstance().e26_1.r()) {
+      button($this$add, '\u2611 Ausw\xE4hlen', 'flat', CollectionView$render$lambda$lambda_8);
+    }
+    // Inline function 'kotlin.collections.isNotEmpty' call
+    if (!Store_getInstance().r26_1.r()) {
+      var tmp = '\uD83D\uDDD1 Papierkorb (' + Store_getInstance().r26_1.l() + ')';
+      button($this$add, tmp, 'flat', CollectionView$render$lambda$lambda_9);
+    }
+  }
+  return Unit_instance;
+}
+function CollectionView$render$lambda$lambda_7($this$add) {
+  button($this$add, '\u2715', 'flat', CollectionView$render$lambda$lambda$lambda_4);
+  add_0($this$add, 'span', 'grow title', '' + CollectionView_getInstance().g27_1.l() + ' ausgew\xE4hlt');
+  var tmp;
+  // Inline function 'kotlin.collections.isNotEmpty' call
+  if (!CollectionView_getInstance().i27_1.r()) {
+    var tmp0 = CollectionView_getInstance().i27_1;
+    var tmp$ret$1;
+    $l$block_0: {
+      // Inline function 'kotlin.collections.all' call
+      var tmp_0;
+      if (isInterface(tmp0, Collection)) {
+        tmp_0 = tmp0.r();
+      } else {
+        tmp_0 = false;
+      }
+      if (tmp_0) {
+        tmp$ret$1 = true;
+        break $l$block_0;
+      }
+      var _iterator__ex2g4s = tmp0.i();
+      while (_iterator__ex2g4s.j()) {
+        var element = _iterator__ex2g4s.k();
+        if (!CollectionView_getInstance().g27_1.c1(element)) {
+          tmp$ret$1 = false;
+          break $l$block_0;
+        }
+      }
+      tmp$ret$1 = true;
+    }
+    tmp = tmp$ret$1;
+  } else {
+    tmp = false;
+  }
+  var all = tmp;
+  var tmp_1 = all ? 'Keine' : 'Alle';
+  button($this$add, tmp_1, 'flat', CollectionView$render$lambda$lambda$lambda_5(all));
+  button($this$add, '\uD83D\uDDD1 L\xF6schen', 'danger-fill', CollectionView$render$lambda$lambda$lambda_6);
+  return Unit_instance;
+}
+function CollectionView$render$lambda$lambda$lambda_4() {
+  endSelection(CollectionView_getInstance());
+  App_getInstance().v27();
+  return Unit_instance;
+}
+function CollectionView$render$lambda$lambda$lambda_5($all) {
+  return function () {
+    if ($all)
+      CollectionView_getInstance().g27_1.d1(toSet(CollectionView_getInstance().i27_1));
+    else
+      CollectionView_getInstance().g27_1.p(CollectionView_getInstance().i27_1);
+    App_getInstance().v27();
+    return Unit_instance;
+  };
+}
+function CollectionView$render$lambda$lambda$lambda_6() {
+  if (CollectionView_getInstance().g27_1.r())
+    return Unit_instance;
+  var ok = window.confirm('' + CollectionView_getInstance().g27_1.l() + ' Pok\xE9mon l\xF6schen?\nSie kommen in den Papierkorb und lassen sich ' + '7 Tage lang wiederherstellen.');
+  if (ok) {
+    CollectionView_getInstance().h27_1 = Store_getInstance().j28(toSet(CollectionView_getInstance().g27_1));
+    endSelection(CollectionView_getInstance());
+    App_getInstance().v27();
+  }
+  return Unit_instance;
+}
+function CollectionView$render$lambda$lambda_8() {
+  CollectionView_getInstance().f27_1 = true;
+  CollectionView_getInstance().d27_1 = null;
+  App_getInstance().v27();
+  return Unit_instance;
+}
+function CollectionView$render$lambda$lambda_9() {
+  trashDialog(CollectionView_getInstance());
+  return Unit_instance;
+}
 function CollectionView$ensureSummaries$slambda($missing, resultContinuation) {
-  this.x27_1 = $missing;
+  this.s28_1 = $missing;
   CoroutineImpl.call(this, resultContinuation);
 }
-protoOf(CollectionView$ensureSummaries$slambda).d28 = function ($this$launch, $completion) {
-  var tmp = this.e28($this$launch, $completion);
+protoOf(CollectionView$ensureSummaries$slambda).y28 = function ($this$launch, $completion) {
+  var tmp = this.z28($this$launch, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
 protoOf(CollectionView$ensureSummaries$slambda).l8 = function (p1, $completion) {
-  return this.d28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  return this.y28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
 };
 protoOf(CollectionView$ensureSummaries$slambda).d8 = function () {
   var suspendResult = this.x7_1;
@@ -940,41 +1098,41 @@ protoOf(CollectionView$ensureSummaries$slambda).d8 = function () {
       switch (tmp) {
         case 0:
           this.w7_1 = 6;
-          this.z27_1 = 0;
-          this.c28_1 = this.x27_1.i();
+          this.u28_1 = 0;
+          this.x28_1 = this.s28_1.i();
           this.v7_1 = 1;
           continue $sm;
         case 1:
-          if (!this.c28_1.j()) {
+          if (!this.x28_1.j()) {
             this.v7_1 = 5;
             continue $sm;
           }
 
-          this.a28_1 = this.c28_1.k();
-          var tmp0_elvis_lhs = Store_getInstance().k26().d1f().x1(this.a28_1.i1j_1);
+          this.v28_1 = this.x28_1.k();
+          var tmp0_elvis_lhs = Store_getInstance().z26().d1f().x1(this.v28_1.i1j_1);
           if (tmp0_elvis_lhs == null) {
             this.v7_1 = 1;
             var tmp_0 = this;
             continue $sm;
           } else {
-            this.b28_1 = tmp0_elvis_lhs;
+            this.w28_1 = tmp0_elvis_lhs;
             this.v7_1 = 2;
             continue $sm;
           }
 
         case 2:
-          var species = this.b28_1;
-          var tmp0 = CollectionView_getInstance().q26_1;
-          var tmp2 = key(CollectionView_getInstance(), this.a28_1);
-          var value = new Summary(Store_getInstance().f28().d1h(species, this.a28_1.t1j(), this.a28_1.o1j_1, this.a28_1.p1j_1));
+          var species = this.w28_1;
+          var tmp0 = CollectionView_getInstance().j27_1;
+          var tmp2 = key(CollectionView_getInstance(), this.v28_1);
+          var value = new Summary(Store_getInstance().a29().d1h(species, this.v28_1.t1j(), this.v28_1.o1j_1, this.v28_1.p1j_1));
           tmp0.b2(tmp2, value);
-          this.z27_1 = this.z27_1 + 1 | 0;
-          if ((this.z27_1 % 4 | 0) === 0) {
-            var tmp1_safe_receiver = CollectionView_getInstance().u26_1;
+          this.u28_1 = this.u28_1 + 1 | 0;
+          if ((this.u28_1 % 4 | 0) === 0) {
+            var tmp1_safe_receiver = CollectionView_getInstance().n27_1;
             if (tmp1_safe_receiver == null)
               null;
             else {
-              tmp1_safe_receiver.b27(this.z27_1 / this.x27_1.l());
+              tmp1_safe_receiver.u27(this.u28_1 / this.s28_1.l());
             }
             this.v7_1 = 3;
             suspendResult = delay(new Long(1, 0), this);
@@ -994,8 +1152,8 @@ protoOf(CollectionView$ensureSummaries$slambda).d8 = function () {
           this.v7_1 = 1;
           continue $sm;
         case 5:
-          CollectionView_getInstance().s26_1 = null;
-          if (App_getInstance().w26_1.equals(Tab_COLLECTION_getInstance())) {
+          CollectionView_getInstance().l27_1 = null;
+          if (App_getInstance().p27_1.equals(Tab_COLLECTION_getInstance())) {
             renderList(CollectionView_getInstance());
           }
 
@@ -1014,22 +1172,22 @@ protoOf(CollectionView$ensureSummaries$slambda).d8 = function () {
     }
    while (true);
 };
-protoOf(CollectionView$ensureSummaries$slambda).e28 = function ($this$launch, completion) {
-  var i = new CollectionView$ensureSummaries$slambda(this.x27_1, completion);
-  i.y27_1 = $this$launch;
+protoOf(CollectionView$ensureSummaries$slambda).z28 = function ($this$launch, completion) {
+  var i = new CollectionView$ensureSummaries$slambda(this.s28_1, completion);
+  i.t28_1 = $this$launch;
   return i;
 };
 function CollectionView$ensureSummaries$slambda_0($missing, resultContinuation) {
   var i = new CollectionView$ensureSummaries$slambda($missing, resultContinuation);
   return constructCallableReference(function ($this$launch, $completion) {
-    return i.d28($this$launch, $completion);
+    return i.y28($this$launch, $completion);
   }, 1);
 }
 function renderList$percent(p, league) {
   var tmp0_safe_receiver = summary(CollectionView_getInstance(), p);
-  var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.l25_1;
+  var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.y25_1;
   var tmp2_safe_receiver = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.x1(league);
-  var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.h25_1;
+  var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.u25_1;
   return tmp3_elvis_lhs == null ? -1.0 : tmp3_elvis_lhs;
 }
 function CollectionView$renderList$lambda(a, b) {
@@ -1065,18 +1223,28 @@ function CollectionView$renderList$lambda_3(a, b) {
 function CollectionView$renderList$lambda_4(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
   var tmp0_safe_receiver = summary(CollectionView_getInstance(), a);
-  var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.m25_1;
+  var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.z25_1;
   var tmp = tmp1_elvis_lhs == null ? 2147483647 : tmp1_elvis_lhs;
   var tmp0_safe_receiver_0 = summary(CollectionView_getInstance(), b);
-  var tmp1_elvis_lhs_0 = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.m25_1;
+  var tmp1_elvis_lhs_0 = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.z25_1;
   var tmp$ret$2 = tmp1_elvis_lhs_0 == null ? 2147483647 : tmp1_elvis_lhs_0;
   return compareValues(tmp, tmp$ret$2);
 }
 function CollectionView$entry$lambda$lambda$lambda($p) {
   return function (it) {
-    CollectionView_getInstance().o26_1 = equals(CollectionView_getInstance().o26_1, $p.h1j_1) ? null : $p.h1j_1;
-    renderList(CollectionView_getInstance());
-    return Unit_instance;
+    var tmp;
+    if (CollectionView_getInstance().f27_1) {
+      if (!CollectionView_getInstance().g27_1.g3($p.h1j_1)) {
+        CollectionView_getInstance().g27_1.h($p.h1j_1);
+      }
+      App_getInstance().v27();
+      tmp = Unit_instance;
+    } else {
+      CollectionView_getInstance().d27_1 = equals(CollectionView_getInstance().d27_1, $p.h1j_1) ? null : $p.h1j_1;
+      renderList(CollectionView_getInstance());
+      tmp = Unit_instance;
+    }
+    return tmp;
   };
 }
 function CollectionView$entry$lambda$lambda$lambda$lambda($species, $p) {
@@ -1100,9 +1268,14 @@ function CollectionView$entry$lambda$lambda$lambda_0($p, $species) {
     return Unit_instance;
   };
 }
-function CollectionView$entry$lambda$lambda($species, $p) {
+function CollectionView$entry$lambda$lambda($isSelected, $species, $p) {
   return function ($this$add) {
     $this$add.onclick = CollectionView$entry$lambda$lambda$lambda($p);
+    var tmp;
+    if (CollectionView_getInstance().f27_1) {
+      add_0($this$add, 'span', $isSelected ? 'check on' : 'check', $isSelected ? '\u2713' : '');
+      tmp = Unit_instance;
+    }
     sprite($this$add, $species, 56, $p.p1j_1);
     add_0($this$add, 'div', 'grow', VOID, CollectionView$entry$lambda$lambda$lambda_0($p, $species));
     ivPill($this$add, $p.t1j());
@@ -1119,7 +1292,7 @@ function CollectionView$entry$lambda$lambda$lambda$lambda$lambda($l, $b) {
   return function ($this$add) {
     add_0($this$add, 'span', 'dot', VOID, CollectionView$entry$lambda$lambda$lambda$lambda$lambda$lambda($l));
     add_0($this$add, 'span', '', ' ' + leagueName($l) + ' ');
-    var tmp0_safe_receiver = $b.i25_1;
+    var tmp0_safe_receiver = $b.v25_1;
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -1131,15 +1304,15 @@ function CollectionView$entry$lambda$lambda$lambda$lambda$lambda($l, $b) {
 }
 function CollectionView$entry$lambda$lambda$lambda$lambda$lambda$lambda_0($b) {
   return function ($this$add) {
-    $this$add.style.color = pvpColor($b.h25_1);
+    $this$add.style.color = pvpColor($b.u25_1);
     return Unit_instance;
   };
 }
 function CollectionView$entry$lambda$lambda$lambda$lambda$lambda_0($b) {
   return function ($this$add) {
-    var tmp = dec($b.h25_1) + ' %';
+    var tmp = dec($b.u25_1) + ' %';
     add_0($this$add, 'span', 'pc', tmp, CollectionView$entry$lambda$lambda$lambda$lambda$lambda$lambda_0($b));
-    add_0($this$add, 'span', 'small', '  Rang ' + $b.j25_1);
+    add_0($this$add, 'span', 'small', '  Rang ' + $b.w25_1);
     return Unit_instance;
   };
 }
@@ -1153,8 +1326,8 @@ function CollectionView$entry$lambda$lambda$lambda$lambda_0($l, $b) {
 function CollectionView$entry$lambda$lambda$lambda_1($b, $p, $l) {
   return function ($this$add) {
     var tmp;
-    if (!($b.g25_1.y1d_1 === $p.i1j_1)) {
-      sprite($this$add, $b.g25_1, 28);
+    if (!($b.t25_1.y1d_1 === $p.i1j_1)) {
+      sprite($this$add, $b.t25_1, 28);
       tmp = Unit_instance;
     }
     add_0($this$add, 'div', 'grow', VOID, CollectionView$entry$lambda$lambda$lambda$lambda_0($l, $b));
@@ -1175,7 +1348,7 @@ function CollectionView$entry$lambda$lambda_0($leagues, $p) {
 }
 function CollectionView$entry$lambda$lambda$lambda$lambda_1($p, $s, $lvl) {
   return function (it) {
-    Store_getInstance().g28($p.w1j(VOID, $s.y1d_1, VOID, VOID, VOID, VOID, VOID, $lvl));
+    Store_getInstance().b29($p.w1j(VOID, $s.y1d_1, VOID, VOID, VOID, VOID, VOID, $lvl));
     ensureSummaries(CollectionView_getInstance());
     renderList(CollectionView_getInstance());
     return Unit_instance;
@@ -1204,7 +1377,7 @@ function CollectionView$entry$lambda$lambda_1($forms, $p) {
 }
 function CollectionView$entry$lambda$lambda$lambda_3($p, $v) {
   return function () {
-    Store_getInstance().g28($p.w1j(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, $v));
+    Store_getInstance().b29($p.w1j(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, $v));
     ensureSummaries(CollectionView_getInstance());
     renderList(CollectionView_getInstance());
     return Unit_instance;
@@ -1224,14 +1397,15 @@ function CollectionView$entry$lambda$lambda_2($p) {
 }
 function CollectionView$entry$lambda$lambda$lambda_4($p) {
   return function () {
-    Editor_instance.h27($p, null);
+    Editor_instance.a28($p, null);
     return Unit_instance;
   };
 }
 function CollectionView$entry$lambda$lambda$lambda_5($p) {
   return function () {
-    Store_getInstance().h28($p);
-    App_getInstance().c27();
+    CollectionView_getInstance().h27_1 = Store_getInstance().j28(setOf($p.h1j_1));
+    CollectionView_getInstance().d27_1 = null;
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -1242,9 +1416,9 @@ function CollectionView$entry$lambda$lambda_3($p) {
     return Unit_instance;
   };
 }
-function CollectionView$entry$lambda($s, $p, $species) {
+function CollectionView$entry$lambda($s, $p, $species, $isSelected) {
   return function ($this$add) {
-    add_0($this$add, 'div', 'head line', VOID, CollectionView$entry$lambda$lambda($species, $p));
+    add_0($this$add, 'div', 'head line', VOID, CollectionView$entry$lambda$lambda($isSelected, $species, $p));
     // Inline function 'kotlin.collections.mapNotNull' call
     var tmp0 = listOf([League_SUPER_getInstance(), League_HYPER_getInstance()]);
     // Inline function 'kotlin.collections.mapNotNullTo' call
@@ -1254,7 +1428,7 @@ function CollectionView$entry$lambda($s, $p, $species) {
     while (_iterator__ex2g4s.j()) {
       var element = _iterator__ex2g4s.k();
       var tmp0_safe_receiver = $s;
-      var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.l25_1;
+      var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.y25_1;
       var tmp2_safe_receiver = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.x1(element);
       var tmp;
       if (tmp2_safe_receiver == null) {
@@ -1279,14 +1453,14 @@ function CollectionView$entry$lambda($s, $p, $species) {
       tmp_0 = Unit_instance;
     }
     var tmp_1;
-    if (equals(CollectionView_getInstance().o26_1, $p.h1j_1)) {
+    if (equals(CollectionView_getInstance().d27_1, $p.h1j_1) && !CollectionView_getInstance().f27_1) {
       var tmp0_safe_receiver_1 = $species;
       var tmp_2;
       if (tmp0_safe_receiver_1 == null) {
         tmp_2 = null;
       } else {
         // Inline function 'kotlin.let' call
-        tmp_2 = Store_getInstance().f28().u1f(tmp0_safe_receiver_1, $p.j1j_1, $p.k1j_1, $p.t1j());
+        tmp_2 = Store_getInstance().a29().u1f(tmp0_safe_receiver_1, $p.j1j_1, $p.k1j_1, $p.t1j());
       }
       // Inline function 'kotlin.collections.orEmpty' call
       var tmp0_elvis_lhs = tmp_2;
@@ -1315,9 +1489,128 @@ function CollectionView$entry$lambda($s, $p, $species) {
     return Unit_instance;
   };
 }
+function CollectionView$trashDialog$fill$lambda$lambda$lambda($p, $e, $now) {
+  return function ($this$add) {
+    add_0($this$add, 'div', 'title', title($p));
+    var days = Trash_getInstance().a1u($e, $now);
+    add_0($this$add, 'div', 'small', num($p.j1j_1) + ' WP \xB7 ' + $p.l1j_1 + '/' + $p.m1j_1 + '/' + $p.n1j_1 + ' \xB7 noch ' + days + ' ' + (days === 1 ? 'Tag' : 'Tage'));
+    return Unit_instance;
+  };
+}
+function CollectionView$trashDialog$fill$lambda$lambda$lambda_0($p, $box, $overlay) {
+  return function () {
+    Store_getInstance().b28(setOf($p.h1j_1));
+    trashDialog$fill($box, $overlay);
+    return Unit_instance;
+  };
+}
+function CollectionView$trashDialog$fill$lambda$lambda($p, $e, $now, $box, $overlay) {
+  return function ($this$add) {
+    sprite($this$add, Store_getInstance().z26().d1f().x1($p.i1j_1), 40, $p.p1j_1);
+    add_0($this$add, 'div', 'grow', VOID, CollectionView$trashDialog$fill$lambda$lambda$lambda($p, $e, $now));
+    button($this$add, 'Zur\xFCck', 'flat', CollectionView$trashDialog$fill$lambda$lambda$lambda_0($p, $box, $overlay));
+    return Unit_instance;
+  };
+}
+function CollectionView$trashDialog$fill$lambda($entries, $now, $box, $overlay) {
+  return function ($this$add) {
+    var _iterator__ex2g4s = $entries.i();
+    while (_iterator__ex2g4s.j()) {
+      var e = _iterator__ex2g4s.k();
+      var p = e.r1t_1;
+      add_0($this$add, 'div', 'line', VOID, CollectionView$trashDialog$fill$lambda$lambda(p, e, $now, $box, $overlay));
+    }
+    return Unit_instance;
+  };
+}
+function CollectionView$trashDialog$fill$lambda$lambda_0($entries, $overlay) {
+  return function () {
+    var tmp;
+    if (window.confirm('' + $entries.l() + ' Pok\xE9mon endg\xFCltig l\xF6schen?')) {
+      var tmp_0 = Store_getInstance();
+      // Inline function 'kotlin.collections.map' call
+      var this_0 = $entries;
+      // Inline function 'kotlin.collections.mapTo' call
+      var destination = ArrayList_init_$Create$_0(collectionSizeOrDefault(this_0, 10));
+      var _iterator__ex2g4s = this_0.i();
+      while (_iterator__ex2g4s.j()) {
+        var item = _iterator__ex2g4s.k();
+        var tmp$ret$2 = item.r1t_1.h1j_1;
+        destination.h(tmp$ret$2);
+      }
+      tmp_0.c29(toSet(destination));
+      trashDialog$close($overlay);
+      tmp = Unit_instance;
+    }
+    return Unit_instance;
+  };
+}
+function CollectionView$trashDialog$fill$lambda$lambda_1($entries, $overlay) {
+  return function () {
+    var tmp = Store_getInstance();
+    // Inline function 'kotlin.collections.map' call
+    var this_0 = $entries;
+    // Inline function 'kotlin.collections.mapTo' call
+    var destination = ArrayList_init_$Create$_0(collectionSizeOrDefault(this_0, 10));
+    var _iterator__ex2g4s = this_0.i();
+    while (_iterator__ex2g4s.j()) {
+      var item = _iterator__ex2g4s.k();
+      var tmp$ret$2 = item.r1t_1.h1j_1;
+      destination.h(tmp$ret$2);
+    }
+    tmp.b28(toSet(destination));
+    trashDialog$close($overlay);
+    return Unit_instance;
+  };
+}
+function CollectionView$trashDialog$fill$lambda$lambda_2($overlay) {
+  return function () {
+    trashDialog$close($overlay);
+    return Unit_instance;
+  };
+}
+function CollectionView$trashDialog$fill$lambda_0($entries, $overlay) {
+  return function ($this$add) {
+    var tmp;
+    // Inline function 'kotlin.collections.isNotEmpty' call
+    if (!$entries.r()) {
+      button($this$add, 'Leeren', 'flat danger', CollectionView$trashDialog$fill$lambda$lambda_0($entries, $overlay));
+      button($this$add, 'Alle zur\xFCck', 'tonal', CollectionView$trashDialog$fill$lambda$lambda_1($entries, $overlay));
+      tmp = Unit_instance;
+    }
+    button($this$add, 'Schlie\xDFen', 'flat', CollectionView$trashDialog$fill$lambda$lambda_2($overlay));
+    return Unit_instance;
+  };
+}
+function trashDialog$close(overlay) {
+  overlay.remove();
+  App_getInstance().v27();
+}
+function CollectionView$trashDialog$lambda($overlay) {
+  return function (e) {
+    var tmp;
+    if (equals(e.target, $overlay)) {
+      trashDialog$close($overlay);
+      tmp = Unit_instance;
+    }
+    return Unit_instance;
+  };
+}
+function trashDialog$fill(box, overlay) {
+  box.textContent = '';
+  add_0(box, 'h3', '', 'Papierkorb');
+  add_0(box, 'p', 'note', 'Gel\xF6schte Pok\xE9mon bleiben 7 Tage hier und verschwinden dann von selbst.');
+  var now = Store_getInstance().d29();
+  var entries = toList(Store_getInstance().r26_1);
+  if (entries.r()) {
+    add_0(box, 'p', '', 'Der Papierkorb ist leer.');
+  }
+  add_0(box, 'div', 'trash-list', VOID, CollectionView$trashDialog$fill$lambda(entries, now, box, overlay));
+  add_0(box, 'div', 'row', VOID, CollectionView$trashDialog$fill$lambda_0(entries, overlay));
+}
 function CollectionView$moveEdit$lambda$lambda$lambda($p, $m) {
   return function () {
-    Store_getInstance().g28($p.w1j(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, $p.q1j_1 === $m.i1i_1 ? null : $m.i1i_1));
+    Store_getInstance().b29($p.w1j(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, $p.q1j_1 === $m.i1i_1 ? null : $m.i1i_1));
     renderList(CollectionView_getInstance());
     return Unit_instance;
   };
@@ -1327,7 +1620,7 @@ function CollectionView$moveEdit$lambda$lambda($fast, $species, $p) {
     var _iterator__ex2g4s = $fast.i();
     while (_iterator__ex2g4s.j()) {
       var m = _iterator__ex2g4s.k();
-      var tmp = Store_getInstance().k26().x1l($species, m.i1i_1);
+      var tmp = Store_getInstance().z26().x1l($species, m.i1i_1);
       var tmp_0 = $p.q1j_1 === m.i1i_1;
       chip($this$add, tmp, tmp_0, CollectionView$moveEdit$lambda$lambda$lambda($p, m));
     }
@@ -1336,7 +1629,7 @@ function CollectionView$moveEdit$lambda$lambda($fast, $species, $p) {
 }
 function CollectionView$moveEdit$lambda$lambda$lambda_0($p, $on, $m) {
   return function () {
-    Store_getInstance().g28($p.w1j(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, $on ? minus($p.r1j_1, $m.i1i_1) : take_0(plus(listOf_0($m.i1i_1), $p.r1j_1), 2)));
+    Store_getInstance().b29($p.w1j(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, $on ? minus($p.r1j_1, $m.i1i_1) : take_0(plus(listOf_0($m.i1i_1), $p.r1j_1), 2)));
     renderList(CollectionView_getInstance());
     return Unit_instance;
   };
@@ -1347,7 +1640,7 @@ function CollectionView$moveEdit$lambda$lambda_0($charged, $p, $species) {
     while (_iterator__ex2g4s.j()) {
       var m = _iterator__ex2g4s.k();
       var on = $p.r1j_1.c1(m.i1i_1);
-      var tmp = Store_getInstance().k26().x1l($species, m.i1i_1);
+      var tmp = Store_getInstance().z26().x1l($species, m.i1i_1);
       chip($this$add, tmp, on, CollectionView$moveEdit$lambda$lambda$lambda_0($p, on, m));
     }
     return Unit_instance;
@@ -1496,40 +1789,49 @@ function CollectionView$pickFile$lambda($input, $onText) {
 }
 function CollectionView() {
   CollectionView_instance = this;
-  this.l26_1 = Sort_NEW_getInstance();
-  this.m26_1 = '';
-  this.n26_1 = false;
-  this.o26_1 = null;
-  this.p26_1 = '';
-  this.q26_1 = HashMap_init_$Create$();
-  this.r26_1 = -1;
-  this.s26_1 = null;
-  this.t26_1 = null;
-  this.u26_1 = null;
+  this.a27_1 = Sort_NEW_getInstance();
+  this.b27_1 = '';
+  this.c27_1 = false;
+  this.d27_1 = null;
+  this.e27_1 = '';
+  this.f27_1 = false;
+  this.g27_1 = HashSet_init_$Create$();
+  this.h27_1 = emptyList();
+  this.i27_1 = emptyList();
+  this.j27_1 = HashMap_init_$Create$();
+  this.k27_1 = -1;
+  this.l27_1 = null;
+  this.m27_1 = null;
+  this.n27_1 = null;
 }
-protoOf(CollectionView).i28 = function (host) {
+protoOf(CollectionView).e29 = function (host) {
   add_0(host, 'div', 'row fill', VOID, CollectionView$render$lambda);
   // Inline function 'kotlin.text.isNotEmpty' call
-  var this_0 = this.p26_1;
+  var this_0 = this.e27_1;
   if (charSequenceLength(this_0) > 0) {
-    add_0(host, 'p', 'note', this.p26_1);
+    add_0(host, 'p', 'note', this.e27_1);
   }
   // Inline function 'kotlin.collections.isNotEmpty' call
-  if (!Store_getInstance().s25_1.r()) {
-    label(host, 'Unklare Scans (' + Store_getInstance().s25_1.l() + ') \u2013 antippen und erg\xE4nzen');
-    var _iterator__ex2g4s = toList(Store_getInstance().s25_1).i();
+  if (!this.h27_1.r()) {
+    add_0(host, 'section', 'card', VOID, CollectionView$render$lambda_0);
+  }
+  // Inline function 'kotlin.collections.isNotEmpty' call
+  if (!Store_getInstance().f26_1.r()) {
+    label(host, 'Unklare Scans (' + Store_getInstance().f26_1.l() + ') \u2013 antippen und erg\xE4nzen');
+    var _iterator__ex2g4s = toList(Store_getInstance().f26_1).i();
     while (_iterator__ex2g4s.j()) {
       var d = _iterator__ex2g4s.k();
-      add_0(host, 'section', 'card', VOID, CollectionView$render$lambda_0(d));
+      add_0(host, 'section', 'card', VOID, CollectionView$render$lambda_1(d));
     }
   }
-  add_0(host, 'div', 'search', VOID, CollectionView$render$lambda_1);
-  add_0(host, 'div', 'chips', VOID, CollectionView$render$lambda_2);
-  this.t26_1 = add_0(host, 'div');
+  add_0(host, 'div', 'search', VOID, CollectionView$render$lambda_2);
+  add_0(host, 'div', 'chips', VOID, CollectionView$render$lambda_3);
+  add_0(host, 'div', 'row', VOID, CollectionView$render$lambda_4);
+  this.m27_1 = add_0(host, 'div');
   renderList(this);
   ensureSummaries(this);
 };
-protoOf(CollectionView).g27 = function (accept, onText) {
+protoOf(CollectionView).z27 = function (accept, onText) {
   var tmp = document.createElement('input');
   var input = tmp instanceof HTMLInputElement ? tmp : THROW_CCE();
   input.type = 'file';
@@ -1771,14 +2073,14 @@ function Editor$open$lambda$lambda$lambda_4($overlay) {
 function Editor$open$lambda$lambda$lambda_5($start, $species, $cpValue, $hpValue, $iv, $lvl, $variant, $draft, $overlay) {
   return function () {
     var tmp0_elvis_lhs = $start;
-    var base = tmp0_elvis_lhs == null ? new SavedPokemon(Store_getInstance().j28(), '', 0, 0, 0, 0, 0, 1.0) : tmp0_elvis_lhs;
+    var base = tmp0_elvis_lhs == null ? new SavedPokemon(Store_getInstance().d29(), '', 0, 0, 0, 0, 0, 1.0) : tmp0_elvis_lhs;
     var entry = base.w1j(VOID, $species.y1d_1, ensureNotNull($cpValue), ensureNotNull($hpValue), $iv.e1i_1, $iv.f1i_1, $iv.g1i_1, $lvl, $variant._v);
     var tmp;
     if (!($start == null)) {
-      Store_getInstance().g28(entry);
+      Store_getInstance().b29(entry);
       tmp = Unit_instance;
     } else {
-      Store_getInstance().k28(entry);
+      Store_getInstance().f29(entry);
       tmp = Unit_instance;
     }
     var tmp1_safe_receiver = $draft;
@@ -1786,10 +2088,10 @@ function Editor$open$lambda$lambda$lambda_5($start, $species, $cpValue, $hpValue
       null;
     else {
       // Inline function 'kotlin.let' call
-      Store_getInstance().s25_1.g3(tmp1_safe_receiver);
+      Store_getInstance().f26_1.g3(tmp1_safe_receiver);
     }
     open$close($overlay);
-    App_getInstance().c27();
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -1813,13 +2115,13 @@ function Editor$open$lambda_2($area, $speciesId, $query, $ivA, $ivD, $ivS, $hp, 
       tmp = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp = Store_getInstance().k26().d1f().x1(tmp0_safe_receiver);
+      tmp = Store_getInstance().z26().d1f().x1(tmp0_safe_receiver);
     }
     var species = tmp;
     var tmp_0;
     if (species == null && $query._v.length >= 2) {
       // Inline function 'kotlin.collections.filter' call
-      var tmp0 = Store_getInstance().k26().u1e_1;
+      var tmp0 = Store_getInstance().z26().u1e_1;
       // Inline function 'kotlin.collections.filterTo' call
       var destination = ArrayList_init_$Create$();
       var _iterator__ex2g4s = tmp0.i();
@@ -1886,7 +2188,7 @@ function Editor$open$lambda_2($area, $speciesId, $query, $ivA, $ivD, $ivS, $hp, 
     var iv = tmp_1;
     var hpValue = toIntOrNull($hp._v);
     var cpValue = toIntOrNull($cp._v);
-    var options = species == null || iv == null || hpValue == null ? emptyList() : Store_getInstance().f28().n1f(species, hpValue, iv);
+    var options = species == null || iv == null || hpValue == null ? emptyList() : Store_getInstance().a29().n1f(species, hpValue, iv);
     // Inline function 'kotlin.collections.filter' call
     // Inline function 'kotlin.collections.filterTo' call
     var destination_1 = ArrayList_init_$Create$();
@@ -1952,11 +2254,11 @@ function Editor$open$lambda_2($area, $speciesId, $query, $ivA, $ivD, $ivS, $hp, 
 }
 function Editor() {
 }
-protoOf(Editor).h27 = function (start, draft) {
+protoOf(Editor).a28 = function (start, draft) {
   var tmp1_elvis_lhs = start == null ? null : start.i1j_1;
   var tmp;
   if (tmp1_elvis_lhs == null) {
-    tmp = draft == null ? null : draft.k27_1;
+    tmp = draft == null ? null : draft.e28_1;
   } else {
     tmp = tmp1_elvis_lhs;
   }
@@ -1966,13 +2268,13 @@ protoOf(Editor).h27 = function (start, draft) {
     tmp_0 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_0 = Store_getInstance().k26().d1f().x1(tmp3_safe_receiver);
+    tmp_0 = Store_getInstance().z26().d1f().x1(tmp3_safe_receiver);
   }
   var first = tmp_0;
   var tmp5_elvis_lhs = start == null ? null : start.t1j();
   var tmp_1;
   if (tmp5_elvis_lhs == null) {
-    tmp_1 = draft == null ? null : draft.n27_1;
+    tmp_1 = draft == null ? null : draft.h28_1;
   } else {
     tmp_1 = tmp5_elvis_lhs;
   }
@@ -1983,7 +2285,7 @@ protoOf(Editor).h27 = function (start, draft) {
   var tmp11_elvis_lhs = start == null ? null : start.j1j_1;
   var tmp_2;
   if (tmp11_elvis_lhs == null) {
-    tmp_2 = draft == null ? null : draft.l27_1;
+    tmp_2 = draft == null ? null : draft.f28_1;
   } else {
     tmp_2 = tmp11_elvis_lhs;
   }
@@ -2007,7 +2309,7 @@ protoOf(Editor).h27 = function (start, draft) {
   var tmp17_elvis_lhs = start == null ? null : start.k1j_1;
   var tmp_5;
   if (tmp17_elvis_lhs == null) {
-    tmp_5 = draft == null ? null : draft.m27_1;
+    tmp_5 = draft == null ? null : draft.g28_1;
   } else {
     tmp_5 = tmp17_elvis_lhs;
   }
@@ -2040,7 +2342,7 @@ protoOf(Editor).h27 = function (start, draft) {
   var tmp32_elvis_lhs = start == null ? null : start.p1j_1;
   var tmp_8;
   if (tmp32_elvis_lhs == null) {
-    tmp_8 = draft == null ? null : draft.o27_1;
+    tmp_8 = draft == null ? null : draft.i28_1;
   } else {
     tmp_8 = tmp32_elvis_lhs;
   }
@@ -2280,11 +2582,11 @@ function get_entries_2() {
 var $ENTRIES_0;
 function Tab(name, ordinal, label, icon) {
   Enum.call(this, name, ordinal);
-  this.n28_1 = label;
-  this.o28_1 = icon;
+  this.i29_1 = label;
+  this.j29_1 = icon;
 }
 function _get_root__dd8asp($this) {
-  var tmp = $this.x26_1;
+  var tmp = $this.q27_1;
   if (!(tmp == null))
     return tmp;
   else {
@@ -2294,14 +2596,14 @@ function _get_root__dd8asp($this) {
 function App$start$slambda(resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
 }
-protoOf(App$start$slambda).d28 = function ($this$launch, $completion) {
-  var tmp = this.e28($this$launch, $completion);
+protoOf(App$start$slambda).y28 = function ($this$launch, $completion) {
+  var tmp = this.z28($this$launch, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
 protoOf(App$start$slambda).l8 = function (p1, $completion) {
-  return this.d28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  return this.y28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
 };
 protoOf(App$start$slambda).d8 = function () {
   var suspendResult = this.x7_1;
@@ -2313,29 +2615,29 @@ protoOf(App$start$slambda).d8 = function () {
           this.w7_1 = 5;
           this.w7_1 = 4;
           this.v7_1 = 1;
-          suspendResult = Store_getInstance().a29(this);
+          suspendResult = Store_getInstance().v29(this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
 
           continue $sm;
         case 1:
-          if (!Store_getInstance().r25_1.r())
-            App_getInstance().w26_1 = Tab_COLLECTION_getInstance();
-          App_getInstance().c27();
-          if (Store_getInstance().o29()) {
-            TeamView_getInstance().n29(true);
+          if (!Store_getInstance().e26_1.r())
+            App_getInstance().p27_1 = Tab_COLLECTION_getInstance();
+          App_getInstance().v27();
+          if (Store_getInstance().j2a()) {
+            TeamView_getInstance().i2a(true);
           }
 
           var tmp0_safe_receiver = (new URLSearchParams(window.location.search)).get('video');
           if (tmp0_safe_receiver == null) {
-            this.z28_1 = null;
+            this.u29_1 = null;
             this.v7_1 = 3;
             continue $sm;
           } else {
-            App_getInstance().w26_1 = Tab_VIDEO_getInstance();
+            App_getInstance().p27_1 = Tab_VIDEO_getInstance();
             this.v7_1 = 2;
-            suspendResult = VideoView_instance.t29(tmp0_safe_receiver, this);
+            suspendResult = VideoView_instance.o2a(tmp0_safe_receiver, this);
             if (suspendResult === get_COROUTINE_SUSPENDED()) {
               return suspendResult;
             }
@@ -2344,11 +2646,11 @@ protoOf(App$start$slambda).d8 = function () {
 
         case 2:
           var tmp_0 = this;
-          tmp_0.z28_1 = Unit_instance;
+          tmp_0.u29_1 = Unit_instance;
           this.v7_1 = 3;
           continue $sm;
         case 3:
-          this.y28_1 = this.z28_1;
+          this.t29_1 = this.u29_1;
           this.w7_1 = 5;
           this.v7_1 = 6;
           continue $sm;
@@ -2359,7 +2661,7 @@ protoOf(App$start$slambda).d8 = function () {
             var e = this.y7_1;
             var tmp_2 = this;
             _get_root__dd8asp(App_getInstance()).textContent = 'Die Spieldaten konnten nicht geladen werden: ' + e.message;
-            tmp_2.y28_1 = Unit_instance;
+            tmp_2.t29_1 = Unit_instance;
             this.v7_1 = 6;
             continue $sm;
           } else {
@@ -2383,47 +2685,47 @@ protoOf(App$start$slambda).d8 = function () {
     }
    while (true);
 };
-protoOf(App$start$slambda).e28 = function ($this$launch, completion) {
+protoOf(App$start$slambda).z28 = function ($this$launch, completion) {
   var i = new App$start$slambda(completion);
-  i.x28_1 = $this$launch;
+  i.s29_1 = $this$launch;
   return i;
 };
 function App$start$slambda_0(resultContinuation) {
   var i = new App$start$slambda(resultContinuation);
   return constructCallableReference(function ($this$launch, $completion) {
-    return i.d28($this$launch, $completion);
+    return i.y28($this$launch, $completion);
   }, 1);
 }
 function App$render$lambda($this$add) {
   var _iterator__ex2g4s = get_entries_2().i();
   while (_iterator__ex2g4s.j()) {
     var t = _iterator__ex2g4s.k();
-    var tmp = App_getInstance().w26_1.equals(t) ? 'on' : '';
+    var tmp = App_getInstance().p27_1.equals(t) ? 'on' : '';
     add_0($this$add, 'button', tmp, VOID, App$render$lambda$lambda(t));
   }
   return Unit_instance;
 }
 function App$render$lambda$lambda$lambda($t) {
   return function (it) {
-    App_getInstance().w26_1 = $t;
-    App_getInstance().c27();
+    App_getInstance().p27_1 = $t;
+    App_getInstance().v27();
     window.scrollTo(0.0, 0.0);
     return Unit_instance;
   };
 }
 function App$render$lambda$lambda$lambda_0($t) {
   return function ($this$add) {
-    add_0($this$add, 'span', '', $t.n28_1);
+    add_0($this$add, 'span', '', $t.i29_1);
     var tmp;
     var tmp_0;
     if ($t.equals(Tab_COLLECTION_getInstance())) {
       // Inline function 'kotlin.collections.isNotEmpty' call
-      tmp_0 = !Store_getInstance().s25_1.r();
+      tmp_0 = !Store_getInstance().f26_1.r();
     } else {
       tmp_0 = false;
     }
     if (tmp_0) {
-      add_0($this$add, 'span', 'badge', '' + Store_getInstance().s25_1.l());
+      add_0($this$add, 'span', 'badge', '' + Store_getInstance().f26_1.l());
       tmp = Unit_instance;
     }
     return Unit_instance;
@@ -2432,7 +2734,7 @@ function App$render$lambda$lambda$lambda_0($t) {
 function App$render$lambda$lambda($t) {
   return function ($this$add) {
     $this$add.onclick = App$render$lambda$lambda$lambda($t);
-    add_0($this$add, 'span', 'icon').innerHTML = '<svg viewBox="0 0 24 24"><path d="' + $t.o28_1 + '"/><\/svg>';
+    add_0($this$add, 'span', 'icon').innerHTML = '<svg viewBox="0 0 24 24"><path d="' + $t.j29_1 + '"/><\/svg>';
     add_0($this$add, 'span', VOID, VOID, App$render$lambda$lambda$lambda_0($t));
     return Unit_instance;
   };
@@ -2455,31 +2757,31 @@ function Tab_RAIDS_getInstance() {
 }
 function App() {
   App_instance = this;
-  this.v26_1 = MainScope();
-  this.w26_1 = Tab_VIDEO_getInstance();
+  this.o27_1 = MainScope();
+  this.p27_1 = Tab_VIDEO_getInstance();
 }
-protoOf(App).u29 = function () {
+protoOf(App).p2a = function () {
   var tmp = this;
   var tmp_0 = document.getElementById('app');
-  tmp.x26_1 = tmp_0 instanceof HTMLElement ? tmp_0 : THROW_CCE();
+  tmp.q27_1 = tmp_0 instanceof HTMLElement ? tmp_0 : THROW_CCE();
   _get_root__dd8asp(this).textContent = 'Lade Spieldaten \u2026';
-  launch(this.v26_1, VOID, VOID, App$start$slambda_0(null));
+  launch(this.o27_1, VOID, VOID, App$start$slambda_0(null));
 };
-protoOf(App).c27 = function () {
+protoOf(App).v27 = function () {
   _get_root__dd8asp(this).textContent = '';
   var host = add_0(_get_root__dd8asp(this), 'main');
-  switch (this.w26_1.g2_1) {
+  switch (this.p27_1.g2_1) {
     case 0:
-      VideoView_instance.i28(host);
+      VideoView_instance.e29(host);
       break;
     case 1:
-      CollectionView_getInstance().i28(host);
+      CollectionView_getInstance().e29(host);
       break;
     case 2:
-      TeamView_getInstance().i28(host);
+      TeamView_getInstance().e29(host);
       break;
     case 3:
-      RaidView_getInstance().i28(host);
+      RaidView_getInstance().e29(host);
       break;
     default:
       noWhenBranchMatchedException();
@@ -2506,7 +2808,7 @@ function VideoView$render$lambda($this$add) {
   add_0($this$add, 'h2', '', 'Bildschirmaufnahme einlesen');
   add_0($this$add, 'ol', 'steps', VOID, VideoView$render$lambda$lambda);
   add_0($this$add, 'div', 'row fill', VOID, VideoView$render$lambda$lambda_0);
-  VideoView_instance.s29_1 = add_0($this$add, 'p', 'status', VideoView_instance.r29_1);
+  VideoView_instance.n2a_1 = add_0($this$add, 'p', 'status', VideoView_instance.m2a_1);
   add_0($this$add, 'p', 'note', 'Das Video bleibt auf diesem Ger\xE4t, es wird nirgends hochgeladen.');
   return Unit_instance;
 }
@@ -2517,7 +2819,7 @@ function VideoView$render$lambda$lambda($this$add) {
   return Unit_instance;
 }
 function VideoView$render$lambda$lambda_0($this$add) {
-  if (VideoView_instance.q29_1) {
+  if (VideoView_instance.l2a_1) {
     button($this$add, 'Abbrechen', 'tonal', VideoView$render$lambda$lambda$lambda);
   } else {
     button($this$add, 'Video ausw\xE4hlen', 'primary', VideoView$render$lambda$lambda$lambda_0);
@@ -2525,11 +2827,11 @@ function VideoView$render$lambda$lambda_0($this$add) {
   return Unit_instance;
 }
 function VideoView$render$lambda$lambda$lambda() {
-  var tmp0_safe_receiver = VideoView_instance.p29_1;
+  var tmp0_safe_receiver = VideoView_instance.k2a_1;
   if (tmp0_safe_receiver == null)
     null;
   else {
-    tmp0_safe_receiver.j2a_1 = true;
+    tmp0_safe_receiver.e2b_1 = true;
   }
   return Unit_instance;
 }
@@ -2539,14 +2841,14 @@ function VideoView$render$lambda$lambda$lambda_0() {
 }
 function VideoView$render$lambda_0($s) {
   return function ($this$add) {
-    add_0($this$add, 'div', 'title warn', '' + $s.m2a_1 + ' Scans waren nicht eindeutig');
+    add_0($this$add, 'div', 'title warn', '' + $s.h2b_1 + ' Scans waren nicht eindeutig');
     add_0($this$add, 'div', 'small', 'Sie stehen in der Sammlung oben zum Erg\xE4nzen.');
     return Unit_instance;
   };
 }
 function VideoView$render$lambda_1($s) {
   return function ($this$add) {
-    var _iterator__ex2g4s = take_0($s.n2a_1, 60).i();
+    var _iterator__ex2g4s = take_0($s.i2b_1, 60).i();
     while (_iterator__ex2g4s.j()) {
       var line = _iterator__ex2g4s.k();
       add_0($this$add, 'div', 'small', line);
@@ -2571,15 +2873,15 @@ function VideoView$pick$lambda($input) {
       tmp_0 = null;
     } else {
       // Inline function 'kotlin.let' call
-      VideoView_instance.r2a(tmp1_safe_receiver);
+      VideoView_instance.m2b(tmp1_safe_receiver);
       tmp_0 = Unit_instance;
     }
     return tmp_0;
   };
 }
 function VideoView$start$lambda(text) {
-  VideoView_instance.r29_1 = text;
-  var tmp0_safe_receiver = VideoView_instance.s29_1;
+  VideoView_instance.m2a_1 = text;
+  var tmp0_safe_receiver = VideoView_instance.n2a_1;
   if (tmp0_safe_receiver == null)
     null;
   else {
@@ -2588,18 +2890,18 @@ function VideoView$start$lambda(text) {
   return Unit_instance;
 }
 function VideoView$start$slambda($s, $file, resultContinuation) {
-  this.a2b_1 = $s;
-  this.b2b_1 = $file;
+  this.v2b_1 = $s;
+  this.w2b_1 = $file;
   CoroutineImpl.call(this, resultContinuation);
 }
-protoOf(VideoView$start$slambda).d28 = function ($this$launch, $completion) {
-  var tmp = this.e28($this$launch, $completion);
+protoOf(VideoView$start$slambda).y28 = function ($this$launch, $completion) {
+  var tmp = this.z28($this$launch, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
 protoOf(VideoView$start$slambda).l8 = function (p1, $completion) {
-  return this.d28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  return this.y28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
 };
 protoOf(VideoView$start$slambda).d8 = function () {
   var suspendResult = this.x7_1;
@@ -2609,17 +2911,17 @@ protoOf(VideoView$start$slambda).d8 = function () {
       switch (tmp) {
         case 0:
           this.w7_1 = 4;
-          this.d2b_1 = VideoView_instance;
+          this.y2b_1 = VideoView_instance;
           this.w7_1 = 2;
           this.v7_1 = 1;
-          suspendResult = this.a2b_1.f2b(this.b2b_1, this);
+          suspendResult = this.v2b_1.a2c(this.w2b_1, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
 
           continue $sm;
         case 1:
-          this.e2b_1 = suspendResult;
+          this.z2b_1 = suspendResult;
           this.w7_1 = 4;
           this.v7_1 = 3;
           continue $sm;
@@ -2629,7 +2931,7 @@ protoOf(VideoView$start$slambda).d8 = function () {
           if (tmp_0 instanceof Error) {
             var e = this.y7_1;
             var tmp_1 = this;
-            tmp_1.e2b_1 = 'Das Video konnte nicht gelesen werden: ' + e.message;
+            tmp_1.z2b_1 = 'Das Video konnte nicht gelesen werden: ' + e.message;
             this.v7_1 = 3;
             continue $sm;
           } else {
@@ -2638,10 +2940,10 @@ protoOf(VideoView$start$slambda).d8 = function () {
 
         case 3:
           this.w7_1 = 4;
-          var ARGUMENT = this.e2b_1;
-          this.d2b_1.r29_1 = ARGUMENT;
-          VideoView_instance.q29_1 = false;
-          App_getInstance().c27();
+          var ARGUMENT = this.z2b_1;
+          this.y2b_1.m2a_1 = ARGUMENT;
+          VideoView_instance.l2a_1 = false;
+          App_getInstance().v27();
           return Unit_instance;
         case 4:
           throw this.y7_1;
@@ -2657,21 +2959,21 @@ protoOf(VideoView$start$slambda).d8 = function () {
     }
    while (true);
 };
-protoOf(VideoView$start$slambda).e28 = function ($this$launch, completion) {
-  var i = new VideoView$start$slambda(this.a2b_1, this.b2b_1, completion);
-  i.c2b_1 = $this$launch;
+protoOf(VideoView$start$slambda).z28 = function ($this$launch, completion) {
+  var i = new VideoView$start$slambda(this.v2b_1, this.w2b_1, completion);
+  i.x2b_1 = $this$launch;
   return i;
 };
 function VideoView$start$slambda_0($s, $file, resultContinuation) {
   var i = new VideoView$start$slambda($s, $file, resultContinuation);
   return constructCallableReference(function ($this$launch, $completion) {
-    return i.d28($this$launch, $completion);
+    return i.y28($this$launch, $completion);
   }, 1);
 }
 function $startFromUrlCOROUTINE$(_this__u8e3s4, url, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.o2b_1 = _this__u8e3s4;
-  this.p2b_1 = url;
+  this.j2c_1 = _this__u8e3s4;
+  this.k2c_1 = url;
 }
 protoOf($startFromUrlCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -2682,7 +2984,7 @@ protoOf($startFromUrlCOROUTINE$).d8 = function () {
         case 0:
           this.w7_1 = 3;
           this.v7_1 = 1;
-          suspendResult = await_0(window.fetch(this.p2b_1), this);
+          suspendResult = await_0(window.fetch(this.k2c_1), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -2700,7 +3002,7 @@ protoOf($startFromUrlCOROUTINE$).d8 = function () {
         case 2:
           var blob = suspendResult;
           var this_0 = [blob];
-          this.o2b_1.r2a(new File(this_0, 'test.mp4'));
+          this.j2c_1.m2b(new File(this_0, 'test.mp4'));
           return Unit_instance;
         case 3:
           throw this.y7_1;
@@ -2717,37 +3019,37 @@ protoOf($startFromUrlCOROUTINE$).d8 = function () {
    while (true);
 };
 function VideoView() {
-  this.p29_1 = null;
-  this.q29_1 = false;
-  this.r29_1 = '';
-  this.s29_1 = null;
+  this.k2a_1 = null;
+  this.l2a_1 = false;
+  this.m2a_1 = '';
+  this.n2a_1 = null;
 }
-protoOf(VideoView).i28 = function (host) {
+protoOf(VideoView).e29 = function (host) {
   add_0(host, 'section', 'card', VOID, VideoView$render$lambda);
-  var tmp0_safe_receiver = this.p29_1;
+  var tmp0_safe_receiver = this.k2a_1;
   if (tmp0_safe_receiver == null)
     null;
   else {
     // Inline function 'kotlin.let' call
-    if (tmp0_safe_receiver.m2a_1 > 0 && !VideoView_instance.q29_1) {
+    if (tmp0_safe_receiver.h2b_1 > 0 && !VideoView_instance.l2a_1) {
       add_0(host, 'section', 'card', VOID, VideoView$render$lambda_0(tmp0_safe_receiver));
     }
     // Inline function 'kotlin.collections.isNotEmpty' call
-    if (!tmp0_safe_receiver.n2a_1.r()) {
+    if (!tmp0_safe_receiver.i2b_1.r()) {
       label(host, 'Verlauf');
       add_0(host, 'section', 'card', VOID, VideoView$render$lambda_1(tmp0_safe_receiver));
     }
   }
 };
-protoOf(VideoView).r2a = function (file) {
+protoOf(VideoView).m2b = function (file) {
   var s = new VideoScan(VideoView$start$lambda);
-  this.p29_1 = s;
-  this.q29_1 = true;
-  App_getInstance().c27();
-  var tmp = App_getInstance().v26_1;
+  this.k2a_1 = s;
+  this.l2a_1 = true;
+  App_getInstance().v27();
+  var tmp = App_getInstance().o27_1;
   launch(tmp, VOID, VOID, VideoView$start$slambda_0(s, file, null));
 };
-protoOf(VideoView).t29 = function (url, $completion) {
+protoOf(VideoView).o2a = function (url, $completion) {
   var tmp = new $startFromUrlCOROUTINE$(this, url, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
@@ -2761,21 +3063,21 @@ function TeamView$compute$slambda$lambda(_unused_var__etf5q3) {
   return false;
 }
 function TeamView$refresh$slambda$lambda(step, fraction) {
-  TeamView_getInstance().j29_1 = to(step, fraction);
-  var tmp0_safe_receiver = TeamView_getInstance().k29_1;
+  TeamView_getInstance().e2a_1 = to(step, fraction);
+  var tmp0_safe_receiver = TeamView_getInstance().f2a_1;
   if (tmp0_safe_receiver == null)
     null;
   else {
-    tmp0_safe_receiver.q2b(fraction, step);
+    tmp0_safe_receiver.l2c(fraction, step);
   }
   return Unit_instance;
 }
 function compute($this, key, format, league) {
-  $this.g29_1 = key;
-  $this.h29_1 = 0.0;
-  var pool = toList(Store_getInstance().r25_1);
-  var include = $this.c29_1;
-  var tmp = App_getInstance().v26_1;
+  $this.b2a_1 = key;
+  $this.c2a_1 = 0.0;
+  var pool = toList(Store_getInstance().e26_1);
+  var include = $this.x29_1;
+  var tmp = App_getInstance().o27_1;
   launch(tmp, VOID, VOID, TeamView$compute$slambda_0(format, pool, key, league, include, null));
 }
 function weekEnd($this, iso) {
@@ -2829,7 +3131,7 @@ function cupEditor($this, start) {
   var cp = {_v: start.g1l_1};
   var types = toMutableSet(start.h1l_1);
   // Inline function 'kotlin.collections.sortedBy' call
-  var this_0 = Store_getInstance().k26().w1e_1.a2();
+  var this_0 = Store_getInstance().z26().w1e_1.a2();
   // Inline function 'kotlin.comparisons.compareBy' call
   var tmp = TeamView$cupEditor$lambda;
   var tmp$ret$1 = new sam$kotlin_Comparator$0_1(tmp);
@@ -2852,7 +3154,7 @@ function cupEditor($this, start) {
   cupEditor$draw(area, types, cp, allTypes);
   add_0(box, 'div', 'row end', VOID, TeamView$cupEditor$lambda_1(save, overlay, title, start, cp, allTypes, types));
   var tmp_2 = $this;
-  tmp_2.m29_1 = TeamView$cupEditor$lambda_2(save, title);
+  tmp_2.h2a_1 = TeamView$cupEditor$lambda_2(save, title);
   refreshSave($this);
   var tmp0_safe_receiver = document.body;
   if (tmp0_safe_receiver == null)
@@ -2861,17 +3163,17 @@ function cupEditor($this, start) {
     tmp0_safe_receiver.appendChild(overlay);
 }
 function refreshSave($this) {
-  return $this.m29_1();
+  return $this.h2a_1();
 }
 function lackingCard($this, host, families, league) {
   add_0(host, 'section', 'card', VOID, TeamView$lackingCard$lambda(families, league));
 }
 function unmark($this, family, league) {
-  var _iterator__ex2g4s = toList(Store_getInstance().r25_1).i();
+  var _iterator__ex2g4s = toList(Store_getInstance().e26_1).i();
   while (_iterator__ex2g4s.j()) {
     var p = _iterator__ex2g4s.k();
-    if (p.s1j_1.c1(league.f2_1) && Store_getInstance().f28().t1f(p.i1j_1) === family) {
-      Store_getInstance().g28(p.w1j(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, minus(p.s1j_1, league.f2_1)));
+    if (p.s1j_1.c1(league.f2_1) && Store_getInstance().a29().t1f(p.i1j_1) === family) {
+      Store_getInstance().b29(p.w1j(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, minus(p.s1j_1, league.f2_1)));
     }
   }
 }
@@ -2882,11 +3184,11 @@ function name($this, c) {
   return c.l1s_1.a1e_1 + (!c.k1s_1.x1s_1.equals(Variant_NORMAL_getInstance()) ? ' (' + variantName(c.k1s_1.x1s_1) + ')' : '');
 }
 function member($this, host, c, league) {
-  var from = Store_getInstance().k26().d1f().x1(c.k1s_1.u1s_1);
+  var from = Store_getInstance().z26().d1f().x1(c.k1s_1.u1s_1);
   add_0(host, 'div', 'member', VOID, TeamView$member$lambda(c, from, league));
 }
 function lackingButton($this, host, c, league) {
-  var tmp0 = Store_getInstance().r25_1;
+  var tmp0 = Store_getInstance().e26_1;
   var tmp$ret$0;
   $l$block: {
     // Inline function 'kotlin.collections.firstOrNull' call
@@ -2910,8 +3212,8 @@ function lackingButton($this, host, c, league) {
   var saved = tmp;
   if (!c.i1t())
     return Unit_instance;
-  var family = Store_getInstance().f28().t1f(saved.i1j_1);
-  var tmp0_0 = Store_getInstance().r25_1;
+  var family = Store_getInstance().a29().t1f(saved.i1j_1);
+  var tmp0_0 = Store_getInstance().e26_1;
   var tmp$ret$2;
   $l$block_1: {
     // Inline function 'kotlin.collections.any' call
@@ -2928,7 +3230,7 @@ function lackingButton($this, host, c, league) {
     var _iterator__ex2g4s_0 = tmp0_0.i();
     while (_iterator__ex2g4s_0.j()) {
       var element_0 = _iterator__ex2g4s_0.k();
-      if (element_0.s1j_1.c1(league.f2_1) && Store_getInstance().f28().t1f(element_0.i1j_1) === family) {
+      if (element_0.s1j_1.c1(league.f2_1) && Store_getInstance().a29().t1f(element_0.i1j_1) === family) {
         tmp$ret$2 = true;
         break $l$block_1;
       }
@@ -2942,16 +3244,16 @@ function ratings($this, host, r) {
   add_0(host, 'section', 'card', VOID, TeamView$ratings$lambda(r));
 }
 function sam$kotlin_Comparator$0_1(function_0) {
-  this.r2b_1 = function_0;
+  this.m2c_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_1).qc = function (a, b) {
-  return this.r2b_1(a, b);
+  return this.m2c_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_1).compare = function (a, b) {
   return this.qc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_1).p2 = function () {
-  return this.r2b_1;
+  return this.m2c_1;
 };
 protoOf(sam$kotlin_Comparator$0_1).equals = function (other) {
   var tmp;
@@ -2972,16 +3274,16 @@ protoOf(sam$kotlin_Comparator$0_1).hashCode = function () {
   return hashCode(this.p2());
 };
 function sam$kotlin_Comparator$0_2(function_0) {
-  this.s2b_1 = function_0;
+  this.n2c_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_2).qc = function (a, b) {
-  return this.s2b_1(a, b);
+  return this.n2c_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_2).compare = function (a, b) {
   return this.qc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_2).p2 = function () {
-  return this.s2b_1;
+  return this.n2c_1;
 };
 protoOf(sam$kotlin_Comparator$0_2).equals = function (other) {
   var tmp;
@@ -3002,16 +3304,16 @@ protoOf(sam$kotlin_Comparator$0_2).hashCode = function () {
   return hashCode(this.p2());
 };
 function sam$kotlin_Comparator$0_3(function_0) {
-  this.t2b_1 = function_0;
+  this.o2c_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_3).qc = function (a, b) {
-  return this.t2b_1(a, b);
+  return this.o2c_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_3).compare = function (a, b) {
   return this.qc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_3).p2 = function () {
-  return this.t2b_1;
+  return this.o2c_1;
 };
 protoOf(sam$kotlin_Comparator$0_3).equals = function (other) {
   var tmp;
@@ -3033,8 +3335,8 @@ protoOf(sam$kotlin_Comparator$0_3).hashCode = function () {
 };
 function TeamView$render$lambda$lambda($f) {
   return function () {
-    TeamView_getInstance().b29_1 = $f.t1();
-    App_getInstance().c27();
+    TeamView_getInstance().w29_1 = $f.t1();
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -3047,7 +3349,7 @@ function TeamView$render$lambda($formats, $format) {
     var _iterator__ex2g4s = $formats.i();
     while (_iterator__ex2g4s.j()) {
       var f = _iterator__ex2g4s.k();
-      var mark = Store_getInstance().u2b(f) ? '\u25CF ' : Companion_getInstance().x1k(f) ? '\u2605 ' : '';
+      var mark = Store_getInstance().p2c(f) ? '\u25CF ' : Companion_getInstance().x1k(f) ? '\u2605 ' : '';
       var tmp = mark + f.y1k_1;
       var tmp_0 = f.t1() === $format.t1();
       chip($this$add, tmp, tmp_0, TeamView$render$lambda$lambda(f));
@@ -3072,8 +3374,8 @@ function TeamView$render$lambda$lambda_1($week) {
 }
 function TeamView$render$lambda$lambda$lambda_0($f) {
   return function () {
-    TeamView_getInstance().b29_1 = $f.t1();
-    App_getInstance().c27();
+    TeamView_getInstance().w29_1 = $f.t1();
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -3085,7 +3387,7 @@ function TeamView$render$lambda$lambda$lambda_1($this$add) {
 function TeamView$render$lambda$lambda_2($format) {
   return function ($this$add) {
     $this$add.style.flexWrap = 'wrap';
-    var _iterator__ex2g4s = Store_getInstance().j26_1.i();
+    var _iterator__ex2g4s = Store_getInstance().y26_1.i();
     while (_iterator__ex2g4s.j()) {
       var _destruct__k2r9zo = _iterator__ex2g4s.k();
       var name = _destruct__k2r9zo.i9();
@@ -3147,12 +3449,12 @@ function TeamView$render$lambda_1($format, $rules) {
 function TeamView$render$lambda$lambda$lambda_2($formats) {
   return function ($this$add) {
     add_0($this$add, 'div', 'title', 'Meta-Ranglisten');
-    add_0($this$add, 'div', 'small', 'Stand ' + germanDate(Store_getInstance().u25_1) + ($formats.l() <= Companion_getInstance_0().i1m_1.l() ? ' \xB7 ohne Sonderligen' : ''));
+    add_0($this$add, 'div', 'small', 'Stand ' + germanDate(Store_getInstance().h26_1) + ($formats.l() <= Companion_getInstance_0().i1m_1.l() ? ' \xB7 ohne Sonderligen' : ''));
     return Unit_instance;
   };
 }
 function TeamView$render$lambda$lambda$lambda_3() {
-  TeamView_getInstance().v2b();
+  TeamView_getInstance().q2c();
   return Unit_instance;
 }
 function TeamView$render$lambda$lambda_4($formats) {
@@ -3167,9 +3469,9 @@ function TeamView$render$lambda_2($formats) {
     add_0($this$add, 'div', 'line', VOID, TeamView$render$lambda$lambda_4($formats));
     var tmp;
     // Inline function 'kotlin.text.isNotEmpty' call
-    var this_0 = TeamView_getInstance().l29_1;
+    var this_0 = TeamView_getInstance().g2a_1;
     if (charSequenceLength(this_0) > 0) {
-      add_0($this$add, 'div', 'small', TeamView_getInstance().l29_1);
+      add_0($this$add, 'div', 'small', TeamView_getInstance().g2a_1);
       tmp = Unit_instance;
     }
     return Unit_instance;
@@ -3186,21 +3488,21 @@ function TeamView$render$lambda_4($this$add) {
   return Unit_instance;
 }
 function TeamView$compute$slambda($format, $pool, $key, $league, $include, resultContinuation) {
-  this.e2c_1 = $format;
-  this.f2c_1 = $pool;
-  this.g2c_1 = $key;
-  this.h2c_1 = $league;
-  this.i2c_1 = $include;
+  this.z2c_1 = $format;
+  this.a2d_1 = $pool;
+  this.b2d_1 = $key;
+  this.c2d_1 = $league;
+  this.d2d_1 = $include;
   CoroutineImpl.call(this, resultContinuation);
 }
-protoOf(TeamView$compute$slambda).d28 = function ($this$launch, $completion) {
-  var tmp = this.e28($this$launch, $completion);
+protoOf(TeamView$compute$slambda).y28 = function ($this$launch, $completion) {
+  var tmp = this.z28($this$launch, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
 protoOf(TeamView$compute$slambda).l8 = function (p1, $completion) {
-  return this.d28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  return this.y28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
 };
 protoOf(TeamView$compute$slambda).d8 = function () {
   var suspendResult = this.x7_1;
@@ -3219,19 +3521,19 @@ protoOf(TeamView$compute$slambda).d8 = function () {
           continue $sm;
         case 1:
           this.v7_1 = 2;
-          suspendResult = Store_getInstance().o2c(this.e2c_1, this);
+          suspendResult = Store_getInstance().j2d(this.z2c_1, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
 
           continue $sm;
         case 2:
-          this.k2c_1 = suspendResult;
+          this.f2d_1 = suspendResult;
           var species = LinkedHashMap_init_$Create$();
-          var _iterator__ex2g4s = this.f2c_1.i();
+          var _iterator__ex2g4s = this.a2d_1.i();
           $l$loop: while (_iterator__ex2g4s.j()) {
             var p = _iterator__ex2g4s.k();
-            var tmp0_elvis_lhs = Store_getInstance().k26().d1f().x1(p.i1j_1);
+            var tmp0_elvis_lhs = Store_getInstance().z26().d1f().x1(p.i1j_1);
             var tmp_0;
             if (tmp0_elvis_lhs == null) {
               continue $l$loop;
@@ -3239,7 +3541,7 @@ protoOf(TeamView$compute$slambda).d8 = function () {
               tmp_0 = tmp0_elvis_lhs;
             }
             var s = tmp_0;
-            var _iterator__ex2g4s_0 = Store_getInstance().f28().s1f(s, p.p1j_1).i();
+            var _iterator__ex2g4s_0 = Store_getInstance().a29().s1f(s, p.p1j_1).i();
             while (_iterator__ex2g4s_0.j()) {
               var path = _iterator__ex2g4s_0.k();
               var tmp2 = path.g1g_1.y1d_1;
@@ -3248,10 +3550,10 @@ protoOf(TeamView$compute$slambda).d8 = function () {
             }
           }
 
-          var _iterator__ex2g4s_1 = take_0(this.k2c_1, 40).i();
+          var _iterator__ex2g4s_1 = take_0(this.f2d_1, 40).i();
           while (_iterator__ex2g4s_1.j()) {
             var e = _iterator__ex2g4s_1.k();
-            var tmp1_safe_receiver = Store_getInstance().k26().d1f().x1(removeSuffix(e.y1g_1, '_shadow'));
+            var tmp1_safe_receiver = Store_getInstance().z26().d1f().x1(removeSuffix(e.y1g_1, '_shadow'));
             if (tmp1_safe_receiver == null)
               null;
             else {
@@ -3260,32 +3562,32 @@ protoOf(TeamView$compute$slambda).d8 = function () {
             }
           }
 
-          this.l2c_1 = toList(species.z1());
-          var this_0 = this.l2c_1;
-          this.m2c_1 = 0;
-          this.n2c_1 = this_0.i();
+          this.g2d_1 = toList(species.z1());
+          var this_0 = this.g2d_1;
+          this.h2d_1 = 0;
+          this.i2d_1 = this_0.i();
           this.v7_1 = 3;
           continue $sm;
         case 3:
-          if (!this.n2c_1.j()) {
+          if (!this.i2d_1.j()) {
             this.v7_1 = 6;
             continue $sm;
           }
 
-          var item = this.n2c_1.k();
-          var _unary__edvuaz = this.m2c_1;
-          this.m2c_1 = _unary__edvuaz + 1 | 0;
+          var item = this.i2d_1.k();
+          var _unary__edvuaz = this.h2d_1;
+          this.h2d_1 = _unary__edvuaz + 1 | 0;
           var i = checkIndexOverflow(_unary__edvuaz);
-          if (!(TeamView_getInstance().g29_1 === this.g2c_1))
+          if (!(TeamView_getInstance().b2a_1 === this.b2d_1))
             return Unit_instance;
-          Store_getInstance().f28().v1f(item, new Iv(15, 15, 15), this.h2c_1);
+          Store_getInstance().a29().v1f(item, new Iv(15, 15, 15), this.c2d_1);
           if ((i % 3 | 0) === 0) {
-            TeamView_getInstance().h29_1 = 0.85 * i / this.l2c_1.l();
-            var tmp0_safe_receiver = TeamView_getInstance().i29_1;
+            TeamView_getInstance().c2a_1 = 0.85 * i / this.g2d_1.l();
+            var tmp0_safe_receiver = TeamView_getInstance().d2a_1;
             if (tmp0_safe_receiver == null)
               null;
             else {
-              tmp0_safe_receiver.b27(TeamView_getInstance().h29_1);
+              tmp0_safe_receiver.u27(TeamView_getInstance().c2a_1);
             }
             this.v7_1 = 4;
             suspendResult = delay(new Long(1, 0), this);
@@ -3305,12 +3607,12 @@ protoOf(TeamView$compute$slambda).d8 = function () {
           this.v7_1 = 3;
           continue $sm;
         case 6:
-          TeamView_getInstance().h29_1 = 0.88;
-          var tmp2_safe_receiver = TeamView_getInstance().i29_1;
+          TeamView_getInstance().c2a_1 = 0.88;
+          var tmp2_safe_receiver = TeamView_getInstance().d2a_1;
           if (tmp2_safe_receiver == null)
             null;
           else {
-            tmp2_safe_receiver.q2b(TeamView_getInstance().h29_1, 'Stelle die besten Teams zusammen \u2026');
+            tmp2_safe_receiver.l2c(TeamView_getInstance().c2a_1, 'Stelle die besten Teams zusammen \u2026');
           }
 
           this.v7_1 = 7;
@@ -3321,9 +3623,9 @@ protoOf(TeamView$compute$slambda).d8 = function () {
 
           continue $sm;
         case 7:
-          if (!(TeamView_getInstance().g29_1 === this.g2c_1))
+          if (!(TeamView_getInstance().b2a_1 === this.b2d_1))
             return Unit_instance;
-          var this_1 = this.f2c_1;
+          var this_1 = this.a2d_1;
           var destination = ArrayList_init_$Create$_0(collectionSizeOrDefault(this_1, 10));
           var _iterator__ex2g4s_2 = this_1.i();
           while (_iterator__ex2g4s_2.j()) {
@@ -3333,18 +3635,18 @@ protoOf(TeamView$compute$slambda).d8 = function () {
 
           var owned = destination;
           var tmp_1;
-          if (this.i2c_1) {
+          if (this.d2d_1) {
             tmp_1 = TeamView$compute$slambda$lambda;
           } else {
-            tmp_1 = Store_getInstance().p2c().n1t(this.f2c_1, this.h2c_1);
+            tmp_1 = Store_getInstance().k2d().n1t(this.a2d_1, this.c2d_1);
           }
 
           var exclude = tmp_1;
-          TeamView_getInstance().e29_1 = Store_getInstance().p2c().l1t(owned, this.h2c_1, this.k2c_1, VOID, VOID, VOID, exclude);
-          TeamView_getInstance().f29_1 = this.g2c_1;
-          TeamView_getInstance().g29_1 = null;
-          if (App_getInstance().w26_1.equals(Tab_TEAM_getInstance())) {
-            App_getInstance().c27();
+          TeamView_getInstance().z29_1 = Store_getInstance().k2d().l1t(owned, this.c2d_1, this.f2d_1, VOID, VOID, VOID, exclude);
+          TeamView_getInstance().a2a_1 = this.b2d_1;
+          TeamView_getInstance().b2a_1 = null;
+          if (App_getInstance().p27_1.equals(Tab_TEAM_getInstance())) {
+            App_getInstance().v27();
           }
 
           return Unit_instance;
@@ -3362,15 +3664,15 @@ protoOf(TeamView$compute$slambda).d8 = function () {
     }
    while (true);
 };
-protoOf(TeamView$compute$slambda).e28 = function ($this$launch, completion) {
-  var i = new TeamView$compute$slambda(this.e2c_1, this.f2c_1, this.g2c_1, this.h2c_1, this.i2c_1, completion);
-  i.j2c_1 = $this$launch;
+protoOf(TeamView$compute$slambda).z28 = function ($this$launch, completion) {
+  var i = new TeamView$compute$slambda(this.z2c_1, this.a2d_1, this.b2d_1, this.c2d_1, this.d2d_1, completion);
+  i.e2d_1 = $this$launch;
   return i;
 };
 function TeamView$compute$slambda_0($format, $pool, $key, $league, $include, resultContinuation) {
   var i = new TeamView$compute$slambda($format, $pool, $key, $league, $include, resultContinuation);
   return constructCallableReference(function ($this$launch, $completion) {
-    return i.d28($this$launch, $completion);
+    return i.y28($this$launch, $completion);
   }, 1);
 }
 function TeamView$customCupCard$lambda$lambda$lambda($cup) {
@@ -3388,9 +3690,9 @@ function TeamView$customCupCard$lambda$lambda$lambda_0($cup) {
 }
 function TeamView$customCupCard$lambda$lambda$lambda_1($cup) {
   return function () {
-    Store_getInstance().q2c($cup.e1l_1);
-    TeamView_getInstance().b29_1 = first(Companion_getInstance_0().i1m_1).t1();
-    App_getInstance().c27();
+    Store_getInstance().l2d($cup.e1l_1);
+    TeamView_getInstance().w29_1 = first(Companion_getInstance_0().i1m_1).t1();
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -3528,7 +3830,7 @@ function TeamView$cupEditor$lambda$lambda_0($title, $start, $cp, $allTypes, $typ
     var tmp_0;
     // Inline function 'kotlin.text.isEmpty' call
     if (charSequenceLength(this_0) === 0) {
-      tmp_0 = toString_0(Store_getInstance().j28(), 36);
+      tmp_0 = toString_0(Store_getInstance().d29(), 36);
     } else {
       tmp_0 = this_0;
     }
@@ -3558,10 +3860,10 @@ function TeamView$cupEditor$lambda$lambda_0($title, $start, $cp, $allTypes, $typ
       }
     }
     var cup = new CustomCup(id, tmp_1, tmp_2, destination_0);
-    Store_getInstance().r2c(cup);
-    TeamView_getInstance().b29_1 = cup.i1l().t1();
+    Store_getInstance().m2d(cup);
+    TeamView_getInstance().w29_1 = cup.i1l().t1();
     $overlay.remove();
-    App_getInstance().c27();
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -3590,10 +3892,10 @@ function TeamView$refreshSaveHook$lambda() {
 }
 function TeamView$lackingCard$lambda$lambda$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp0_safe_receiver = Store_getInstance().k26().d1f().x1(a);
+  var tmp0_safe_receiver = Store_getInstance().z26().d1f().x1(a);
   var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.a1e_1;
   var tmp = tmp1_elvis_lhs == null ? a : tmp1_elvis_lhs;
-  var tmp0_safe_receiver_0 = Store_getInstance().k26().d1f().x1(b);
+  var tmp0_safe_receiver_0 = Store_getInstance().z26().d1f().x1(b);
   var tmp1_elvis_lhs_0 = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.a1e_1;
   var tmp$ret$2 = tmp1_elvis_lhs_0 == null ? b : tmp1_elvis_lhs_0;
   return compareValues(tmp, tmp$ret$2);
@@ -3601,7 +3903,7 @@ function TeamView$lackingCard$lambda$lambda$lambda(a, b) {
 function TeamView$lackingCard$lambda$lambda$lambda$lambda($family, $league) {
   return function (it) {
     unmark(TeamView_getInstance(), $family, $league);
-    App_getInstance().c27();
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -3626,7 +3928,7 @@ function TeamView$lackingCard$lambda$lambda($families, $league) {
     var _iterator__ex2g4s = sortedWith(this_0, tmp$ret$1).i();
     while (_iterator__ex2g4s.j()) {
       var family = _iterator__ex2g4s.k();
-      var s = Store_getInstance().k26().d1f().x1(family);
+      var s = Store_getInstance().z26().d1f().x1(family);
       add_0($this$add, 'span', 'family', VOID, TeamView$lackingCard$lambda$lambda$lambda_0(s, family, $league));
     }
     return Unit_instance;
@@ -3634,7 +3936,7 @@ function TeamView$lackingCard$lambda$lambda($families, $league) {
 }
 function TeamView$lackingCard$lambda$lambda_0($this$add) {
   add_0($this$add, 'span', '', 'Trotzdem einplanen');
-  var tmp = TeamView_getInstance().c29_1 ? 'switch on' : 'switch';
+  var tmp = TeamView_getInstance().x29_1 ? 'switch on' : 'switch';
   add_0($this$add, 'span', tmp, VOID, TeamView$lackingCard$lambda$lambda$lambda_1);
   return Unit_instance;
 }
@@ -3643,8 +3945,8 @@ function TeamView$lackingCard$lambda$lambda$lambda_1($this$add) {
   return Unit_instance;
 }
 function TeamView$lackingCard$lambda$lambda$lambda$lambda_0(it) {
-  TeamView_getInstance().c29_1 = !TeamView_getInstance().c29_1;
-  App_getInstance().c27();
+  TeamView_getInstance().x29_1 = !TeamView_getInstance().x29_1;
+  App_getInstance().v27();
   return Unit_instance;
 }
 function TeamView$lackingCard$lambda($families, $league) {
@@ -3787,8 +4089,8 @@ function TeamView$member$lambda$lambda$lambda($c) {
 }
 function TeamView$member$lambda$lambda$lambda$lambda($saved, $c) {
   return function () {
-    Store_getInstance().g28($saved.u1j($c.l1s_1, $c.m1s_1, Store_getInstance().k26().h1f()));
-    App_getInstance().c27();
+    Store_getInstance().b29($saved.u1j($c.l1s_1, $c.m1s_1, Store_getInstance().z26().h1f()));
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -3807,7 +4109,7 @@ function TeamView$member$lambda$lambda($from, $c, $league) {
     moveRow($this$add, $c.l1s_1, $c.q1s_1.a1h_1);
     var tmp0_elvis_lhs = $from;
     costRow($this$add, $c.o1s_1, tmp0_elvis_lhs == null ? $c.l1s_1 : tmp0_elvis_lhs);
-    var tmp0 = Store_getInstance().r25_1;
+    var tmp0 = Store_getInstance().e26_1;
     var tmp$ret$0;
     $l$block: {
       // Inline function 'kotlin.collections.firstOrNull' call
@@ -3842,14 +4144,14 @@ function TeamView$member$lambda($c, $from, $league) {
 function TeamView$lackingButton$lambda$lambda($family, $league) {
   return function () {
     unmark(TeamView_getInstance(), $family, $league);
-    App_getInstance().c27();
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
 function TeamView$lackingButton$lambda$lambda_0($saved, $league) {
   return function () {
-    Store_getInstance().g28($saved.w1j(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, plus_0($saved.s1j_1, $league.f2_1)));
-    App_getInstance().c27();
+    Store_getInstance().b29($saved.w1j(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, plus_0($saved.s1j_1, $league.f2_1)));
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -3867,12 +4169,12 @@ function TeamView$ratings$lambda$lambda($this$add) {
   $this$add.style.cursor = 'pointer';
   $this$add.onclick = TeamView$ratings$lambda$lambda$lambda;
   add_0($this$add, 'div', 'grow', VOID, TeamView$ratings$lambda$lambda$lambda_0);
-  add_0($this$add, 'span', 'big', TeamView_getInstance().d29_1 ? '\u25B4' : '\u25BE');
+  add_0($this$add, 'span', 'big', TeamView_getInstance().y29_1 ? '\u25B4' : '\u25BE');
   return Unit_instance;
 }
 function TeamView$ratings$lambda$lambda$lambda(it) {
-  TeamView_getInstance().d29_1 = !TeamView_getInstance().d29_1;
-  App_getInstance().c27();
+  TeamView_getInstance().y29_1 = !TeamView_getInstance().y29_1;
+  App_getInstance().v27();
   return Unit_instance;
 }
 function TeamView$ratings$lambda$lambda$lambda_0($this$add) {
@@ -3923,7 +4225,7 @@ function TeamView$ratings$lambda($r) {
   return function ($this$add) {
     add_0($this$add, 'div', 'line', VOID, TeamView$ratings$lambda$lambda);
     var tmp;
-    if (!TeamView_getInstance().d29_1) {
+    if (!TeamView_getInstance().y29_1) {
       return Unit_instance;
     }
     // Inline function 'kotlin.collections.sortedByDescending' call
@@ -3940,17 +4242,17 @@ function TeamView$ratings$lambda($r) {
   };
 }
 function TeamView$refresh$slambda($quiet, resultContinuation) {
-  this.a2d_1 = $quiet;
+  this.v2d_1 = $quiet;
   CoroutineImpl.call(this, resultContinuation);
 }
-protoOf(TeamView$refresh$slambda).d28 = function ($this$launch, $completion) {
-  var tmp = this.e28($this$launch, $completion);
+protoOf(TeamView$refresh$slambda).y28 = function ($this$launch, $completion) {
+  var tmp = this.z28($this$launch, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
 protoOf(TeamView$refresh$slambda).l8 = function (p1, $completion) {
-  return this.d28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  return this.y28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
 };
 protoOf(TeamView$refresh$slambda).d8 = function () {
   var suspendResult = this.x7_1;
@@ -3960,18 +4262,18 @@ protoOf(TeamView$refresh$slambda).d8 = function () {
       switch (tmp) {
         case 0:
           this.w7_1 = 4;
-          this.c2d_1 = TeamView_getInstance();
+          this.x2d_1 = TeamView_getInstance();
           this.w7_1 = 2;
           this.v7_1 = 1;
           var tmp_0 = Store_getInstance();
-          suspendResult = tmp_0.e2d(TeamView$refresh$slambda$lambda, this);
+          suspendResult = tmp_0.z2d(TeamView$refresh$slambda$lambda, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
 
           continue $sm;
         case 1:
-          this.d2d_1 = this.a2d_1 ? 'Automatisch aktualisiert.' : 'Ranglisten und Sonderligen sind aktuell.';
+          this.y2d_1 = this.v2d_1 ? 'Automatisch aktualisiert.' : 'Ranglisten und Sonderligen sind aktuell.';
           this.w7_1 = 4;
           this.v7_1 = 3;
           continue $sm;
@@ -3981,7 +4283,7 @@ protoOf(TeamView$refresh$slambda).d8 = function () {
           if (tmp_1 instanceof Error) {
             var e = this.y7_1;
             var tmp_2 = this;
-            tmp_2.d2d_1 = this.a2d_1 ? '' : 'Laden fehlgeschlagen: ' + e.message;
+            tmp_2.y2d_1 = this.v2d_1 ? '' : 'Laden fehlgeschlagen: ' + e.message;
             this.v7_1 = 3;
             continue $sm;
           } else {
@@ -3990,10 +4292,10 @@ protoOf(TeamView$refresh$slambda).d8 = function () {
 
         case 3:
           this.w7_1 = 4;
-          var ARGUMENT = this.d2d_1;
-          this.c2d_1.l29_1 = ARGUMENT;
-          TeamView_getInstance().j29_1 = null;
-          App_getInstance().c27();
+          var ARGUMENT = this.y2d_1;
+          this.x2d_1.g2a_1 = ARGUMENT;
+          TeamView_getInstance().e2a_1 = null;
+          App_getInstance().v27();
           return Unit_instance;
         case 4:
           throw this.y7_1;
@@ -4009,42 +4311,42 @@ protoOf(TeamView$refresh$slambda).d8 = function () {
     }
    while (true);
 };
-protoOf(TeamView$refresh$slambda).e28 = function ($this$launch, completion) {
-  var i = new TeamView$refresh$slambda(this.a2d_1, completion);
-  i.b2d_1 = $this$launch;
+protoOf(TeamView$refresh$slambda).z28 = function ($this$launch, completion) {
+  var i = new TeamView$refresh$slambda(this.v2d_1, completion);
+  i.w2d_1 = $this$launch;
   return i;
 };
 function TeamView$refresh$slambda_0($quiet, resultContinuation) {
   var i = new TeamView$refresh$slambda($quiet, resultContinuation);
   return constructCallableReference(function ($this$launch, $completion) {
-    return i.d28($this$launch, $completion);
+    return i.y28($this$launch, $completion);
   }, 1);
 }
 function TeamView() {
   TeamView_instance = this;
-  this.b29_1 = '';
-  this.c29_1 = false;
-  this.d29_1 = false;
-  this.e29_1 = null;
-  this.f29_1 = '';
-  this.g29_1 = null;
-  this.h29_1 = 0.0;
-  this.i29_1 = null;
-  this.j29_1 = null;
-  this.k29_1 = null;
-  this.l29_1 = '';
+  this.w29_1 = '';
+  this.x29_1 = false;
+  this.y29_1 = false;
+  this.z29_1 = null;
+  this.a2a_1 = '';
+  this.b2a_1 = null;
+  this.c2a_1 = 0.0;
+  this.d2a_1 = null;
+  this.e2a_1 = null;
+  this.f2a_1 = null;
+  this.g2a_1 = '';
   var tmp = this;
-  tmp.m29_1 = TeamView$refreshSaveHook$lambda;
+  tmp.h2a_1 = TeamView$refreshSaveHook$lambda;
 }
-protoOf(TeamView).i28 = function (host) {
-  var formats = Store_getInstance().t25_1;
+protoOf(TeamView).e29 = function (host) {
+  var formats = Store_getInstance().g26_1;
   var tmp$ret$0;
   $l$block: {
     // Inline function 'kotlin.collections.firstOrNull' call
     var _iterator__ex2g4s = formats.i();
     while (_iterator__ex2g4s.j()) {
       var element = _iterator__ex2g4s.k();
-      if (element.t1() === TeamView_getInstance().b29_1) {
+      if (element.t1() === TeamView_getInstance().w29_1) {
         tmp$ret$0 = element;
         break $l$block;
       }
@@ -4054,10 +4356,10 @@ protoOf(TeamView).i28 = function (host) {
   var tmp0_elvis_lhs = tmp$ret$0;
   var format = tmp0_elvis_lhs == null ? first(formats) : tmp0_elvis_lhs;
   var league = format.m1m();
-  var pool = Store_getInstance().r25_1;
-  var families = Store_getInstance().p2c().m1t(pool, league);
+  var pool = Store_getInstance().e26_1;
+  var families = Store_getInstance().k2d().m1t(pool, league);
   add_0(host, 'div', 'chips', VOID, TeamView$render$lambda(formats, format));
-  var tmp1_safe_receiver = Store_getInstance().i26_1;
+  var tmp1_safe_receiver = Store_getInstance().x26_1;
   if (tmp1_safe_receiver == null)
     null;
   else {
@@ -4065,7 +4367,7 @@ protoOf(TeamView).i28 = function (host) {
     add_0(host, 'section', 'card', VOID, TeamView$render$lambda_0(tmp1_safe_receiver, format));
   }
   if (Companion_getInstance().x1k(format)) {
-    var tmp0 = Store_getInstance().f26_1;
+    var tmp0 = Store_getInstance().u26_1;
     var tmp$ret$4;
     $l$block_0: {
       // Inline function 'kotlin.collections.firstOrNull' call
@@ -4087,7 +4389,7 @@ protoOf(TeamView).i28 = function (host) {
       customCupCard(TeamView_getInstance(), host, tmp2_safe_receiver);
     }
   } else if (!(format.z1k_1 === 'all')) {
-    var tmp3_safe_receiver = Store_getInstance().h26_1.x1(format.z1k_1);
+    var tmp3_safe_receiver = Store_getInstance().w26_1.x1(format.z1k_1);
     if (tmp3_safe_receiver == null)
       null;
     else {
@@ -4110,22 +4412,22 @@ protoOf(TeamView).i28 = function (host) {
       }
     }
   }
-  var d = this.j29_1;
+  var d = this.e2a_1;
   if (!(d == null)) {
     var tmp_1 = this;
     // Inline function 'kotlin.also' call
     var this_0 = new Progress(host, 'PvPoke-Daten werden geladen', d.g9_1);
-    this_0.b27(d.h9_1);
-    tmp_1.k29_1 = this_0;
+    this_0.u27(d.h9_1);
+    tmp_1.f2a_1 = this_0;
   } else {
-    this.k29_1 = null;
+    this.f2a_1 = null;
     add_0(host, 'section', 'card', VOID, TeamView$render$lambda_2(formats));
   }
   // Inline function 'kotlin.collections.isNotEmpty' call
   if (!families.r()) {
     lackingCard(this, host, families, league);
   }
-  var tmp0_0 = Store_getInstance().f26_1;
+  var tmp0_0 = Store_getInstance().u26_1;
   var tmp$ret$14;
   $l$block_1: {
     // Inline function 'kotlin.collections.firstOrNull' call
@@ -4143,12 +4445,12 @@ protoOf(TeamView).i28 = function (host) {
   var tmp5_safe_receiver = tmp4_safe_receiver == null ? null : tmp4_safe_receiver.h1l_1;
   var tmp6_elvis_lhs = tmp5_safe_receiver == null ? null : joinToString(tmp5_safe_receiver, ',');
   var cupKey = tmp6_elvis_lhs == null ? '' : tmp6_elvis_lhs;
-  var tmp_2 = '' + Store_getInstance().v25_1 + '|' + format.t1() + '|' + cupKey + '|' + this.c29_1 + '|';
+  var tmp_2 = '' + Store_getInstance().i26_1 + '|' + format.t1() + '|' + cupKey + '|' + this.x29_1 + '|';
   var key = tmp_2 + joinToString(pool, ',', VOID, VOID, VOID, VOID, TeamView$render$lambda_3(league));
   // Inline function 'kotlin.takeIf' call
-  var this_1 = this.e29_1;
+  var this_1 = this.z29_1;
   var tmp_3;
-  if (TeamView_getInstance().f29_1 === key) {
+  if (TeamView_getInstance().a2a_1 === key) {
     tmp_3 = this_1;
   } else {
     tmp_3 = null;
@@ -4158,14 +4460,14 @@ protoOf(TeamView).i28 = function (host) {
     var tmp_4 = this;
     // Inline function 'kotlin.also' call
     var this_2 = new Progress(host, 'Rechne K\xE4mpfe gegen die Meta', '' + pool.l() + ' Pok\xE9mon gegen die Top 40 der ' + format.y1k_1);
-    this_2.b27(TeamView_getInstance().h29_1);
-    tmp_4.i29_1 = this_2;
-    if (!(this.g29_1 === key)) {
+    this_2.u27(TeamView_getInstance().c2a_1);
+    tmp_4.d2a_1 = this_2;
+    if (!(this.b2a_1 === key)) {
       compute(this, key, format, league);
     }
     return Unit_instance;
   }
-  this.i29_1 = null;
+  this.d2a_1 = null;
   add_0(host, 'p', 'note', '' + r.a1s_1.l() + ' einsetzbare Arten, gepr\xFCft gegen die Top ' + r.b1s_1.l() + ' der ' + format.y1k_1 + '. ' + ('' + numberToInt(r.d1s_1 * 100) + ' % der K\xE4mpfe direkt von PvPoke, der Rest selbst gerechnet. ') + '* braucht eine Top-TM, \u2020 nicht mehr erh\xE4ltlich.');
   if (r.c1s_1.r()) {
     add_0(host, 'section', 'card', VOID, TeamView$render$lambda_4);
@@ -4185,23 +4487,23 @@ protoOf(TeamView).i28 = function (host) {
     ratings(this, host, r);
   }
 };
-protoOf(TeamView).n29 = function (quiet) {
-  if (!(this.j29_1 == null))
+protoOf(TeamView).i2a = function (quiet) {
+  if (!(this.e2a_1 == null))
     return Unit_instance;
-  this.j29_1 = to(quiet ? 'Automatische Aktualisierung' : 'Verbinde mit PvPoke', 0.0);
-  this.l29_1 = '';
-  App_getInstance().c27();
-  var tmp = App_getInstance().v26_1;
+  this.e2a_1 = to(quiet ? 'Automatische Aktualisierung' : 'Verbinde mit PvPoke', 0.0);
+  this.g2a_1 = '';
+  App_getInstance().v27();
+  var tmp = App_getInstance().o27_1;
   launch(tmp, VOID, VOID, TeamView$refresh$slambda_0(quiet, null));
 };
-protoOf(TeamView).v2b = function (quiet, $super) {
+protoOf(TeamView).q2c = function (quiet, $super) {
   quiet = quiet === VOID ? false : quiet;
   var tmp;
   if ($super === VOID) {
-    this.n29(quiet);
+    this.i2a(quiet);
     tmp = Unit_instance;
   } else {
-    tmp = $super.n29.call(this, quiet);
+    tmp = $super.i2a.call(this, quiet);
   }
   return tmp;
 };
@@ -4212,7 +4514,7 @@ function TeamView_getInstance() {
   return TeamView_instance;
 }
 function main() {
-  App_getInstance().u29();
+  App_getInstance().p2a();
 }
 function mainWrapper() {
   main();
@@ -4221,7 +4523,7 @@ function tierLabel($this, t) {
   return t === 6 ? 'Mega' : '' + t + '\u2605';
 }
 function owned($this, a) {
-  var tmp0 = Store_getInstance().r25_1;
+  var tmp0 = Store_getInstance().e26_1;
   var tmp$ret$0;
   $l$block_0: {
     // Inline function 'kotlin.collections.any' call
@@ -4248,7 +4550,7 @@ function owned($this, a) {
   return tmp$ret$0;
 }
 function evolvable($this, a) {
-  var tmp0 = Store_getInstance().r25_1;
+  var tmp0 = Store_getInstance().e26_1;
   var tmp$ret$0;
   $l$block_2: {
     // Inline function 'kotlin.collections.any' call
@@ -4267,13 +4569,13 @@ function evolvable($this, a) {
       var element = _iterator__ex2g4s.k();
       var tmp_0;
       if (element.p1j_1.equals(Variant_SHADOW_getInstance()) === a.x1n_1 && !(element.i1j_1 === a.w1n_1.y1d_1)) {
-        var tmp0_safe_receiver = Store_getInstance().k26().d1f().x1(element.i1j_1);
+        var tmp0_safe_receiver = Store_getInstance().z26().d1f().x1(element.i1j_1);
         var tmp_1;
         if (tmp0_safe_receiver == null) {
           tmp_1 = null;
         } else {
           // Inline function 'kotlin.let' call
-          var tmp0_0 = Store_getInstance().f28().s1f(tmp0_safe_receiver, element.p1j_1);
+          var tmp0_0 = Store_getInstance().a29().s1f(tmp0_safe_receiver, element.p1j_1);
           var tmp$ret$4;
           $l$block_1: {
             // Inline function 'kotlin.collections.any' call
@@ -4314,7 +4616,7 @@ function evolvable($this, a) {
 }
 function counters($this, host) {
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = Store_getInstance().d26_1;
+  var tmp0 = Store_getInstance().q26_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$();
   var _iterator__ex2g4s = tmp0.i();
@@ -4326,7 +4628,7 @@ function counters($this, host) {
   }
   var bosses = destination;
   var tmp;
-  if ($this.w29_1 == null) {
+  if ($this.r2a_1 == null) {
     // Inline function 'kotlin.collections.isNotEmpty' call
     tmp = !bosses.r();
   } else {
@@ -4357,9 +4659,9 @@ function counters($this, host) {
       tmp$ret$4 = maxElem;
     }
     var first = tmp$ret$4;
-    $this.w29_1 = first.h1o_1;
-    $this.x29_1 = first.g1o_1;
-    $this.y29_1 = first.i1o_1;
+    $this.r2a_1 = first.h1o_1;
+    $this.s2a_1 = first.g1o_1;
+    $this.t2a_1 = first.i1o_1;
   }
   if (bosses.r()) {
     add_0(host, 'section', 'card', VOID, RaidView$counters$lambda);
@@ -4379,13 +4681,13 @@ function counters($this, host) {
   drawPicks($this, tmp_0);
   label(host, 'Wetter');
   add_0(host, 'div', 'chips', VOID, RaidView$counters$lambda_2);
-  var tmp0_safe_receiver = $this.w29_1;
+  var tmp0_safe_receiver = $this.r2a_1;
   var tmp_1;
   if (tmp0_safe_receiver == null) {
     tmp_1 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_1 = Store_getInstance().k26().d1f().x1(tmp0_safe_receiver);
+    tmp_1 = Store_getInstance().z26().d1f().x1(tmp0_safe_receiver);
   }
   var tmp1_elvis_lhs = tmp_1;
   var tmp_2;
@@ -4396,24 +4698,24 @@ function counters($this, host) {
   }
   var boss = tmp_2;
   bossCard($this, host, boss);
-  var tmp_3 = '' + Store_getInstance().v25_1 + '|' + $this.w29_1 + '|' + $this.x29_1 + '|' + $this.y29_1 + '|' + $this.z29_1.toString() + '|';
-  var tmp_4 = Store_getInstance().r25_1;
+  var tmp_3 = '' + Store_getInstance().i26_1 + '|' + $this.r2a_1 + '|' + $this.s2a_1 + '|' + $this.t2a_1 + '|' + $this.u2a_1.toString() + '|';
+  var tmp_4 = Store_getInstance().e26_1;
   var k = tmp_3 + joinToString(tmp_4, ',', VOID, VOID, VOID, VOID, RaidView$counters$lambda_3);
-  if (!(k === $this.d2a_1)) {
-    $this.d2a_1 = k;
-    $this.e2a_1 = null;
-    $this.f2a_1 = null;
-    var raid = new RaidBoss(boss, $this.x29_1, $this.y29_1);
-    var tmp_5 = App_getInstance().v26_1;
+  if (!(k === $this.y2a_1)) {
+    $this.y2a_1 = k;
+    $this.z2a_1 = null;
+    $this.a2b_1 = null;
+    var raid = new RaidBoss(boss, $this.s2a_1, $this.t2a_1);
+    var tmp_5 = App_getInstance().o27_1;
     launch(tmp_5, VOID, VOID, RaidView$counters$slambda_0(raid, k, null));
   }
-  var tmp2_safe_receiver = $this.f2a_1;
+  var tmp2_safe_receiver = $this.a2b_1;
   var tmp3_safe_receiver = tmp2_safe_receiver == null ? null : firstOrNull(tmp2_safe_receiver);
   var tmp4_safe_receiver = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.a1o_1;
   var tmp5_elvis_lhs = tmp4_safe_receiver == null ? null : tmp4_safe_receiver.g1p();
   var tmp_6;
   if (tmp5_elvis_lhs == null) {
-    var tmp6_safe_receiver = $this.e2a_1;
+    var tmp6_safe_receiver = $this.z2a_1;
     var tmp7_safe_receiver = tmp6_safe_receiver == null ? null : firstOrNull(tmp6_safe_receiver);
     var tmp8_safe_receiver = tmp7_safe_receiver == null ? null : tmp7_safe_receiver.a1o_1;
     tmp_6 = tmp8_safe_receiver == null ? null : tmp8_safe_receiver.g1p();
@@ -4423,7 +4725,7 @@ function counters($this, host) {
   var tmp9_elvis_lhs = tmp_6;
   var best = tmp9_elvis_lhs == null ? 1.0 : tmp9_elvis_lhs;
   label(host, 'Deine besten Konter');
-  var m = $this.e2a_1;
+  var m = $this.z2a_1;
   if (m == null)
     add_0(host, 'p', 'status', 'Rechne Konter \u2026');
   else if (m.r())
@@ -4432,7 +4734,7 @@ function counters($this, host) {
     add_0(host, 'section', 'card', VOID, RaidView$counters$lambda_4(m, best));
   }
   label(host, 'St\xE4rkste Konter im Spiel');
-  var t = $this.f2a_1;
+  var t = $this.a2b_1;
   if (t == null)
     add_0(host, 'p', 'status', 'Rechne alle Arten durch \u2026');
   else {
@@ -4441,7 +4743,7 @@ function counters($this, host) {
 }
 function drawPicks($this, host) {
   host.textContent = '';
-  if ($this.a2a_1.length < 2)
+  if ($this.v2a_1.length < 2)
     return Unit_instance;
   add_0(host, 'section', 'card', VOID, RaidView$drawPicks$lambda);
 }
@@ -4452,16 +4754,16 @@ function attackerRow($this, host, rank, a, best, mine) {
   add_0(host, 'div', 'member', VOID, RaidView$attackerRow$lambda(rank, a, mine, best));
 }
 function typeMeta($this, host) {
-  if (!($this.h2a_1 === Store_getInstance().v25_1)) {
-    $this.g2a_1.e2();
-    $this.h2a_1 = Store_getInstance().v25_1;
+  if (!($this.c2b_1 === Store_getInstance().i26_1)) {
+    $this.b2b_1.e2();
+    $this.c2b_1 = Store_getInstance().i26_1;
   }
   add_0(host, 'div', 'pills', VOID, RaidView$typeMeta$lambda);
-  var list = $this.g2a_1.x1($this.c2a_1);
+  var list = $this.b2b_1.x1($this.x2a_1);
   if (list == null) {
-    add_0(host, 'p', 'status', 'Rechne die ' + Store_getInstance().k26().w1e_1.x1($this.c2a_1) + '-Angreifer \u2026');
-    var t = $this.c2a_1;
-    var tmp = App_getInstance().v26_1;
+    add_0(host, 'p', 'status', 'Rechne die ' + Store_getInstance().z26().w1e_1.x1($this.x2a_1) + '-Angreifer \u2026');
+    var t = $this.x2a_1;
+    var tmp = App_getInstance().o27_1;
     launch(tmp, VOID, VOID, RaidView$typeMeta$slambda_0(t, null));
     return Unit_instance;
   }
@@ -4472,16 +4774,16 @@ function typeMeta($this, host) {
   add_0(host, 'section', 'card', VOID, RaidView$typeMeta$lambda_0(list, best));
 }
 function sam$kotlin_Comparator$0_4(function_0) {
-  this.f2d_1 = function_0;
+  this.a2e_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_4).qc = function (a, b) {
-  return this.f2d_1(a, b);
+  return this.a2e_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_4).compare = function (a, b) {
   return this.qc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_4).p2 = function () {
-  return this.f2d_1;
+  return this.a2e_1;
 };
 protoOf(sam$kotlin_Comparator$0_4).equals = function (other) {
   var tmp;
@@ -4502,16 +4804,16 @@ protoOf(sam$kotlin_Comparator$0_4).hashCode = function () {
   return hashCode(this.p2());
 };
 function sam$kotlin_Comparator$0_5(function_0) {
-  this.g2d_1 = function_0;
+  this.b2e_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_5).qc = function (a, b) {
-  return this.g2d_1(a, b);
+  return this.b2e_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_5).compare = function (a, b) {
   return this.qc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_5).p2 = function () {
-  return this.g2d_1;
+  return this.b2e_1;
 };
 protoOf(sam$kotlin_Comparator$0_5).equals = function (other) {
   var tmp;
@@ -4532,16 +4834,16 @@ protoOf(sam$kotlin_Comparator$0_5).hashCode = function () {
   return hashCode(this.p2());
 };
 function sam$kotlin_Comparator$0_6(function_0) {
-  this.h2d_1 = function_0;
+  this.c2e_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_6).qc = function (a, b) {
-  return this.h2d_1(a, b);
+  return this.c2e_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_6).compare = function (a, b) {
   return this.qc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_6).p2 = function () {
-  return this.h2d_1;
+  return this.c2e_1;
 };
 protoOf(sam$kotlin_Comparator$0_6).equals = function (other) {
   var tmp;
@@ -4562,20 +4864,20 @@ protoOf(sam$kotlin_Comparator$0_6).hashCode = function () {
   return hashCode(this.p2());
 };
 function RaidView$render$lambda($this$add) {
-  var tmp = RaidView_getInstance().v29_1 === 0;
+  var tmp = RaidView_getInstance().q2a_1 === 0;
   chip($this$add, 'Raid-Konter', tmp, RaidView$render$lambda$lambda);
-  var tmp_0 = RaidView_getInstance().v29_1 === 1;
+  var tmp_0 = RaidView_getInstance().q2a_1 === 1;
   chip($this$add, 'Typ-Meta', tmp_0, RaidView$render$lambda$lambda_0);
   return Unit_instance;
 }
 function RaidView$render$lambda$lambda() {
-  RaidView_getInstance().v29_1 = 0;
-  App_getInstance().c27();
+  RaidView_getInstance().q2a_1 = 0;
+  App_getInstance().v27();
   return Unit_instance;
 }
 function RaidView$render$lambda$lambda_0() {
-  RaidView_getInstance().v29_1 = 1;
-  App_getInstance().c27();
+  RaidView_getInstance().q2a_1 = 1;
+  App_getInstance().v27();
   return Unit_instance;
 }
 function RaidView$counters$lambda($this$add) {
@@ -4589,7 +4891,7 @@ function RaidView$counters$lambda$lambda($this$add) {
   return Unit_instance;
 }
 function RaidView$counters$lambda$lambda$lambda() {
-  TeamView_getInstance().v2b();
+  TeamView_getInstance().q2c();
   return Unit_instance;
 }
 function RaidView$counters$lambda$lambda_0(a, b) {
@@ -4600,10 +4902,10 @@ function RaidView$counters$lambda$lambda_0(a, b) {
 }
 function RaidView$counters$lambda$lambda$lambda_0($b) {
   return function (it) {
-    RaidView_getInstance().w29_1 = $b.h1o_1;
-    RaidView_getInstance().x29_1 = $b.g1o_1;
-    RaidView_getInstance().y29_1 = $b.i1o_1;
-    App_getInstance().c27();
+    RaidView_getInstance().r2a_1 = $b.h1o_1;
+    RaidView_getInstance().s2a_1 = $b.g1o_1;
+    RaidView_getInstance().t2a_1 = $b.i1o_1;
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -4626,7 +4928,7 @@ function RaidView$counters$lambda_0($bosses) {
     var _iterator__ex2g4s = sortedWith(this_0, tmp$ret$1).i();
     $l$loop: while (_iterator__ex2g4s.j()) {
       var b = _iterator__ex2g4s.k();
-      var tmp0 = Store_getInstance().k26().d1f();
+      var tmp0 = Store_getInstance().z26().d1f();
       // Inline function 'kotlin.collections.get' call
       var key = b.h1o_1;
       var tmp0_elvis_lhs = (isInterface(tmp0, KtMap) ? tmp0 : THROW_CCE()).x1(key);
@@ -4637,7 +4939,7 @@ function RaidView$counters$lambda_0($bosses) {
         tmp_0 = tmp0_elvis_lhs;
       }
       var s = tmp_0;
-      var tmp_1 = b.h1o_1 == RaidView_getInstance().w29_1 && b.i1o_1 === RaidView_getInstance().y29_1 ? 'boss on' : 'boss';
+      var tmp_1 = b.h1o_1 == RaidView_getInstance().r2a_1 && b.i1o_1 === RaidView_getInstance().t2a_1 ? 'boss on' : 'boss';
       add_0($this$add, 'div', tmp_1, VOID, RaidView$counters$lambda$lambda_1(s, b));
     }
     return Unit_instance;
@@ -4645,7 +4947,7 @@ function RaidView$counters$lambda_0($bosses) {
 }
 function RaidView$counters$lambda$lambda_2($picks) {
   return function (it) {
-    RaidView_getInstance().a2a_1 = it;
+    RaidView_getInstance().v2a_1 = it;
     var tmp = RaidView_getInstance();
     var tmp_0;
     if ($picks._v == null) {
@@ -4659,7 +4961,7 @@ function RaidView$counters$lambda$lambda_2($picks) {
 }
 function RaidView$counters$lambda_1($picks) {
   return function ($this$add) {
-    var tmp = RaidView_getInstance().a2a_1;
+    var tmp = RaidView_getInstance().v2a_1;
     input($this$add, '', tmp, false, RaidView$counters$lambda$lambda_2($picks)).placeholder = '\uD83D\uDD0D  Anderen Boss suchen';
     return Unit_instance;
   };
@@ -4668,15 +4970,15 @@ function RaidView$counters$lambda_2($this$add) {
   var _iterator__ex2g4s = get_entries_0().i();
   while (_iterator__ex2g4s.j()) {
     var w = _iterator__ex2g4s.k();
-    var tmp = RaidView_getInstance().z29_1.equals(w);
+    var tmp = RaidView_getInstance().u2a_1.equals(w);
     chip($this$add, w.u1n_1, tmp, RaidView$counters$lambda$lambda_3(w));
   }
   return Unit_instance;
 }
 function RaidView$counters$lambda$lambda_3($w) {
   return function () {
-    RaidView_getInstance().z29_1 = $w;
-    App_getInstance().c27();
+    RaidView_getInstance().u2a_1 = $w;
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -4684,18 +4986,18 @@ function RaidView$counters$lambda_3(it) {
   return it.h1j_1.toString() + it.p1j_1.g2_1 + it.q1j_1 + toString(it.r1j_1);
 }
 function RaidView$counters$slambda($raid, $k, resultContinuation) {
-  this.q2d_1 = $raid;
-  this.r2d_1 = $k;
+  this.l2e_1 = $raid;
+  this.m2e_1 = $k;
   CoroutineImpl.call(this, resultContinuation);
 }
-protoOf(RaidView$counters$slambda).d28 = function ($this$launch, $completion) {
-  var tmp = this.e28($this$launch, $completion);
+protoOf(RaidView$counters$slambda).y28 = function ($this$launch, $completion) {
+  var tmp = this.z28($this$launch, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
 protoOf(RaidView$counters$slambda).l8 = function (p1, $completion) {
-  return this.d28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  return this.y28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
 };
 protoOf(RaidView$counters$slambda).d8 = function () {
   var suspendResult = this.x7_1;
@@ -4713,9 +5015,9 @@ protoOf(RaidView$counters$slambda).d8 = function () {
 
           continue $sm;
         case 1:
-          RaidView_getInstance().e2a_1 = Store_getInstance().t2d().k1p(toList(Store_getInstance().r25_1), this.q2d_1, RaidView_getInstance().z29_1);
-          if (App_getInstance().w26_1.equals(Tab_RAIDS_getInstance())) {
-            App_getInstance().c27();
+          RaidView_getInstance().z2a_1 = Store_getInstance().o2e().k1p(toList(Store_getInstance().e26_1), this.l2e_1, RaidView_getInstance().u2a_1);
+          if (App_getInstance().p27_1.equals(Tab_RAIDS_getInstance())) {
+            App_getInstance().v27();
           }
 
           this.v7_1 = 2;
@@ -4726,9 +5028,9 @@ protoOf(RaidView$counters$slambda).d8 = function () {
 
           continue $sm;
         case 2:
-          RaidView_getInstance().f2a_1 = Store_getInstance().t2d().l1p(this.q2d_1, RaidView_getInstance().z29_1, 15);
-          if (App_getInstance().w26_1.equals(Tab_RAIDS_getInstance()) && RaidView_getInstance().d2a_1 === this.r2d_1) {
-            App_getInstance().c27();
+          RaidView_getInstance().a2b_1 = Store_getInstance().o2e().l1p(this.l2e_1, RaidView_getInstance().u2a_1, 15);
+          if (App_getInstance().p27_1.equals(Tab_RAIDS_getInstance()) && RaidView_getInstance().y2a_1 === this.m2e_1) {
+            App_getInstance().v27();
           }
 
           return Unit_instance;
@@ -4746,27 +5048,27 @@ protoOf(RaidView$counters$slambda).d8 = function () {
     }
    while (true);
 };
-protoOf(RaidView$counters$slambda).e28 = function ($this$launch, completion) {
-  var i = new RaidView$counters$slambda(this.q2d_1, this.r2d_1, completion);
-  i.s2d_1 = $this$launch;
+protoOf(RaidView$counters$slambda).z28 = function ($this$launch, completion) {
+  var i = new RaidView$counters$slambda(this.l2e_1, this.m2e_1, completion);
+  i.n2e_1 = $this$launch;
   return i;
 };
 function RaidView$counters$slambda_0($raid, $k, resultContinuation) {
   var i = new RaidView$counters$slambda($raid, $k, resultContinuation);
   return constructCallableReference(function ($this$launch, $completion) {
-    return i.d28($this$launch, $completion);
+    return i.y28($this$launch, $completion);
   }, 1);
 }
 function RaidView$counters$lambda$lambda_4() {
-  RaidView_getInstance().b2a_1 = !RaidView_getInstance().b2a_1;
-  App_getInstance().c27();
+  RaidView_getInstance().w2a_1 = !RaidView_getInstance().w2a_1;
+  App_getInstance().v27();
   return Unit_instance;
 }
 function RaidView$counters$lambda_4($m, $best) {
   return function ($this$add) {
     // Inline function 'kotlin.collections.forEachIndexed' call
     var index = 0;
-    var _iterator__ex2g4s = take_0($m, RaidView_getInstance().b2a_1 ? 20 : 6).i();
+    var _iterator__ex2g4s = take_0($m, RaidView_getInstance().w2a_1 ? 20 : 6).i();
     while (_iterator__ex2g4s.j()) {
       var item = _iterator__ex2g4s.k();
       var _unary__edvuaz = index;
@@ -4777,7 +5079,7 @@ function RaidView$counters$lambda_4($m, $best) {
     var tmp;
     if ($m.l() > 6) {
       var tmp_0;
-      if (RaidView_getInstance().b2a_1) {
+      if (RaidView_getInstance().w2a_1) {
         tmp_0 = 'Weniger anzeigen';
       } else {
         // Inline function 'kotlin.comparisons.minOf' call
@@ -4810,13 +5112,13 @@ function RaidView$counters$lambda_5($t, $best) {
 }
 function RaidView$drawPicks$lambda($this$add) {
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = Store_getInstance().k26().u1e_1;
+  var tmp0 = Store_getInstance().z26().u1e_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$();
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (contains(element.a1e_1, RaidView_getInstance().a2a_1, true)) {
+    if (contains(element.a1e_1, RaidView_getInstance().v2a_1, true)) {
       destination.h(element);
     }
   }
@@ -4829,11 +5131,11 @@ function RaidView$drawPicks$lambda($this$add) {
 }
 function RaidView$drawPicks$lambda$lambda$lambda($s) {
   return function (it) {
-    RaidView_getInstance().w29_1 = $s.y1d_1;
-    RaidView_getInstance().x29_1 = $s.i1e_1.c1('mega') ? 6 : 5;
-    RaidView_getInstance().y29_1 = false;
-    RaidView_getInstance().a2a_1 = '';
-    App_getInstance().c27();
+    RaidView_getInstance().r2a_1 = $s.y1d_1;
+    RaidView_getInstance().s2a_1 = $s.i1e_1.c1('mega') ? 6 : 5;
+    RaidView_getInstance().t2a_1 = false;
+    RaidView_getInstance().v2a_1 = '';
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -4854,20 +5156,20 @@ function RaidView$bossCard$lambda$lambda$lambda$lambda($s) {
       var t = _iterator__ex2g4s.k();
       typePill($this$add, t);
     }
-    pill($this$add, tierLabel(RaidView_getInstance(), RaidView_getInstance().x29_1), 'var(--tonal)', 'var(--tonal-text)');
+    pill($this$add, tierLabel(RaidView_getInstance(), RaidView_getInstance().s2a_1), 'var(--tonal)', 'var(--tonal-text)');
     return Unit_instance;
   };
 }
 function RaidView$bossCard$lambda$lambda$lambda($s) {
   return function ($this$add) {
-    add_0($this$add, 'div', 'name', (RaidView_getInstance().y29_1 ? 'Crypto-' : '') + $s.a1e_1);
+    add_0($this$add, 'div', 'name', (RaidView_getInstance().t2a_1 ? 'Crypto-' : '') + $s.a1e_1);
     add_0($this$add, 'div', 'pills', VOID, RaidView$bossCard$lambda$lambda$lambda$lambda($s));
     return Unit_instance;
   };
 }
 function RaidView$bossCard$lambda$lambda($s) {
   return function ($this$add) {
-    sprite($this$add, $s, 64, RaidView_getInstance().y29_1 ? Variant_SHADOW_getInstance() : Variant_NORMAL_getInstance());
+    sprite($this$add, $s, 64, RaidView_getInstance().t2a_1 ? Variant_SHADOW_getInstance() : Variant_NORMAL_getInstance());
     add_0($this$add, 'div', 'grow', VOID, RaidView$bossCard$lambda$lambda$lambda($s));
     return Unit_instance;
   };
@@ -4885,7 +5187,7 @@ function RaidView$bossCard$lambda$lambda_1($weak) {
       var _destruct__k2r9zo = _iterator__ex2g4s.k();
       var t = _destruct__k2r9zo.i9();
       var eff = _destruct__k2r9zo.j9();
-      var tmp0_elvis_lhs = Store_getInstance().k26().w1e_1.x1(t);
+      var tmp0_elvis_lhs = Store_getInstance().z26().w1e_1.x1(t);
       pill($this$add, (tmp0_elvis_lhs == null ? t : tmp0_elvis_lhs) + (eff > 2.0 ? ' \xD72' : ''), typeColor(t));
     }
     return Unit_instance;
@@ -4895,7 +5197,7 @@ function RaidView$bossCard$lambda($s) {
   return function ($this$add) {
     add_0($this$add, 'div', 'line', VOID, RaidView$bossCard$lambda$lambda($s));
     // Inline function 'kotlin.collections.map' call
-    var this_0 = Store_getInstance().k26().w1e_1.y1();
+    var this_0 = Store_getInstance().z26().w1e_1.y1();
     // Inline function 'kotlin.collections.mapTo' call
     var destination = ArrayList_init_$Create$_0(collectionSizeOrDefault(this_0, 10));
     var _iterator__ex2g4s = this_0.i();
@@ -4988,7 +5290,7 @@ function RaidView$attackerRow$lambda($rank, $a, $mine, $best) {
 }
 function RaidView$typeMeta$lambda($this$add) {
   // Inline function 'kotlin.collections.sortedBy' call
-  var this_0 = Store_getInstance().k26().w1e_1.a2();
+  var this_0 = Store_getInstance().z26().w1e_1.a2();
   // Inline function 'kotlin.comparisons.compareBy' call
   var tmp = RaidView$typeMeta$lambda$lambda;
   var tmp$ret$1 = new sam$kotlin_Comparator$0_6(tmp);
@@ -4999,7 +5301,7 @@ function RaidView$typeMeta$lambda($this$add) {
     var id = _destruct__k2r9zo.t1();
     // Inline function 'kotlin.collections.component2' call
     var label = _destruct__k2r9zo.u1();
-    var tmp_0 = id === RaidView_getInstance().c2a_1 ? 'pill type on' : 'pill type';
+    var tmp_0 = id === RaidView_getInstance().x2a_1 ? 'pill type on' : 'pill type';
     add_0($this$add, 'span', tmp_0, label, RaidView$typeMeta$lambda$lambda_0(id));
   }
   return Unit_instance;
@@ -5012,8 +5314,8 @@ function RaidView$typeMeta$lambda$lambda(a, b) {
 }
 function RaidView$typeMeta$lambda$lambda$lambda($id) {
   return function (it) {
-    RaidView_getInstance().c2a_1 = $id;
-    App_getInstance().c27();
+    RaidView_getInstance().x2a_1 = $id;
+    App_getInstance().v27();
     return Unit_instance;
   };
 }
@@ -5025,17 +5327,17 @@ function RaidView$typeMeta$lambda$lambda_0($id) {
   };
 }
 function RaidView$typeMeta$slambda($t, resultContinuation) {
-  this.c2e_1 = $t;
+  this.x2e_1 = $t;
   CoroutineImpl.call(this, resultContinuation);
 }
-protoOf(RaidView$typeMeta$slambda).d28 = function ($this$launch, $completion) {
-  var tmp = this.e28($this$launch, $completion);
+protoOf(RaidView$typeMeta$slambda).y28 = function ($this$launch, $completion) {
+  var tmp = this.z28($this$launch, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
 protoOf(RaidView$typeMeta$slambda).l8 = function (p1, $completion) {
-  return this.d28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  return this.y28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
 };
 protoOf(RaidView$typeMeta$slambda).d8 = function () {
   var suspendResult = this.x7_1;
@@ -5053,12 +5355,12 @@ protoOf(RaidView$typeMeta$slambda).d8 = function () {
 
           continue $sm;
         case 1:
-          var tmp0 = RaidView_getInstance().g2a_1;
-          var tmp2 = this.c2e_1;
-          var value = Store_getInstance().t2d().m1p(this.c2e_1, 50);
+          var tmp0 = RaidView_getInstance().b2b_1;
+          var tmp2 = this.x2e_1;
+          var value = Store_getInstance().o2e().m1p(this.x2e_1, 50);
           tmp0.b2(tmp2, value);
-          if (App_getInstance().w26_1.equals(Tab_RAIDS_getInstance()) && RaidView_getInstance().v29_1 === 1) {
-            App_getInstance().c27();
+          if (App_getInstance().p27_1.equals(Tab_RAIDS_getInstance()) && RaidView_getInstance().q2a_1 === 1) {
+            App_getInstance().v27();
           }
 
           return Unit_instance;
@@ -5076,20 +5378,20 @@ protoOf(RaidView$typeMeta$slambda).d8 = function () {
     }
    while (true);
 };
-protoOf(RaidView$typeMeta$slambda).e28 = function ($this$launch, completion) {
-  var i = new RaidView$typeMeta$slambda(this.c2e_1, completion);
-  i.d2e_1 = $this$launch;
+protoOf(RaidView$typeMeta$slambda).z28 = function ($this$launch, completion) {
+  var i = new RaidView$typeMeta$slambda(this.x2e_1, completion);
+  i.y2e_1 = $this$launch;
   return i;
 };
 function RaidView$typeMeta$slambda_0($t, resultContinuation) {
   var i = new RaidView$typeMeta$slambda($t, resultContinuation);
   return constructCallableReference(function ($this$launch, $completion) {
-    return i.d28($this$launch, $completion);
+    return i.y28($this$launch, $completion);
   }, 1);
 }
 function RaidView$typeMeta$lambda_0($list, $best) {
   return function ($this$add) {
-    add_0($this$add, 'div', 'title', 'Beste ' + Store_getInstance().k26().w1e_1.x1(RaidView_getInstance().c2a_1) + '-Angreifer');
+    add_0($this$add, 'div', 'title', 'Beste ' + Store_getInstance().z26().w1e_1.x1(RaidView_getInstance().x2a_1) + '-Angreifer');
     var tmp0 = $list;
     var tmp$ret$0;
     $l$block: {
@@ -5131,23 +5433,23 @@ function RaidView$typeMeta$lambda_0($list, $best) {
 }
 function RaidView() {
   RaidView_instance = this;
-  this.v29_1 = 0;
-  this.w29_1 = null;
-  this.x29_1 = 5;
-  this.y29_1 = false;
-  this.z29_1 = Weather_NONE_getInstance();
-  this.a2a_1 = '';
-  this.b2a_1 = false;
-  this.c2a_1 = 'fighting';
-  this.d2a_1 = '';
-  this.e2a_1 = null;
-  this.f2a_1 = null;
-  this.g2a_1 = HashMap_init_$Create$();
-  this.h2a_1 = -1;
+  this.q2a_1 = 0;
+  this.r2a_1 = null;
+  this.s2a_1 = 5;
+  this.t2a_1 = false;
+  this.u2a_1 = Weather_NONE_getInstance();
+  this.v2a_1 = '';
+  this.w2a_1 = false;
+  this.x2a_1 = 'fighting';
+  this.y2a_1 = '';
+  this.z2a_1 = null;
+  this.a2b_1 = null;
+  this.b2b_1 = HashMap_init_$Create$();
+  this.c2b_1 = -1;
 }
-protoOf(RaidView).i28 = function (host) {
+protoOf(RaidView).e29 = function (host) {
   add_0(host, 'div', 'chips', VOID, RaidView$render$lambda);
-  if (this.v29_1 === 0) {
+  if (this.q2a_1 === 0) {
     counters(this, host);
   } else {
     typeMeta(this, host);
@@ -5160,16 +5462,16 @@ function RaidView_getInstance() {
   return RaidView_instance;
 }
 function Draft(id, label, speciesId, cp, hp, iv, variant) {
-  this.i27_1 = id;
-  this.j27_1 = label;
-  this.k27_1 = speciesId;
-  this.l27_1 = cp;
-  this.m27_1 = hp;
-  this.n27_1 = iv;
-  this.o27_1 = variant;
+  this.c28_1 = id;
+  this.d28_1 = label;
+  this.e28_1 = speciesId;
+  this.f28_1 = cp;
+  this.g28_1 = hp;
+  this.h28_1 = iv;
+  this.i28_1 = variant;
 }
 function _get_bundled__dqyuy7($this) {
-  var tmp = $this.b26_1;
+  var tmp = $this.o26_1;
   if (!(tmp == null))
     return tmp;
   else {
@@ -5177,15 +5479,18 @@ function _get_bundled__dqyuy7($this) {
   }
 }
 function use($this, d) {
-  $this.n25_1 = d;
-  $this.o25_1 = new Analyzer(d);
-  $this.p25_1 = new ScanResolver(d);
-  $this.q25_1 = new TeamBuilder(d, $this.f28());
-  $this.c26_1 = new PveCalc(d);
-  $this.v25_1 = $this.v25_1 + 1 | 0;
+  $this.a26_1 = d;
+  $this.b26_1 = new Analyzer(d);
+  $this.c26_1 = new ScanResolver(d);
+  $this.d26_1 = new TeamBuilder(d, $this.a29());
+  $this.p26_1 = new PveCalc(d);
+  $this.i26_1 = $this.i26_1 + 1 | 0;
 }
 function persist($this) {
-  return localStorage.setItem('pogo.sammlung', CollectionFile_getInstance().i1k($this.r25_1));
+  return localStorage.setItem('pogo.sammlung', CollectionFile_getInstance().i1k($this.e26_1));
+}
+function persistTrash($this) {
+  return localStorage.setItem('pogo.papierkorb', Trash_getInstance().y1t($this.r26_1));
 }
 function fetchText($this, url, $completion) {
   var tmp = new $fetchTextCOROUTINE$($this, url, $completion);
@@ -5227,7 +5532,7 @@ function applyCached($this, $completion) {
 function refreshFormats($this) {
   var tmp = Companion_getInstance_0().i1m_1;
   // Inline function 'kotlin.collections.map' call
-  var this_0 = $this.f26_1;
+  var this_0 = $this.u26_1;
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$_0(collectionSizeOrDefault(this_0, 10));
   var _iterator__ex2g4s = this_0.i();
@@ -5236,10 +5541,10 @@ function refreshFormats($this) {
     var tmp$ret$2 = item.i1l();
     destination.h(tmp$ret$2);
   }
-  var all = plus(plus(tmp, destination), $this.e26_1);
-  $this.i26_1 = GblSchedule_getInstance().q1n($this.g26_1, (new Date()).toISOString());
+  var all = plus(plus(tmp, destination), $this.t26_1);
+  $this.x26_1 = GblSchedule_getInstance().q1n($this.v26_1, (new Date()).toISOString());
   var tmp_0 = $this;
-  var tmp0_safe_receiver = $this.i26_1;
+  var tmp0_safe_receiver = $this.x26_1;
   // Inline function 'kotlin.collections.orEmpty' call
   var tmp0_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.e1n();
   // Inline function 'kotlin.collections.map' call
@@ -5252,10 +5557,10 @@ function refreshFormats($this) {
     var tmp$ret$6 = to(item_0, GblSchedule_getInstance().r1n(item_0, all));
     destination_0.h(tmp$ret$6);
   }
-  tmp_0.j26_1 = destination_0;
+  tmp_0.y26_1 = destination_0;
   var tmp_1 = $this;
   // Inline function 'kotlin.collections.mapNotNull' call
-  var tmp0 = $this.j26_1;
+  var tmp0 = $this.y26_1;
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination_1 = ArrayList_init_$Create$();
   // Inline function 'kotlin.collections.forEach' call
@@ -5282,19 +5587,65 @@ function refreshFormats($this) {
       list.h(e);
     }
   }
-  tmp_1.t25_1 = list;
+  tmp_1.g26_1 = list;
 }
-function Store$delete$lambda($p) {
+function sam$kotlin_Comparator$0_7(function_0) {
+  this.t2g_1 = function_0;
+}
+protoOf(sam$kotlin_Comparator$0_7).qc = function (a, b) {
+  return this.t2g_1(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_7).compare = function (a, b) {
+  return this.qc(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_7).p2 = function () {
+  return this.t2g_1;
+};
+protoOf(sam$kotlin_Comparator$0_7).equals = function (other) {
+  var tmp;
+  if (!(other == null) ? isInterface(other, Comparator) : false) {
+    var tmp_0;
+    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
+      tmp_0 = equals(this.p2(), other.p2());
+    } else {
+      tmp_0 = false;
+    }
+    tmp = tmp_0;
+  } else {
+    tmp = false;
+  }
+  return tmp;
+};
+protoOf(sam$kotlin_Comparator$0_7).hashCode = function () {
+  return hashCode(this.p2());
+};
+function Store$deleteMany$lambda($uids) {
   return function (it) {
-    return equalsLong(it.h1j_1, $p.h1j_1);
+    return $uids.c1(it.h1j_1);
+  };
+}
+function Store$restore$lambda($uids) {
+  return function (it) {
+    return $uids.c1(it.r1t_1.h1j_1);
+  };
+}
+function Store$restore$lambda_0(a, b) {
+  // Inline function 'kotlin.comparisons.compareValuesBy' call
+  var tmp = b.h1j_1;
+  var tmp$ret$2 = a.h1j_1;
+  return compareValues(tmp, tmp$ret$2);
+}
+function Store$purge$lambda($uids) {
+  return function (it) {
+    return $uids.c1(it.r1t_1.h1j_1);
   };
 }
 function addUnclear$key(x) {
-  return '' + x.k27_1 + '|' + x.l27_1 + '|' + x.m27_1 + '|' + toString_1(x.n27_1);
+  return '' + x.e28_1 + '|' + x.f28_1 + '|' + x.g28_1 + '|' + toString_1(x.h28_1);
 }
 function $initCOROUTINE$(_this__u8e3s4, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.g2g_1 = _this__u8e3s4;
+  this.c2h_1 = _this__u8e3s4;
 }
 protoOf($initCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -5304,9 +5655,9 @@ protoOf($initCOROUTINE$).d8 = function () {
       switch (tmp) {
         case 0:
           this.w7_1 = 5;
-          this.j2g_1 = Companion_getInstance_1();
+          this.f2h_1 = Companion_getInstance_1();
           this.v7_1 = 1;
-          suspendResult = fetchText(this.g2g_1, 'gamedata.json', this);
+          suspendResult = fetchText(this.c2h_1, 'gamedata.json', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5314,11 +5665,11 @@ protoOf($initCOROUTINE$).d8 = function () {
           continue $sm;
         case 1:
           var ARGUMENT = suspendResult;
-          var ARGUMENT_0 = this.j2g_1.hi(ARGUMENT);
-          this.g2g_1.b26_1 = ARGUMENT_0;
-          use(this.g2g_1, _get_bundled__dqyuy7(this.g2g_1));
-          this.g2g_1.u25_1 = _get_bundled__dqyuy7(this.g2g_1).p1e_1;
-          refreshFormats(this.g2g_1);
+          var ARGUMENT_0 = this.f2h_1.hi(ARGUMENT);
+          this.c2h_1.o26_1 = ARGUMENT_0;
+          use(this.c2h_1, _get_bundled__dqyuy7(this.c2h_1));
+          this.c2h_1.h26_1 = _get_bundled__dqyuy7(this.c2h_1).p1e_1;
+          refreshFormats(this.c2h_1);
           var tmp0_safe_receiver = localStorage.getItem('pogo.sammlung');
           if (tmp0_safe_receiver == null)
             null;
@@ -5344,13 +5695,28 @@ protoOf($initCOROUTINE$).d8 = function () {
             if (tmp0_safe_receiver_0 == null) {
               tmp_2 = null;
             } else {
-              tmp_2 = Store_getInstance().r25_1.p(tmp0_safe_receiver_0);
+              tmp_2 = Store_getInstance().e26_1.p(tmp0_safe_receiver_0);
             }
           }
 
-          var this_1 = this.g2g_1;
+          var tmp1_safe_receiver = localStorage.getItem('pogo.papierkorb');
+          var tmp_3;
+          if (tmp1_safe_receiver == null) {
+            tmp_3 = null;
+          } else {
+            tmp_3 = Trash_getInstance().hi(tmp1_safe_receiver);
+          }
+
+          var tmp0_elvis_lhs = tmp_3;
+          var stored = tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
+          this.c2h_1.r26_1.p(Trash_getInstance().z1t(stored, this.c2h_1.d29()));
+          if (!(this.c2h_1.r26_1.l() === stored.l())) {
+            persistTrash(this.c2h_1);
+          }
+
+          var this_1 = this.c2h_1;
           this.w7_1 = 3;
-          this.i2g_1 = Companion_instance;
+          this.e2h_1 = Companion_instance;
           this.v7_1 = 2;
           suspendResult = applyCached(this_1, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
@@ -5359,19 +5725,19 @@ protoOf($initCOROUTINE$).d8 = function () {
 
           continue $sm;
         case 2:
-          var tmp_3 = this;
-          this.i2g_1;
-          tmp_3.h2g_1 = _Result___init__impl__xyqfz8(Unit_instance);
+          var tmp_4 = this;
+          this.e2h_1;
+          tmp_4.d2h_1 = _Result___init__impl__xyqfz8(Unit_instance);
           this.w7_1 = 5;
           this.v7_1 = 4;
           continue $sm;
         case 3:
           this.w7_1 = 5;
-          var tmp_4 = this.y7_1;
-          if (tmp_4 instanceof Error) {
+          var tmp_5 = this.y7_1;
+          if (tmp_5 instanceof Error) {
             var e_0 = this.y7_1;
-            var tmp_5 = this;
-            tmp_5.h2g_1 = _Result___init__impl__xyqfz8(createFailure(e_0));
+            var tmp_6 = this;
+            tmp_6.d2h_1 = _Result___init__impl__xyqfz8(createFailure(e_0));
             this.v7_1 = 4;
             continue $sm;
           } else {
@@ -5397,8 +5763,8 @@ protoOf($initCOROUTINE$).d8 = function () {
 };
 function $fetchTextCOROUTINE$(_this__u8e3s4, url, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.m2e_1 = _this__u8e3s4;
-  this.n2e_1 = url;
+  this.h2f_1 = _this__u8e3s4;
+  this.i2f_1 = url;
 }
 protoOf($fetchTextCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -5409,7 +5775,7 @@ protoOf($fetchTextCOROUTINE$).d8 = function () {
         case 0:
           this.w7_1 = 3;
           this.v7_1 = 1;
-          suspendResult = await_0(window.fetch(this.n2e_1), this);
+          suspendResult = await_0(window.fetch(this.i2f_1), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5418,7 +5784,7 @@ protoOf($fetchTextCOROUTINE$).d8 = function () {
         case 1:
           var response = suspendResult;
           if (!response.ok) {
-            var message = this.n2e_1 + ': ' + response.status;
+            var message = this.i2f_1 + ': ' + response.status;
             throw IllegalArgumentException_init_$Create$(toString(message));
           }
 
@@ -5447,9 +5813,9 @@ protoOf($fetchTextCOROUTINE$).d8 = function () {
 };
 function $cachePutCOROUTINE$(_this__u8e3s4, name, text, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.w2e_1 = _this__u8e3s4;
-  this.x2e_1 = name;
-  this.y2e_1 = text;
+  this.r2f_1 = _this__u8e3s4;
+  this.s2f_1 = name;
+  this.t2f_1 = text;
 }
 protoOf($cachePutCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -5460,7 +5826,7 @@ protoOf($cachePutCOROUTINE$).d8 = function () {
         case 0:
           this.w7_1 = 3;
           this.v7_1 = 1;
-          suspendResult = cache(this.w2e_1, this);
+          suspendResult = cache(this.r2f_1, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5477,7 +5843,7 @@ protoOf($cachePutCOROUTINE$).d8 = function () {
 
           var c = tmp_0;
           this.v7_1 = 2;
-          var tmp_1 = c.put('/pogo-daten/' + this.x2e_1, new Response(this.y2e_1));
+          var tmp_1 = c.put('/pogo-daten/' + this.s2f_1, new Response(this.t2f_1));
           suspendResult = await_0(tmp_1 instanceof Promise ? tmp_1 : THROW_CCE(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
@@ -5502,8 +5868,8 @@ protoOf($cachePutCOROUTINE$).d8 = function () {
 };
 function $cacheGetCOROUTINE$(_this__u8e3s4, name, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.h2f_1 = _this__u8e3s4;
-  this.i2f_1 = name;
+  this.c2g_1 = _this__u8e3s4;
+  this.d2g_1 = name;
 }
 protoOf($cacheGetCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -5514,7 +5880,7 @@ protoOf($cacheGetCOROUTINE$).d8 = function () {
         case 0:
           this.w7_1 = 4;
           this.v7_1 = 1;
-          suspendResult = cache(this.h2f_1, this);
+          suspendResult = cache(this.c2g_1, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5531,7 +5897,7 @@ protoOf($cacheGetCOROUTINE$).d8 = function () {
 
           var c = tmp_0;
           this.v7_1 = 2;
-          var tmp_1 = c.match('/pogo-daten/' + this.i2f_1);
+          var tmp_1 = c.match('/pogo-daten/' + this.d2g_1);
           suspendResult = await_0(tmp_1 instanceof Promise ? tmp_1 : THROW_CCE(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
@@ -5574,7 +5940,7 @@ protoOf($cacheGetCOROUTINE$).d8 = function () {
 };
 function $applyCachedCOROUTINE$(_this__u8e3s4, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.r2f_1 = _this__u8e3s4;
+  this.m2g_1 = _this__u8e3s4;
 }
 protoOf($applyCachedCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -5584,20 +5950,20 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
       switch (tmp) {
         case 0:
           this.w7_1 = 9;
-          var this_0 = this.r2f_1.y25_1;
+          var this_0 = this.m2g_1.l26_1;
           var result = LinkedHashMap_init_$Create$_0(coerceAtLeast(mapCapacity(collectionSizeOrDefault(this_0, 10)), 16));
-          this.v2f_1 = result;
-          this.x2f_1 = this_0.i();
+          this.q2g_1 = result;
+          this.s2g_1 = this_0.i();
           this.v7_1 = 1;
           continue $sm;
         case 1:
-          if (!this.x2f_1.j()) {
+          if (!this.s2g_1.j()) {
             this.v7_1 = 3;
             continue $sm;
           }
 
-          this.w2f_1 = this.x2f_1.k();
-          var cp = this.w2f_1;
+          this.r2g_1 = this.s2g_1.k();
+          var cp = this.r2g_1;
           this.v7_1 = 2;
           suspendResult = cacheGet(Store_getInstance(), 'rankings-' + cp, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
@@ -5615,11 +5981,11 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
           }
 
           var ARGUMENT = tmp_0;
-          this.v2f_1.b2(this.w2f_1, ARGUMENT);
+          this.q2g_1.b2(this.r2g_1, ARGUMENT);
           this.v7_1 = 1;
           continue $sm;
         case 3:
-          var loaded = this.v2f_1;
+          var loaded = this.q2g_1;
           var tmp0 = loaded.z1();
           var tmp$ret$0;
           l$ret$1: do {
@@ -5647,7 +6013,7 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
           if (tmp$ret$0)
             return Unit_instance;
           var tmp_2 = this;
-          var tmp_3 = _get_bundled__dqyuy7(this.r2f_1);
+          var tmp_3 = _get_bundled__dqyuy7(this.m2g_1);
           var destination = LinkedHashMap_init_$Create$_0(mapCapacity(loaded.l()));
           var _iterator__ex2g4s_0 = loaded.a2().i();
           while (_iterator__ex2g4s_0.j()) {
@@ -5656,9 +6022,9 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
             destination.b2(tmp_4, ensureNotNull(element_0.u1()));
           }
 
-          tmp_2.u2f_1 = tmp_3.c1m(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, destination);
+          tmp_2.p2g_1 = tmp_3.c1m(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, destination);
           this.v7_1 = 4;
-          suspendResult = cacheGet(this.r2f_1, 'gamemaster', this);
+          suspendResult = cacheGet(this.m2g_1, 'gamemaster', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5672,7 +6038,7 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
             Store_getInstance();
             var tmp_5;
             try {
-              var value = PvpokeImport_getInstance().v1p(this.u2f_1, tmp0_safe_receiver_0);
+              var value = PvpokeImport_getInstance().v1p(this.p2g_1, tmp0_safe_receiver_0);
               tmp_5 = _Result___init__impl__xyqfz8(value);
             } catch ($p) {
               var tmp_6;
@@ -5690,15 +6056,15 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
             if (tmp0_safe_receiver_1 == null) {
               tmp_7 = null;
             } else {
-              this.u2f_1 = tmp0_safe_receiver_1;
+              this.p2g_1 = tmp0_safe_receiver_1;
               tmp_7 = Unit_instance;
             }
           }
 
-          use(this.r2f_1, this.u2f_1);
-          this.r2f_1.a26_1.e2();
+          use(this.m2g_1, this.p2g_1);
+          this.m2g_1.n26_1.e2();
           this.v7_1 = 5;
-          suspendResult = cacheGet(this.r2f_1, 'formats', this);
+          suspendResult = cacheGet(this.m2g_1, 'formats', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5713,7 +6079,7 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
             var this_2 = Store_getInstance();
             var tmp_9;
             try {
-              var value_0 = Default_getInstance().t11(this_2.z25_1, tmp1_safe_receiver);
+              var value_0 = Default_getInstance().t11(this_2.m26_1, tmp1_safe_receiver);
               tmp_9 = _Result___init__impl__xyqfz8(value_0);
             } catch ($p_0) {
               var tmp_10;
@@ -5730,11 +6096,11 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
           }
 
           var cups = tmp_8;
-          var tmp_11 = this.r2f_1;
-          tmp_11.e26_1 = cups == null ? emptyList() : cups;
-          this.t2f_1 = GblSchedule_getInstance();
+          var tmp_11 = this.m2g_1;
+          tmp_11.t26_1 = cups == null ? emptyList() : cups;
+          this.o2g_1 = GblSchedule_getInstance();
           this.v7_1 = 6;
-          suspendResult = cacheGet(this.r2f_1, 'gbl', this);
+          suspendResult = cacheGet(this.m2g_1, 'gbl', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5742,11 +6108,11 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
           continue $sm;
         case 6:
           var ARGUMENT_0 = suspendResult;
-          var ARGUMENT_1 = this.t2f_1.w1k(ARGUMENT_0);
-          this.r2f_1.g26_1 = ARGUMENT_1;
-          this.s2f_1 = RaidList_getInstance();
+          var ARGUMENT_1 = this.o2g_1.w1k(ARGUMENT_0);
+          this.m2g_1.v26_1 = ARGUMENT_1;
+          this.n2g_1 = RaidList_getInstance();
           this.v7_1 = 7;
-          suspendResult = cacheGet(this.r2f_1, 'raids', this);
+          suspendResult = cacheGet(this.m2g_1, 'raids', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5754,10 +6120,10 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
           continue $sm;
         case 7:
           var ARGUMENT_2 = suspendResult;
-          var ARGUMENT_3 = this.s2f_1.w1k(ARGUMENT_2);
-          this.r2f_1.d26_1 = ARGUMENT_3;
+          var ARGUMENT_3 = this.n2g_1.w1k(ARGUMENT_2);
+          this.m2g_1.q26_1 = ARGUMENT_3;
           this.v7_1 = 8;
-          suspendResult = cacheGet(this.r2f_1, 'gamemaster', this);
+          suspendResult = cacheGet(this.m2g_1, 'gamemaster', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5790,11 +6156,11 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
 
           var tmp0_elvis_lhs = tmp_12;
           var ARGUMENT_4 = tmp0_elvis_lhs == null ? emptyMap() : tmp0_elvis_lhs;
-          this.r2f_1.h26_1 = ARGUMENT_4;
-          refreshFormats(this.r2f_1);
-          var tmp_15 = this.r2f_1;
+          this.m2g_1.w26_1 = ARGUMENT_4;
+          refreshFormats(this.m2g_1);
+          var tmp_15 = this.m2g_1;
           var tmp3_elvis_lhs = localStorage.getItem('pogo.rankingsDate');
-          tmp_15.u25_1 = tmp3_elvis_lhs == null ? _get_bundled__dqyuy7(this.r2f_1).p1e_1 : tmp3_elvis_lhs;
+          tmp_15.h26_1 = tmp3_elvis_lhs == null ? _get_bundled__dqyuy7(this.m2g_1).p1e_1 : tmp3_elvis_lhs;
           return Unit_instance;
         case 9:
           throw this.y7_1;
@@ -5812,8 +6178,8 @@ protoOf($applyCachedCOROUTINE$).d8 = function () {
 };
 function $downloadRankingsCOROUTINE$(_this__u8e3s4, progress, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.s2g_1 = _this__u8e3s4;
-  this.t2g_1 = progress;
+  this.o2h_1 = _this__u8e3s4;
+  this.p2h_1 = progress;
 }
 protoOf($downloadRankingsCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -5823,28 +6189,28 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
       switch (tmp) {
         case 0:
           this.w7_1 = 28;
-          this.p2h_1 = mapOf([to('1500', 'Superliga'), to('2500', 'Hyperliga'), to('10000', 'Meisterliga')]);
-          this.o2h_1 = 0;
-          var this_0 = this.s2g_1.y25_1;
+          this.l2i_1 = mapOf([to('1500', 'Superliga'), to('2500', 'Hyperliga'), to('10000', 'Meisterliga')]);
+          this.k2i_1 = 0;
+          var this_0 = this.o2h_1.l26_1;
           var result = LinkedHashMap_init_$Create$_0(coerceAtLeast(mapCapacity(collectionSizeOrDefault(this_0, 10)), 16));
-          this.l2h_1 = result;
-          this.q2h_1 = this_0.i();
+          this.h2i_1 = result;
+          this.m2i_1 = this_0.i();
           this.v7_1 = 1;
           continue $sm;
         case 1:
-          if (!this.q2h_1.j()) {
+          if (!this.m2i_1.j()) {
             this.v7_1 = 3;
             continue $sm;
           }
 
-          this.m2h_1 = this.q2h_1.k();
-          this.n2h_1 = this.m2h_1;
-          var tmp_0 = 'Rangliste ' + this.p2h_1.x1(this.n2h_1);
-          var _unary__edvuaz = this.o2h_1;
-          this.o2h_1 = _unary__edvuaz + 1 | 0;
-          this.t2g_1(tmp_0, 0.08 * _unary__edvuaz);
+          this.i2i_1 = this.m2i_1.k();
+          this.j2i_1 = this.i2i_1;
+          var tmp_0 = 'Rangliste ' + this.l2i_1.x1(this.j2i_1);
+          var _unary__edvuaz = this.k2i_1;
+          this.k2i_1 = _unary__edvuaz + 1 | 0;
+          this.p2h_1(tmp_0, 0.08 * _unary__edvuaz);
           this.v7_1 = 2;
-          suspendResult = fetchText(Store_getInstance(), 'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall/rankings-' + this.n2h_1 + '.json', this);
+          suspendResult = fetchText(Store_getInstance(), 'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall/rankings-' + this.j2i_1 + '.json', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5853,38 +6219,38 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
         case 2:
           var this_1 = suspendResult;
           if (!(Companion_getInstance_2().j1m(this_1).l() > 50)) {
-            var message = 'Rangliste ' + this.n2h_1 + ' ist unvollst\xE4ndig';
+            var message = 'Rangliste ' + this.j2i_1 + ' ist unvollst\xE4ndig';
             throw IllegalArgumentException_init_$Create$(toString(message));
           }
 
-          this.l2h_1.b2(this.m2h_1, this_1);
+          this.h2i_1.b2(this.i2i_1, this_1);
           this.v7_1 = 1;
           continue $sm;
         case 3:
-          this.x2g_1 = this.l2h_1;
-          this.t2g_1('Spieldaten (Arten und Attacken)', 0.24);
+          this.t2h_1 = this.h2i_1;
+          this.p2h_1('Spieldaten (Arten und Attacken)', 0.24);
           this.v7_1 = 4;
-          suspendResult = fetchText(this.s2g_1, 'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamemaster.json', this);
+          suspendResult = fetchText(this.o2h_1, 'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/gamemaster.json', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
 
           continue $sm;
         case 4:
-          this.v2g_1 = suspendResult;
-          if (!(PvpokeImport_getInstance().v1p(_get_bundled__dqyuy7(this.s2g_1), this.v2g_1).u1e_1.l() > 500)) {
+          this.r2h_1 = suspendResult;
+          if (!(PvpokeImport_getInstance().v1p(_get_bundled__dqyuy7(this.o2h_1), this.r2h_1).u1e_1.l() > 500)) {
             var message_0 = 'Spieldatei ist unvollst\xE4ndig';
             throw IllegalArgumentException_init_$Create$(toString(message_0));
           }
 
-          this.t2g_1('Spielplan der Kampfliga', 0.3);
-          var this_2 = this.s2g_1;
+          this.p2h_1('Spielplan der Kampfliga', 0.3);
+          var this_2 = this.o2h_1;
           this.w7_1 = 8;
-          this.i2h_1 = Companion_instance;
-          this.j2h_1 = this_2;
-          this.k2h_1 = GblSchedule_getInstance();
+          this.e2i_1 = Companion_instance;
+          this.f2i_1 = this_2;
+          this.g2i_1 = GblSchedule_getInstance();
           this.v7_1 = 5;
-          suspendResult = fetchText(this.j2h_1, 'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.min.json', this);
+          suspendResult = fetchText(this.f2i_1, 'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.min.json', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5892,10 +6258,10 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           continue $sm;
         case 5:
           var ARGUMENT = suspendResult;
-          var weeks = this.k2h_1.o1n(ARGUMENT);
+          var weeks = this.g2i_1.o1n(ARGUMENT);
           if (!weeks.r()) {
             this.v7_1 = 6;
-            suspendResult = cachePut(this.j2h_1, 'gbl', GblSchedule_getInstance().p1n(weeks), this);
+            suspendResult = cachePut(this.f2i_1, 'gbl', GblSchedule_getInstance().p1n(weeks), this);
             if (suspendResult === get_COROUTINE_SUSPENDED()) {
               return suspendResult;
             }
@@ -5910,8 +6276,8 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           continue $sm;
         case 7:
           var tmp_1 = this;
-          this.i2h_1;
-          tmp_1.h2h_1 = _Result___init__impl__xyqfz8(Unit_instance);
+          this.e2i_1;
+          tmp_1.d2i_1 = _Result___init__impl__xyqfz8(Unit_instance);
           this.w7_1 = 28;
           this.v7_1 = 9;
           continue $sm;
@@ -5921,7 +6287,7 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           if (tmp_2 instanceof Error) {
             var e = this.y7_1;
             var tmp_3 = this;
-            tmp_3.h2h_1 = _Result___init__impl__xyqfz8(createFailure(e));
+            tmp_3.d2i_1 = _Result___init__impl__xyqfz8(createFailure(e));
             this.v7_1 = 9;
             continue $sm;
           } else {
@@ -5930,14 +6296,14 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
 
         case 9:
           this.w7_1 = 28;
-          this.t2g_1('Aktuelle Raid-Bosse', 0.33);
-          var this_3 = this.s2g_1;
+          this.p2h_1('Aktuelle Raid-Bosse', 0.33);
+          var this_3 = this.o2h_1;
           this.w7_1 = 13;
-          this.e2h_1 = Companion_instance;
-          this.f2h_1 = this_3;
-          this.g2h_1 = RaidList_getInstance();
+          this.a2i_1 = Companion_instance;
+          this.b2i_1 = this_3;
+          this.c2i_1 = RaidList_getInstance();
           this.v7_1 = 10;
-          suspendResult = fetchText(this.f2h_1, 'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/raids.min.json', this);
+          suspendResult = fetchText(this.b2i_1, 'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/raids.min.json', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -5945,10 +6311,10 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           continue $sm;
         case 10:
           var ARGUMENT_0 = suspendResult;
-          var bosses = this.g2h_1.n1o(ARGUMENT_0, this.f2h_1.k26());
+          var bosses = this.c2i_1.n1o(ARGUMENT_0, this.b2i_1.z26());
           if (!bosses.r()) {
             this.v7_1 = 11;
-            suspendResult = cachePut(this.f2h_1, 'raids', RaidList_getInstance().m1o(bosses), this);
+            suspendResult = cachePut(this.b2i_1, 'raids', RaidList_getInstance().m1o(bosses), this);
             if (suspendResult === get_COROUTINE_SUSPENDED()) {
               return suspendResult;
             }
@@ -5963,8 +6329,8 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           continue $sm;
         case 12:
           var tmp_4 = this;
-          this.e2h_1;
-          tmp_4.d2h_1 = _Result___init__impl__xyqfz8(Unit_instance);
+          this.a2i_1;
+          tmp_4.z2h_1 = _Result___init__impl__xyqfz8(Unit_instance);
           this.w7_1 = 28;
           this.v7_1 = 14;
           continue $sm;
@@ -5974,7 +6340,7 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           if (tmp_5 instanceof Error) {
             var e_0 = this.y7_1;
             var tmp_6 = this;
-            tmp_6.d2h_1 = _Result___init__impl__xyqfz8(createFailure(e_0));
+            tmp_6.z2h_1 = _Result___init__impl__xyqfz8(createFailure(e_0));
             this.v7_1 = 14;
             continue $sm;
           } else {
@@ -5983,26 +6349,26 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
 
         case 14:
           this.w7_1 = 28;
-          this.u2g_1 = ArrayList_init_$Create$();
-          this.b2h_1 = Companion_getInstance_0().j1m(this.v2g_1);
-          this.c2h_1 = withIndex(this.b2h_1).i();
+          this.q2h_1 = ArrayList_init_$Create$();
+          this.x2h_1 = Companion_getInstance_0().j1m(this.r2h_1);
+          this.y2h_1 = withIndex(this.x2h_1).i();
           this.v7_1 = 15;
           continue $sm;
         case 15:
-          if (!this.c2h_1.j()) {
+          if (!this.y2h_1.j()) {
             this.v7_1 = 21;
             continue $sm;
           }
 
-          var _destruct__k2r9zo = this.c2h_1.k();
+          var _destruct__k2r9zo = this.y2h_1.k();
           var i = _destruct__k2r9zo.i9();
-          this.y2g_1 = _destruct__k2r9zo.j9();
-          this.t2g_1('Sonderliga ' + (i + 1 | 0) + ' von ' + this.b2h_1.l() + ': ' + this.y2g_1.y1k_1, 0.35 + 0.6 * i / coerceAtLeast(this.b2h_1.l(), 1));
-          var this_4 = this.s2g_1;
+          this.u2h_1 = _destruct__k2r9zo.j9();
+          this.p2h_1('Sonderliga ' + (i + 1 | 0) + ' von ' + this.x2h_1.l() + ': ' + this.u2h_1.y1k_1, 0.35 + 0.6 * i / coerceAtLeast(this.x2h_1.l(), 1));
+          var this_4 = this.o2h_1;
           this.w7_1 = 17;
-          this.a2h_1 = Companion_instance;
+          this.w2h_1 = Companion_instance;
           this.v7_1 = 16;
-          suspendResult = fetchText(this_4, 'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/' + this.y2g_1.z1k_1 + '/overall/rankings-' + this.y2g_1.a1l_1 + '.json', this);
+          suspendResult = fetchText(this_4, 'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/' + this.u2h_1.z1k_1 + '/overall/rankings-' + this.u2h_1.a1l_1 + '.json', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -6011,8 +6377,8 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
         case 16:
           var tmp2 = suspendResult;
           var tmp_7 = this;
-          this.a2h_1;
-          tmp_7.z2g_1 = _Result___init__impl__xyqfz8(tmp2);
+          this.w2h_1;
+          tmp_7.v2h_1 = _Result___init__impl__xyqfz8(tmp2);
           this.w7_1 = 28;
           this.v7_1 = 18;
           continue $sm;
@@ -6022,7 +6388,7 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           if (tmp_8 instanceof Error) {
             var e_1 = this.y7_1;
             var tmp_9 = this;
-            tmp_9.z2g_1 = _Result___init__impl__xyqfz8(createFailure(e_1));
+            tmp_9.v2h_1 = _Result___init__impl__xyqfz8(createFailure(e_1));
             this.v7_1 = 18;
             continue $sm;
           } else {
@@ -6031,11 +6397,11 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
 
         case 18:
           this.w7_1 = 28;
-          var this_5 = this.z2g_1;
+          var this_5 = this.v2h_1;
           var text = _Result___get_isFailure__impl__jpiriv(this_5) ? null : _Result___get_value__impl__bjfvqg(this_5);
           var tmp_10;
           if (!(text == null)) {
-            this.s2g_1;
+            this.o2h_1;
             var tmp_11;
             try {
               var value = Companion_getInstance_2().j1m(text).l() >= 10;
@@ -6067,7 +6433,7 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
 
           if (tmp_10) {
             this.v7_1 = 19;
-            suspendResult = cachePut(this.s2g_1, 'cup-' + this.y2g_1.t1(), text, this);
+            suspendResult = cachePut(this.o2h_1, 'cup-' + this.u2h_1.t1(), text, this);
             if (suspendResult === get_COROUTINE_SUSPENDED()) {
               return suspendResult;
             }
@@ -6078,7 +6444,7 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           }
 
         case 19:
-          this.u2g_1.h(this.y2g_1);
+          this.q2h_1.h(this.u2h_1);
           this.v7_1 = 20;
           continue $sm;
         case 20:
@@ -6086,20 +6452,20 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           continue $sm;
         case 21:
           var tmp_13 = this;
-          tmp_13.w2g_1 = this.x2g_1.a2().i();
+          tmp_13.s2h_1 = this.t2h_1.a2().i();
           this.v7_1 = 22;
           continue $sm;
         case 22:
-          if (!this.w2g_1.j()) {
+          if (!this.s2h_1.j()) {
             this.v7_1 = 24;
             continue $sm;
           }
 
-          var _destruct__k2r9zo_0 = this.w2g_1.k();
+          var _destruct__k2r9zo_0 = this.s2h_1.k();
           var cp = _destruct__k2r9zo_0.t1();
           var text_0 = _destruct__k2r9zo_0.u1();
           this.v7_1 = 23;
-          suspendResult = cachePut(this.s2g_1, 'rankings-' + cp, text_0, this);
+          suspendResult = cachePut(this.o2h_1, 'rankings-' + cp, text_0, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -6110,7 +6476,7 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           continue $sm;
         case 24:
           this.v7_1 = 25;
-          suspendResult = cachePut(this.s2g_1, 'gamemaster', this.v2g_1, this);
+          suspendResult = cachePut(this.o2h_1, 'gamemaster', this.r2h_1, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -6118,7 +6484,7 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           continue $sm;
         case 25:
           this.v7_1 = 26;
-          suspendResult = cachePut(this.s2g_1, 'formats', Default_getInstance().s11(this.s2g_1.z25_1, this.u2g_1), this);
+          suspendResult = cachePut(this.o2h_1, 'formats', Default_getInstance().s11(this.o2h_1.m26_1, this.q2h_1), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -6126,16 +6492,16 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
           continue $sm;
         case 26:
           localStorage.setItem('pogo.rankingsDate', take((new Date()).toISOString(), 10));
-          this.t2g_1('Daten \xFCbernehmen', 0.97);
+          this.p2h_1('Daten \xFCbernehmen', 0.97);
           this.v7_1 = 27;
-          suspendResult = applyCached(this.s2g_1, this);
+          suspendResult = applyCached(this.o2h_1, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
 
           continue $sm;
         case 27:
-          this.t2g_1('Fertig', 1.0);
+          this.p2h_1('Fertig', 1.0);
           return Unit_instance;
         case 28:
           throw this.y7_1;
@@ -6153,8 +6519,8 @@ protoOf($downloadRankingsCOROUTINE$).d8 = function () {
 };
 function $rankingCOROUTINE$(_this__u8e3s4, format, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.z2h_1 = _this__u8e3s4;
-  this.a2i_1 = format;
+  this.v2i_1 = _this__u8e3s4;
+  this.w2i_1 = format;
 }
 protoOf($rankingCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -6164,19 +6530,19 @@ protoOf($rankingCOROUTINE$).d8 = function () {
       switch (tmp) {
         case 0:
           this.w7_1 = 2;
-          if (this.a2i_1.z1k_1 === 'all') {
-            var tmp0_elvis_lhs = this.z2h_1.k26().x1e_1.x1(this.a2i_1.a1l_1.toString());
+          if (this.w2i_1.z1k_1 === 'all') {
+            var tmp0_elvis_lhs = this.v2i_1.z26().x1e_1.x1(this.w2i_1.a1l_1.toString());
             return tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
           }
 
-          if (Companion_getInstance().x1k(this.a2i_1)) {
-            var tmp0 = this.z2h_1.f26_1;
+          if (Companion_getInstance().x1k(this.w2i_1)) {
+            var tmp0 = this.v2i_1.u26_1;
             var tmp$ret$0;
             l$ret$1: do {
               var _iterator__ex2g4s = tmp0.i();
               while (_iterator__ex2g4s.j()) {
                 var element = _iterator__ex2g4s.k();
-                if (element.e1l_1 === Companion_getInstance().b1l(this.a2i_1)) {
+                if (element.e1l_1 === Companion_getInstance().b1l(this.w2i_1)) {
                   tmp$ret$0 = element;
                   break l$ret$1;
                 }
@@ -6185,11 +6551,11 @@ protoOf($rankingCOROUTINE$).d8 = function () {
             }
              while (false);
             var tmp0_safe_receiver = tmp$ret$0;
-            var tmp0_elvis_lhs_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.k1l(this.z2h_1.k26());
+            var tmp0_elvis_lhs_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.k1l(this.v2i_1.z26());
             return tmp0_elvis_lhs_0 == null ? emptyList() : tmp0_elvis_lhs_0;
           }
 
-          var tmp1_safe_receiver = this.z2h_1.a26_1.x1(this.a2i_1.t1());
+          var tmp1_safe_receiver = this.v2i_1.n26_1.x1(this.w2i_1.t1());
           if (tmp1_safe_receiver == null)
             null;
           else {
@@ -6197,7 +6563,7 @@ protoOf($rankingCOROUTINE$).d8 = function () {
           }
 
           this.v7_1 = 1;
-          suspendResult = cacheGet(this.z2h_1, 'cup-' + this.a2i_1.t1(), this);
+          suspendResult = cacheGet(this.v2i_1, 'cup-' + this.w2i_1.t1(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -6230,8 +6596,8 @@ protoOf($rankingCOROUTINE$).d8 = function () {
 
           var tmp0_elvis_lhs_1 = tmp_0;
           var list = tmp0_elvis_lhs_1 == null ? emptyList() : tmp0_elvis_lhs_1;
-          var tmp0_0 = this.z2h_1.a26_1;
-          var key = this.a2i_1.t1();
+          var tmp0_0 = this.v2i_1.n26_1;
+          var key = this.w2i_1.t1();
           tmp0_0.b2(key, list);
           return list;
         case 2:
@@ -6250,79 +6616,81 @@ protoOf($rankingCOROUTINE$).d8 = function () {
 };
 function Store() {
   Store_instance = this;
-  this.r25_1 = ArrayList_init_$Create$();
-  this.s25_1 = ArrayList_init_$Create$();
-  this.t25_1 = Companion_getInstance_0().i1m_1;
-  this.u25_1 = '';
-  this.v25_1 = 0;
-  this.w25_1 = 'pogo.sammlung';
-  this.x25_1 = 'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data';
-  this.y25_1 = listOf(['1500', '2500', '10000']);
-  this.z25_1 = ListSerializer(Companion_getInstance_0().e1j());
-  this.a26_1 = HashMap_init_$Create$();
-  this.d26_1 = emptyList();
-  this.e26_1 = emptyList();
-  this.f26_1 = Companion_getInstance().w1k(localStorage.getItem('pogo.customCups'));
-  this.g26_1 = emptyList();
-  this.h26_1 = emptyMap();
-  this.i26_1 = null;
-  this.j26_1 = emptyList();
+  this.e26_1 = ArrayList_init_$Create$();
+  this.f26_1 = ArrayList_init_$Create$();
+  this.g26_1 = Companion_getInstance_0().i1m_1;
+  this.h26_1 = '';
+  this.i26_1 = 0;
+  this.j26_1 = 'pogo.sammlung';
+  this.k26_1 = 'https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data';
+  this.l26_1 = listOf(['1500', '2500', '10000']);
+  this.m26_1 = ListSerializer(Companion_getInstance_0().e1j());
+  this.n26_1 = HashMap_init_$Create$();
+  this.q26_1 = emptyList();
+  this.r26_1 = ArrayList_init_$Create$();
+  this.s26_1 = 'pogo.papierkorb';
+  this.t26_1 = emptyList();
+  this.u26_1 = Companion_getInstance().w1k(localStorage.getItem('pogo.customCups'));
+  this.v26_1 = emptyList();
+  this.w26_1 = emptyMap();
+  this.x26_1 = null;
+  this.y26_1 = emptyList();
 }
-protoOf(Store).k26 = function () {
-  var tmp = this.n25_1;
+protoOf(Store).z26 = function () {
+  var tmp = this.a26_1;
   if (!(tmp == null))
     return tmp;
   else {
     throwUninitializedPropertyAccessException('data');
   }
 };
-protoOf(Store).f28 = function () {
-  var tmp = this.o25_1;
+protoOf(Store).a29 = function () {
+  var tmp = this.b26_1;
   if (!(tmp == null))
     return tmp;
   else {
     throwUninitializedPropertyAccessException('analyzer');
   }
 };
-protoOf(Store).b2i = function () {
-  var tmp = this.p25_1;
+protoOf(Store).x2i = function () {
+  var tmp = this.c26_1;
   if (!(tmp == null))
     return tmp;
   else {
     throwUninitializedPropertyAccessException('resolver');
   }
 };
-protoOf(Store).p2c = function () {
-  var tmp = this.q25_1;
+protoOf(Store).k2d = function () {
+  var tmp = this.d26_1;
   if (!(tmp == null))
     return tmp;
   else {
     throwUninitializedPropertyAccessException('teams');
   }
 };
-protoOf(Store).j28 = function () {
+protoOf(Store).d29 = function () {
   return numberToLong(Date.now());
 };
-protoOf(Store).a29 = function ($completion) {
+protoOf(Store).v29 = function ($completion) {
   var tmp = new $initCOROUTINE$(this, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
-protoOf(Store).t2d = function () {
-  var tmp = this.c26_1;
+protoOf(Store).o2e = function () {
+  var tmp = this.p26_1;
   if (!(tmp == null))
     return tmp;
   else {
     throwUninitializedPropertyAccessException('pve');
   }
 };
-protoOf(Store).k28 = function (p) {
-  this.r25_1.v3(0, p);
+protoOf(Store).f29 = function (p) {
+  this.e26_1.v3(0, p);
   persist(this);
 };
-protoOf(Store).g28 = function (p) {
-  var tmp0 = this.r25_1;
+protoOf(Store).b29 = function (p) {
+  var tmp0 = this.e26_1;
   var tmp$ret$0;
   $l$block: {
     // Inline function 'kotlin.collections.indexOfFirst' call
@@ -6341,15 +6709,96 @@ protoOf(Store).g28 = function (p) {
   var index_0 = tmp$ret$0;
   if (index_0 < 0)
     return Unit_instance;
-  this.r25_1.f3(index_0, p);
+  this.e26_1.f3(index_0, p);
   persist(this);
 };
-protoOf(Store).h28 = function (p) {
-  removeAll(this.r25_1, Store$delete$lambda(p));
+protoOf(Store).j28 = function (uids) {
+  // Inline function 'kotlin.collections.filter' call
+  var tmp0 = this.e26_1;
+  // Inline function 'kotlin.collections.filterTo' call
+  var destination = ArrayList_init_$Create$();
+  var _iterator__ex2g4s = tmp0.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    if (uids.c1(element.h1j_1)) {
+      destination.h(element);
+    }
+  }
+  var gone = destination;
+  if (gone.r())
+    return gone;
+  removeAll(this.e26_1, Store$deleteMany$lambda(uids));
+  var all = Trash_getInstance().b1u(toList(this.r26_1), gone, this.d29());
+  this.r26_1.e2();
+  this.r26_1.p(all);
   persist(this);
+  persistTrash(this);
+  return gone;
 };
-protoOf(Store).c2i = function (p) {
-  var tmp0 = this.r25_1;
+protoOf(Store).b28 = function (uids) {
+  // Inline function 'kotlin.collections.filter' call
+  var tmp0 = this.r26_1;
+  // Inline function 'kotlin.collections.filterTo' call
+  var destination = ArrayList_init_$Create$();
+  var _iterator__ex2g4s = tmp0.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    if (uids.c1(element.r1t_1.h1j_1)) {
+      destination.h(element);
+    }
+  }
+  // Inline function 'kotlin.collections.map' call
+  // Inline function 'kotlin.collections.mapTo' call
+  var destination_0 = ArrayList_init_$Create$_0(collectionSizeOrDefault(destination, 10));
+  var _iterator__ex2g4s_0 = destination.i();
+  while (_iterator__ex2g4s_0.j()) {
+    var item = _iterator__ex2g4s_0.k();
+    var tmp$ret$5 = item.r1t_1;
+    destination_0.h(tmp$ret$5);
+  }
+  var back = destination_0;
+  if (back.r())
+    return Unit_instance;
+  removeAll(this.r26_1, Store$restore$lambda(uids));
+  // Inline function 'kotlin.collections.map' call
+  var this_0 = this.e26_1;
+  // Inline function 'kotlin.collections.mapTo' call
+  var destination_1 = ArrayList_init_$Create$_0(collectionSizeOrDefault(this_0, 10));
+  var _iterator__ex2g4s_1 = this_0.i();
+  while (_iterator__ex2g4s_1.j()) {
+    var item_0 = _iterator__ex2g4s_1.k();
+    var tmp$ret$8 = item_0.h1j_1;
+    destination_1.h(tmp$ret$8);
+  }
+  var known = toHashSet(destination_1);
+  var tmp = toList(this.e26_1);
+  // Inline function 'kotlin.collections.filter' call
+  // Inline function 'kotlin.collections.filterTo' call
+  var destination_2 = ArrayList_init_$Create$();
+  var _iterator__ex2g4s_2 = back.i();
+  while (_iterator__ex2g4s_2.j()) {
+    var element_0 = _iterator__ex2g4s_2.k();
+    if (!known.c1(element_0.h1j_1)) {
+      destination_2.h(element_0);
+    }
+  }
+  // Inline function 'kotlin.collections.sortedByDescending' call
+  var this_1 = plus(tmp, destination_2);
+  // Inline function 'kotlin.comparisons.compareByDescending' call
+  var tmp_0 = Store$restore$lambda_0;
+  var tmp$ret$13 = new sam$kotlin_Comparator$0_7(tmp_0);
+  var merged = sortedWith(this_1, tmp$ret$13);
+  this.e26_1.e2();
+  this.e26_1.p(merged);
+  persist(this);
+  persistTrash(this);
+};
+protoOf(Store).c29 = function (uids) {
+  removeAll(this.r26_1, Store$purge$lambda(uids));
+  persistTrash(this);
+};
+protoOf(Store).y2i = function (p) {
+  var tmp0 = this.e26_1;
   var tmp$ret$0;
   $l$block_0: {
     // Inline function 'kotlin.collections.any' call
@@ -6375,18 +6824,18 @@ protoOf(Store).c2i = function (p) {
   }
   return tmp$ret$0;
 };
-protoOf(Store).d27 = function (text) {
+protoOf(Store).w27 = function (text) {
   var incoming = CollectionFile_getInstance().hi(text);
-  var fresh = CollectionFile_getInstance().j1k(this.r25_1, incoming, this.k26(), this.j28());
-  this.r25_1.p(fresh);
+  var fresh = CollectionFile_getInstance().j1k(this.e26_1, incoming, this.z26(), this.d29());
+  this.e26_1.p(fresh);
   // Inline function 'kotlin.collections.isNotEmpty' call
   if (!fresh.r()) {
     persist(this);
   }
   return to(fresh.l(), incoming.l() - fresh.l() | 0);
 };
-protoOf(Store).d2i = function (d) {
-  var tmp0 = this.s25_1;
+protoOf(Store).z2i = function (d) {
+  var tmp0 = this.f26_1;
   var tmp$ret$0;
   $l$block_0: {
     // Inline function 'kotlin.collections.none' call
@@ -6411,11 +6860,11 @@ protoOf(Store).d2i = function (d) {
     tmp$ret$0 = true;
   }
   if (tmp$ret$0) {
-    this.s25_1.v3(0, d);
+    this.f26_1.v3(0, d);
   }
 };
-protoOf(Store).u2b = function (format) {
-  var tmp0 = this.j26_1;
+protoOf(Store).p2c = function (format) {
+  var tmp0 = this.y26_1;
   var tmp$ret$0;
   $l$block_0: {
     // Inline function 'kotlin.collections.any' call
@@ -6442,10 +6891,10 @@ protoOf(Store).u2b = function (format) {
   }
   return tmp$ret$0;
 };
-protoOf(Store).r2c = function (cup) {
+protoOf(Store).m2d = function (cup) {
   var tmp = this;
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = this.f26_1;
+  var tmp0 = this.u26_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$();
   var _iterator__ex2g4s = tmp0.i();
@@ -6455,14 +6904,14 @@ protoOf(Store).r2c = function (cup) {
       destination.h(element);
     }
   }
-  tmp.f26_1 = plus_0(destination, cup);
-  localStorage.setItem('pogo.customCups', Companion_getInstance().v1k(this.f26_1));
+  tmp.u26_1 = plus_0(destination, cup);
+  localStorage.setItem('pogo.customCups', Companion_getInstance().v1k(this.u26_1));
   refreshFormats(this);
 };
-protoOf(Store).q2c = function (id) {
+protoOf(Store).l2d = function (id) {
   var tmp = this;
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = this.f26_1;
+  var tmp0 = this.u26_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$();
   var _iterator__ex2g4s = tmp0.i();
@@ -6472,27 +6921,27 @@ protoOf(Store).q2c = function (id) {
       destination.h(element);
     }
   }
-  tmp.f26_1 = destination;
-  localStorage.setItem('pogo.customCups', Companion_getInstance().v1k(this.f26_1));
+  tmp.u26_1 = destination;
+  localStorage.setItem('pogo.customCups', Companion_getInstance().v1k(this.u26_1));
   refreshFormats(this);
 };
-protoOf(Store).o29 = function () {
+protoOf(Store).j2a = function () {
   var today = take((new Date()).toISOString(), 10);
   if (localStorage.getItem('pogo.autoTry') === today)
     return false;
-  var due = this.i26_1 == null || this.d26_1.r() || AutoUpdate_instance.m1l(this.u25_1, today);
+  var due = this.x26_1 == null || this.q26_1.r() || AutoUpdate_instance.m1l(this.h26_1, today);
   if (due) {
     localStorage.setItem('pogo.autoTry', today);
   }
   return due;
 };
-protoOf(Store).e2d = function (progress, $completion) {
+protoOf(Store).z2d = function (progress, $completion) {
   var tmp = new $downloadRankingsCOROUTINE$(this, progress, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
-protoOf(Store).o2c = function (format, $completion) {
+protoOf(Store).j2d = function (format, $completion) {
   var tmp = new $rankingCOROUTINE$(this, format, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
@@ -6505,28 +6954,28 @@ function Store_getInstance() {
   return Store_instance;
 }
 function CanvasPixels(d, width, height) {
-  this.e2i_1 = d;
-  this.f2i_1 = width;
-  this.g2i_1 = height;
+  this.a2j_1 = d;
+  this.b2j_1 = width;
+  this.c2j_1 = height;
 }
 protoOf(CanvasPixels).i1h = function () {
-  return this.f2i_1;
+  return this.b2j_1;
 };
 protoOf(CanvasPixels).o1h = function () {
-  return this.g2i_1;
+  return this.c2j_1;
 };
 protoOf(CanvasPixels).j1h = function (x, y) {
-  var i = imul(imul(y, this.f2i_1) + x | 0, 4);
-  var tmp = this.e2i_1[i];
+  var i = imul(imul(y, this.b2j_1) + x | 0, 4);
+  var tmp = this.a2j_1[i];
   var tmp_0 = ((!(tmp == null) ? typeof tmp === 'number' : false) ? tmp : THROW_CCE()) << 16;
-  var tmp_1 = this.e2i_1[i + 1 | 0];
+  var tmp_1 = this.a2j_1[i + 1 | 0];
   var tmp_2 = tmp_0 | ((!(tmp_1 == null) ? typeof tmp_1 === 'number' : false) ? tmp_1 : THROW_CCE()) << 8;
-  var tmp_3 = this.e2i_1[i + 2 | 0];
+  var tmp_3 = this.a2j_1[i + 2 | 0];
   return tmp_2 | ((!(tmp_3 == null) ? typeof tmp_3 === 'number' : false) ? tmp_3 : THROW_CCE());
 };
 function $readyCOROUTINE$(_this__u8e3s4, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.p2i_1 = _this__u8e3s4;
+  this.l2j_1 = _this__u8e3s4;
 }
 protoOf($readyCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -6536,7 +6985,7 @@ protoOf($readyCOROUTINE$).d8 = function () {
       switch (tmp) {
         case 0:
           this.w7_1 = 4;
-          if (this.p2i_1.r2i_1 != null)
+          if (this.l2j_1.n2j_1 != null)
             return Unit_instance;
           var tmp_0 = this;
           var tmp0_elvis_lhs = window.Tesseract;
@@ -6548,9 +6997,9 @@ protoOf($readyCOROUTINE$).d8 = function () {
             tmp_1 = tmp0_elvis_lhs;
           }
 
-          tmp_0.q2i_1 = tmp_1;
+          tmp_0.m2j_1 = tmp_1;
           this.v7_1 = 1;
-          var tmp_2 = this.q2i_1.createWorker('deu');
+          var tmp_2 = this.m2j_1.createWorker('deu');
           suspendResult = await_0(tmp_2 instanceof Promise ? tmp_2 : THROW_CCE(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
@@ -6559,9 +7008,9 @@ protoOf($readyCOROUTINE$).d8 = function () {
           continue $sm;
         case 1:
           var ARGUMENT = suspendResult;
-          this.p2i_1.r2i_1 = ARGUMENT;
+          this.l2j_1.n2j_1 = ARGUMENT;
           this.v7_1 = 2;
-          var tmp_3 = this.q2i_1.createWorker('deu');
+          var tmp_3 = this.m2j_1.createWorker('deu');
           suspendResult = await_0(tmp_3 instanceof Promise ? tmp_3 : THROW_CCE(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
@@ -6570,9 +7019,9 @@ protoOf($readyCOROUTINE$).d8 = function () {
           continue $sm;
         case 2:
           var ARGUMENT_0 = suspendResult;
-          this.p2i_1.s2i_1 = ARGUMENT_0;
+          this.l2j_1.o2j_1 = ARGUMENT_0;
           this.v7_1 = 3;
-          var tmp_4 = this.p2i_1.s2i_1.setParameters(json([to('tessedit_char_whitelist', 'WP0123456789'), to('tessedit_pageseg_mode', '7')]));
+          var tmp_4 = this.l2j_1.o2j_1.setParameters(json([to('tessedit_char_whitelist', 'WP0123456789'), to('tessedit_pageseg_mode', '7')]));
           suspendResult = await_0(tmp_4 instanceof Promise ? tmp_4 : THROW_CCE(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
@@ -6597,8 +7046,8 @@ protoOf($readyCOROUTINE$).d8 = function () {
 };
 function $readCOROUTINE$(_this__u8e3s4, canvas, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.b2j_1 = _this__u8e3s4;
-  this.c2j_1 = canvas;
+  this.x2j_1 = _this__u8e3s4;
+  this.y2j_1 = canvas;
 }
 protoOf($readCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -6609,7 +7058,7 @@ protoOf($readCOROUTINE$).d8 = function () {
         case 0:
           this.w7_1 = 2;
           this.v7_1 = 1;
-          var tmp_0 = this.b2j_1.r2i_1.recognize(this.c2j_1);
+          var tmp_0 = this.x2j_1.n2j_1.recognize(this.y2j_1);
           suspendResult = await_0(tmp_0 instanceof Promise ? tmp_0 : THROW_CCE(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
@@ -6648,7 +7097,7 @@ protoOf($readCOROUTINE$).d8 = function () {
           }
 
           var lines = destination;
-          return new ScanFrame(this.c2j_1.width, this.c2j_1.height, lines);
+          return new ScanFrame(this.y2j_1.width, this.y2j_1.height, lines);
         case 2:
           throw this.y7_1;
       }
@@ -6665,9 +7114,9 @@ protoOf($readCOROUTINE$).d8 = function () {
 };
 function $readCpCOROUTINE$(_this__u8e3s4, frame, threshold, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.l2j_1 = _this__u8e3s4;
-  this.m2j_1 = frame;
-  this.n2j_1 = threshold;
+  this.h2k_1 = _this__u8e3s4;
+  this.i2k_1 = frame;
+  this.j2k_1 = threshold;
 }
 protoOf($readCpCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -6677,10 +7126,10 @@ protoOf($readCpCOROUTINE$).d8 = function () {
       switch (tmp) {
         case 0:
           this.w7_1 = 2;
-          var sx = this.m2j_1.width * 0.25;
-          var sw = this.m2j_1.width * 0.5;
-          var sy = this.m2j_1.height * 0.045;
-          var sh = this.m2j_1.height * 0.055;
+          var sx = this.i2k_1.width * 0.25;
+          var sw = this.i2k_1.width * 0.5;
+          var sy = this.i2k_1.height * 0.045;
+          var sh = this.i2k_1.height * 0.055;
           var scale = 770.0 / sw;
           var tmp_0 = document.createElement('canvas');
           var crop = tmp_0 instanceof HTMLCanvasElement ? tmp_0 : THROW_CCE();
@@ -6688,7 +7137,7 @@ protoOf($readCpCOROUTINE$).d8 = function () {
           crop.height = numberToInt(sh * scale);
           var tmp_1 = crop.getContext('2d');
           var g = tmp_1 instanceof CanvasRenderingContext2D ? tmp_1 : THROW_CCE();
-          g.drawImage(this.m2j_1, sx, sy, sw, sh, 0.0, 0.0, crop.width, crop.height);
+          g.drawImage(this.i2k_1, sx, sy, sw, sh, 0.0, 0.0, crop.width, crop.height);
           var image = g.getImageData(0.0, 0.0, crop.width, crop.height);
           var p = image.data;
           var i = 0;
@@ -6697,15 +7146,15 @@ protoOf($readCpCOROUTINE$).d8 = function () {
             var tmp_2;
             var tmp_3;
             var tmp_4 = p[i];
-            if (((!(tmp_4 == null) ? typeof tmp_4 === 'number' : false) ? tmp_4 : THROW_CCE()) > this.n2j_1) {
+            if (((!(tmp_4 == null) ? typeof tmp_4 === 'number' : false) ? tmp_4 : THROW_CCE()) > this.j2k_1) {
               var tmp_5 = p[i + 1 | 0];
-              tmp_3 = ((!(tmp_5 == null) ? typeof tmp_5 === 'number' : false) ? tmp_5 : THROW_CCE()) > this.n2j_1;
+              tmp_3 = ((!(tmp_5 == null) ? typeof tmp_5 === 'number' : false) ? tmp_5 : THROW_CCE()) > this.j2k_1;
             } else {
               tmp_3 = false;
             }
             if (tmp_3) {
               var tmp_6 = p[i + 2 | 0];
-              tmp_2 = ((!(tmp_6 == null) ? typeof tmp_6 === 'number' : false) ? tmp_6 : THROW_CCE()) > this.n2j_1;
+              tmp_2 = ((!(tmp_6 == null) ? typeof tmp_6 === 'number' : false) ? tmp_6 : THROW_CCE()) > this.j2k_1;
             } else {
               tmp_2 = false;
             }
@@ -6719,7 +7168,7 @@ protoOf($readCpCOROUTINE$).d8 = function () {
 
           g.putImageData(image, 0.0, 0.0);
           this.v7_1 = 1;
-          var tmp_7 = this.l2j_1.s2i_1.recognize(crop);
+          var tmp_7 = this.h2k_1.o2j_1.recognize(crop);
           suspendResult = await_0(tmp_7 instanceof Promise ? tmp_7 : THROW_CCE(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
@@ -6750,22 +7199,22 @@ protoOf($readCpCOROUTINE$).d8 = function () {
    while (true);
 };
 function Ocr() {
-  this.r2i_1 = null;
-  this.s2i_1 = null;
+  this.n2j_1 = null;
+  this.o2j_1 = null;
 }
-protoOf(Ocr).o2j = function ($completion) {
+protoOf(Ocr).k2k = function ($completion) {
   var tmp = new $readyCOROUTINE$(this, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
-protoOf(Ocr).p2j = function (canvas, $completion) {
+protoOf(Ocr).l2k = function (canvas, $completion) {
   var tmp = new $readCOROUTINE$(this, canvas, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
-protoOf(Ocr).q2j = function (frame, threshold, $completion) {
+protoOf(Ocr).m2k = function (frame, threshold, $completion) {
   var tmp = new $readCpCOROUTINE$(this, frame, threshold, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
@@ -6786,7 +7235,7 @@ function clock($this, seconds) {
   return '' + (s / 60 | 0) + ':' + padStart((s % 60 | 0).toString(), 2, _Char___init__impl__6a9atx(48));
 }
 function Companion() {
-  this.i2k_1 = 0;
+  this.e2l_1 = 0;
 }
 var Companion_instance_0;
 function Companion_getInstance_4() {
@@ -6794,8 +7243,8 @@ function Companion_getInstance_4() {
 }
 function $runCOROUTINE$(_this__u8e3s4, file, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.r2k_1 = _this__u8e3s4;
-  this.s2k_1 = file;
+  this.n2l_1 = _this__u8e3s4;
+  this.o2l_1 = file;
 }
 protoOf($runCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -6805,9 +7254,9 @@ protoOf($runCOROUTINE$).d8 = function () {
       switch (tmp) {
         case 0:
           this.w7_1 = 17;
-          this.r2k_1.i2a_1('Lade Texterkennung \u2026');
+          this.n2l_1.d2b_1('Lade Texterkennung \u2026');
           this.v7_1 = 1;
-          suspendResult = Ocr_instance.o2j(this);
+          suspendResult = Ocr_instance.k2k(this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -6816,11 +7265,11 @@ protoOf($runCOROUTINE$).d8 = function () {
         case 1:
           var tmp_0 = this;
           var tmp_1 = document.createElement('video');
-          tmp_0.t2k_1 = tmp_1 instanceof HTMLVideoElement ? tmp_1 : THROW_CCE();
-          this.t2k_1.muted = true;
-          this.t2k_1.setAttribute('playsinline', '');
-          this.t2k_1.preload = 'auto';
-          this.u2k_1 = URL.createObjectURL(this.s2k_1);
+          tmp_0.p2l_1 = tmp_1 instanceof HTMLVideoElement ? tmp_1 : THROW_CCE();
+          this.p2l_1.muted = true;
+          this.p2l_1.setAttribute('playsinline', '');
+          this.p2l_1.preload = 'auto';
+          this.q2l_1 = URL.createObjectURL(this.o2l_1);
           this.v7_1 = 2;
           continue $sm;
         case 2:
@@ -6828,9 +7277,9 @@ protoOf($runCOROUTINE$).d8 = function () {
           continue $sm;
         case 3:
           this.w7_1 = 16;
-          this.t2k_1.src = this.u2k_1;
+          this.p2l_1.src = this.q2l_1;
           this.v7_1 = 4;
-          suspendResult = awaitEvent(this.t2k_1, 'loadedmetadata', this);
+          suspendResult = awaitEvent(this.p2l_1, 'loadedmetadata', this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -6842,11 +7291,11 @@ protoOf($runCOROUTINE$).d8 = function () {
             throw IllegalStateException_init_$Create$(toString(message));
           }
 
-          this.r2k_1;
+          this.n2l_1;
           this.w7_1 = 6;
-          this.e2l_1 = Companion_instance;
+          this.a2m_1 = Companion_instance;
           this.v7_1 = 5;
-          var tmp_2 = this.t2k_1.play();
+          var tmp_2 = this.p2l_1.play();
           suspendResult = await_0(tmp_2 instanceof Promise ? tmp_2 : THROW_CCE(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
@@ -6856,8 +7305,8 @@ protoOf($runCOROUTINE$).d8 = function () {
         case 5:
           var tmp2 = suspendResult;
           var tmp_3 = this;
-          this.e2l_1;
-          tmp_3.d2l_1 = _Result___init__impl__xyqfz8(tmp2);
+          this.a2m_1;
+          tmp_3.z2l_1 = _Result___init__impl__xyqfz8(tmp2);
           this.w7_1 = 16;
           this.v7_1 = 7;
           continue $sm;
@@ -6867,7 +7316,7 @@ protoOf($runCOROUTINE$).d8 = function () {
           if (tmp_4 instanceof Error) {
             var e = this.y7_1;
             var tmp_5 = this;
-            tmp_5.d2l_1 = _Result___init__impl__xyqfz8(createFailure(e));
+            tmp_5.z2l_1 = _Result___init__impl__xyqfz8(createFailure(e));
             this.v7_1 = 7;
             continue $sm;
           } else {
@@ -6876,57 +7325,57 @@ protoOf($runCOROUTINE$).d8 = function () {
 
         case 7:
           this.w7_1 = 16;
-          this.t2k_1.pause();
-          this.y2k_1 = this.t2k_1.duration;
-          if (isNaN_0(this.y2k_1) || this.y2k_1 <= 0) {
+          this.p2l_1.pause();
+          this.u2l_1 = this.p2l_1.duration;
+          if (isNaN_0(this.u2l_1) || this.u2l_1 <= 0) {
             var message_0 = 'Das Video hat keine lesbare L\xE4nge.';
             throw IllegalStateException_init_$Create$(toString(message_0));
           }
 
-          var b = 1200.0 / this.t2k_1.videoWidth;
+          var b = 1200.0 / this.p2l_1.videoWidth;
           var shrink = Math.min(1.0, b);
           var tmp_6 = this;
           var tmp_7 = document.createElement('canvas');
-          tmp_6.z2k_1 = tmp_7 instanceof HTMLCanvasElement ? tmp_7 : THROW_CCE();
-          this.z2k_1.width = numberToInt(this.t2k_1.videoWidth * shrink);
-          this.z2k_1.height = numberToInt(this.t2k_1.videoHeight * shrink);
+          tmp_6.v2l_1 = tmp_7 instanceof HTMLCanvasElement ? tmp_7 : THROW_CCE();
+          this.v2l_1.width = numberToInt(this.p2l_1.videoWidth * shrink);
+          this.v2l_1.height = numberToInt(this.p2l_1.videoHeight * shrink);
           var tmp_8 = this;
-          var tmp_9 = this.z2k_1.getContext('2d', json([to('willReadFrequently', true)]));
-          tmp_8.c2l_1 = tmp_9 instanceof CanvasRenderingContext2D ? tmp_9 : THROW_CCE();
-          this.b2l_1 = null;
-          this.a2l_1 = 0;
-          this.x2k_1 = 0.01;
-          this.w2k_1 = Store_getInstance().j28();
+          var tmp_9 = this.v2l_1.getContext('2d', json([to('willReadFrequently', true)]));
+          tmp_8.y2l_1 = tmp_9 instanceof CanvasRenderingContext2D ? tmp_9 : THROW_CCE();
+          this.x2l_1 = null;
+          this.w2l_1 = 0;
+          this.t2l_1 = 0.01;
+          this.s2l_1 = Store_getInstance().d29();
           this.v7_1 = 8;
           continue $sm;
         case 8:
-          if (!(this.x2k_1 < this.y2k_1 && !this.r2k_1.j2a_1)) {
+          if (!(this.t2l_1 < this.u2l_1 && !this.n2l_1.e2b_1)) {
             this.v7_1 = 13;
             continue $sm;
           }
 
           this.v7_1 = 9;
-          suspendResult = seek(this.t2k_1, this.x2k_1, this);
+          suspendResult = seek(this.p2l_1, this.t2l_1, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
 
           continue $sm;
         case 9:
-          this.c2l_1.drawImage(this.t2k_1, 0.0, 0.0, this.z2k_1.width, this.z2k_1.height);
-          var data = this.c2l_1.getImageData(0.0, 0.0, this.z2k_1.width, this.z2k_1.height).data;
+          this.y2l_1.drawImage(this.p2l_1, 0.0, 0.0, this.v2l_1.width, this.v2l_1.height);
+          var data = this.y2l_1.getImageData(0.0, 0.0, this.v2l_1.width, this.v2l_1.height).data;
           var tmp_10 = AppraisalReader_instance;
-          var iv = tmp_10.n1h(new CanvasPixels(data, this.z2k_1.width, this.z2k_1.height), 26, 16, 230, true);
-          if (iv == null || !equals(iv, this.b2l_1)) {
-            this.b2l_1 = iv;
-            this.a2l_1 = iv == null ? 0 : 1;
+          var iv = tmp_10.n1h(new CanvasPixels(data, this.v2l_1.width, this.v2l_1.height), 26, 16, 230, true);
+          if (iv == null || !equals(iv, this.x2l_1)) {
+            this.x2l_1 = iv;
+            this.w2l_1 = iv == null ? 0 : 1;
             this.v7_1 = 12;
             continue $sm;
           } else {
-            this.a2l_1 = this.a2l_1 + 1 | 0;
-            if (this.a2l_1 === 2 || ((this.a2l_1 - 2 | 0) % 4 | 0) === 0) {
+            this.w2l_1 = this.w2l_1 + 1 | 0;
+            if (this.w2l_1 === 2 || ((this.w2l_1 - 2 | 0) % 4 | 0) === 0) {
               this.v7_1 = 10;
-              suspendResult = analyze(this.r2k_1, this.z2k_1, iv, this.x2k_1, this);
+              suspendResult = analyze(this.n2l_1, this.v2l_1, iv, this.t2l_1, this);
               if (suspendResult === get_COROUTINE_SUSPENDED()) {
                 return suspendResult;
               }
@@ -6944,34 +7393,34 @@ protoOf($runCOROUTINE$).d8 = function () {
           this.v7_1 = 12;
           continue $sm;
         case 12:
-          this.r2k_1.i2a_1(clock(this.r2k_1, this.x2k_1) + ' von ' + clock(this.r2k_1, this.y2k_1) + '  \xB7  ' + this.r2k_1.k2a_1 + ' gespeichert, ' + this.r2k_1.l2a_1 + ' schon vorhanden, ' + this.r2k_1.m2a_1 + ' unklar');
-          this.x2k_1 = this.x2k_1 + this.r2k_1.o2a_1;
+          this.n2l_1.d2b_1(clock(this.n2l_1, this.t2l_1) + ' von ' + clock(this.n2l_1, this.u2l_1) + '  \xB7  ' + this.n2l_1.f2b_1 + ' gespeichert, ' + this.n2l_1.g2b_1 + ' schon vorhanden, ' + this.n2l_1.h2b_1 + ' unklar');
+          this.t2l_1 = this.t2l_1 + this.n2l_1.j2b_1;
           this.v7_1 = 8;
           continue $sm;
         case 13:
-          var this_0 = subtract(Store_getInstance().j28(), this.w2k_1);
+          var this_0 = subtract(Store_getInstance().d29(), this.s2l_1);
           var seconds = divide(this_0, fromInt(1000));
-          this.v2k_1 = (this.r2k_1.j2a_1 ? 'Abgebrochen' : 'Fertig') + ' nach ' + seconds.toString() + ' s: ' + ('' + this.r2k_1.k2a_1 + ' gespeichert, ' + this.r2k_1.l2a_1 + ' schon vorhanden, ' + this.r2k_1.m2a_1 + ' unklar.');
+          this.r2l_1 = (this.n2l_1.e2b_1 ? 'Abgebrochen' : 'Fertig') + ' nach ' + seconds.toString() + ' s: ' + ('' + this.n2l_1.f2b_1 + ' gespeichert, ' + this.n2l_1.g2b_1 + ' schon vorhanden, ' + this.n2l_1.h2b_1 + ' unklar.');
           this.w7_1 = 17;
           this.v7_1 = 14;
           var tmp_11 = this;
           continue $sm;
         case 14:
-          var tmp_12 = this.v2k_1;
+          var tmp_12 = this.r2l_1;
           this.w7_1 = 17;
-          URL.revokeObjectURL(this.u2k_1);
-          this.t2k_1.removeAttribute('src');
+          URL.revokeObjectURL(this.q2l_1);
+          this.p2l_1.removeAttribute('src');
           return tmp_12;
         case 15:
           this.w7_1 = 17;
-          URL.revokeObjectURL(this.u2k_1);
-          this.t2k_1.removeAttribute('src');
+          URL.revokeObjectURL(this.q2l_1);
+          this.p2l_1.removeAttribute('src');
           return Unit_instance;
         case 16:
           this.w7_1 = 17;
           var t = this.y7_1;
-          URL.revokeObjectURL(this.u2k_1);
-          this.t2k_1.removeAttribute('src');
+          URL.revokeObjectURL(this.q2l_1);
+          this.p2l_1.removeAttribute('src');
           throw t;
         case 17:
           throw this.y7_1;
@@ -6989,10 +7438,10 @@ protoOf($runCOROUTINE$).d8 = function () {
 };
 function $analyzeCOROUTINE$(_this__u8e3s4, frame, iv, t, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.z2j_1 = _this__u8e3s4;
-  this.a2k_1 = frame;
-  this.b2k_1 = iv;
-  this.c2k_1 = t;
+  this.v2k_1 = _this__u8e3s4;
+  this.w2k_1 = frame;
+  this.x2k_1 = iv;
+  this.y2k_1 = t;
 }
 protoOf($analyzeCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -7003,24 +7452,24 @@ protoOf($analyzeCOROUTINE$).d8 = function () {
         case 0:
           this.w7_1 = 7;
           var tmp_0;
-          if (this.a2k_1.width >= 900) {
-            tmp_0 = this.a2k_1;
+          if (this.w2k_1.width >= 900) {
+            tmp_0 = this.w2k_1;
           } else {
             var tmp_1 = document.createElement('canvas');
             var big = tmp_1 instanceof HTMLCanvasElement ? tmp_1 : THROW_CCE();
-            var factor = 1150.0 / this.a2k_1.width;
+            var factor = 1150.0 / this.w2k_1.width;
             big.width = 1150;
-            big.height = numberToInt(this.a2k_1.height * factor);
+            big.height = numberToInt(this.w2k_1.height * factor);
             var tmp_2 = big.getContext('2d');
             var g = tmp_2 instanceof CanvasRenderingContext2D ? tmp_2 : THROW_CCE();
             g.imageSmoothingQuality = 'high';
-            g.drawImage(this.a2k_1, 0.0, 0.0, big.width, big.height);
+            g.drawImage(this.w2k_1, 0.0, 0.0, big.width, big.height);
             tmp_0 = big;
           }
 
           var source = tmp_0;
           this.v7_1 = 1;
-          suspendResult = Ocr_instance.p2j(source, this);
+          suspendResult = Ocr_instance.l2k(source, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -7028,8 +7477,8 @@ protoOf($analyzeCOROUTINE$).d8 = function () {
           continue $sm;
         case 1:
           var text = suspendResult;
-          this.e2k_1 = ScanParser_getInstance().b1r(text, this.b2k_1);
-          if (this.e2k_1.j1q_1 == null) {
+          this.a2l_1 = ScanParser_getInstance().b1r(text, this.x2k_1);
+          if (this.a2l_1.j1q_1 == null) {
             var tmp0 = text.z1p_1;
             var destination = ArrayList_init_$Create$();
             var _iterator__ex2g4s = tmp0.i();
@@ -7044,7 +7493,7 @@ protoOf($analyzeCOROUTINE$).d8 = function () {
               var _iterator__ex2g4s_0 = destination.i();
               while (_iterator__ex2g4s_0.j()) {
                 var element_0 = _iterator__ex2g4s_0.k();
-                var tmp0_safe_receiver = this.z2j_1.p2a_1.lb(element_0.c1q_1);
+                var tmp0_safe_receiver = this.v2k_1.k2b_1.lb(element_0.c1q_1);
                 var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.oc();
                 var tmp2_safe_receiver = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q(1);
                 var result = tmp2_safe_receiver == null ? null : toIntOrNull(tmp2_safe_receiver);
@@ -7058,32 +7507,32 @@ protoOf($analyzeCOROUTINE$).d8 = function () {
              while (false);
             var cp = tmp$ret$0;
             if (!(cp == null))
-              this.e2k_1 = this.e2k_1.u1q(cp);
+              this.a2l_1 = this.a2l_1.u1q(cp);
           }
 
-          this.d2k_1 = Store_getInstance().b2i().i1r(this.e2k_1);
-          var species = this.d2k_1.k1r_1;
-          var hp = this.e2k_1.k1q_1;
-          if (!(species == null) && !(hp == null) && !(this.d2k_1.l1r_1.l() === 1)) {
+          this.z2k_1 = Store_getInstance().x2i().i1r(this.a2l_1);
+          var species = this.z2k_1.k1r_1;
+          var hp = this.a2l_1.k1q_1;
+          if (!(species == null) && !(hp == null) && !(this.z2k_1.l1r_1.l() === 1)) {
             var tmp_3 = this;
-            var this_0 = Store_getInstance().f28().n1f(species, hp, this.b2k_1);
+            var this_0 = Store_getInstance().a29().n1f(species, hp, this.x2k_1);
             var destination_0 = ArrayList_init_$Create$_0(collectionSizeOrDefault(this_0, 10));
             var _iterator__ex2g4s_1 = this_0.i();
             while (_iterator__ex2g4s_1.j()) {
               var item = _iterator__ex2g4s_1.k();
               destination_0.h(item.h9_1);
             }
-            tmp_3.g2k_1 = distinct(destination_0);
-            var tmp0_elvis_lhs = singleOrNull(this.g2k_1);
+            tmp_3.c2l_1 = distinct(destination_0);
+            var tmp0_elvis_lhs = singleOrNull(this.c2l_1);
             if (tmp0_elvis_lhs == null) {
               this.v7_1 = 2;
-              suspendResult = Ocr_instance.q2j(this.a2k_1, 200, this);
+              suspendResult = Ocr_instance.m2k(this.w2k_1, 200, this);
               if (suspendResult === get_COROUTINE_SUSPENDED()) {
                 return suspendResult;
               }
               continue $sm;
             } else {
-              this.h2k_1 = tmp0_elvis_lhs;
+              this.d2l_1 = tmp0_elvis_lhs;
               this.v7_1 = 3;
               continue $sm;
             }
@@ -7100,7 +7549,7 @@ protoOf($analyzeCOROUTINE$).d8 = function () {
             tmp_5 = null;
           } else {
             var tmp_6;
-            if (this.g2k_1.c1(tmp1_safe_receiver_0)) {
+            if (this.c2l_1.c1(tmp1_safe_receiver_0)) {
               tmp_6 = tmp1_safe_receiver_0;
             } else {
               tmp_6 = null;
@@ -7108,20 +7557,20 @@ protoOf($analyzeCOROUTINE$).d8 = function () {
             tmp_5 = tmp_6;
           }
 
-          tmp_4.h2k_1 = tmp_5;
+          tmp_4.d2l_1 = tmp_5;
           this.v7_1 = 3;
           continue $sm;
         case 3:
-          var tmp2_elvis_lhs = this.h2k_1;
+          var tmp2_elvis_lhs = this.d2l_1;
           if (tmp2_elvis_lhs == null) {
             this.v7_1 = 4;
-            suspendResult = Ocr_instance.q2j(this.a2k_1, 225, this);
+            suspendResult = Ocr_instance.m2k(this.w2k_1, 225, this);
             if (suspendResult === get_COROUTINE_SUSPENDED()) {
               return suspendResult;
             }
             continue $sm;
           } else {
-            this.f2k_1 = tmp2_elvis_lhs;
+            this.b2l_1 = tmp2_elvis_lhs;
             this.v7_1 = 5;
             continue $sm;
           }
@@ -7134,7 +7583,7 @@ protoOf($analyzeCOROUTINE$).d8 = function () {
             tmp_8 = null;
           } else {
             var tmp_9;
-            if (this.g2k_1.c1(tmp3_safe_receiver)) {
+            if (this.c2l_1.c1(tmp3_safe_receiver)) {
               tmp_9 = tmp3_safe_receiver;
             } else {
               tmp_9 = null;
@@ -7142,54 +7591,54 @@ protoOf($analyzeCOROUTINE$).d8 = function () {
             tmp_8 = tmp_9;
           }
 
-          tmp_7.f2k_1 = tmp_8;
+          tmp_7.b2l_1 = tmp_8;
           this.v7_1 = 5;
           continue $sm;
         case 5:
-          var cp_0 = this.f2k_1;
+          var cp_0 = this.b2l_1;
           if (!(cp_0 == null)) {
-            this.e2k_1 = this.e2k_1.u1q(cp_0);
-            this.d2k_1 = Store_getInstance().b2i().i1r(this.e2k_1);
+            this.a2l_1 = this.a2l_1.u1q(cp_0);
+            this.z2k_1 = Store_getInstance().x2i().i1r(this.a2l_1);
           }
 
           this.v7_1 = 6;
           continue $sm;
         case 6:
-          var tmp4_safe_receiver = this.d2k_1.k1r_1;
-          var key = '' + (tmp4_safe_receiver == null ? null : tmp4_safe_receiver.y1d_1) + '|' + this.e2k_1.j1q_1 + '|' + this.e2k_1.k1q_1 + '|' + this.b2k_1.toString();
-          if (key === this.z2j_1.q2a_1)
+          var tmp4_safe_receiver = this.z2k_1.k1r_1;
+          var key = '' + (tmp4_safe_receiver == null ? null : tmp4_safe_receiver.y1d_1) + '|' + this.a2l_1.j1q_1 + '|' + this.a2l_1.k1q_1 + '|' + this.x2k_1.toString();
+          if (key === this.v2k_1.l2b_1)
             return Unit_instance;
-          this.z2j_1.q2a_1 = key;
-          var single = singleOrNull(this.d2k_1.l1r_1);
-          if (this.d2k_1.k1r_1 == null || single == null) {
-            var label = 'Video ' + clock(this.z2j_1, this.c2k_1) + '  ' + (this.d2k_1.k1r_1 == null ? 'Art nicht erkannt' : this.e2k_1.j1q_1 == null ? ensureNotNull(this.d2k_1.k1r_1).a1e_1 + ': WP nicht lesbar' : ensureNotNull(this.d2k_1.k1r_1).a1e_1 + ': nicht eindeutig');
-            var _unary__edvuaz = this.z2j_1.m2a_1;
-            this.z2j_1.m2a_1 = _unary__edvuaz + 1 | 0;
+          this.v2k_1.l2b_1 = key;
+          var single = singleOrNull(this.z2k_1.l1r_1);
+          if (this.z2k_1.k1r_1 == null || single == null) {
+            var label = 'Video ' + clock(this.v2k_1, this.y2k_1) + '  ' + (this.z2k_1.k1r_1 == null ? 'Art nicht erkannt' : this.a2l_1.j1q_1 == null ? ensureNotNull(this.z2k_1.k1r_1).a1e_1 + ': WP nicht lesbar' : ensureNotNull(this.z2k_1.k1r_1).a1e_1 + ': nicht eindeutig');
+            var _unary__edvuaz = this.v2k_1.h2b_1;
+            this.v2k_1.h2b_1 = _unary__edvuaz + 1 | 0;
             var tmp_10 = Store_getInstance();
-            Companion_instance_0.i2k_1 = Companion_instance_0.i2k_1 + 1 | 0;
-            var tmp_11 = Companion_instance_0.i2k_1;
-            var tmp5_safe_receiver = this.d2k_1.k1r_1;
-            tmp_10.d2i(new Draft(tmp_11, label, tmp5_safe_receiver == null ? null : tmp5_safe_receiver.y1d_1, this.e2k_1.j1q_1, this.e2k_1.k1q_1, this.b2k_1, this.d2k_1.m1r_1));
+            Companion_instance_0.e2l_1 = Companion_instance_0.e2l_1 + 1 | 0;
+            var tmp_11 = Companion_instance_0.e2l_1;
+            var tmp5_safe_receiver = this.z2k_1.k1r_1;
+            tmp_10.z2i(new Draft(tmp_11, label, tmp5_safe_receiver == null ? null : tmp5_safe_receiver.y1d_1, this.a2l_1.j1q_1, this.a2l_1.k1q_1, this.x2k_1, this.z2k_1.m1r_1));
             return Unit_instance;
           }
 
-          var this_1 = Store_getInstance().j28();
+          var this_1 = Store_getInstance().d29();
           var tmp0_0 = multiply(this_1, fromInt(1000));
-          var other = this.z2j_1.k2a_1;
+          var other = this.v2k_1.f2b_1;
           var tmp_12 = add(tmp0_0, fromInt(other));
-          var tmp_13 = ensureNotNull(this.d2k_1.k1r_1).y1d_1;
-          var tmp6_elvis_lhs = this.e2k_1.j1q_1;
+          var tmp_13 = ensureNotNull(this.z2k_1.k1r_1).y1d_1;
+          var tmp6_elvis_lhs = this.a2l_1.j1q_1;
           var tmp_14 = tmp6_elvis_lhs == null ? 0 : tmp6_elvis_lhs;
-          var tmp7_elvis_lhs = this.e2k_1.k1q_1;
-          var entry = new SavedPokemon(tmp_12, tmp_13, tmp_14, tmp7_elvis_lhs == null ? 0 : tmp7_elvis_lhs, this.b2k_1.e1i_1, this.b2k_1.f1i_1, this.b2k_1.g1i_1, single.o1f_1, this.d2k_1.m1r_1);
-          if (Store_getInstance().c2i(entry)) {
-            var _unary__edvuaz_0 = this.z2j_1.l2a_1;
-            this.z2j_1.l2a_1 = _unary__edvuaz_0 + 1 | 0;
+          var tmp7_elvis_lhs = this.a2l_1.k1q_1;
+          var entry = new SavedPokemon(tmp_12, tmp_13, tmp_14, tmp7_elvis_lhs == null ? 0 : tmp7_elvis_lhs, this.x2k_1.e1i_1, this.x2k_1.f1i_1, this.x2k_1.g1i_1, single.o1f_1, this.z2k_1.m1r_1);
+          if (Store_getInstance().y2i(entry)) {
+            var _unary__edvuaz_0 = this.v2k_1.g2b_1;
+            this.v2k_1.g2b_1 = _unary__edvuaz_0 + 1 | 0;
           } else {
-            Store_getInstance().k28(entry);
-            var _unary__edvuaz_1 = this.z2j_1.k2a_1;
-            this.z2j_1.k2a_1 = _unary__edvuaz_1 + 1 | 0;
-            this.z2j_1.n2a_1.v3(0, ensureNotNull(this.d2k_1.k1r_1).a1e_1 + '  ' + entry.j1j_1 + ' WP  ' + this.b2k_1.e1i_1 + '/' + this.b2k_1.f1i_1 + '/' + this.b2k_1.g1i_1 + '  ' + dec(this.b2k_1.v1r()) + ' %');
+            Store_getInstance().f29(entry);
+            var _unary__edvuaz_1 = this.v2k_1.f2b_1;
+            this.v2k_1.f2b_1 = _unary__edvuaz_1 + 1 | 0;
+            this.v2k_1.i2b_1.v3(0, ensureNotNull(this.z2k_1.k1r_1).a1e_1 + '  ' + entry.j1j_1 + ' WP  ' + this.x2k_1.e1i_1 + '/' + this.x2k_1.f1i_1 + '/' + this.x2k_1.g1i_1 + '  ' + dec(this.x2k_1.v1r()) + ' %');
           }
 
           return Unit_instance;
@@ -7208,17 +7657,17 @@ protoOf($analyzeCOROUTINE$).d8 = function () {
    while (true);
 };
 function VideoScan(onProgress) {
-  this.i2a_1 = onProgress;
-  this.j2a_1 = false;
-  this.k2a_1 = 0;
-  this.l2a_1 = 0;
-  this.m2a_1 = 0;
-  this.n2a_1 = ArrayList_init_$Create$();
-  this.o2a_1 = 0.4;
-  this.p2a_1 = Regex_init_$Create$_0('[WV]P\\s?(\\d{2,5})', RegexOption_IGNORE_CASE_getInstance());
-  this.q2a_1 = null;
+  this.d2b_1 = onProgress;
+  this.e2b_1 = false;
+  this.f2b_1 = 0;
+  this.g2b_1 = 0;
+  this.h2b_1 = 0;
+  this.i2b_1 = ArrayList_init_$Create$();
+  this.j2b_1 = 0.4;
+  this.k2b_1 = Regex_init_$Create$_0('[WV]P\\s?(\\d{2,5})', RegexOption_IGNORE_CASE_getInstance());
+  this.l2b_1 = null;
 }
-protoOf(VideoScan).f2b = function (file, $completion) {
+protoOf(VideoScan).a2c = function (file, $completion) {
   var tmp = new $runCOROUTINE$(this, file, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
@@ -7257,18 +7706,18 @@ function awaitEvent$slambda$lambda_0($done, $cont) {
   };
 }
 function awaitEvent$slambda($this_awaitEvent, $name, resultContinuation) {
-  this.x2l_1 = $this_awaitEvent;
-  this.y2l_1 = $name;
+  this.t2m_1 = $this_awaitEvent;
+  this.u2m_1 = $name;
   CoroutineImpl.call(this, resultContinuation);
 }
-protoOf(awaitEvent$slambda).a2m = function ($this$withTimeoutOrNull, $completion) {
-  var tmp = this.e28($this$withTimeoutOrNull, $completion);
+protoOf(awaitEvent$slambda).w2m = function ($this$withTimeoutOrNull, $completion) {
+  var tmp = this.z28($this$withTimeoutOrNull, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
 protoOf(awaitEvent$slambda).l8 = function (p1, $completion) {
-  return this.a2m((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  return this.w2m((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
 };
 protoOf(awaitEvent$slambda).d8 = function () {
   var suspendResult = this.x7_1;
@@ -7280,12 +7729,12 @@ protoOf(awaitEvent$slambda).d8 = function () {
           this.w7_1 = 2;
           this.v7_1 = 1;
           var cancellable = new CancellableContinuationImpl(intercepted(this), 1);
-          cancellable.d1x();
-          var self_0 = this.x2l_1;
+          cancellable.q1x();
+          var self_0 = this.t2m_1;
           var done = {_v: false};
-          self_0.addEventListener(this.y2l_1, awaitEvent$slambda$lambda(done, cancellable), json([to('once', true)]));
+          self_0.addEventListener(this.u2m_1, awaitEvent$slambda$lambda(done, cancellable), json([to('once', true)]));
           self_0.addEventListener('error', awaitEvent$slambda$lambda_0(done, cancellable), json([to('once', true)]));
-          suspendResult = returnIfSuspended(cancellable.n1x(), this);
+          suspendResult = returnIfSuspended(cancellable.a1y(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -7307,15 +7756,15 @@ protoOf(awaitEvent$slambda).d8 = function () {
     }
    while (true);
 };
-protoOf(awaitEvent$slambda).e28 = function ($this$withTimeoutOrNull, completion) {
-  var i = new awaitEvent$slambda(this.x2l_1, this.y2l_1, completion);
-  i.z2l_1 = $this$withTimeoutOrNull;
+protoOf(awaitEvent$slambda).z28 = function ($this$withTimeoutOrNull, completion) {
+  var i = new awaitEvent$slambda(this.t2m_1, this.u2m_1, completion);
+  i.v2m_1 = $this$withTimeoutOrNull;
   return i;
 };
 function awaitEvent$slambda_0($this_awaitEvent, $name, resultContinuation) {
   var i = new awaitEvent$slambda($this_awaitEvent, $name, resultContinuation);
   return constructCallableReference(function ($this$withTimeoutOrNull, $completion) {
-    return i.a2m($this$withTimeoutOrNull, $completion);
+    return i.w2m($this$withTimeoutOrNull, $completion);
   }, 1);
 }
 function seek$slambda$lambda($done, $cont) {
@@ -7334,18 +7783,18 @@ function seek$slambda$lambda($done, $cont) {
   };
 }
 function seek$slambda($this_seek, $seconds, resultContinuation) {
-  this.j2m_1 = $this_seek;
-  this.k2m_1 = $seconds;
+  this.f2n_1 = $this_seek;
+  this.g2n_1 = $seconds;
   CoroutineImpl.call(this, resultContinuation);
 }
-protoOf(seek$slambda).d28 = function ($this$withTimeoutOrNull, $completion) {
-  var tmp = this.e28($this$withTimeoutOrNull, $completion);
+protoOf(seek$slambda).y28 = function ($this$withTimeoutOrNull, $completion) {
+  var tmp = this.z28($this$withTimeoutOrNull, $completion);
   tmp.x7_1 = Unit_instance;
   tmp.y7_1 = null;
   return tmp.d8();
 };
 protoOf(seek$slambda).l8 = function (p1, $completion) {
-  return this.d28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  return this.y28((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
 };
 protoOf(seek$slambda).d8 = function () {
   var suspendResult = this.x7_1;
@@ -7357,11 +7806,11 @@ protoOf(seek$slambda).d8 = function () {
           this.w7_1 = 2;
           this.v7_1 = 1;
           var cancellable = new CancellableContinuationImpl(intercepted(this), 1);
-          cancellable.d1x();
+          cancellable.q1x();
           var done = {_v: false};
-          this.j2m_1.addEventListener('seeked', seek$slambda$lambda(done, cancellable), json([to('once', true)]));
-          this.j2m_1.currentTime = this.k2m_1;
-          suspendResult = returnIfSuspended(cancellable.n1x(), this);
+          this.f2n_1.addEventListener('seeked', seek$slambda$lambda(done, cancellable), json([to('once', true)]));
+          this.f2n_1.currentTime = this.g2n_1;
+          suspendResult = returnIfSuspended(cancellable.a1y(), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -7383,21 +7832,21 @@ protoOf(seek$slambda).d8 = function () {
     }
    while (true);
 };
-protoOf(seek$slambda).e28 = function ($this$withTimeoutOrNull, completion) {
-  var i = new seek$slambda(this.j2m_1, this.k2m_1, completion);
-  i.l2m_1 = $this$withTimeoutOrNull;
+protoOf(seek$slambda).z28 = function ($this$withTimeoutOrNull, completion) {
+  var i = new seek$slambda(this.f2n_1, this.g2n_1, completion);
+  i.h2n_1 = $this$withTimeoutOrNull;
   return i;
 };
 function seek$slambda_0($this_seek, $seconds, resultContinuation) {
   var i = new seek$slambda($this_seek, $seconds, resultContinuation);
   return constructCallableReference(function ($this$withTimeoutOrNull, $completion) {
-    return i.d28($this$withTimeoutOrNull, $completion);
+    return i.y28($this$withTimeoutOrNull, $completion);
   }, 1);
 }
 function $seekCOROUTINE$(_this__u8e3s4, seconds, resultContinuation) {
   CoroutineImpl.call(this, resultContinuation);
-  this.n2l_1 = _this__u8e3s4;
-  this.o2l_1 = seconds;
+  this.j2m_1 = _this__u8e3s4;
+  this.k2m_1 = seconds;
 }
 protoOf($seekCOROUTINE$).d8 = function () {
   var suspendResult = this.x7_1;
@@ -7409,7 +7858,7 @@ protoOf($seekCOROUTINE$).d8 = function () {
           this.w7_1 = 2;
           this.v7_1 = 1;
           var tmp_0 = new Long(5000, 0);
-          suspendResult = withTimeoutOrNull(tmp_0, seek$slambda_0(this.n2l_1, this.o2l_1, null), this);
+          suspendResult = withTimeoutOrNull(tmp_0, seek$slambda_0(this.j2m_1, this.k2m_1, null), this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -7466,7 +7915,7 @@ function pill(_this__u8e3s4, text, background, color) {
 }
 function typePill(_this__u8e3s4, typeId) {
   _init_properties_Widgets_kt__gwc459();
-  var tmp0_elvis_lhs = Store_getInstance().k26().w1e_1.x1(typeId);
+  var tmp0_elvis_lhs = Store_getInstance().z26().w1e_1.x1(typeId);
   return pill(_this__u8e3s4, tmp0_elvis_lhs == null ? typeId : tmp0_elvis_lhs, typeColor(typeId));
 }
 function ivPill(_this__u8e3s4, iv) {
@@ -7593,7 +8042,7 @@ function scoreBar(_this__u8e3s4, fraction, color) {
   return add_0(_this__u8e3s4, 'div', 'bar', VOID, scoreBar$lambda(fraction, color));
 }
 function _get_detailEl__84hnnx($this) {
-  var tmp = $this.y26_1;
+  var tmp = $this.r27_1;
   if (!(tmp == null))
     return tmp;
   else {
@@ -7601,7 +8050,7 @@ function _get_detailEl__84hnnx($this) {
   }
 }
 function _get_percentEl__y5n9c5($this) {
-  var tmp = $this.z26_1;
+  var tmp = $this.s27_1;
   if (!(tmp == null))
     return tmp;
   else {
@@ -7609,7 +8058,7 @@ function _get_percentEl__y5n9c5($this) {
   }
 }
 function _get_fillEl__nnp1hd($this) {
-  var tmp = $this.a27_1;
+  var tmp = $this.t27_1;
   if (!(tmp == null))
     return tmp;
   else {
@@ -7619,7 +8068,7 @@ function _get_fillEl__nnp1hd($this) {
 function Progress$lambda$lambda$lambda($title, this$0, $detail) {
   return function ($this$add) {
     add_0($this$add, 'div', 'title', $title);
-    this$0.y26_1 = add_0($this$add, 'div', 'small', $detail);
+    this$0.r27_1 = add_0($this$add, 'div', 'small', $detail);
     return Unit_instance;
   };
 }
@@ -7627,13 +8076,13 @@ function Progress$lambda$lambda(this$0, $title, $detail) {
   return function ($this$add) {
     add_0($this$add, 'span', 'spinner');
     add_0($this$add, 'div', 'grow', VOID, Progress$lambda$lambda$lambda($title, this$0, $detail));
-    this$0.z26_1 = add_0($this$add, 'span', 'percent', '0 %');
+    this$0.s27_1 = add_0($this$add, 'span', 'percent', '0 %');
     return Unit_instance;
   };
 }
 function Progress$lambda$lambda_0(this$0) {
   return function ($this$add) {
-    this$0.a27_1 = add_0($this$add, 'span', 'fill');
+    this$0.t27_1 = add_0($this$add, 'span', 'fill');
     return Unit_instance;
   };
 }
@@ -7647,7 +8096,7 @@ function Progress$lambda(this$0, $title, $detail) {
 function Progress(host, title, detail) {
   add_0(host, 'section', 'card loading', VOID, Progress$lambda(this, title, detail));
 }
-protoOf(Progress).q2b = function (fraction, detail) {
+protoOf(Progress).l2c = function (fraction, detail) {
   var f = coerceIn(fraction, 0.0, 1.0);
   _get_fillEl__nnp1hd(this).style.width = '' + f * 100 + '%';
   _get_percentEl__y5n9c5(this).textContent = '' + numberToInt(f * 100) + ' %';
@@ -7655,14 +8104,14 @@ protoOf(Progress).q2b = function (fraction, detail) {
     _get_detailEl__84hnnx(this).textContent = detail;
   }
 };
-protoOf(Progress).b27 = function (fraction, detail, $super) {
+protoOf(Progress).u27 = function (fraction, detail, $super) {
   detail = detail === VOID ? null : detail;
   var tmp;
   if ($super === VOID) {
-    this.q2b(fraction, detail);
+    this.l2c(fraction, detail);
     tmp = Unit_instance;
   } else {
-    tmp = $super.q2b.call(this, fraction, detail);
+    tmp = $super.l2c.call(this, fraction, detail);
   }
   return tmp;
 };
@@ -7851,7 +8300,7 @@ function moveRow$lambda$lambda($color, $species, $id) {
   return function ($this$add) {
     $this$add.style.setProperty('--mc', $color);
     add_0($this$add, 'i');
-    add_0($this$add, 'span', '', Store_getInstance().k26().x1l($species, $id));
+    add_0($this$add, 'span', '', Store_getInstance().z26().x1l($species, $id));
     return Unit_instance;
   };
 }
@@ -7865,7 +8314,7 @@ function moveRow$lambda($moves, $species) {
       var _unary__edvuaz = index;
       index = _unary__edvuaz + 1 | 0;
       var i = checkIndexOverflow(_unary__edvuaz);
-      var tmp0_safe_receiver = Store_getInstance().k26().w1l().x1(item);
+      var tmp0_safe_receiver = Store_getInstance().z26().w1l().x1(item);
       var color = typeColor(tmp0_safe_receiver == null ? null : tmp0_safe_receiver.k1i_1);
       var tmp = i === 0 ? 'move fast' : 'move';
       add_0($this$add, 'span', tmp, VOID, moveRow$lambda$lambda(color, $species, item));

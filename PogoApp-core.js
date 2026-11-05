@@ -127,6 +127,11 @@ import {
   drop3na99dw9feawf as drop,
   sum30gqr1hfydrbh as sum,
   max3idzx6y8yn3fk as max,
+  subtract16cg4lfi29fq9 as subtract,
+  fromInt1lka3ktyu79a4 as fromInt,
+  multiply18i3gv3wlmcjg as multiply,
+  divide3tol6kxdi8xn6 as divide,
+  convertToIntofdoxh9bstof as convertToInt,
 } from './kotlin-kotlin-stdlib.js';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
@@ -263,6 +268,11 @@ initMetadataForClass(TeamBuilder, 'TeamBuilder');
 initMetadataForClass(TeamCandidate, 'TeamCandidate');
 initMetadataForClass(Team, 'Team');
 initMetadataForClass(Owned, 'Owned');
+initMetadataForCompanion(Companion_18);
+initMetadataForObject($serializer_12, '$serializer', VOID, VOID, [GeneratedSerializer]);
+initMetadataForClass(TrashEntry, 'TrashEntry', VOID, VOID, VOID, VOID, VOID, {0: $serializer_getInstance_12});
+initMetadataForClass(sam$kotlin_Comparator$0_8, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForObject(Trash, 'Trash');
 //endregion
 function LeagueEval(league, target, pvp, cost, metaRank, metaScore, moveset) {
   moveset = moveset === VOID ? emptyList() : moveset;
@@ -8610,6 +8620,254 @@ protoOf(Owned).equals = function (other) {
     return false;
   return true;
 };
+function Companion_18() {
+}
+protoOf(Companion_18).e1j = function () {
+  return $serializer_getInstance_12();
+};
+var Companion_instance_19;
+function Companion_getInstance_18() {
+  return Companion_instance_19;
+}
+function $serializer_12() {
+  $serializer_instance_12 = this;
+  var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('pogo.core.TrashEntry', this, 2);
+  tmp0_serialDesc.dt('pokemon', false);
+  tmp0_serialDesc.dt('deletedAt', false);
+  this.p1t_1 = tmp0_serialDesc;
+}
+protoOf($serializer_12).q1t = function (encoder, value) {
+  var tmp0_desc = this.p1t_1;
+  var tmp1_output = encoder.wm(tmp0_desc);
+  tmp1_output.no(tmp0_desc, 0, $serializer_getInstance(), value.r1t_1);
+  tmp1_output.ho(tmp0_desc, 1, value.s1t_1);
+  tmp1_output.xm(tmp0_desc);
+};
+protoOf($serializer_12).fk = function (encoder, value) {
+  return this.q1t(encoder, value instanceof TrashEntry ? value : THROW_CCE());
+};
+protoOf($serializer_12).gk = function (decoder) {
+  var tmp0_desc = this.p1t_1;
+  var tmp1_flag = true;
+  var tmp2_index = 0;
+  var tmp3_bitMask0 = 0;
+  var tmp4_local0 = null;
+  var tmp5_local1 = new Long(0, 0);
+  var tmp6_input = decoder.wm(tmp0_desc);
+  if (tmp6_input.mn()) {
+    tmp4_local0 = tmp6_input.in(tmp0_desc, 0, $serializer_getInstance(), tmp4_local0);
+    tmp3_bitMask0 = tmp3_bitMask0 | 1;
+    tmp5_local1 = tmp6_input.cn(tmp0_desc, 1);
+    tmp3_bitMask0 = tmp3_bitMask0 | 2;
+  } else
+    while (tmp1_flag) {
+      tmp2_index = tmp6_input.nn(tmp0_desc);
+      switch (tmp2_index) {
+        case -1:
+          tmp1_flag = false;
+          break;
+        case 0:
+          tmp4_local0 = tmp6_input.in(tmp0_desc, 0, $serializer_getInstance(), tmp4_local0);
+          tmp3_bitMask0 = tmp3_bitMask0 | 1;
+          break;
+        case 1:
+          tmp5_local1 = tmp6_input.cn(tmp0_desc, 1);
+          tmp3_bitMask0 = tmp3_bitMask0 | 2;
+          break;
+        default:
+          throw UnknownFieldException_init_$Create$(tmp2_index);
+      }
+    }
+  tmp6_input.xm(tmp0_desc);
+  return TrashEntry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, null);
+};
+protoOf($serializer_12).ek = function () {
+  return this.p1t_1;
+};
+protoOf($serializer_12).st = function () {
+  // Inline function 'kotlin.arrayOf' call
+  // Inline function 'kotlin.js.unsafeCast' call
+  // Inline function 'kotlin.js.asDynamic' call
+  return [$serializer_getInstance(), LongSerializer_getInstance()];
+};
+var $serializer_instance_12;
+function $serializer_getInstance_12() {
+  if ($serializer_instance_12 == null)
+    new $serializer_12();
+  return $serializer_instance_12;
+}
+function TrashEntry_init_$Init$(seen0, pokemon, deletedAt, serializationConstructorMarker, $this) {
+  if (!(3 === (3 & seen0))) {
+    throwMissingFieldException(seen0, 3, $serializer_getInstance_12().p1t_1);
+  }
+  $this.r1t_1 = pokemon;
+  $this.s1t_1 = deletedAt;
+  return $this;
+}
+function TrashEntry_init_$Create$(seen0, pokemon, deletedAt, serializationConstructorMarker) {
+  return TrashEntry_init_$Init$(seen0, pokemon, deletedAt, serializationConstructorMarker, objectCreate(protoOf(TrashEntry)));
+}
+function TrashEntry(pokemon, deletedAt) {
+  this.r1t_1 = pokemon;
+  this.s1t_1 = deletedAt;
+}
+protoOf(TrashEntry).toString = function () {
+  return 'TrashEntry(pokemon=' + this.r1t_1.toString() + ', deletedAt=' + this.s1t_1.toString() + ')';
+};
+protoOf(TrashEntry).hashCode = function () {
+  var result = this.r1t_1.hashCode();
+  result = imul(result, 31) + this.s1t_1.hashCode() | 0;
+  return result;
+};
+protoOf(TrashEntry).equals = function (other) {
+  if (this === other)
+    return true;
+  if (!(other instanceof TrashEntry))
+    return false;
+  if (!this.r1t_1.equals(other.r1t_1))
+    return false;
+  if (!equalsLong(this.s1t_1, other.s1t_1))
+    return false;
+  return true;
+};
+function sam$kotlin_Comparator$0_8(function_0) {
+  this.t1t_1 = function_0;
+}
+protoOf(sam$kotlin_Comparator$0_8).qc = function (a, b) {
+  return this.t1t_1(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_8).compare = function (a, b) {
+  return this.qc(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_8).p2 = function () {
+  return this.t1t_1;
+};
+protoOf(sam$kotlin_Comparator$0_8).equals = function (other) {
+  var tmp;
+  if (!(other == null) ? isInterface(other, Comparator) : false) {
+    var tmp_0;
+    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
+      tmp_0 = equals(this.p2(), other.p2());
+    } else {
+      tmp_0 = false;
+    }
+    tmp = tmp_0;
+  } else {
+    tmp = false;
+  }
+  return tmp;
+};
+protoOf(sam$kotlin_Comparator$0_8).hashCode = function () {
+  return hashCode(this.p2());
+};
+function Trash$json$lambda($this$Json) {
+  $this$Json.n12_1 = true;
+  return Unit_instance;
+}
+function Trash$fresh$lambda(a, b) {
+  // Inline function 'kotlin.comparisons.compareValuesBy' call
+  var tmp = b.s1t_1;
+  var tmp$ret$2 = a.s1t_1;
+  return compareValues(tmp, tmp$ret$2);
+}
+function Trash() {
+  Trash_instance = this;
+  this.u1t_1 = 7;
+  this.v1t_1 = new Long(604800000, 0);
+  var tmp = this;
+  tmp.w1t_1 = Json(VOID, Trash$json$lambda);
+  this.x1t_1 = ListSerializer(Companion_instance_19.e1j());
+}
+protoOf(Trash).y1t = function (entries) {
+  return this.w1t_1.s11(this.x1t_1, entries);
+};
+protoOf(Trash).hi = function (text) {
+  // Inline function 'kotlin.runCatching' call
+  var tmp;
+  try {
+    // Inline function 'kotlin.Companion.success' call
+    var value = this.w1t_1.t11(this.x1t_1, text);
+    tmp = _Result___init__impl__xyqfz8(value);
+  } catch ($p) {
+    var tmp_0;
+    if ($p instanceof Error) {
+      var e = $p;
+      // Inline function 'kotlin.Companion.failure' call
+      tmp_0 = _Result___init__impl__xyqfz8(createFailure(e));
+    } else {
+      throw $p;
+    }
+    tmp = tmp_0;
+  }
+  var tmp0 = tmp;
+  var tmp2 = emptyList();
+  var tmp$ret$4;
+  $l$block: {
+    // Inline function 'kotlin.getOrDefault' call
+    if (_Result___get_isFailure__impl__jpiriv(tmp0)) {
+      tmp$ret$4 = tmp2;
+      break $l$block;
+    }
+    tmp$ret$4 = _Result___get_value__impl__bjfvqg(tmp0);
+  }
+  return tmp$ret$4;
+};
+protoOf(Trash).z1t = function (entries, now) {
+  // Inline function 'kotlin.collections.filter' call
+  // Inline function 'kotlin.collections.filterTo' call
+  var destination = ArrayList_init_$Create$_0();
+  var _iterator__ex2g4s = entries.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    if (compare(subtract(now, element.s1t_1), new Long(604800000, 0)) < 0) {
+      destination.h(element);
+    }
+  }
+  // Inline function 'kotlin.collections.sortedByDescending' call
+  // Inline function 'kotlin.comparisons.compareByDescending' call
+  var tmp = Trash$fresh$lambda;
+  var tmp$ret$4 = new sam$kotlin_Comparator$0_8(tmp);
+  return sortedWith(destination, tmp$ret$4);
+};
+protoOf(Trash).a1u = function (entry, now) {
+  var left = subtract(new Long(604800000, 0), subtract(now, entry.s1t_1));
+  // Inline function 'kotlin.Long.times' call
+  var this_0 = new Long(24, 0);
+  // Inline function 'kotlin.Long.times' call
+  var this_1 = multiply(this_0, fromInt(60));
+  // Inline function 'kotlin.Long.times' call
+  var this_2 = multiply(this_1, fromInt(60));
+  var tmp$ret$2 = multiply(this_2, fromInt(1000));
+  // Inline function 'kotlin.Long.minus' call
+  var this_3 = add(left, tmp$ret$2);
+  var tmp = subtract(this_3, fromInt(1));
+  // Inline function 'kotlin.Long.times' call
+  var this_4 = new Long(24, 0);
+  // Inline function 'kotlin.Long.times' call
+  var this_5 = multiply(this_4, fromInt(60));
+  // Inline function 'kotlin.Long.times' call
+  var this_6 = multiply(this_5, fromInt(60));
+  var tmp$ret$6 = multiply(this_6, fromInt(1000));
+  return coerceAtLeast(convertToInt(divide(tmp, tmp$ret$6)), 1);
+};
+protoOf(Trash).b1u = function (entries, pokemon, now) {
+  // Inline function 'kotlin.collections.map' call
+  // Inline function 'kotlin.collections.mapTo' call
+  var destination = ArrayList_init_$Create$(collectionSizeOrDefault(pokemon, 10));
+  var _iterator__ex2g4s = pokemon.i();
+  while (_iterator__ex2g4s.j()) {
+    var item = _iterator__ex2g4s.k();
+    var tmp$ret$2 = new TrashEntry(item, now);
+    destination.h(tmp$ret$2);
+  }
+  return plus_1(destination, entries);
+};
+var Trash_instance;
+function Trash_getInstance() {
+  if (Trash_instance == null)
+    new Trash();
+  return Trash_instance;
+}
 function multiplyFloat(a, b) {
   // Inline function 'kotlin.js.unsafeCast' call
   var x = Math.fround(a);
@@ -8632,6 +8890,7 @@ protoOf($serializer_8).tt = typeParametersSerializers;
 protoOf($serializer_9).tt = typeParametersSerializers;
 protoOf($serializer_10).tt = typeParametersSerializers;
 protoOf($serializer_11).tt = typeParametersSerializers;
+protoOf($serializer_12).tt = typeParametersSerializers;
 //endregion
 //region block: init
 AppraisalReader_instance = new AppraisalReader();
@@ -8648,6 +8907,7 @@ SpriteNames_instance = new SpriteNames();
 Companion_instance_17 = new Companion_16();
 Companion_instance_18 = new Companion_17();
 Formulas_instance = new Formulas();
+Companion_instance_19 = new Companion_18();
 //endregion
 //region block: exports
 export {
@@ -8669,6 +8929,7 @@ export {
   Companion_getInstance_6 as Companion_getInstance1hipkv904vdn0,
   ScanParser_getInstance as ScanParser_getInstance1dj216dqwcrgf,
   SpriteNames_instance as SpriteNames_instance3ncolbopaa4q9,
+  Trash_getInstance as Trash_getInstance3in0y0wwaddjr,
   TypeChart_getInstance as TypeChart_getInstance39lvcoo27flw6,
   Analyzer as Analyzer1ixf14ebfrbx1,
   CustomCup as CustomCup115ax4nxuq2kr,

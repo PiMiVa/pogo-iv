@@ -247,6 +247,20 @@ button:disabled { opacity: .45; cursor: default; }
 
 /* Sammlung */
 .entry .head { cursor: pointer; }
+/* Mehrfachauswahl und Papierkorb */
+.entry.picked { outline: 2px solid var(--accent); }
+.check {
+  flex: none; width: 24px; height: 24px; border-radius: 7px; border: 2px solid var(--muted);
+  display: inline-flex; align-items: center; justify-content: center; font-weight: 800; color: #fff;
+}
+.check.on { background: var(--accent); border-color: var(--accent); }
+.select-bar {
+  display: flex; align-items: center; gap: 6px; width: 100%;
+  background: var(--card, var(--bg)); border-radius: 16px; padding: 4px 6px;
+  position: sticky; top: 0; z-index: 5; box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+}
+button.danger-fill { background: var(--bad); color: #fff; border-color: transparent; font-weight: 600; }
+.trash-list { max-height: 55vh; overflow-y: auto; display: flex; flex-direction: column; gap: 8px; margin: 8px 0; }
 .entry .leagues { display: flex; gap: 8px; margin-top: 10px; }
 .entry .lg {
   flex: 1; display: flex; align-items: center; gap: 6px;
