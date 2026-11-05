@@ -332,3 +332,12 @@ button.danger-fill { background: var(--bad); color: #fff; border-color: transpar
 }
 .dialog { background: var(--bg); border-radius: 22px; padding: 16px; width: 100%; max-width: 480px; }
 .dialog h3 { margin-top: 0; }
+
+/* Dyna-Stufen */
+.max-levels { display: flex; align-items: center; gap: 6px; margin: 4px 0; }
+.max-levels .ml-name { width: 110px; font-size: .9rem; }
+.max-levels .ml {
+  width: 34px; height: 34px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center;
+  background: var(--card-2); font-weight: 700; cursor: pointer;
+}
+.max-levels .ml.on { background: var(--accent); color: #fff; }
