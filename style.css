@@ -341,3 +341,21 @@ button.danger-fill { background: var(--bad); color: #fff; border-color: transpar
   background: var(--card-2); font-weight: 700; cursor: pointer;
 }
 .max-levels .ml.on { background: var(--accent); color: #fff; }
+
+/* Kompakte Ansicht der Sammlung */
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); gap: 6px; }
+.tile {
+  background: var(--card); border-radius: 14px; padding: 6px 4px; text-align: center; cursor: pointer;
+  border: 2px solid transparent; min-width: 0;
+}
+.tile.picked { border-color: var(--accent); background: var(--accent-soft); }
+.tile-img { position: relative; display: inline-block; }
+.tile-img .check { position: absolute; top: -2px; left: -6px; width: 18px; height: 18px; font-size: .7rem; background: var(--card); }
+.tile-img .check.on { background: var(--accent); }
+.tile-dyna {
+  position: absolute; right: -4px; bottom: 0; background: var(--shadow); color: #fff; border-radius: 9px;
+  font-size: .65rem; font-weight: 800; padding: 0 4px;
+}
+.tile-name { font-size: .75rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tile-iv { font-size: .78rem; font-weight: 800; }
+.tile .small { font-size: .7rem; }
