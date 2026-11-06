@@ -367,3 +367,4 @@ button.danger-fill { background: var(--bad); color: #fff; border-color: transpar
 .select-bar { flex-wrap: wrap; }
 
 .chips.wrap { flex-wrap: wrap; overflow-x: visible; }
+.game-search { display: flex; flex-direction: column; gap: 4px; margin-top: 8px; }
