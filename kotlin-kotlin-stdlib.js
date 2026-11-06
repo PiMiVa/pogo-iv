@@ -111,23 +111,23 @@ initMetadataForClass(AbstractCollection, 'AbstractCollection', VOID, VOID, [Coll
 initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [Collection, MutableIterable]);
 initMetadataForClass(IteratorImpl, 'IteratorImpl');
 initMetadataForClass(ListIteratorImpl, 'ListIteratorImpl', VOID, IteratorImpl);
-initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [Collection, MutableIterable, KtList]);
+initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [KtList, Collection, MutableIterable]);
 initMetadataForClass(AbstractMap, 'AbstractMap', VOID, VOID, [KtMap]);
 initMetadataForClass(AbstractMutableMap, 'AbstractMutableMap', VOID, AbstractMap, [KtMutableMap]);
-initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [Collection, MutableIterable, KtSet]);
+initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [KtSet, Collection, MutableIterable]);
 initMetadataForCompanion(Companion_2);
 initMetadataForInterface(RandomAccess, 'RandomAccess');
-initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [Collection, MutableIterable, KtList, RandomAccess]);
+initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [KtList, Collection, MutableIterable, RandomAccess]);
 initMetadataForClass(HashMap, 'HashMap', HashMap_init_$Create$, AbstractMutableMap, [KtMutableMap]);
-initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [Collection, MutableIterable, KtSet]);
+initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
 initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [Collection, MutableIterable]);
-initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [Collection, MutableIterable, KtSet]);
+initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
 initMetadataForClass(HashMapEntrySet, 'HashMapEntrySet', VOID, HashMapEntrySetBase);
 initMetadataForClass(HashMapKeysDefault$iterator$1);
 initMetadataForClass(HashMapKeysDefault, 'HashMapKeysDefault', VOID, AbstractMutableSet);
 initMetadataForClass(HashMapValuesDefault$iterator$1);
 initMetadataForClass(HashMapValuesDefault, 'HashMapValuesDefault', VOID, AbstractMutableCollection);
-initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [Collection, MutableIterable, KtSet]);
+initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
 initMetadataForCompanion(Companion_3);
 initMetadataForClass(Itr, 'Itr');
 initMetadataForClass(KeysItr, 'KeysItr', VOID, Itr);
@@ -173,7 +173,7 @@ initMetadataForInterface(InternalMap, 'InternalMap');
 initMetadataForClass(InternalHashMap, 'InternalHashMap', InternalHashMap_init_$Create$, VOID, [InternalMap]);
 initMetadataForObject(EmptyHolder, 'EmptyHolder');
 initMetadataForClass(LinkedHashMap, 'LinkedHashMap', LinkedHashMap_init_$Create$, HashMap, [KtMutableMap]);
-initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [Collection, MutableIterable, KtSet]);
+initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [KtSet, Collection, MutableIterable]);
 initMetadataForInterface(Continuation, 'Continuation');
 initMetadataForClass(InterceptedCoroutine, 'InterceptedCoroutine', VOID, VOID, [Continuation]);
 initMetadataForClass(CoroutineImpl, 'CoroutineImpl', VOID, InterceptedCoroutine, [Continuation]);
@@ -809,6 +809,18 @@ function toList_0(_this__u8e3s4) {
   }
   return optimizeReadOnlyList(toMutableList_0(_this__u8e3s4));
 }
+function plus_1(_this__u8e3s4, elements) {
+  if (isInterface(elements, Collection)) {
+    var result = ArrayList_init_$Create$_0(_this__u8e3s4.l() + elements.l() | 0);
+    result.p(_this__u8e3s4);
+    result.p(elements);
+    return result;
+  } else {
+    var result_0 = ArrayList_init_$Create$_1(_this__u8e3s4);
+    addAll(result_0, elements);
+    return result_0;
+  }
+}
 function sortedWith(_this__u8e3s4, comparator) {
   if (isInterface(_this__u8e3s4, Collection)) {
     if (_this__u8e3s4.l() <= 1)
@@ -871,18 +883,6 @@ function take(_this__u8e3s4, n) {
   }
   return optimizeReadOnlyList(list);
 }
-function plus_1(_this__u8e3s4, elements) {
-  if (isInterface(elements, Collection)) {
-    var result = ArrayList_init_$Create$_0(_this__u8e3s4.l() + elements.l() | 0);
-    result.p(_this__u8e3s4);
-    result.p(elements);
-    return result;
-  } else {
-    var result_0 = ArrayList_init_$Create$_1(_this__u8e3s4);
-    addAll(result_0, elements);
-    return result_0;
-  }
-}
 function firstOrNull(_this__u8e3s4) {
   return _this__u8e3s4.r() ? null : _this__u8e3s4.q(0);
 }
@@ -890,6 +890,11 @@ function first(_this__u8e3s4) {
   if (_this__u8e3s4.r())
     throw NoSuchElementException_init_$Create$_0('List is empty.');
   return _this__u8e3s4.q(0);
+}
+function last(_this__u8e3s4) {
+  if (_this__u8e3s4.r())
+    throw NoSuchElementException_init_$Create$_0('List is empty.');
+  return _this__u8e3s4.q(get_lastIndex_3(_this__u8e3s4));
 }
 function toMutableSet(_this__u8e3s4) {
   var tmp;
@@ -985,13 +990,20 @@ function single_1(_this__u8e3s4) {
   }
   return tmp;
 }
-function last(_this__u8e3s4) {
-  if (_this__u8e3s4.r())
-    throw NoSuchElementException_init_$Create$_0('List is empty.');
-  return _this__u8e3s4.q(get_lastIndex_3(_this__u8e3s4));
-}
 function lastOrNull(_this__u8e3s4) {
   return _this__u8e3s4.r() ? null : _this__u8e3s4.q(_this__u8e3s4.l() - 1 | 0);
+}
+function count(_this__u8e3s4) {
+  if (isInterface(_this__u8e3s4, Collection))
+    return _this__u8e3s4.l();
+  var count = 0;
+  var _iterator__ex2g4s = _this__u8e3s4.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    count = count + 1 | 0;
+    checkCountOverflow(count);
+  }
+  return count;
 }
 function toDoubleArray(_this__u8e3s4) {
   var result = new Float64Array(_this__u8e3s4.l());
@@ -1029,6 +1041,18 @@ function maxWith(_this__u8e3s4, comparator) {
   }
   return max;
 }
+function average(_this__u8e3s4) {
+  var sum = 0.0;
+  var count = 0;
+  var _iterator__ex2g4s = _this__u8e3s4.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    sum = sum + element;
+    count = count + 1 | 0;
+    checkCountOverflow(count);
+  }
+  return count === 0 ? NaN : sum / count;
+}
 function max(_this__u8e3s4) {
   var iterator = _this__u8e3s4.i();
   if (!iterator.j())
@@ -1041,18 +1065,6 @@ function max(_this__u8e3s4) {
     max = Math.max(a, e);
   }
   return max;
-}
-function average(_this__u8e3s4) {
-  var sum = 0.0;
-  var count = 0;
-  var _iterator__ex2g4s = _this__u8e3s4.i();
-  while (_iterator__ex2g4s.j()) {
-    var element = _iterator__ex2g4s.k();
-    sum = sum + element;
-    count = count + 1 | 0;
-    checkCountOverflow(count);
-  }
-  return count === 0 ? NaN : sum / count;
 }
 function drop(_this__u8e3s4, n) {
   // Inline function 'kotlin.require' call
@@ -1359,6 +1371,14 @@ function single_2(_this__u8e3s4) {
       throw IllegalArgumentException_init_$Create$_0('Char sequence has more than one element.');
   }
   return tmp;
+}
+function dropLast(_this__u8e3s4, n) {
+  // Inline function 'kotlin.require' call
+  if (!(n >= 0)) {
+    var message = 'Requested character count ' + n + ' is less than zero.';
+    throw IllegalArgumentException_init_$Create$_0(toString_1(message));
+  }
+  return take_1(_this__u8e3s4, coerceAtLeast(_this__u8e3s4.length - n | 0, 0));
 }
 function drop_0(_this__u8e3s4, n) {
   // Inline function 'kotlin.require' call
@@ -2518,6 +2538,9 @@ function THROW_NPE() {
 }
 function THROW_CCE() {
   throw ClassCastException_init_$Create$();
+}
+function THROW_IAE(msg) {
+  throw IllegalArgumentException_init_$Create$_0(msg);
 }
 function ensureNotNull(v) {
   var tmp;
@@ -8340,6 +8363,13 @@ protoOf(ArrayDeque).t1 = function (element) {
   }
   return -1;
 };
+protoOf(ArrayDeque).h3 = function (element) {
+  var index = this.t1(element);
+  if (index === -1)
+    return false;
+  this.o3(index);
+  return true;
+};
 protoOf(ArrayDeque).o3 = function (index) {
   Companion_instance_5.l4(index, this.kd_1);
   if (index === get_lastIndex_3(this)) {
@@ -8479,6 +8509,9 @@ function emptyList() {
 }
 function listOfNotNull(elements) {
   return filterNotNull(elements);
+}
+function listOfNotNull_0(element) {
+  return !(element == null) ? listOf(element) : emptyList();
 }
 function get_indices_1(_this__u8e3s4) {
   return numberRangeToNumber(0, _this__u8e3s4.l() - 1 | 0);
@@ -10529,14 +10562,15 @@ function removePrefix(_this__u8e3s4, prefix) {
   }
   return _this__u8e3s4;
 }
+function substringAfterLast(_this__u8e3s4, delimiter, missingDelimiterValue) {
+  missingDelimiterValue = missingDelimiterValue === VOID ? _this__u8e3s4 : missingDelimiterValue;
+  var index = lastIndexOf(_this__u8e3s4, delimiter);
+  return index === -1 ? missingDelimiterValue : substring(_this__u8e3s4, index + delimiter.length | 0, _this__u8e3s4.length);
+}
 function substringBefore_0(_this__u8e3s4, delimiter, missingDelimiterValue) {
   missingDelimiterValue = missingDelimiterValue === VOID ? _this__u8e3s4 : missingDelimiterValue;
   var index = indexOf_5(_this__u8e3s4, delimiter);
   return index === -1 ? missingDelimiterValue : substring(_this__u8e3s4, 0, index);
-}
-function padEnd(_this__u8e3s4, length, padChar) {
-  padChar = padChar === VOID ? _Char___init__impl__6a9atx(32) : padChar;
-  return toString_1(padEnd_0(isCharSequence(_this__u8e3s4) ? _this__u8e3s4 : THROW_CCE(), length, padChar));
 }
 function trim_0(_this__u8e3s4, chars) {
   // Inline function 'kotlin.text.trim' call
@@ -10564,6 +10598,10 @@ function trim_0(_this__u8e3s4, chars) {
   var tmp$ret$1 = charSequenceSubSequence(this_0, startIndex, endIndex + 1 | 0);
   return toString_1(tmp$ret$1);
 }
+function padEnd(_this__u8e3s4, length, padChar) {
+  padChar = padChar === VOID ? _Char___init__impl__6a9atx(32) : padChar;
+  return toString_1(padEnd_0(isCharSequence(_this__u8e3s4) ? _this__u8e3s4 : THROW_CCE(), length, padChar));
+}
 function startsWith_1(_this__u8e3s4, prefix, ignoreCase) {
   ignoreCase = ignoreCase === VOID ? false : ignoreCase;
   var tmp;
@@ -10583,6 +10621,26 @@ function startsWith_1(_this__u8e3s4, prefix, ignoreCase) {
   else {
     return regionMatchesImpl(_this__u8e3s4, 0, prefix, 0, charSequenceLength(prefix), ignoreCase);
   }
+}
+function trimEnd_0(_this__u8e3s4) {
+  var tmp$ret$0;
+  $l$block: {
+    // Inline function 'kotlin.text.trimEnd' call
+    var inductionVariable = charSequenceLength(_this__u8e3s4) - 1 | 0;
+    if (0 <= inductionVariable)
+      do {
+        var index = inductionVariable;
+        inductionVariable = inductionVariable + -1 | 0;
+        var p0 = charSequenceGet(_this__u8e3s4, index);
+        if (!isWhitespace(p0)) {
+          tmp$ret$0 = charSequenceSubSequence(_this__u8e3s4, 0, index + 1 | 0);
+          break $l$block;
+        }
+      }
+       while (0 <= inductionVariable);
+    tmp$ret$0 = '';
+  }
+  return tmp$ret$0;
 }
 function padEnd_0(_this__u8e3s4, length, padChar) {
   padChar = padChar === VOID ? _Char___init__impl__6a9atx(32) : padChar;
@@ -14099,6 +14157,7 @@ export {
   copyOf_0 as copyOf2ng0t8oizk6it,
   copyOf as copyOf3rutauicler23,
   copyToArray as copyToArray2j022khrow2yi,
+  count as count2ctzg572d5xrz,
   distinct as distinct10qe1scfdvu5k,
   drop as drop3na99dw9feawf,
   emptyList as emptyList1g2z5xcrvp2zy,
@@ -14118,6 +14177,7 @@ export {
   get_lastIndex_3 as get_lastIndex1yw0x4k50k51w,
   lastOrNull as lastOrNull1aq5oz189qoe1,
   last as last1vo29oleiqj36,
+  listOfNotNull_0 as listOfNotNull1v4ggfackvuny,
   listOfNotNull as listOfNotNull2woi2boe01ub4,
   listOf as listOfvhqybd2zx248,
   listOf_0 as listOf1jh22dvmctj1r,
@@ -14154,6 +14214,7 @@ export {
   toList_0 as toList3jhuyej2anx2q,
   toList as toList383f556t1dixk,
   toMap as toMap1vec9topfei08,
+  toMutableList as toMutableList20rdgwi7d3cwi,
   toMutableSet as toMutableSetjdpdbr9jsqq8,
   toSet_0 as toSet2orjxp16sotqu,
   toSet as toSet1glep2u1u9tcb,
@@ -14265,6 +14326,7 @@ export {
   chunked as chunked1r6ubl9km7ic5,
   contains_7 as contains3ue2qo8xhmpf1,
   contains_8 as contains2el4s70rdq4ld,
+  dropLast as dropLastlqc2oyv04br0,
   endsWith as endsWith3cq61xxngobwh,
   equals_0 as equals2v6cggk171b6e,
   indexOf_5 as indexOfwa4w6635jewi,
@@ -14282,6 +14344,7 @@ export {
   single_2 as single29ec4rh52687r,
   split as split2bvyvnrlcifjv,
   startsWith as startsWith26w8qjqapeeq6,
+  substringAfterLast as substringAfterLastuw9v7gfiiihe,
   substringAfter_0 as substringAfter1hku067gwr5ve,
   substringAfter as substringAfter35b3qhto7hchb,
   substringBefore_0 as substringBeforekje8w2lxhyb6,
@@ -14300,6 +14363,7 @@ export {
   toULongOrNull as toULongOrNullojoyxi0i9tgj,
   toULong as toULong266mnyksbttkw,
   toUShort as toUShort7yqspfnhrot4,
+  trimEnd_0 as trimEnd17pt8cbotbalj,
   trimIndent as trimIndent1qytc1wvt8suh,
   trim_0 as trim6jpmwojjgb3l,
   trim as trim11nh7r46at6sx,
@@ -14318,6 +14382,7 @@ export {
   Long as Long2qws0ah9gnpki,
   RuntimeException as RuntimeException1r3t0zl97011n,
   THROW_CCE as THROW_CCE2g6jy02ryeudk,
+  THROW_IAE as THROW_IAE23kobfj9wdoxr,
   Triple as Triple1vhi3d0dgpnjb,
   UByteArray as UByteArray2qu4d6gwssdf9,
   UByte as UBytep4j7r1t64gz1,
