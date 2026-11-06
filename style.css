@@ -359,3 +359,11 @@ button.danger-fill { background: var(--bad); color: #fff; border-color: transpar
 .tile-name { font-size: .75rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .tile-iv { font-size: .78rem; font-weight: 800; }
 .tile .small { font-size: .7rem; }
+
+/* Filter der Sammlung: beschriftete Zeilen, die umbrechen */
+.filter-group { display: flex; align-items: flex-start; gap: 8px; margin: 6px 0; }
+.filter-group .fg-label { flex: none; width: 70px; font-size: .8rem; color: var(--muted); padding-top: 8px; }
+.filter-group .fg-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.select-bar { flex-wrap: wrap; }
+
+.chips.wrap { flex-wrap: wrap; overflow-x: visible; }
