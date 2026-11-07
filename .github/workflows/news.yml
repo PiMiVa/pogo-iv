@@ -1,5 +1,6 @@
-# Holt stündlich den News-Feed von Pokémon GO Hub und legt ihn als news.xml ab.
-# Die Web-App liest diese Kopie (der Browser darf den Feed nicht direkt laden).
+# Holt stündlich die News von Pokémon GO Hub und den Event-Kalender, übersetzt Überschriften und
+# Event-Namen ins Deutsche und legt alles als news.json ab (Skript: .github/scripts/news.py).
+# App und Web-App lesen diese Datei (der Browser darf den Feed nicht direkt laden).
 # Abschalten: diese Datei löschen oder unter "Actions" deaktivieren.
 name: News aktualisieren
 on:
@@ -13,16 +14,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Feed laden
-        run: |
-          curl -sf -A "Mozilla/5.0 (Pogo IV news mirror)" https://pokemongohub.net/feed/ -o news.new
-          grep -q "<item>" news.new
-          mv news.new news.xml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: News laden und übersetzen
+        run: python .github/scripts/news.py
       - name: Nur bei Änderung speichern
         run: |
-          if git diff --quiet -- news.xml; then echo "Keine neuen News"; exit 0; fi
+          if git diff --quiet -- news.json && git ls-files --error-unmatch news.json >/dev/null 2>&1; then echo "Keine neuen News"; exit 0; fi
           git config user.name "Pogo IV"
           git config user.email "actions@users.noreply.github.com"
-          git add news.xml
+          git add news.json
           git commit -m "News aktualisiert"
+          git pull --rebase
           git push
