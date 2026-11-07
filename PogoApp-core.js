@@ -176,7 +176,7 @@ import {
   multiply18i3gv3wlmcjg as multiply,
   divide3tol6kxdi8xn6 as divide,
   convertToIntofdoxh9bstof as convertToInt,
-} from './kotlin-kotlin-stdlib.js?v=1794056177332';
+} from './kotlin-kotlin-stdlib.js?v=1794056318886';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -194,7 +194,7 @@ import {
   SerializableWithd2dap36updxd as SerializableWith,
   BooleanSerializer_getInstance22aja3hu17sxf as BooleanSerializer_getInstance,
   LinkedHashMapSerializermaoj2nyji7op as LinkedHashMapSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794056177332';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794056318886';
 import {
   Jsonsmkyu9xjl7fv as Json,
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
@@ -207,7 +207,7 @@ import {
   get_jsonArray18sglwhl4pclz as get_jsonArray,
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794056177332';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794056318886';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -3069,22 +3069,26 @@ protoOf(EventCalendar).f1o = function (text, data, now, names, utcOffsetMinutes)
           if (tmp_8) {
             tmp_6 = who;
           } else {
-            var tmp2_elvis_lhs = names.z1(id);
-            var tmp_9;
-            if (tmp2_elvis_lhs == null) {
-              // Inline function 'kotlin.text.ifEmpty' call
-              var tmp_10;
-              // Inline function 'kotlin.text.isEmpty' call
-              if (charSequenceLength(who) === 0) {
-                tmp_10 = name;
-              } else {
-                tmp_10 = who;
-              }
-              tmp_9 = tmp_10;
+            if (setOf(['Event', 'Wild Area', 'Pok\xE9mon GO Tour', 'Pok\xE9mon GO Fest', 'Live Event']).d1(heading)) {
+              tmp_6 = name;
             } else {
-              tmp_9 = tmp2_elvis_lhs;
+              var tmp2_elvis_lhs = names.z1(id);
+              var tmp_9;
+              if (tmp2_elvis_lhs == null) {
+                // Inline function 'kotlin.text.ifEmpty' call
+                var tmp_10;
+                // Inline function 'kotlin.text.isEmpty' call
+                if (charSequenceLength(who) === 0) {
+                  tmp_10 = name;
+                } else {
+                  tmp_10 = who;
+                }
+                tmp_9 = tmp_10;
+              } else {
+                tmp_9 = tmp2_elvis_lhs;
+              }
+              tmp_6 = tmp_9;
             }
-            tmp_6 = tmp_9;
           }
         }
       }
