@@ -1,6 +1,33 @@
 {
- "generated": "2026-11-07T12:51:15Z",
+ "generated": "2026-11-07T17:47:27Z",
  "news": [
+  {
+   "title": "Minior Showers: Leonid (November 2026)",
+   "titleDe": "Kleine Duschen: Leonid (November 2026)",
+   "link": "https://pokemongohub.net/post/event/minior-showers-leonid-november-2026/",
+   "date": "Sat, 07 Nov 2026 17:21:16 +0000",
+   "categories": [
+    "Events",
+    "leonid",
+    "leonid meteor shower",
+    "minior shower",
+    "november 2026 minior"
+   ]
+  },
+  {
+   "title": "Hisuian Goodra Meta Guide: Is It Worth Building?",
+   "titleDe": "Hisuian Goodra Meta Guide: Lohnt es sich zu bauen?",
+   "link": "https://pokemongohub.net/post/meta/hisuian-goodra-meta-guide-is-it-worth-building/",
+   "date": "Sat, 07 Nov 2026 16:57:12 +0000",
+   "categories": [
+    "Meta",
+    "hisuian goodra",
+    "hisuian goodra meta",
+    "hisuian goodra pvp",
+    "mexico wild area",
+    "Pokémon GO Wild Area: Sendai • Tohoku"
+   ]
+  },
   {
    "title": "Free Gigantamax Machamp Timed Research Available This Weekend Only!",
    "titleDe": "Kostenlose zeitlich begrenzte Gigantamax-Machamp-Forschung nur an diesem Wochenende verfügbar!",
@@ -391,40 +418,9 @@
     "pikachu promo pokemon tcg pocket",
     "premium pass"
    ]
-  },
-  {
-   "title": "Halloween 2026 AR Photography Showcase",
-   "titleDe": "Halloween 2026 AR-Fotoshowcase",
-   "link": "https://pokemongohub.net/post/ar/halloween-2026-ar-photography-showcase/",
-   "date": "Sat, 31 Oct 2026 10:41:25 +0000",
-   "categories": [
-    "AR",
-    "ar photography",
-    "AR showcase",
-    "go snapshot",
-    "GOhubAR",
-    "halloween",
-    "halloween 2026"
-   ]
-  },
-  {
-   "title": "Super Mega Chandelure Raid Day",
-   "titleDe": "Super-Mega-Kronleuchter-Raid-Tag",
-   "link": "https://pokemongohub.net/post/event/super-mega-chandelure-raid-day/",
-   "date": "Fri, 30 Oct 2026 17:00:32 +0000",
-   "categories": [
-    "Events",
-    "News",
-    "mega chandelure",
-    "mega chandelure raid day",
-    "super mega chandelure",
-    "super mega chandelure raid day"
-   ]
   }
  ],
  "events": {
-  "pokemonspotlighthour2026-11-05": "Teddiursa mit Hexenhut Spotlight Hour",
-  "halloween-2026-part-2": "Pokémon GO Halloween 2026 Teil II",
   "pokemon-go-wild-area-2026-sendai-japan": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
   "pokemon-go-wild-area-2026-mexico-city": "Pokémon GO Wild Area 2026: Mexiko-Stadt",
   "mega-sableye-in-mega-raids-october-2026": "Mega-Sableye in Mega-Raubzügen",
@@ -453,9 +449,23 @@
   "twilight-wishes-2026": "Dämmerungswünsche",
   "max-mondays-2026-11-30": "Dynamax Cryogonal während max. Montag",
   "season-24-twilight-trails": "Twilight Trails",
-  "shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026": "Schatten-Tornadus (Inkarnierte Form) in Schatten-Raubzügen"
+  "go-pass-november-2026": "GO Pass: November",
+  "gbl-twilight-trails_master-league_mega-catch-cup-great-league-edition": "Master League und Mega Catch Cup: Great League Edition | Twilight Trails",
+  "shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026": "Schatten-Tornadus (Inkarnierte Form) in Schatten-Raubzügen",
+  "deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-november-2026": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) in 5-Sterne-Raid-Kämpfen",
+  "mega-metagross-in-mega-raids-november-2026": "Mega-Metagross in Mega-Raubzügen",
+  "minior-showers-geminids-2026": "Kleine Duschen: Geminiden 2026",
+  "pokemon-x-adidas-2026": "adidas × Pokémon Zeitgesteuerte Forschung",
+  "pokemon-go-tour-alola-kaohsiung-2027": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+  "pokemon-go-tour-alola-los-angeles-2027": "Pokémon GO Tour: Alola - Los Angeles 2027",
+  "pokemon-go-tour-alola-global-2027": "Pokémon GO Tour: Alola - Global 2027",
+  "minior-showers-eta-aquariids-2027": "Kleine Duschen: Eta Aquariids 2027",
+  "minior-showers-southern-delta-aquariids-2027": "Kleine Duschen: Southern Delta Aquariids 2027",
+  "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "translations": {
+  "Minior Showers: Leonid (November 2026)": "Kleine Duschen: Leonid (November 2026)",
+  "Hisuian Goodra Meta Guide: Is It Worth Building?": "Hisuian Goodra Meta Guide: Lohnt es sich zu bauen?",
   "Free Gigantamax Machamp Timed Research Available This Weekend Only!": "Kostenlose zeitlich begrenzte Gigantamax-Machamp-Forschung nur an diesem Wochenende verfügbar!",
   "Super Mega Clefable Raid Day": "Super-Mega-Clefable-Raid-Tag",
   "Pokémon GO Wild Area: Mexico City – Additional Details, Maps, In-Person Activities, Notable Trainers etc": "Pokémon GO Wild Area: Mexiko-Stadt – Zusätzliche Details, Karten, persönliche Aktivitäten, bemerkenswerte Trainer usw.",
@@ -484,10 +494,6 @@
   "Pokémon GO November 2026 Events": "Pokémon GO November 2026 Events",
   "Pokémon GO Halloween 2026: Part Two": "Pokémon GO Halloween 2026: Teil zwei",
   "Pokémon TCG Pocket November 2026 Premium Pass Lineup & Missions": "Pokémon-Sammelkartenspiel-Tasche November 2026 Premium-Pass-Aufstellung & Missionen",
-  "Halloween 2026 AR Photography Showcase": "Halloween 2026 AR-Fotoshowcase",
-  "Super Mega Chandelure Raid Day": "Super-Mega-Kronleuchter-Raid-Tag",
-  "Teddiursa wearing a witch hat Spotlight Hour": "Teddiursa mit Hexenhut Spotlight Hour",
-  "Pokémon GO Halloween 2026 Part II": "Pokémon GO Halloween 2026 Teil II",
   "Pokémon GO Wild Area 2026: Sendai • Tohoku": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
   "Pokémon GO Wild Area 2026: Mexico City": "Pokémon GO Wild Area 2026: Mexiko-Stadt",
   "Mega Sableye in Mega Raids": "Mega-Sableye in Mega-Raubzügen",
@@ -515,6 +521,18 @@
   "Clefable Super Mega Raid Day": "Clefable-Super-Mega-Raid-Tag",
   "Twilight Wishes": "Dämmerungswünsche",
   "Dynamax Cryogonal during Max Monday": "Dynamax Cryogonal während max. Montag",
-  "Twilight Trails": "Twilight Trails"
+  "Twilight Trails": "Twilight Trails",
+  "GO Pass: November": "GO Pass: November",
+  "Master League and Mega Catch Cup: Great League Edition | Twilight Trails": "Master League und Mega Catch Cup: Great League Edition | Twilight Trails",
+  "Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) in 5-Sterne-Raid-Kämpfen",
+  "Mega Metagross in Mega Raids": "Mega-Metagross in Mega-Raubzügen",
+  "Minior Showers: Geminids 2026": "Kleine Duschen: Geminiden 2026",
+  "adidas × Pokémon Timed Research": "adidas × Pokémon Zeitgesteuerte Forschung",
+  "Pokémon GO Tour: Alola - Kaohsiung 2027": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+  "Pokémon GO Tour: Alola - Los Angeles 2027": "Pokémon GO Tour: Alola - Los Angeles 2027",
+  "Pokémon GO Tour: Alola - Global 2027": "Pokémon GO Tour: Alola - Global 2027",
+  "Minior Showers: Eta Aquariids 2027": "Kleine Duschen: Eta Aquariids 2027",
+  "Minior Showers: Southern Delta Aquariids 2027": "Kleine Duschen: Southern Delta Aquariids 2027",
+  "Minior Showers: Perseids 2027": "Kleine Duschen: Perseiden 2027"
  }
 }
