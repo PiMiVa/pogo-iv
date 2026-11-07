@@ -121,7 +121,7 @@ import {
   returnIfSuspended39bw7wdvakhp8 as returnIfSuspended,
   toInt2q8uldh7sc951 as toInt,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1794050359446';
+} from './kotlin-kotlin-stdlib.js?v=1794050643093';
 import {
   Variant_NORMAL_getInstance23fgbcbkjs7l7 as Variant_NORMAL_getInstance,
   Cleanup_instance32xjuxulytgi8 as Cleanup_instance,
@@ -194,7 +194,7 @@ import {
   ScanParser_getInstance1dj216dqwcrgf as ScanParser_getInstance,
   GameSearch_instance1tp364lzrsclj as GameSearch_instance,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1794050359446';
+} from './PogoApp-core.js?v=1794050643093';
 import {
   launch1c91vkjzdi9sd as launch,
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
@@ -203,9 +203,9 @@ import {
   awaitxmqwgrq6yfmw as await_0,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1794050359446';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794050359446';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794050359446';
+} from './kotlinx-coroutines-core.js?v=1794050643093';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794050643093';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794050643093';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -8979,20 +8979,41 @@ protoOf(NewsView$load$slambda).f8 = function () {
           var text = _Result___get_isFailure__impl__jpiriv(this_1) ? null : _Result___get_value__impl__bjfvqg(this_1);
           NewsView_instance.b2l_1 = false;
           NewsView_instance.c2l_1 = text == null;
-          if (!(text == null))
-            NewsView_instance.a2l_1 = News_getInstance().ti(text);
+          if (!(text == null)) {
+            var tmp_4 = NewsView_instance;
+            this.z2q_1;
+            var tmp_5;
+            try {
+              var value = News_getInstance().ti(text);
+              tmp_5 = _Result___init__impl__xyqfz8(value);
+            } catch ($p) {
+              var tmp_6;
+              if ($p instanceof Error) {
+                var e_0 = $p;
+                tmp_6 = _Result___init__impl__xyqfz8(createFailure(e_0));
+              } else {
+                throw $p;
+              }
+              tmp_5 = tmp_6;
+            }
+            var this_2 = tmp_5;
+            var this_3 = _Result___get_isFailure__impl__jpiriv(this_2) ? null : _Result___get_value__impl__bjfvqg(this_2);
+            NewsView_instance.c2l_1 = this_3 == null;
+            tmp_4.a2l_1 = this_3;
+          }
+
           App_getInstance().c2h();
           return Unit_instance;
         case 6:
           throw this.a8_1;
       }
-    } catch ($p) {
-      var e_0 = $p;
+    } catch ($p_0) {
+      var e_1 = $p_0;
       if (this.y7_1 === 6) {
-        throw e_0;
+        throw e_1;
       } else {
         this.x7_1 = this.y7_1;
-        this.a8_1 = e_0;
+        this.a8_1 = e_1;
       }
     }
    while (true);

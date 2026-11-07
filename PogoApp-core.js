@@ -175,7 +175,7 @@ import {
   multiply18i3gv3wlmcjg as multiply,
   divide3tol6kxdi8xn6 as divide,
   convertToIntofdoxh9bstof as convertToInt,
-} from './kotlin-kotlin-stdlib.js?v=1794050359446';
+} from './kotlin-kotlin-stdlib.js?v=1794050643093';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -193,7 +193,7 @@ import {
   SerializableWithd2dap36updxd as SerializableWith,
   BooleanSerializer_getInstance22aja3hu17sxf as BooleanSerializer_getInstance,
   LinkedHashMapSerializermaoj2nyji7op as LinkedHashMapSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794050359446';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794050643093';
 import {
   Jsonsmkyu9xjl7fv as Json,
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
@@ -206,7 +206,7 @@ import {
   get_jsonArray18sglwhl4pclz as get_jsonArray,
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794050359446';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794050643093';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -7932,7 +7932,7 @@ protoOf(Hit).equals = function (other) {
 };
 function unescape($this, s) {
   // Inline function 'kotlin.text.replace' call
-  var tmp$ret$0 = Regex_init_$Create$('<!\\[CDATA\\[([\\s\\S]*?)]]>').rb(s, '$1');
+  var tmp$ret$0 = Regex_init_$Create$('<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>').rb(s, '$1');
   // Inline function 'kotlin.text.trim' call
   var this_0 = replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(tmp$ret$0, '&#8211;', '\u2013'), '&#8217;', '\u2019'), '&#8216;', '\u2018'), '&#8220;', '\u201C'), '&#8221;', '\u201D'), '&#038;', '&'), '&amp;', '&'), '&quot;', '"'), '&#39;', "'"), '&lt;', '<'), '&gt;', '>'), '&#8230;', '\u2026');
   return toString_0(trim(isCharSequence(this_0) ? this_0 : THROW_CCE()));
