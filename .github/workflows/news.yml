@@ -7,6 +7,10 @@ on:
   schedule:
     - cron: "23 * * * *"
   workflow_dispatch:
+  # Auch sofort, wenn der Job selbst geaendert wird (zum Testen).
+  push:
+    paths:
+      - ".github/**"
 permissions:
   contents: write
 jobs:
