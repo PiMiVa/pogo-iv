@@ -371,3 +371,6 @@ button.danger-fill { background: var(--bad); color: #fff; border-color: transpar
 .filter-toggle { display: flex; align-items: center; gap: 8px; margin: 8px 0; padding: 10px 12px; border-radius: 12px; background: var(--card-2); cursor: pointer; }
 .filter-toggle .on { color: var(--accent); font-size: .8rem; }
 .filter-toggle .grow { flex: 1; }
+.tip { font-size: .88rem; font-weight: 600; margin: 6px 0; }
+.tip.warn { color: var(--warn, #E08A00); }
+.tip.good { color: var(--good, #2E9E5B); }
