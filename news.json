@@ -1,6 +1,52 @@
 {
- "generated": "2026-11-08T01:31:45Z",
+ "generated": "2026-11-08T09:12:11Z",
  "news": [
+  {
+   "title": "Gigantamax Duraludon: How Good Is It in Max Battles?",
+   "titleDe": "Gigantamax Duraludon: Wie gut ist es in max. Kämpfen?",
+   "link": "https://pokemongohub.net/post/meta/gigantamax-duraludon-how-good-is-it-in-max-battles/",
+   "date": "Sun, 08 Nov 2026 07:22:02 +0000",
+   "categories": [
+    "Article",
+    "Meta",
+    "duraludon",
+    "gigantamax duraludon",
+    "gmax duraludon",
+    "go wild area",
+    "max battle"
+   ]
+  },
+  {
+   "title": "Dynamax Palkia: How Good Is It in Max Battles?",
+   "titleDe": "Dynamax Palkia: Wie gut ist es in Max-Kämpfen?",
+   "link": "https://pokemongohub.net/post/meta/dynamax-palkia-how-good-is-it-in-max-battles/",
+   "date": "Sun, 08 Nov 2026 07:14:30 +0000",
+   "categories": [
+    "Guides",
+    "Meta",
+    "dynamax palkia",
+    "go wild area",
+    "max meta",
+    "meta",
+    "palkia"
+   ]
+  },
+  {
+   "title": "Dynamax Dialga: How Good Is It in Max Battles?",
+   "titleDe": "Dynamax Dialga: Wie gut ist es in max. Kämpfen?",
+   "link": "https://pokemongohub.net/post/meta/dynamax-dialga-meta-analysis-how-good-is-it-in-max-battles/",
+   "date": "Sun, 08 Nov 2026 07:05:17 +0000",
+   "categories": [
+    "Guides",
+    "Meta",
+    "Dialga",
+    "dynamax dialga",
+    "go wild area 2026",
+    "max meta",
+    "meta",
+    "wild area"
+   ]
+  },
   {
    "title": "Minior Showers: Leonid (November 2026)",
    "titleDe": "Kleine Duschen: Leonid (November 2026)",
@@ -381,43 +427,6 @@
     "machop",
     "max monday"
    ]
-  },
-  {
-   "title": "Pokémon GO November 2026 Events",
-   "titleDe": "Pokémon GO November 2026 Events",
-   "link": "https://pokemongohub.net/post/event/pokemon-go-november-2026-events/",
-   "date": "Sun, 01 Nov 2026 05:00:15 +0000",
-   "categories": [
-    "Events",
-    "november 2026",
-    "pokemon go november 2026 events"
-   ]
-  },
-  {
-   "title": "Pokémon GO Halloween 2026: Part Two",
-   "titleDe": "Pokémon GO Halloween 2026: Teil zwei",
-   "link": "https://pokemongohub.net/post/event/pokemon-go-halloween-2026-part-two/",
-   "date": "Sun, 01 Nov 2026 04:55:14 +0000",
-   "categories": [
-    "Events",
-    "halloween 2026",
-    "halloween part two",
-    "halloween part two 2026",
-    "shiny greavard"
-   ]
-  },
-  {
-   "title": "Pokémon TCG Pocket November 2026 Premium Pass Lineup & Missions",
-   "titleDe": "Pokémon-Sammelkartenspiel-Tasche November 2026 Premium-Pass-Aufstellung & Missionen",
-   "link": "https://pokemongohub.net/post/tcg-pocket/pokemon-tcg-pocket-november-2026-premium-pass-lineup-missions/",
-   "date": "Sat, 31 Oct 2026 20:20:33 +0000",
-   "categories": [
-    "Pokémon TCG Pocket",
-    "november 2026 premium pass pokemon tcg pocket",
-    "pikachu",
-    "pikachu promo pokemon tcg pocket",
-    "premium pass"
-   ]
   }
  ],
  "events": {
@@ -464,6 +473,9 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "translations": {
+  "Gigantamax Duraludon: How Good Is It in Max Battles?": "Gigantamax Duraludon: Wie gut ist es in max. Kämpfen?",
+  "Dynamax Palkia: How Good Is It in Max Battles?": "Dynamax Palkia: Wie gut ist es in Max-Kämpfen?",
+  "Dynamax Dialga: How Good Is It in Max Battles?": "Dynamax Dialga: Wie gut ist es in max. Kämpfen?",
   "Minior Showers: Leonid (November 2026)": "Kleine Duschen: Leonid (November 2026)",
   "Hisuian Goodra Meta Guide: Is It Worth Building?": "Hisuian Goodra Meta Guide: Lohnt es sich zu bauen?",
   "Free Gigantamax Machamp Timed Research Available This Weekend Only!": "Kostenlose zeitlich begrenzte Gigantamax-Machamp-Forschung nur an diesem Wochenende verfügbar!",
@@ -491,9 +503,6 @@
   "Pokémon TCG Pocket Dual Fusion Trainer Card Review & Meta Analysis": "Pokémon TCG Pocket Dual Fusion Trainer Card Review & Meta-Analyse",
   "Pokémon TCG Pocket Dual Fusion ex Card Review & Meta Analysis": "Pokémon-Sammelkartenspiel-Tasche Dual Fusion Ex-Karten-Review & Meta-Analyse",
   "Dynamax Machop Max Monday: Event Guide": "Dynamax Machop Max Montag: Event-Guide",
-  "Pokémon GO November 2026 Events": "Pokémon GO November 2026 Events",
-  "Pokémon GO Halloween 2026: Part Two": "Pokémon GO Halloween 2026: Teil zwei",
-  "Pokémon TCG Pocket November 2026 Premium Pass Lineup & Missions": "Pokémon-Sammelkartenspiel-Tasche November 2026 Premium-Pass-Aufstellung & Missionen",
   "Pokémon GO Wild Area 2026: Sendai • Tohoku": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
   "Pokémon GO Wild Area 2026: Mexico City": "Pokémon GO Wild Area 2026: Mexiko-Stadt",
   "Mega Sableye in Mega Raids": "Mega-Sableye in Mega-Raubzügen",
