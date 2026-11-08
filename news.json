@@ -1,9 +1,22 @@
 {
- "generated": "2026-11-08T09:12:11Z",
+ "generated": "2026-11-08T16:05:55Z",
  "news": [
   {
-   "title": "Gigantamax Duraludon: How Good Is It in Max Battles?",
-   "titleDe": "Gigantamax Duraludon: Wie gut ist es in max. Kämpfen?",
+   "title": "This Week in Pokémon GO (November 9–15): GO Wild Area Global, Into the Wild and Minior Showers",
+   "titleDe": "Diese Woche in Pokémon GO (9.-15. November): GO Wild Area Global, Into the Wild und Minior Duschen",
+   "link": "https://pokemongohub.net/post/event/this-week-in-pokemon-go-november-9-15-go-wild-area-global-into-the-wild-and-minior-showers/",
+   "date": "Sun, 08 Nov 2026 11:23:51 +0000",
+   "categories": [
+    "Events",
+    "News",
+    "dynamax regidrago hour",
+    "dynamax registeel hour",
+    "This Week in Pokémon GO"
+   ]
+  },
+  {
+   "title": "Gigantamax Duraludon: Towering Above Most In The Current Meta",
+   "titleDe": "Gigantamax Duraludon: Überragt die meisten im aktuellen Meta",
    "link": "https://pokemongohub.net/post/meta/gigantamax-duraludon-how-good-is-it-in-max-battles/",
    "date": "Sun, 08 Nov 2026 07:22:02 +0000",
    "categories": [
@@ -413,20 +426,6 @@
     "ex cards dual fusion",
     "mega evolution ex pokemon tcg pocket"
    ]
-  },
-  {
-   "title": "Dynamax Machop Max Monday: Event Guide",
-   "titleDe": "Dynamax Machop Max Montag: Event-Guide",
-   "link": "https://pokemongohub.net/post/event/dynamax-machop-max-monday/",
-   "date": "Sun, 01 Nov 2026 12:00:46 +0000",
-   "categories": [
-    "Events",
-    "Counters",
-    "Dynamax",
-    "guide",
-    "machop",
-    "max monday"
-   ]
   }
  ],
  "events": {
@@ -437,7 +436,7 @@
   "shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026": "Schatten-Tornadus (Inkarnierte Form) in Schatten-Raubzügen",
   "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
   "pokemon-night-out-london-2026": "Pokémon-Nacht im Jahr 2026 - London",
-  "into-the-wild-2026": "Die Regeln des Spiels",
+  "into-the-wild-2026": "In die Wildnis 2026",
   "pokemon-go-wild-area-2026-global": "Pokémon GO Wild Area 2026: Global",
   "go-wild-area-gigantamax-machamp-power-up-timed-research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
   "max-mondays-2026-11-16": "Max. Montag: Pokémon wird bekannt gegeben",
@@ -473,7 +472,8 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "translations": {
-  "Gigantamax Duraludon: How Good Is It in Max Battles?": "Gigantamax Duraludon: Wie gut ist es in max. Kämpfen?",
+  "This Week in Pokémon GO (November 9–15): GO Wild Area Global, Into the Wild and Minior Showers": "Diese Woche in Pokémon GO (9.-15. November): GO Wild Area Global, Into the Wild und Minior Duschen",
+  "Gigantamax Duraludon: Towering Above Most In The Current Meta": "Gigantamax Duraludon: Überragt die meisten im aktuellen Meta",
   "Dynamax Palkia: How Good Is It in Max Battles?": "Dynamax Palkia: Wie gut ist es in Max-Kämpfen?",
   "Dynamax Dialga: How Good Is It in Max Battles?": "Dynamax Dialga: Wie gut ist es in max. Kämpfen?",
   "Minior Showers: Leonid (November 2026)": "Kleine Duschen: Leonid (November 2026)",
@@ -502,7 +502,6 @@
   "This Week in Pokémon GO (November 2–8): Wild Area 2026, Giratina & Halloween Finale": "Diese Woche in Pokémon GO (2.-8. November): Wild Area 2026, Giratina & Halloween-Finale",
   "Pokémon TCG Pocket Dual Fusion Trainer Card Review & Meta Analysis": "Pokémon TCG Pocket Dual Fusion Trainer Card Review & Meta-Analyse",
   "Pokémon TCG Pocket Dual Fusion ex Card Review & Meta Analysis": "Pokémon-Sammelkartenspiel-Tasche Dual Fusion Ex-Karten-Review & Meta-Analyse",
-  "Dynamax Machop Max Monday: Event Guide": "Dynamax Machop Max Montag: Event-Guide",
   "Pokémon GO Wild Area 2026: Sendai • Tohoku": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
   "Pokémon GO Wild Area 2026: Mexico City": "Pokémon GO Wild Area 2026: Mexiko-Stadt",
   "Mega Sableye in Mega Raids": "Mega-Sableye in Mega-Raubzügen",
@@ -510,7 +509,7 @@
   "Shadow Tornadus (Incarnate Forme) in Shadow Raids": "Schatten-Tornadus (Inkarnierte Form) in Schatten-Raubzügen",
   "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
   "Pokémon Night Out 2026 - London": "Pokémon-Nacht im Jahr 2026 - London",
-  "Into the Wild": "Die Regeln des Spiels",
+  "Into the Wild 2026": "In die Wildnis 2026",
   "Pokémon GO Wild Area 2026: Global": "Pokémon GO Wild Area 2026: Global",
   "GO Wild Area: Gigantamax Machamp Power Up! Timed Research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
   "Max Monday: Pokémon to be announced": "Max. Montag: Pokémon wird bekannt gegeben",
