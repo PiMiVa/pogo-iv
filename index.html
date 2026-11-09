@@ -6,6 +6,9 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Pogo IV">
 <meta name="theme-color" content="#0e9aa0">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <title>Pogo IV</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -14,6 +17,10 @@
 <div id="app">Lade …</div>
 <!-- Texterkennung. Sie laeuft im Browser, Bilder verlassen das Geraet nicht. -->
 <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.min.js"></script>
-<script type="module" src="PogoApp-webapp.js?v=1794056318886"></script>
+<script type="module" src="PogoApp-webapp.js?v=1794211268125"></script>
+<script>
+// Installierbar machen (PWA) und ohne Netz die letzte Fassung zeigen.
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+</script>
 </body>
 </html>
