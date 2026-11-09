@@ -1,6 +1,21 @@
 {
- "generated": "2026-11-09T01:00:53Z",
+ "generated": "2026-11-09T08:07:53Z",
  "news": [
+  {
+   "title": "Into the Wild (2026) Event",
+   "titleDe": "\"Into the Wild\" -Event (2026)",
+   "link": "https://pokemongohub.net/post/event/into-the-wild-2026-event/",
+   "date": "Mon, 09 Nov 2026 05:00:51 +0000",
+   "categories": [
+    "Events",
+    "News",
+    "dynamax meltan",
+    "dynamax regidrago",
+    "into the wild",
+    "into the wild 2026",
+    "silver bottle cap"
+   ]
+  },
   {
    "title": "This Week in Pokémon GO (November 9–15): GO Wild Area Global, Into the Wild and Minior Showers",
    "titleDe": "Diese Woche in Pokémon GO (9.-15. November): GO Wild Area Global, Into the Wild und Minior Duschen",
@@ -412,20 +427,6 @@
     "trainer cards",
     "trainer cards dual fusion"
    ]
-  },
-  {
-   "title": "Pokémon TCG Pocket Dual Fusion ex Card Review & Meta Analysis",
-   "titleDe": "Pokémon-Sammelkartenspiel-Tasche Dual Fusion Ex-Karten-Review & Meta-Analyse",
-   "link": "https://pokemongohub.net/post/tcg-pocket/pokemon-tcg-pocket-dual-fusion-ex-card-review-meta-analysis/",
-   "date": "Sun, 01 Nov 2026 12:43:29 +0000",
-   "categories": [
-    "Pokémon TCG Pocket",
-    "dual fusion pokemon tcg pocket",
-    "dual types pokemon tcg pocket",
-    "ex cards",
-    "ex cards dual fusion",
-    "mega evolution ex pokemon tcg pocket"
-   ]
   }
  ],
  "events": {
@@ -472,6 +473,7 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "translations": {
+  "Into the Wild (2026) Event": "\"Into the Wild\" -Event (2026)",
   "This Week in Pokémon GO (November 9–15): GO Wild Area Global, Into the Wild and Minior Showers": "Diese Woche in Pokémon GO (9.-15. November): GO Wild Area Global, Into the Wild und Minior Duschen",
   "Gigantamax Duraludon: Towering Above Most In The Current Meta": "Gigantamax Duraludon: Überragt die meisten im aktuellen Meta",
   "Dynamax Palkia: How Good Is It in Max Battles?": "Dynamax Palkia: Wie gut ist es in Max-Kämpfen?",
@@ -501,7 +503,6 @@
   "Shadow Prinplup Raid Counters Guide": "Leitfaden für Schattenprinplup-Raid-Konter",
   "This Week in Pokémon GO (November 2–8): Wild Area 2026, Giratina & Halloween Finale": "Diese Woche in Pokémon GO (2.-8. November): Wild Area 2026, Giratina & Halloween-Finale",
   "Pokémon TCG Pocket Dual Fusion Trainer Card Review & Meta Analysis": "Pokémon TCG Pocket Dual Fusion Trainer Card Review & Meta-Analyse",
-  "Pokémon TCG Pocket Dual Fusion ex Card Review & Meta Analysis": "Pokémon-Sammelkartenspiel-Tasche Dual Fusion Ex-Karten-Review & Meta-Analyse",
   "Pokémon GO Wild Area 2026: Sendai • Tohoku": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
   "Pokémon GO Wild Area 2026: Mexico City": "Pokémon GO Wild Area 2026: Mexiko-Stadt",
   "Mega Sableye in Mega Raids": "Mega-Sableye in Mega-Raubzügen",
