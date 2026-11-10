@@ -456,3 +456,4 @@ header { background: #2fb6e8; border-radius: 0 0 26px 26px; }
 .team-head.slim .track { background: rgba(90, 59, 0, .18); }
 .team-head.slim .track i { background: var(--on-sun); }
 section.card.flush:has(.team-head) { border: 3px solid var(--sun); }
+.tile-mega { position: absolute; top: -2px; right: -4px; background: var(--sun); color: var(--on-sun); border-radius: 999px; font-size: .62rem; font-weight: 800; padding: 0 4px; }
