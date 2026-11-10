@@ -1,6 +1,20 @@
 {
- "generated": "2026-11-09T18:56:01Z",
+ "generated": "2026-11-10T02:16:47Z",
  "news": [
+  {
+   "title": "Save the Dates for Next Season’s Community Days and Events!",
+   "titleDe": "Merken Sie sich die Termine für die Community-Tage und -Events der nächsten Saison vor!",
+   "link": "https://pokemongohub.net/post/news/save-the-dates-for-next-seasons-community-days-and-events-2/",
+   "date": "Mon, 09 Nov 2026 19:12:22 +0000",
+   "categories": [
+    "News",
+    "community day",
+    "community day dates",
+    "max battle day",
+    "raid day",
+    "super mega raid day"
+   ]
+  },
   {
    "title": "How to beat Dynamax Regidrago: Complete Guide",
    "titleDe": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
@@ -413,19 +427,6 @@
     "night shade+",
     "PvE"
    ]
-  },
-  {
-   "title": "Shadow Poliwhirl Raid Guide",
-   "titleDe": "Schatten-Poliwhirl-Raid-Guide",
-   "link": "https://pokemongohub.net/post/guide/shadow-poliwhirl-raid-guide/",
-   "date": "Sun, 01 Nov 2026 22:41:56 +0000",
-   "categories": [
-    "Guides",
-    "shadow poliwhirl",
-    "shadow poliwhirl counters",
-    "shadow poliwhirl raid",
-    "shadow raid"
-   ]
   }
  ],
  "events": {
@@ -437,6 +438,7 @@
   "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
   "pokemon-night-out-london-2026": "Pokémon-Nacht im Jahr 2026 - London",
   "into-the-wild-2026": "In die Wildnis 2026",
+  "zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026": "Zacian (Kronenschwert) und Zamazenta (Kronenschild) in 5-Sterne-Raid-Kämpfen",
   "pokemon-go-wild-area-2026-global": "Pokémon GO Wild Area 2026: Global",
   "go-wild-area-gigantamax-machamp-power-up-timed-research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
   "max-mondays-2026-11-16": "Max. Montag: Pokémon wird bekannt gegeben",
@@ -472,6 +474,7 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "translations": {
+  "Save the Dates for Next Season’s Community Days and Events!": "Merken Sie sich die Termine für die Community-Tage und -Events der nächsten Saison vor!",
   "How to beat Dynamax Regidrago: Complete Guide": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
   "Into the Wild 2026 PvE Guide: What to Build, What to Skip": "Into the Wild 2026 PvE-Leitfaden: Was zu bauen ist, was zu überspringen ist",
   "GO Pass: Into the Wild": "GO-Pass: In die Wildnis",
@@ -501,7 +504,6 @@
   "Pokémon GO Twilight Wishes (2026)": "Pokémon GO Dämmerungswünsche (2026)",
   "Pokémon Sleep: Bountiful Banquet Week Vol 1.": "Pokémon-Schlaf: Großzügige Bankettwoche Bd 1.",
   "PvE Analysis: Halloween Event 2026 Part 2": "PvE-Analyse: Halloween-Event 2026 Teil 2",
-  "Shadow Poliwhirl Raid Guide": "Schatten-Poliwhirl-Raid-Guide",
   "Pokémon GO Wild Area 2026: Sendai • Tohoku": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
   "Pokémon GO Wild Area 2026: Mexico City": "Pokémon GO Wild Area 2026: Mexiko-Stadt",
   "Mega Sableye in Mega Raids": "Mega-Sableye in Mega-Raubzügen",
@@ -510,6 +512,7 @@
   "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
   "Pokémon Night Out 2026 - London": "Pokémon-Nacht im Jahr 2026 - London",
   "Into the Wild 2026": "In die Wildnis 2026",
+  "Zacian (Crowned Sword) and Zamazenta (Crowned Shield) in 5-star Raid Battles": "Zacian (Kronenschwert) und Zamazenta (Kronenschild) in 5-Sterne-Raid-Kämpfen",
   "Pokémon GO Wild Area 2026: Global": "Pokémon GO Wild Area 2026: Global",
   "GO Wild Area: Gigantamax Machamp Power Up! Timed Research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
   "Max Monday: Pokémon to be announced": "Max. Montag: Pokémon wird bekannt gegeben",
