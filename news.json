@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T17:58:18Z",
+ "generated": "2026-11-10T23:33:22Z",
  "news": [
   {
    "title": "Pokémon News This Week: Pokopia Expansion Pass, Fender Guitars Collaboration, Vivillon Challenge and More!",
@@ -434,11 +434,6 @@
   }
  ],
  "events": {
-  "pokemon-go-wild-area-2026-sendai-japan": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
-  "pokemon-go-wild-area-2026-mexico-city": "Pokémon GO Wild Area 2026: Mexiko-Stadt",
-  "mega-sableye-in-mega-raids-october-2026": "Mega-Sableye in Mega-Raubzügen",
-  "giratina-altered-forme-in-5-star-raid-battles-november-2026": "Giratina (Altered Forme) in 5-Stern Raid-Kämpfen",
-  "shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026": "Schatten-Tornadus (Inkarnierte Form) in Schatten-Raubzügen",
   "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
   "pokemon-night-out-london-2026": "Pokémon-Nacht im Jahr 2026 - London",
   "into-the-wild-2026": "In die Wildnis 2026",
@@ -489,437 +484,6 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "details": {
-  "pokemon-go-wild-area-2026-sendai-japan": {
-   "sections": [
-    {
-     "id": "spawns",
-     "groups": [
-      {
-       "title": "Solid as Steel Hour",
-       "pokemon": [
-        "Alolan Sandshrew",
-        "Alolan Diglett",
-        "Magnemite",
-        "Shellder",
-        "Onix",
-        "Porygon",
-        "Shuckle",
-        "Skarmory",
-        "Nosepass",
-        "Aron",
-        "Beldum",
-        "Piplup",
-        "Shieldon",
-        "Bronzor",
-        "Lucario",
-        "Drilbur",
-        "Ferroseed",
-        "Klink",
-        "Galarian Stunfisk",
-        "Durant",
-        "Hisuian Sliggoo",
-        "Rookidee",
-        "Tinkatink",
-        "Orthworm"
-       ]
-      },
-      {
-       "title": "Daring as Dragons Hour",
-       "pokemon": [
-        "Charmander",
-        "Magikarp",
-        "Dratini",
-        "Gligar",
-        "Trapinch",
-        "Swablu",
-        "Barboach",
-        "Bagon",
-        "Gible",
-        "Tynamo",
-        "Axew",
-        "Heatmor",
-        "Deino",
-        "Skrelp",
-        "Tyrunt",
-        "Amaura",
-        "Goomy",
-        "Hisuian Sliggoo",
-        "Noibat",
-        "Turtonator",
-        "Jangmo-o",
-        "Applin",
-        "Sizzlipede",
-        "Frigibax",
-        "Modern Jacket Machamp",
-        "Alolan Exeggutor",
-        "Lapras",
-        "Azumarill",
-        "Scizor",
-        "Kingdra",
-        "Aggron",
-        "Flygon",
-        "Walrein",
-        "Metagross",
-        "Empoleon",
-        "Bastiodon",
-        "Magnezone",
-        "Conkeldurr",
-        "Ferrothorn",
-        "Haxorus"
-       ]
-      },
-      {
-       "title": "Ticket Holder Incense Encounters",
-       "pokemon": [
-        "Unown A",
-        "Unown D",
-        "Unown E",
-        "Unown I",
-        "Unown N",
-        "Unown S",
-        "Latias",
-        "Latios"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "eggs",
-     "groups": [
-      {
-       "title": "10 km Eggs",
-       "pokemon": [
-        "Honedge",
-        "Klefki",
-        "Drampa",
-        "Duraludon"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Modern Jacket Machamp",
-        "Zacian (Crowned Sword)",
-        "Zamazenta (Crowned Shield)"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "max-battles",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Gigantamax Duraludon",
-        "Dialga",
-        "Palkia"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "shiny",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Hisuian Sliggoo",
-        "Hisuian Goodra"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [
-    "Increased chance to encounter Shiny Pokémon",
-    "1/2 Hatch Distance for Eggs placed in Incubators during the event",
-    "Up to 10 free Raid Passes per day from Gyms",
-    "3/4 Max Particle cost for unlocking and powering up Max Moves",
-    "Daily Max Particle collection limit increased to 8,000",
-    "Increased Max Particles from Power Spots and exploration",
-    "Increased chance of 10 km Eggs from PokéStops and Gyms",
-    "Lure Modules last for 2 hours",
-    "Incense, excluding Daily Adventure Incense, lasts for 2 hours",
-    "2× Candy for catching Pokémon",
-    "Party Play lasts for 8 hours",
-    "Chance to encounter mighty Pokémon on Routes"
-   ],
-   "fetched": "2026-11-10",
-   "bonusesDe": [
-    "Erhöhte Chance, glänzenden Pokémon zu begegnen",
-    "1/2 Schraffurabstand für Eier, die während des Events in Inkubatoren gelegt werden",
-    "Bis zu 10 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
-    "3/4 max. Partikelkosten für das Freischalten und Verbessern von max. Manövern",
-    "Tägliches maximales Partikel-Sammellimit auf 8.000 erhöht",
-    "Maximale Anzahl an Partikeln durch Kraftpunkte und Erkundung erhöht",
-    "Erhöhte Chance auf 10 km Eier aus PokéStops und Fitnessstudios",
-    "Ködermodule halten 2 Stunden",
-    "Räucherstäbchen, ausgenommen tägliches Abenteuer Räucherstäbchen, hält 2 Stunden",
-    "2× Süßigkeiten zum Fangen von Pokémon",
-    "Party-Spiel dauert 8 Stunden",
-    "Chance, mächtige Pokémon auf Routen zu treffen"
-   ]
-  },
-  "pokemon-go-wild-area-2026-mexico-city": {
-   "sections": [
-    {
-     "id": "spawns",
-     "groups": [
-      {
-       "title": "Solid as Steel Hour",
-       "pokemon": [
-        "Alolan Sandshrew",
-        "Alolan Diglett",
-        "Magnemite",
-        "Shellder",
-        "Onix",
-        "Porygon",
-        "Shuckle",
-        "Skarmory",
-        "Nosepass",
-        "Aron",
-        "Beldum",
-        "Piplup",
-        "Shieldon",
-        "Bronzor",
-        "Lucario",
-        "Drilbur",
-        "Ferroseed",
-        "Klink",
-        "Galarian Stunfisk",
-        "Durant",
-        "Hisuian Sliggoo",
-        "Rookidee",
-        "Tinkatink",
-        "Orthworm"
-       ]
-      },
-      {
-       "title": "Daring as Dragons Hour",
-       "pokemon": [
-        "Charmander",
-        "Magikarp",
-        "Dratini",
-        "Gligar",
-        "Trapinch",
-        "Swablu",
-        "Barboach",
-        "Bagon",
-        "Gible",
-        "Tynamo",
-        "Axew",
-        "Heatmor",
-        "Deino",
-        "Skrelp",
-        "Tyrunt",
-        "Amaura",
-        "Goomy",
-        "Hisuian Sliggoo",
-        "Noibat",
-        "Turtonator",
-        "Jangmo-o",
-        "Applin",
-        "Sizzlipede",
-        "Frigibax",
-        "Modern Jacket Machamp",
-        "Alolan Exeggutor",
-        "Azumarill",
-        "Scizor",
-        "Kingdra",
-        "Aggron",
-        "Flygon",
-        "Walrein",
-        "Metagross",
-        "Empoleon",
-        "Bastiodon",
-        "Magnezone",
-        "Conkeldurr",
-        "Ferrothorn",
-        "Haxorus",
-        "Hydreigon"
-       ]
-      },
-      {
-       "title": "Ticket Holder Incense Encounters",
-       "pokemon": [
-        "Unown C",
-        "Unown E",
-        "Unown I",
-        "Unown M",
-        "Unown O",
-        "Unown X",
-        "Latias",
-        "Latios"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "eggs",
-     "groups": [
-      {
-       "title": "10 km Eggs",
-       "pokemon": [
-        "Honedge",
-        "Klefki",
-        "Drampa",
-        "Duraludon"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Modern Jacket Machamp",
-        "Zacian (Crowned Sword)",
-        "Zamazenta (Crowned Shield)"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "max-battles",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Gigantamax Duraludon",
-        "Dialga",
-        "Palkia"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "shiny",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Hisuian Sliggoo",
-        "Hisuian Goodra"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [
-    "Increased chance to encounter Shiny Pokémon",
-    "1/2 Hatch Distance for Eggs placed in Incubators during the event",
-    "Up to 10 free Raid Passes per day from Gyms",
-    "3/4 Max Particle cost for unlocking and powering up Max Moves",
-    "Daily Max Particle collection limit increased to 8,000",
-    "Increased Max Particles from Power Spots and exploration",
-    "Increased chance of 10 km Eggs from PokéStops and Gyms",
-    "Lure Modules last for 2 hours",
-    "Incense, excluding Daily Adventure Incense, lasts for 2 hours",
-    "2× Candy for catching Pokémon",
-    "Party Play lasts for 8 hours",
-    "Chance to encounter mighty Pokémon on Routes"
-   ],
-   "fetched": "2026-11-10",
-   "bonusesDe": [
-    "Erhöhte Chance, glänzenden Pokémon zu begegnen",
-    "1/2 Schraffurabstand für Eier, die während des Events in Inkubatoren gelegt werden",
-    "Bis zu 10 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
-    "3/4 max. Partikelkosten für das Freischalten und Verbessern von max. Manövern",
-    "Tägliches maximales Partikel-Sammellimit auf 8.000 erhöht",
-    "Maximale Anzahl an Partikeln durch Kraftpunkte und Erkundung erhöht",
-    "Erhöhte Chance auf 10 km Eier aus PokéStops und Fitnessstudios",
-    "Ködermodule halten 2 Stunden",
-    "Räucherstäbchen, ausgenommen tägliches Abenteuer Räucherstäbchen, hält 2 Stunden",
-    "2× Süßigkeiten zum Fangen von Pokémon",
-    "Party-Spiel dauert 8 Stunden",
-    "Chance, mächtige Pokémon auf Routen zu treffen"
-   ]
-  },
-  "mega-sableye-in-mega-raids-october-2026": {
-   "sections": [
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Mega Sableye"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "shiny",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Sableye",
-        "Mega Sableye"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [],
-   "fetched": "2026-11-10",
-   "bonusesDe": []
-  },
-  "giratina-altered-forme-in-5-star-raid-battles-november-2026": {
-   "sections": [
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Giratina (Altered)"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "shiny",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Giratina (Altered)"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [],
-   "fetched": "2026-11-10",
-   "bonusesDe": []
-  },
-  "shadow-tornadus-incarnate-forme-in-shadow-raids-november-4-2026": {
-   "sections": [
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "Appearing in 5-Star Shadow Raids",
-       "pokemon": [
-        "Tornadus (Incarnate)"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [],
-   "fetched": "2026-11-10",
-   "bonusesDe": []
-  },
   "pokemon-night-out-london-2026": {
    "sections": [
     {
@@ -1904,6 +1468,132 @@
    "bonuses": [],
    "fetched": "2026-11-10",
    "bonusesDe": []
+  },
+  "pokemon-x-adidas-2026": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "january-communityday2027": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "max-battle-day-january-2027": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "super-mega-raid-day-january-30-2027": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "february-communityday2027": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "raid-day-february-2027": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "pokemon-go-tour-alola-kaohsiung-2027": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "pokemon-go-tour-alola-los-angeles-2027": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "pokemon-go-tour-alola-global-2027": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "minior-showers-eta-aquariids-2027": {
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Minior (Meteor Form)"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [
+    "Increased Stardust for catching Minior",
+    "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
+   ],
+   "fetched": "2026-11-10",
+   "bonusesDe": [
+    "Erhöhter Sternenstaub zum Fangen von Minior",
+    "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
+   ]
+  },
+  "minior-showers-southern-delta-aquariids-2027": {
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Minior (Meteor Form)"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [
+    "Increased Stardust for catching Minior",
+    "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
+   ],
+   "fetched": "2026-11-10",
+   "bonusesDe": [
+    "Erhöhter Sternenstaub zum Fangen von Minior",
+    "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
+   ]
+  },
+  "minior-showers-perseids-2027": {
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Minior (Meteor Form)"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [
+    "Increased Stardust for catching Minior",
+    "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
+   ],
+   "fetched": "2026-11-10",
+   "bonusesDe": [
+    "Erhöhter Sternenstaub zum Fangen von Minior",
+    "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
+   ]
   }
  },
  "translations": {
@@ -1937,23 +1627,6 @@
   "GO Pass November 2026: Tasks, Rewards & Bonuses": "GO Pass November 2026: Aufgaben, Belohnungen & Boni",
   "GO Wild Area 2026 Brings Trainer Backgrounds, Private Dynamax Battles, and More": "GO Wild Area 2026 bringt Trainerhintergründe, private Dynamax-Kämpfe und mehr",
   "Explorer Gadget Gets a Major Upgrade, Alongside New Quality-of-Life Updates": "Entdecker-Gadget erhält ein großes Upgrade, zusammen mit neuen Updates zur Lebensqualität",
-  "Pokémon GO Wild Area 2026: Sendai • Tohoku": "Pokémon GO Wild Area 2026: Sendai • Tohoku",
-  "Increased chance to encounter Shiny Pokémon": "Erhöhte Chance, glänzenden Pokémon zu begegnen",
-  "1/2 Hatch Distance for Eggs placed in Incubators during the event": "1/2 Schraffurabstand für Eier, die während des Events in Inkubatoren gelegt werden",
-  "Up to 10 free Raid Passes per day from Gyms": "Bis zu 10 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
-  "3/4 Max Particle cost for unlocking and powering up Max Moves": "3/4 max. Partikelkosten für das Freischalten und Verbessern von max. Manövern",
-  "Daily Max Particle collection limit increased to 8,000": "Tägliches maximales Partikel-Sammellimit auf 8.000 erhöht",
-  "Increased Max Particles from Power Spots and exploration": "Maximale Anzahl an Partikeln durch Kraftpunkte und Erkundung erhöht",
-  "Increased chance of 10 km Eggs from PokéStops and Gyms": "Erhöhte Chance auf 10 km Eier aus PokéStops und Fitnessstudios",
-  "Lure Modules last for 2 hours": "Ködermodule halten 2 Stunden",
-  "Incense, excluding Daily Adventure Incense, lasts for 2 hours": "Räucherstäbchen, ausgenommen tägliches Abenteuer Räucherstäbchen, hält 2 Stunden",
-  "2× Candy for catching Pokémon": "2× Süßigkeiten zum Fangen von Pokémon",
-  "Party Play lasts for 8 hours": "Party-Spiel dauert 8 Stunden",
-  "Chance to encounter mighty Pokémon on Routes": "Chance, mächtige Pokémon auf Routen zu treffen",
-  "Pokémon GO Wild Area 2026: Mexico City": "Pokémon GO Wild Area 2026: Mexiko-Stadt",
-  "Mega Sableye in Mega Raids": "Mega-Sableye in Mega-Raubzügen",
-  "Giratina (Altered Forme) in 5-star Raid Battles": "Giratina (Altered Forme) in 5-Stern Raid-Kämpfen",
-  "Shadow Tornadus (Incarnate Forme) in Shadow Raids": "Schatten-Tornadus (Inkarnierte Form) in Schatten-Raubzügen",
   "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
   "Pokémon Night Out 2026 - London": "Pokémon-Nacht im Jahr 2026 - London",
   "Lure Modules activated during the event last for one hour, excluding Golden Lure Modules": "Während des Events aktivierte Ködermodule dauern eine Stunde, ausgenommen Goldene Ködermodule",
@@ -1970,11 +1643,14 @@
   "Up to 3 free Raid Passes per day from Gyms": "Bis zu 3 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
   "Daily Max Particle collection limit increased to 1,600": "Tägliches maximales Partikel-Sammellimit auf 1.600 erhöht",
   "3 GO Snapshot surprise encounters per day": "3 GO Snapshot Überraschungsbegegnungen pro Tag",
+  "Party Play lasts for 8 hours": "Party-Spiel dauert 8 Stunden",
+  "Chance to encounter mighty Pokémon on Routes": "Chance, mächtige Pokémon auf Routen zu treffen",
   "Increased chance to encounter Shiny Pokémon*": "Erhöhte Chance, glänzenden Pokémon zu begegnen *",
   "Daily Max Particle collection limit increased to 3,200": "Tägliches maximales Partikel-Sammellimit auf 3.200 erhöht",
   "Increased Max Particles from Power Spots and exploration**": "Erhöhte max. Partikel von Kraftpunkten und Erkundung**",
   "Up to 6 free Raid Passes per day from Gyms": "Bis zu 6 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
   "GO Safari Balls instead of Premier Balls for raids and Max Battles***": "GO-Safari-Bälle anstelle von Premier-Bällen für Raids und Max-Kämpfe * **",
+  "2× Candy for catching Pokémon": "2× Süßigkeiten zum Fangen von Pokémon",
   "GO Wild Area: Gigantamax Machamp Power Up! Timed Research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
   "Max Monday: Pokémon to be announced": "Max. Montag: Pokémon wird bekannt gegeben",
   "Great League, Ultra League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails": "Great League, Ultra League: Mega Edition und 2026 GO LAIC Cup | Twilight Trails",
@@ -2024,6 +1700,7 @@
   "Twilight Trails": "Twilight Trails",
   "GO Pass: November": "GO Pass: November",
   "Master League and Mega Catch Cup: Great League Edition | Twilight Trails": "Master League und Mega Catch Cup: Great League Edition | Twilight Trails",
+  "Shadow Tornadus (Incarnate Forme) in Shadow Raids": "Schatten-Tornadus (Inkarnierte Form) in Schatten-Raubzügen",
   "Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) in 5-Sterne-Raid-Kämpfen",
   "Mega Metagross in Mega Raids": "Mega-Metagross in Mega-Raubzügen",
   "Max Battle Day": "Max. Kampftag",
