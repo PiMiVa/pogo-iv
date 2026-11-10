@@ -51,6 +51,7 @@ import {
   joinToString1cxrrlmo0chqs as joinToString,
   Long2qws0ah9gnpki as Long,
   compareValues1n2ayl87ihzfk as compareValues,
+  firstOrNull1982767dljvdy as firstOrNull,
   setOf1u3mizs95ngxo as setOf,
   listOf1jh22dvmctj1r as listOf,
   to2cs3ny02qtbcb as to,
@@ -66,7 +67,6 @@ import {
   initMetadataForObject1cxne3s9w65el as initMetadataForObject,
   throwUninitializedPropertyAccessException14fok093f3k3t as throwUninitializedPropertyAccessException,
   toIntOrNull3w2d066r9pvwm as toIntOrNull,
-  firstOrNull1982767dljvdy as firstOrNull,
   plus20p0vtfmu0596 as plus_1,
   replace3le3ie7l9k8aq as replace,
   reversed3umwqsxpi431x as reversed,
@@ -129,7 +129,7 @@ import {
   returnIfSuspended39bw7wdvakhp8 as returnIfSuspended,
   toInt2q8uldh7sc951 as toInt,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1794300181490';
+} from './kotlin-kotlin-stdlib.js?v=1794301223839';
 import {
   Variant_NORMAL_getInstance23fgbcbkjs7l7 as Variant_NORMAL_getInstance,
   Cleanup_instance32xjuxulytgi8 as Cleanup_instance,
@@ -210,7 +210,7 @@ import {
   ScanParser_getInstance1dj216dqwcrgf as ScanParser_getInstance,
   GameSearch_instance1tp364lzrsclj as GameSearch_instance,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1794300181490';
+} from './PogoApp-core.js?v=1794301223839';
 import {
   launch1c91vkjzdi9sd as launch,
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
@@ -219,9 +219,9 @@ import {
   MainScope1gi1r4abhrtmm as MainScope,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1794300181490';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794300181490';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794300181490';
+} from './kotlinx-coroutines-core.js?v=1794301223839';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794301223839';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794301223839';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -2195,11 +2195,15 @@ function CollectionView$tile$lambda$lambda_1($p, $s) {
 }
 function CollectionView$tile$lambda($species, $p, $picked, $s) {
   return function ($this$add) {
+    var tmp = $this$add.style;
+    var tmp0_safe_receiver = $species;
+    var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.x1e_1;
+    tmp.setProperty('--tc', typeColor(tmp1_safe_receiver == null ? null : firstOrNull(tmp1_safe_receiver)));
     $this$add.onclick = CollectionView$tile$lambda$lambda($p);
     add_0($this$add, 'div', 'tile-img', VOID, CollectionView$tile$lambda$lambda_0($species, $p, $picked));
-    var tmp0_safe_receiver = $species;
-    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.s1e_1;
-    add_0($this$add, 'div', 'tile-name', tmp1_elvis_lhs == null ? $p.b1l_1 : tmp1_elvis_lhs);
+    var tmp2_safe_receiver = $species;
+    var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.s1e_1;
+    add_0($this$add, 'div', 'tile-name', tmp3_elvis_lhs == null ? $p.b1l_1 : tmp3_elvis_lhs);
     add_0($this$add, 'div', 'tile-cp', num($p.c1l_1) + ' WP');
     add_0($this$add, 'div', 'tile-iv', VOID, CollectionView$tile$lambda$lambda_1($p, $s));
     return Unit_instance;
@@ -7523,7 +7527,7 @@ function TeamView$teamCard$lambda$lambda$lambda($team) {
 }
 function TeamView$teamCard$lambda$lambda($rank, $team) {
   return function ($this$add) {
-    add_0($this$add, 'b', '', '#' + $rank);
+    add_0($this$add, 'b', '', 'Team ' + $rank);
     add_0($this$add, 'div', 'track grow', VOID, TeamView$teamCard$lambda$lambda$lambda($team));
     add_0($this$add, 'span', '', dec($team.n24_1, 0) + ' % Abdeckung');
     add_0($this$add, 'b', '', dec($team.m24_1));

@@ -432,3 +432,27 @@ button.danger-fill { background: var(--bad); color: #fff; border-color: transpar
 .cal-mon { width: 54px; display: flex; flex-direction: column; align-items: center; }
 .cal-mon span { font-size: .6rem; color: var(--muted); max-width: 54px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .cal-mon span.good { color: var(--good); font-weight: 700; }
+
+/* Spiel-Stil (Variante A, Wahl des Besitzers 10.11.2026): Himmelblau wie Pokemon GO, Gelb fuer Teams,
+   Pokemon auf kraeftigen Kreisen in Typ-Farbe, Kacheln leicht in Typ-Farbe. */
+:root {
+  --bg: #eaf6ff; --card-2: #e2f1fc; --card-3: #f4faff; --line: #d3e6f3;
+  --accent: #1a9ad6; --accent-dark: #1a8cc7; --accent-soft: #d3eeff; --accent-on-soft: #003a57;
+  --tonal: #d3eeff; --tonal-text: #003a57; --sun: #ffc83d; --on-sun: #5a3b00;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1620; --card: #13222e; --card-2: #1e3242; --card-3: #0f1d28; --line: #24394a;
+    --accent: #6ccff6; --accent-soft: #0d4a6b; --accent-on-soft: #cdebff; --tonal: #0d4a6b; --tonal-text: #cdebff;
+  }
+}
+header { background: #2fb6e8; border-radius: 0 0 26px 26px; }
+.sprite {
+  background: radial-gradient(circle, color-mix(in srgb, var(--tc) 55%, transparent), color-mix(in srgb, var(--tc) 85%, transparent));
+  box-shadow: inset 0 0 0 max(1.5px, calc(var(--size) * .05)) #fff;
+}
+.tile { background: color-mix(in srgb, var(--tc, #9aa5ae) 22%, var(--card)); border-radius: 16px; }
+.team-head, .team-head.slim { background: var(--sun); color: var(--on-sun); }
+.team-head.slim .track { background: rgba(90, 59, 0, .18); }
+.team-head.slim .track i { background: var(--on-sun); }
+section.card.flush:has(.team-head) { border: 3px solid var(--sun); }
