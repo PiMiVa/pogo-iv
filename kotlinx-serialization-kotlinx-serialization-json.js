@@ -49,7 +49,7 @@ import {
   serializer1q7c5q67ysppr as serializer_3,
   NamedValueDecoderzk26ztf92xbq as NamedValueDecoder,
   getContextualDescriptor2n1gf3b895yb8 as getContextualDescriptor,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794297975822';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794300181490';
 import {
   protoOf180f3jzyo7rfj as protoOf,
   initMetadataForObject1cxne3s9w65el as initMetadataForObject,
@@ -186,7 +186,7 @@ import {
   substringiqarkczpya5m as substring,
   StringBuilder_init_$Create$yggnhbmai7wr as StringBuilder_init_$Create$_0,
   HashMap_init_$Create$m2z141lj3xfu as HashMap_init_$Create$,
-} from './kotlin-kotlin-stdlib.js?v=1794297975822';
+} from './kotlin-kotlin-stdlib.js?v=1794300181490';
 //region block: imports
 var imul = Math.imul;
 //endregion
