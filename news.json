@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T08:29:04Z",
+ "generated": "2026-11-10T10:03:40Z",
  "news": [
   {
    "title": "Pokémon GO Web Store: Black Friday Sale PokéCoin Bonus",
@@ -1361,6 +1361,385 @@
    "bonuses": [],
    "fetched": "2026-11-10",
    "bonusesDe": []
+  },
+  "pokemonspotlighthour2026-11-19": {
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Grookey",
+        "Scorbunny",
+        "Sobble"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "minior-showers-leonids-2026": {
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Minior (Meteor Form)"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [
+    "Increased Stardust for catching Minior",
+    "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
+   ],
+   "fetched": "2026-11-10",
+   "bonusesDe": [
+    "Erhöhter Sternenstaub zum Fangen von Minior",
+    "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
+   ]
+  },
+  "eternamax-eternatus-max-battles-2026": {
+   "sections": [],
+   "bonuses": [
+    "Power Spots will refresh more frequently",
+    "Max Particle collection limit increased to 2,400",
+    "8× Max Particles from Power Spots"
+   ],
+   "fetched": "2026-11-10",
+   "bonusesDe": [
+    "Power Spots werden häufiger aktualisiert",
+    "Maximales Partikel-Sammellimit auf 2.400 erhöht",
+    "8× Max. Partikel von Kraftpunkten"
+   ]
+  },
+  "november-communityday2026": {
+   "sections": [
+    {
+     "id": "photobomb",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Pawniard"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Pawniard"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Pawniard",
+        "Bisharp",
+        "Kingambit"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [
+    "Increased Spawns",
+    "1/4 Egg Hatch Distance",
+    "3-hour Incense",
+    "1-hour Lures*",
+    "2x Catch Candy",
+    "2x Chance for Trainers level 31 and up to receive Candy XL from catching Pokémon",
+    "One additional Special Trade can be made for a maximum of two for the day*",
+    "Trades made will require 50% less Stardust*"
+   ],
+   "fetched": "2026-11-10",
+   "bonusesDe": [
+    "Erhöhte Spawns",
+    "1/4 Eischlupf-Abstand",
+    "3-stündiger Weihrauch",
+    "1-stündige Köder*",
+    "2x Catch Candy",
+    "2x Chance auf Ausbilder Level 31 und höher, Candy XL durch das Fangen von Pokémon zu erhalten",
+    "Ein zusätzlicher Spezialhandel kann für maximal zwei für den Tag getätigt werden *",
+    "Für getätigte Trades wird 50 % weniger Sternenstaub benötigt *"
+   ]
+  },
+  "dynamax-trails-2026": {
+   "sections": [
+    {
+     "id": "max-battles",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Eternamax Eternatus"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "research",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Eternatus"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [
+    "Chance to receive Max Particles when catching event-themed Pokémon in the wild or after Max Battles",
+    "More Power Spots than usual will be active"
+   ],
+   "fetched": "2026-11-10",
+   "bonusesDe": [
+    "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
+    "Es werden mehr Power Spots als üblich aktiv sein"
+   ]
+  },
+  "max-mondays-2026-11-23": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "cresselia-darkrai-in-5-star-raid-battles-november-2026": {
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Cresselia",
+        "Darkrai"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Cresselia",
+        "Darkrai"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "mega-banette-in-mega-raids-november-2026": {
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Mega Banette"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Banette",
+        "Mega Banette"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "raidhour20261125": {
+   "sections": [],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "pokemonspotlighthour2026-11-26": {
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Noibat"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "fetched": "2026-11-10",
+   "bonusesDe": []
+  },
+  "clefable-super-mega-raid-day-2026": {
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "Encounter after defeating Mega Clefable",
+       "pokemon": [
+        "Clefable"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Clefable"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [
+    "Remote Raid limit increased to 20 from Friday, November 27, at 5:00 p.m. to Saturday, November 28, 2026, at 8:00 p.m. PST",
+    "Receive up to six free Raid Passes from spinning Gym Photo Discs",
+    "Clefable caught from Super Mega Raids will have Mega Level 1 unlocked",
+    "Increased chance of encountering Shiny Clefable from Super Mega Raids",
+    "Receive up to 14 Raid Passes from spinning Gym Photo Discs",
+    "Increased chance to get Rare Candy XL from Raid Battles",
+    "An additional 5,000 XP from Super Mega Raid Battles",
+    "An additional 5,000 Stardust from Super Mega Raid Battles"
+   ],
+   "fetched": "2026-11-10",
+   "bonusesDe": [
+    "Das Remote-Raid-Limit wurde von Freitag, 27. November, 17:00 Uhr auf Samstag, 28. November 2026, 20:00 Uhr PST auf 20 erhöht.",
+    "Erhalte bis zu sechs kostenlose Raid-Pässe von drehenden Fitnessstudio-Fotodiscs",
+    "Bei Clefable, das bei Super-Mega-Raids gefangen wird, wird Mega Level 1 freigeschaltet",
+    "Erhöhte Chance, glänzenden Clefable bei Super-Mega-Raubzügen zu begegnen",
+    "Erhalte bis zu 14 Raid-Pässe von drehenden Fitnessstudio-Fotodiscs",
+    "Erhöhte Chance, seltene Süßigkeiten XL in Raid-Kämpfen zu erhalten",
+    "Zusätzliche 5.000 EP aus Super-Mega-Raid-Kämpfen",
+    "Zusätzliche 5.000 Sternenstaub aus Super-Mega-Raid-Kämpfen"
+   ]
+  },
+  "twilight-wishes-2026": {
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Clefairy",
+        "Staryu",
+        "Elgyem",
+        "Rockruff"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "One-Star Raids",
+       "pokemon": [
+        "Pikachu wearing a sun crown",
+        "Pikachu wearing a moon crown"
+       ]
+      },
+      {
+       "title": "Three-Star Raids",
+       "pokemon": [
+        "Espeon wearing a sun scarf",
+        "Umbreon wearing a moon scarf"
+       ]
+      },
+      {
+       "title": "Mega Raids",
+       "pokemon": [
+        "Mega Beedrill",
+        "Mega Houndoom",
+        "Mega Sableye",
+        "Mega Manectric"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "research",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Staryu",
+        "Elgyem"
+       ]
+      },
+      {
+       "title": "November 24 at 10:00 a.m. to November 26 at 10:00 a.m. local time",
+       "pokemon": [
+        "Applin",
+        "Maschiff"
+       ]
+      },
+      {
+       "title": "November 26 at 10:00 a.m. to November 30 at 8:00 p.m. local time",
+       "pokemon": [
+        "Gengar wearing a Spooky Festival costume",
+        "Drifblim wearing a Halloween Mischief costume",
+        "Bramblin"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [
+    "Increased chance to encounter Shiny Staryu and Shiny Elgyem",
+    "Increased chance to get Lucky Pokémon in trades",
+    "Increased chance to become Lucky Friends",
+    "2× Stardust for catching Pokémon",
+    "GO Pass Deluxe: 3× Stardust for catching Pokémon"
+   ],
+   "fetched": "2026-11-10",
+   "bonusesDe": [
+    "Erhöhte Chance, Shiny Staryu und Shiny Elgyem zu begegnen",
+    "Erhöhte Chance, Glückspokémon im Handel zu erhalten",
+    "Erhöhte Chance, glückliche Freunde zu werden",
+    "2× Sternenstaub zum Fangen von Pokémon",
+    "GO Pass Deluxe: 3× Sternenstaub zum Fangen von Pokémon"
+   ]
   }
  },
  "translations": {
@@ -1438,9 +1817,24 @@
   "Cresselia and Darkrai Raid Hour": "Cresselia- und Darkrai-Raid-Stunde",
   "Grookey, Scorbunny, and Sobble Spotlight Hour": "Grookey, Scorbunny und Sobble Spotlight Hour",
   "Minior Showers: Leonids 2026": "Kleine Duschen: Leoniden 2026",
+  "Increased Stardust for catching Minior": "Erhöhter Sternenstaub zum Fangen von Minior",
+  "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day": "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen",
   "Eternamax Eternatus Returns": "Eternamax Eternatus Returns",
+  "Power Spots will refresh more frequently": "Power Spots werden häufiger aktualisiert",
+  "Max Particle collection limit increased to 2,400": "Maximales Partikel-Sammellimit auf 2.400 erhöht",
+  "8× Max Particles from Power Spots": "8× Max. Partikel von Kraftpunkten",
   "Pawniard Community Day": "Pawniard Community Day",
+  "Increased Spawns": "Erhöhte Spawns",
+  "1/4 Egg Hatch Distance": "1/4 Eischlupf-Abstand",
+  "3-hour Incense": "3-stündiger Weihrauch",
+  "1-hour Lures*": "1-stündige Köder*",
+  "2x Catch Candy": "2x Catch Candy",
+  "2x Chance for Trainers level 31 and up to receive Candy XL from catching Pokémon": "2x Chance auf Ausbilder Level 31 und höher, Candy XL durch das Fangen von Pokémon zu erhalten",
+  "One additional Special Trade can be made for a maximum of two for the day*": "Ein zusätzlicher Spezialhandel kann für maximal zwei für den Tag getätigt werden *",
+  "Trades made will require 50% less Stardust*": "Für getätigte Trades wird 50 % weniger Sternenstaub benötigt *",
   "Dynamax Trails": "Dynamax Trails",
+  "Chance to receive Max Particles when catching event-themed Pokémon in the wild or after Max Battles": "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
+  "More Power Spots than usual will be active": "Es werden mehr Power Spots als üblich aktiv sein",
   "Dynamax Espurr during Max Monday": "Dynamax Espurr während Max. Montag",
   "Cresselia and Darkrai in 5-star Raid Battles": "Cresselia und Darkrai in 5-Sterne-Raid-Kämpfen",
   "Mega Banette in Mega Raids": "Mega-Banette in Mega-Raubzügen",
@@ -1448,7 +1842,20 @@
   "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) Raid-Stunde",
   "Noibat Spotlight Hour": "Noibat Spotlight Hour",
   "Clefable Super Mega Raid Day": "Clefable-Super-Mega-Raid-Tag",
+  "Remote Raid limit increased to 20 from Friday, November 27, at 5:00 p.m. to Saturday, November 28, 2026, at 8:00 p.m. PST": "Das Remote-Raid-Limit wurde von Freitag, 27. November, 17:00 Uhr auf Samstag, 28. November 2026, 20:00 Uhr PST auf 20 erhöht.",
+  "Receive up to six free Raid Passes from spinning Gym Photo Discs": "Erhalte bis zu sechs kostenlose Raid-Pässe von drehenden Fitnessstudio-Fotodiscs",
+  "Clefable caught from Super Mega Raids will have Mega Level 1 unlocked": "Bei Clefable, das bei Super-Mega-Raids gefangen wird, wird Mega Level 1 freigeschaltet",
+  "Increased chance of encountering Shiny Clefable from Super Mega Raids": "Erhöhte Chance, glänzenden Clefable bei Super-Mega-Raubzügen zu begegnen",
+  "Receive up to 14 Raid Passes from spinning Gym Photo Discs": "Erhalte bis zu 14 Raid-Pässe von drehenden Fitnessstudio-Fotodiscs",
+  "Increased chance to get Rare Candy XL from Raid Battles": "Erhöhte Chance, seltene Süßigkeiten XL in Raid-Kämpfen zu erhalten",
+  "An additional 5,000 XP from Super Mega Raid Battles": "Zusätzliche 5.000 EP aus Super-Mega-Raid-Kämpfen",
+  "An additional 5,000 Stardust from Super Mega Raid Battles": "Zusätzliche 5.000 Sternenstaub aus Super-Mega-Raid-Kämpfen",
   "Twilight Wishes": "Dämmerungswünsche",
+  "Increased chance to encounter Shiny Staryu and Shiny Elgyem": "Erhöhte Chance, Shiny Staryu und Shiny Elgyem zu begegnen",
+  "Increased chance to get Lucky Pokémon in trades": "Erhöhte Chance, Glückspokémon im Handel zu erhalten",
+  "Increased chance to become Lucky Friends": "Erhöhte Chance, glückliche Freunde zu werden",
+  "2× Stardust for catching Pokémon": "2× Sternenstaub zum Fangen von Pokémon",
+  "GO Pass Deluxe: 3× Stardust for catching Pokémon": "GO Pass Deluxe: 3× Sternenstaub zum Fangen von Pokémon",
   "Dynamax Cryogonal during Max Monday": "Dynamax Cryogonal während max. Montag",
   "Twilight Trails": "Twilight Trails",
   "GO Pass: November": "GO Pass: November",
