@@ -374,3 +374,42 @@ button.danger-fill { background: var(--bad); color: #fff; border-color: transpar
 .tip { font-size: .88rem; font-weight: 600; margin: 6px 0; }
 .tip.warn { color: var(--warn, #E08A00); }
 .tip.good { color: var(--good, #2E9E5B); }
+
+/* Teams: Liga-Auswahl als Filter, Top-10-Teams */
+.league-bar { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+.league-pick {
+  flex: 1; display: flex; align-items: center; gap: 8px; min-width: 0;
+  background: var(--tonal); color: var(--tonal-text); border: 0; border-radius: 999px;
+  padding: 10px 16px; font: inherit; font-weight: 800; cursor: pointer;
+}
+.league-pick .grow { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; }
+.small-btn { font-size: .85rem; margin: 4px 0 12px; }
+.theory-team { display: flex; align-items: center; gap: 6px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.theory-team:last-child { border-bottom: 0; }
+.theory-member { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.theory-member .small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.small.good, .good { color: var(--good); }
+
+/* Kalender: Monatsleiste und kompakte Zeilen */
+.kind-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.months { display: flex; gap: 10px; overflow-x: auto; padding: 4px 0 10px; scroll-snap-type: x mandatory; }
+.month { flex: 0 0 auto; background: var(--card); border-radius: 18px; padding: 10px; scroll-snap-align: start; }
+.month-title { font-weight: 800; margin-bottom: 4px; }
+.month-grid { display: grid; grid-template-columns: repeat(7, 26px); gap: 1px; }
+.month-grid .wd { font-size: .65rem; color: var(--muted); text-align: center; }
+.month-grid .d {
+  height: 32px; border-radius: 7px; display: flex; flex-direction: column; align-items: center;
+  font-size: .75rem; padding-top: 2px;
+}
+.month-grid .d.has { font-weight: 800; cursor: pointer; }
+.month-grid .d.past { color: var(--muted); opacity: .55; }
+.month-grid .d.today { background: var(--accent-soft); color: var(--accent-on-soft); font-weight: 800; cursor: pointer; }
+.month-grid .d.sel { background: var(--accent); color: #fff; opacity: 1; }
+.month-grid .dots { display: flex; gap: 1px; margin-top: 2px; }
+.month-grid .dots i { width: 4px; height: 4px; border-radius: 50%; display: block; }
+.cal-row { display: flex; gap: 10px; padding: 0 !important; overflow: hidden; border-left: 5px solid var(--kc); }
+.cal-row .cal-date { width: 48px; flex: 0 0 48px; display: flex; flex-direction: column; align-items: center; padding: 10px 0; }
+.cal-row .cal-date b { font-size: 1.3rem; color: var(--kc); line-height: 1.1; }
+.cal-row .cal-date span { font-size: .7rem; color: var(--muted); }
+.cal-row .grow { padding: 10px 10px 10px 0; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.cal-row .cal-title { font-weight: 600; }

@@ -164,7 +164,7 @@ import {
   StringCompanionObject_instance2dx16b5pp3v3z as StringCompanionObject_instance,
   getKClass3t8tygqu4lcxf as getKClass,
   mapOf1xd03cq9cnmy8 as mapOf,
-} from './kotlin-kotlin-stdlib.js?v=1794215649575';
+} from './kotlin-kotlin-stdlib.js?v=1794297975822';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -1027,7 +1027,7 @@ protoOf(AbstractDecoder).um = function () {
 };
 protoOf(AbstractDecoder).vm = function () {
   var tmp = this.lm();
-  return tmp instanceof Char ? tmp.h1_1 : THROW_CCE();
+  return tmp instanceof Char ? tmp.i1_1 : THROW_CCE();
 };
 protoOf(AbstractDecoder).wm = function () {
   var tmp = this.lm();
@@ -1604,9 +1604,9 @@ protoOf(MapLikeSerializer).er = function (decoder, builder, startIndex, size) {
     throw IllegalArgumentException_init_$Create$(toString(message));
   }
   var progression = step(until(0, imul(size, 2)), 2);
-  var inductionVariable = progression.w_1;
-  var last = progression.x_1;
-  var step_0 = progression.y_1;
+  var inductionVariable = progression.y_1;
+  var last = progression.z_1;
+  var step_0 = progression.a1_1;
   if (step_0 > 0 && inductionVariable <= last || (step_0 < 0 && last <= inductionVariable))
     do {
       var index = inductionVariable;
@@ -3848,7 +3848,7 @@ protoOf(CharSerializer).iz = function (encoder, value) {
   return encoder.eo(value);
 };
 protoOf(CharSerializer).kk = function (encoder, value) {
-  return this.iz(encoder, value instanceof Char ? value.h1_1 : THROW_CCE());
+  return this.iz(encoder, value instanceof Char ? value.i1_1 : THROW_CCE());
 };
 protoOf(CharSerializer).jz = function (decoder) {
   return decoder.vm();
@@ -4077,7 +4077,7 @@ protoOf(TaggedDecoder).l10 = function (tag) {
 };
 protoOf(TaggedDecoder).m10 = function (tag) {
   var tmp = this.d10(tag);
-  return tmp instanceof Char ? tmp.h1_1 : THROW_CCE();
+  return tmp instanceof Char ? tmp.i1_1 : THROW_CCE();
 };
 protoOf(TaggedDecoder).n10 = function (tag) {
   var tmp = this.d10(tag);
