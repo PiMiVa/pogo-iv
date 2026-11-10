@@ -33,6 +33,45 @@ def translate(text):
     return out
 
 
+import re
+import html as htmllib
+
+SECTION_IDS = ["spawns", "raids", "eggs", "research", "field-research", "timed-research", "special-research",
+               "max-battles", "featured-pokemon", "shiny", "bonuses", "incense", "lures", "photobomb"]
+MAX_PAGES = 12  # hoechstens so viele Event-Seiten pro Lauf (je Event hoechstens einmal am Tag)
+
+
+def clean(s):
+    return htmllib.unescape(re.sub(r"<[^>]+>", "", s or "")).strip()
+
+
+def details(page):
+    """Abschnitte einer LeekDuck-Eventseite: je Abschnitt Gruppen (Unterueberschrift + Pokemon), dazu Boni."""
+    out = {"sections": [], "bonuses": []}
+    marks = [(m.start(), m.group(1)) for m in re.finditer(r'id="([a-z-]+)"', page) if m.group(1) in SECTION_IDS]
+    end_mark = page.find('id="related-event"')
+    for i, (pos, sid) in enumerate(marks):
+        stop = marks[i + 1][0] if i + 1 < len(marks) else (end_mark if end_mark > pos else len(page))
+        part = page[pos:stop]
+        if sid == "bonuses":
+            out["bonuses"] = [clean(b) for b in re.findall(r'class="bonus-text">(.*?)</', part, re.S)][:12]
+            continue
+        groups = []
+        # Unterueberschriften (z. B. "Three-Star Raids") teilen den Abschnitt in Gruppen.
+        pieces = re.split(r"<h3[^>]*>(.*?)</h3>", part, flags=re.S)
+        title = ""
+        for j, piece in enumerate(pieces):
+            if j % 2 == 1:
+                title = clean(piece)
+                continue
+            names = [clean(n) for n in re.findall(r'class="pkmn-name">(.*?)</', piece, re.S)]
+            if names:
+                groups.append({"title": title, "pokemon": names[:40]})
+        if groups:
+            out["sections"].append({"id": sid, "groups": groups})
+    return out
+
+
 def main():
     try:
         old = json.load(open(OUT, encoding="utf-8"))
@@ -76,20 +115,42 @@ def main():
         })
 
     events = {}
+    # Details der Eventseiten (wilde Pokemon, Raids, Boni), je Event hoechstens einmal am Tag geladen.
+    old_details = old.get("details", {})
+    new_details = {}
+    pages = [MAX_PAGES]
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     cutoff = (datetime.now(timezone.utc) - timedelta(days=2)).strftime("%Y-%m-%dT%H:%M")
     for e in json.loads(get(EVENTS)):
         end = e.get("end") or ""
         if end and end < cutoff:
             continue
         name = e.get("name") or ""
+        eid = e.get("eventID") or name
         t = de(name)
         if t:
-            events[e.get("eventID") or name] = t
+            events[eid] = t
+        if e.get("heading") in ("GO Battle League", "Season"):
+            continue
+        d = old_details.get(eid)
+        if (d is None or d.get("fetched") != today) and pages[0] > 0 and (e.get("link") or "").startswith("https://leekduck.com/"):
+            pages[0] -= 1
+            try:
+                fresh = details(get(e["link"]))
+                fresh["fetched"] = today
+                d = fresh
+                time.sleep(1)
+            except Exception:
+                pass
+        if d:
+            d["bonusesDe"] = [de(b) or b for b in d.get("bonuses", [])]
+            new_details[eid] = d
 
     result = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "news": news,
         "events": events,
+        "details": new_details,
         # Nur noch Benutztes behalten, damit die Datei nicht waechst.
         "translations": used,
     }
