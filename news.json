@@ -1,6 +1,23 @@
 {
- "generated": "2026-11-10T23:33:22Z",
+ "generated": "2026-11-11T06:47:40Z",
  "news": [
+  {
+   "title": "How to Beat Dynamax Registeel: Best Counters & Guide",
+   "titleDe": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
+   "link": "https://pokemongohub.net/post/news/how-to-beat-dynamax-registeel-best-counters-guide/",
+   "date": "Wed, 11 Nov 2026 05:00:59 +0000",
+   "categories": [
+    "News",
+    "Counters",
+    "Dynamax",
+    "dynamax registeel",
+    "dynamax registeel counters",
+    "dynamax registeel guide",
+    "max monday",
+    "raid guide",
+    "registeel"
+   ]
+  },
   {
    "title": "Pokémon News This Week: Pokopia Expansion Pass, Fender Guitars Collaboration, Vivillon Challenge and More!",
    "titleDe": "Pokémon-Nachrichten diese Woche: Pokopia-Erweiterungspass, Fender-Gitarren-Kollaboration, Vivillon-Herausforderung und mehr!",
@@ -419,18 +436,6 @@
    "categories": [
     "News"
    ]
-  },
-  {
-   "title": "Explorer Gadget Gets a Major Upgrade, Alongside New Quality-of-Life Updates",
-   "titleDe": "Entdecker-Gadget erhält ein großes Upgrade, zusammen mit neuen Updates zur Lebensqualität",
-   "link": "https://pokemongohub.net/post/news/explorer-gadget-gets-a-major-upgrade-alongside-new-quality-of-life-updates/",
-   "date": "Mon, 02 Nov 2026 20:55:43 +0000",
-   "categories": [
-    "News",
-    "explorer gadget",
-    "explorer gadget update",
-    "quality of life update"
-   ]
   }
  ],
  "events": {
@@ -546,7 +551,7 @@
    "bonuses": [
     "Lure Modules activated during the event last for one hour, excluding Golden Lure Modules"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Während des Events aktivierte Ködermodule dauern eine Stunde, ausgenommen Goldene Ködermodule"
    ]
@@ -666,7 +671,7 @@
     "Reduced wait time before you can open the Mystery Box again*",
     "Trainers can receive special event stickers from PokéStops and Gifts"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Das Remote-Raid-Limit wurde von Montag, 9. November, auf Freitag, 13. November 2026, auf 30 erhöht",
     "Kein Remote-Raid-Limit von Samstag, 14. November, bis Sonntag, 15. November 2026",
@@ -704,7 +709,7 @@
     }
    ],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "pokemon-go-wild-area-2026-global": {
@@ -901,7 +906,7 @@
     "GO Safari Balls instead of Premier Balls for raids and Max Battles***",
     "2× Candy for catching Pokémon"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Chance, GO-Safari-Bälle von PokéStops und Fitnessstudios zu erhalten",
     "Bis zu 3 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
@@ -920,19 +925,19 @@
   "go-wild-area-gigantamax-machamp-power-up-timed-research": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "max-mondays-2026-11-16": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "raidhour20261118": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "pokemonspotlighthour2026-11-19": {
@@ -952,7 +957,7 @@
     }
    ],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "minior-showers-leonids-2026": {
@@ -973,7 +978,7 @@
     "Increased Stardust for catching Minior",
     "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -986,7 +991,7 @@
     "Max Particle collection limit increased to 2,400",
     "8× Max Particles from Power Spots"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Power Spots werden häufiger aktualisiert",
     "Maximales Partikel-Sammellimit auf 2.400 erhöht",
@@ -1041,7 +1046,7 @@
     "One additional Special Trade can be made for a maximum of two for the day*",
     "Trades made will require 50% less Stardust*"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhte Spawns",
     "1/4 Eischlupf-Abstand",
@@ -1082,7 +1087,7 @@
     "Chance to receive Max Particles when catching event-themed Pokémon in the wild or after Max Battles",
     "More Power Spots than usual will be active"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
     "Es werden mehr Power Spots als üblich aktiv sein"
@@ -1597,6 +1602,7 @@
   }
  },
  "translations": {
+  "How to Beat Dynamax Registeel: Best Counters & Guide": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
   "Pokémon News This Week: Pokopia Expansion Pass, Fender Guitars Collaboration, Vivillon Challenge and More!": "Pokémon-Nachrichten diese Woche: Pokopia-Erweiterungspass, Fender-Gitarren-Kollaboration, Vivillon-Herausforderung und mehr!",
   "Silver Bottle Cap Guide": "Leitfaden für silberne Flaschenverschlüsse",
   "Pokémon GO Web Store: Black Friday Sale PokéCoin Bonus": "Pokémon GO Web Store: Black Friday Sale PokéCoin-Bonus",
@@ -1626,7 +1632,6 @@
   "Shadow Tornadus (Incarnate) Raid Counters Guide": "Schatten-Tornadus (inkarniert) Raid-Konter-Leitfaden",
   "GO Pass November 2026: Tasks, Rewards & Bonuses": "GO Pass November 2026: Aufgaben, Belohnungen & Boni",
   "GO Wild Area 2026 Brings Trainer Backgrounds, Private Dynamax Battles, and More": "GO Wild Area 2026 bringt Trainerhintergründe, private Dynamax-Kämpfe und mehr",
-  "Explorer Gadget Gets a Major Upgrade, Alongside New Quality-of-Life Updates": "Entdecker-Gadget erhält ein großes Upgrade, zusammen mit neuen Updates zur Lebensqualität",
   "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
   "Pokémon Night Out 2026 - London": "Pokémon-Nacht im Jahr 2026 - London",
   "Lure Modules activated during the event last for one hour, excluding Golden Lure Modules": "Während des Events aktivierte Ködermodule dauern eine Stunde, ausgenommen Goldene Ködermodule",
