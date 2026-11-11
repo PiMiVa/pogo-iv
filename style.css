@@ -457,3 +457,17 @@ header { background: #2fb6e8; border-radius: 0 0 26px 26px; }
 .team-head.slim .track i { background: var(--on-sun); }
 section.card.flush:has(.team-head) { border: 3px solid var(--sun); }
 .tile-mega { position: absolute; top: -2px; right: -4px; background: var(--sun); color: var(--on-sun); border-radius: 999px; font-size: .62rem; font-weight: 800; padding: 0 4px; }
+.cal-dialog h3 { margin-bottom: 2px; }
+.cal-mons.big { gap: 6px; }
+.cal-mons.big .cal-mon { width: 70px; }
+.cal-mons.big .cal-mon span { font-size: .72rem; max-width: 70px; color: var(--text); }
+.cal-mons.big .cal-mon span.good { color: var(--good); }
+
+/* Dunkelmodus: farbige Schrift heller, sonst schwer lesbar auf Schwarz (Rueckmeldung 11.11.2026) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --muted: #b9c6d0; --good: #5fd08c; --warn-c: #ffb547; --bad: #ff7b7b; --warn: #ff8f8f;
+    --shadow: #b48cf0; --dust: #c4adf5; --candy: #ff8fae; --accent: #7fd8ff;
+  }
+  .cal-row .cal-date b, .cal-sec { filter: brightness(1.45); }
+}
