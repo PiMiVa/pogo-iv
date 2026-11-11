@@ -1,6 +1,22 @@
 {
- "generated": "2026-11-11T15:26:36Z",
+ "generated": "2026-11-11T22:49:16Z",
  "news": [
+  {
+   "title": "How to beat Dynamax Regidrago: Complete Guide",
+   "titleDe": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
+   "link": "https://pokemongohub.net/post/guide/how-to-beat-dynamax-regidrago-complete-guide/",
+   "date": "Wed, 11 Nov 2026 18:42:33 +0000",
+   "categories": [
+    "Guides",
+    "dynamax regidrago",
+    "dynamax regidrago counters",
+    "dynamax regidrago guide",
+    "raid guide",
+    "regidrago",
+    "regidrago counters",
+    "regidrago max battle guide"
+   ]
+  },
   {
    "title": "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026",
    "titleDe": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
@@ -100,22 +116,6 @@
     "max battle day",
     "raid day",
     "super mega raid day"
-   ]
-  },
-  {
-   "title": "How to beat Dynamax Regidrago: Complete Guide",
-   "titleDe": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
-   "link": "https://pokemongohub.net/post/guide/how-to-beat-dynamax-regidrago-complete-guide/",
-   "date": "Mon, 09 Nov 2026 13:42:33 +0000",
-   "categories": [
-    "Guides",
-    "dynamax regidrago",
-    "dynamax regidrago counters",
-    "dynamax regidrago guide",
-    "raid guide",
-    "regidrago",
-    "regidrago counters",
-    "regidrago max battle guide"
    ]
   },
   {
@@ -1502,25 +1502,25 @@
   "raid-day-february-2027": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "pokemon-go-tour-alola-kaohsiung-2027": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "pokemon-go-tour-alola-los-angeles-2027": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "pokemon-go-tour-alola-global-2027": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "minior-showers-eta-aquariids-2027": {
@@ -1541,7 +1541,7 @@
     "Increased Stardust for catching Minior",
     "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1565,7 +1565,7 @@
     "Increased Stardust for catching Minior",
     "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1589,7 +1589,7 @@
     "Increased Stardust for catching Minior",
     "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1637,6 +1637,7 @@
   "Defeat a Team GO Rocket Grunt": "Besiege ein Team GO Rocket Grunt"
  },
  "translations": {
+  "How to beat Dynamax Regidrago: Complete Guide": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
   "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
   "What Pokémon Should I Use My Silver Bottle Cap On?": "Auf welches Pokémon sollte ich meinen silbernen Flaschenverschluss aufsetzen?",
   "How to Beat Dynamax Registeel: Best Counters & Guide": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
@@ -1644,7 +1645,6 @@
   "Silver Bottle Cap Guide": "Leitfaden für silberne Flaschenverschlüsse",
   "Pokémon GO Web Store: Black Friday Sale PokéCoin Bonus": "Pokémon GO Web Store: Black Friday Sale PokéCoin-Bonus",
   "Save the Dates for Next Season’s Community Days and Events!": "Merken Sie sich die Termine für die Community-Tage und -Events der nächsten Saison vor!",
-  "How to beat Dynamax Regidrago: Complete Guide": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
   "Into the Wild 2026 PvE Guide: What to Build, What to Skip": "Into the Wild 2026 PvE-Leitfaden: Was zu bauen ist, was zu überspringen ist",
   "Pokémon Sleep: Dream Shard Week Vol.3 Event": "Pokémon-Schlaf: Traumscherbenwoche Vol.3-Event",
   "GO Pass: Into the Wild": "GO-Pass: In die Wildnis",
