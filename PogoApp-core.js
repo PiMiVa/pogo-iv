@@ -190,7 +190,7 @@ import {
   max3idzx6y8yn3fk as max,
   count2ctzg572d5xrz as count,
   convertToIntofdoxh9bstof as convertToInt,
-} from './kotlin-kotlin-stdlib.js?v=1794392509649';
+} from './kotlin-kotlin-stdlib.js?v=1794393970745';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -208,7 +208,7 @@ import {
   ListSerializer1hxuk9dx5n9du as ListSerializer,
   SerializableWithd2dap36updxd as SerializableWith,
   LinkedHashMapSerializermaoj2nyji7op as LinkedHashMapSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794392509649';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794393970745';
 import {
   Jsonsmkyu9xjl7fv as Json,
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
@@ -221,7 +221,7 @@ import {
   get_jsonArray18sglwhl4pclz as get_jsonArray,
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794392509649';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794393970745';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -2478,7 +2478,7 @@ var Verdict_WORSE_instance;
 var Verdict_BETTER_instance;
 var Verdict_FIRST_instance;
 function _get_text_$v_ecgt8w(this$0, x) {
-  return this$0.x1m_1 === 'Raid' ? '' + numberToInt(x) + ' %' : 'Rang ' + numberToInt(x);
+  return this$0.x1m_1 === 'Raid' ? '' + numberToInt(round(x)) + ' %' : 'Rang ' + numberToInt(x);
 }
 function Verdict(name, ordinal) {
   Enum.call(this, name, ordinal);
@@ -2604,93 +2604,82 @@ protoOf(Compare).f1n = function (data, analyzer, species, iv, level, variant, cp
       }
     }
     var rows = destination_0;
-    // Inline function 'kotlin.collections.filter' call
-    // Inline function 'kotlin.collections.filterTo' call
-    var destination_1 = ArrayList_init_$Create$_0();
-    var _iterator__ex2g4s_2 = rows.i();
-    while (_iterator__ex2g4s_2.j()) {
-      var element_1 = _iterator__ex2g4s_2.k();
-      if (!(element_1.w1d_1 == null) && element_1.w1d_1 <= 200) {
-        destination_1.h(element_1);
-      }
-    }
-    var tmp = destination_1;
-    var tmp_0 = Compare$against$lambda;
-    var tmp0_elvis_lhs = minWithOrNull(tmp, compareBy([tmp_0, Compare$against$lambda_0]));
-    var tmp_1;
+    var tmp = Compare$against$lambda;
+    var tmp0_elvis_lhs = minWithOrNull(rows, compareBy([tmp, Compare$against$lambda_0]));
+    var tmp_0;
     if (tmp0_elvis_lhs == null) {
       continue $l$loop;
     } else {
-      tmp_1 = tmp0_elvis_lhs;
+      tmp_0 = tmp0_elvis_lhs;
     }
-    var pick = tmp_1;
+    var pick = tmp_0;
     var target = pick.t1d_1;
     var mine = ensureNotNull(pick.u1d_1).e1e_1;
     var best = null;
     var bestRank = 2147483647;
-    var _iterator__ex2g4s_3 = pool.i();
-    $l$loop_1: while (_iterator__ex2g4s_3.j()) {
-      var p = _iterator__ex2g4s_3.k();
+    var _iterator__ex2g4s_2 = pool.i();
+    $l$loop_1: while (_iterator__ex2g4s_2.j()) {
+      var p = _iterator__ex2g4s_2.k();
       var tmp1_elvis_lhs = data.z1f().a2(p.b1l_1);
-      var tmp_2;
+      var tmp_1;
       if (tmp1_elvis_lhs == null) {
         continue $l$loop_1;
       } else {
-        tmp_2 = tmp1_elvis_lhs;
+        tmp_1 = tmp1_elvis_lhs;
       }
-      var s = tmp_2;
+      var s = tmp_1;
       var tmp0_0 = analyzer.t1h(s, p.s1l(), p.h1l_1, p.i1l_1, listOf_0(league));
-      var tmp$ret$9;
+      var tmp$ret$6;
       $l$block: {
         // Inline function 'kotlin.collections.firstOrNull' call
-        var _iterator__ex2g4s_4 = tmp0_0.i();
-        while (_iterator__ex2g4s_4.j()) {
-          var element_2 = _iterator__ex2g4s_4.k();
-          if (element_2.t1d_1.q1e_1 === target.q1e_1 && !(element_2.u1d_1 == null) && !(element_2.v1d_1 == null) && !element_2.z1d()) {
-            tmp$ret$9 = element_2;
+        var _iterator__ex2g4s_3 = tmp0_0.i();
+        while (_iterator__ex2g4s_3.j()) {
+          var element_1 = _iterator__ex2g4s_3.k();
+          if (element_1.t1d_1.q1e_1 === target.q1e_1 && !(element_1.u1d_1 == null) && !(element_1.v1d_1 == null) && !element_1.z1d()) {
+            tmp$ret$6 = element_1;
             break $l$block;
           }
         }
-        tmp$ret$9 = null;
+        tmp$ret$6 = null;
       }
-      var tmp2_safe_receiver = tmp$ret$9;
+      var tmp2_safe_receiver = tmp$ret$6;
       var tmp3_safe_receiver = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.u1d_1;
       var tmp4_elvis_lhs = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.e1e_1;
-      var tmp_3;
+      var tmp_2;
       if (tmp4_elvis_lhs == null) {
         continue $l$loop_1;
       } else {
-        tmp_3 = tmp4_elvis_lhs;
+        tmp_2 = tmp4_elvis_lhs;
       }
-      var r = tmp_3;
+      var r = tmp_2;
       if (r < bestRank) {
         bestRank = r;
         best = p;
       }
     }
     var verdict = best == null ? Verdict_FIRST_getInstance() : bestRank <= mine ? Verdict_WORSE_getInstance() : Verdict_BETTER_getInstance();
-    var tmp_4 = mine;
-    var tmp_5 = best;
-    var tmp_6;
+    var tmp_3 = mine;
+    var tmp_4 = best;
+    var tmp_5;
     if (best == null) {
-      tmp_6 = null;
+      tmp_5 = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp_6 = bestRank;
+      tmp_5 = bestRank;
     }
-    out.h(new Line(label, target, verdict, tmp_4, tmp_5, tmp_6));
+    out.h(new Line(label, target, verdict, tmp_3, tmp_4, tmp_5));
   }
-  var tmp$ret$13;
+  var tmp$ret$10;
   $l$block_1: {
     // Inline function 'kotlin.collections.maxByOrNull' call
     var iterator = pool.i();
     if (!iterator.j()) {
-      tmp$ret$13 = null;
+      tmp$ret$10 = null;
       break $l$block_1;
     }
     var maxElem = iterator.k();
     if (!iterator.j()) {
-      tmp$ret$13 = maxElem;
+      tmp$ret$10 = maxElem;
       break $l$block_1;
     }
     var maxValue = maxElem.s1l().q1k();
@@ -2703,15 +2692,15 @@ protoOf(Compare).f1n = function (data, analyzer, species, iv, level, variant, cp
       }
     }
      while (iterator.j());
-    tmp$ret$13 = maxElem;
+    tmp$ret$10 = maxElem;
   }
-  var bestIv = tmp$ret$13;
+  var bestIv = tmp$ret$10;
   var tmp6_elvis_lhs = firstOrNull(analyzer.v1g(species, variant));
   var finalTarget = tmp6_elvis_lhs == null ? species : tmp6_elvis_lhs;
-  var tmp_7 = bestIv == null ? Verdict_FIRST_getInstance() : bestIv.s1l().q1k() >= iv.q1k() ? Verdict_WORSE_getInstance() : Verdict_BETTER_getInstance();
-  var tmp_8 = iv.q1k();
+  var tmp_6 = bestIv == null ? Verdict_FIRST_getInstance() : bestIv.s1l().q1k() >= iv.q1k() ? Verdict_WORSE_getInstance() : Verdict_BETTER_getInstance();
+  var tmp_7 = iv.q1k();
   var tmp8_safe_receiver = bestIv == null ? null : bestIv.s1l();
-  out.h(new Line('Raid', finalTarget, tmp_7, tmp_8, bestIv, tmp8_safe_receiver == null ? null : tmp8_safe_receiver.q1k()));
+  out.h(new Line('Raid', finalTarget, tmp_6, tmp_7, bestIv, tmp8_safe_receiver == null ? null : tmp8_safe_receiver.q1k()));
   return out;
 };
 protoOf(Compare).g1n = function (lines) {
@@ -4981,7 +4970,7 @@ protoOf(EventCalendar).m1r = function (e) {
   } else {
     // Inline function 'kotlin.Long.plus' call
     // Inline function 'kotlin.Long.div' call
-    var this_0 = add(m, fromInt(720));
+    var this_0 = add(m, fromInt(1439));
     var days = divide(this_0, fromInt(1440));
     tmp_1 = equalsLong(days, new Long(1, 0)) ? '1 Tag' : days.toString() + ' Tage';
   }

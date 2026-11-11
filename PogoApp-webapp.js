@@ -130,7 +130,7 @@ import {
   returnIfSuspended39bw7wdvakhp8 as returnIfSuspended,
   toInt2q8uldh7sc951 as toInt,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1794392509649';
+} from './kotlin-kotlin-stdlib.js?v=1794393970745';
 import {
   Variant_NORMAL_getInstance23fgbcbkjs7l7 as Variant_NORMAL_getInstance,
   Cleanup_instance32xjuxulytgi8 as Cleanup_instance,
@@ -214,7 +214,7 @@ import {
   ScanParser_getInstance1dj216dqwcrgf as ScanParser_getInstance,
   GameSearch_instance1tp364lzrsclj as GameSearch_instance,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1794392509649';
+} from './PogoApp-core.js?v=1794393970745';
 import {
   launch1c91vkjzdi9sd as launch,
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
@@ -223,9 +223,9 @@ import {
   MainScope1gi1r4abhrtmm as MainScope,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1794392509649';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794392509649';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794392509649';
+} from './kotlinx-coroutines-core.js?v=1794393970745';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794393970745';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794393970745';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -3099,6 +3099,11 @@ protoOf(CollectionView).h2p = function (host) {
       var d = _iterator__ex2g4s.k();
       add_0(host, 'section', 'card', VOID, CollectionView$render$lambda_1(d));
     }
+  }
+  if (this.j2l_1.equals(Sort_EVOLVE_getInstance())) {
+    var pending = EvolveAdvice_instance.m1t(Store_getInstance().i2l(), Store_getInstance().m2m(), Store_getInstance().i2k_1, Store_getInstance().x2k_1, Store_getInstance().t2m());
+    var tmp0_elvis_lhs = EvolveAdvice_instance.n1t(pending);
+    add_0(host, 'p', 'note', tmp0_elvis_lhs == null ? 'Gerade steht kein Event an, bei dem deine Pok\xE9mon eine wichtige Event-Attacke bekommen. Sortiert nach IV.' : tmp0_elvis_lhs);
   }
   add_0(host, 'div', 'search', VOID, CollectionView$render$lambda_2);
   // Inline function 'kotlin.takeIf' call
