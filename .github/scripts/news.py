@@ -14,6 +14,7 @@ from datetime import datetime, timedelta, timezone
 
 FEED = "https://pokemongohub.net/feed/"
 EVENTS = "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.min.json"
+RESEARCH = "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/research.min.json"
 OUT = "news.json"
 UA = {"User-Agent": "Mozilla/5.0 (Pogo IV news mirror)"}
 MAX_NEW = 60  # hoechstens so viele neue Uebersetzungen pro Lauf
@@ -146,11 +147,25 @@ def main():
             d["bonusesDe"] = [de(b) or b for b in d.get("bonuses", [])]
             new_details[eid] = d
 
+    # Feldforschungen: Aufgaben ins Deutsche (die App zeigt sie im Kalender unter "Forschung").
+    research = {}
+    try:
+        for t in json.loads(get(RESEARCH)):
+            text = clean(t.get("text") or "")
+            if not text:
+                continue
+            d = de(text)
+            if d:
+                research[text] = d
+    except Exception:
+        research = old.get("research", {})
+
     result = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "news": news,
         "events": events,
         "details": new_details,
+        "research": research,
         # Nur noch Benutztes behalten, damit die Datei nicht waechst.
         "translations": used,
     }
