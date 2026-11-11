@@ -1,6 +1,27 @@
 {
- "generated": "2026-11-11T09:06:38Z",
+ "generated": "2026-11-11T15:26:36Z",
  "news": [
+  {
+   "title": "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026",
+   "titleDe": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
+   "link": "https://pokemongohub.net/post/news/pokemon-storage-and-item-bag-increased-ahead-of-pokemon-go-wild-area-global-2026/",
+   "date": "Wed, 11 Nov 2026 11:21:42 +0000",
+   "categories": [
+    "News",
+    "sotrage increase"
+   ]
+  },
+  {
+   "title": "What Pokémon Should I Use My Silver Bottle Cap On?",
+   "titleDe": "Auf welches Pokémon sollte ich meinen silbernen Flaschenverschluss aufsetzen?",
+   "link": "https://pokemongohub.net/post/article/opinion/what-pokemon-should-i-use-my-silver-bottle-cap-on/",
+   "date": "Wed, 11 Nov 2026 10:30:19 +0000",
+   "categories": [
+    "Opinion",
+    "silver bottle cap",
+    "what to use silver bottle cap on"
+   ]
+  },
   {
    "title": "How to Beat Dynamax Registeel: Best Counters & Guide",
    "titleDe": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
@@ -185,12 +206,12 @@
    ]
   },
   {
-   "title": "Dynamax Palkia: How Good Is It in Max Battles?",
-   "titleDe": "Dynamax Palkia: Wie gut ist es in Max-Kämpfen?",
+   "title": "Dynamax Palkia: A New Meta Tank Against Fire and Water Attacks",
+   "titleDe": "Dynamax Palkia: Ein neuer Meta-Tank gegen Feuer- und Wasserangriffe",
    "link": "https://pokemongohub.net/post/meta/dynamax-palkia-how-good-is-it-in-max-battles/",
    "date": "Sun, 08 Nov 2026 07:14:30 +0000",
    "categories": [
-    "Guides",
+    "Article",
     "Meta",
     "dynamax palkia",
     "go wild area",
@@ -409,36 +430,6 @@
     "shadow tornadus meta",
     "shadow tornadus pve",
     "tornadus incarnate"
-   ]
-  },
-  {
-   "title": "Shadow Tornadus (Incarnate) Raid Counters Guide",
-   "titleDe": "Schatten-Tornadus (inkarniert) Raid-Konter-Leitfaden",
-   "link": "https://pokemongohub.net/post/guide/shadow-tornadus-incarnate-raid-counters-guide/",
-   "date": "Tue, 03 Nov 2026 10:07:44 +0000",
-   "categories": [
-    "Guides",
-    "incarnate tornadus",
-    "raid guide",
-    "shadow incarnate forme tornadus",
-    "shadow tornadus",
-    "shadow tornadus counters",
-    "shadow tornadus guide",
-    "Tornadus"
-   ]
-  },
-  {
-   "title": "GO Pass November 2026: Tasks, Rewards & Bonuses",
-   "titleDe": "GO Pass November 2026: Aufgaben, Belohnungen & Boni",
-   "link": "https://pokemongohub.net/post/guide/go-pass-november-2026/",
-   "date": "Tue, 03 Nov 2026 06:00:05 +0000",
-   "categories": [
-    "Guides",
-    "News",
-    "go pass",
-    "groudon",
-    "november 2026 go pass",
-    "november go pass"
    ]
   }
  ],
@@ -1421,13 +1412,13 @@
   "max-battle-day-december-2026": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "december-communityday2026": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "minior-showers-geminids-2026": {
@@ -1448,7 +1439,7 @@
     "Increased Stardust for catching Minior",
     "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1457,55 +1448,55 @@
   "raid-day-december-2026": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "hatch-day-december-2026": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "january-communitydayclassic2027": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "super-mega-raid-day-january-2027": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "pokemon-x-adidas-2026": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "january-communityday2027": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "max-battle-day-january-2027": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "super-mega-raid-day-january-30-2027": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "february-communityday2027": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "raid-day-february-2027": {
@@ -1646,6 +1637,8 @@
   "Defeat a Team GO Rocket Grunt": "Besiege ein Team GO Rocket Grunt"
  },
  "translations": {
+  "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
+  "What Pokémon Should I Use My Silver Bottle Cap On?": "Auf welches Pokémon sollte ich meinen silbernen Flaschenverschluss aufsetzen?",
   "How to Beat Dynamax Registeel: Best Counters & Guide": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
   "Pokémon News This Week: Pokopia Expansion Pass, Fender Guitars Collaboration, Vivillon Challenge and More!": "Pokémon-Nachrichten diese Woche: Pokopia-Erweiterungspass, Fender-Gitarren-Kollaboration, Vivillon-Herausforderung und mehr!",
   "Silver Bottle Cap Guide": "Leitfaden für silberne Flaschenverschlüsse",
@@ -1658,7 +1651,7 @@
   "Pokémon GO Into the Wild (2026)": "Pokémon gehen in die Wildnis (2026)",
   "This Week in Pokémon GO (November 9–15): GO Wild Area Global, Into the Wild and Minior Showers": "Diese Woche in Pokémon GO (9.-15. November): GO Wild Area Global, Into the Wild und Minior Duschen",
   "Gigantamax Duraludon: Towering Above Most In The Current Meta": "Gigantamax Duraludon: Überragt die meisten im aktuellen Meta",
-  "Dynamax Palkia: How Good Is It in Max Battles?": "Dynamax Palkia: Wie gut ist es in Max-Kämpfen?",
+  "Dynamax Palkia: A New Meta Tank Against Fire and Water Attacks": "Dynamax Palkia: Ein neuer Meta-Tank gegen Feuer- und Wasserangriffe",
   "Dynamax Dialga: How Good Is It in Max Battles?": "Dynamax Dialga: Wie gut ist es in max. Kämpfen?",
   "Minior Showers: Leonid (November 2026)": "Kleine Duschen: Leonid (November 2026)",
   "Hisuian Goodra Meta Guide: Is It Worth Building?": "Hisuian Goodra Meta Guide: Lohnt es sich zu bauen?",
@@ -1674,8 +1667,6 @@
   "Halloween Teddiursa Spotlight Hour (November 2026): Last Minute Guide": "Halloween Teddiursa Spotlight Hour (November 2026): Last-Minute-Leitfaden",
   "How to Beat Gigantamax Duraludon: Best Counters and Guide": "Wie man Gigantamax Duraludon besiegt: Beste Zähler und Führer",
   "Is Shadow Tornadus Incarnate any good for Pokémon GO Raids?": "Ist Shadow Tornadus Incarnate gut für Pokémon GO Raids?",
-  "Shadow Tornadus (Incarnate) Raid Counters Guide": "Schatten-Tornadus (inkarniert) Raid-Konter-Leitfaden",
-  "GO Pass November 2026: Tasks, Rewards & Bonuses": "GO Pass November 2026: Aufgaben, Belohnungen & Boni",
   "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
   "Pokémon Night Out 2026 - London": "Pokémon-Nacht im Jahr 2026 - London",
   "Lure Modules activated during the event last for one hour, excluding Golden Lure Modules": "Während des Events aktivierte Ködermodule dauern eine Stunde, ausgenommen Goldene Ködermodule",
