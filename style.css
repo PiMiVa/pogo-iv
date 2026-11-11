@@ -475,3 +475,5 @@ section.card.flush:has(.team-head) { border: 3px solid var(--sun); }
 .evolve-banner { display: flex; align-items: center; gap: 8px; background: var(--sun); color: var(--on-sun); border-radius: 14px; padding: 8px 12px; margin-bottom: 10px; font-size: .85rem; font-weight: 700; cursor: pointer; }
 .evolve-banner button.flat { color: var(--on-sun); }
 .cal-mons.big .cal-mon span.cp { font-size: .62rem; color: var(--muted); }
+.compare { background: color-mix(in srgb, var(--sun) 18%, var(--card)); border-radius: 12px; padding: 6px 10px; margin: 8px 0; display: flex; flex-direction: column; gap: 2px; }
+.warn-t { color: var(--warn-c); font-weight: 700; }

@@ -1123,6 +1123,18 @@ function average(_this__u8e3s4) {
   }
   return count === 0 ? NaN : sum / count;
 }
+function minWithOrNull(_this__u8e3s4, comparator) {
+  var iterator = _this__u8e3s4.i();
+  if (!iterator.j())
+    return null;
+  var min = iterator.k();
+  while (iterator.j()) {
+    var e = iterator.k();
+    if (comparator.compare(min, e) > 0)
+      min = e;
+  }
+  return min;
+}
 function max(_this__u8e3s4) {
   var iterator = _this__u8e3s4.i();
   if (!iterator.j())
@@ -1514,6 +1526,12 @@ function dropLast(_this__u8e3s4, n) {
     throw IllegalArgumentException_init_$Create$_0(toString_1(message));
   }
   return take_1(_this__u8e3s4, coerceAtLeast(_this__u8e3s4.length - n | 0, 0));
+}
+function first_1(_this__u8e3s4) {
+  // Inline function 'kotlin.text.isEmpty' call
+  if (charSequenceLength(_this__u8e3s4) === 0)
+    throw NoSuchElementException_init_$Create$_0('Char sequence is empty.');
+  return charSequenceGet(_this__u8e3s4, 0);
 }
 function windowed$lambda(it) {
   return toString_1(it);
@@ -7221,15 +7239,6 @@ function replace(_this__u8e3s4, oldValue, newValue, ignoreCase) {
   // Inline function 'kotlin.js.asDynamic' call
   return _this__u8e3s4.replace(tmp2, replacement);
 }
-function endsWith(_this__u8e3s4, suffix, ignoreCase) {
-  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
-  if (!ignoreCase) {
-    // Inline function 'kotlin.text.nativeEndsWith' call
-    // Inline function 'kotlin.js.asDynamic' call
-    return _this__u8e3s4.endsWith(suffix);
-  } else
-    return regionMatches(_this__u8e3s4, _this__u8e3s4.length - suffix.length | 0, suffix, 0, suffix.length, ignoreCase);
-}
 function startsWith(_this__u8e3s4, prefix, ignoreCase) {
   ignoreCase = ignoreCase === VOID ? false : ignoreCase;
   if (!ignoreCase) {
@@ -7238,6 +7247,15 @@ function startsWith(_this__u8e3s4, prefix, ignoreCase) {
     return _this__u8e3s4.startsWith(prefix, 0);
   } else
     return regionMatches(_this__u8e3s4, 0, prefix, 0, prefix.length, ignoreCase);
+}
+function endsWith(_this__u8e3s4, suffix, ignoreCase) {
+  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
+  if (!ignoreCase) {
+    // Inline function 'kotlin.text.nativeEndsWith' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return _this__u8e3s4.endsWith(suffix);
+  } else
+    return regionMatches(_this__u8e3s4, _this__u8e3s4.length - suffix.length | 0, suffix, 0, suffix.length, ignoreCase);
 }
 function regionMatches(_this__u8e3s4, thisOffset, other, otherOffset, length, ignoreCase) {
   ignoreCase = ignoreCase === VOID ? false : ignoreCase;
@@ -14456,6 +14474,7 @@ export {
   maxWith as maxWith39zjrwhhgo7y0,
   max as max3idzx6y8yn3fk,
   minOrNull as minOrNull1g8m0136x75mg,
+  minWithOrNull as minWithOrNull30i4uakvje35v,
   minWith as minWith3p14uf6ckrc6d,
   minus as minus1djrl64vbav3y,
   minus_1 as minus165a8u1e0x1lu,
@@ -14610,6 +14629,7 @@ export {
   endsWith as endsWith3cq61xxngobwh,
   equals_0 as equals2v6cggk171b6e,
   firstOrNull_0 as firstOrNulltrxqttxfxqju,
+  first_1 as first3kg261hmihapu,
   indexOf_6 as indexOfwa4w6635jewi,
   indexOf_8 as indexOf1xbs558u7wr52,
   isBlank as isBlank1dvkhjjvox3p0,
