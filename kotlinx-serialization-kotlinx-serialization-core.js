@@ -164,7 +164,7 @@ import {
   StringCompanionObject_instance2dx16b5pp3v3z as StringCompanionObject_instance,
   getKClass3t8tygqu4lcxf as getKClass,
   mapOf1xd03cq9cnmy8 as mapOf,
-} from './kotlin-kotlin-stdlib.js?v=1794385452817';
+} from './kotlin-kotlin-stdlib.js?v=1794388811498';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -672,7 +672,7 @@ function _get__hashCode__tgwhef($this) {
   var tmp = KProperty1;
   // Inline function 'kotlin.getValue' call
   getPropertyCallableRef('_hashCode', 1, tmp, SerialDescriptorImpl$_get__hashCode_$ref_2v7wzp(), null);
-  return tmp0.w1();
+  return tmp0.y();
 }
 function SerialDescriptorImpl$_hashCode$delegate$lambda(this$0) {
   return function () {
@@ -735,7 +735,7 @@ protoOf(SerialDescriptorImpl).dl = function (index) {
   return getChecked(this.dm_1, index);
 };
 protoOf(SerialDescriptorImpl).el = function (name) {
-  var tmp0_elvis_lhs = this.hm_1.z1(name);
+  var tmp0_elvis_lhs = this.hm_1.a2(name);
   return tmp0_elvis_lhs == null ? -3 : tmp0_elvis_lhs;
 };
 protoOf(SerialDescriptorImpl).fl = function (index) {
@@ -1027,7 +1027,7 @@ protoOf(AbstractDecoder).um = function () {
 };
 protoOf(AbstractDecoder).vm = function () {
   var tmp = this.lm();
-  return tmp instanceof Char ? tmp.i1_1 : THROW_CCE();
+  return tmp instanceof Char ? tmp.l1_1 : THROW_CCE();
 };
 protoOf(AbstractDecoder).wm = function () {
   var tmp = this.lm();
@@ -1545,7 +1545,7 @@ protoOf(LinkedHashMapSerializer).vq = function (_this__u8e3s4) {
 };
 protoOf(LinkedHashMapSerializer).wq = function (_this__u8e3s4) {
   // Inline function 'kotlin.collections.iterator' call
-  return _this__u8e3s4.c2().i();
+  return _this__u8e3s4.w().i();
 };
 protoOf(LinkedHashMapSerializer).xq = function (_this__u8e3s4) {
   return this.wq((!(_this__u8e3s4 == null) ? isInterface(_this__u8e3s4, KtMap) : false) ? _this__u8e3s4 : THROW_CCE());
@@ -1604,9 +1604,9 @@ protoOf(MapLikeSerializer).er = function (decoder, builder, startIndex, size) {
     throw IllegalArgumentException_init_$Create$(toString(message));
   }
   var progression = step(until(0, imul(size, 2)), 2);
-  var inductionVariable = progression.y_1;
-  var last = progression.z_1;
-  var step_0 = progression.a1_1;
+  var inductionVariable = progression.b1_1;
+  var last = progression.c1_1;
+  var step_0 = progression.d1_1;
   if (step_0 > 0 && inductionVariable <= last || (step_0 < 0 && last <= inductionVariable))
     do {
       var index = inductionVariable;
@@ -1636,7 +1636,7 @@ protoOf(MapLikeSerializer).fr = function (decoder, index, builder, checkIndex) {
   var vIndex = tmp;
   var tmp_0;
   var tmp_1;
-  if (builder.x1(key)) {
+  if (builder.y1(key)) {
     var tmp_2 = this.dr_1.jk().zk();
     tmp_1 = !(tmp_2 instanceof PrimitiveKind);
   } else {
@@ -1667,9 +1667,9 @@ protoOf(MapLikeSerializer).mq = function (encoder, value) {
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
     // Inline function 'kotlin.collections.component1' call
-    var k = element.v1();
+    var k = element.x();
     // Inline function 'kotlin.collections.component2' call
-    var v = element.w1();
+    var v = element.y();
     var tmp = this.jk();
     var _unary__edvuaz = index;
     index = _unary__edvuaz + 1 | 0;
@@ -1964,7 +1964,7 @@ protoOf(EnumSerializer).jk = function () {
   var tmp = KProperty1;
   // Inline function 'kotlin.getValue' call
   getPropertyCallableRef('descriptor', 1, tmp, EnumSerializer$_get_descriptor_$ref_j67dlw(), null);
-  return tmp0.w1();
+  return tmp0.y();
 };
 protoOf(EnumSerializer).ss = function (encoder, value) {
   var index = indexOf(this.cs_1, value);
@@ -1991,7 +1991,7 @@ function _get_elementDescriptors__y23q9p($this) {
   var tmp = KProperty1;
   // Inline function 'kotlin.getValue' call
   getPropertyCallableRef('elementDescriptors', 1, tmp, EnumDescriptor$_get_elementDescriptors_$ref_5lvk4a(), null);
-  return tmp0.w1();
+  return tmp0.y();
 }
 function EnumDescriptor$elementDescriptors$delegate$lambda($elementsCount, $name, this$0) {
   return function () {
@@ -2364,7 +2364,7 @@ protoOf(ObjectSerializer).jk = function () {
   var tmp = KProperty1;
   // Inline function 'kotlin.getValue' call
   getPropertyCallableRef('descriptor', 1, tmp, ObjectSerializer$_get_descriptor_$ref_7z4xb6(), null);
-  return tmp0.w1();
+  return tmp0.y();
 };
 protoOf(ObjectSerializer).iu = function (encoder, value) {
   encoder.bn(this.jk()).cn(this.jk());
@@ -2471,14 +2471,14 @@ function _get_childSerializers__7vnyfa($this) {
   var tmp = KProperty1;
   // Inline function 'kotlin.getValue' call
   getPropertyCallableRef('childSerializers', 1, tmp, PluginGeneratedSerialDescriptor$_get_childSerializers_$ref_e7suca(), null);
-  return tmp0.w1();
+  return tmp0.y();
 }
 function _get__hashCode__tgwhef_0($this) {
   var tmp0 = $this.qs_1;
   var tmp = KProperty1;
   // Inline function 'kotlin.getValue' call
   getPropertyCallableRef('_hashCode', 1, tmp, PluginGeneratedSerialDescriptor$_get__hashCode_$ref_cmj4vz(), null);
-  return tmp0.w1();
+  return tmp0.y();
 }
 function buildIndices($this) {
   var indices = HashMap_init_$Create$();
@@ -2593,14 +2593,14 @@ protoOf(PluginGeneratedSerialDescriptor).cl = function () {
   return tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
 };
 protoOf(PluginGeneratedSerialDescriptor).km = function () {
-  return this.ns_1.a2();
+  return this.ns_1.b2();
 };
 protoOf(PluginGeneratedSerialDescriptor).ht = function () {
   var tmp0 = this.ps_1;
   var tmp = KProperty1;
   // Inline function 'kotlin.getValue' call
   getPropertyCallableRef('typeParameterDescriptors', 1, tmp, PluginGeneratedSerialDescriptor$_get_typeParameterDescriptors_$ref_jk3pka(), null);
-  return tmp0.w1();
+  return tmp0.y();
 };
 protoOf(PluginGeneratedSerialDescriptor).it = function (name, isOptional) {
   this.is_1 = this.is_1 + 1 | 0;
@@ -2636,7 +2636,7 @@ protoOf(PluginGeneratedSerialDescriptor).dl = function (index) {
   return getChecked(this.js_1, index);
 };
 protoOf(PluginGeneratedSerialDescriptor).el = function (name) {
-  var tmp0_elvis_lhs = this.ns_1.z1(name);
+  var tmp0_elvis_lhs = this.ns_1.a2(name);
   return tmp0_elvis_lhs == null ? -3 : tmp0_elvis_lhs;
 };
 protoOf(PluginGeneratedSerialDescriptor).equals = function (other) {
@@ -3848,7 +3848,7 @@ protoOf(CharSerializer).iz = function (encoder, value) {
   return encoder.eo(value);
 };
 protoOf(CharSerializer).kk = function (encoder, value) {
-  return this.iz(encoder, value instanceof Char ? value.i1_1 : THROW_CCE());
+  return this.iz(encoder, value instanceof Char ? value.l1_1 : THROW_CCE());
 };
 protoOf(CharSerializer).jz = function (decoder) {
   return decoder.vm();
@@ -3961,7 +3961,7 @@ function PrimitiveDescriptorSafe(serialName, kind) {
 }
 function checkNameIsNotAPrimitive(serialName) {
   _init_properties_Primitives_kt__k0eto4();
-  var values = get_BUILTIN_SERIALIZERS().b2();
+  var values = get_BUILTIN_SERIALIZERS().c2();
   var _iterator__ex2g4s = values.i();
   while (_iterator__ex2g4s.j()) {
     var primitive = _iterator__ex2g4s.k();
@@ -4077,7 +4077,7 @@ protoOf(TaggedDecoder).l10 = function (tag) {
 };
 protoOf(TaggedDecoder).m10 = function (tag) {
   var tmp = this.d10(tag);
-  return tmp instanceof Char ? tmp.i1_1 : THROW_CCE();
+  return tmp instanceof Char ? tmp.l1_1 : THROW_CCE();
 };
 protoOf(TaggedDecoder).n10 = function (tag) {
   var tmp = this.d10(tag);
@@ -4339,47 +4339,47 @@ function SerialModuleImpl(class2ContextualFactory, polyBase2Serializers, polyBas
 protoOf(SerialModuleImpl).ap = function (baseClass, value) {
   if (!baseClass.n9(value))
     return null;
-  var tmp0_safe_receiver = this.h11_1.z1(baseClass);
-  var tmp = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.z1(getKClassFromExpression(value));
+  var tmp0_safe_receiver = this.h11_1.a2(baseClass);
+  var tmp = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.a2(getKClassFromExpression(value));
   var registered = (!(tmp == null) ? isInterface(tmp, SerializationStrategy) : false) ? tmp : null;
   if (!(registered == null))
     return registered;
-  var tmp_0 = this.i11_1.z1(baseClass);
+  var tmp_0 = this.i11_1.a2(baseClass);
   var tmp1_safe_receiver = (!(tmp_0 == null) ? typeof tmp_0 === 'function' : false) ? tmp_0 : null;
   return tmp1_safe_receiver == null ? null : tmp1_safe_receiver(value);
 };
 protoOf(SerialModuleImpl).zo = function (baseClass, serializedClassName) {
-  var tmp0_safe_receiver = this.j11_1.z1(baseClass);
+  var tmp0_safe_receiver = this.j11_1.a2(baseClass);
   var tmp;
   if (tmp0_safe_receiver == null) {
     tmp = null;
   } else {
     // Inline function 'kotlin.collections.get' call
-    tmp = (isInterface(tmp0_safe_receiver, KtMap) ? tmp0_safe_receiver : THROW_CCE()).z1(serializedClassName);
+    tmp = (isInterface(tmp0_safe_receiver, KtMap) ? tmp0_safe_receiver : THROW_CCE()).a2(serializedClassName);
   }
   var tmp_0 = tmp;
   var registered = (!(tmp_0 == null) ? isInterface(tmp_0, KSerializer) : false) ? tmp_0 : null;
   if (!(registered == null))
     return registered;
-  var tmp_1 = this.k11_1.z1(baseClass);
+  var tmp_1 = this.k11_1.a2(baseClass);
   var tmp1_safe_receiver = (!(tmp_1 == null) ? typeof tmp_1 === 'function' : false) ? tmp_1 : null;
   return tmp1_safe_receiver == null ? null : tmp1_safe_receiver(serializedClassName);
 };
 protoOf(SerialModuleImpl).e11 = function (kClass, typeArgumentsSerializers) {
-  var tmp0_safe_receiver = this.g11_1.z1(kClass);
+  var tmp0_safe_receiver = this.g11_1.a2(kClass);
   var tmp = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.m11(typeArgumentsSerializers);
   return (tmp == null ? true : isInterface(tmp, KSerializer)) ? tmp : null;
 };
 protoOf(SerialModuleImpl).f11 = function (collector) {
   // Inline function 'kotlin.collections.forEach' call
   // Inline function 'kotlin.collections.iterator' call
-  var _iterator__ex2g4s = this.g11_1.c2().i();
+  var _iterator__ex2g4s = this.g11_1.w().i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
     // Inline function 'kotlin.collections.component1' call
-    var kclass = element.v1();
+    var kclass = element.x();
     // Inline function 'kotlin.collections.component2' call
-    var serial = element.w1();
+    var serial = element.y();
     if (serial instanceof Argless) {
       var tmp = isInterface(kclass, KClass) ? kclass : THROW_CCE();
       var tmp_0 = serial.p11_1;
@@ -4394,22 +4394,22 @@ protoOf(SerialModuleImpl).f11 = function (collector) {
   }
   // Inline function 'kotlin.collections.forEach' call
   // Inline function 'kotlin.collections.iterator' call
-  var _iterator__ex2g4s_0 = this.h11_1.c2().i();
+  var _iterator__ex2g4s_0 = this.h11_1.w().i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
     // Inline function 'kotlin.collections.component1' call
-    var baseClass = element_0.v1();
+    var baseClass = element_0.x();
     // Inline function 'kotlin.collections.component2' call
-    var classMap = element_0.w1();
+    var classMap = element_0.y();
     // Inline function 'kotlin.collections.forEach' call
     // Inline function 'kotlin.collections.iterator' call
-    var _iterator__ex2g4s_1 = classMap.c2().i();
+    var _iterator__ex2g4s_1 = classMap.w().i();
     while (_iterator__ex2g4s_1.j()) {
       var element_1 = _iterator__ex2g4s_1.k();
       // Inline function 'kotlin.collections.component1' call
-      var actualClass = element_1.v1();
+      var actualClass = element_1.x();
       // Inline function 'kotlin.collections.component2' call
-      var serializer = element_1.w1();
+      var serializer = element_1.y();
       var tmp_1 = isInterface(baseClass, KClass) ? baseClass : THROW_CCE();
       var tmp_2 = isInterface(actualClass, KClass) ? actualClass : THROW_CCE();
       // Inline function 'kotlinx.serialization.internal.cast' call
@@ -4419,25 +4419,25 @@ protoOf(SerialModuleImpl).f11 = function (collector) {
   }
   // Inline function 'kotlin.collections.forEach' call
   // Inline function 'kotlin.collections.iterator' call
-  var _iterator__ex2g4s_2 = this.i11_1.c2().i();
+  var _iterator__ex2g4s_2 = this.i11_1.w().i();
   while (_iterator__ex2g4s_2.j()) {
     var element_2 = _iterator__ex2g4s_2.k();
     // Inline function 'kotlin.collections.component1' call
-    var baseClass_0 = element_2.v1();
+    var baseClass_0 = element_2.x();
     // Inline function 'kotlin.collections.component2' call
-    var provider = element_2.w1();
+    var provider = element_2.y();
     var tmp_3 = isInterface(baseClass_0, KClass) ? baseClass_0 : THROW_CCE();
     collector.s11(tmp_3, typeof provider === 'function' ? provider : THROW_CCE());
   }
   // Inline function 'kotlin.collections.forEach' call
   // Inline function 'kotlin.collections.iterator' call
-  var _iterator__ex2g4s_3 = this.k11_1.c2().i();
+  var _iterator__ex2g4s_3 = this.k11_1.w().i();
   while (_iterator__ex2g4s_3.j()) {
     var element_3 = _iterator__ex2g4s_3.k();
     // Inline function 'kotlin.collections.component1' call
-    var baseClass_1 = element_3.v1();
+    var baseClass_1 = element_3.x();
     // Inline function 'kotlin.collections.component2' call
-    var provider_0 = element_3.w1();
+    var provider_0 = element_3.y();
     var tmp_4 = isInterface(baseClass_1, KClass) ? baseClass_1 : THROW_CCE();
     collector.t11(tmp_4, typeof provider_0 === 'function' ? provider_0 : THROW_CCE());
   }
