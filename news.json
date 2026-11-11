@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T22:49:16Z",
+ "generated": "2026-11-11T23:44:27Z",
  "news": [
   {
    "title": "How to beat Dynamax Regidrago: Complete Guide",
@@ -485,6 +485,7 @@
  },
  "details": {
   "pokemon-night-out-london-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
@@ -531,7 +532,7 @@
      ]
     },
     {
-     "id": "timed-research",
+     "id": "research",
      "groups": [
       {
        "title": "Featured Research Encounters",
@@ -546,12 +547,17 @@
    "bonuses": [
     "Lure Modules activated during the event last for one hour, excluding Golden Lure Modules"
    ],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
    "bonusesDe": [
     "Während des Events aktivierte Ködermodule dauern eine Stunde, ausgenommen Goldene Ködermodule"
-   ]
+   ],
+   "ticketBonusesDe": []
   },
   "into-the-wild-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
@@ -637,22 +643,7 @@
        "title": "Five-Star Max Battles: Friday, November 13",
        "pokemon": [
         "Latias",
-        "Latios",
-        "Registeel",
-        "Latias",
-        "Latios",
-        "Regidrago"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "research",
-     "groups": [
-      {
-       "title": "GO Pass Deluxe",
-       "pokemon": [
-        "Meltan"
+        "Latios"
        ]
       }
      ]
@@ -666,6 +657,30 @@
     "Reduced wait time before you can open the Mystery Box again*",
     "Trainers can receive special event stickers from PokéStops and Gifts"
    ],
+   "ticketBonuses": [],
+   "moves": [
+    {
+     "pokemon": "Registeel",
+     "move": "Metal Claw",
+     "fast": true
+    },
+    {
+     "pokemon": "Latias",
+     "move": "Mist Ball",
+     "fast": false
+    },
+    {
+     "pokemon": "Latios",
+     "move": "Luster Purge",
+     "fast": false
+    },
+    {
+     "pokemon": "Regidrago",
+     "move": "Dragon Breath",
+     "fast": true
+    }
+   ],
+   "ticket": "",
    "fetched": "2026-11-11",
    "bonusesDe": [
     "Das Remote-Raid-Limit wurde von Montag, 9. November, auf Freitag, 13. November 2026, auf 30 erhöht",
@@ -674,9 +689,11 @@
     "Chance, Shiny Meltan beim Öffnen der Mystery Box zu begegnen *",
     "Verkürzte Wartezeit, bevor Sie die Mystery Box wieder öffnen können *",
     "Trainer können spezielle Event-Sticker von PokéStops und Geschenken erhalten"
-   ]
+   ],
+   "ticketBonusesDe": []
   },
   "zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "raids",
@@ -704,10 +721,15 @@
     }
    ],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "pokemon-go-wild-area-2026-global": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
@@ -767,7 +789,7 @@
        ]
       },
       {
-       "title": "Saturday, November 14",
+       "title": "Mighty Pokémon: Saturday, November 14",
        "pokemon": [
         "Alolan Exeggutor",
         "Scizor",
@@ -781,7 +803,7 @@
        ]
       },
       {
-       "title": "Sunday, November 15",
+       "title": "Mighty Pokémon: Sunday, November 15",
        "pokemon": [
         "Azumarill",
         "Kingdra",
@@ -791,7 +813,12 @@
         "Goodra",
         "Noivern",
         "Tinkaton",
-        "Clodsire",
+        "Clodsire"
+       ]
+      },
+      {
+       "title": "Incense Encounters",
+       "pokemon": [
         "Alolan Exeggutor",
         "Azumarill",
         "Scizor",
@@ -835,20 +862,20 @@
      "id": "raids",
      "groups": [
       {
-       "title": "",
+       "title": "Three-Star Raids",
        "pokemon": [
         "Modern Jacket Machamp"
        ]
       },
       {
-       "title": "Saturday, November 14",
+       "title": "Five-Star Raids: Saturday, November 14",
        "pokemon": [
         "Zekrom",
         "Kyurem (White)"
        ]
       },
       {
-       "title": "Sunday, November 15",
+       "title": "Five-Star Raids: Sunday, November 15",
        "pokemon": [
         "Reshiram",
         "Kyurem (Black)"
@@ -860,28 +887,21 @@
      "id": "max-battles",
      "groups": [
       {
-       "title": "",
+       "title": "Six-Star Max Battles",
        "pokemon": [
-        "Gigantamax Duraludon",
-        "Dialga",
-        "Palkia"
+        "Gigantamax Duraludon"
        ]
-      }
-     ]
-    },
-    {
-     "id": "field-research",
-     "groups": [
+      },
       {
-       "title": "",
+       "title": "Saturday, November 14",
        "pokemon": [
-        "Modern Jacket Machamp",
-        "Flygon",
-        "Metagross",
-        "Magnezone",
-        "Haxorus",
-        "Hydreigon",
-        "Tinkaton"
+        "Dialga"
+       ]
+      },
+      {
+       "title": "Sunday, November 15",
+       "pokemon": [
+        "Palkia"
        ]
       }
      ]
@@ -893,14 +913,60 @@
     "Daily Max Particle collection limit increased to 1,600",
     "3 GO Snapshot surprise encounters per day",
     "Party Play lasts for 8 hours",
-    "Chance to encounter mighty Pokémon on Routes",
+    "Chance to encounter mighty Pokémon on Routes"
+   ],
+   "ticketBonuses": [
     "Increased chance to encounter Shiny Pokémon*",
     "Daily Max Particle collection limit increased to 3,200",
     "Increased Max Particles from Power Spots and exploration**",
     "Up to 6 free Raid Passes per day from Gyms",
     "GO Safari Balls instead of Premier Balls for raids and Max Battles***",
-    "2× Candy for catching Pokémon"
+    "2× Candy for catching Pokémon",
+    "2× Incense duration",
+    "Increased chance of 10 km Eggs from PokéStops and Gyms",
+    "6 GO Snapshot surprise encounters per day",
+    "Lure Modules last for 2 hours",
+    "Up to 6 Special Trades per day",
+    "1/2 Stardust cost for trades"
    ],
+   "moves": [
+    {
+     "pokemon": "Modern Jacket Machamp",
+     "move": "Karate Chop",
+     "fast": true
+    },
+    {
+     "pokemon": "Flygon",
+     "move": "Earth Power",
+     "fast": false
+    },
+    {
+     "pokemon": "Metagross",
+     "move": "Meteor Mash",
+     "fast": false
+    },
+    {
+     "pokemon": "Magnezone",
+     "move": "Magnet Bomb",
+     "fast": false
+    },
+    {
+     "pokemon": "Haxorus",
+     "move": "Breaking Swipe",
+     "fast": false
+    },
+    {
+     "pokemon": "Hydreigon",
+     "move": "Brutal Swing",
+     "fast": false
+    },
+    {
+     "pokemon": "Tinkaton",
+     "move": "Gigaton Hammer",
+     "fast": false
+    }
+   ],
+   "ticket": "US$11.99",
    "fetched": "2026-11-11",
    "bonusesDe": [
     "Chance, GO-Safari-Bälle von PokéStops und Fitnessstudios zu erhalten",
@@ -908,34 +974,58 @@
     "Tägliches maximales Partikel-Sammellimit auf 1.600 erhöht",
     "3 GO Snapshot Überraschungsbegegnungen pro Tag",
     "Party-Spiel dauert 8 Stunden",
-    "Chance, mächtige Pokémon auf Routen zu treffen",
+    "Chance, mächtige Pokémon auf Routen zu treffen"
+   ],
+   "ticketBonusesDe": [
     "Erhöhte Chance, glänzenden Pokémon zu begegnen *",
     "Tägliches maximales Partikel-Sammellimit auf 3.200 erhöht",
     "Erhöhte max. Partikel von Kraftpunkten und Erkundung**",
     "Bis zu 6 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
     "GO-Safari-Bälle anstelle von Premier-Bällen für Raids und Max-Kämpfe * **",
-    "2× Süßigkeiten zum Fangen von Pokémon"
+    "2× Süßigkeiten zum Fangen von Pokémon",
+    "2× Räucherstäbchendauer",
+    "Erhöhte Chance auf 10-km-Eier von PokéStops und Arenen",
+    "6 GO-Snapshot-Überraschungsbegegnungen pro Tag",
+    "Lure-Module halten 2 Stunden an",
+    "Bis zu 6 Sondertrades pro Tag",
+    "1/2 Sternenstaubkosten für Tauschgeschäfte"
    ]
   },
   "go-wild-area-gigantamax-machamp-power-up-timed-research": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "max-mondays-2026-11-16": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "raidhour20261118": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "pokemonspotlighthour2026-11-19": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
@@ -952,16 +1042,21 @@
     }
    ],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "minior-showers-leonids-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
      "groups": [
       {
-       "title": "",
+       "title": "Wild Encounters",
        "pokemon": [
         "Minior (Meteor Form)"
        ]
@@ -973,39 +1068,38 @@
     "Increased Stardust for catching Minior",
     "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
    ],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
-   ]
+   ],
+   "ticketBonusesDe": []
   },
   "eternamax-eternatus-max-battles-2026": {
+   "v": 2,
    "sections": [],
    "bonuses": [
     "Power Spots will refresh more frequently",
     "Max Particle collection limit increased to 2,400",
     "8× Max Particles from Power Spots"
    ],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
    "bonusesDe": [
     "Power Spots werden häufiger aktualisiert",
     "Maximales Partikel-Sammellimit auf 2.400 erhöht",
     "8× Max. Partikel von Kraftpunkten"
-   ]
+   ],
+   "ticketBonusesDe": []
   },
   "november-communityday2026": {
+   "v": 2,
    "sections": [
-    {
-     "id": "photobomb",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Pawniard"
-       ]
-      }
-     ]
-    },
     {
      "id": "spawns",
      "groups": [
@@ -1041,6 +1135,9 @@
     "One additional Special Trade can be made for a maximum of two for the day*",
     "Trades made will require 50% less Stardust*"
    ],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhte Spawns",
@@ -1051,28 +1148,19 @@
     "2x Chance auf Ausbilder Level 31 und höher, Candy XL durch das Fangen von Pokémon zu erhalten",
     "Ein zusätzlicher Spezialhandel kann für maximal zwei für den Tag getätigt werden *",
     "Für getätigte Trades wird 50 % weniger Sternenstaub benötigt *"
-   ]
+   ],
+   "ticketBonusesDe": []
   },
   "dynamax-trails-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "max-battles",
      "groups": [
       {
-       "title": "",
+       "title": "Eternatus Returns",
        "pokemon": [
         "Eternamax Eternatus"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "research",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Eternatus"
        ]
       }
      ]
@@ -1082,19 +1170,29 @@
     "Chance to receive Max Particles when catching event-themed Pokémon in the wild or after Max Battles",
     "More Power Spots than usual will be active"
    ],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
    "bonusesDe": [
     "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
     "Es werden mehr Power Spots als üblich aktiv sein"
-   ]
+   ],
+   "ticketBonusesDe": []
   },
   "max-mondays-2026-11-23": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "cresselia-darkrai-in-5-star-raid-battles-november-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "raids",
@@ -1122,10 +1220,15 @@
     }
    ],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "mega-banette-in-mega-raids-november-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "raids",
@@ -1152,16 +1255,26 @@
     }
    ],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "raidhour20261125": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "pokemonspotlighthour2026-11-26": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
@@ -1176,10 +1289,15 @@
     }
    ],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "clefable-super-mega-raid-day-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "raids",
@@ -1208,18 +1326,24 @@
     "Remote Raid limit increased to 20 from Friday, November 27, at 5:00 p.m. to Saturday, November 28, 2026, at 8:00 p.m. PST",
     "Receive up to six free Raid Passes from spinning Gym Photo Discs",
     "Clefable caught from Super Mega Raids will have Mega Level 1 unlocked",
-    "Increased chance of encountering Shiny Clefable from Super Mega Raids",
+    "Increased chance of encountering Shiny Clefable from Super Mega Raids"
+   ],
+   "ticketBonuses": [
     "Receive up to 14 Raid Passes from spinning Gym Photo Discs",
     "Increased chance to get Rare Candy XL from Raid Battles",
     "An additional 5,000 XP from Super Mega Raid Battles",
     "An additional 5,000 Stardust from Super Mega Raid Battles"
    ],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
    "bonusesDe": [
     "Das Remote-Raid-Limit wurde von Freitag, 27. November, 17:00 Uhr auf Samstag, 28. November 2026, 20:00 Uhr PST auf 20 erhöht.",
     "Erhalte bis zu sechs kostenlose Raid-Pässe von drehenden Fitnessstudio-Fotodiscs",
     "Bei Clefable, das bei Super-Mega-Raids gefangen wird, wird Mega Level 1 freigeschaltet",
-    "Erhöhte Chance, glänzenden Clefable bei Super-Mega-Raubzügen zu begegnen",
+    "Erhöhte Chance, glänzenden Clefable bei Super-Mega-Raubzügen zu begegnen"
+   ],
+   "ticketBonusesDe": [
     "Erhalte bis zu 14 Raid-Pässe von drehenden Fitnessstudio-Fotodiscs",
     "Erhöhte Chance, seltene Süßigkeiten XL in Raid-Kämpfen zu erhalten",
     "Zusätzliche 5.000 EP aus Super-Mega-Raid-Kämpfen",
@@ -1227,6 +1351,7 @@
    ]
   },
   "twilight-wishes-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
@@ -1274,7 +1399,7 @@
      "id": "research",
      "groups": [
       {
-       "title": "",
+       "title": "Field Research Task Rewards",
        "pokemon": [
         "Staryu",
         "Elgyem"
@@ -1305,6 +1430,9 @@
     "2× Stardust for catching Pokémon",
     "GO Pass Deluxe: 3× Stardust for catching Pokémon"
    ],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhte Chance, Shiny Staryu und Shiny Elgyem zu begegnen",
@@ -1312,21 +1440,22 @@
     "Erhöhte Chance, glückliche Freunde zu werden",
     "2× Sternenstaub zum Fangen von Pokémon",
     "GO Pass Deluxe: 3× Sternenstaub zum Fangen von Pokémon"
-   ]
+   ],
+   "ticketBonusesDe": []
   },
   "max-mondays-2026-11-30": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
-  },
-  "go-pass-november-2026": {
-   "sections": [],
-   "bonuses": [],
-   "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "raids",
@@ -1341,10 +1470,15 @@
     }
    ],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-november-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "raids",
@@ -1376,10 +1510,15 @@
     }
    ],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "mega-metagross-in-mega-raids-november-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "raids",
@@ -1406,28 +1545,43 @@
     }
    ],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "max-battle-day-december-2026": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "december-communityday2026": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "minior-showers-geminids-2026": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
      "groups": [
       {
-       "title": "",
+       "title": "Wild Encounters",
        "pokemon": [
         "Minior (Meteor Form)"
        ]
@@ -1439,89 +1593,122 @@
     "Increased Stardust for catching Minior",
     "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
    ],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
-   ]
+   ],
+   "ticketBonusesDe": []
   },
   "raid-day-december-2026": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "hatch-day-december-2026": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "january-communitydayclassic2027": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "super-mega-raid-day-january-2027": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "pokemon-x-adidas-2026": {
    "sections": [],
    "bonuses": [],
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "january-communityday2027": {
    "sections": [],
    "bonuses": [],
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "max-battle-day-january-2027": {
    "sections": [],
    "bonuses": [],
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "super-mega-raid-day-january-30-2027": {
    "sections": [],
    "bonuses": [],
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "february-communityday2027": {
    "sections": [],
    "bonuses": [],
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "raid-day-february-2027": {
    "sections": [],
    "bonuses": [],
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "pokemon-go-tour-alola-kaohsiung-2027": {
    "sections": [],
    "bonuses": [],
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "pokemon-go-tour-alola-los-angeles-2027": {
    "sections": [],
    "bonuses": [],
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "pokemon-go-tour-alola-global-2027": {
    "sections": [],
    "bonuses": [],
    "fetched": "2026-11-11",
-   "bonusesDe": []
+   "bonusesDe": [],
+   "ticketBonusesDe": []
   },
   "minior-showers-eta-aquariids-2027": {
    "sections": [
@@ -1545,7 +1732,8 @@
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
-   ]
+   ],
+   "ticketBonusesDe": []
   },
   "minior-showers-southern-delta-aquariids-2027": {
    "sections": [
@@ -1569,7 +1757,8 @@
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
-   ]
+   ],
+   "ticketBonusesDe": []
   },
   "minior-showers-perseids-2027": {
    "sections": [
@@ -1593,7 +1782,8 @@
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
-   ]
+   ],
+   "ticketBonusesDe": []
   }
  },
  "research": {
@@ -1636,6 +1826,479 @@
   "Trade a Pokémon": "Tausche ein Pokémon",
   "Defeat a Team GO Rocket Grunt": "Besiege ein Team GO Rocket Grunt"
  },
+ "codes": [
+  {
+   "title": "10th Anniversary – 500K Community Check-Ins",
+   "code": "???",
+   "description": "To celebrate 10 years of Pokémon GO, Trainers can unlock a promo code for 10 Max Mushrooms if the community reaches 500,000 worldwide check-ins at community meetups by November 14, 2026. The code has not been announced yet. It is expected to expire after Pokémon GO Wild Area ends, but the expiration date has not been confirmed.",
+   "rewards": [
+    {
+     "name": "Max Mushroom",
+     "qty": "10"
+    }
+   ],
+   "expires": "2026-11-15 23:59:59 -0800",
+   "titleDe": "10. Jubiläum – 500.000 Check-ins in der Community"
+  },
+  {
+   "title": "LEGO × Pokémon GO Berries",
+   "code": "LEGOxPOKEMONGOxBERRIES",
+   "description": "Promo code for free berries and Poké Balls tied to the Pokémon GO and LEGO Group partnership. Learn more here.",
+   "rewards": [
+    {
+     "name": "Razz Berry",
+     "qty": "5"
+    },
+    {
+     "name": "Poké Ball",
+     "qty": "10"
+    },
+    {
+     "name": "Pinap Berry",
+     "qty": "5"
+    },
+    {
+     "name": "Nanab Berry",
+     "qty": "5"
+    }
+   ],
+   "expires": "2026-12-31 23:59:59 -0800",
+   "titleDe": "LEGO × Pokémon GO-Beeren"
+  },
+  {
+   "title": "adidas Shoes Avatar Item",
+   "code": "ADIDASxPOKEMON",
+   "description": "Complete your outfit with a pair of adidas shoes for your avatar! Redeem this promo code in the Pokémon GO Web Store by Friday, January 15, 2027.",
+   "rewards": [
+    {
+     "name": "adidas shoes",
+     "qty": ""
+    }
+   ],
+   "expires": "2027-01-15 23:59:59 -0800",
+   "titleDe": "adidas-Schuhe – Avatar-Gegenstand"
+  },
+  {
+   "title": "FENDI x FRGMT x POKÉMON Hoodie Avatar Item",
+   "code": "FENDIxFRGMTxPOKEMON",
+   "description": "This code rewarded an exclusive FENDI x FRGMT x POKÉMON hoodie avatar item. It has expired; the exact expiration date is unknown.",
+   "rewards": [
+    {
+     "name": "FENDI x FRGMT x POKÉMON hoodie",
+     "qty": ""
+    }
+   ],
+   "expires": "2026-11-01 23:59:59 -0800",
+   "titleDe": "FENDI x FRGMT x POKÉMON Hoodie Avatar-Artikel"
+  },
+  {
+   "title": "MLB-branded T-shirt Avatar Item",
+   "code": "MLBxPOKEMONGO2026",
+   "description": "To celebrate the Pokémon GO and Major League Baseball collaboration returning for the 2026 season, trainers can redeem this code to get an exclusive MLB-branded T-shirt avatar item. Offer code available for redemption until September 30, 2026. Learn more here.",
+   "rewards": [
+    {
+     "name": "MLB-branded T-shirt",
+     "qty": ""
+    }
+   ],
+   "expires": "2026-09-30 23:59:59 -0700",
+   "titleDe": "Avatar-Gegenstand: T-Shirt mit MLB-Logo"
+  },
+  {
+   "title": "LEGO × Pokémon GO Cap Timed Research",
+   "code": "LEGOxPOKEMONGOxCAP",
+   "description": "Redeem this promo code for Bonus Timed Research that awards berries, XP, Stardust, and the 2026 LEGO® Pokémon Cap. The Cap Timed Research is unavailable in Japan, Taiwan, Hong Kong, Singapore, Thailand, and Indonesia, where LEGO® Pokémon™ products are not sold. Trainers in these regions can still redeem the code for alternate Timed Research with different rewards, including a Lucky Egg. Tasks must be completed and rewards claimed before Wednesday, September 30, 2026, at 11:59 p.m. local time. Research details here.",
+   "rewards": [
+    {
+     "name": "Pinap Berry",
+     "qty": "3"
+    },
+    {
+     "name": "Razz Berry",
+     "qty": "3"
+    },
+    {
+     "name": "Nanab Berry",
+     "qty": "3"
+    },
+    {
+     "name": "XP",
+     "qty": "1000"
+    },
+    {
+     "name": "Stardust",
+     "qty": "1000"
+    },
+    {
+     "name": "2026 LEGO® Pokémon Cap",
+     "qty": ""
+    }
+   ],
+   "expires": "2026-09-30 23:59:00",
+   "titleDe": "LEGO × Pokémon GO-Mütze – Zeitlich begrenzte Forschung"
+  },
+  {
+   "title": "Pokémon Horizons Bonus Timed Research",
+   "code": "0004POKEMONGO",
+   "description": "Redeem the code shared during the Pokémon Horizons: The Series anime broadcast for Timed Research rewarding an encounter with Charmander wearing Friede’s goggles with a Special Background, 35 Poké Balls, 5 Razz Berries, 10,000 XP, and 5,000 Stardust. Redeem the code, complete the tasks, and claim rewards by Tuesday, September 22, 2026, at 8:00 p.m. local time. Research details here.",
+   "rewards": [
+    {
+     "name": "Charmander wearing Friede's goggles",
+     "qty": ""
+    },
+    {
+     "name": "Poké Ball",
+     "qty": "35"
+    },
+    {
+     "name": "Razz Berry",
+     "qty": "5"
+    },
+    {
+     "name": "XP",
+     "qty": "10000"
+    },
+    {
+     "name": "Stardust",
+     "qty": "5000"
+    }
+   ],
+   "expires": "2026-09-22 20:00:00",
+   "titleDe": "Zeitlich begrenzte Bonus-Forschung zu Pokémon Horizons"
+  },
+  {
+   "title": "2026 Worlds Tee (Green) Avatar Item",
+   "code": "SANFRANCISCO2026",
+   "description": "Redeem this promo code for the 2026 Worlds Tee (Green) avatar item from the 2026 Pokémon World Championships. Expires Friday, September 11, 2026, at 20:00 UTC. More details here.",
+   "rewards": [
+    {
+     "name": "2026 Worlds Tee (Green)",
+     "qty": ""
+    }
+   ],
+   "expires": "2026-09-11 20:00:00 +0000",
+   "titleDe": "Avatar-Gegenstand: T-Shirt „Worlds 2026“ (grün)"
+  },
+  {
+   "title": "GO Fest 2026: Mega Finale – 1M Check-Ins",
+   "code": "MEGACOMMUNITY",
+   "description": "Redeem this promo code for 1 Premium Battle Pass and 10 Ultra Balls to help prepare for Armored Mewtwo, celebrating 1 million community check-ins during Mega Ascension and Pokémon GO Fest 2026: Mega Finale.",
+   "rewards": [
+    {
+     "name": "Premium Battle Pass",
+     "qty": "1"
+    },
+    {
+     "name": "Ultra Ball",
+     "qty": "10"
+    }
+   ],
+   "expires": "2026-09-07 00:00:00 -0700",
+   "titleDe": "GO Fest 2026: Mega-Finale – 1 Mio. Check-ins"
+  },
+  {
+   "title": "GO Fest 2026: Global – 750K Check-Ins",
+   "code": "FBLYVRG5QJKE6",
+   "description": "To celebrate Pokémon GO Fest 2026: Global, this code unlocked after the community reached 750K check-ins at local meetups. Check-in window was July 11 at 6 a.m. to July 12 at 8 p.m. local time. Trainers at the maximum Link Charge capacity will need to free up space before redeeming this reward code.",
+   "rewards": [
+    {
+     "name": "Link Charge",
+     "qty": "100"
+    },
+    {
+     "name": "Poké Ball",
+     "qty": "15"
+    }
+   ],
+   "expires": "2026-07-12 23:59:59 -0700",
+   "titleDe": "GO Fest 2026: Global – 750.000 Check-ins"
+  },
+  {
+   "title": "GO Fest 2026: Global – 750K RSVPs",
+   "code": "62EGDH625ABMP",
+   "description": "To celebrate Pokémon GO Fest 2026: Global, this code unlocked after the community reached 750K RSVPs to local meetups. RSVP window was July 7 at midnight to July 11 at 10 a.m. local time. Trainers at the maximum Link Charge capacity will need to free up space before redeeming this reward code.",
+   "rewards": [
+    {
+     "name": "Link Charge",
+     "qty": "100"
+    },
+    {
+     "name": "Poké Ball",
+     "qty": "15"
+    }
+   ],
+   "expires": "2026-07-12 23:59:59 -0700",
+   "titleDe": "GO Fest 2026: Global – 750.000 Anmeldungen"
+  },
+  {
+   "title": "GO Tour: Kalos - Starter Encounter Timed Research",
+   "code": "GOTOURKALOS",
+   "description": "Timed Research to encounter 6 of your choice of Fennekin, Froakie, or Chespin with a Special Background for Pokémon GO Tour: Kalos - Global.",
+   "rewards": [
+    {
+     "name": "Fennekin",
+     "qty": ""
+    },
+    {
+     "name": "Froakie",
+     "qty": ""
+    },
+    {
+     "name": "Chespin",
+     "qty": ""
+    }
+   ],
+   "expires": "2026-03-02 06:00:00 +0000",
+   "titleDe": "GO Tour: Kalos – Zeitlich begrenzte Forschung zu Starter-Begegnungen"
+  },
+  {
+   "title": "Bonus Timed Research – Unown Y",
+   "code": "6K343X373BDQM",
+   "description": "Complete a Field Research task to earn a Pokémon encounter from Timed Research.",
+   "rewards": [
+    {
+     "name": "Unown Y",
+     "qty": ""
+    },
+    {
+     "name": "Unown Candy",
+     "qty": "3"
+    }
+   ],
+   "expires": "2026-03-01 23:59:59 -0800",
+   "titleDe": "Zeitlich begrenzte Bonus-Feldstudie – Unown Y"
+  },
+  {
+   "title": "Bonus Timed Research – Unown Z and Unown A",
+   "code": "2PKXPAT2RJXKL",
+   "description": "Complete a Field Research task to earn Pokémon encounters from Timed Research.",
+   "rewards": [
+    {
+     "name": "Unown Z",
+     "qty": ""
+    },
+    {
+     "name": "Unown A",
+     "qty": ""
+    },
+    {
+     "name": "Unown Candy",
+     "qty": "6"
+    }
+   ],
+   "expires": "2026-03-01 23:59:59 -0800",
+   "titleDe": "Zeitlich begrenzte Bonus-Feldstudie – Unown Z und Unown A"
+  },
+  {
+   "title": "Bonus Timed Research – Unown X",
+   "code": "QFWM3SRJPVRY5",
+   "description": "Complete a Field Research task to earn a Pokémon encounter from Timed Research.",
+   "rewards": [
+    {
+     "name": "Unown X",
+     "qty": ""
+    },
+    {
+     "name": "Unown Candy",
+     "qty": "3"
+    }
+   ],
+   "expires": "2026-03-01 23:59:59 -0800",
+   "titleDe": "Zeitlich begrenzte Bonus-Forschung – Unown X"
+  },
+  {
+   "title": "GO Tour Fairy Type Timed Research",
+   "code": "TH4NKY0UF41RYMUCH",
+   "description": "Fairy type Timed Research available starting with Pokémon GO Tour in person events. Research details here.",
+   "rewards": [
+    {
+     "name": "XP",
+     "qty": "2068"
+    },
+    {
+     "name": "Sylveon",
+     "qty": ""
+    },
+    {
+     "name": "Incense",
+     "qty": "1"
+    }
+   ],
+   "expires": "2026-03-01 23:59:59 -0800",
+   "titleDe": "GO Tour – Zeitlich begrenzte Forschung vom Typ Fee"
+  },
+  {
+   "title": "800 Max Particles and 4 Purified Gems",
+   "code": "SYJMGFM3SWRLQ",
+   "description": "A reward for helping Pokémon GO’s YouTube channel gain 8,000 subscribers.",
+   "rewards": [
+    {
+     "name": "Max Particle",
+     "qty": "800"
+    },
+    {
+     "name": "Purified Gem",
+     "qty": "4"
+    }
+   ],
+   "expires": "2025-11-17 23:59:59 -0800",
+   "titleDe": "800 Max.-Partikel und 4 gereinigte Edelsteine"
+  },
+  {
+   "title": "MLB-branded Cap Avatar Item",
+   "code": "MLBxPOKEMONGO",
+   "description": "To celebrate the Pokémon GO and Major League Baseball collaboration, trainers can redeem this code to get an exclusive MLB-branded cap avatar item. Learn more here.",
+   "rewards": [
+    {
+     "name": "MLB-branded Cap",
+     "qty": ""
+    }
+   ],
+   "expires": "2025-09-26 23:59:59 -0800",
+   "titleDe": "Avatar-Gegenstand: MLB-Cap"
+  },
+  {
+   "title": "Pokémon Concierge Celebration Timed Research",
+   "code": "PokemonConcierge",
+   "description": "Timed Research to encounter Psyduck (Swim Ring) with a special background from the Pokémon Concierge Celebration event. Research details here.",
+   "rewards": [
+    {
+     "name": "Psyduck with a swim ring",
+     "qty": ""
+    },
+    {
+     "name": "XP",
+     "qty": "5000"
+    },
+    {
+     "name": "Stardust",
+     "qty": "2500"
+    }
+   ],
+   "expires": "2025-09-14 20:00:00 -0800",
+   "titleDe": "Zeitlich begrenzte Forschung zur Feier von Pokémon Concierge"
+  },
+  {
+   "title": "World Championships Co-stream - Pikachu Varsity Jacket",
+   "code": "JST9U45YFXGNQ",
+   "description": "Welcome to Anaheim Timed Research to encounter Pikachu wearing a varsity jacket from World Championships co-stream. Research details here.",
+   "rewards": [
+    {
+     "name": "Pikachu wearing a varsity jacket",
+     "qty": ""
+    }
+   ],
+   "expires": "2025-08-31 20:00:00 +0900",
+   "titleDe": "Co-Stream der Weltmeisterschaften – Pikachu-Collegejacke"
+  },
+  {
+   "title": "World Championships Day 2 - Team Building Research",
+   "code": "V7L7NS9HRKSL4",
+   "description": "Branching Timed Research for Great League team building from 2025 Pokémon World Championships Day 2 Twitch Drop. Trainers will choose between three Great League lineups featuring Lileep, Squirtle, or Sentret. Research details here.",
+   "rewards": [
+    {
+     "name": "Stardust",
+     "qty": "8500"
+    },
+    {
+     "name": "Lileep",
+     "qty": ""
+    },
+    {
+     "name": "Squirtle",
+     "qty": ""
+    },
+    {
+     "name": "Sentret",
+     "qty": ""
+    }
+   ],
+   "expires": "2025-08-31 20:00:00 +0900",
+   "titleDe": "Weltmeisterschaft Tag 2 – Teambuilding-Umfrage"
+  },
+  {
+   "title": "World Championships Day 1 - Skarmory Research",
+   "code": "NG94RKDHXWMUL",
+   "description": "Timed Research to encounter Skarmory from 2025 Pokémon World Championships Day 1 Twitch Drop. Research details here.",
+   "rewards": [
+    {
+     "name": "Skarmory",
+     "qty": ""
+    },
+    {
+     "name": "Elite Charged TM",
+     "qty": "1"
+    }
+   ],
+   "expires": "2025-08-31 20:00:00 +0900",
+   "titleDe": "Weltmeisterschaft Tag 1 – Skarmory-Forschung"
+  },
+  {
+   "title": "2025 Worlds Tee Avatar Item",
+   "code": "Z3USC2JQS9LWN",
+   "description": "Avatar item: 2025 Worlds Tee (White) shared during World Championships stream",
+   "rewards": [
+    {
+     "name": "2025 Worlds Tee (White)",
+     "qty": ""
+    }
+   ],
+   "expires": "2025-08-30 23:00:00 +0000",
+   "titleDe": "Avatar-Gegenstand: T-Shirt der Worlds 2025"
+  },
+  {
+   "title": "Max Particles Giveaway - Day 4",
+   "code": "68TTGWN79E7XE",
+   "description": "Pokémon GO’s official YouTube channel gained 2,000 subscribers on August 23, so a promo code was released to claim 200 Max Particles!",
+   "rewards": [
+    {
+     "name": "Max Particle",
+     "qty": "200"
+    }
+   ],
+   "expires": "2025-08-26 18:00:00 -0800",
+   "titleDe": "Max-Partikel-Geschenk – Tag 4"
+  },
+  {
+   "title": "Max Particles Giveaway - Day 3",
+   "code": "47KP3GM76TK2F",
+   "description": "Pokémon GO’s official YouTube channel gained 2,000 subscribers on August 22, so a promo code was released to claim 200 Max Particles!",
+   "rewards": [
+    {
+     "name": "Max Particle",
+     "qty": "200"
+    }
+   ],
+   "expires": "2025-08-26 18:00:00 -0800",
+   "titleDe": "Max.-Partikel-Geschenk – Tag 3"
+  },
+  {
+   "title": "Max Particles Giveaway - Day 2",
+   "code": "J85D4HVHQFFYV",
+   "description": "Pokémon GO’s official YouTube channel gained 2,000 subscribers on August 21, so a promo code was released to claim 200 Max Particles!",
+   "rewards": [
+    {
+     "name": "Max Particle",
+     "qty": "200"
+    }
+   ],
+   "expires": "2025-08-26 18:00:00 -0800",
+   "titleDe": "Max-Partikel-Geschenk – Tag 2"
+  },
+  {
+   "title": "Max Particles Giveaway - Day 1",
+   "code": "REN73F559HY3T",
+   "description": "Pokémon GO’s official YouTube channel gained 2,000 subscribers on August 20, so a promo code was released to claim 200 Max Particles!",
+   "rewards": [
+    {
+     "name": "Max Particle",
+     "qty": "200"
+    }
+   ],
+   "expires": "2025-08-26 18:00:00 -0800",
+   "titleDe": "Max-Partikel-Geschenk – Tag 1"
+  }
+ ],
  "translations": {
   "How to beat Dynamax Regidrago: Complete Guide": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
   "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
@@ -1691,6 +2354,12 @@
   "Up to 6 free Raid Passes per day from Gyms": "Bis zu 6 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
   "GO Safari Balls instead of Premier Balls for raids and Max Battles***": "GO-Safari-Bälle anstelle von Premier-Bällen für Raids und Max-Kämpfe * **",
   "2× Candy for catching Pokémon": "2× Süßigkeiten zum Fangen von Pokémon",
+  "2× Incense duration": "2× Räucherstäbchendauer",
+  "Increased chance of 10 km Eggs from PokéStops and Gyms": "Erhöhte Chance auf 10-km-Eier von PokéStops und Arenen",
+  "6 GO Snapshot surprise encounters per day": "6 GO-Snapshot-Überraschungsbegegnungen pro Tag",
+  "Lure Modules last for 2 hours": "Lure-Module halten 2 Stunden an",
+  "Up to 6 Special Trades per day": "Bis zu 6 Sondertrades pro Tag",
+  "1/2 Stardust cost for trades": "1/2 Sternenstaubkosten für Tauschgeschäfte",
   "GO Wild Area: Gigantamax Machamp Power Up! Timed Research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
   "Max Monday: Pokémon to be announced": "Max. Montag: Pokémon wird bekannt gegeben",
   "Great League, Ultra League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails": "Great League, Ultra League: Mega Edition und 2026 GO LAIC Cup | Twilight Trails",
@@ -1759,6 +2428,33 @@
   "Minior Showers: Eta Aquariids 2027": "Kleine Duschen: Eta Aquariids 2027",
   "Minior Showers: Southern Delta Aquariids 2027": "Kleine Duschen: Southern Delta Aquariids 2027",
   "Minior Showers: Perseids 2027": "Kleine Duschen: Perseiden 2027",
+  "10th Anniversary – 500K Community Check-Ins": "10. Jubiläum – 500.000 Check-ins in der Community",
+  "LEGO × Pokémon GO Berries": "LEGO × Pokémon GO-Beeren",
+  "adidas Shoes Avatar Item": "adidas-Schuhe – Avatar-Gegenstand",
+  "FENDI x FRGMT x POKÉMON Hoodie Avatar Item": "FENDI x FRGMT x POKÉMON Hoodie Avatar-Artikel",
+  "MLB-branded T-shirt Avatar Item": "Avatar-Gegenstand: T-Shirt mit MLB-Logo",
+  "LEGO × Pokémon GO Cap Timed Research": "LEGO × Pokémon GO-Mütze – Zeitlich begrenzte Forschung",
+  "Pokémon Horizons Bonus Timed Research": "Zeitlich begrenzte Bonus-Forschung zu Pokémon Horizons",
+  "2026 Worlds Tee (Green) Avatar Item": "Avatar-Gegenstand: T-Shirt „Worlds 2026“ (grün)",
+  "GO Fest 2026: Mega Finale – 1M Check-Ins": "GO Fest 2026: Mega-Finale – 1 Mio. Check-ins",
+  "GO Fest 2026: Global – 750K Check-Ins": "GO Fest 2026: Global – 750.000 Check-ins",
+  "GO Fest 2026: Global – 750K RSVPs": "GO Fest 2026: Global – 750.000 Anmeldungen",
+  "GO Tour: Kalos - Starter Encounter Timed Research": "GO Tour: Kalos – Zeitlich begrenzte Forschung zu Starter-Begegnungen",
+  "Bonus Timed Research – Unown Y": "Zeitlich begrenzte Bonus-Feldstudie – Unown Y",
+  "Bonus Timed Research – Unown Z and Unown A": "Zeitlich begrenzte Bonus-Feldstudie – Unown Z und Unown A",
+  "Bonus Timed Research – Unown X": "Zeitlich begrenzte Bonus-Forschung – Unown X",
+  "GO Tour Fairy Type Timed Research": "GO Tour – Zeitlich begrenzte Forschung vom Typ Fee",
+  "800 Max Particles and 4 Purified Gems": "800 Max.-Partikel und 4 gereinigte Edelsteine",
+  "MLB-branded Cap Avatar Item": "Avatar-Gegenstand: MLB-Cap",
+  "Pokémon Concierge Celebration Timed Research": "Zeitlich begrenzte Forschung zur Feier von Pokémon Concierge",
+  "World Championships Co-stream - Pikachu Varsity Jacket": "Co-Stream der Weltmeisterschaften – Pikachu-Collegejacke",
+  "World Championships Day 2 - Team Building Research": "Weltmeisterschaft Tag 2 – Teambuilding-Umfrage",
+  "World Championships Day 1 - Skarmory Research": "Weltmeisterschaft Tag 1 – Skarmory-Forschung",
+  "2025 Worlds Tee Avatar Item": "Avatar-Gegenstand: T-Shirt der Worlds 2025",
+  "Max Particles Giveaway - Day 4": "Max-Partikel-Geschenk – Tag 4",
+  "Max Particles Giveaway - Day 3": "Max.-Partikel-Geschenk – Tag 3",
+  "Max Particles Giveaway - Day 2": "Max-Partikel-Geschenk – Tag 2",
+  "Max Particles Giveaway - Day 1": "Max-Partikel-Geschenk – Tag 1",
   "Power up Steel-type Pokémon 5 times": "Verbessere 5 Mal Pokémon vom Typ Stahl",
   "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
   "Win a raid": "Gewinne einen Raid",
