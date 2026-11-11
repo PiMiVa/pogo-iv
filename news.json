@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T06:47:40Z",
+ "generated": "2026-11-11T09:06:38Z",
  "news": [
   {
    "title": "How to Beat Dynamax Registeel: Best Counters & Guide",
@@ -112,6 +112,19 @@
     "dynamax meta",
     "dynamax regidrago",
     "into the wild 2026"
+   ]
+  },
+  {
+   "title": "Pokémon Sleep: Dream Shard Week Vol.3 Event",
+   "titleDe": "Pokémon-Schlaf: Traumscherbenwoche Vol.3-Event",
+   "link": "https://pokemongohub.net/post/sleep/pokemon-sleep-dream-shard-week-vol-3-event/",
+   "date": "Mon, 09 Nov 2026 08:19:35 +0000",
+   "categories": [
+    "Pokémon Sleep",
+    "dream shard week",
+    "dream shard week vol 3",
+    "drean shard",
+    "pokemon sleep"
    ]
   },
   {
@@ -426,15 +439,6 @@
     "groudon",
     "november 2026 go pass",
     "november go pass"
-   ]
-  },
-  {
-   "title": "GO Wild Area 2026 Brings Trainer Backgrounds, Private Dynamax Battles, and More",
-   "titleDe": "GO Wild Area 2026 bringt Trainerhintergründe, private Dynamax-Kämpfe und mehr",
-   "link": "https://pokemongohub.net/post/news/pokemon-go-wild-area-2026-brings-trainer-backgrounds-private-dynamax-battles-and-more/",
-   "date": "Mon, 02 Nov 2026 23:55:08 +0000",
-   "categories": [
-    "News"
    ]
   }
  ],
@@ -1096,7 +1100,7 @@
   "max-mondays-2026-11-23": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "cresselia-darkrai-in-5-star-raid-battles-november-2026": {
@@ -1127,7 +1131,7 @@
     }
    ],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "mega-banette-in-mega-raids-november-2026": {
@@ -1157,13 +1161,13 @@
     }
    ],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "raidhour20261125": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "pokemonspotlighthour2026-11-26": {
@@ -1181,7 +1185,7 @@
     }
    ],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "clefable-super-mega-raid-day-2026": {
@@ -1219,7 +1223,7 @@
     "An additional 5,000 XP from Super Mega Raid Battles",
     "An additional 5,000 Stardust from Super Mega Raid Battles"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Das Remote-Raid-Limit wurde von Freitag, 27. November, 17:00 Uhr auf Samstag, 28. November 2026, 20:00 Uhr PST auf 20 erhöht.",
     "Erhalte bis zu sechs kostenlose Raid-Pässe von drehenden Fitnessstudio-Fotodiscs",
@@ -1310,7 +1314,7 @@
     "2× Stardust for catching Pokémon",
     "GO Pass Deluxe: 3× Stardust for catching Pokémon"
    ],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": [
     "Erhöhte Chance, Shiny Staryu und Shiny Elgyem zu begegnen",
     "Erhöhte Chance, Glückspokémon im Handel zu erhalten",
@@ -1322,13 +1326,13 @@
   "max-mondays-2026-11-30": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "go-pass-november-2026": {
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026": {
@@ -1346,7 +1350,7 @@
     }
    ],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-november-2026": {
@@ -1381,7 +1385,7 @@
     }
    ],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "mega-metagross-in-mega-raids-november-2026": {
@@ -1411,7 +1415,7 @@
     }
    ],
    "bonuses": [],
-   "fetched": "2026-11-10",
+   "fetched": "2026-11-11",
    "bonusesDe": []
   },
   "max-battle-day-december-2026": {
@@ -1601,6 +1605,46 @@
    ]
   }
  },
+ "research": {
+  "Power up Steel-type Pokémon 5 times": "Verbessere 5 Mal Pokémon vom Typ Stahl",
+  "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
+  "Win a raid": "Gewinne einen Raid",
+  "Catch 10 Pokémon": "Fange 10 Pokémon",
+  "Win a Max Battle": "Gewinne eine max. Schlacht",
+  "Catch 7 Pokémon": "Fange 7 Pokémon",
+  "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
+  "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
+  "Catch 10 Grass-type Pokémon": "Fange 10 Gras-Pokémon",
+  "Catch 10 Ghost-type Pokémon": "Fange 10 Geister-Pokémon",
+  "Catch 10 Dark-type Pokémon": "Fange 10 dunkle Pokémon",
+  "Catch 5 Pokémon with Weather Boost": "Fange 5 Pokémon mit Wetter-Boost",
+  "Make 10 Curveball Throws": "Mache 10 Curveball-Würfe",
+  "Make 10 Nice Throws": "Mache 10 schöne Überwürfe",
+  "Make 2 Excellent Throws": "Mache 2 ausgezeichnete Würfe",
+  "Make 3 Excellent Throws in a row": "Erziele 3 hervorragende Würfe in Folge",
+  "Make 3 Great Throws": "Mache 3 große Würfe",
+  "Make 3 Great Throws in a row": "Mache 3 große Würfe in Folge",
+  "Make 5 Great Curveball Throws in a row": "Mache 5 großartige Curveball-Würfe in Folge",
+  "Make 5 Nice Throws": "Mache 5 schöne Überwürfe",
+  "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
+  "Win 5 raids": "Gewinne 5 Raids",
+  "Explore 2 km": "2 km erkunden",
+  "Hatch an Egg": "Ein Ei ausbrüten",
+  "Hatch 2 Eggs": "Schlüpfe 2 Eier",
+  "Spin 3 PokéStops or Gyms": "Drehe 3 PokéStops oder Fitnessstudios",
+  "Spin 5 PokéStops": "Drehe 5 PokéStops",
+  "Spin 5 PokéStops or Gyms": "Drehe 5 PokéStops oder Fitnessstudios",
+  "Take a snapshot of a wild Pokémon": "Mach einen Schnappschuss von einem wilden Pokémon",
+  "Evolve a Pokémon": "Entwickle ein Pokémon",
+  "Power up Pokémon 3 times": "Verbessere Pokémon 3 Mal",
+  "Power up Pokémon 5 times": "Stärke Pokémon 5 Mal",
+  "Power up Pokémon 7 times": "Stärke Pokémon 7 Mal",
+  "Earn 2 Candies walking with your buddy": "Verdiene 2 Süßigkeiten, wenn du mit deinem Kumpel spazieren gehst",
+  "Earn 3 Candies walking with your buddy": "Verdiene 3 Süßigkeiten, wenn du mit deinem Kumpel spazieren gehst",
+  "Send 3 Gifts and add a sticker to each": "Senden Sie 3 Geschenke und fügen Sie jedem einen Aufkleber hinzu",
+  "Trade a Pokémon": "Tausche ein Pokémon",
+  "Defeat a Team GO Rocket Grunt": "Besiege ein Team GO Rocket Grunt"
+ },
  "translations": {
   "How to Beat Dynamax Registeel: Best Counters & Guide": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
   "Pokémon News This Week: Pokopia Expansion Pass, Fender Guitars Collaboration, Vivillon Challenge and More!": "Pokémon-Nachrichten diese Woche: Pokopia-Erweiterungspass, Fender-Gitarren-Kollaboration, Vivillon-Herausforderung und mehr!",
@@ -1609,6 +1653,7 @@
   "Save the Dates for Next Season’s Community Days and Events!": "Merken Sie sich die Termine für die Community-Tage und -Events der nächsten Saison vor!",
   "How to beat Dynamax Regidrago: Complete Guide": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
   "Into the Wild 2026 PvE Guide: What to Build, What to Skip": "Into the Wild 2026 PvE-Leitfaden: Was zu bauen ist, was zu überspringen ist",
+  "Pokémon Sleep: Dream Shard Week Vol.3 Event": "Pokémon-Schlaf: Traumscherbenwoche Vol.3-Event",
   "GO Pass: Into the Wild": "GO-Pass: In die Wildnis",
   "Pokémon GO Into the Wild (2026)": "Pokémon gehen in die Wildnis (2026)",
   "This Week in Pokémon GO (November 9–15): GO Wild Area Global, Into the Wild and Minior Showers": "Diese Woche in Pokémon GO (9.-15. November): GO Wild Area Global, Into the Wild und Minior Duschen",
@@ -1631,7 +1676,6 @@
   "Is Shadow Tornadus Incarnate any good for Pokémon GO Raids?": "Ist Shadow Tornadus Incarnate gut für Pokémon GO Raids?",
   "Shadow Tornadus (Incarnate) Raid Counters Guide": "Schatten-Tornadus (inkarniert) Raid-Konter-Leitfaden",
   "GO Pass November 2026: Tasks, Rewards & Bonuses": "GO Pass November 2026: Aufgaben, Belohnungen & Boni",
-  "GO Wild Area 2026 Brings Trainer Backgrounds, Private Dynamax Battles, and More": "GO Wild Area 2026 bringt Trainerhintergründe, private Dynamax-Kämpfe und mehr",
   "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
   "Pokémon Night Out 2026 - London": "Pokémon-Nacht im Jahr 2026 - London",
   "Lure Modules activated during the event last for one hour, excluding Golden Lure Modules": "Während des Events aktivierte Ködermodule dauern eine Stunde, ausgenommen Goldene Ködermodule",
@@ -1723,6 +1767,44 @@
   "Pokémon GO Tour: Alola - Global 2027": "Pokémon GO Tour: Alola - Global 2027",
   "Minior Showers: Eta Aquariids 2027": "Kleine Duschen: Eta Aquariids 2027",
   "Minior Showers: Southern Delta Aquariids 2027": "Kleine Duschen: Southern Delta Aquariids 2027",
-  "Minior Showers: Perseids 2027": "Kleine Duschen: Perseiden 2027"
+  "Minior Showers: Perseids 2027": "Kleine Duschen: Perseiden 2027",
+  "Power up Steel-type Pokémon 5 times": "Verbessere 5 Mal Pokémon vom Typ Stahl",
+  "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
+  "Win a raid": "Gewinne einen Raid",
+  "Catch 10 Pokémon": "Fange 10 Pokémon",
+  "Win a Max Battle": "Gewinne eine max. Schlacht",
+  "Catch 7 Pokémon": "Fange 7 Pokémon",
+  "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
+  "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
+  "Catch 10 Grass-type Pokémon": "Fange 10 Gras-Pokémon",
+  "Catch 10 Ghost-type Pokémon": "Fange 10 Geister-Pokémon",
+  "Catch 10 Dark-type Pokémon": "Fange 10 dunkle Pokémon",
+  "Catch 5 Pokémon with Weather Boost": "Fange 5 Pokémon mit Wetter-Boost",
+  "Make 10 Curveball Throws": "Mache 10 Curveball-Würfe",
+  "Make 10 Nice Throws": "Mache 10 schöne Überwürfe",
+  "Make 2 Excellent Throws": "Mache 2 ausgezeichnete Würfe",
+  "Make 3 Excellent Throws in a row": "Erziele 3 hervorragende Würfe in Folge",
+  "Make 3 Great Throws": "Mache 3 große Würfe",
+  "Make 3 Great Throws in a row": "Mache 3 große Würfe in Folge",
+  "Make 5 Great Curveball Throws in a row": "Mache 5 großartige Curveball-Würfe in Folge",
+  "Make 5 Nice Throws": "Mache 5 schöne Überwürfe",
+  "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
+  "Win 5 raids": "Gewinne 5 Raids",
+  "Explore 2 km": "2 km erkunden",
+  "Hatch an Egg": "Ein Ei ausbrüten",
+  "Hatch 2 Eggs": "Schlüpfe 2 Eier",
+  "Spin 3 PokéStops or Gyms": "Drehe 3 PokéStops oder Fitnessstudios",
+  "Spin 5 PokéStops": "Drehe 5 PokéStops",
+  "Spin 5 PokéStops or Gyms": "Drehe 5 PokéStops oder Fitnessstudios",
+  "Take a snapshot of a wild Pokémon": "Mach einen Schnappschuss von einem wilden Pokémon",
+  "Evolve a Pokémon": "Entwickle ein Pokémon",
+  "Power up Pokémon 3 times": "Verbessere Pokémon 3 Mal",
+  "Power up Pokémon 5 times": "Stärke Pokémon 5 Mal",
+  "Power up Pokémon 7 times": "Stärke Pokémon 7 Mal",
+  "Earn 2 Candies walking with your buddy": "Verdiene 2 Süßigkeiten, wenn du mit deinem Kumpel spazieren gehst",
+  "Earn 3 Candies walking with your buddy": "Verdiene 3 Süßigkeiten, wenn du mit deinem Kumpel spazieren gehst",
+  "Send 3 Gifts and add a sticker to each": "Senden Sie 3 Geschenke und fügen Sie jedem einen Aufkleber hinzu",
+  "Trade a Pokémon": "Tausche ein Pokémon",
+  "Defeat a Team GO Rocket Grunt": "Besiege ein Team GO Rocket Grunt"
  }
 }
