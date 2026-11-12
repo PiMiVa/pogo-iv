@@ -1,6 +1,31 @@
 {
- "generated": "2026-11-12T03:55:39Z",
+ "generated": "2026-11-12T12:57:37Z",
  "news": [
+  {
+   "title": "Which Adventure Effect Should I Use During Pokémon GO Wild Area: Global 2026?",
+   "titleDe": "Welchen Abenteuer-Effekt sollte ich während der Pokémon GO Wildgebiete: Global 2026 verwenden?",
+   "link": "https://pokemongohub.net/post/guide/which-adventure-effect-should-i-use-during-pokemon-go-wild-area-global-2026/",
+   "date": "Thu, 12 Nov 2026 10:23:19 +0000",
+   "categories": [
+    "Guides",
+    "adventure effect tier list",
+    "adventure effects",
+    "what adventure effect to use during wild area"
+   ]
+  },
+  {
+   "title": "GO Wild Area 2026 Global: Wild Spawns PvE Tier List",
+   "titleDe": "GO Wildnis 2026 Global: Liste der PvE-Stufen für Wild-Spawns",
+   "link": "https://pokemongohub.net/post/meta/go-wild-area-2026-global-wild-spawns-pve-tier-list/",
+   "date": "Thu, 12 Nov 2026 08:28:35 +0000",
+   "categories": [
+    "Meta",
+    "dragon meta",
+    "go wild area 2026",
+    "go wild area meta",
+    "steel meta"
+   ]
+  },
   {
    "title": "How to beat Dynamax Regidrago: Complete Guide",
    "titleDe": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
@@ -396,40 +421,6 @@
     "how to get ursulana",
     "shiny costume teddiursa",
     "teddiursa spotlight hour"
-   ]
-  },
-  {
-   "title": "How to Beat Gigantamax Duraludon: Best Counters and Guide",
-   "titleDe": "Wie man Gigantamax Duraludon besiegt: Beste Zähler und Führer",
-   "link": "https://pokemongohub.net/post/guide/how-to-beat-gigantamax-duraludon-best-counters-and-guide/",
-   "date": "Wed, 04 Nov 2026 09:38:04 +0000",
-   "categories": [
-    "Guides",
-    "duraludon",
-    "duraludon counters",
-    "duraludon guide",
-    "gigantamax duraludon",
-    "gigantamax duraludon counters",
-    "gigantamax duraludon guide",
-    "go wild",
-    "maz battlle guide",
-    "raid guide"
-   ]
-  },
-  {
-   "title": "Is Shadow Tornadus Incarnate any good for Pokémon GO Raids?",
-   "titleDe": "Ist Shadow Tornadus Incarnate gut für Pokémon GO Raids?",
-   "link": "https://pokemongohub.net/post/meta/is-shadow-tornadus-incarnate-any-good-for-pokemon-go-raids/",
-   "date": "Tue, 03 Nov 2026 15:30:20 +0000",
-   "categories": [
-    "Meta",
-    "shadow legendary pokemon",
-    "shadow pokemon",
-    "shadow tornadus",
-    "shadow tornadus incarnate",
-    "shadow tornadus meta",
-    "shadow tornadus pve",
-    "tornadus incarnate"
    ]
   }
  ],
@@ -1648,75 +1639,112 @@
    "ticketBonusesDe": []
   },
   "pokemon-x-adidas-2026": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
   "january-communityday2027": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
   "max-battle-day-january-2027": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
   "super-mega-raid-day-january-30-2027": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
   "february-communityday2027": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
   "raid-day-february-2027": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
   "pokemon-go-tour-alola-kaohsiung-2027": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
   "pokemon-go-tour-alola-los-angeles-2027": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
   "pokemon-go-tour-alola-global-2027": {
+   "v": 2,
    "sections": [],
    "bonuses": [],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
   "minior-showers-eta-aquariids-2027": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
      "groups": [
       {
-       "title": "",
+       "title": "Wild Encounters",
        "pokemon": [
         "Minior (Meteor Form)"
        ]
@@ -1728,7 +1756,10 @@
     "Increased Stardust for catching Minior",
     "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
    ],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1736,12 +1767,13 @@
    "ticketBonusesDe": []
   },
   "minior-showers-southern-delta-aquariids-2027": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
      "groups": [
       {
-       "title": "",
+       "title": "Wild Encounters",
        "pokemon": [
         "Minior (Meteor Form)"
        ]
@@ -1753,7 +1785,10 @@
     "Increased Stardust for catching Minior",
     "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
    ],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1761,12 +1796,13 @@
    "ticketBonusesDe": []
   },
   "minior-showers-perseids-2027": {
+   "v": 2,
    "sections": [
     {
      "id": "spawns",
      "groups": [
       {
-       "title": "",
+       "title": "Wild Encounters",
        "pokemon": [
         "Minior (Meteor Form)"
        ]
@@ -1778,7 +1814,10 @@
     "Increased Stardust for catching Minior",
     "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
    ],
-   "fetched": "2026-11-11",
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-12",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -2300,6 +2339,8 @@
   }
  ],
  "translations": {
+  "Which Adventure Effect Should I Use During Pokémon GO Wild Area: Global 2026?": "Welchen Abenteuer-Effekt sollte ich während der Pokémon GO Wildgebiete: Global 2026 verwenden?",
+  "GO Wild Area 2026 Global: Wild Spawns PvE Tier List": "GO Wildnis 2026 Global: Liste der PvE-Stufen für Wild-Spawns",
   "How to beat Dynamax Regidrago: Complete Guide": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
   "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
   "What Pokémon Should I Use My Silver Bottle Cap On?": "Auf welches Pokémon sollte ich meinen silbernen Flaschenverschluss aufsetzen?",
@@ -2328,8 +2369,6 @@
   "Pokémon TCG Pocket Dual Fusion Emblem Event": "Pokémon-SKG-Tasche-Dual-Fusion-Emblem-Event",
   "Max Meta: Dynamax Uxie – The Tankier One of the Lake Trio, But What For?": "Max Meta: Dynamax Uxie – Der Tankier des Lake Trios, aber wozu?",
   "Halloween Teddiursa Spotlight Hour (November 2026): Last Minute Guide": "Halloween Teddiursa Spotlight Hour (November 2026): Last-Minute-Leitfaden",
-  "How to Beat Gigantamax Duraludon: Best Counters and Guide": "Wie man Gigantamax Duraludon besiegt: Beste Zähler und Führer",
-  "Is Shadow Tornadus Incarnate any good for Pokémon GO Raids?": "Ist Shadow Tornadus Incarnate gut für Pokémon GO Raids?",
   "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
   "Pokémon Night Out 2026 - London": "Pokémon-Nacht im Jahr 2026 - London",
   "Lure Modules activated during the event last for one hour, excluding Golden Lure Modules": "Während des Events aktivierte Ködermodule dauern eine Stunde, ausgenommen Goldene Ködermodule",
