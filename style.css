@@ -477,3 +477,31 @@ section.card.flush:has(.team-head) { border: 3px solid var(--sun); }
 .cal-mons.big .cal-mon span.cp { font-size: .62rem; color: var(--muted); }
 .compare { background: color-mix(in srgb, var(--sun) 18%, var(--card)); border-radius: 12px; padding: 6px 10px; margin: 8px 0; display: flex; flex-direction: column; gap: 2px; }
 .warn-t { color: var(--warn-c); font-weight: 700; }
+
+/* Event-Fenster im Aufbau der Event-Grafiken (Wunsch des Besitzers, 12.11.2026) */
+.cal-dialog.info { padding: 0; overflow: hidden; background: var(--card); }
+.info-head { background: linear-gradient(135deg, var(--kc), #1b1035); color: #fff; padding: 14px; display: flex; flex-direction: column; gap: 8px; }
+.info-head h3 { color: #fff; margin: 0; font-size: 1.2rem; line-height: 1.2; }
+.info-type { font-size: .7rem; font-weight: 800; opacity: .8; letter-spacing: .04em; }
+.info-close { background: none; border: 0; color: #fff; font-size: 1.3rem; cursor: pointer; padding: 0 4px; }
+.date-tiles { display: flex; gap: 6px; overflow-x: auto; }
+.date-tile { background: #fff; border-radius: 8px; padding: 3px 8px; display: flex; flex-direction: column; align-items: center; min-width: 40px; }
+.date-tile b { color: #1a1a1a; font-size: 1.25rem; font-weight: 900; line-height: 1.1; }
+.date-tile span { background: var(--kc); color: #fff; font-size: .62rem; font-weight: 800; border-radius: 3px; padding: 0 4px; }
+.info-time { font-size: .78rem; font-weight: 700; white-space: nowrap; }
+.info-sub { font-size: .78rem; opacity: .9; }
+.info-body { padding: 14px; display: flex; flex-direction: column; gap: 8px; }
+.info-area { display: flex; align-items: center; gap: 8px; font-weight: 800; color: var(--kc); font-size: .92rem; margin-top: 4px; }
+.info-area::after { content: ""; flex: 1; height: 2px; background: var(--kc); opacity: .35; }
+.cal-sub { font-size: .82rem; font-weight: 600; }
+.bonus-tiles { display: flex; flex-wrap: wrap; gap: 6px; }
+.bonus-tile { width: 104px; background: var(--card-2); border-radius: 10px; padding: 6px; display: flex; flex-direction: column; align-items: center; text-align: center; font-size: .7rem; line-height: 1.2; }
+.bonus-tile.ticket { border: 1.5px solid var(--sun); }
+.bonus-tile.move b { color: var(--kc); font-size: .8rem; }
+.bonus-icon { font-size: 1.4rem; }
+.ticket-box { border: 2px solid var(--sun); border-radius: 12px; padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+.code-text { font-family: ui-monospace, Menlo, Consolas, monospace; font-weight: 800; font-size: 1.05rem; background: var(--card-2); border-radius: 8px; padding: 6px 10px; margin: 6px 0; display: inline-block; user-select: all; word-break: break-all; }
+.research.compact .line { cursor: pointer; font-size: .9rem; }
+@media (prefers-color-scheme: dark) {
+  .info-area, .bonus-tile.move b { filter: brightness(1.45); }
+}
