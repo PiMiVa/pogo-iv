@@ -111,13 +111,13 @@ initMetadataForClass(AbstractCollection, 'AbstractCollection', VOID, VOID, [Coll
 initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [Collection, MutableIterable]);
 initMetadataForClass(IteratorImpl, 'IteratorImpl');
 initMetadataForClass(ListIteratorImpl, 'ListIteratorImpl', VOID, IteratorImpl);
-initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [MutableIterable, KtList, Collection]);
+initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [MutableIterable, Collection, KtList]);
 initMetadataForClass(AbstractMap, 'AbstractMap', VOID, VOID, [KtMap]);
 initMetadataForClass(AbstractMutableMap, 'AbstractMutableMap', VOID, AbstractMap, [KtMutableMap]);
 initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [KtSet, MutableIterable, Collection]);
 initMetadataForCompanion(Companion_2);
 initMetadataForInterface(RandomAccess, 'RandomAccess');
-initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [MutableIterable, KtList, Collection, RandomAccess]);
+initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [MutableIterable, Collection, KtList, RandomAccess]);
 initMetadataForClass(HashMap, 'HashMap', HashMap_init_$Create$, AbstractMutableMap, [KtMutableMap]);
 initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [KtSet, MutableIterable, Collection]);
 initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [Collection, MutableIterable]);
@@ -1111,6 +1111,19 @@ function contains_5(_this__u8e3s4, element) {
     return _this__u8e3s4.t(element);
   return indexOf_5(_this__u8e3s4, element) >= 0;
 }
+function firstOrNull_0(_this__u8e3s4) {
+  if (isInterface(_this__u8e3s4, KtList)) {
+    if (_this__u8e3s4.r())
+      return null;
+    else
+      return _this__u8e3s4.q(0);
+  } else {
+    var iterator = _this__u8e3s4.i();
+    if (!iterator.j())
+      return null;
+    return iterator.k();
+  }
+}
 function average(_this__u8e3s4) {
   var sum = 0.0;
   var count = 0;
@@ -1509,7 +1522,7 @@ function drop_0(_this__u8e3s4, n) {
   }
   return substring_0(_this__u8e3s4, coerceAtMost(n, _this__u8e3s4.length));
 }
-function firstOrNull_0(_this__u8e3s4) {
+function firstOrNull_1(_this__u8e3s4) {
   var tmp;
   // Inline function 'kotlin.text.isEmpty' call
   if (charSequenceLength(_this__u8e3s4) === 0) {
@@ -14544,6 +14557,7 @@ export {
   emptyMap as emptyMapr06gerzljqtm,
   emptySet as emptySetcxexqki71qfa,
   firstOrNull as firstOrNull1982767dljvdy,
+  firstOrNull_0 as firstOrNullf6vlo6vdgu1e,
   first as first58ocm7j58k3q,
   flatten as flatten2dh4kibw1u0qq,
   getOrNull_0 as getOrNull1go7ef9ldk0df,
@@ -14723,7 +14737,7 @@ export {
   encodeToByteArray as encodeToByteArray1onwao0uakjfh,
   endsWith as endsWith3cq61xxngobwh,
   equals_0 as equals2v6cggk171b6e,
-  firstOrNull_0 as firstOrNulltrxqttxfxqju,
+  firstOrNull_1 as firstOrNulltrxqttxfxqju,
   first_1 as first3kg261hmihapu,
   indexOf_6 as indexOfwa4w6635jewi,
   indexOf_8 as indexOf1xbs558u7wr52,
