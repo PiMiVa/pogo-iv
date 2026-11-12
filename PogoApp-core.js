@@ -193,7 +193,7 @@ import {
   max3idzx6y8yn3fk as max,
   count2ctzg572d5xrz as count,
   convertToIntofdoxh9bstof as convertToInt,
-} from './kotlin-kotlin-stdlib.js?v=1794441891242';
+} from './kotlin-kotlin-stdlib.js?v=1794474170937';
 import {
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
   JsonObjectee06ihoeeiqj as JsonObject,
@@ -206,7 +206,7 @@ import {
   get_jsonArray18sglwhl4pclz as get_jsonArray,
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794441891242';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794474170937';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -224,7 +224,7 @@ import {
   ListSerializer1hxuk9dx5n9du as ListSerializer,
   SerializableWithd2dap36updxd as SerializableWith,
   LinkedHashMapSerializermaoj2nyji7op as LinkedHashMapSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794441891242';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794474170937';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -278,6 +278,7 @@ initMetadataForClass(Source, 'Source', VOID, Enum);
 initMetadataForClass(Detail, 'Detail');
 initMetadataForClass(EventMove, 'EventMove');
 initMetadataForClass(DayGroup, 'DayGroup');
+initMetadataForClass(Upcoming, 'Upcoming');
 initMetadataForClass(Kind_0, 'Kind', VOID, Enum);
 initMetadataForClass(Month, 'Month');
 initMetadataForClass(sam$kotlin_Comparator$0_1, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
@@ -4841,22 +4842,25 @@ function Source(name, ordinal, label) {
   Enum.call(this, name, ordinal);
   this.n1r_1 = label;
 }
-function Detail(title, species, source, date) {
+function Detail(title, species, source, date, giga) {
   source = source === VOID ? Source_OTHER_getInstance() : source;
   date = date === VOID ? '' : date;
+  giga = giga === VOID ? emptySet() : giga;
   this.o1r_1 = title;
   this.p1r_1 = species;
   this.q1r_1 = source;
   this.r1r_1 = date;
+  this.s1r_1 = giga;
 }
 protoOf(Detail).toString = function () {
-  return 'Detail(title=' + this.o1r_1 + ', species=' + toString_0(this.p1r_1) + ', source=' + this.q1r_1.toString() + ', date=' + this.r1r_1 + ')';
+  return 'Detail(title=' + this.o1r_1 + ', species=' + toString_0(this.p1r_1) + ', source=' + this.q1r_1.toString() + ', date=' + this.r1r_1 + ', giga=' + toString_0(this.s1r_1) + ')';
 };
 protoOf(Detail).hashCode = function () {
   var result = getStringHashCode(this.o1r_1);
   result = imul(result, 31) + hashCode(this.p1r_1) | 0;
   result = imul(result, 31) + this.q1r_1.hashCode() | 0;
   result = imul(result, 31) + getStringHashCode(this.r1r_1) | 0;
+  result = imul(result, 31) + hashCode(this.s1r_1) | 0;
   return result;
 };
 protoOf(Detail).equals = function (other) {
@@ -4872,22 +4876,24 @@ protoOf(Detail).equals = function (other) {
     return false;
   if (!(this.r1r_1 === other.r1r_1))
     return false;
+  if (!equals(this.s1r_1, other.s1r_1))
+    return false;
   return true;
 };
 function EventMove(species, pokemon, move, fast) {
-  this.s1r_1 = species;
-  this.t1r_1 = pokemon;
-  this.u1r_1 = move;
-  this.v1r_1 = fast;
+  this.t1r_1 = species;
+  this.u1r_1 = pokemon;
+  this.v1r_1 = move;
+  this.w1r_1 = fast;
 }
 protoOf(EventMove).toString = function () {
-  return 'EventMove(species=' + toString(this.s1r_1) + ', pokemon=' + this.t1r_1 + ', move=' + this.u1r_1 + ', fast=' + this.v1r_1 + ')';
+  return 'EventMove(species=' + toString(this.t1r_1) + ', pokemon=' + this.u1r_1 + ', move=' + this.v1r_1 + ', fast=' + this.w1r_1 + ')';
 };
 protoOf(EventMove).hashCode = function () {
-  var result = this.s1r_1 == null ? 0 : this.s1r_1.hashCode();
-  result = imul(result, 31) + getStringHashCode(this.t1r_1) | 0;
+  var result = this.t1r_1 == null ? 0 : this.t1r_1.hashCode();
   result = imul(result, 31) + getStringHashCode(this.u1r_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.v1r_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.v1r_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.w1r_1) | 0;
   return result;
 };
 protoOf(EventMove).equals = function (other) {
@@ -4895,40 +4901,48 @@ protoOf(EventMove).equals = function (other) {
     return true;
   if (!(other instanceof EventMove))
     return false;
-  if (!equals(this.s1r_1, other.s1r_1))
-    return false;
-  if (!(this.t1r_1 === other.t1r_1))
+  if (!equals(this.t1r_1, other.t1r_1))
     return false;
   if (!(this.u1r_1 === other.u1r_1))
     return false;
   if (!(this.v1r_1 === other.v1r_1))
     return false;
+  if (!(this.w1r_1 === other.w1r_1))
+    return false;
   return true;
 };
-function DayGroup(entry, source, title, species) {
-  this.w1r_1 = entry;
-  this.x1r_1 = source;
-  this.y1r_1 = title;
-  this.z1r_1 = species;
+function DayGroup(entry, source, title, species, giga, dated) {
+  giga = giga === VOID ? emptySet() : giga;
+  dated = dated === VOID ? false : dated;
+  this.x1r_1 = entry;
+  this.y1r_1 = source;
+  this.z1r_1 = title;
+  this.a1s_1 = species;
+  this.b1s_1 = giga;
+  this.c1s_1 = dated;
 }
-protoOf(DayGroup).a1s = function (entry, source, title, species) {
-  return new DayGroup(entry, source, title, species);
+protoOf(DayGroup).d1s = function (entry, source, title, species, giga, dated) {
+  return new DayGroup(entry, source, title, species, giga, dated);
 };
-protoOf(DayGroup).b1s = function (entry, source, title, species, $super) {
-  entry = entry === VOID ? this.w1r_1 : entry;
-  source = source === VOID ? this.x1r_1 : source;
-  title = title === VOID ? this.y1r_1 : title;
-  species = species === VOID ? this.z1r_1 : species;
-  return $super === VOID ? this.a1s(entry, source, title, species) : $super.a1s.call(this, entry, source, title, species);
+protoOf(DayGroup).e1s = function (entry, source, title, species, giga, dated, $super) {
+  entry = entry === VOID ? this.x1r_1 : entry;
+  source = source === VOID ? this.y1r_1 : source;
+  title = title === VOID ? this.z1r_1 : title;
+  species = species === VOID ? this.a1s_1 : species;
+  giga = giga === VOID ? this.b1s_1 : giga;
+  dated = dated === VOID ? this.c1s_1 : dated;
+  return $super === VOID ? this.d1s(entry, source, title, species, giga, dated) : $super.d1s.call(this, entry, source, title, species, giga, dated);
 };
 protoOf(DayGroup).toString = function () {
-  return 'DayGroup(entry=' + this.w1r_1.toString() + ', source=' + this.x1r_1.toString() + ', title=' + this.y1r_1 + ', species=' + toString_0(this.z1r_1) + ')';
+  return 'DayGroup(entry=' + this.x1r_1.toString() + ', source=' + this.y1r_1.toString() + ', title=' + this.z1r_1 + ', species=' + toString_0(this.a1s_1) + ', giga=' + toString_0(this.b1s_1) + ', dated=' + this.c1s_1 + ')';
 };
 protoOf(DayGroup).hashCode = function () {
-  var result = this.w1r_1.hashCode();
-  result = imul(result, 31) + this.x1r_1.hashCode() | 0;
-  result = imul(result, 31) + getStringHashCode(this.y1r_1) | 0;
-  result = imul(result, 31) + hashCode(this.z1r_1) | 0;
+  var result = this.x1r_1.hashCode();
+  result = imul(result, 31) + this.y1r_1.hashCode() | 0;
+  result = imul(result, 31) + getStringHashCode(this.z1r_1) | 0;
+  result = imul(result, 31) + hashCode(this.a1s_1) | 0;
+  result = imul(result, 31) + hashCode(this.b1s_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.c1s_1) | 0;
   return result;
 };
 protoOf(DayGroup).equals = function (other) {
@@ -4936,13 +4950,81 @@ protoOf(DayGroup).equals = function (other) {
     return true;
   if (!(other instanceof DayGroup))
     return false;
-  if (!this.w1r_1.equals(other.w1r_1))
-    return false;
   if (!this.x1r_1.equals(other.x1r_1))
     return false;
-  if (!(this.y1r_1 === other.y1r_1))
+  if (!this.y1r_1.equals(other.y1r_1))
     return false;
-  if (!equals(this.z1r_1, other.z1r_1))
+  if (!(this.z1r_1 === other.z1r_1))
+    return false;
+  if (!equals(this.a1s_1, other.a1s_1))
+    return false;
+  if (!equals(this.b1s_1, other.b1s_1))
+    return false;
+  if (!(this.c1s_1 === other.c1s_1))
+    return false;
+  return true;
+};
+function Upcoming(species, tier, shadow, max, giga, from, until, event) {
+  this.f1s_1 = species;
+  this.g1s_1 = tier;
+  this.h1s_1 = shadow;
+  this.i1s_1 = max;
+  this.j1s_1 = giga;
+  this.k1s_1 = from;
+  this.l1s_1 = until;
+  this.m1s_1 = event;
+}
+protoOf(Upcoming).n1s = function (today) {
+  return compareTo(this.k1s_1, today) <= 0 ? 'heute' : 'ab ' + EventCalendar_getInstance().v1s(this.k1s_1);
+};
+protoOf(Upcoming).w1s = function (species, tier, shadow, max, giga, from, until, event) {
+  return new Upcoming(species, tier, shadow, max, giga, from, until, event);
+};
+protoOf(Upcoming).x1s = function (species, tier, shadow, max, giga, from, until, event, $super) {
+  species = species === VOID ? this.f1s_1 : species;
+  tier = tier === VOID ? this.g1s_1 : tier;
+  shadow = shadow === VOID ? this.h1s_1 : shadow;
+  max = max === VOID ? this.i1s_1 : max;
+  giga = giga === VOID ? this.j1s_1 : giga;
+  from = from === VOID ? this.k1s_1 : from;
+  until = until === VOID ? this.l1s_1 : until;
+  event = event === VOID ? this.m1s_1 : event;
+  return $super === VOID ? this.w1s(species, tier, shadow, max, giga, from, until, event) : $super.w1s.call(this, species, tier, shadow, max, giga, from, until, event);
+};
+protoOf(Upcoming).toString = function () {
+  return 'Upcoming(species=' + this.f1s_1.toString() + ', tier=' + this.g1s_1 + ', shadow=' + this.h1s_1 + ', max=' + this.i1s_1 + ', giga=' + this.j1s_1 + ', from=' + this.k1s_1 + ', until=' + this.l1s_1 + ', event=' + this.m1s_1 + ')';
+};
+protoOf(Upcoming).hashCode = function () {
+  var result = this.f1s_1.hashCode();
+  result = imul(result, 31) + this.g1s_1 | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.h1s_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.i1s_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.j1s_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.k1s_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.l1s_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.m1s_1) | 0;
+  return result;
+};
+protoOf(Upcoming).equals = function (other) {
+  if (this === other)
+    return true;
+  if (!(other instanceof Upcoming))
+    return false;
+  if (!this.f1s_1.equals(other.f1s_1))
+    return false;
+  if (!(this.g1s_1 === other.g1s_1))
+    return false;
+  if (!(this.h1s_1 === other.h1s_1))
+    return false;
+  if (!(this.i1s_1 === other.i1s_1))
+    return false;
+  if (!(this.j1s_1 === other.j1s_1))
+    return false;
+  if (!(this.k1s_1 === other.k1s_1))
+    return false;
+  if (!(this.l1s_1 === other.l1s_1))
+    return false;
+  if (!(this.m1s_1 === other.m1s_1))
     return false;
   return true;
 };
@@ -5001,26 +5083,26 @@ function minutes($this, t) {
 }
 function Kind_0(name, ordinal, label) {
   Enum.call(this, name, ordinal);
-  this.e1s_1 = label;
+  this.a1t_1 = label;
 }
 function Month(year, month, label, offset, length, days) {
-  this.f1s_1 = year;
-  this.g1s_1 = month;
-  this.h1s_1 = label;
-  this.i1s_1 = offset;
-  this.j1s_1 = length;
-  this.k1s_1 = days;
+  this.b1t_1 = year;
+  this.c1t_1 = month;
+  this.d1t_1 = label;
+  this.e1t_1 = offset;
+  this.f1t_1 = length;
+  this.g1t_1 = days;
 }
 protoOf(Month).toString = function () {
-  return 'Month(year=' + this.f1s_1 + ', month=' + this.g1s_1 + ', label=' + this.h1s_1 + ', offset=' + this.i1s_1 + ', length=' + this.j1s_1 + ', days=' + toString_0(this.k1s_1) + ')';
+  return 'Month(year=' + this.b1t_1 + ', month=' + this.c1t_1 + ', label=' + this.d1t_1 + ', offset=' + this.e1t_1 + ', length=' + this.f1t_1 + ', days=' + toString_0(this.g1t_1) + ')';
 };
 protoOf(Month).hashCode = function () {
-  var result = this.f1s_1;
-  result = imul(result, 31) + this.g1s_1 | 0;
-  result = imul(result, 31) + getStringHashCode(this.h1s_1) | 0;
-  result = imul(result, 31) + this.i1s_1 | 0;
-  result = imul(result, 31) + this.j1s_1 | 0;
-  result = imul(result, 31) + hashCode(this.k1s_1) | 0;
+  var result = this.b1t_1;
+  result = imul(result, 31) + this.c1t_1 | 0;
+  result = imul(result, 31) + getStringHashCode(this.d1t_1) | 0;
+  result = imul(result, 31) + this.e1t_1 | 0;
+  result = imul(result, 31) + this.f1t_1 | 0;
+  result = imul(result, 31) + hashCode(this.g1t_1) | 0;
   return result;
 };
 protoOf(Month).equals = function (other) {
@@ -5028,17 +5110,17 @@ protoOf(Month).equals = function (other) {
     return true;
   if (!(other instanceof Month))
     return false;
-  if (!(this.f1s_1 === other.f1s_1))
+  if (!(this.b1t_1 === other.b1t_1))
     return false;
-  if (!(this.g1s_1 === other.g1s_1))
+  if (!(this.c1t_1 === other.c1t_1))
     return false;
-  if (!(this.h1s_1 === other.h1s_1))
+  if (!(this.d1t_1 === other.d1t_1))
     return false;
-  if (!(this.i1s_1 === other.i1s_1))
+  if (!(this.e1t_1 === other.e1t_1))
     return false;
-  if (!(this.j1s_1 === other.j1s_1))
+  if (!(this.f1t_1 === other.f1t_1))
     return false;
-  if (!equals(this.k1s_1, other.k1s_1))
+  if (!equals(this.g1t_1, other.g1t_1))
     return false;
   return true;
 };
@@ -5059,16 +5141,16 @@ function span($this, a, b) {
   return a.length < 10 || b.length < 10 ? 0 : span$n(b) - span$n(a) | 0;
 }
 function sam$kotlin_Comparator$0_1(function_0) {
-  this.l1s_1 = function_0;
+  this.h1t_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_1).sc = function (a, b) {
-  return this.l1s_1(a, b);
+  return this.h1t_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_1).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_1).r2 = function () {
-  return this.l1s_1;
+  return this.h1t_1;
 };
 protoOf(sam$kotlin_Comparator$0_1).equals = function (other) {
   var tmp;
@@ -5089,12 +5171,18 @@ protoOf(sam$kotlin_Comparator$0_1).hashCode = function () {
   return hashCode(this.r2());
 };
 function EventCalendar$groupTitle$lambda(m) {
-  var month = EventCalendar_getInstance().q1s_1.u(m.qc().q(2));
+  var month = EventCalendar_getInstance().s1s_1.u(m.qc().q(2));
   var monthDe = month >= 0 ? listOf(['Januar', 'Februar', 'M\xE4rz', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']).q(month) : m.qc().q(2);
-  return '' + EventCalendar_getInstance().p1s_1.a2(m.qc().q(1)) + ', ' + m.qc().q(3) + '. ' + monthDe;
+  return '' + EventCalendar_getInstance().r1s_1.a2(m.qc().q(1)) + ', ' + m.qc().q(3) + '. ' + monthDe;
+}
+function EventCalendar$upcomingBosses$lambda(it) {
+  return it.k1s_1;
+}
+function EventCalendar$upcomingBosses$lambda_0(it) {
+  return -it.g1s_1 | 0;
 }
 function parse$local($utcOffsetMinutes, t) {
-  return endsWith(t, 'Z') ? EventCalendar_getInstance().t1s(removeSuffix(t, 'Z'), $utcOffsetMinutes) : t;
+  return endsWith(t, 'Z') ? EventCalendar_getInstance().i1t(removeSuffix(t, 'Z'), $utcOffsetMinutes) : t;
 }
 function parse$s_0(o, k) {
   var tmp = o.fc(k);
@@ -5228,15 +5316,15 @@ function Kind_EVENT_getInstance() {
 }
 function EventCalendar() {
   EventCalendar_instance = this;
-  this.m1s_1 = mapOf([to('spawns', Source_WILD_getInstance()), to('incense', Source_WILD_getInstance()), to('lures', Source_WILD_getInstance()), to('photobomb', Source_WILD_getInstance()), to('featured-pokemon', Source_WILD_getInstance()), to('raids', Source_RAID_getInstance()), to('max-battles', Source_MAX_getInstance()), to('eggs', Source_EGG_getInstance()), to('research', Source_RESEARCH_getInstance()), to('field-research', Source_RESEARCH_getInstance()), to('timed-research', Source_RESEARCH_getInstance()), to('special-research', Source_RESEARCH_getInstance())]);
-  this.n1s_1 = mapOf([to('spawns', 'In der Wildnis'), to('raids', 'Raids'), to('eggs', 'Eier'), to('research', 'Feldforschung'), to('field-research', 'Feldforschung'), to('timed-research', 'Befristete Forschung'), to('special-research', 'Spezialforschung'), to('max-battles', 'Dyna-K\xE4mpfe'), to('featured-pokemon', 'Im Mittelpunkt'), to('shiny', 'Neu als Shiny'), to('incense', 'Rauch'), to('lures', 'Lockmodule'), to('photobomb', 'Fotobombe')]);
-  this.o1s_1 = mapOf([to('One', 1), to('Two', 2), to('Three', 3), to('Four', 4), to('Five', 5), to('Six', 6)]);
-  this.p1s_1 = mapOf([to('Monday', 'Montag'), to('Tuesday', 'Dienstag'), to('Wednesday', 'Mittwoch'), to('Thursday', 'Donnerstag'), to('Friday', 'Freitag'), to('Saturday', 'Samstag'), to('Sunday', 'Sonntag')]);
-  this.q1s_1 = listOf(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']);
-  this.r1s_1 = mapOf([to('Community Day', 'Community Day'), to('Event', 'Event'), to('GO Battle League', 'Kampfliga'), to('GO Pass', 'GO Pass'), to('Max Battles', 'Dyna-K\xE4mpfe'), to('Max Mondays', 'Dyna-Montag'), to('Pok\xE9mon GO Tour', 'GO Tour'), to('Pok\xE9mon Spotlight Hour', 'Rampenlicht-Stunde'), to('Raid Battles', 'Raids'), to('Raid Day', 'Raid-Tag'), to('Raid Hour', 'Raid-Stunde'), to('Research', 'Forschung'), to('Season', 'Saison'), to('Timed Research', 'Befristete Forschung'), to('Wild Area', 'Wild Area'), to('Research Breakthrough', 'Forschungsdurchbruch'), to('Pok\xE9mon GO Fest', 'GO Fest'), to('Live Event', 'Live-Event'), to('Elite Raids', 'Elite-Raids'), to('Special Research', 'Spezialforschung'), to('Bonus Hour', 'Bonus-Stunde')]);
-  this.s1s_1 = listOf(['Januar', 'Februar', 'M\xE4rz', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']);
+  this.o1s_1 = mapOf([to('spawns', Source_WILD_getInstance()), to('incense', Source_WILD_getInstance()), to('lures', Source_WILD_getInstance()), to('photobomb', Source_WILD_getInstance()), to('featured-pokemon', Source_WILD_getInstance()), to('raids', Source_RAID_getInstance()), to('max-battles', Source_MAX_getInstance()), to('eggs', Source_EGG_getInstance()), to('research', Source_RESEARCH_getInstance()), to('field-research', Source_RESEARCH_getInstance()), to('timed-research', Source_RESEARCH_getInstance()), to('special-research', Source_RESEARCH_getInstance())]);
+  this.p1s_1 = mapOf([to('spawns', 'In der Wildnis'), to('raids', 'Raids'), to('eggs', 'Eier'), to('research', 'Feldforschung'), to('field-research', 'Feldforschung'), to('timed-research', 'Befristete Forschung'), to('special-research', 'Spezialforschung'), to('max-battles', 'Dyna-K\xE4mpfe'), to('featured-pokemon', 'Im Mittelpunkt'), to('shiny', 'Neu als Shiny'), to('incense', 'Rauch'), to('lures', 'Lockmodule'), to('photobomb', 'Fotobombe')]);
+  this.q1s_1 = mapOf([to('One', 1), to('Two', 2), to('Three', 3), to('Four', 4), to('Five', 5), to('Six', 6)]);
+  this.r1s_1 = mapOf([to('Monday', 'Montag'), to('Tuesday', 'Dienstag'), to('Wednesday', 'Mittwoch'), to('Thursday', 'Donnerstag'), to('Friday', 'Freitag'), to('Saturday', 'Samstag'), to('Sunday', 'Sonntag')]);
+  this.s1s_1 = listOf(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']);
+  this.t1s_1 = mapOf([to('Community Day', 'Community Day'), to('Event', 'Event'), to('GO Battle League', 'Kampfliga'), to('GO Pass', 'GO Pass'), to('Max Battles', 'Dyna-K\xE4mpfe'), to('Max Mondays', 'Dyna-Montag'), to('Pok\xE9mon GO Tour', 'GO Tour'), to('Pok\xE9mon Spotlight Hour', 'Rampenlicht-Stunde'), to('Raid Battles', 'Raids'), to('Raid Day', 'Raid-Tag'), to('Raid Hour', 'Raid-Stunde'), to('Research', 'Forschung'), to('Season', 'Saison'), to('Timed Research', 'Befristete Forschung'), to('Wild Area', 'Wild Area'), to('Research Breakthrough', 'Forschungsdurchbruch'), to('Pok\xE9mon GO Fest', 'GO Fest'), to('Live Event', 'Live-Event'), to('Elite Raids', 'Elite-Raids'), to('Special Research', 'Spezialforschung'), to('Bonus Hour', 'Bonus-Stunde')]);
+  this.u1s_1 = listOf(['Januar', 'Februar', 'M\xE4rz', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']);
 }
-protoOf(EventCalendar).u1s = function (raw) {
+protoOf(EventCalendar).j1t = function (raw) {
   var tmp0_elvis_lhs = Regex_init_$Create$('\\b(January|February|March|April|May|June|July|August|September|October|November|December) (\\d{1,2})\\b').nb(raw);
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -5245,10 +5333,10 @@ protoOf(EventCalendar).u1s = function (raw) {
     tmp = tmp0_elvis_lhs;
   }
   var m = tmp;
-  var month = this.q1s_1.u(m.qc().q(1)) + 1 | 0;
+  var month = this.s1s_1.u(m.qc().q(1)) + 1 | 0;
   return padStart(month.toString(), 2, _Char___init__impl__6a9atx(48)) + '-' + padStart(m.qc().q(2), 2, _Char___init__impl__6a9atx(48));
 };
-protoOf(EventCalendar).v1s = function (raw) {
+protoOf(EventCalendar).k1t = function (raw) {
   // Inline function 'kotlin.text.trim' call
   var t = toString_0(trim(isCharSequence(raw) ? raw : THROW_CCE()));
   // Inline function 'kotlin.text.isEmpty' call
@@ -5260,14 +5348,14 @@ protoOf(EventCalendar).v1s = function (raw) {
     null;
   else {
     // Inline function 'kotlin.let' call
-    var stars = '' + EventCalendar_getInstance().o1s_1.a2(tmp0_safe_receiver.qc().q(1)) + '\u2605';
+    var stars = '' + EventCalendar_getInstance().q1s_1.a2(tmp0_safe_receiver.qc().q(1)) + '\u2605';
     var rest = tmp0_safe_receiver.qc().q(2);
     var tmp;
     // Inline function 'kotlin.text.isEmpty' call
     if (charSequenceLength(rest) === 0) {
       tmp = stars;
     } else {
-      tmp = stars + ' \xB7 ' + EventCalendar_getInstance().v1s(rest);
+      tmp = stars + ' \xB7 ' + EventCalendar_getInstance().k1t(rest);
     }
     return tmp;
   }
@@ -5294,9 +5382,9 @@ protoOf(EventCalendar).v1s = function (raw) {
   }
   return t;
 };
-protoOf(EventCalendar).w1s = function (d, data) {
+protoOf(EventCalendar).l1t = function (d, data) {
   // Inline function 'kotlin.collections.mapNotNull' call
-  var tmp0 = d.x1s_1;
+  var tmp0 = d.m1t_1;
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.forEach' call
@@ -5306,14 +5394,14 @@ protoOf(EventCalendar).w1s = function (d, data) {
     var tmp$ret$4;
     $l$block: {
       // Inline function 'kotlin.collections.mapNotNull' call
-      var tmp0_0 = element.e1t_1;
+      var tmp0_0 = element.t1t_1;
       // Inline function 'kotlin.collections.mapNotNullTo' call
       var destination_0 = ArrayList_init_$Create$_0();
       // Inline function 'kotlin.collections.forEach' call
       var _iterator__ex2g4s_0 = tmp0_0.i();
       while (_iterator__ex2g4s_0.j()) {
         var element_0 = _iterator__ex2g4s_0.k();
-        var tmp0_safe_receiver = EventHints_instance.f1t(element_0, data);
+        var tmp0_safe_receiver = EventHints_instance.u1t(element_0, data);
         if (tmp0_safe_receiver == null)
           null;
         else {
@@ -5337,9 +5425,37 @@ protoOf(EventCalendar).w1s = function (d, data) {
         tmp$ret$4 = null;
         break $l$block;
       }
-      var tmp0_elvis_lhs = EventCalendar_getInstance().n1s_1.a2(element.c1t_1);
-      var head = tmp0_elvis_lhs == null ? element.c1t_1 : tmp0_elvis_lhs;
-      var sub = EventCalendar_getInstance().v1s(element.d1t_1);
+      var tmp0_elvis_lhs = EventCalendar_getInstance().p1s_1.a2(element.r1t_1);
+      var head = tmp0_elvis_lhs == null ? element.r1t_1 : tmp0_elvis_lhs;
+      var sub = EventCalendar_getInstance().k1t(element.s1t_1);
+      // Inline function 'kotlin.collections.filter' call
+      var tmp0_1 = element.t1t_1;
+      // Inline function 'kotlin.collections.filterTo' call
+      var destination_1 = ArrayList_init_$Create$_0();
+      var _iterator__ex2g4s_2 = tmp0_1.i();
+      while (_iterator__ex2g4s_2.j()) {
+        var element_1 = _iterator__ex2g4s_2.k();
+        if (startsWith(element_1, 'Gigantamax ')) {
+          destination_1.h(element_1);
+        }
+      }
+      // Inline function 'kotlin.collections.mapNotNull' call
+      // Inline function 'kotlin.collections.mapNotNullTo' call
+      var destination_2 = ArrayList_init_$Create$_0();
+      // Inline function 'kotlin.collections.forEach' call
+      var _iterator__ex2g4s_3 = destination_1.i();
+      while (_iterator__ex2g4s_3.j()) {
+        var element_2 = _iterator__ex2g4s_3.k();
+        var tmp0_safe_receiver_0 = EventHints_instance.u1t(element_2, data);
+        var tmp0_safe_receiver_1 = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.q1e_1;
+        if (tmp0_safe_receiver_1 == null)
+          null;
+        else {
+          // Inline function 'kotlin.let' call
+          destination_2.h(tmp0_safe_receiver_1);
+        }
+      }
+      var giga = toSet(destination_2);
       var tmp;
       // Inline function 'kotlin.text.isEmpty' call
       if (charSequenceLength(sub) === 0) {
@@ -5348,52 +5464,114 @@ protoOf(EventCalendar).w1s = function (d, data) {
         tmp = head + ' \xB7 ' + sub;
       }
       var tmp_0 = tmp;
-      var tmp1_elvis_lhs = EventCalendar_getInstance().m1s_1.a2(element.c1t_1);
-      tmp$ret$4 = new Detail(tmp_0, species, tmp1_elvis_lhs == null ? Source_OTHER_getInstance() : tmp1_elvis_lhs, EventCalendar_getInstance().u1s(element.d1t_1));
+      var tmp1_elvis_lhs = EventCalendar_getInstance().o1s_1.a2(element.r1t_1);
+      tmp$ret$4 = new Detail(tmp_0, species, tmp1_elvis_lhs == null ? Source_OTHER_getInstance() : tmp1_elvis_lhs, EventCalendar_getInstance().j1t(element.s1t_1), giga);
     }
-    var tmp0_safe_receiver_0 = tmp$ret$4;
-    if (tmp0_safe_receiver_0 == null)
+    var tmp0_safe_receiver_2 = tmp$ret$4;
+    if (tmp0_safe_receiver_2 == null)
       null;
     else {
       // Inline function 'kotlin.let' call
-      destination.h(tmp0_safe_receiver_0);
+      destination.h(tmp0_safe_receiver_2);
     }
   }
   return destination;
 };
-protoOf(EventCalendar).g1t = function (d, data) {
+protoOf(EventCalendar).v1t = function (d, data) {
   // Inline function 'kotlin.collections.map' call
-  var this_0 = d.a1t_1;
+  var this_0 = d.p1t_1;
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(this_0, 10));
   var _iterator__ex2g4s = this_0.i();
   while (_iterator__ex2g4s.j()) {
     var item = _iterator__ex2g4s.k();
-    var species = EventHints_instance.f1t(item.h1t_1, data);
+    var species = EventHints_instance.u1t(item.w1t_1, data);
     // Inline function 'kotlin.text.uppercase' call
     // Inline function 'kotlin.js.asDynamic' call
-    var tmp0 = item.i1t_1.toUpperCase();
+    var tmp0 = item.x1t_1.toUpperCase();
     // Inline function 'kotlin.text.replace' call
     var tmp$ret$5 = Regex_init_$Create$('[^A-Z0-9]+').rb(tmp0, '_');
     var id = trim_0(tmp$ret$5, charArrayOf([_Char___init__impl__6a9atx(95)]));
-    var tmp0_safe_receiver = data.k1t().a2(id);
+    var tmp0_safe_receiver = data.z1t().a2(id);
     var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.p1j_1;
     var tmp;
     if (tmp1_elvis_lhs == null) {
-      var tmp2_safe_receiver = data.k1t().a2(id + '_FAST');
+      var tmp2_safe_receiver = data.z1t().a2(id + '_FAST');
       tmp = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.p1j_1;
     } else {
       tmp = tmp1_elvis_lhs;
     }
     var tmp3_elvis_lhs = tmp;
-    var name = tmp3_elvis_lhs == null ? item.i1t_1 : tmp3_elvis_lhs;
+    var name = tmp3_elvis_lhs == null ? item.x1t_1 : tmp3_elvis_lhs;
     var tmp5_elvis_lhs = species == null ? null : species.s1e_1;
-    var tmp$ret$2 = new EventMove(species, tmp5_elvis_lhs == null ? item.h1t_1 : tmp5_elvis_lhs, name, item.j1t_1);
+    var tmp$ret$2 = new EventMove(species, tmp5_elvis_lhs == null ? item.w1t_1 : tmp5_elvis_lhs, name, item.y1t_1);
     destination.h(tmp$ret$2);
   }
   return destination;
 };
-protoOf(EventCalendar).l1t = function (entries, day) {
+protoOf(EventCalendar).a1u = function (entries, today, days) {
+  var found = LinkedHashMap_init_$Create$();
+  var day = today;
+  // Inline function 'kotlin.repeat' call
+  var times = days + 1 | 0;
+  var inductionVariable = 0;
+  if (inductionVariable < times)
+    do {
+      var index = inductionVariable;
+      inductionVariable = inductionVariable + 1 | 0;
+      var _iterator__ex2g4s = EventCalendar_getInstance().b1u(entries, day).i();
+      $l$loop: while (_iterator__ex2g4s.j()) {
+        var g = _iterator__ex2g4s.k();
+        if (!g.y1r_1.equals(Source_RAID_getInstance()) && !g.y1r_1.equals(Source_MAX_getInstance()))
+          continue $l$loop;
+        var text = g.z1r_1 + ' ' + g.x1r_1.y1q_1;
+        var shadow = contains(g.z1r_1, 'Crypto') || (startsWith(g.x1r_1.y1q_1, 'Crypto') && g.y1r_1.equals(Source_RAID_getInstance()));
+        var _iterator__ex2g4s_0 = g.a1s_1.i();
+        while (_iterator__ex2g4s_0.j()) {
+          var s = _iterator__ex2g4s_0.k();
+          var max = g.y1r_1.equals(Source_MAX_getInstance());
+          var tmp;
+          if (s.a1f_1.t('mega') || contains(s.q1e_1, 'primal')) {
+            tmp = 6;
+          } else {
+            var tmp0_safe_receiver = Regex_init_$Create$('(\\d)\u2605').nb(g.z1r_1);
+            var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.qc();
+            var tmp2_safe_receiver = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q(1);
+            var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : toIntOrNull(tmp2_safe_receiver);
+            var tmp_0;
+            if (tmp3_elvis_lhs == null) {
+              var tmp4_safe_receiver = Regex_init_$Create$('(\\d)\u2605').nb(text);
+              var tmp5_safe_receiver = tmp4_safe_receiver == null ? null : tmp4_safe_receiver.qc();
+              var tmp6_safe_receiver = tmp5_safe_receiver == null ? null : tmp5_safe_receiver.q(1);
+              tmp_0 = tmp6_safe_receiver == null ? null : toIntOrNull(tmp6_safe_receiver);
+            } else {
+              tmp_0 = tmp3_elvis_lhs;
+            }
+            var tmp7_elvis_lhs = tmp_0;
+            tmp = tmp7_elvis_lhs == null ? 5 : tmp7_elvis_lhs;
+          }
+          var tier = tmp;
+          var key = s.q1e_1 + '|' + shadow + '|' + max;
+          var old = found.a2(key);
+          var tmp_1;
+          if (old == null) {
+            tmp_1 = new Upcoming(s, tier, shadow, max, g.b1s_1.t(s.q1e_1) || (max && tier === 6 && !(s.f1f_1 == null)), day, day, g.x1r_1.y1q_1);
+          } else {
+            tmp_1 = old.x1s(VOID, VOID, VOID, VOID, VOID, VOID, day);
+          }
+          // Inline function 'kotlin.collections.set' call
+          var value = tmp_1;
+          found.d2(key, value);
+        }
+      }
+      day = take(EventCalendar_getInstance().i1t(day + 'T00:00', 1440), 10);
+    }
+     while (inductionVariable < times);
+  var tmp_2 = found.c2();
+  var tmp_3 = EventCalendar$upcomingBosses$lambda;
+  return sortedWith(tmp_2, compareBy([tmp_3, EventCalendar$upcomingBosses$lambda_0]));
+};
+protoOf(EventCalendar).b1u = function (entries, day) {
   var md = drop(day, 5);
   var out = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.filter' call
@@ -5402,7 +5580,7 @@ protoOf(EventCalendar).l1t = function (entries, day) {
   var _iterator__ex2g4s = entries.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (EventCalendar_getInstance().m1t(element, day)) {
+    if (EventCalendar_getInstance().c1u(element, day)) {
       destination.h(element);
     }
   }
@@ -5440,19 +5618,22 @@ protoOf(EventCalendar).l1t = function (entries, day) {
       var _iterator__ex2g4s_2 = parts.i();
       while (_iterator__ex2g4s_2.j()) {
         var d = _iterator__ex2g4s_2.k();
-        out.h(new DayGroup(e, d.q1r_1, d.o1r_1, d.p1r_1));
+        // Inline function 'kotlin.text.isNotEmpty' call
+        var this_1 = d.r1r_1;
+        var tmp$ret$8 = charSequenceLength(this_1) > 0;
+        out.h(new DayGroup(e, d.q1r_1, d.o1r_1, d.p1r_1, d.s1r_1, tmp$ret$8));
       }
     } else {
       // Inline function 'kotlin.collections.isNotEmpty' call
       if (!e.z1q_1.r()) {
-        var source = this.n1t(e).equals(Kind_RAID_getInstance_0()) ? Source_RAID_getInstance() : this.n1t(e).equals(Kind_MAX_getInstance_0()) ? Source_MAX_getInstance() : contains(e.x1q_1, 'Forschung') ? Source_RESEARCH_getInstance() : Source_WILD_getInstance();
+        var source = this.d1u(e).equals(Kind_RAID_getInstance_0()) ? Source_RAID_getInstance() : this.d1u(e).equals(Kind_MAX_getInstance_0()) ? Source_MAX_getInstance() : contains(e.x1q_1, 'Forschung') ? Source_RESEARCH_getInstance() : Source_WILD_getInstance();
         var tmp_1;
         var tmp_2;
         var tmp_3;
         if (e.h1r() === day) {
           // Inline function 'kotlin.text.isNotEmpty' call
-          var this_1 = e.i1r();
-          tmp_3 = charSequenceLength(this_1) > 0;
+          var this_2 = e.i1r();
+          tmp_3 = charSequenceLength(this_2) > 0;
         } else {
           tmp_3 = false;
         }
@@ -5473,13 +5654,13 @@ protoOf(EventCalendar).l1t = function (entries, day) {
   }
   return out;
 };
-protoOf(EventCalendar).o1t = function (text) {
+protoOf(EventCalendar).e1u = function (text) {
   // Inline function 'kotlin.text.lowercase' call
   // Inline function 'kotlin.js.asDynamic' call
   var t = text.toLowerCase();
   return contains(t, 'raid') && (contains(t, 'pass') || contains(t, 'p\xE4sse')) ? '\uD83C\uDF9F\uFE0F' : contains(t, 'partikel') || contains(t, 'particle') ? '\uD83D\uDD2E' : contains(t, 'shiny') || contains(t, 'schillernd') || contains(t, 'gl\xE4nzend') ? '\u2728' : contains(t, 'bonbon') || contains(t, 'candy') ? '\uD83C\uDF6C' : contains(t, 'sternenstaub') || contains(t, 'stardust') ? '\uD83D\uDCAB' : contains(t, 'rauch') || contains(t, 'incense') || contains(t, 'r\xE4ucher') ? '\uD83C\uDF2B\uFE0F' : contains(t, 'lockmodul') || contains(t, 'lure') ? '\uD83E\uDE9D' : split(t, [' ', '-']).t('ei') || contains(t, 'eier') || contains(t, 'egg') || contains(t, 'brut') ? '\uD83E\uDD5A' : contains(t, 'tausch') || contains(t, 'trade') ? '\uD83D\uDD04' : contains(t, 'snapshot') || contains(t, 'foto') ? '\uD83D\uDCF7' : contains(t, 'party') ? '\uD83D\uDC65' : contains(t, 'route') ? '\uD83D\uDEE4\uFE0F' : contains(t, 'ball') || contains(t, 'b\xE4lle') ? '\u26BE' : split(t, [' ']).t('ep') || contains(t, 'xp') || contains(t, 'erfahrung') ? '\u2B50' : contains(t, 'ballon') || contains(t, 'balloon') ? '\uD83C\uDF88' : contains(t, 'kumpel') || contains(t, 'buddy') ? '\uD83E\uDD1D' : contains(t, 'forschung') || contains(t, 'research') ? '\uD83D\uDD2C' : contains(t, 'sticker') || contains(t, 'geschenk') || contains(t, 'gift') ? '\uD83C\uDF81' : contains(t, 'arena') || contains(t, 'pok\xE9stop') ? '\uD83D\uDCCD' : '\u2605';
 };
-protoOf(EventCalendar).p1t = function (e) {
+protoOf(EventCalendar).f1u = function (e) {
   var tmp0_elvis_lhs = minutes(this, e.a1r_1);
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -5524,8 +5705,8 @@ protoOf(EventCalendar).p1t = function (e) {
   }
   return tmp_1;
 };
-protoOf(EventCalendar).q1t = function (e) {
-  var tmp = this.r1t(e.h1r());
+protoOf(EventCalendar).g1u = function (e) {
+  var tmp = this.v1s(e.h1r());
   var tmp_0;
   // Inline function 'kotlin.text.isNotEmpty' call
   var this_0 = e.i1r();
@@ -5536,11 +5717,11 @@ protoOf(EventCalendar).q1t = function (e) {
   }
   return tmp + tmp_0;
 };
-protoOf(EventCalendar).s1t = function (heading) {
-  var tmp0_elvis_lhs = this.r1s_1.a2(heading);
+protoOf(EventCalendar).h1u = function (heading) {
+  var tmp0_elvis_lhs = this.t1s_1.a2(heading);
   return tmp0_elvis_lhs == null ? heading : tmp0_elvis_lhs;
 };
-protoOf(EventCalendar).t1t = function (text, data, now, names, utcOffsetMinutes, details) {
+protoOf(EventCalendar).i1u = function (text, data, now, names, utcOffsetMinutes, details) {
   // Inline function 'kotlin.runCatching' call
   var tmp;
   try {
@@ -5619,7 +5800,7 @@ protoOf(EventCalendar).t1t = function (text, data, now, names, utcOffsetMinutes,
       var _iterator__ex2g4s_0 = tmp0.i();
       while (_iterator__ex2g4s_0.j()) {
         var element_0 = _iterator__ex2g4s_0.k();
-        var tmp0_safe_receiver = EventHints_instance.f1t(element_0, data);
+        var tmp0_safe_receiver = EventHints_instance.u1t(element_0, data);
         if (tmp0_safe_receiver == null)
           null;
         else {
@@ -5628,9 +5809,9 @@ protoOf(EventCalendar).t1t = function (text, data, now, names, utcOffsetMinutes,
         }
       }
       var listed = destination_0;
-      var tmp1_safe_receiver = firstOrNull(News_getInstance().d1u(listOf_0(new Item_0(name, '', '', emptyList())), data, null, emptyList()));
+      var tmp1_safe_receiver = firstOrNull(News_getInstance().s1u(listOf_0(new Item_0(name, '', '', emptyList())), data, null, emptyList()));
       // Inline function 'kotlin.collections.orEmpty' call
-      var tmp0_elvis_lhs_1 = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.f1u_1;
+      var tmp0_elvis_lhs_1 = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u1u_1;
       var fromTitle = tmp0_elvis_lhs_1 == null ? emptyList() : tmp0_elvis_lhs_1;
       // Inline function 'kotlin.collections.distinctBy' call
       var this_1 = plus_1(listed, fromTitle);
@@ -5648,7 +5829,7 @@ protoOf(EventCalendar).t1t = function (text, data, now, names, utcOffsetMinutes,
       var who = joinToString(species, ', ', VOID, VOID, VOID, VOID, EventCalendar$parse$lambda);
       var tmp_6;
       if (heading === 'GO Battle League') {
-        tmp_6 = GblSchedule_getInstance().l1u(substringBefore(name, ' | '));
+        tmp_6 = GblSchedule_getInstance().a1v(substringBefore(name, ' | '));
       } else {
         var tmp_7;
         // Inline function 'kotlin.collections.isNotEmpty' call
@@ -5695,17 +5876,17 @@ protoOf(EventCalendar).t1t = function (text, data, now, names, utcOffsetMinutes,
       }
       var base = tmp_6;
       // Inline function 'kotlin.also' call
-      var this_2 = new Entry(id, EventCalendar_getInstance().s1t(heading), News_getInstance().m1u(base, data), species, parse$local(utcOffsetMinutes, parse$s_0(o, 'start')), end);
+      var this_2 = new Entry(id, EventCalendar_getInstance().h1u(heading), News_getInstance().b1v(base, data), species, parse$local(utcOffsetMinutes, parse$s_0(o, 'start')), end);
       var tmp0_safe_receiver_0 = details.a2(id);
       if (tmp0_safe_receiver_0 == null)
         null;
       else {
         // Inline function 'kotlin.let' call
-        this_2.c1r_1 = EventCalendar_getInstance().w1s(tmp0_safe_receiver_0, data);
-        this_2.d1r_1 = tmp0_safe_receiver_0.y1s_1;
-        this_2.e1r_1 = tmp0_safe_receiver_0.z1s_1;
-        this_2.f1r_1 = tmp0_safe_receiver_0.b1t_1;
-        this_2.g1r_1 = EventCalendar_getInstance().g1t(tmp0_safe_receiver_0, data);
+        this_2.c1r_1 = EventCalendar_getInstance().l1t(tmp0_safe_receiver_0, data);
+        this_2.d1r_1 = tmp0_safe_receiver_0.n1t_1;
+        this_2.e1r_1 = tmp0_safe_receiver_0.o1t_1;
+        this_2.f1r_1 = tmp0_safe_receiver_0.q1t_1;
+        this_2.g1r_1 = EventCalendar_getInstance().v1t(tmp0_safe_receiver_0, data);
       }
       tmp$ret$9 = this_2;
     }
@@ -5723,7 +5904,7 @@ protoOf(EventCalendar).t1t = function (text, data, now, names, utcOffsetMinutes,
   var tmp$ret$33 = new sam$kotlin_Comparator$0_1(tmp_11);
   return sortedWith(destination, tmp$ret$33);
 };
-protoOf(EventCalendar).t1s = function (t, minutes) {
+protoOf(EventCalendar).i1t = function (t, minutes) {
   if (t.length < 16)
     return t;
   var y = toInt(take(t, 4));
@@ -5756,7 +5937,7 @@ protoOf(EventCalendar).t1s = function (t, minutes) {
   }
   return '' + y + '-' + shift$p(mo) + '-' + shift$p(d) + 'T' + shift$p(total / 60 | 0) + ':' + shift$p(total % 60 | 0) + drop(t, 16);
 };
-protoOf(EventCalendar).n1t = function (e) {
+protoOf(EventCalendar).d1u = function (e) {
   switch (e.x1q_1) {
     case 'Raids':
     case 'Raid-Tag':
@@ -5774,16 +5955,16 @@ protoOf(EventCalendar).n1t = function (e) {
       return Kind_EVENT_getInstance();
   }
 };
-protoOf(EventCalendar).n1u = function (y, m, d) {
+protoOf(EventCalendar).c1v = function (y, m, d) {
   var mm = m < 3 ? m + 12 | 0 : m;
   var yy = m < 3 ? y - 1 | 0 : y;
   var h = (((((d + (imul(13, mm + 1 | 0) / 5 | 0) | 0) + (yy % 100 | 0) | 0) + ((yy % 100 | 0) / 4 | 0) | 0) + ((yy / 100 | 0) / 4 | 0) | 0) + imul(5, yy / 100 | 0) | 0) % 7 | 0;
   return (h + 5 | 0) % 7 | 0;
 };
-protoOf(EventCalendar).o1u = function (y, m, d) {
+protoOf(EventCalendar).d1v = function (y, m, d) {
   return '' + y + '-' + padStart(m.toString(), 2, _Char___init__impl__6a9atx(48)) + '-' + padStart(d.toString(), 2, _Char___init__impl__6a9atx(48));
 };
-protoOf(EventCalendar).m1t = function (e, day) {
+protoOf(EventCalendar).c1u = function (e, day) {
   // Inline function 'kotlin.text.isEmpty' call
   var this_0 = e.a1r_1;
   if (charSequenceLength(this_0) === 0)
@@ -5791,7 +5972,7 @@ protoOf(EventCalendar).m1t = function (e, day) {
   var last = e.b1r_1.length >= 10 ? take(e.b1r_1, 10) : e.h1r();
   return compareTo(day, e.h1r()) >= 0 && compareTo(day, last) <= 0;
 };
-protoOf(EventCalendar).p1u = function (entries, today, count) {
+protoOf(EventCalendar).e1v = function (entries, today, count) {
   var tmp0_elvis_lhs = toIntOrNull(take(today, 4));
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -5830,14 +6011,14 @@ protoOf(EventCalendar).p1u = function (entries, today, count) {
           var element = inductionVariable_0;
           inductionVariable_0 = inductionVariable_0 + 1 | 0;
           var d = element;
-          var key = EventCalendar_getInstance().o1u(y, m, d);
+          var key = EventCalendar_getInstance().d1v(y, m, d);
           // Inline function 'kotlin.collections.filter' call
           // Inline function 'kotlin.collections.filterTo' call
           var destination_0 = ArrayList_init_$Create$_0();
           var _iterator__ex2g4s = entries.i();
           while (_iterator__ex2g4s.j()) {
             var element_0 = _iterator__ex2g4s.k();
-            if (span(EventCalendar_getInstance(), element_0.h1r(), take(element_0.b1r_1, 10)) > 7 ? element_0.h1r() === key : EventCalendar_getInstance().m1t(element_0, key)) {
+            if (span(EventCalendar_getInstance(), element_0.h1r(), take(element_0.b1r_1, 10)) > 7 ? element_0.h1r() === key : EventCalendar_getInstance().c1u(element_0, key)) {
               destination_0.h(element_0);
             }
           }
@@ -5856,7 +6037,7 @@ protoOf(EventCalendar).p1u = function (entries, today, count) {
         }
       }
       var days = result_0;
-      var month = new Month(y, m, EventCalendar_getInstance().s1s_1.q(m - 1 | 0) + ' ' + y, EventCalendar_getInstance().n1u(y, m, 1), length, days);
+      var month = new Month(y, m, EventCalendar_getInstance().u1s_1.q(m - 1 | 0) + ' ' + y, EventCalendar_getInstance().c1v(y, m, 1), length, days);
       m = m + 1 | 0;
       if (m > 12) {
         m = 1;
@@ -5867,7 +6048,7 @@ protoOf(EventCalendar).p1u = function (entries, today, count) {
      while (!(item === last));
   return destination;
 };
-protoOf(EventCalendar).r1t = function (day) {
+protoOf(EventCalendar).v1s = function (day) {
   if (day.length < 10)
     return day;
   var tmp0_elvis_lhs = toIntOrNull(take(day, 4));
@@ -5922,25 +6103,25 @@ function Kind_1(name, ordinal) {
   Enum.call(this, name, ordinal);
 }
 function Event(kind, title, species, tier, shadow, start, end) {
-  this.q1u_1 = kind;
-  this.r1u_1 = title;
-  this.s1u_1 = species;
-  this.t1u_1 = tier;
-  this.u1u_1 = shadow;
-  this.v1u_1 = start;
-  this.w1u_1 = end;
+  this.f1v_1 = kind;
+  this.g1v_1 = title;
+  this.h1v_1 = species;
+  this.i1v_1 = tier;
+  this.j1v_1 = shadow;
+  this.k1v_1 = start;
+  this.l1v_1 = end;
 }
 protoOf(Event).toString = function () {
-  return 'Event(kind=' + this.q1u_1.toString() + ', title=' + this.r1u_1 + ', species=' + toString_0(this.s1u_1) + ', tier=' + this.t1u_1 + ', shadow=' + this.u1u_1 + ', start=' + this.v1u_1 + ', end=' + this.w1u_1 + ')';
+  return 'Event(kind=' + this.f1v_1.toString() + ', title=' + this.g1v_1 + ', species=' + toString_0(this.h1v_1) + ', tier=' + this.i1v_1 + ', shadow=' + this.j1v_1 + ', start=' + this.k1v_1 + ', end=' + this.l1v_1 + ')';
 };
 protoOf(Event).hashCode = function () {
-  var result = this.q1u_1.hashCode();
-  result = imul(result, 31) + getStringHashCode(this.r1u_1) | 0;
-  result = imul(result, 31) + hashCode(this.s1u_1) | 0;
-  result = imul(result, 31) + this.t1u_1 | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.u1u_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.v1u_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.w1u_1) | 0;
+  var result = this.f1v_1.hashCode();
+  result = imul(result, 31) + getStringHashCode(this.g1v_1) | 0;
+  result = imul(result, 31) + hashCode(this.h1v_1) | 0;
+  result = imul(result, 31) + this.i1v_1 | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.j1v_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.k1v_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.l1v_1) | 0;
   return result;
 };
 protoOf(Event).equals = function (other) {
@@ -5948,33 +6129,33 @@ protoOf(Event).equals = function (other) {
     return true;
   if (!(other instanceof Event))
     return false;
-  if (!this.q1u_1.equals(other.q1u_1))
+  if (!this.f1v_1.equals(other.f1v_1))
     return false;
-  if (!(this.r1u_1 === other.r1u_1))
+  if (!(this.g1v_1 === other.g1v_1))
     return false;
-  if (!equals(this.s1u_1, other.s1u_1))
+  if (!equals(this.h1v_1, other.h1v_1))
     return false;
-  if (!(this.t1u_1 === other.t1u_1))
+  if (!(this.i1v_1 === other.i1v_1))
     return false;
-  if (!(this.u1u_1 === other.u1u_1))
+  if (!(this.j1v_1 === other.j1v_1))
     return false;
-  if (!(this.v1u_1 === other.v1u_1))
+  if (!(this.k1v_1 === other.k1v_1))
     return false;
-  if (!(this.w1u_1 === other.w1u_1))
+  if (!(this.l1v_1 === other.l1v_1))
     return false;
   return true;
 };
 function sam$kotlin_Comparator$0_2(function_0) {
-  this.x1u_1 = function_0;
+  this.m1v_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_2).sc = function (a, b) {
-  return this.x1u_1(a, b);
+  return this.m1v_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_2).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_2).r2 = function () {
-  return this.x1u_1;
+  return this.m1v_1;
 };
 protoOf(sam$kotlin_Comparator$0_2).equals = function (other) {
   var tmp;
@@ -6036,8 +6217,8 @@ function parse$names_0(extra, section, key) {
 }
 function EventHints$parse$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = a.v1u_1;
-  var tmp$ret$2 = b.v1u_1;
+  var tmp = a.k1v_1;
+  var tmp$ret$2 = b.k1v_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function Kind_COMMUNITY_DAY_getInstance() {
@@ -6054,7 +6235,7 @@ function Kind_SPOTLIGHT_getInstance_0() {
 }
 function EventHints() {
 }
-protoOf(EventHints).f1t = function (name, data) {
+protoOf(EventHints).u1t = function (name, data) {
   // Inline function 'kotlin.text.trim' call
   var tmp$ret$0 = toString_0(trim(isCharSequence(name) ? name : THROW_CCE()));
   // Inline function 'kotlin.text.trim' call
@@ -6124,18 +6305,31 @@ protoOf(EventHints).f1t = function (name, data) {
   }
   if (startsWith(name, 'Shadow '))
     return null;
-  var tmp_4 = RaidList_getInstance();
+  if (startsWith(name, 'Eternamax ')) {
+    var tmp_4 = data.z1f();
+    // Inline function 'kotlin.text.trim' call
+    var this_3 = removePrefix(name, 'Eternamax ');
+    var tmp$ret$10 = toString_0(trim(isCharSequence(this_3) ? this_3 : THROW_CCE()));
+    var tmp6_safe_receiver = tmp_4.a2(species$id(tmp$ret$10) + '_eternamax');
+    if (tmp6_safe_receiver == null)
+      null;
+    else {
+      // Inline function 'kotlin.let' call
+      return tmp6_safe_receiver;
+    }
+  }
+  var tmp_5 = RaidList_getInstance();
   // Inline function 'kotlin.text.trim' call
-  var tmp$ret$10 = toString_0(trim(isCharSequence(name) ? name : THROW_CCE()));
-  var tmp6_safe_receiver = tmp_4.b1v(tmp$ret$10, data);
-  if (tmp6_safe_receiver == null)
+  var tmp$ret$13 = toString_0(trim(isCharSequence(name) ? name : THROW_CCE()));
+  var tmp7_safe_receiver = tmp_5.q1v(tmp$ret$13, data);
+  if (tmp7_safe_receiver == null)
     null;
   else {
     // Inline function 'kotlin.let' call
-    var tmp0_safe_receiver_0 = data.z1f().a2(tmp6_safe_receiver);
-    var tmp_5;
+    var tmp0_safe_receiver_0 = data.z1f().a2(tmp7_safe_receiver);
+    var tmp_6;
     if (tmp0_safe_receiver_0 == null) {
-      tmp_5 = null;
+      tmp_6 = null;
     } else {
       // Inline function 'kotlin.let' call
       return tmp0_safe_receiver_0;
@@ -6144,7 +6338,7 @@ protoOf(EventHints).f1t = function (name, data) {
   var last = substringAfterLast(base, _Char___init__impl__6a9atx(32));
   return !(last === base) && last.length >= 3 ? data.z1f().a2(species$id(last)) : null;
 };
-protoOf(EventHints).c1v = function (text, data, now) {
+protoOf(EventHints).r1v = function (text, data, now) {
   // Inline function 'kotlin.runCatching' call
   var tmp;
   try {
@@ -6221,7 +6415,7 @@ protoOf(EventHints).c1v = function (text, data, now) {
           var _iterator__ex2g4s_0 = tmp0.i();
           while (_iterator__ex2g4s_0.j()) {
             var element_0 = _iterator__ex2g4s_0.k();
-            var tmp0_safe_receiver = EventHints_instance.f1t(element_0, data);
+            var tmp0_safe_receiver = EventHints_instance.u1t(element_0, data);
             if (tmp0_safe_receiver == null)
               null;
             else {
@@ -6246,7 +6440,7 @@ protoOf(EventHints).c1v = function (text, data, now) {
           var _iterator__ex2g4s_1 = tmp0_0.i();
           while (_iterator__ex2g4s_1.j()) {
             var element_1 = _iterator__ex2g4s_1.k();
-            var tmp0_safe_receiver_0 = EventHints_instance.f1t(contains(title, 'Mega') && !startsWith(element_1, 'Mega') && contains(substringBefore(title, ' in '), 'Mega') ? 'Mega ' + element_1 : element_1, data);
+            var tmp0_safe_receiver_0 = EventHints_instance.u1t(contains(title, 'Mega') && !startsWith(element_1, 'Mega') && contains(substringBefore(title, ' in '), 'Mega') ? 'Mega ' + element_1 : element_1, data);
             if (tmp0_safe_receiver_0 == null)
               null;
             else {
@@ -6275,7 +6469,7 @@ protoOf(EventHints).c1v = function (text, data, now) {
             var tmp_8 = EventHints_instance;
             // Inline function 'kotlin.text.trim' call
             var tmp$ret$30 = toString_0(trim(isCharSequence(element_2) ? element_2 : THROW_CCE()));
-            var tmp0_safe_receiver_1 = tmp_8.f1t(tmp$ret$30, data);
+            var tmp0_safe_receiver_1 = tmp_8.u1t(tmp$ret$30, data);
             if (tmp0_safe_receiver_1 == null)
               null;
             else {
@@ -6299,7 +6493,7 @@ protoOf(EventHints).c1v = function (text, data, now) {
         // Inline function 'kotlin.takeIf' call
         var tmp_10;
         // Inline function 'kotlin.collections.isNotEmpty' call
-        if (!tmp2_safe_receiver.s1u_1.r()) {
+        if (!tmp2_safe_receiver.h1v_1.r()) {
           tmp_10 = tmp2_safe_receiver;
         } else {
           tmp_10 = null;
@@ -6322,7 +6516,7 @@ protoOf(EventHints).c1v = function (text, data, now) {
   var tmp$ret$39 = new sam$kotlin_Comparator$0_2(tmp_11);
   return sortedWith(destination, tmp$ret$39);
 };
-protoOf(EventHints).d1v = function (time) {
+protoOf(EventHints).n1s = function (time) {
   if (time.length < 16)
     return time;
   return substring(time, 8, 10) + '.' + substring(time, 5, 7) + '. ' + substring(time, 11, 16);
@@ -6347,29 +6541,29 @@ var State_WAIT_instance;
 var State_EVENT_instance;
 var State_FREE_instance;
 function Tip(target, moves, event) {
-  this.e1v_1 = target;
-  this.f1v_1 = moves;
-  this.g1v_1 = event;
+  this.s1v_1 = target;
+  this.t1v_1 = moves;
+  this.u1v_1 = event;
 }
-protoOf(Tip).h1v = function () {
-  return joinToString(this.f1v_1, ' / ', VOID, VOID, VOID, VOID, EvolveAdvice$Tip$_get_moveNames_$lambda_wkcrt5);
+protoOf(Tip).v1v = function () {
+  return joinToString(this.t1v_1, ' / ', VOID, VOID, VOID, VOID, EvolveAdvice$Tip$_get_moveNames_$lambda_wkcrt5);
 };
-protoOf(Tip).i1v = function () {
+protoOf(Tip).w1v = function () {
   var tmp;
-  if (!(this.g1v_1 == null)) {
-    tmp = 'Am Community Day (' + EventHints_instance.d1v(this.g1v_1.v1u_1) + ') zu ' + this.e1v_1.s1e_1 + ' entwickeln \u2013 dann bekommt es ' + ('meist ' + this.h1v() + '. Vorher nicht entwickeln.');
+  if (!(this.u1v_1 == null)) {
+    tmp = 'Am Community Day (' + EventHints_instance.n1s(this.u1v_1.k1v_1) + ') zu ' + this.s1v_1.s1e_1 + ' entwickeln \u2013 dann bekommt es ' + ('meist ' + this.v1v() + '. Vorher nicht entwickeln.');
   } else {
-    tmp = 'Noch nicht zu ' + this.e1v_1.s1e_1 + ' entwickeln: Es braucht ' + this.h1v() + ' (Event-Attacke). ' + 'Warte auf einen Community Day der Familie, sonst geht es nur mit einer Top-TM.';
+    tmp = 'Noch nicht zu ' + this.s1v_1.s1e_1 + ' entwickeln: Es braucht ' + this.v1v() + ' (Event-Attacke). ' + 'Warte auf einen Community Day der Familie, sonst geht es nur mit einer Top-TM.';
   }
   return tmp;
 };
 protoOf(Tip).toString = function () {
-  return 'Tip(target=' + this.e1v_1.toString() + ', moves=' + toString_0(this.f1v_1) + ', event=' + toString(this.g1v_1) + ')';
+  return 'Tip(target=' + this.s1v_1.toString() + ', moves=' + toString_0(this.t1v_1) + ', event=' + toString(this.u1v_1) + ')';
 };
 protoOf(Tip).hashCode = function () {
-  var result = this.e1v_1.hashCode();
-  result = imul(result, 31) + hashCode(this.f1v_1) | 0;
-  result = imul(result, 31) + (this.g1v_1 == null ? 0 : this.g1v_1.hashCode()) | 0;
+  var result = this.s1v_1.hashCode();
+  result = imul(result, 31) + hashCode(this.t1v_1) | 0;
+  result = imul(result, 31) + (this.u1v_1 == null ? 0 : this.u1v_1.hashCode()) | 0;
   return result;
 };
 protoOf(Tip).equals = function (other) {
@@ -6377,11 +6571,11 @@ protoOf(Tip).equals = function (other) {
     return true;
   if (!(other instanceof Tip))
     return false;
-  if (!this.e1v_1.equals(other.e1v_1))
+  if (!this.s1v_1.equals(other.s1v_1))
     return false;
-  if (!equals(this.f1v_1, other.f1v_1))
+  if (!equals(this.t1v_1, other.t1v_1))
     return false;
-  if (!equals(this.g1v_1, other.g1v_1))
+  if (!equals(this.u1v_1, other.u1v_1))
     return false;
   return true;
 };
@@ -6389,22 +6583,22 @@ function State(name, ordinal) {
   Enum.call(this, name, ordinal);
 }
 function Alert(pokemon, tip, running) {
-  this.j1v_1 = pokemon;
-  this.k1v_1 = tip;
-  this.l1v_1 = running;
+  this.x1v_1 = pokemon;
+  this.y1v_1 = tip;
+  this.z1v_1 = running;
 }
 protoOf(Alert).x = function () {
-  var tmp = this.j1v_1.a1l_1.toString();
-  var tmp0_safe_receiver = this.k1v_1.g1v_1;
-  return tmp + '|' + (tmp0_safe_receiver == null ? null : tmp0_safe_receiver.v1u_1) + '|' + this.l1v_1;
+  var tmp = this.x1v_1.a1l_1.toString();
+  var tmp0_safe_receiver = this.y1v_1.u1v_1;
+  return tmp + '|' + (tmp0_safe_receiver == null ? null : tmp0_safe_receiver.k1v_1) + '|' + this.z1v_1;
 };
 protoOf(Alert).toString = function () {
-  return 'Alert(pokemon=' + this.j1v_1.toString() + ', tip=' + this.k1v_1.toString() + ', running=' + this.l1v_1 + ')';
+  return 'Alert(pokemon=' + this.x1v_1.toString() + ', tip=' + this.y1v_1.toString() + ', running=' + this.z1v_1 + ')';
 };
 protoOf(Alert).hashCode = function () {
-  var result = this.j1v_1.hashCode();
-  result = imul(result, 31) + this.k1v_1.hashCode() | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.l1v_1) | 0;
+  var result = this.x1v_1.hashCode();
+  result = imul(result, 31) + this.y1v_1.hashCode() | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.z1v_1) | 0;
   return result;
 };
 protoOf(Alert).equals = function (other) {
@@ -6412,23 +6606,23 @@ protoOf(Alert).equals = function (other) {
     return true;
   if (!(other instanceof Alert))
     return false;
-  if (!this.j1v_1.equals(other.j1v_1))
+  if (!this.x1v_1.equals(other.x1v_1))
     return false;
-  if (!this.k1v_1.equals(other.k1v_1))
+  if (!this.y1v_1.equals(other.y1v_1))
     return false;
-  if (!(this.l1v_1 === other.l1v_1))
+  if (!(this.z1v_1 === other.z1v_1))
     return false;
   return true;
 };
 function EvolveAdvice$alerts$lambda(it) {
-  return !it.l1v_1;
+  return !it.z1v_1;
 }
 function EvolveAdvice$alerts$lambda_0(it) {
-  var tmp0_safe_receiver = it.k1v_1.g1v_1;
-  return tmp0_safe_receiver == null ? null : tmp0_safe_receiver.v1u_1;
+  var tmp0_safe_receiver = it.y1v_1.u1v_1;
+  return tmp0_safe_receiver == null ? null : tmp0_safe_receiver.k1v_1;
 }
 function EvolveAdvice$alerts$lambda_1(it) {
-  return -it.j1v_1.s1l().q1k();
+  return -it.x1v_1.s1l().q1k();
 }
 function summary$names(list) {
   // Inline function 'kotlin.collections.map' call
@@ -6437,7 +6631,7 @@ function summary$names(list) {
   var _iterator__ex2g4s = list.i();
   while (_iterator__ex2g4s.j()) {
     var item = _iterator__ex2g4s.k();
-    var tmp$ret$2 = item.k1v_1.e1v_1.s1e_1;
+    var tmp$ret$2 = item.y1v_1.s1v_1.s1e_1;
     destination.h(tmp$ret$2);
   }
   var tmp = joinToString(take_0(distinct(destination), 3), ', ');
@@ -6448,7 +6642,7 @@ function summary$names(list) {
   var _iterator__ex2g4s_0 = list.i();
   while (_iterator__ex2g4s_0.j()) {
     var item_0 = _iterator__ex2g4s_0.k();
-    var tmp$ret$5 = item_0.k1v_1.e1v_1.s1e_1;
+    var tmp$ret$5 = item_0.y1v_1.s1v_1.s1e_1;
     destination_0.h(tmp$ret$5);
   }
   if (distinct(destination_0).l() > 3) {
@@ -6472,7 +6666,7 @@ function State_FREE_getInstance() {
 }
 function EvolveAdvice() {
 }
-protoOf(EvolveAdvice).m1v = function (data, target) {
+protoOf(EvolveAdvice).a1w = function (data, target) {
   // Inline function 'kotlin.collections.filter' call
   var tmp0 = target.c1f_1;
   // Inline function 'kotlin.collections.filterTo' call
@@ -6542,7 +6736,7 @@ protoOf(EvolveAdvice).m1v = function (data, target) {
   var _iterator__ex2g4s_2 = destination.i();
   while (_iterator__ex2g4s_2.j()) {
     var element_2 = _iterator__ex2g4s_2.k();
-    var tmp0_safe_receiver_0 = data.k1t().a2(element_2);
+    var tmp0_safe_receiver_0 = data.z1t().a2(element_2);
     if (tmp0_safe_receiver_0 == null)
       null;
     else {
@@ -6570,7 +6764,7 @@ protoOf(EvolveAdvice).m1v = function (data, target) {
   }
   return tmp_1;
 };
-protoOf(EvolveAdvice).n1v = function (data, analyzer, p, events) {
+protoOf(EvolveAdvice).b1w = function (data, analyzer, p, events) {
   var tmp0_elvis_lhs = data.z1f().a2(p.b1l_1);
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -6605,7 +6799,7 @@ protoOf(EvolveAdvice).n1v = function (data, analyzer, p, events) {
   }
   if (tmp$ret$0)
     return null;
-  var tips = this.o1v(data, analyzer, p, events);
+  var tips = this.c1w(data, analyzer, p, events);
   var tmp_1;
   if (tips.r()) {
     tmp_1 = State_FREE_getInstance();
@@ -6626,7 +6820,7 @@ protoOf(EvolveAdvice).n1v = function (data, analyzer, p, events) {
       var _iterator__ex2g4s_0 = tips.i();
       while (_iterator__ex2g4s_0.j()) {
         var element_0 = _iterator__ex2g4s_0.k();
-        if (!(element_0.g1v_1 == null)) {
+        if (!(element_0.u1v_1 == null)) {
           tmp$ret$2 = true;
           break $l$block_2;
         }
@@ -6641,16 +6835,16 @@ protoOf(EvolveAdvice).n1v = function (data, analyzer, p, events) {
   }
   return tmp_1;
 };
-protoOf(EvolveAdvice).p1v = function (data, analyzer, p, events, now) {
+protoOf(EvolveAdvice).d1w = function (data, analyzer, p, events, now) {
   // Inline function 'kotlin.collections.mapNotNull' call
-  var tmp0 = this.o1v(data, analyzer, p, events);
+  var tmp0 = this.c1w(data, analyzer, p, events);
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.forEach' call
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = element.g1v_1;
+    var tmp0_safe_receiver = element.u1v_1;
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -6671,10 +6865,10 @@ protoOf(EvolveAdvice).p1v = function (data, analyzer, p, events, now) {
       tmp$ret$7 = minElem;
       break $l$block_0;
     }
-    var minValue = minElem.v1u_1;
+    var minValue = minElem.k1v_1;
     do {
       var e = iterator.k();
-      var v = e.v1u_1;
+      var v = e.k1v_1;
       if (compareTo(minValue, v) > 0) {
         minElem = e;
         minValue = v;
@@ -6694,29 +6888,29 @@ protoOf(EvolveAdvice).p1v = function (data, analyzer, p, events, now) {
   var tmp_0;
   var tmp_1;
   // Inline function 'kotlin.text.isNotEmpty' call
-  var this_0 = event.v1u_1;
+  var this_0 = event.k1v_1;
   if (charSequenceLength(this_0) > 0) {
-    tmp_1 = compareTo(event.v1u_1, now) <= 0;
+    tmp_1 = compareTo(event.k1v_1, now) <= 0;
   } else {
     tmp_1 = false;
   }
   if (tmp_1) {
     var tmp_2;
     // Inline function 'kotlin.text.isEmpty' call
-    var this_1 = event.w1u_1;
+    var this_1 = event.l1v_1;
     if (charSequenceLength(this_1) === 0) {
       tmp_2 = true;
     } else {
-      tmp_2 = compareTo(event.w1u_1, now) >= 0;
+      tmp_2 = compareTo(event.l1v_1, now) >= 0;
     }
     tmp_0 = tmp_2;
   } else {
     tmp_0 = false;
   }
   var running = tmp_0;
-  return to(running ? 0 : 1, event.v1u_1);
+  return to(running ? 0 : 1, event.k1v_1);
 };
-protoOf(EvolveAdvice).q1v = function (data, analyzer, saved, events, now) {
+protoOf(EvolveAdvice).e1w = function (data, analyzer, saved, events, now) {
   // Inline function 'kotlin.collections.mapNotNull' call
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -6727,13 +6921,13 @@ protoOf(EvolveAdvice).q1v = function (data, analyzer, saved, events, now) {
     var tmp$ret$4;
     $l$block_2: {
       // Inline function 'kotlin.collections.filter' call
-      var tmp0 = EvolveAdvice_instance.o1v(data, analyzer, element, events);
+      var tmp0 = EvolveAdvice_instance.c1w(data, analyzer, element, events);
       // Inline function 'kotlin.collections.filterTo' call
       var destination_0 = ArrayList_init_$Create$_0();
       var _iterator__ex2g4s_0 = tmp0.i();
       while (_iterator__ex2g4s_0.j()) {
         var element_0 = _iterator__ex2g4s_0.k();
-        if (!(element_0.g1v_1 == null)) {
+        if (!(element_0.u1v_1 == null)) {
           destination_0.h(element_0);
         }
       }
@@ -6751,10 +6945,10 @@ protoOf(EvolveAdvice).q1v = function (data, analyzer, saved, events, now) {
           break $l$block_0;
         }
         var it = minElem;
-        var minValue = ensureNotNull(it.g1v_1).v1u_1;
+        var minValue = ensureNotNull(it.u1v_1).k1v_1;
         do {
           var e = iterator.k();
-          var v = ensureNotNull(e.g1v_1).v1u_1;
+          var v = ensureNotNull(e.u1v_1).k1v_1;
           if (compareTo(minValue, v) > 0) {
             minElem = e;
             minValue = v;
@@ -6772,12 +6966,12 @@ protoOf(EvolveAdvice).q1v = function (data, analyzer, saved, events, now) {
         tmp = tmp0_elvis_lhs;
       }
       var tip = tmp;
-      var e_0 = ensureNotNull(tip.g1v_1);
+      var e_0 = ensureNotNull(tip.u1v_1);
       var tmp_0;
       // Inline function 'kotlin.text.isNotEmpty' call
-      var this_0 = e_0.w1u_1;
+      var this_0 = e_0.l1v_1;
       if (charSequenceLength(this_0) > 0) {
-        tmp_0 = compareTo(e_0.w1u_1, now) < 0;
+        tmp_0 = compareTo(e_0.l1v_1, now) < 0;
       } else {
         tmp_0 = false;
       }
@@ -6787,9 +6981,9 @@ protoOf(EvolveAdvice).q1v = function (data, analyzer, saved, events, now) {
       }
       var tmp_1;
       // Inline function 'kotlin.text.isNotEmpty' call
-      var this_1 = e_0.v1u_1;
+      var this_1 = e_0.k1v_1;
       if (charSequenceLength(this_1) > 0) {
-        tmp_1 = compareTo(e_0.v1u_1, now) <= 0;
+        tmp_1 = compareTo(e_0.k1v_1, now) <= 0;
       } else {
         tmp_1 = false;
       }
@@ -6808,7 +7002,7 @@ protoOf(EvolveAdvice).q1v = function (data, analyzer, saved, events, now) {
   var tmp_4 = EvolveAdvice$alerts$lambda_0;
   return sortedWith(tmp_2, compareBy([tmp_3, tmp_4, EvolveAdvice$alerts$lambda_1]));
 };
-protoOf(EvolveAdvice).r1v = function (alerts) {
+protoOf(EvolveAdvice).f1w = function (alerts) {
   if (alerts.r())
     return null;
   // Inline function 'kotlin.collections.filter' call
@@ -6817,7 +7011,7 @@ protoOf(EvolveAdvice).r1v = function (alerts) {
   var _iterator__ex2g4s = alerts.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (element.l1v_1) {
+    if (element.z1v_1) {
       destination.h(element);
     }
   }
@@ -6827,12 +7021,12 @@ protoOf(EvolveAdvice).r1v = function (alerts) {
   if (!now.r()) {
     tmp = 'Jetzt entwickeln (' + now.l() + '): ' + summary$names(now) + ' \u2013 das Event l\xE4uft, sie bekommen die Event-Attacke.';
   } else {
-    var next = ensureNotNull(first_0(alerts).k1v_1.g1v_1);
-    tmp = 'Bald entwickeln (' + alerts.l() + '): ' + summary$names(alerts) + ' \u2013 am ' + EventHints_instance.d1v(next.v1u_1) + '.';
+    var next = ensureNotNull(first_0(alerts).y1v_1.u1v_1);
+    tmp = 'Bald entwickeln (' + alerts.l() + '): ' + summary$names(alerts) + ' \u2013 am ' + EventHints_instance.n1s(next.k1v_1) + '.';
   }
   return tmp;
 };
-protoOf(EvolveAdvice).o1v = function (data, analyzer, p, events) {
+protoOf(EvolveAdvice).c1w = function (data, analyzer, p, events) {
   var tmp0_elvis_lhs = data.z1f().a2(p.b1l_1);
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -6851,8 +7045,8 @@ protoOf(EvolveAdvice).o1v = function (data, analyzer, p, events) {
     while (_iterator__ex2g4s.j()) {
       var element = _iterator__ex2g4s.k();
       var tmp_0;
-      if (element.q1u_1.equals(Kind_COMMUNITY_DAY_getInstance())) {
-        var tmp0_0 = element.s1u_1;
+      if (element.f1v_1.equals(Kind_COMMUNITY_DAY_getInstance())) {
+        var tmp0_0 = element.h1v_1;
         var tmp$ret$3;
         $l$block_0: {
           // Inline function 'kotlin.collections.any' call
@@ -6915,7 +7109,7 @@ protoOf(EvolveAdvice).o1v = function (data, analyzer, p, events) {
   var _iterator__ex2g4s_3 = destination_0.i();
   while (_iterator__ex2g4s_3.j()) {
     var element_2 = _iterator__ex2g4s_3.k();
-    var moves = EvolveAdvice_instance.m1v(data, element_2);
+    var moves = EvolveAdvice_instance.a1w(data, element_2);
     var tmp0_safe_receiver = moves.r() ? null : new Tip(element_2, moves, cd);
     if (tmp0_safe_receiver == null)
       null;
@@ -6970,7 +7164,7 @@ function Companion_3() {
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
-  tmp.s1v_1 = [null, null, null, null, null, null, null, tmp_1, tmp_3, tmp_5, tmp_7, tmp_9, tmp_11, lazy_0(tmp_12, SpeciesData$Companion$$childSerializers$_anonymous__w1uuec_5), null, null, null];
+  tmp.g1w_1 = [null, null, null, null, null, null, null, tmp_1, tmp_3, tmp_5, tmp_7, tmp_9, tmp_11, lazy_0(tmp_12, SpeciesData$Companion$$childSerializers$_anonymous__w1uuec_5), null, null, null];
 }
 var Companion_instance_5;
 function Companion_getInstance_3() {
@@ -6998,12 +7192,12 @@ function $serializer_3() {
   tmp0_serialDesc.it('dynamax', true);
   tmp0_serialDesc.it('gmaxType', true);
   tmp0_serialDesc.it('maxGroup', true);
-  this.t1v_1 = tmp0_serialDesc;
+  this.h1w_1 = tmp0_serialDesc;
 }
-protoOf($serializer_3).u1v = function (encoder, value) {
-  var tmp0_desc = this.t1v_1;
+protoOf($serializer_3).i1w = function (encoder, value) {
+  var tmp0_desc = this.h1w_1;
   var tmp1_output = encoder.bn(tmp0_desc);
-  var tmp2_cached = Companion_getInstance_3().s1v_1;
+  var tmp2_cached = Companion_getInstance_3().g1w_1;
   tmp1_output.qo(tmp0_desc, 0, value.q1e_1);
   tmp1_output.lo(tmp0_desc, 1, value.r1e_1);
   tmp1_output.qo(tmp0_desc, 2, value.s1e_1);
@@ -7042,10 +7236,10 @@ protoOf($serializer_3).u1v = function (encoder, value) {
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_3).kk = function (encoder, value) {
-  return this.u1v(encoder, value instanceof SpeciesData ? value : THROW_CCE());
+  return this.i1w(encoder, value instanceof SpeciesData ? value : THROW_CCE());
 };
 protoOf($serializer_3).lk = function (decoder) {
-  var tmp0_desc = this.t1v_1;
+  var tmp0_desc = this.h1w_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -7067,7 +7261,7 @@ protoOf($serializer_3).lk = function (decoder) {
   var tmp19_local15 = null;
   var tmp20_local16 = null;
   var tmp21_input = decoder.bn(tmp0_desc);
-  var tmp22_cached = Companion_getInstance_3().s1v_1;
+  var tmp22_cached = Companion_getInstance_3().g1w_1;
   if (tmp21_input.rn()) {
     tmp4_local0 = tmp21_input.ln(tmp0_desc, 0);
     tmp3_bitMask0 = tmp3_bitMask0 | 1;
@@ -7186,10 +7380,10 @@ protoOf($serializer_3).lk = function (decoder) {
   return SpeciesData_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, tmp9_local5, tmp10_local6, tmp11_local7, tmp12_local8, tmp13_local9, tmp14_local10, tmp15_local11, tmp16_local12, tmp17_local13, tmp18_local14, tmp19_local15, tmp20_local16, null);
 };
 protoOf($serializer_3).jk = function () {
-  return this.t1v_1;
+  return this.h1w_1;
 };
 protoOf($serializer_3).xt = function () {
-  var tmp0_cached = Companion_getInstance_3().s1v_1;
+  var tmp0_cached = Companion_getInstance_3().g1w_1;
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
@@ -7203,7 +7397,7 @@ function $serializer_getInstance_3() {
 }
 function SpeciesData_init_$Init$(seen0, id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, serializationConstructorMarker, $this) {
   if (!(255 === (255 & seen0))) {
-    throwMissingFieldException(seen0, 255, $serializer_getInstance_3().t1v_1);
+    throwMissingFieldException(seen0, 255, $serializer_getInstance_3().h1w_1);
   }
   $this.q1e_1 = id;
   $this.r1e_1 = dex;
@@ -7286,10 +7480,10 @@ function SpeciesData(id, dex, name, baseName, atk, def, sta, types, fastMoves, c
 protoOf(SpeciesData).h1f = function () {
   return new BaseStats(this.u1e_1, this.v1e_1, this.w1e_1);
 };
-protoOf(SpeciesData).v1v = function (id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup) {
+protoOf(SpeciesData).j1w = function (id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup) {
   return new SpeciesData(id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup);
 };
-protoOf(SpeciesData).w1v = function (id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, $super) {
+protoOf(SpeciesData).k1w = function (id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, $super) {
   id = id === VOID ? this.q1e_1 : id;
   dex = dex === VOID ? this.r1e_1 : dex;
   name = name === VOID ? this.s1e_1 : name;
@@ -7307,7 +7501,7 @@ protoOf(SpeciesData).w1v = function (id, dex, name, baseName, atk, def, sta, typ
   dynamax = dynamax === VOID ? this.e1f_1 : dynamax;
   gmaxType = gmaxType === VOID ? this.f1f_1 : gmaxType;
   maxGroup = maxGroup === VOID ? this.g1f_1 : maxGroup;
-  return $super === VOID ? this.v1v(id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup) : $super.v1v.call(this, id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup);
+  return $super === VOID ? this.j1w(id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup) : $super.j1w.call(this, id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup);
 };
 protoOf(SpeciesData).toString = function () {
   return 'SpeciesData(id=' + this.q1e_1 + ', dex=' + this.r1e_1 + ', name=' + this.s1e_1 + ', baseName=' + this.t1e_1 + ', atk=' + this.u1e_1 + ', def=' + this.v1e_1 + ', sta=' + this.w1e_1 + ', types=' + toString_0(this.x1e_1) + ', fastMoves=' + toString_0(this.y1e_1) + ', chargedMoves=' + toString_0(this.z1e_1) + ', tags=' + toString_0(this.a1f_1) + ', evolutions=' + toString_0(this.b1f_1) + ', eliteMoves=' + toString_0(this.c1f_1) + ', legacyMoves=' + toString_0(this.d1f_1) + ', dynamax=' + this.e1f_1 + ', gmaxType=' + this.f1f_1 + ', maxGroup=' + this.g1f_1 + ')';
@@ -7434,12 +7628,12 @@ function Companion_4() {
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
-  tmp.x1v_1 = [null, tmp_1, tmp_3, tmp_5, tmp_7, tmp_9, tmp_11, tmp_13, tmp_15, lazy_0(tmp_16, GameData$Companion$$childSerializers$_anonymous__w51i8i_7)];
+  tmp.l1w_1 = [null, tmp_1, tmp_3, tmp_5, tmp_7, tmp_9, tmp_11, tmp_13, tmp_15, lazy_0(tmp_16, GameData$Companion$$childSerializers$_anonymous__w51i8i_7)];
   var tmp_17 = this;
-  tmp_17.y1v_1 = Json(VOID, GameData$Companion$json$lambda);
+  tmp_17.m1w_1 = Json(VOID, GameData$Companion$json$lambda);
 }
 protoOf(Companion_4).mi = function (text) {
-  return this.y1v_1.y11(this.q1m(), text);
+  return this.m1w_1.y11(this.q1m(), text);
 };
 protoOf(Companion_4).q1m = function () {
   return $serializer_getInstance_4();
@@ -7463,12 +7657,12 @@ function $serializer_4() {
   tmp0_serialDesc.it('typeNames', false);
   tmp0_serialDesc.it('rankings', false);
   tmp0_serialDesc.it('maxCosts', true);
-  this.z1v_1 = tmp0_serialDesc;
+  this.n1w_1 = tmp0_serialDesc;
 }
-protoOf($serializer_4).a1w = function (encoder, value) {
-  var tmp0_desc = this.z1v_1;
+protoOf($serializer_4).o1w = function (encoder, value) {
+  var tmp0_desc = this.n1w_1;
   var tmp1_output = encoder.bn(tmp0_desc);
-  var tmp2_cached = Companion_getInstance_4().x1v_1;
+  var tmp2_cached = Companion_getInstance_4().l1w_1;
   tmp1_output.qo(tmp0_desc, 0, value.k1f_1);
   tmp1_output.so(tmp0_desc, 1, tmp2_cached[1].y(), value.l1f_1);
   tmp1_output.so(tmp0_desc, 2, tmp2_cached[2].y(), value.m1f_1);
@@ -7484,10 +7678,10 @@ protoOf($serializer_4).a1w = function (encoder, value) {
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_4).kk = function (encoder, value) {
-  return this.a1w(encoder, value instanceof GameData ? value : THROW_CCE());
+  return this.o1w(encoder, value instanceof GameData ? value : THROW_CCE());
 };
 protoOf($serializer_4).lk = function (decoder) {
-  var tmp0_desc = this.z1v_1;
+  var tmp0_desc = this.n1w_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -7502,7 +7696,7 @@ protoOf($serializer_4).lk = function (decoder) {
   var tmp12_local8 = null;
   var tmp13_local9 = null;
   var tmp19_input = decoder.bn(tmp0_desc);
-  var tmp20_cached = Companion_getInstance_4().x1v_1;
+  var tmp20_cached = Companion_getInstance_4().l1w_1;
   if (tmp19_input.rn()) {
     tmp4_local0 = tmp19_input.ln(tmp0_desc, 0);
     tmp3_bitMask0 = tmp3_bitMask0 | 1;
@@ -7579,10 +7773,10 @@ protoOf($serializer_4).lk = function (decoder) {
   return GameData_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, tmp9_local5, tmp10_local6, tmp11_local7, tmp12_local8, tmp13_local9, null);
 };
 protoOf($serializer_4).jk = function () {
-  return this.z1v_1;
+  return this.n1w_1;
 };
 protoOf($serializer_4).xt = function () {
-  var tmp0_cached = Companion_getInstance_4().x1v_1;
+  var tmp0_cached = Companion_getInstance_4().l1w_1;
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
@@ -7596,7 +7790,7 @@ function $serializer_getInstance_4() {
 }
 function GameData_init_$Init$(seen0, generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts, serializationConstructorMarker, $this) {
   if (!(511 === (511 & seen0))) {
-    throwMissingFieldException(seen0, 511, $serializer_getInstance_4().z1v_1);
+    throwMissingFieldException(seen0, 511, $serializer_getInstance_4().n1w_1);
   }
   $this.k1f_1 = generated;
   $this.l1f_1 = cpm;
@@ -7685,7 +7879,7 @@ function GameData$movesById$delegate$lambda(this$0) {
 }
 function GameData$_get_movesById_$ref_qju43g() {
   return constructCallableReference(function (p0) {
-    return p0.k1t();
+    return p0.z1t();
   }, 1, 0, 13);
 }
 function GameData$rankIndex$delegate$lambda(this$0) {
@@ -7844,15 +8038,15 @@ protoOf(GameData).z1f = function () {
   getPropertyCallableRef('speciesById', 1, tmp, GameData$_get_speciesById_$ref_34e8y2(), null);
   return tmp0.y();
 };
-protoOf(GameData).k1t = function () {
+protoOf(GameData).z1t = function () {
   var tmp0 = this.x1f_1;
   var tmp = KProperty1;
   // Inline function 'kotlin.getValue' call
   getPropertyCallableRef('movesById', 1, tmp, GameData$_get_movesById_$ref_qju43g(), null);
   return tmp0.y();
 };
-protoOf(GameData).b1w = function (species, moveId) {
-  var tmp0_safe_receiver = this.k1t().a2(moveId);
+protoOf(GameData).p1w = function (species, moveId) {
+  var tmp0_safe_receiver = this.z1t().a2(moveId);
   var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.p1j_1;
   var name = tmp1_elvis_lhs == null ? moveId : tmp1_elvis_lhs;
   return species.c1f_1.t(moveId) ? name + '*' : species.d1f_1.t(moveId) ? name + '\u2020' : name;
@@ -7862,10 +8056,10 @@ protoOf(GameData).d1i = function (speciesId, league, shadow) {
   var tmp0_safe_receiver = _get_rankIndex__5yzab9(this).a2(key);
   return tmp0_safe_receiver == null ? null : tmp0_safe_receiver.a2(shadow ? speciesId + '_shadow' : speciesId);
 };
-protoOf(GameData).c1w = function (generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts) {
+protoOf(GameData).q1w = function (generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts) {
   return new GameData(generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts);
 };
-protoOf(GameData).d1w = function (generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts, $super) {
+protoOf(GameData).r1w = function (generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts, $super) {
   generated = generated === VOID ? this.k1f_1 : generated;
   cpm = cpm === VOID ? this.l1f_1 : cpm;
   stardust = stardust === VOID ? this.m1f_1 : stardust;
@@ -7876,7 +8070,7 @@ protoOf(GameData).d1w = function (generated, cpm, stardust, candy, xlCandy, spec
   typeNames = typeNames === VOID ? this.r1f_1 : typeNames;
   rankings = rankings === VOID ? this.s1f_1 : rankings;
   maxCosts = maxCosts === VOID ? this.t1f_1 : maxCosts;
-  return $super === VOID ? this.c1w(generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts) : $super.c1w.call(this, generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts);
+  return $super === VOID ? this.q1w(generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts) : $super.q1w.call(this, generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts);
 };
 protoOf(GameData).toString = function () {
   return 'GameData(generated=' + this.k1f_1 + ', cpm=' + toString_0(this.l1f_1) + ', stardust=' + toString_0(this.m1f_1) + ', candy=' + toString_0(this.n1f_1) + ', xlCandy=' + toString_0(this.o1f_1) + ', species=' + toString_0(this.p1f_1) + ', moves=' + toString_0(this.q1f_1) + ', typeNames=' + toString_0(this.r1f_1) + ', rankings=' + toString_0(this.s1f_1) + ', maxCosts=' + toString_0(this.t1f_1) + ')';
@@ -7940,10 +8134,10 @@ function $serializer_5() {
   tmp0_serialDesc.it('pvePower', true);
   tmp0_serialDesc.it('pveEnergy', true);
   tmp0_serialDesc.it('pveMs', true);
-  this.e1w_1 = tmp0_serialDesc;
+  this.s1w_1 = tmp0_serialDesc;
 }
-protoOf($serializer_5).f1w = function (encoder, value) {
-  var tmp0_desc = this.e1w_1;
+protoOf($serializer_5).t1w = function (encoder, value) {
+  var tmp0_desc = this.s1w_1;
   var tmp1_output = encoder.bn(tmp0_desc);
   tmp1_output.qo(tmp0_desc, 0, value.o1j_1);
   tmp1_output.qo(tmp0_desc, 1, value.p1j_1);
@@ -7966,10 +8160,10 @@ protoOf($serializer_5).f1w = function (encoder, value) {
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_5).kk = function (encoder, value) {
-  return this.f1w(encoder, value instanceof MoveData ? value : THROW_CCE());
+  return this.t1w(encoder, value instanceof MoveData ? value : THROW_CCE());
 };
 protoOf($serializer_5).lk = function (decoder) {
-  var tmp0_desc = this.e1w_1;
+  var tmp0_desc = this.s1w_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -8060,7 +8254,7 @@ protoOf($serializer_5).lk = function (decoder) {
   return MoveData_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, tmp9_local5, tmp10_local6, tmp11_local7, tmp12_local8, tmp13_local9, null);
 };
 protoOf($serializer_5).jk = function () {
-  return this.e1w_1;
+  return this.s1w_1;
 };
 protoOf($serializer_5).xt = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -8076,7 +8270,7 @@ function $serializer_getInstance_5() {
 }
 function MoveData_init_$Init$(seen0, id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs, serializationConstructorMarker, $this) {
   if (!(63 === (63 & seen0))) {
-    throwMissingFieldException(seen0, 63, $serializer_getInstance_5().e1w_1);
+    throwMissingFieldException(seen0, 63, $serializer_getInstance_5().s1w_1);
   }
   $this.o1j_1 = id;
   $this.p1j_1 = name;
@@ -8121,13 +8315,13 @@ function MoveData(id, name, type, power, energy, energyGain, turns, pvePower, pv
   this.w1j_1 = pveEnergy;
   this.x1j_1 = pveMs;
 }
-protoOf(MoveData).g1w = function () {
+protoOf(MoveData).u1w = function () {
   return this.x1j_1 > 0;
 };
-protoOf(MoveData).h1w = function (id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs) {
+protoOf(MoveData).v1w = function (id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs) {
   return new MoveData(id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs);
 };
-protoOf(MoveData).i1w = function (id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs, $super) {
+protoOf(MoveData).w1w = function (id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs, $super) {
   id = id === VOID ? this.o1j_1 : id;
   name = name === VOID ? this.p1j_1 : name;
   type = type === VOID ? this.q1j_1 : type;
@@ -8138,7 +8332,7 @@ protoOf(MoveData).i1w = function (id, name, type, power, energy, energyGain, tur
   pvePower = pvePower === VOID ? this.v1j_1 : pvePower;
   pveEnergy = pveEnergy === VOID ? this.w1j_1 : pveEnergy;
   pveMs = pveMs === VOID ? this.x1j_1 : pveMs;
-  return $super === VOID ? this.h1w(id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs) : $super.h1w.call(this, id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs);
+  return $super === VOID ? this.v1w(id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs) : $super.v1w.call(this, id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs);
 };
 protoOf(MoveData).toString = function () {
   return 'MoveData(id=' + this.o1j_1 + ', name=' + this.p1j_1 + ', type=' + this.q1j_1 + ', power=' + this.r1j_1 + ', energy=' + this.s1j_1 + ', energyGain=' + this.t1j_1 + ', turns=' + this.u1j_1 + ', pvePower=' + this.v1j_1 + ', pveEnergy=' + this.w1j_1 + ', pveMs=' + this.x1j_1 + ')';
@@ -8190,9 +8384,9 @@ function parsePvpoke$flag(f, key) {
 }
 function Companion_6() {
   Companion_instance_8 = this;
-  this.j1w_1 = listOf([new BattleFormat('Superliga', 'all', 1500), new BattleFormat('Hyperliga', 'all', 2500), new BattleFormat('Meisterliga', 'all', 10000)]);
+  this.x1w_1 = listOf([new BattleFormat('Superliga', 'all', 1500), new BattleFormat('Hyperliga', 'all', 2500), new BattleFormat('Meisterliga', 'all', 10000)]);
 }
-protoOf(Companion_6).k1w = function (gamemasterText) {
+protoOf(Companion_6).y1w = function (gamemasterText) {
   var tmp = get_jsonObject(Default_getInstance().z11(gamemasterText)).fc('formats');
   var tmp0_elvis_lhs = tmp instanceof JsonArray ? tmp : null;
   var tmp_0;
@@ -8284,10 +8478,10 @@ function $serializer_6() {
   tmp0_serialDesc.it('title', false);
   tmp0_serialDesc.it('cup', false);
   tmp0_serialDesc.it('cp', false);
-  this.l1w_1 = tmp0_serialDesc;
+  this.z1w_1 = tmp0_serialDesc;
 }
-protoOf($serializer_6).m1w = function (encoder, value) {
-  var tmp0_desc = this.l1w_1;
+protoOf($serializer_6).a1x = function (encoder, value) {
+  var tmp0_desc = this.z1w_1;
   var tmp1_output = encoder.bn(tmp0_desc);
   tmp1_output.qo(tmp0_desc, 0, value.r1o_1);
   tmp1_output.qo(tmp0_desc, 1, value.s1o_1);
@@ -8295,10 +8489,10 @@ protoOf($serializer_6).m1w = function (encoder, value) {
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_6).kk = function (encoder, value) {
-  return this.m1w(encoder, value instanceof BattleFormat ? value : THROW_CCE());
+  return this.a1x(encoder, value instanceof BattleFormat ? value : THROW_CCE());
 };
 protoOf($serializer_6).lk = function (decoder) {
-  var tmp0_desc = this.l1w_1;
+  var tmp0_desc = this.z1w_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -8340,7 +8534,7 @@ protoOf($serializer_6).lk = function (decoder) {
   return BattleFormat_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, null);
 };
 protoOf($serializer_6).jk = function () {
-  return this.l1w_1;
+  return this.z1w_1;
 };
 protoOf($serializer_6).xt = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -8356,7 +8550,7 @@ function $serializer_getInstance_6() {
 }
 function BattleFormat_init_$Init$(seen0, title, cup, cp, serializationConstructorMarker, $this) {
   if (!(7 === (7 & seen0))) {
-    throwMissingFieldException(seen0, 7, $serializer_getInstance_6().l1w_1);
+    throwMissingFieldException(seen0, 7, $serializer_getInstance_6().z1w_1);
   }
   $this.r1o_1 = title;
   $this.s1o_1 = cup;
@@ -8376,9 +8570,9 @@ protoOf(BattleFormat).x = function () {
   return this.s1o_1 + '_' + this.t1o_1;
 };
 protoOf(BattleFormat).v1l = function () {
-  return GblSchedule_getInstance().l1u(this.r1o_1);
+  return GblSchedule_getInstance().a1v(this.r1o_1);
 };
-protoOf(BattleFormat).n1w = function () {
+protoOf(BattleFormat).b1x = function () {
   switch (this.t1o_1) {
     case 500:
       return League_LITTLE_getInstance();
@@ -8454,9 +8648,9 @@ function Companion_7() {
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
-  tmp.o1w_1 = [null, null, tmp_1, tmp_3, tmp_5, lazy_0(tmp_6, RankEntry$Companion$$childSerializers$_anonymous__y9xa2k_2)];
+  tmp.c1x_1 = [null, null, tmp_1, tmp_3, tmp_5, lazy_0(tmp_6, RankEntry$Companion$$childSerializers$_anonymous__y9xa2k_2)];
 }
-protoOf(Companion_7).k1w = function (text) {
+protoOf(Companion_7).y1w = function (text) {
   // Inline function 'kotlin.collections.map' call
   var this_0 = get_jsonArray(Default_getInstance().z11(text));
   // Inline function 'kotlin.collections.mapTo' call
@@ -8522,12 +8716,12 @@ function $serializer_7() {
   tmp0_serialDesc.it('matchups', true);
   tmp0_serialDesc.it('counters', true);
   tmp0_serialDesc.it('roles', true);
-  this.p1w_1 = tmp0_serialDesc;
+  this.d1x_1 = tmp0_serialDesc;
 }
-protoOf($serializer_7).q1w = function (encoder, value) {
-  var tmp0_desc = this.p1w_1;
+protoOf($serializer_7).e1x = function (encoder, value) {
+  var tmp0_desc = this.d1x_1;
   var tmp1_output = encoder.bn(tmp0_desc);
-  var tmp2_cached = Companion_getInstance_7().o1w_1;
+  var tmp2_cached = Companion_getInstance_7().c1x_1;
   tmp1_output.qo(tmp0_desc, 0, value.e1i_1);
   tmp1_output.oo(tmp0_desc, 1, value.f1i_1);
   if (tmp1_output.yo(tmp0_desc, 2) ? true : !equals(value.g1i_1, emptyList())) {
@@ -8545,10 +8739,10 @@ protoOf($serializer_7).q1w = function (encoder, value) {
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_7).kk = function (encoder, value) {
-  return this.q1w(encoder, value instanceof RankEntry ? value : THROW_CCE());
+  return this.e1x(encoder, value instanceof RankEntry ? value : THROW_CCE());
 };
 protoOf($serializer_7).lk = function (decoder) {
-  var tmp0_desc = this.p1w_1;
+  var tmp0_desc = this.d1x_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -8559,7 +8753,7 @@ protoOf($serializer_7).lk = function (decoder) {
   var tmp8_local4 = null;
   var tmp9_local5 = null;
   var tmp10_input = decoder.bn(tmp0_desc);
-  var tmp11_cached = Companion_getInstance_7().o1w_1;
+  var tmp11_cached = Companion_getInstance_7().c1x_1;
   if (tmp10_input.rn()) {
     tmp4_local0 = tmp10_input.ln(tmp0_desc, 0);
     tmp3_bitMask0 = tmp3_bitMask0 | 1;
@@ -8612,10 +8806,10 @@ protoOf($serializer_7).lk = function (decoder) {
   return RankEntry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, tmp9_local5, null);
 };
 protoOf($serializer_7).jk = function () {
-  return this.p1w_1;
+  return this.d1x_1;
 };
 protoOf($serializer_7).xt = function () {
-  var tmp0_cached = Companion_getInstance_7().o1w_1;
+  var tmp0_cached = Companion_getInstance_7().c1x_1;
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
@@ -8629,7 +8823,7 @@ function $serializer_getInstance_7() {
 }
 function RankEntry_init_$Init$(seen0, id, score, moveset, matchups, counters, roles, serializationConstructorMarker, $this) {
   if (!(3 === (3 & seen0))) {
-    throwMissingFieldException(seen0, 3, $serializer_getInstance_7().p1w_1);
+    throwMissingFieldException(seen0, 3, $serializer_getInstance_7().d1x_1);
   }
   $this.e1i_1 = id;
   $this.f1i_1 = score;
@@ -8667,10 +8861,10 @@ function RankEntry(id, score, moveset, matchups, counters, roles) {
   this.i1i_1 = counters;
   this.j1i_1 = roles;
 }
-protoOf(RankEntry).r1w = function (r) {
-  return getOrNull(this.j1i_1, r.v1w_1);
+protoOf(RankEntry).f1x = function (r) {
+  return getOrNull(this.j1i_1, r.j1x_1);
 };
-protoOf(RankEntry).w1w = function (opponent) {
+protoOf(RankEntry).k1x = function (opponent) {
   var tmp0 = this.h1i_1;
   var tmp$ret$0;
   $l$block: {
@@ -8678,7 +8872,7 @@ protoOf(RankEntry).w1w = function (opponent) {
     var _iterator__ex2g4s = tmp0.i();
     while (_iterator__ex2g4s.j()) {
       var element = _iterator__ex2g4s.k();
-      if (element.x1w_1 === opponent) {
+      if (element.l1x_1 === opponent) {
         tmp$ret$0 = element;
         break $l$block;
       }
@@ -8695,7 +8889,7 @@ protoOf(RankEntry).w1w = function (opponent) {
       var _iterator__ex2g4s_0 = tmp0_0.i();
       while (_iterator__ex2g4s_0.j()) {
         var element_0 = _iterator__ex2g4s_0.k();
-        if (element_0.x1w_1 === opponent) {
+        if (element_0.l1x_1 === opponent) {
           tmp$ret$2 = element_0;
           break $l$block_0;
         }
@@ -8707,7 +8901,7 @@ protoOf(RankEntry).w1w = function (opponent) {
     tmp = tmp0_elvis_lhs;
   }
   var tmp1_safe_receiver = tmp;
-  return tmp1_safe_receiver == null ? null : tmp1_safe_receiver.y1w_1;
+  return tmp1_safe_receiver == null ? null : tmp1_safe_receiver.m1x_1;
 };
 protoOf(RankEntry).toString = function () {
   return 'RankEntry(id=' + this.e1i_1 + ', score=' + this.f1i_1 + ', moveset=' + toString_0(this.g1i_1) + ', matchups=' + toString_0(this.h1i_1) + ', counters=' + toString_0(this.i1i_1) + ', roles=' + toString_0(this.j1i_1) + ')';
@@ -8752,10 +8946,10 @@ function $serializer_8() {
   tmp0_serialDesc.it('to', false);
   tmp0_serialDesc.it('candy', false);
   tmp0_serialDesc.it('candyPurified', true);
-  this.z1w_1 = tmp0_serialDesc;
+  this.n1x_1 = tmp0_serialDesc;
 }
-protoOf($serializer_8).a1x = function (encoder, value) {
-  var tmp0_desc = this.z1w_1;
+protoOf($serializer_8).o1x = function (encoder, value) {
+  var tmp0_desc = this.n1x_1;
   var tmp1_output = encoder.bn(tmp0_desc);
   tmp1_output.qo(tmp0_desc, 0, value.a1g_1);
   tmp1_output.lo(tmp0_desc, 1, value.b1g_1);
@@ -8765,10 +8959,10 @@ protoOf($serializer_8).a1x = function (encoder, value) {
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_8).kk = function (encoder, value) {
-  return this.a1x(encoder, value instanceof EvoData ? value : THROW_CCE());
+  return this.o1x(encoder, value instanceof EvoData ? value : THROW_CCE());
 };
 protoOf($serializer_8).lk = function (decoder) {
-  var tmp0_desc = this.z1w_1;
+  var tmp0_desc = this.n1x_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -8810,7 +9004,7 @@ protoOf($serializer_8).lk = function (decoder) {
   return EvoData_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, null);
 };
 protoOf($serializer_8).jk = function () {
-  return this.z1w_1;
+  return this.n1x_1;
 };
 protoOf($serializer_8).xt = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -8826,7 +9020,7 @@ function $serializer_getInstance_8() {
 }
 function EvoData_init_$Init$(seen0, to, candy, candyPurified, serializationConstructorMarker, $this) {
   if (!(3 === (3 & seen0))) {
-    throwMissingFieldException(seen0, 3, $serializer_getInstance_8().z1w_1);
+    throwMissingFieldException(seen0, 3, $serializer_getInstance_8().n1x_1);
   }
   $this.a1g_1 = to;
   $this.b1g_1 = candy;
@@ -8845,14 +9039,14 @@ function EvoData(to, candy, candyPurified) {
   this.b1g_1 = candy;
   this.c1g_1 = candyPurified;
 }
-protoOf(EvoData).b1x = function (to, candy, candyPurified) {
+protoOf(EvoData).p1x = function (to, candy, candyPurified) {
   return new EvoData(to, candy, candyPurified);
 };
-protoOf(EvoData).c1x = function (to, candy, candyPurified, $super) {
+protoOf(EvoData).q1x = function (to, candy, candyPurified, $super) {
   to = to === VOID ? this.a1g_1 : to;
   candy = candy === VOID ? this.b1g_1 : candy;
   candyPurified = candyPurified === VOID ? this.c1g_1 : candyPurified;
-  return $super === VOID ? this.b1x(to, candy, candyPurified) : $super.b1x.call(this, to, candy, candyPurified);
+  return $super === VOID ? this.p1x(to, candy, candyPurified) : $super.p1x.call(this, to, candy, candyPurified);
 };
 protoOf(EvoData).toString = function () {
   return 'EvoData(to=' + this.a1g_1 + ', candy=' + this.b1g_1 + ', candyPurified=' + this.c1g_1 + ')';
@@ -8888,27 +9082,27 @@ function $serializer_9() {
   tmp0_serialDesc.it('particles', true);
   tmp0_serialDesc.it('candy', true);
   tmp0_serialDesc.it('xl', true);
-  this.d1x_1 = tmp0_serialDesc;
+  this.r1x_1 = tmp0_serialDesc;
 }
-protoOf($serializer_9).e1x = function (encoder, value) {
-  var tmp0_desc = this.d1x_1;
+protoOf($serializer_9).s1x = function (encoder, value) {
+  var tmp0_desc = this.r1x_1;
   var tmp1_output = encoder.bn(tmp0_desc);
-  if (tmp1_output.yo(tmp0_desc, 0) ? true : !(value.f1x_1 === 0)) {
-    tmp1_output.lo(tmp0_desc, 0, value.f1x_1);
+  if (tmp1_output.yo(tmp0_desc, 0) ? true : !(value.t1x_1 === 0)) {
+    tmp1_output.lo(tmp0_desc, 0, value.t1x_1);
   }
-  if (tmp1_output.yo(tmp0_desc, 1) ? true : !(value.g1x_1 === 0)) {
-    tmp1_output.lo(tmp0_desc, 1, value.g1x_1);
+  if (tmp1_output.yo(tmp0_desc, 1) ? true : !(value.u1x_1 === 0)) {
+    tmp1_output.lo(tmp0_desc, 1, value.u1x_1);
   }
-  if (tmp1_output.yo(tmp0_desc, 2) ? true : !(value.h1x_1 === 0)) {
-    tmp1_output.lo(tmp0_desc, 2, value.h1x_1);
+  if (tmp1_output.yo(tmp0_desc, 2) ? true : !(value.v1x_1 === 0)) {
+    tmp1_output.lo(tmp0_desc, 2, value.v1x_1);
   }
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_9).kk = function (encoder, value) {
-  return this.e1x(encoder, value instanceof MaxStepCost ? value : THROW_CCE());
+  return this.s1x(encoder, value instanceof MaxStepCost ? value : THROW_CCE());
 };
 protoOf($serializer_9).lk = function (decoder) {
-  var tmp0_desc = this.d1x_1;
+  var tmp0_desc = this.r1x_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -8950,7 +9144,7 @@ protoOf($serializer_9).lk = function (decoder) {
   return MaxStepCost_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, null);
 };
 protoOf($serializer_9).jk = function () {
-  return this.d1x_1;
+  return this.r1x_1;
 };
 protoOf($serializer_9).xt = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -8966,20 +9160,20 @@ function $serializer_getInstance_9() {
 }
 function MaxStepCost_init_$Init$(seen0, particles, candy, xl, serializationConstructorMarker, $this) {
   if (!(0 === (0 & seen0))) {
-    throwMissingFieldException(seen0, 0, $serializer_getInstance_9().d1x_1);
+    throwMissingFieldException(seen0, 0, $serializer_getInstance_9().r1x_1);
   }
   if (0 === (seen0 & 1))
-    $this.f1x_1 = 0;
+    $this.t1x_1 = 0;
   else
-    $this.f1x_1 = particles;
+    $this.t1x_1 = particles;
   if (0 === (seen0 & 2))
-    $this.g1x_1 = 0;
+    $this.u1x_1 = 0;
   else
-    $this.g1x_1 = candy;
+    $this.u1x_1 = candy;
   if (0 === (seen0 & 4))
-    $this.h1x_1 = 0;
+    $this.v1x_1 = 0;
   else
-    $this.h1x_1 = xl;
+    $this.v1x_1 = xl;
   return $this;
 }
 function MaxStepCost_init_$Create$(seen0, particles, candy, xl, serializationConstructorMarker) {
@@ -8989,17 +9183,17 @@ function MaxStepCost(particles, candy, xl) {
   particles = particles === VOID ? 0 : particles;
   candy = candy === VOID ? 0 : candy;
   xl = xl === VOID ? 0 : xl;
-  this.f1x_1 = particles;
-  this.g1x_1 = candy;
-  this.h1x_1 = xl;
+  this.t1x_1 = particles;
+  this.u1x_1 = candy;
+  this.v1x_1 = xl;
 }
 protoOf(MaxStepCost).toString = function () {
-  return 'MaxStepCost(particles=' + this.f1x_1 + ', candy=' + this.g1x_1 + ', xl=' + this.h1x_1 + ')';
+  return 'MaxStepCost(particles=' + this.t1x_1 + ', candy=' + this.u1x_1 + ', xl=' + this.v1x_1 + ')';
 };
 protoOf(MaxStepCost).hashCode = function () {
-  var result = this.f1x_1;
-  result = imul(result, 31) + this.g1x_1 | 0;
-  result = imul(result, 31) + this.h1x_1 | 0;
+  var result = this.t1x_1;
+  result = imul(result, 31) + this.u1x_1 | 0;
+  result = imul(result, 31) + this.v1x_1 | 0;
   return result;
 };
 protoOf(MaxStepCost).equals = function (other) {
@@ -9007,11 +9201,11 @@ protoOf(MaxStepCost).equals = function (other) {
     return true;
   if (!(other instanceof MaxStepCost))
     return false;
-  if (!(this.f1x_1 === other.f1x_1))
+  if (!(this.t1x_1 === other.t1x_1))
     return false;
-  if (!(this.g1x_1 === other.g1x_1))
+  if (!(this.u1x_1 === other.u1x_1))
     return false;
-  if (!(this.h1x_1 === other.h1x_1))
+  if (!(this.v1x_1 === other.v1x_1))
     return false;
   return true;
 };
@@ -9026,20 +9220,20 @@ function $serializer_10() {
   var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('pogo.core.Matchup', this, 2);
   tmp0_serialDesc.it('opponent', false);
   tmp0_serialDesc.it('rating', false);
-  this.i1x_1 = tmp0_serialDesc;
+  this.w1x_1 = tmp0_serialDesc;
 }
-protoOf($serializer_10).j1x = function (encoder, value) {
-  var tmp0_desc = this.i1x_1;
+protoOf($serializer_10).x1x = function (encoder, value) {
+  var tmp0_desc = this.w1x_1;
   var tmp1_output = encoder.bn(tmp0_desc);
-  tmp1_output.qo(tmp0_desc, 0, value.x1w_1);
-  tmp1_output.lo(tmp0_desc, 1, value.y1w_1);
+  tmp1_output.qo(tmp0_desc, 0, value.l1x_1);
+  tmp1_output.lo(tmp0_desc, 1, value.m1x_1);
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_10).kk = function (encoder, value) {
-  return this.j1x(encoder, value instanceof Matchup ? value : THROW_CCE());
+  return this.x1x(encoder, value instanceof Matchup ? value : THROW_CCE());
 };
 protoOf($serializer_10).lk = function (decoder) {
-  var tmp0_desc = this.i1x_1;
+  var tmp0_desc = this.w1x_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -9074,7 +9268,7 @@ protoOf($serializer_10).lk = function (decoder) {
   return Matchup_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, null);
 };
 protoOf($serializer_10).jk = function () {
-  return this.i1x_1;
+  return this.w1x_1;
 };
 protoOf($serializer_10).xt = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -9090,25 +9284,25 @@ function $serializer_getInstance_10() {
 }
 function Matchup_init_$Init$(seen0, opponent, rating, serializationConstructorMarker, $this) {
   if (!(3 === (3 & seen0))) {
-    throwMissingFieldException(seen0, 3, $serializer_getInstance_10().i1x_1);
+    throwMissingFieldException(seen0, 3, $serializer_getInstance_10().w1x_1);
   }
-  $this.x1w_1 = opponent;
-  $this.y1w_1 = rating;
+  $this.l1x_1 = opponent;
+  $this.m1x_1 = rating;
   return $this;
 }
 function Matchup_init_$Create$(seen0, opponent, rating, serializationConstructorMarker) {
   return Matchup_init_$Init$(seen0, opponent, rating, serializationConstructorMarker, objectCreate(protoOf(Matchup)));
 }
 function Matchup(opponent, rating) {
-  this.x1w_1 = opponent;
-  this.y1w_1 = rating;
+  this.l1x_1 = opponent;
+  this.m1x_1 = rating;
 }
 protoOf(Matchup).toString = function () {
-  return 'Matchup(opponent=' + this.x1w_1 + ', rating=' + this.y1w_1 + ')';
+  return 'Matchup(opponent=' + this.l1x_1 + ', rating=' + this.m1x_1 + ')';
 };
 protoOf(Matchup).hashCode = function () {
-  var result = getStringHashCode(this.x1w_1);
-  result = imul(result, 31) + this.y1w_1 | 0;
+  var result = getStringHashCode(this.l1x_1);
+  result = imul(result, 31) + this.m1x_1 | 0;
   return result;
 };
 protoOf(Matchup).equals = function (other) {
@@ -9116,9 +9310,9 @@ protoOf(Matchup).equals = function (other) {
     return true;
   if (!(other instanceof Matchup))
     return false;
-  if (!(this.x1w_1 === other.x1w_1))
+  if (!(this.l1x_1 === other.l1x_1))
     return false;
-  if (!(this.y1w_1 === other.y1w_1))
+  if (!(this.m1x_1 === other.m1x_1))
     return false;
   return true;
 };
@@ -9134,7 +9328,7 @@ function text$bars(known, word, value) {
   var _iterator__ex2g4s = known.i();
   while (_iterator__ex2g4s.j()) {
     var item = _iterator__ex2g4s.k();
-    var tmp$ret$2 = GameSearch_instance.k1x(value(item));
+    var tmp$ret$2 = GameSearch_instance.y1x(value(item));
     destination.h(tmp$ret$2);
   }
   var tmp = sorted(distinct(destination));
@@ -9151,10 +9345,10 @@ function GameSearch$text$lambda_1(it) {
 }
 function GameSearch() {
 }
-protoOf(GameSearch).k1x = function (iv) {
+protoOf(GameSearch).y1x = function (iv) {
   return iv <= 0 ? 0 : iv <= 5 ? 1 : iv <= 10 ? 2 : iv <= 14 ? 3 : 4;
 };
-protoOf(GameSearch).l1x = function (data, list, extra) {
+protoOf(GameSearch).z1x = function (data, list, extra) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -9270,21 +9464,21 @@ function $serializer_11() {
   tmp0_serialDesc.it('name', false);
   tmp0_serialDesc.it('start', false);
   tmp0_serialDesc.it('end', false);
-  this.m1x_1 = tmp0_serialDesc;
+  this.a1y_1 = tmp0_serialDesc;
 }
-protoOf($serializer_11).n1x = function (encoder, value) {
-  var tmp0_desc = this.m1x_1;
+protoOf($serializer_11).b1y = function (encoder, value) {
+  var tmp0_desc = this.a1y_1;
   var tmp1_output = encoder.bn(tmp0_desc);
-  tmp1_output.qo(tmp0_desc, 0, value.o1x_1);
-  tmp1_output.qo(tmp0_desc, 1, value.p1x_1);
-  tmp1_output.qo(tmp0_desc, 2, value.q1x_1);
+  tmp1_output.qo(tmp0_desc, 0, value.c1y_1);
+  tmp1_output.qo(tmp0_desc, 1, value.d1y_1);
+  tmp1_output.qo(tmp0_desc, 2, value.e1y_1);
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_11).kk = function (encoder, value) {
-  return this.n1x(encoder, value instanceof GblWeek ? value : THROW_CCE());
+  return this.b1y(encoder, value instanceof GblWeek ? value : THROW_CCE());
 };
 protoOf($serializer_11).lk = function (decoder) {
-  var tmp0_desc = this.m1x_1;
+  var tmp0_desc = this.a1y_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -9326,7 +9520,7 @@ protoOf($serializer_11).lk = function (decoder) {
   return GblWeek_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, null);
 };
 protoOf($serializer_11).jk = function () {
-  return this.m1x_1;
+  return this.a1y_1;
 };
 protoOf($serializer_11).xt = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -9342,23 +9536,23 @@ function $serializer_getInstance_11() {
 }
 function GblWeek_init_$Init$(seen0, name, start, end, serializationConstructorMarker, $this) {
   if (!(7 === (7 & seen0))) {
-    throwMissingFieldException(seen0, 7, $serializer_getInstance_11().m1x_1);
+    throwMissingFieldException(seen0, 7, $serializer_getInstance_11().a1y_1);
   }
-  $this.o1x_1 = name;
-  $this.p1x_1 = start;
-  $this.q1x_1 = end;
+  $this.c1y_1 = name;
+  $this.d1y_1 = start;
+  $this.e1y_1 = end;
   return $this;
 }
 function GblWeek_init_$Create$(seen0, name, start, end, serializationConstructorMarker) {
   return GblWeek_init_$Init$(seen0, name, start, end, serializationConstructorMarker, objectCreate(protoOf(GblWeek)));
 }
 function GblWeek(name, start, end) {
-  this.o1x_1 = name;
-  this.p1x_1 = start;
-  this.q1x_1 = end;
+  this.c1y_1 = name;
+  this.d1y_1 = start;
+  this.e1y_1 = end;
 }
-protoOf(GblWeek).r1x = function () {
-  var tmp0 = substringBefore(this.o1x_1, ' | ');
+protoOf(GblWeek).f1y = function () {
+  var tmp0 = substringBefore(this.c1y_1, ' | ');
   // Inline function 'kotlin.text.split' call
   // Inline function 'kotlin.collections.map' call
   var this_0 = Regex_init_$Create$(',\\s*(?:and\\s+)?|\\s+and\\s+').zb(tmp0, 0);
@@ -9385,12 +9579,12 @@ protoOf(GblWeek).r1x = function () {
   return destination_0;
 };
 protoOf(GblWeek).toString = function () {
-  return 'GblWeek(name=' + this.o1x_1 + ', start=' + this.p1x_1 + ', end=' + this.q1x_1 + ')';
+  return 'GblWeek(name=' + this.c1y_1 + ', start=' + this.d1y_1 + ', end=' + this.e1y_1 + ')';
 };
 protoOf(GblWeek).hashCode = function () {
-  var result = getStringHashCode(this.o1x_1);
-  result = imul(result, 31) + getStringHashCode(this.p1x_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.q1x_1) | 0;
+  var result = getStringHashCode(this.c1y_1);
+  result = imul(result, 31) + getStringHashCode(this.d1y_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.e1y_1) | 0;
   return result;
 };
 protoOf(GblWeek).equals = function (other) {
@@ -9398,11 +9592,11 @@ protoOf(GblWeek).equals = function (other) {
     return true;
   if (!(other instanceof GblWeek))
     return false;
-  if (!(this.o1x_1 === other.o1x_1))
+  if (!(this.c1y_1 === other.c1y_1))
     return false;
-  if (!(this.p1x_1 === other.p1x_1))
+  if (!(this.d1y_1 === other.d1y_1))
     return false;
-  if (!(this.q1x_1 === other.q1x_1))
+  if (!(this.e1y_1 === other.e1y_1))
     return false;
   return true;
 };
@@ -9425,7 +9619,7 @@ function tokens($this, text) {
     var tmp_0;
     // Inline function 'kotlin.text.isNotEmpty' call
     if (charSequenceLength(element) > 0) {
-      tmp_0 = !GblSchedule_getInstance().k1u_1.t(element);
+      tmp_0 = !GblSchedule_getInstance().z1u_1.t(element);
     } else {
       tmp_0 = false;
     }
@@ -9467,16 +9661,16 @@ function cp($this, text) {
   return contains(t, 'little') ? 500 : contains(t, 'ultra') ? 2500 : contains(t, 'master') ? 10000 : 1500;
 }
 function sam$kotlin_Comparator$0_3(function_0) {
-  this.s1x_1 = function_0;
+  this.g1y_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_3).sc = function (a, b) {
-  return this.s1x_1(a, b);
+  return this.g1y_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_3).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_3).r2 = function () {
-  return this.s1x_1;
+  return this.g1y_1;
 };
 protoOf(sam$kotlin_Comparator$0_3).equals = function (other) {
   var tmp;
@@ -9502,22 +9696,22 @@ function GblSchedule$json$lambda($this$Json) {
 }
 function GblSchedule$parseEvents$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = a.p1x_1;
-  var tmp$ret$2 = b.p1x_1;
+  var tmp = a.d1y_1;
+  var tmp$ret$2 = b.d1y_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function GblSchedule() {
   GblSchedule_instance = this;
-  this.h1u_1 = 'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.min.json';
+  this.w1u_1 = 'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.min.json';
   var tmp = this;
-  tmp.i1u_1 = Json(VOID, GblSchedule$json$lambda);
-  this.j1u_1 = ListSerializer(Companion_instance_13.q1m());
-  this.k1u_1 = setOf(['great', 'ultra', 'master', 'little', 'league', 'edition', 'cup', 'go', 'the', 'of', 'battle']);
+  tmp.x1u_1 = Json(VOID, GblSchedule$json$lambda);
+  this.y1u_1 = ListSerializer(Companion_instance_13.q1m());
+  this.z1u_1 = setOf(['great', 'ultra', 'master', 'little', 'league', 'edition', 'cup', 'go', 'the', 'of', 'battle']);
 }
-protoOf(GblSchedule).l1u = function (name) {
+protoOf(GblSchedule).a1v = function (name) {
   return replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(name, 'Great League', 'Superliga'), 'Ultra League', 'Hyperliga'), 'Master League', 'Meisterliga'), 'Little League', 'Little Cup'), ' Edition', '-Edition'), ' Cup', '-Cup'), 'Classic', 'Klassik'), 'Holiday', 'Feiertags'), ', and ', ' und '), ' and ', ' und ');
 };
-protoOf(GblSchedule).t1x = function (text) {
+protoOf(GblSchedule).h1y = function (text) {
   // Inline function 'kotlin.collections.mapNotNull' call
   var tmp0 = get_jsonArray(Default_getInstance().z11(text));
   // Inline function 'kotlin.collections.mapNotNullTo' call
@@ -9583,8 +9777,8 @@ protoOf(GblSchedule).t1x = function (text) {
   var tmp$ret$8 = new sam$kotlin_Comparator$0_3(tmp_4);
   return sortedWith(destination, tmp$ret$8);
 };
-protoOf(GblSchedule).u1x = function (weeks) {
-  return this.i1u_1.x11(this.j1u_1, weeks);
+protoOf(GblSchedule).i1y = function (weeks) {
+  return this.x1u_1.x11(this.y1u_1, weeks);
 };
 protoOf(GblSchedule).p1o = function (text) {
   var tmp;
@@ -9597,7 +9791,7 @@ protoOf(GblSchedule).p1o = function (text) {
     var tmp_0;
     try {
       // Inline function 'kotlin.Companion.success' call
-      var value = this_0.i1u_1.y11(this_0.j1u_1, text);
+      var value = this_0.x1u_1.y11(this_0.y1u_1, text);
       tmp_0 = _Result___init__impl__xyqfz8(value);
     } catch ($p) {
       var tmp_1;
@@ -9618,14 +9812,14 @@ protoOf(GblSchedule).p1o = function (text) {
   var tmp0_elvis_lhs = tmp;
   return tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
 };
-protoOf(GblSchedule).v1x = function (weeks, now) {
+protoOf(GblSchedule).j1y = function (weeks, now) {
   var tmp$ret$0;
   $l$block: {
     // Inline function 'kotlin.collections.lastOrNull' call
     var iterator = weeks.s(weeks.l());
     while (iterator.x3()) {
       var element = iterator.y3();
-      if (compareTo(utc(GblSchedule_getInstance(), element.p1x_1), utc(GblSchedule_getInstance(), now)) <= 0 && compareTo(utc(GblSchedule_getInstance(), now), utc(GblSchedule_getInstance(), element.q1x_1)) < 0) {
+      if (compareTo(utc(GblSchedule_getInstance(), element.d1y_1), utc(GblSchedule_getInstance(), now)) <= 0 && compareTo(utc(GblSchedule_getInstance(), now), utc(GblSchedule_getInstance(), element.e1y_1)) < 0) {
         tmp$ret$0 = element;
         break $l$block;
       }
@@ -9634,14 +9828,14 @@ protoOf(GblSchedule).v1x = function (weeks, now) {
   }
   return tmp$ret$0;
 };
-protoOf(GblSchedule).w1x = function (weeks, now) {
+protoOf(GblSchedule).k1y = function (weeks, now) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = weeks.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (compareTo(utc(GblSchedule_getInstance(), element.p1x_1), utc(GblSchedule_getInstance(), now)) > 0) {
+    if (compareTo(utc(GblSchedule_getInstance(), element.d1y_1), utc(GblSchedule_getInstance(), now)) > 0) {
       destination.h(element);
     }
   }
@@ -9659,10 +9853,10 @@ protoOf(GblSchedule).w1x = function (weeks, now) {
       break $l$block_0;
     }
     var it = minElem;
-    var minValue = utc(GblSchedule_getInstance(), it.p1x_1);
+    var minValue = utc(GblSchedule_getInstance(), it.d1y_1);
     do {
       var e = iterator.k();
-      var v = utc(GblSchedule_getInstance(), e.p1x_1);
+      var v = utc(GblSchedule_getInstance(), e.d1y_1);
       if (compareTo(minValue, v) > 0) {
         minElem = e;
         minValue = v;
@@ -9673,7 +9867,7 @@ protoOf(GblSchedule).w1x = function (weeks, now) {
   }
   return tmp$ret$3;
 };
-protoOf(GblSchedule).x1x = function (part, formats) {
+protoOf(GblSchedule).l1y = function (part, formats) {
   var cp_0 = cp(this, part);
   var want = tokens(this, part);
   // Inline function 'kotlin.collections.filter' call
@@ -9773,7 +9967,7 @@ function Companion_12() {
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
-  tmp.y1x_1 = [lazy_0(tmp_0, CupRules$Companion$$childSerializers$_anonymous__2smypb), null, null];
+  tmp.m1y_1 = [lazy_0(tmp_0, CupRules$Companion$$childSerializers$_anonymous__2smypb), null, null];
 }
 protoOf(Companion_12).mi = function (gamemasterText) {
   var tmp = get_jsonObject(Default_getInstance().z11(gamemasterText)).fc('cups');
@@ -9916,17 +10110,17 @@ function CupRules(types, extraSpecies, firstStageOnly) {
   types = types === VOID ? emptyList() : types;
   extraSpecies = extraSpecies === VOID ? false : extraSpecies;
   firstStageOnly = firstStageOnly === VOID ? false : firstStageOnly;
-  this.z1x_1 = types;
-  this.a1y_1 = extraSpecies;
-  this.b1y_1 = firstStageOnly;
+  this.n1y_1 = types;
+  this.o1y_1 = extraSpecies;
+  this.p1y_1 = firstStageOnly;
 }
 protoOf(CupRules).toString = function () {
-  return 'CupRules(types=' + toString_0(this.z1x_1) + ', extraSpecies=' + this.a1y_1 + ', firstStageOnly=' + this.b1y_1 + ')';
+  return 'CupRules(types=' + toString_0(this.n1y_1) + ', extraSpecies=' + this.o1y_1 + ', firstStageOnly=' + this.p1y_1 + ')';
 };
 protoOf(CupRules).hashCode = function () {
-  var result = hashCode(this.z1x_1);
-  result = imul(result, 31) + getBooleanHashCode(this.a1y_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.b1y_1) | 0;
+  var result = hashCode(this.n1y_1);
+  result = imul(result, 31) + getBooleanHashCode(this.o1y_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.p1y_1) | 0;
   return result;
 };
 protoOf(CupRules).equals = function (other) {
@@ -9934,11 +10128,11 @@ protoOf(CupRules).equals = function (other) {
     return true;
   if (!(other instanceof CupRules))
     return false;
-  if (!equals(this.z1x_1, other.z1x_1))
+  if (!equals(this.n1y_1, other.n1y_1))
     return false;
-  if (!(this.a1y_1 === other.a1y_1))
+  if (!(this.o1y_1 === other.o1y_1))
     return false;
-  if (!(this.b1y_1 === other.b1y_1))
+  if (!(this.p1y_1 === other.p1y_1))
     return false;
   return true;
 };
@@ -10026,15 +10220,15 @@ var Role_ATTACKER_instance;
 var Role_TANK_instance;
 var Role_HEALER_instance;
 function Boss(species, giga) {
-  this.c1y_1 = species;
-  this.d1y_1 = giga;
+  this.q1y_1 = species;
+  this.r1y_1 = giga;
 }
 protoOf(Boss).toString = function () {
-  return 'Boss(species=' + this.c1y_1.toString() + ', giga=' + this.d1y_1 + ')';
+  return 'Boss(species=' + this.q1y_1.toString() + ', giga=' + this.r1y_1 + ')';
 };
 protoOf(Boss).hashCode = function () {
-  var result = this.c1y_1.hashCode();
-  result = imul(result, 31) + getBooleanHashCode(this.d1y_1) | 0;
+  var result = this.q1y_1.hashCode();
+  result = imul(result, 31) + getBooleanHashCode(this.r1y_1) | 0;
   return result;
 };
 protoOf(Boss).equals = function (other) {
@@ -10042,44 +10236,44 @@ protoOf(Boss).equals = function (other) {
     return true;
   if (!(other instanceof Boss))
     return false;
-  if (!this.c1y_1.equals(other.c1y_1))
+  if (!this.q1y_1.equals(other.q1y_1))
     return false;
-  if (!(this.d1y_1 === other.d1y_1))
+  if (!(this.r1y_1 === other.r1y_1))
     return false;
   return true;
 };
 function Role(name, ordinal, label) {
   Enum.call(this, name, ordinal);
-  this.g1y_1 = label;
+  this.u1y_1 = label;
 }
 function Pick(pokemon, species, giga, fast, maxType, maxDamage, bulk, weakness) {
-  this.h1y_1 = pokemon;
-  this.i1y_1 = species;
-  this.j1y_1 = giga;
-  this.k1y_1 = fast;
-  this.l1y_1 = maxType;
-  this.m1y_1 = maxDamage;
-  this.n1y_1 = bulk;
-  this.o1y_1 = weakness;
+  this.v1y_1 = pokemon;
+  this.w1y_1 = species;
+  this.x1y_1 = giga;
+  this.y1y_1 = fast;
+  this.z1y_1 = maxType;
+  this.a1z_1 = maxDamage;
+  this.b1z_1 = bulk;
+  this.c1z_1 = weakness;
 }
 protoOf(Pick).s1l = function () {
-  return this.h1y_1.s1l();
+  return this.v1y_1.s1l();
 };
-protoOf(Pick).p1y = function () {
-  return this.h1y_1.h1l_1;
+protoOf(Pick).d1z = function () {
+  return this.v1y_1.h1l_1;
 };
 protoOf(Pick).toString = function () {
-  return 'Pick(pokemon=' + this.h1y_1.toString() + ', species=' + this.i1y_1.toString() + ', giga=' + this.j1y_1 + ', fast=' + toString(this.k1y_1) + ', maxType=' + this.l1y_1 + ', maxDamage=' + this.m1y_1 + ', bulk=' + this.n1y_1 + ', weakness=' + this.o1y_1 + ')';
+  return 'Pick(pokemon=' + this.v1y_1.toString() + ', species=' + this.w1y_1.toString() + ', giga=' + this.x1y_1 + ', fast=' + toString(this.y1y_1) + ', maxType=' + this.z1y_1 + ', maxDamage=' + this.a1z_1 + ', bulk=' + this.b1z_1 + ', weakness=' + this.c1z_1 + ')';
 };
 protoOf(Pick).hashCode = function () {
-  var result = this.h1y_1.hashCode();
-  result = imul(result, 31) + this.i1y_1.hashCode() | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.j1y_1) | 0;
-  result = imul(result, 31) + (this.k1y_1 == null ? 0 : this.k1y_1.hashCode()) | 0;
-  result = imul(result, 31) + (this.l1y_1 == null ? 0 : getStringHashCode(this.l1y_1)) | 0;
-  result = imul(result, 31) + getNumberHashCode(this.m1y_1) | 0;
-  result = imul(result, 31) + getNumberHashCode(this.n1y_1) | 0;
-  result = imul(result, 31) + getNumberHashCode(this.o1y_1) | 0;
+  var result = this.v1y_1.hashCode();
+  result = imul(result, 31) + this.w1y_1.hashCode() | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.x1y_1) | 0;
+  result = imul(result, 31) + (this.y1y_1 == null ? 0 : this.y1y_1.hashCode()) | 0;
+  result = imul(result, 31) + (this.z1y_1 == null ? 0 : getStringHashCode(this.z1y_1)) | 0;
+  result = imul(result, 31) + getNumberHashCode(this.a1z_1) | 0;
+  result = imul(result, 31) + getNumberHashCode(this.b1z_1) | 0;
+  result = imul(result, 31) + getNumberHashCode(this.c1z_1) | 0;
   return result;
 };
 protoOf(Pick).equals = function (other) {
@@ -10087,36 +10281,36 @@ protoOf(Pick).equals = function (other) {
     return true;
   if (!(other instanceof Pick))
     return false;
-  if (!this.h1y_1.equals(other.h1y_1))
+  if (!this.v1y_1.equals(other.v1y_1))
     return false;
-  if (!this.i1y_1.equals(other.i1y_1))
+  if (!this.w1y_1.equals(other.w1y_1))
     return false;
-  if (!(this.j1y_1 === other.j1y_1))
+  if (!(this.x1y_1 === other.x1y_1))
     return false;
-  if (!equals(this.k1y_1, other.k1y_1))
+  if (!equals(this.y1y_1, other.y1y_1))
     return false;
-  if (!(this.l1y_1 == other.l1y_1))
+  if (!(this.z1y_1 == other.z1y_1))
     return false;
-  if (!equals(this.m1y_1, other.m1y_1))
+  if (!equals(this.a1z_1, other.a1z_1))
     return false;
-  if (!equals(this.n1y_1, other.n1y_1))
+  if (!equals(this.b1z_1, other.b1z_1))
     return false;
-  if (!equals(this.o1y_1, other.o1y_1))
+  if (!equals(this.c1z_1, other.c1z_1))
     return false;
   return true;
 };
 function Advice(text, gain, cost) {
-  this.q1y_1 = text;
-  this.r1y_1 = gain;
-  this.s1y_1 = cost;
+  this.e1z_1 = text;
+  this.f1z_1 = gain;
+  this.g1z_1 = cost;
 }
 protoOf(Advice).toString = function () {
-  return 'Advice(text=' + this.q1y_1 + ', gain=' + this.r1y_1 + ', cost=' + this.s1y_1 + ')';
+  return 'Advice(text=' + this.e1z_1 + ', gain=' + this.f1z_1 + ', cost=' + this.g1z_1 + ')';
 };
 protoOf(Advice).hashCode = function () {
-  var result = getStringHashCode(this.q1y_1);
-  result = imul(result, 31) + this.r1y_1 | 0;
-  result = imul(result, 31) + getStringHashCode(this.s1y_1) | 0;
+  var result = getStringHashCode(this.e1z_1);
+  result = imul(result, 31) + this.f1z_1 | 0;
+  result = imul(result, 31) + getStringHashCode(this.g1z_1) | 0;
   return result;
 };
 protoOf(Advice).equals = function (other) {
@@ -10124,26 +10318,26 @@ protoOf(Advice).equals = function (other) {
     return true;
   if (!(other instanceof Advice))
     return false;
-  if (!(this.q1y_1 === other.q1y_1))
+  if (!(this.e1z_1 === other.e1z_1))
     return false;
-  if (!(this.r1y_1 === other.r1y_1))
+  if (!(this.f1z_1 === other.f1z_1))
     return false;
-  if (!(this.s1y_1 === other.s1y_1))
+  if (!(this.g1z_1 === other.g1z_1))
     return false;
   return true;
 };
 function Member(role, pick, advice) {
-  this.t1y_1 = role;
-  this.u1y_1 = pick;
-  this.v1y_1 = advice;
+  this.h1z_1 = role;
+  this.i1z_1 = pick;
+  this.j1z_1 = advice;
 }
 protoOf(Member).toString = function () {
-  return 'Member(role=' + this.t1y_1.toString() + ', pick=' + this.u1y_1.toString() + ', advice=' + toString_0(this.v1y_1) + ')';
+  return 'Member(role=' + this.h1z_1.toString() + ', pick=' + this.i1z_1.toString() + ', advice=' + toString_0(this.j1z_1) + ')';
 };
 protoOf(Member).hashCode = function () {
-  var result = this.t1y_1.hashCode();
-  result = imul(result, 31) + this.u1y_1.hashCode() | 0;
-  result = imul(result, 31) + hashCode(this.v1y_1) | 0;
+  var result = this.h1z_1.hashCode();
+  result = imul(result, 31) + this.i1z_1.hashCode() | 0;
+  result = imul(result, 31) + hashCode(this.j1z_1) | 0;
   return result;
 };
 protoOf(Member).equals = function (other) {
@@ -10151,26 +10345,26 @@ protoOf(Member).equals = function (other) {
     return true;
   if (!(other instanceof Member))
     return false;
-  if (!this.t1y_1.equals(other.t1y_1))
+  if (!this.h1z_1.equals(other.h1z_1))
     return false;
-  if (!this.u1y_1.equals(other.u1y_1))
+  if (!this.i1z_1.equals(other.i1z_1))
     return false;
-  if (!equals(this.v1y_1, other.v1y_1))
+  if (!equals(this.j1z_1, other.j1z_1))
     return false;
   return true;
 };
 function Team(members, bench, unmarked) {
-  this.w1y_1 = members;
-  this.x1y_1 = bench;
-  this.y1y_1 = unmarked;
+  this.k1z_1 = members;
+  this.l1z_1 = bench;
+  this.m1z_1 = unmarked;
 }
 protoOf(Team).toString = function () {
-  return 'Team(members=' + toString_0(this.w1y_1) + ', bench=' + toString_0(this.x1y_1) + ', unmarked=' + toString_0(this.y1y_1) + ')';
+  return 'Team(members=' + toString_0(this.k1z_1) + ', bench=' + toString_0(this.l1z_1) + ', unmarked=' + toString_0(this.m1z_1) + ')';
 };
 protoOf(Team).hashCode = function () {
-  var result = hashCode(this.w1y_1);
-  result = imul(result, 31) + hashCode(this.x1y_1) | 0;
-  result = imul(result, 31) + hashCode(this.y1y_1) | 0;
+  var result = hashCode(this.k1z_1);
+  result = imul(result, 31) + hashCode(this.l1z_1) | 0;
+  result = imul(result, 31) + hashCode(this.m1z_1) | 0;
   return result;
 };
 protoOf(Team).equals = function (other) {
@@ -10178,24 +10372,24 @@ protoOf(Team).equals = function (other) {
     return true;
   if (!(other instanceof Team))
     return false;
-  if (!equals(this.w1y_1, other.w1y_1))
+  if (!equals(this.k1z_1, other.k1z_1))
     return false;
-  if (!equals(this.x1y_1, other.x1y_1))
+  if (!equals(this.l1z_1, other.l1z_1))
     return false;
-  if (!equals(this.y1y_1, other.y1y_1))
+  if (!equals(this.m1z_1, other.m1z_1))
     return false;
   return true;
 };
 function weakness($this, boss, types) {
   // Inline function 'kotlin.collections.maxOf' call
-  var iterator = $this.b1z(boss).i();
+  var iterator = $this.p1z(boss).i();
   if (!iterator.j())
     throw NoSuchElementException_init_$Create$();
   var t = iterator.k();
-  var maxValue = TypeChart_getInstance().a1j(t, types) * (boss.c1y_1.x1e_1.t(t) ? 1.2 : 1.0);
+  var maxValue = TypeChart_getInstance().a1j(t, types) * (boss.q1y_1.x1e_1.t(t) ? 1.2 : 1.0);
   while (iterator.j()) {
     var t_0 = iterator.k();
-    var v = TypeChart_getInstance().a1j(t_0, types) * (boss.c1y_1.x1e_1.t(t_0) ? 1.2 : 1.0);
+    var v = TypeChart_getInstance().a1j(t_0, types) * (boss.q1y_1.x1e_1.t(t_0) ? 1.2 : 1.0);
     // Inline function 'kotlin.comparisons.maxOf' call
     var a = maxValue;
     maxValue = Math.max(a, v);
@@ -10204,15 +10398,15 @@ function weakness($this, boss, types) {
 }
 function Companion_13() {
   Companion_instance_15 = this;
-  this.c1z_1 = listOf([250.0, 300.0, 350.0]);
-  this.d1z_1 = listOf([350.0, 400.0, 450.0]);
-  this.e1z_1 = listOf([0.0, 20.0, 40.0, 60.0]);
-  this.f1z_1 = listOf([0, 8, 12, 16]);
-  this.g1z_1 = 0.79;
-  this.h1z_1 = 40.0;
-  this.i1z_1 = setOf_0('eternatus_eternamax');
+  this.q1z_1 = listOf([250.0, 300.0, 350.0]);
+  this.r1z_1 = listOf([350.0, 400.0, 450.0]);
+  this.s1z_1 = listOf([0.0, 20.0, 40.0, 60.0]);
+  this.t1z_1 = listOf([0, 8, 12, 16]);
+  this.u1z_1 = 0.79;
+  this.v1z_1 = 40.0;
+  this.w1z_1 = setOf_0('eternatus_eternamax');
 }
-protoOf(Companion_13).j1z = function (n) {
+protoOf(Companion_13).x1z = function (n) {
   // Inline function 'kotlin.text.reversed' call
   var this_0 = n.toString();
   var tmp$ret$0 = toString_0(reversed(isCharSequence(this_0) ? this_0 : THROW_CCE()));
@@ -10227,16 +10421,16 @@ function Companion_getInstance_13() {
   return Companion_instance_15;
 }
 function sam$kotlin_Comparator$0_4(function_0) {
-  this.k1z_1 = function_0;
+  this.y1z_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_4).sc = function (a, b) {
-  return this.k1z_1(a, b);
+  return this.y1z_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_4).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_4).r2 = function () {
-  return this.k1z_1;
+  return this.y1z_1;
 };
 protoOf(sam$kotlin_Comparator$0_4).equals = function (other) {
   var tmp;
@@ -10257,16 +10451,16 @@ protoOf(sam$kotlin_Comparator$0_4).hashCode = function () {
   return hashCode(this.r2());
 };
 function sam$kotlin_Comparator$0_5(function_0) {
-  this.l1z_1 = function_0;
+  this.z1z_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_5).sc = function (a, b) {
-  return this.l1z_1(a, b);
+  return this.z1z_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_5).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_5).r2 = function () {
-  return this.l1z_1;
+  return this.z1z_1;
 };
 protoOf(sam$kotlin_Comparator$0_5).equals = function (other) {
   var tmp;
@@ -10287,7 +10481,7 @@ protoOf(sam$kotlin_Comparator$0_5).hashCode = function () {
   return hashCode(this.r2());
 };
 function rate$hit($boss, species, atk, bossDef, type, power) {
-  var mult = TypeChart_getInstance().a1j(type, $boss.c1y_1.x1e_1);
+  var mult = TypeChart_getInstance().a1j(type, $boss.q1y_1.x1e_1);
   if (species.x1e_1.t(type))
     mult = mult * 1.2;
   // Inline function 'kotlin.math.floor' call
@@ -10308,32 +10502,32 @@ function MaxCalc$rate$lambda_0($boss, $species, $atk, $bossDef) {
   };
 }
 function MaxCalc$team$lambda(it) {
-  return it.m1y_1;
+  return it.a1z_1;
 }
 function MaxCalc$team$lambda_0(it) {
-  return it.n1y_1;
+  return it.b1z_1;
 }
 function MaxCalc$team$lambda_1(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.n1y_1;
-  var tmp$ret$2 = a.n1y_1;
+  var tmp = b.b1z_1;
+  var tmp$ret$2 = a.b1z_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function MaxCalc$team$lambda_2($attacker, $rest) {
   return function (a, b) {
     // Inline function 'kotlin.comparisons.compareValuesBy' call
     var tmp0_safe_receiver = $attacker;
-    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.m1y_1;
-    var tmp = b.m1y_1 / (tmp1_elvis_lhs == null ? 1.0 : tmp1_elvis_lhs);
+    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.a1z_1;
+    var tmp = b.a1z_1 / (tmp1_elvis_lhs == null ? 1.0 : tmp1_elvis_lhs);
     var tmp2_safe_receiver = firstOrNull($rest);
-    var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.n1y_1;
-    var tmp_0 = tmp + b.n1y_1 / (tmp3_elvis_lhs == null ? 1.0 : tmp3_elvis_lhs);
+    var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.b1z_1;
+    var tmp_0 = tmp + b.b1z_1 / (tmp3_elvis_lhs == null ? 1.0 : tmp3_elvis_lhs);
     var tmp0_safe_receiver_0 = $attacker;
-    var tmp1_elvis_lhs_0 = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.m1y_1;
-    var tmp_1 = a.m1y_1 / (tmp1_elvis_lhs_0 == null ? 1.0 : tmp1_elvis_lhs_0);
+    var tmp1_elvis_lhs_0 = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.a1z_1;
+    var tmp_1 = a.a1z_1 / (tmp1_elvis_lhs_0 == null ? 1.0 : tmp1_elvis_lhs_0);
     var tmp2_safe_receiver_0 = firstOrNull($rest);
-    var tmp3_elvis_lhs_0 = tmp2_safe_receiver_0 == null ? null : tmp2_safe_receiver_0.n1y_1;
-    var tmp$ret$2 = tmp_1 + a.n1y_1 / (tmp3_elvis_lhs_0 == null ? 1.0 : tmp3_elvis_lhs_0);
+    var tmp3_elvis_lhs_0 = tmp2_safe_receiver_0 == null ? null : tmp2_safe_receiver_0.b1z_1;
+    var tmp$ret$2 = tmp_1 + a.b1z_1 / (tmp3_elvis_lhs_0 == null ? 1.0 : tmp3_elvis_lhs_0);
     return compareValues(tmp_0, tmp$ret$2);
   };
 }
@@ -10348,7 +10542,7 @@ function advice$stepCost(group, move, toLevel) {
   }
   var c = tmp;
   // Inline function 'kotlin.takeIf' call
-  var this_0 = c.g1x_1;
+  var this_0 = c.u1x_1;
   var tmp_0;
   if (this_0 > 1) {
     tmp_0 = this_0;
@@ -10365,7 +10559,7 @@ function advice$stepCost(group, move, toLevel) {
   }
   var tmp_2 = tmp_1;
   // Inline function 'kotlin.takeIf' call
-  var this_1 = c.h1x_1;
+  var this_1 = c.v1x_1;
   var tmp_3;
   if (this_1 > 0) {
     tmp_3 = this_1;
@@ -10382,7 +10576,7 @@ function advice$stepCost(group, move, toLevel) {
   }
   var tmp_5 = tmp_4;
   // Inline function 'kotlin.takeIf' call
-  var this_2 = c.f1x_1;
+  var this_2 = c.t1x_1;
   var tmp_6;
   if (this_2 > 0) {
     tmp_6 = this_2;
@@ -10395,7 +10589,7 @@ function advice$stepCost(group, move, toLevel) {
     tmp_7 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_7 = Companion_getInstance_13().j1z(tmp5_safe_receiver) + ' Dyna-Partikel';
+    tmp_7 = Companion_getInstance_13().x1z(tmp5_safe_receiver) + ' Dyna-Partikel';
   }
   return joinToString(listOfNotNull([tmp_2, tmp_5, tmp_7]), ', ');
 }
@@ -10404,8 +10598,8 @@ function advice$pct(new_0, old) {
 }
 function MaxCalc$advice$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.r1y_1;
-  var tmp$ret$2 = a.r1y_1;
+  var tmp = b.f1z_1;
+  var tmp$ret$2 = a.f1z_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function Role_ATTACKER_getInstance() {
@@ -10422,19 +10616,19 @@ function Role_HEALER_getInstance() {
 }
 function MaxCalc(data) {
   Companion_getInstance_13();
-  this.z1y_1 = data;
-  this.a1z_1 = this.z1y_1.k1t();
+  this.n1z_1 = data;
+  this.o1z_1 = this.n1z_1.z1t();
 }
-protoOf(MaxCalc).b1z = function (boss) {
+protoOf(MaxCalc).p1z = function (boss) {
   // Inline function 'kotlin.collections.mapNotNull' call
-  var tmp0 = plus_1(boss.c1y_1.y1e_1, boss.c1y_1.z1e_1);
+  var tmp0 = plus_1(boss.q1y_1.y1e_1, boss.q1y_1.z1e_1);
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.forEach' call
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = this.a1z_1.a2(element);
+    var tmp0_safe_receiver = this.o1z_1.a2(element);
     var tmp0_safe_receiver_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.q1j_1;
     if (tmp0_safe_receiver_0 == null)
       null;
@@ -10447,18 +10641,18 @@ protoOf(MaxCalc).b1z = function (boss) {
   var this_0 = distinct(destination);
   var tmp;
   if (this_0.r()) {
-    tmp = boss.c1y_1.x1e_1;
+    tmp = boss.q1y_1.x1e_1;
   } else {
     tmp = this_0;
   }
   return tmp;
 };
-protoOf(MaxCalc).m1z = function (level, giga) {
+protoOf(MaxCalc).a20 = function (level, giga) {
   var l = coerceIn(level, 1, 3);
-  return (giga ? Companion_getInstance_13().d1z_1 : Companion_getInstance_13().c1z_1).q(l - 1 | 0);
+  return (giga ? Companion_getInstance_13().r1z_1 : Companion_getInstance_13().q1z_1).q(l - 1 | 0);
 };
-protoOf(MaxCalc).n1z = function (p, boss, level, attack, guard) {
-  var tmp0_elvis_lhs = this.z1y_1.z1f().a2(p.b1l_1);
+protoOf(MaxCalc).b20 = function (p, boss, level, attack, guard) {
+  var tmp0_elvis_lhs = this.n1z_1.z1f().a2(p.b1l_1);
   var tmp;
   if (tmp0_elvis_lhs == null) {
     return null;
@@ -10466,14 +10660,14 @@ protoOf(MaxCalc).n1z = function (p, boss, level, attack, guard) {
     tmp = tmp0_elvis_lhs;
   }
   var species = tmp;
-  var cpm = this.z1y_1.i1g().r1g(level);
+  var cpm = this.n1z_1.i1g().r1g(level);
   var atk = (species.u1e_1 + p.e1l_1 | 0) * cpm;
   var def = (species.v1e_1 + p.f1l_1 | 0) * cpm;
   // Inline function 'kotlin.math.floor' call
   var x = (species.w1e_1 + p.g1l_1 | 0) * cpm;
   var tmp$ret$0 = Math.floor(x);
   var hp = coerceAtLeast_0(tmp$ret$0, 10.0);
-  var bossDef = (boss.c1y_1.v1e_1 + 15 | 0) * 0.79;
+  var bossDef = (boss.q1y_1.v1e_1 + 15 | 0) * 0.79;
   // Inline function 'kotlin.collections.mapNotNull' call
   var tmp0 = species.y1e_1;
   // Inline function 'kotlin.collections.mapNotNullTo' call
@@ -10482,7 +10676,7 @@ protoOf(MaxCalc).n1z = function (p, boss, level, attack, guard) {
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = this.a1z_1.a2(element);
+    var tmp0_safe_receiver = this.o1z_1.a2(element);
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -10496,7 +10690,7 @@ protoOf(MaxCalc).n1z = function (p, boss, level, attack, guard) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
-    if (element_0.g1w() && element_0.x1j_1 > 0) {
+    if (element_0.u1w() && element_0.x1j_1 > 0) {
       destination_0.h(element_0);
     }
   }
@@ -10508,7 +10702,7 @@ protoOf(MaxCalc).n1z = function (p, boss, level, attack, guard) {
     tmp_0 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_0 = this.a1z_1.a2(tmp1_safe_receiver);
+    tmp_0 = this.o1z_1.a2(tmp1_safe_receiver);
   }
   var tmp2_safe_receiver = tmp_0;
   var tmp_1;
@@ -10517,7 +10711,7 @@ protoOf(MaxCalc).n1z = function (p, boss, level, attack, guard) {
   } else {
     // Inline function 'kotlin.takeIf' call
     var tmp_2;
-    if (tmp2_safe_receiver.g1w()) {
+    if (tmp2_safe_receiver.u1w()) {
       tmp_2 = tmp2_safe_receiver;
     } else {
       tmp_2 = null;
@@ -10563,7 +10757,7 @@ protoOf(MaxCalc).n1z = function (p, boss, level, attack, guard) {
     }
     fast = tmp_3;
     type = gmax;
-    damage = rate$hit(boss, species, atk, bossDef, gmax, this.m1z(attack, true));
+    damage = rate$hit(boss, species, atk, bossDef, gmax, this.a20(attack, true));
   } else {
     var tmp_4;
     if (known == null) {
@@ -10581,21 +10775,21 @@ protoOf(MaxCalc).n1z = function (p, boss, level, attack, guard) {
       tmp_6 = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp_6 = rate$hit(boss, species, atk, bossDef, tmp6_safe_receiver.q1j_1, this.m1z(attack, false));
+      tmp_6 = rate$hit(boss, species, atk, bossDef, tmp6_safe_receiver.q1j_1, this.a20(attack, false));
     }
     var tmp7_elvis_lhs = tmp_6;
     damage = tmp7_elvis_lhs == null ? 0.0 : tmp7_elvis_lhs;
   }
   var w = weakness(this, boss, species.x1e_1);
-  return new Pick(p, species, !(gmax == null), fast, type, damage, def * (hp + Companion_getInstance_13().e1z_1.q(coerceIn(guard, 0, 3))) / w, w);
+  return new Pick(p, species, !(gmax == null), fast, type, damage, def * (hp + Companion_getInstance_13().s1z_1.q(coerceIn(guard, 0, 3))) / w, w);
 };
-protoOf(MaxCalc).o1z = function (p, boss, level, attack, guard, $super) {
+protoOf(MaxCalc).c20 = function (p, boss, level, attack, guard, $super) {
   level = level === VOID ? p.h1l_1 : level;
   attack = attack === VOID ? p.n1l_1 : attack;
   guard = guard === VOID ? p.o1l_1 : guard;
-  return $super === VOID ? this.n1z(p, boss, level, attack, guard) : $super.n1z.call(this, p, boss, level, attack, guard);
+  return $super === VOID ? this.b20(p, boss, level, attack, guard) : $super.b20.call(this, p, boss, level, attack, guard);
 };
-protoOf(MaxCalc).p1z = function (saved, boss) {
+protoOf(MaxCalc).d20 = function (saved, boss) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -10613,7 +10807,7 @@ protoOf(MaxCalc).p1z = function (saved, boss) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
-    var tmp0_safe_receiver = this.o1z(element_0, boss);
+    var tmp0_safe_receiver = this.c20(element_0, boss);
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -10645,7 +10839,7 @@ protoOf(MaxCalc).p1z = function (saved, boss) {
     case 2:
       var a = defenders.q(0);
       var b = defenders.q(1);
-      var aTank = (a.h1y_1.o1l_1 - a.h1y_1.p1l_1 | 0) >= (b.h1y_1.o1l_1 - b.h1y_1.p1l_1 | 0);
+      var aTank = (a.v1y_1.o1l_1 - a.v1y_1.p1l_1 | 0) >= (b.v1y_1.o1l_1 - b.v1y_1.p1l_1 | 0);
       tmp_1 = aTank ? to(a, b) : to(b, a);
       break;
     case 1:
@@ -10663,7 +10857,7 @@ protoOf(MaxCalc).p1z = function (saved, boss) {
     tmp_2 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_2 = new Member(Role_ATTACKER_getInstance(), attacker, this.q1z(attacker, Role_ATTACKER_getInstance(), boss));
+    tmp_2 = new Member(Role_ATTACKER_getInstance(), attacker, this.e20(attacker, Role_ATTACKER_getInstance(), boss));
   }
   var tmp_3 = tmp_2;
   var tmp_4;
@@ -10671,7 +10865,7 @@ protoOf(MaxCalc).p1z = function (saved, boss) {
     tmp_4 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_4 = new Member(Role_TANK_getInstance(), tank, this.q1z(tank, Role_TANK_getInstance(), boss));
+    tmp_4 = new Member(Role_TANK_getInstance(), tank, this.e20(tank, Role_TANK_getInstance(), boss));
   }
   var tmp_5 = tmp_4;
   var tmp_6;
@@ -10679,7 +10873,7 @@ protoOf(MaxCalc).p1z = function (saved, boss) {
     tmp_6 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_6 = new Member(Role_HEALER_getInstance(), healer, this.q1z(healer, Role_HEALER_getInstance(), boss));
+    tmp_6 = new Member(Role_HEALER_getInstance(), healer, this.e20(healer, Role_HEALER_getInstance(), boss));
   }
   var members = listOfNotNull([tmp_3, tmp_5, tmp_6]);
   // Inline function 'kotlin.collections.map' call
@@ -10688,7 +10882,7 @@ protoOf(MaxCalc).p1z = function (saved, boss) {
   var _iterator__ex2g4s_2 = members.i();
   while (_iterator__ex2g4s_2.j()) {
     var item = _iterator__ex2g4s_2.k();
-    var tmp$ret$23 = item.u1y_1.h1y_1.a1l_1;
+    var tmp$ret$23 = item.i1z_1.v1y_1.a1l_1;
     destination_2.h(tmp$ret$23);
   }
   var used = toSet(destination_2);
@@ -10698,7 +10892,7 @@ protoOf(MaxCalc).p1z = function (saved, boss) {
   var _iterator__ex2g4s_3 = picks.i();
   while (_iterator__ex2g4s_3.j()) {
     var element_2 = _iterator__ex2g4s_3.k();
-    if (!used.t(element_2.h1y_1.a1l_1)) {
+    if (!used.t(element_2.v1y_1.a1l_1)) {
       destination_3.h(element_2);
     }
   }
@@ -10713,31 +10907,31 @@ protoOf(MaxCalc).p1z = function (saved, boss) {
   var _iterator__ex2g4s_4 = saved.i();
   while (_iterator__ex2g4s_4.j()) {
     var element_3 = _iterator__ex2g4s_4.k();
-    if (element_3.m1l_1 === 0 && element_3.y1m(this.z1y_1)) {
+    if (element_3.m1l_1 === 0 && element_3.y1m(this.n1z_1)) {
       destination_4.h(element_3);
     }
   }
   var unmarked = destination_4;
   return new Team(members, bench, unmarked);
 };
-protoOf(MaxCalc).q1z = function (pick, role, boss) {
-  var p = pick.h1y_1;
-  var tmp0_safe_receiver = pick.i1y_1.g1f_1;
+protoOf(MaxCalc).e20 = function (pick, role, boss) {
+  var p = pick.v1y_1;
+  var tmp0_safe_receiver = pick.w1y_1.g1f_1;
   var tmp;
   if (tmp0_safe_receiver == null) {
     tmp = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp = this.z1y_1.t1f_1.a2(tmp0_safe_receiver);
+    tmp = this.n1z_1.t1f_1.a2(tmp0_safe_receiver);
   }
   var group = tmp;
   var out = ArrayList_init_$Create$_0();
   if (p.h1l_1 < 40.0) {
-    var tmp1_elvis_lhs = this.o1z(p, boss, 40.0);
+    var tmp1_elvis_lhs = this.c20(p, boss, 40.0);
     var up = tmp1_elvis_lhs == null ? pick : tmp1_elvis_lhs;
-    var gain = role.equals(Role_ATTACKER_getInstance()) ? advice$pct(up.m1y_1, pick.m1y_1) : advice$pct(up.n1y_1, pick.n1y_1);
-    var cost = this.z1y_1.u1h().y1h(p.h1l_1, 40.0, p.i1l_1);
-    var tmp_0 = Companion_getInstance_13().j1z(cost.z1h_1) + ' Sternenstaub';
+    var gain = role.equals(Role_ATTACKER_getInstance()) ? advice$pct(up.a1z_1, pick.a1z_1) : advice$pct(up.b1z_1, pick.b1z_1);
+    var cost = this.n1z_1.u1h().y1h(p.h1l_1, 40.0, p.i1l_1);
+    var tmp_0 = Companion_getInstance_13().x1z(cost.z1h_1) + ' Sternenstaub';
     // Inline function 'kotlin.takeIf' call
     var this_0 = cost.a1i_1;
     var tmp_1;
@@ -10779,8 +10973,8 @@ protoOf(MaxCalc).q1z = function (pick, role, boss) {
     case 0:
       if (p.n1l_1 < 3) {
         var next = p.n1l_1 + 1 | 0;
-        var gain_0 = advice$pct(this.m1z(next, pick.j1y_1), this.m1z(p.n1l_1, pick.j1y_1));
-        var name = pick.j1y_1 ? 'G-Max-Angriff' : 'Dyna-Angriff';
+        var gain_0 = advice$pct(this.a20(next, pick.x1y_1), this.a20(p.n1l_1, pick.x1y_1));
+        var name = pick.x1y_1 ? 'G-Max-Angriff' : 'Dyna-Angriff';
         out.h(new Advice(name + ' auf Stufe ' + next + ': +' + gain_0 + ' % Schaden', gain_0, advice$stepCost(group, 0, next)));
       }
 
@@ -10788,9 +10982,9 @@ protoOf(MaxCalc).q1z = function (pick, role, boss) {
     case 1:
       if (p.o1l_1 < 3) {
         var next_0 = p.o1l_1 + 1 | 0;
-        var tmp5_elvis_lhs = this.o1z(p, boss, VOID, VOID, next_0);
+        var tmp5_elvis_lhs = this.c20(p, boss, VOID, VOID, next_0);
         var up_0 = tmp5_elvis_lhs == null ? pick : tmp5_elvis_lhs;
-        var gain_1 = advice$pct(up_0.n1y_1, pick.n1y_1);
+        var gain_1 = advice$pct(up_0.b1z_1, pick.b1z_1);
         var text = p.o1l_1 === 0 ? 'Dyna-Schild freischalten' : 'Dyna-Schild auf Stufe ' + next_0;
         out.h(new Advice(text + ': +' + gain_1 + ' % aushalten', gain_1, advice$stepCost(group, 1, next_0)));
       }
@@ -10799,9 +10993,9 @@ protoOf(MaxCalc).q1z = function (pick, role, boss) {
     case 2:
       if (p.p1l_1 < 3) {
         var next_1 = p.p1l_1 + 1 | 0;
-        var now = Companion_getInstance_13().f1z_1.q(p.p1l_1);
-        var text_0 = p.p1l_1 === 0 ? 'Dyna-Geist freischalten: heilt das Team um ' + Companion_getInstance_13().f1z_1.q(1) + ' %' : 'Dyna-Geist auf Stufe ' + next_1 + ': heilt ' + Companion_getInstance_13().f1z_1.q(next_1) + ' % statt ' + now + ' %';
-        var gain_2 = now === 0 ? 100 : advice$pct(Companion_getInstance_13().f1z_1.q(next_1), now);
+        var now = Companion_getInstance_13().t1z_1.q(p.p1l_1);
+        var text_0 = p.p1l_1 === 0 ? 'Dyna-Geist freischalten: heilt das Team um ' + Companion_getInstance_13().t1z_1.q(1) + ' %' : 'Dyna-Geist auf Stufe ' + next_1 + ': heilt ' + Companion_getInstance_13().t1z_1.q(next_1) + ' % statt ' + now + ' %';
+        var gain_2 = now === 0 ? 100 : advice$pct(Companion_getInstance_13().t1z_1.q(next_1), now);
         out.h(new Advice(text_0, gain_2, advice$stepCost(group, 2, next_1)));
       }
 
@@ -10833,23 +11027,23 @@ function $serializer_12() {
   tmp0_serialDesc.it('giga', false);
   tmp0_serialDesc.it('start', false);
   tmp0_serialDesc.it('end', false);
-  this.r1z_1 = tmp0_serialDesc;
+  this.f20_1 = tmp0_serialDesc;
 }
-protoOf($serializer_12).s1z = function (encoder, value) {
-  var tmp0_desc = this.r1z_1;
+protoOf($serializer_12).g20 = function (encoder, value) {
+  var tmp0_desc = this.f20_1;
   var tmp1_output = encoder.bn(tmp0_desc);
-  tmp1_output.qo(tmp0_desc, 0, value.t1z_1);
-  tmp1_output.qo(tmp0_desc, 1, value.u1z_1);
-  tmp1_output.io(tmp0_desc, 2, value.v1z_1);
-  tmp1_output.qo(tmp0_desc, 3, value.w1z_1);
-  tmp1_output.qo(tmp0_desc, 4, value.x1z_1);
+  tmp1_output.qo(tmp0_desc, 0, value.h20_1);
+  tmp1_output.qo(tmp0_desc, 1, value.i20_1);
+  tmp1_output.io(tmp0_desc, 2, value.j20_1);
+  tmp1_output.qo(tmp0_desc, 3, value.k20_1);
+  tmp1_output.qo(tmp0_desc, 4, value.l20_1);
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_12).kk = function (encoder, value) {
-  return this.s1z(encoder, value instanceof Entry_0 ? value : THROW_CCE());
+  return this.g20(encoder, value instanceof Entry_0 ? value : THROW_CCE());
 };
 protoOf($serializer_12).lk = function (decoder) {
-  var tmp0_desc = this.r1z_1;
+  var tmp0_desc = this.f20_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -10905,7 +11099,7 @@ protoOf($serializer_12).lk = function (decoder) {
   return Entry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, null);
 };
 protoOf($serializer_12).jk = function () {
-  return this.r1z_1;
+  return this.f20_1;
 };
 protoOf($serializer_12).xt = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -10921,34 +11115,34 @@ function $serializer_getInstance_12() {
 }
 function Entry_init_$Init$(seen0, title, speciesId, giga, start, end, serializationConstructorMarker, $this) {
   if (!(31 === (31 & seen0))) {
-    throwMissingFieldException(seen0, 31, $serializer_getInstance_12().r1z_1);
+    throwMissingFieldException(seen0, 31, $serializer_getInstance_12().f20_1);
   }
-  $this.t1z_1 = title;
-  $this.u1z_1 = speciesId;
-  $this.v1z_1 = giga;
-  $this.w1z_1 = start;
-  $this.x1z_1 = end;
+  $this.h20_1 = title;
+  $this.i20_1 = speciesId;
+  $this.j20_1 = giga;
+  $this.k20_1 = start;
+  $this.l20_1 = end;
   return $this;
 }
 function Entry_init_$Create$(seen0, title, speciesId, giga, start, end, serializationConstructorMarker) {
   return Entry_init_$Init$(seen0, title, speciesId, giga, start, end, serializationConstructorMarker, objectCreate(protoOf(Entry_0)));
 }
 function Entry_0(title, speciesId, giga, start, end) {
-  this.t1z_1 = title;
-  this.u1z_1 = speciesId;
-  this.v1z_1 = giga;
-  this.w1z_1 = start;
-  this.x1z_1 = end;
+  this.h20_1 = title;
+  this.i20_1 = speciesId;
+  this.j20_1 = giga;
+  this.k20_1 = start;
+  this.l20_1 = end;
 }
 protoOf(Entry_0).toString = function () {
-  return 'Entry(title=' + this.t1z_1 + ', speciesId=' + this.u1z_1 + ', giga=' + this.v1z_1 + ', start=' + this.w1z_1 + ', end=' + this.x1z_1 + ')';
+  return 'Entry(title=' + this.h20_1 + ', speciesId=' + this.i20_1 + ', giga=' + this.j20_1 + ', start=' + this.k20_1 + ', end=' + this.l20_1 + ')';
 };
 protoOf(Entry_0).hashCode = function () {
-  var result = getStringHashCode(this.t1z_1);
-  result = imul(result, 31) + getStringHashCode(this.u1z_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.v1z_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.w1z_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.x1z_1) | 0;
+  var result = getStringHashCode(this.h20_1);
+  result = imul(result, 31) + getStringHashCode(this.i20_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.j20_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.k20_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.l20_1) | 0;
   return result;
 };
 protoOf(Entry_0).equals = function (other) {
@@ -10956,29 +11150,29 @@ protoOf(Entry_0).equals = function (other) {
     return true;
   if (!(other instanceof Entry_0))
     return false;
-  if (!(this.t1z_1 === other.t1z_1))
+  if (!(this.h20_1 === other.h20_1))
     return false;
-  if (!(this.u1z_1 === other.u1z_1))
+  if (!(this.i20_1 === other.i20_1))
     return false;
-  if (!(this.v1z_1 === other.v1z_1))
+  if (!(this.j20_1 === other.j20_1))
     return false;
-  if (!(this.w1z_1 === other.w1z_1))
+  if (!(this.k20_1 === other.k20_1))
     return false;
-  if (!(this.x1z_1 === other.x1z_1))
+  if (!(this.l20_1 === other.l20_1))
     return false;
   return true;
 };
 function sam$kotlin_Comparator$0_6(function_0) {
-  this.y1z_1 = function_0;
+  this.m20_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_6).sc = function (a, b) {
-  return this.y1z_1(a, b);
+  return this.m20_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_6).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_6).r2 = function () {
-  return this.y1z_1;
+  return this.m20_1;
 };
 protoOf(sam$kotlin_Comparator$0_6).equals = function (other) {
   var tmp;
@@ -11011,19 +11205,19 @@ function parseEvents$s(o, k) {
 }
 function MaxEvents$parseEvents$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = a.w1z_1;
-  var tmp$ret$2 = b.w1z_1;
+  var tmp = a.k20_1;
+  var tmp$ret$2 = b.k20_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function MaxEvents() {
   MaxEvents_instance = this;
-  this.z1z_1 = ListSerializer(Companion_instance_16.q1m());
+  this.n20_1 = ListSerializer(Companion_instance_16.q1m());
   var tmp = this;
-  tmp.a20_1 = Json(VOID, MaxEvents$json$lambda);
-  this.b20_1 = Regex_init_$Create$("(Dynamax|Gigantamax|Eternamax)\\s+([A-Z][\\w'\u2019.\\-]*(?:\\s+\\([^)]*\\))?)");
+  tmp.o20_1 = Json(VOID, MaxEvents$json$lambda);
+  this.p20_1 = Regex_init_$Create$("(Dynamax|Gigantamax|Eternamax)\\s+([A-Z][\\w'\u2019.\\-]*(?:\\s+\\([^)]*\\))?)");
 }
-protoOf(MaxEvents).c20 = function (list) {
-  return this.a20_1.x11(this.z1z_1, list);
+protoOf(MaxEvents).q20 = function (list) {
+  return this.o20_1.x11(this.n20_1, list);
 };
 protoOf(MaxEvents).p1o = function (text) {
   var tmp;
@@ -11036,7 +11230,7 @@ protoOf(MaxEvents).p1o = function (text) {
     var tmp_0;
     try {
       // Inline function 'kotlin.Companion.success' call
-      var value = this_0.a20_1.y11(this_0.z1z_1, text);
+      var value = this_0.o20_1.y11(this_0.n20_1, text);
       tmp_0 = _Result___init__impl__xyqfz8(value);
     } catch ($p) {
       var tmp_1;
@@ -11057,15 +11251,15 @@ protoOf(MaxEvents).p1o = function (text) {
   var tmp0_elvis_lhs = tmp;
   return tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
 };
-protoOf(MaxEvents).f1t = function (title, data) {
-  var tmp0_safe_receiver = this.b20_1.nb(title);
+protoOf(MaxEvents).u1t = function (title, data) {
+  var tmp0_safe_receiver = this.p20_1.nb(title);
   if (tmp0_safe_receiver == null)
     null;
   else {
     // Inline function 'kotlin.let' call
     $l$block: {
       var giga = !(tmp0_safe_receiver.qc().q(1) === 'Dynamax');
-      var tmp0_elvis_lhs = RaidList_getInstance().b1v(tmp0_safe_receiver.qc().q(2), data);
+      var tmp0_elvis_lhs = RaidList_getInstance().q1v(tmp0_safe_receiver.qc().q(2), data);
       var tmp;
       if (tmp0_elvis_lhs == null) {
         break $l$block;
@@ -11094,7 +11288,7 @@ protoOf(MaxEvents).f1t = function (title, data) {
   }
   if (tmp_0)
     return null;
-  var tmp1_safe_receiver = RaidList_getInstance().b1v(before, data);
+  var tmp1_safe_receiver = RaidList_getInstance().q1v(before, data);
   var tmp_2;
   if (tmp1_safe_receiver == null) {
     tmp_2 = null;
@@ -11104,7 +11298,7 @@ protoOf(MaxEvents).f1t = function (title, data) {
   }
   return tmp_2;
 };
-protoOf(MaxEvents).d20 = function (text, data, now) {
+protoOf(MaxEvents).r20 = function (text, data, now) {
   var tmp = Default_getInstance().z11(text);
   var tmp0_elvis_lhs = tmp instanceof JsonArray ? tmp : null;
   var tmp_0;
@@ -11151,7 +11345,7 @@ protoOf(MaxEvents).d20 = function (text, data, now) {
         tmp$ret$4 = null;
         break $l$block_2;
       }
-      var tmp1_elvis_lhs = MaxEvents_getInstance().f1t(title, data);
+      var tmp1_elvis_lhs = MaxEvents_getInstance().u1t(title, data);
       var tmp_3;
       if (tmp1_elvis_lhs == null) {
         tmp$ret$4 = null;
@@ -11200,7 +11394,7 @@ protoOf(MaxEvents).d20 = function (text, data, now) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var e = _iterator__ex2g4s_0.k();
-    var key_0 = to(e.u1z_1, e.w1z_1);
+    var key_0 = to(e.i20_1, e.k20_1);
     if (set.h(key_0)) {
       list.h(e);
     }
@@ -11243,7 +11437,7 @@ function index($this, data) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
-    var key = Companion_getInstance_15().e20(element_0.q1e_1);
+    var key = Companion_getInstance_15().s20(element_0.q1e_1);
     // Inline function 'kotlin.collections.getOrPut' call
     var value = destination_0.a2(key);
     var tmp;
@@ -11276,16 +11470,16 @@ function index($this, data) {
   return map;
 }
 function sam$kotlin_Comparator$0_7(function_0) {
-  this.f20_1 = function_0;
+  this.t20_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_7).sc = function (a, b) {
-  return this.f20_1(a, b);
+  return this.t20_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_7).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_7).r2 = function () {
-  return this.f20_1;
+  return this.t20_1;
 };
 protoOf(sam$kotlin_Comparator$0_7).equals = function (other) {
   var tmp;
@@ -11307,8 +11501,8 @@ protoOf(sam$kotlin_Comparator$0_7).hashCode = function () {
 };
 function Mega$counters$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.k20_1.r20();
-  var tmp$ret$2 = a.k20_1.r20();
+  var tmp = b.y20_1.f21();
+  var tmp$ret$2 = a.y20_1.f21();
   return compareValues(tmp, tmp$ret$2);
 }
 function Mega() {
@@ -11321,8 +11515,8 @@ protoOf(Mega).w1m = function (data, speciesId) {
   var tmp0_elvis_lhs = index(this, data).a2(speciesId);
   return tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
 };
-protoOf(Mega).s20 = function (calc, data, saved, boss, weather) {
-  var normal = calc.v20(saved, boss, weather);
+protoOf(Mega).g21 = function (calc, data, saved, boss, weather) {
+  var normal = calc.j21(saved, boss, weather);
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -11347,7 +11541,7 @@ protoOf(Mega).s20 = function (calc, data, saved, boss, weather) {
     var _iterator__ex2g4s_1 = tmp0.i();
     while (_iterator__ex2g4s_1.j()) {
       var element_1 = _iterator__ex2g4s_1.k();
-      var tmp0_safe_receiver = calc.w20(element_1, element_0.s1l(), element_0.h1l_1, false, boss, weather, true);
+      var tmp0_safe_receiver = calc.k21(element_1, element_0.s1l(), element_0.h1l_1, false, boss, weather, true);
       var tmp;
       if (tmp0_safe_receiver == null) {
         tmp = null;
@@ -11374,7 +11568,7 @@ protoOf(Mega).s20 = function (calc, data, saved, boss, weather) {
   var _iterator__ex2g4s_2 = tmp0_0.i();
   while (_iterator__ex2g4s_2.j()) {
     var element_2 = _iterator__ex2g4s_2.k();
-    var key = element_2.m20_1;
+    var key = element_2.a21_1;
     // Inline function 'kotlin.collections.getOrPut' call
     var value = destination_2.a2(key);
     var tmp_0;
@@ -11406,10 +11600,10 @@ protoOf(Mega).s20 = function (calc, data, saved, boss, weather) {
         tmp$ret$23 = maxElem;
         break $l$block;
       }
-      var maxValue = maxElem.k20_1.r20();
+      var maxValue = maxElem.y20_1.f21();
       do {
         var e = iterator.k();
-        var v = e.k20_1.r20();
+        var v = e.y20_1.f21();
         if (compareTo(maxValue, v) < 0) {
           maxElem = e;
           maxValue = v;
@@ -11434,17 +11628,17 @@ function Mega_getInstance() {
   return Mega_instance;
 }
 function DetailGroup(section, title, names) {
-  this.c1t_1 = section;
-  this.d1t_1 = title;
-  this.e1t_1 = names;
+  this.r1t_1 = section;
+  this.s1t_1 = title;
+  this.t1t_1 = names;
 }
 protoOf(DetailGroup).toString = function () {
-  return 'DetailGroup(section=' + this.c1t_1 + ', title=' + this.d1t_1 + ', names=' + toString_0(this.e1t_1) + ')';
+  return 'DetailGroup(section=' + this.r1t_1 + ', title=' + this.s1t_1 + ', names=' + toString_0(this.t1t_1) + ')';
 };
 protoOf(DetailGroup).hashCode = function () {
-  var result = getStringHashCode(this.c1t_1);
-  result = imul(result, 31) + getStringHashCode(this.d1t_1) | 0;
-  result = imul(result, 31) + hashCode(this.e1t_1) | 0;
+  var result = getStringHashCode(this.r1t_1);
+  result = imul(result, 31) + getStringHashCode(this.s1t_1) | 0;
+  result = imul(result, 31) + hashCode(this.t1t_1) | 0;
   return result;
 };
 protoOf(DetailGroup).equals = function (other) {
@@ -11452,26 +11646,26 @@ protoOf(DetailGroup).equals = function (other) {
     return true;
   if (!(other instanceof DetailGroup))
     return false;
-  if (!(this.c1t_1 === other.c1t_1))
+  if (!(this.r1t_1 === other.r1t_1))
     return false;
-  if (!(this.d1t_1 === other.d1t_1))
+  if (!(this.s1t_1 === other.s1t_1))
     return false;
-  if (!equals(this.e1t_1, other.e1t_1))
+  if (!equals(this.t1t_1, other.t1t_1))
     return false;
   return true;
 };
 function EventMove_0(pokemon, move, fast) {
-  this.h1t_1 = pokemon;
-  this.i1t_1 = move;
-  this.j1t_1 = fast;
+  this.w1t_1 = pokemon;
+  this.x1t_1 = move;
+  this.y1t_1 = fast;
 }
 protoOf(EventMove_0).toString = function () {
-  return 'EventMove(pokemon=' + this.h1t_1 + ', move=' + this.i1t_1 + ', fast=' + this.j1t_1 + ')';
+  return 'EventMove(pokemon=' + this.w1t_1 + ', move=' + this.x1t_1 + ', fast=' + this.y1t_1 + ')';
 };
 protoOf(EventMove_0).hashCode = function () {
-  var result = getStringHashCode(this.h1t_1);
-  result = imul(result, 31) + getStringHashCode(this.i1t_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.j1t_1) | 0;
+  var result = getStringHashCode(this.w1t_1);
+  result = imul(result, 31) + getStringHashCode(this.x1t_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.y1t_1) | 0;
   return result;
 };
 protoOf(EventMove_0).equals = function (other) {
@@ -11479,11 +11673,11 @@ protoOf(EventMove_0).equals = function (other) {
     return true;
   if (!(other instanceof EventMove_0))
     return false;
-  if (!(this.h1t_1 === other.h1t_1))
+  if (!(this.w1t_1 === other.w1t_1))
     return false;
-  if (!(this.i1t_1 === other.i1t_1))
+  if (!(this.x1t_1 === other.x1t_1))
     return false;
-  if (!(this.j1t_1 === other.j1t_1))
+  if (!(this.y1t_1 === other.y1t_1))
     return false;
   return true;
 };
@@ -11491,21 +11685,21 @@ function EventDetails(groups, bonuses, ticketBonuses, moves, ticket) {
   ticketBonuses = ticketBonuses === VOID ? emptyList() : ticketBonuses;
   moves = moves === VOID ? emptyList() : moves;
   ticket = ticket === VOID ? '' : ticket;
-  this.x1s_1 = groups;
-  this.y1s_1 = bonuses;
-  this.z1s_1 = ticketBonuses;
-  this.a1t_1 = moves;
-  this.b1t_1 = ticket;
+  this.m1t_1 = groups;
+  this.n1t_1 = bonuses;
+  this.o1t_1 = ticketBonuses;
+  this.p1t_1 = moves;
+  this.q1t_1 = ticket;
 }
 protoOf(EventDetails).toString = function () {
-  return 'EventDetails(groups=' + toString_0(this.x1s_1) + ', bonuses=' + toString_0(this.y1s_1) + ', ticketBonuses=' + toString_0(this.z1s_1) + ', moves=' + toString_0(this.a1t_1) + ', ticket=' + this.b1t_1 + ')';
+  return 'EventDetails(groups=' + toString_0(this.m1t_1) + ', bonuses=' + toString_0(this.n1t_1) + ', ticketBonuses=' + toString_0(this.o1t_1) + ', moves=' + toString_0(this.p1t_1) + ', ticket=' + this.q1t_1 + ')';
 };
 protoOf(EventDetails).hashCode = function () {
-  var result = hashCode(this.x1s_1);
-  result = imul(result, 31) + hashCode(this.y1s_1) | 0;
-  result = imul(result, 31) + hashCode(this.z1s_1) | 0;
-  result = imul(result, 31) + hashCode(this.a1t_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.b1t_1) | 0;
+  var result = hashCode(this.m1t_1);
+  result = imul(result, 31) + hashCode(this.n1t_1) | 0;
+  result = imul(result, 31) + hashCode(this.o1t_1) | 0;
+  result = imul(result, 31) + hashCode(this.p1t_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.q1t_1) | 0;
   return result;
 };
 protoOf(EventDetails).equals = function (other) {
@@ -11513,15 +11707,15 @@ protoOf(EventDetails).equals = function (other) {
     return true;
   if (!(other instanceof EventDetails))
     return false;
-  if (!equals(this.x1s_1, other.x1s_1))
+  if (!equals(this.m1t_1, other.m1t_1))
     return false;
-  if (!equals(this.y1s_1, other.y1s_1))
+  if (!equals(this.n1t_1, other.n1t_1))
     return false;
-  if (!equals(this.z1s_1, other.z1s_1))
+  if (!equals(this.o1t_1, other.o1t_1))
     return false;
-  if (!equals(this.a1t_1, other.a1t_1))
+  if (!equals(this.p1t_1, other.p1t_1))
     return false;
-  if (!(this.b1t_1 === other.b1t_1))
+  if (!(this.q1t_1 === other.q1t_1))
     return false;
   return true;
 };
@@ -11529,21 +11723,21 @@ function Feed(items, eventNames, details, research, codes) {
   details = details === VOID ? emptyMap() : details;
   research = research === VOID ? emptyMap() : research;
   codes = codes === VOID ? emptyList() : codes;
-  this.x20_1 = items;
-  this.y20_1 = eventNames;
-  this.z20_1 = details;
-  this.a21_1 = research;
-  this.b21_1 = codes;
+  this.l21_1 = items;
+  this.m21_1 = eventNames;
+  this.n21_1 = details;
+  this.o21_1 = research;
+  this.p21_1 = codes;
 }
 protoOf(Feed).toString = function () {
-  return 'Feed(items=' + toString_0(this.x20_1) + ', eventNames=' + toString_0(this.y20_1) + ', details=' + toString_0(this.z20_1) + ', research=' + toString_0(this.a21_1) + ', codes=' + toString_0(this.b21_1) + ')';
+  return 'Feed(items=' + toString_0(this.l21_1) + ', eventNames=' + toString_0(this.m21_1) + ', details=' + toString_0(this.n21_1) + ', research=' + toString_0(this.o21_1) + ', codes=' + toString_0(this.p21_1) + ')';
 };
 protoOf(Feed).hashCode = function () {
-  var result = hashCode(this.x20_1);
-  result = imul(result, 31) + hashCode(this.y20_1) | 0;
-  result = imul(result, 31) + hashCode(this.z20_1) | 0;
-  result = imul(result, 31) + hashCode(this.a21_1) | 0;
-  result = imul(result, 31) + hashCode(this.b21_1) | 0;
+  var result = hashCode(this.l21_1);
+  result = imul(result, 31) + hashCode(this.m21_1) | 0;
+  result = imul(result, 31) + hashCode(this.n21_1) | 0;
+  result = imul(result, 31) + hashCode(this.o21_1) | 0;
+  result = imul(result, 31) + hashCode(this.p21_1) | 0;
   return result;
 };
 protoOf(Feed).equals = function (other) {
@@ -11551,21 +11745,21 @@ protoOf(Feed).equals = function (other) {
     return true;
   if (!(other instanceof Feed))
     return false;
-  if (!equals(this.x20_1, other.x20_1))
+  if (!equals(this.l21_1, other.l21_1))
     return false;
-  if (!equals(this.y20_1, other.y20_1))
+  if (!equals(this.m21_1, other.m21_1))
     return false;
-  if (!equals(this.z20_1, other.z20_1))
+  if (!equals(this.n21_1, other.n21_1))
     return false;
-  if (!equals(this.a21_1, other.a21_1))
+  if (!equals(this.o21_1, other.o21_1))
     return false;
-  if (!equals(this.b21_1, other.b21_1))
+  if (!equals(this.p21_1, other.p21_1))
     return false;
   return true;
 };
 function englishNames($this, data) {
-  if ($this.y1t_1 === data)
-    return $this.z1t_1;
+  if ($this.n1u_1 === data)
+    return $this.o1u_1;
   var tmp = $this;
   // Inline function 'kotlin.collections.filter' call
   var tmp0 = data.p1f_1;
@@ -11661,24 +11855,24 @@ function englishNames($this, data) {
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_2 = News$englishNames$lambda;
   var tmp$ret$30 = new sam$kotlin_Comparator$0_8(tmp_2);
-  tmp.z1t_1 = sortedWith(destination_1, tmp$ret$30);
-  $this.y1t_1 = data;
-  return $this.z1t_1;
+  tmp.o1u_1 = sortedWith(destination_1, tmp$ret$30);
+  $this.n1u_1 = data;
+  return $this.o1u_1;
 }
 function Item_0(title, link, date, categories, titleDe) {
   titleDe = titleDe === VOID ? null : titleDe;
-  this.c21_1 = title;
-  this.d21_1 = link;
-  this.e21_1 = date;
-  this.f21_1 = categories;
-  this.g21_1 = titleDe;
+  this.q21_1 = title;
+  this.r21_1 = link;
+  this.s21_1 = date;
+  this.t21_1 = categories;
+  this.u21_1 = titleDe;
 }
-protoOf(Item_0).h21 = function () {
+protoOf(Item_0).v21 = function () {
   var tmp;
-  if (News_getInstance().c1u_1.mb(this.c21_1)) {
+  if (News_getInstance().r1u_1.mb(this.q21_1)) {
     tmp = true;
   } else {
-    var tmp0 = this.f21_1;
+    var tmp0 = this.t21_1;
     var tmp$ret$0;
     $l$block_0: {
       // Inline function 'kotlin.collections.any' call
@@ -11695,7 +11889,7 @@ protoOf(Item_0).h21 = function () {
       var _iterator__ex2g4s = tmp0.i();
       while (_iterator__ex2g4s.j()) {
         var element = _iterator__ex2g4s.k();
-        if (News_getInstance().c1u_1.mb(element)) {
+        if (News_getInstance().r1u_1.mb(element)) {
           tmp$ret$0 = true;
           break $l$block_0;
         }
@@ -11706,12 +11900,12 @@ protoOf(Item_0).h21 = function () {
   }
   return tmp;
 };
-protoOf(Item_0).i21 = function () {
-  var parts = split(this.e21_1, [' ']);
+protoOf(Item_0).w21 = function () {
+  var parts = split(this.s21_1, [' ']);
   if (parts.l() < 3)
     return '';
   // Inline function 'kotlin.takeIf' call
-  var this_0 = News_getInstance().b1u_1.u(parts.q(2));
+  var this_0 = News_getInstance().q1u_1.u(parts.q(2));
   var tmp;
   if (this_0 >= 0) {
     tmp = this_0;
@@ -11737,14 +11931,14 @@ protoOf(Item_0).i21 = function () {
   return padStart(parts.q(1), 2, _Char___init__impl__6a9atx(48)) + '.' + padStart(month.toString(), 2, _Char___init__impl__6a9atx(48)) + '.';
 };
 protoOf(Item_0).toString = function () {
-  return 'Item(title=' + this.c21_1 + ', link=' + this.d21_1 + ', date=' + this.e21_1 + ', categories=' + toString_0(this.f21_1) + ', titleDe=' + this.g21_1 + ')';
+  return 'Item(title=' + this.q21_1 + ', link=' + this.r21_1 + ', date=' + this.s21_1 + ', categories=' + toString_0(this.t21_1) + ', titleDe=' + this.u21_1 + ')';
 };
 protoOf(Item_0).hashCode = function () {
-  var result = getStringHashCode(this.c21_1);
-  result = imul(result, 31) + getStringHashCode(this.d21_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.e21_1) | 0;
-  result = imul(result, 31) + hashCode(this.f21_1) | 0;
-  result = imul(result, 31) + (this.g21_1 == null ? 0 : getStringHashCode(this.g21_1)) | 0;
+  var result = getStringHashCode(this.q21_1);
+  result = imul(result, 31) + getStringHashCode(this.r21_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.s21_1) | 0;
+  result = imul(result, 31) + hashCode(this.t21_1) | 0;
+  result = imul(result, 31) + (this.u21_1 == null ? 0 : getStringHashCode(this.u21_1)) | 0;
   return result;
 };
 protoOf(Item_0).equals = function (other) {
@@ -11752,30 +11946,30 @@ protoOf(Item_0).equals = function (other) {
     return true;
   if (!(other instanceof Item_0))
     return false;
-  if (!(this.c21_1 === other.c21_1))
+  if (!(this.q21_1 === other.q21_1))
     return false;
-  if (!(this.d21_1 === other.d21_1))
+  if (!(this.r21_1 === other.r21_1))
     return false;
-  if (!(this.e21_1 === other.e21_1))
+  if (!(this.s21_1 === other.s21_1))
     return false;
-  if (!equals(this.f21_1, other.f21_1))
+  if (!equals(this.t21_1, other.t21_1))
     return false;
-  if (!(this.g21_1 == other.g21_1))
+  if (!(this.u21_1 == other.u21_1))
     return false;
   return true;
 };
 function Hit_0(item, species, owned) {
-  this.e1u_1 = item;
-  this.f1u_1 = species;
-  this.g1u_1 = owned;
+  this.t1u_1 = item;
+  this.u1u_1 = species;
+  this.v1u_1 = owned;
 }
 protoOf(Hit_0).toString = function () {
-  return 'Hit(item=' + this.e1u_1.toString() + ', species=' + toString_0(this.f1u_1) + ', owned=' + this.g1u_1 + ')';
+  return 'Hit(item=' + this.t1u_1.toString() + ', species=' + toString_0(this.u1u_1) + ', owned=' + this.v1u_1 + ')';
 };
 protoOf(Hit_0).hashCode = function () {
-  var result = this.e1u_1.hashCode();
-  result = imul(result, 31) + hashCode(this.f1u_1) | 0;
-  result = imul(result, 31) + this.g1u_1 | 0;
+  var result = this.t1u_1.hashCode();
+  result = imul(result, 31) + hashCode(this.u1u_1) | 0;
+  result = imul(result, 31) + this.v1u_1 | 0;
   return result;
 };
 protoOf(Hit_0).equals = function (other) {
@@ -11783,25 +11977,25 @@ protoOf(Hit_0).equals = function (other) {
     return true;
   if (!(other instanceof Hit_0))
     return false;
-  if (!this.e1u_1.equals(other.e1u_1))
+  if (!this.t1u_1.equals(other.t1u_1))
     return false;
-  if (!equals(this.f1u_1, other.f1u_1))
+  if (!equals(this.u1u_1, other.u1u_1))
     return false;
-  if (!(this.g1u_1 === other.g1u_1))
+  if (!(this.v1u_1 === other.v1u_1))
     return false;
   return true;
 };
 function sam$kotlin_Comparator$0_8(function_0) {
-  this.j21_1 = function_0;
+  this.x21_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_8).sc = function (a, b) {
-  return this.j21_1(a, b);
+  return this.x21_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_8).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_8).r2 = function () {
-  return this.j21_1;
+  return this.x21_1;
 };
 protoOf(sam$kotlin_Comparator$0_8).equals = function (other) {
   var tmp;
@@ -11874,14 +12068,14 @@ function hits$family($analyzer, id) {
   return tmp1_elvis_lhs == null ? id : tmp1_elvis_lhs;
 }
 function News$hits$$inlined$groupingBy$1($this, $analyzer) {
-  this.k21_1 = $this;
-  this.l21_1 = $analyzer;
+  this.y21_1 = $this;
+  this.z21_1 = $analyzer;
 }
 protoOf(News$hits$$inlined$groupingBy$1).h3 = function () {
-  return this.k21_1.i();
+  return this.y21_1.i();
 };
 protoOf(News$hits$$inlined$groupingBy$1).e1q = function (element) {
-  return hits$family(this.l21_1, element.b1l_1);
+  return hits$family(this.z21_1, element.b1l_1);
 };
 protoOf(News$hits$$inlined$groupingBy$1).i3 = function (element) {
   return this.e1q(element);
@@ -11891,17 +12085,17 @@ function News$hits$lambda(it) {
 }
 function News() {
   News_instance = this;
-  this.u1t_1 = 'https://pokemongohub.net/feed/';
-  this.v1t_1 = 'https://raw.githubusercontent.com/PiMiVa/pogo-iv/main/news.json';
-  this.w1t_1 = 'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.min.json';
-  this.x1t_1 = listOf([to('Raubz\xFCgen', 'Raids'), to('Raubz\xFCge', 'Raids'), to('Raubzug', 'Raid'), to('Raid-K\xE4mpfen', 'Raids'), to('Raid-K\xE4mpfe', 'Raids'), to('Raidk\xE4mpfe', 'Raids'), to('Schlachtzug', 'Raid'), to('Schlachtz\xFCge', 'Raids'), to('Schatten-', 'Crypto-'), to('Schatten ', 'Crypto-'), to('Shadow ', 'Crypto-'), to('Spotlight Hour', 'Rampenlicht-Stunde'), to('Rampenlichtstunde', 'Rampenlicht-Stunde'), to('Gigantamax', 'Gigadynamax'), to('Community-Tag', 'Community Day'), to('Gemeinschaftstag', 'Community Day'), to('5-Sterne', '5\u2605'), to('5-Stern', '5\u2605'), to('3-Sterne', '3\u2605'), to('Altered Forme', 'Wandelform'), to('Origin Forme', 'Urform'), to('Incarnate Forme', 'Inkarnationsform'), to('Therian Forme', 'Tiergeistform'), to('Inkarnierte Form', 'Inkarnationsform')]);
-  this.y1t_1 = null;
-  this.z1t_1 = emptyList();
-  this.a1u_1 = Regex_init_$Create$_0('TCG|Pok\xE9mon Sleep|Pokemon Sleep|UNITE|Masters EX|Caf\xE9|Champions', RegexOption_IGNORE_CASE_getInstance());
-  this.b1u_1 = listOf(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']);
-  this.c1u_1 = Regex_init_$Create$_0('leak|datamin|rumou?r|spotted|teas|coming soon|upcoming|hint|could|might|possible|found in the code|unreleased|placeholder', RegexOption_IGNORE_CASE_getInstance());
+  this.j1u_1 = 'https://pokemongohub.net/feed/';
+  this.k1u_1 = 'https://raw.githubusercontent.com/PiMiVa/pogo-iv/main/news.json';
+  this.l1u_1 = 'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.min.json';
+  this.m1u_1 = listOf([to('Raubz\xFCgen', 'Raids'), to('Raubz\xFCge', 'Raids'), to('Raubzug', 'Raid'), to('Raid-K\xE4mpfen', 'Raids'), to('Raid-K\xE4mpfe', 'Raids'), to('Raidk\xE4mpfe', 'Raids'), to('Schlachtzug', 'Raid'), to('Schlachtz\xFCge', 'Raids'), to('Schatten-', 'Crypto-'), to('Schatten ', 'Crypto-'), to('Shadow ', 'Crypto-'), to('Spotlight Hour', 'Rampenlicht-Stunde'), to('Rampenlichtstunde', 'Rampenlicht-Stunde'), to('Gigantamax', 'Gigadynamax'), to('Community-Tag', 'Community Day'), to('Gemeinschaftstag', 'Community Day'), to('5-Sterne', '5\u2605'), to('5-Stern', '5\u2605'), to('3-Sterne', '3\u2605'), to('Altered Forme', 'Wandelform'), to('Origin Forme', 'Urform'), to('Incarnate Forme', 'Inkarnationsform'), to('Therian Forme', 'Tiergeistform'), to('Inkarnierte Form', 'Inkarnationsform')]);
+  this.n1u_1 = null;
+  this.o1u_1 = emptyList();
+  this.p1u_1 = Regex_init_$Create$_0('TCG|Pok\xE9mon Sleep|Pokemon Sleep|UNITE|Masters EX|Caf\xE9|Champions', RegexOption_IGNORE_CASE_getInstance());
+  this.q1u_1 = listOf(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']);
+  this.r1u_1 = Regex_init_$Create$_0('leak|datamin|rumou?r|spotted|teas|coming soon|upcoming|hint|could|might|possible|found in the code|unreleased|placeholder', RegexOption_IGNORE_CASE_getInstance());
 }
-protoOf(News).m21 = function (text) {
+protoOf(News).a22 = function (text) {
   // Inline function 'kotlin.runCatching' call
   var tmp;
   try {
@@ -11976,9 +12170,9 @@ protoOf(News).m21 = function (text) {
       var element_1 = _iterator__ex2g4s_1.k();
       var tmp_7;
       // Inline function 'kotlin.text.isNotEmpty' call
-      var this_0 = element_1.c21_1;
+      var this_0 = element_1.q21_1;
       if (charSequenceLength(this_0) > 0) {
-        tmp_7 = !this.a1u_1.mb(element_1.c21_1);
+        tmp_7 = !this.p1u_1.mb(element_1.q21_1);
       } else {
         tmp_7 = false;
       }
@@ -12206,7 +12400,7 @@ protoOf(News).m21 = function (text) {
           tmp_25 = this_2;
         }
         var tmp$ret$80 = tmp_25;
-        var tmp_26 = tmp_24.n21(tmp$ret$80);
+        var tmp_26 = tmp_24.b22(tmp$ret$80);
         var tmp_27 = Research_getInstance();
         // Inline function 'kotlin.collections.ifEmpty' call
         var this_3 = parseJson$strings(o_0, 'ticketBonusesDe');
@@ -12217,7 +12411,7 @@ protoOf(News).m21 = function (text) {
           tmp_28 = this_3;
         }
         var tmp$ret$82 = tmp_28;
-        var tmp_29 = tmp_27.n21(tmp$ret$82);
+        var tmp_29 = tmp_27.b22(tmp$ret$82);
         // Inline function 'kotlin.text.orEmpty' call
         var tmp0_elvis_lhs_17 = parseJson$s(o_0, 'ticket');
         var tmp$ret$84 = tmp0_elvis_lhs_17 == null ? '' : tmp0_elvis_lhs_17;
@@ -12286,7 +12480,7 @@ protoOf(News).m21 = function (text) {
   var this_4 = tmp;
   return _Result___get_isFailure__impl__jpiriv(this_4) ? null : _Result___get_value__impl__bjfvqg(this_4);
 };
-protoOf(News).o21 = function (link) {
+protoOf(News).c22 = function (link) {
   var tmp0_elvis_lhs = Regex_init_$Create$('^https://([^/]+)(/[^?#]*)?(\\?[^#]*)?').nb(link);
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -12317,9 +12511,9 @@ protoOf(News).o21 = function (link) {
   }
   return tmp_1 + tmp_2 + '_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de';
 };
-protoOf(News).m1u = function (text, data) {
+protoOf(News).b1v = function (text, data) {
   var out = text;
-  var _iterator__ex2g4s = this.x1t_1.i();
+  var _iterator__ex2g4s = this.m1u_1.i();
   while (_iterator__ex2g4s.j()) {
     var _destruct__k2r9zo = _iterator__ex2g4s.k();
     var a = _destruct__k2r9zo.k9();
@@ -12339,7 +12533,7 @@ protoOf(News).m1u = function (text, data) {
   }
   return Research_getInstance().o1m(out);
 };
-protoOf(News).d1u = function (items, data, analyzer, collection) {
+protoOf(News).s1u = function (items, data, analyzer, collection) {
   // Inline function 'kotlin.collections.groupingBy' call
   var tmp$ret$0 = new News$hits$$inlined$groupingBy$1(collection, analyzer);
   var families = eachCount(tmp$ret$0);
@@ -12404,7 +12598,7 @@ protoOf(News).d1u = function (items, data, analyzer, collection) {
     var tmp_0 = Regex_init_$Create$('[a-z]+');
     // Inline function 'kotlin.text.lowercase' call
     // Inline function 'kotlin.js.asDynamic' call
-    var tmp$ret$19 = item_0.c21_1.toLowerCase();
+    var tmp$ret$19 = item_0.q21_1.toLowerCase();
     var tmp_1 = tmp_0.pb(tmp$ret$19);
     var words = toSet_0(map(tmp_1, News$hits$lambda));
     // Inline function 'kotlin.collections.filterKeys' call
@@ -12512,15 +12706,15 @@ function get_entries_3() {
 }
 var $ENTRIES_3;
 function Suggestion(text, hint) {
-  this.p21_1 = text;
-  this.q21_1 = hint;
+  this.d22_1 = text;
+  this.e22_1 = hint;
 }
 protoOf(Suggestion).toString = function () {
-  return 'Suggestion(text=' + this.p21_1 + ', hint=' + this.q21_1 + ')';
+  return 'Suggestion(text=' + this.d22_1 + ', hint=' + this.e22_1 + ')';
 };
 protoOf(Suggestion).hashCode = function () {
-  var result = getStringHashCode(this.p21_1);
-  result = imul(result, 31) + getStringHashCode(this.q21_1) | 0;
+  var result = getStringHashCode(this.d22_1);
+  result = imul(result, 31) + getStringHashCode(this.e22_1) | 0;
   return result;
 };
 protoOf(Suggestion).equals = function (other) {
@@ -12528,9 +12722,9 @@ protoOf(Suggestion).equals = function (other) {
     return true;
   if (!(other instanceof Suggestion))
     return false;
-  if (!(this.p21_1 === other.p21_1))
+  if (!(this.d22_1 === other.d22_1))
     return false;
-  if (!(this.q21_1 === other.q21_1))
+  if (!(this.e22_1 === other.e22_1))
     return false;
   return true;
 };
@@ -12579,10 +12773,10 @@ function Mode(name, ordinal) {
 }
 function Block(name, ordinal, label) {
   Enum.call(this, name, ordinal);
-  this.t21_1 = label;
+  this.h22_1 = label;
 }
 function circled($this, n) {
-  return n === 0 ? '\u24EA' : $this.u21(n);
+  return n === 0 ? '\u24EA' : $this.i22(n);
 }
 function leagueLabel($this, league) {
   var tmp;
@@ -12606,16 +12800,16 @@ function leagueLabel($this, league) {
   return tmp;
 }
 function sam$kotlin_Comparator$0_9(function_0) {
-  this.v21_1 = function_0;
+  this.j22_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_9).sc = function (a, b) {
-  return this.v21_1(a, b);
+  return this.j22_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_9).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_9).r2 = function () {
-  return this.v21_1;
+  return this.j22_1;
 };
 protoOf(sam$kotlin_Comparator$0_9).equals = function (other) {
   var tmp;
@@ -12636,16 +12830,16 @@ protoOf(sam$kotlin_Comparator$0_9).hashCode = function () {
   return hashCode(this.r2());
 };
 function sam$kotlin_Comparator$0_10(function_0) {
-  this.w21_1 = function_0;
+  this.k22_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_10).sc = function (a, b) {
-  return this.w21_1(a, b);
+  return this.k22_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_10).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_10).r2 = function () {
-  return this.w21_1;
+  return this.k22_1;
 };
 protoOf(sam$kotlin_Comparator$0_10).equals = function (other) {
   var tmp;
@@ -12666,16 +12860,16 @@ protoOf(sam$kotlin_Comparator$0_10).hashCode = function () {
   return hashCode(this.r2());
 };
 function sam$kotlin_Comparator$0_11(function_0) {
-  this.x21_1 = function_0;
+  this.l22_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_11).sc = function (a, b) {
-  return this.x21_1(a, b);
+  return this.l22_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_11).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_11).r2 = function () {
-  return this.x21_1;
+  return this.l22_1;
 };
 protoOf(sam$kotlin_Comparator$0_11).equals = function (other) {
   var tmp;
@@ -12712,7 +12906,7 @@ function Nickname$custom$lambda(a, b) {
   return compareValues(tmp, tmp$ret$2);
 }
 function Nickname$custom$lambda_0(it) {
-  return Nickname_getInstance().y21(it.s1d_1) + Nickname_getInstance().u21(ensureNotNull(it.u1d_1).e1e_1);
+  return Nickname_getInstance().m22(it.s1d_1) + Nickname_getInstance().i22(ensureNotNull(it.u1d_1).e1e_1);
 }
 function Nickname$custom$lambda_1($name) {
   return function (it) {
@@ -12727,9 +12921,9 @@ function Nickname$both$lambda(a, b) {
 }
 function Nickname$suggestions$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp0_elvis_lhs = toIntOrNull(substringAfterLast_0(a.q21_1, ' '));
+  var tmp0_elvis_lhs = toIntOrNull(substringAfterLast_0(a.e22_1, ' '));
   var tmp = tmp0_elvis_lhs == null ? 2147483647 : tmp0_elvis_lhs;
-  var tmp0_elvis_lhs_0 = toIntOrNull(substringAfterLast_0(b.q21_1, ' '));
+  var tmp0_elvis_lhs_0 = toIntOrNull(substringAfterLast_0(b.e22_1, ' '));
   var tmp$ret$2 = tmp0_elvis_lhs_0 == null ? 2147483647 : tmp0_elvis_lhs_0;
   return compareValues(tmp, tmp$ret$2);
 }
@@ -12787,7 +12981,7 @@ function Nickname() {
   this.f1h_1 = listOf([Block_NAME_getInstance(), Block_IV_getInstance(), Block_LEAGUE_getInstance()]);
   this.g1h_1 = 30;
 }
-protoOf(Nickname).y21 = function (league) {
+protoOf(Nickname).m22 = function (league) {
   var tmp;
   switch (league.i2_1) {
     case 0:
@@ -12808,7 +13002,7 @@ protoOf(Nickname).y21 = function (league) {
   }
   return tmp;
 };
-protoOf(Nickname).z21 = function (n) {
+protoOf(Nickname).n22 = function (n) {
   // Inline function 'kotlin.text.map' call
   var this_0 = n.toString();
   // Inline function 'kotlin.text.mapTo' call
@@ -12822,10 +13016,10 @@ protoOf(Nickname).z21 = function (n) {
   }
   return joinToString(destination, '');
 };
-protoOf(Nickname).u21 = function (n) {
-  return (1 <= n ? n <= 20 : false) ? toString_1(numberToChar((9312 + n | 0) - 1 | 0)) : (21 <= n ? n <= 35 : false) ? toString_1(numberToChar((12881 + n | 0) - 21 | 0)) : (36 <= n ? n <= 50 : false) ? toString_1(numberToChar((12977 + n | 0) - 36 | 0)) : this.z21(n);
+protoOf(Nickname).i22 = function (n) {
+  return (1 <= n ? n <= 20 : false) ? toString_1(numberToChar((9312 + n | 0) - 1 | 0)) : (21 <= n ? n <= 35 : false) ? toString_1(numberToChar((12881 + n | 0) - 21 | 0)) : (36 <= n ? n <= 50 : false) ? toString_1(numberToChar((12977 + n | 0) - 36 | 0)) : this.n22(n);
 };
-protoOf(Nickname).a22 = function (species, tail, space) {
+protoOf(Nickname).o22 = function (species, tail, space) {
   var names = distinct(listOf([species.s1e_1, species.t1e_1]));
   if (space) {
     var tmp$ret$0;
@@ -12873,7 +13067,7 @@ protoOf(Nickname).a22 = function (species, tail, space) {
   var this_0 = take(species.t1e_1, 12 - tail.length | 0);
   return toString_0(trimEnd_0(isCharSequence(this_0) ? this_0 : THROW_CCE())) + tail;
 };
-protoOf(Nickname).b22 = function (eval_0) {
+protoOf(Nickname).p22 = function (eval_0) {
   var tmp0_elvis_lhs = eval_0.u1d_1;
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -12882,12 +13076,12 @@ protoOf(Nickname).b22 = function (eval_0) {
     tmp = tmp0_elvis_lhs;
   }
   var pvp = tmp;
-  return this.a22(eval_0.t1d_1, this.y21(eval_0.s1d_1) + this.u21(pvp.e1e_1), true);
+  return this.o22(eval_0.t1d_1, this.m22(eval_0.s1d_1) + this.i22(pvp.e1e_1), true);
 };
-protoOf(Nickname).c22 = function (final, iv) {
-  return this.a22(final, this.z21(numberToInt(round(iv.q1k()))), false);
+protoOf(Nickname).q22 = function (final, iv) {
+  return this.o22(final, this.n22(numberToInt(round(iv.q1k()))), false);
 };
-protoOf(Nickname).d22 = function (evals) {
+protoOf(Nickname).r22 = function (evals) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -12962,7 +13156,7 @@ protoOf(Nickname).d22 = function (evals) {
   }
   return ordered(this, destination_2);
 };
-protoOf(Nickname).e22 = function (text) {
+protoOf(Nickname).s22 = function (text) {
   // Inline function 'kotlin.text.orEmpty' call
   var tmp$ret$0 = text == null ? '' : text;
   // Inline function 'kotlin.collections.mapNotNull' call
@@ -12999,13 +13193,13 @@ protoOf(Nickname).e22 = function (text) {
   }
   return destination;
 };
-protoOf(Nickname).f22 = function (blocks) {
+protoOf(Nickname).t22 = function (blocks) {
   return joinToString(blocks, ',', VOID, VOID, VOID, VOID, Nickname$storeScheme$lambda);
 };
-protoOf(Nickname).g22 = function (scheme, evals, iv, finals, variant, typeRank) {
+protoOf(Nickname).u22 = function (scheme, evals, iv, finals, variant, typeRank) {
   if (scheme.r())
     return null;
-  var opts = this.d22(evals);
+  var opts = this.r22(evals);
   var best = firstOrNull(opts);
   var usesLeague = scheme.t(Block_LEAGUE_getInstance()) || scheme.t(Block_BOTH_getInstance());
   var tmp;
@@ -13042,7 +13236,7 @@ protoOf(Nickname).g22 = function (scheme, evals, iv, finals, variant, typeRank) 
         tmp_2 = null;
         break;
       case 1:
-        tmp_2 = Nickname_getInstance().z21(numberToInt(round(iv.q1k())));
+        tmp_2 = Nickname_getInstance().n22(numberToInt(round(iv.q1k())));
         break;
       case 2:
         tmp_2 = circled(Nickname_getInstance(), iv.k1j_1) + circled(Nickname_getInstance(), iv.l1j_1) + circled(Nickname_getInstance(), iv.m1j_1);
@@ -13057,7 +13251,7 @@ protoOf(Nickname).g22 = function (scheme, evals, iv, finals, variant, typeRank) 
           tmp_3 = null;
         } else {
           // Inline function 'kotlin.let' call
-          tmp_3 = Nickname_getInstance().y21(best.s1d_1) + Nickname_getInstance().u21(ensureNotNull(best.u1d_1).e1e_1);
+          tmp_3 = Nickname_getInstance().m22(best.s1d_1) + Nickname_getInstance().i22(ensureNotNull(best.u1d_1).e1e_1);
         }
 
         // Inline function 'kotlin.text.orEmpty' call
@@ -13086,7 +13280,7 @@ protoOf(Nickname).g22 = function (scheme, evals, iv, finals, variant, typeRank) 
           var type = tmp3_safe_receiver.k9();
           var rank = tmp3_safe_receiver.l9();
           var tmp0_elvis_lhs_0 = Companion_getInstance_15().g1g_1.a2(type);
-          tmp_6 = (tmp0_elvis_lhs_0 == null ? take(type, 2) : tmp0_elvis_lhs_0) + Nickname_getInstance().u21(rank);
+          tmp_6 = (tmp0_elvis_lhs_0 == null ? take(type, 2) : tmp0_elvis_lhs_0) + Nickname_getInstance().i22(rank);
         }
 
         // Inline function 'kotlin.text.orEmpty' call
@@ -13152,7 +13346,7 @@ protoOf(Nickname).g22 = function (scheme, evals, iv, finals, variant, typeRank) 
   }
   return tmp_9;
 };
-protoOf(Nickname).h22 = function (a, b) {
+protoOf(Nickname).v22 = function (a, b) {
   // Inline function 'kotlin.collections.sortedBy' call
   var this_0 = listOf([a, b]);
   // Inline function 'kotlin.comparisons.compareBy' call
@@ -13163,11 +13357,11 @@ protoOf(Nickname).h22 = function (a, b) {
   var first = _destruct__k2r9zo.q(0);
   // Inline function 'kotlin.collections.component2' call
   var second = _destruct__k2r9zo.q(1);
-  var tail = this.y21(first.s1d_1) + this.u21(ensureNotNull(first.u1d_1).e1e_1) + this.y21(second.s1d_1) + this.u21(ensureNotNull(second.u1d_1).e1e_1);
-  return this.a22(first.t1d_1, tail, true);
+  var tail = this.m22(first.s1d_1) + this.i22(ensureNotNull(first.u1d_1).e1e_1) + this.m22(second.s1d_1) + this.i22(ensureNotNull(second.u1d_1).e1e_1);
+  return this.o22(first.t1d_1, tail, true);
 };
 protoOf(Nickname).h1h = function (evals, iv, finals, mode, typeRank, typeNames, scheme, variant) {
-  var opts = this.d22(evals);
+  var opts = this.r22(evals);
   // Inline function 'kotlin.collections.mapNotNull' call
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -13175,7 +13369,7 @@ protoOf(Nickname).h1h = function (evals, iv, finals, mode, typeRank, typeNames, 
   var _iterator__ex2g4s = opts.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = Nickname_getInstance().b22(element);
+    var tmp0_safe_receiver = Nickname_getInstance().p22(element);
     var tmp;
     if (tmp0_safe_receiver == null) {
       tmp = null;
@@ -13224,7 +13418,7 @@ protoOf(Nickname).h1h = function (evals, iv, finals, mode, typeRank, typeNames, 
     tmp_1 = false;
   }
   if (tmp_1) {
-    tmp_0 = listOf_0(new Suggestion(this.h22(top.q(0), top.q(1)), 'Super und Hyper \xB7 beide in den Top 30'));
+    tmp_0 = listOf_0(new Suggestion(this.v22(top.q(0), top.q(1)), 'Super und Hyper \xB7 beide in den Top 30'));
   } else {
     tmp_0 = emptyList();
   }
@@ -13249,7 +13443,7 @@ protoOf(Nickname).h1h = function (evals, iv, finals, mode, typeRank, typeNames, 
         var rank = tmp0_safe_receiver_1.l9();
         var tmp0_elvis_lhs = Companion_getInstance_15().g1g_1.a2(type);
         var code = tmp0_elvis_lhs == null ? take(type, 2) : tmp0_elvis_lhs;
-        var tmp_5 = Nickname_getInstance().a22(element_1, code + Nickname_getInstance().u21(rank), true);
+        var tmp_5 = Nickname_getInstance().o22(element_1, code + Nickname_getInstance().i22(rank), true);
         var tmp1_elvis_lhs = typeNames.a2(type);
         tmp_4 = new Suggestion(tmp_5, 'PvE \xB7 ' + (tmp1_elvis_lhs == null ? type : tmp1_elvis_lhs) + '-Angreifer Platz ' + rank);
       }
@@ -13278,7 +13472,7 @@ protoOf(Nickname).h1h = function (evals, iv, finals, mode, typeRank, typeNames, 
     var _iterator__ex2g4s_2 = finals.i();
     while (_iterator__ex2g4s_2.j()) {
       var item = _iterator__ex2g4s_2.k();
-      var tmp$ret$24 = new Suggestion(Nickname_getInstance().c22(item, iv), 'PvE \xB7 ' + item.s1e_1 + ' \xB7 IV ' + percent + ' %');
+      var tmp$ret$24 = new Suggestion(Nickname_getInstance().q22(item, iv), 'PvE \xB7 ' + item.s1e_1 + ' \xB7 IV ' + percent + ' %');
       destination_1.h(tmp$ret$24);
     }
     tmp_7 = destination_1;
@@ -13305,7 +13499,7 @@ protoOf(Nickname).h1h = function (evals, iv, finals, mode, typeRank, typeNames, 
       }
 
       var tmp$ret$25 = tmp_9;
-      var tmp1_safe_receiver = this.g22(tmp$ret$25, evals, iv, finals, variant, typeRank);
+      var tmp1_safe_receiver = this.u22(tmp$ret$25, evals, iv, finals, variant, typeRank);
       var tmp_10;
       if (tmp1_safe_receiver == null) {
         tmp_10 = null;
@@ -13350,7 +13544,7 @@ protoOf(Nickname).h1h = function (evals, iv, finals, mode, typeRank, typeNames, 
   var _iterator__ex2g4s_3 = ordered.i();
   while (_iterator__ex2g4s_3.j()) {
     var e = _iterator__ex2g4s_3.k();
-    var key = e.p21_1;
+    var key = e.d22_1;
     if (set.h(key)) {
       list.h(e);
     }
@@ -13365,20 +13559,20 @@ function Nickname_getInstance() {
 }
 function RaidBoss(species, tier, shadow) {
   shadow = shadow === VOID ? false : shadow;
-  this.i22_1 = species;
-  this.j22_1 = tier;
-  this.k22_1 = shadow;
+  this.w22_1 = species;
+  this.x22_1 = tier;
+  this.y22_1 = shadow;
 }
-protoOf(RaidBoss).l22 = function () {
-  return this.j22_1 <= 1 ? 0.6 : this.j22_1 <= 3 ? 0.73 : 0.79;
+protoOf(RaidBoss).z22 = function () {
+  return this.x22_1 <= 1 ? 0.6 : this.x22_1 <= 3 ? 0.73 : 0.79;
 };
 protoOf(RaidBoss).toString = function () {
-  return 'RaidBoss(species=' + this.i22_1.toString() + ', tier=' + this.j22_1 + ', shadow=' + this.k22_1 + ')';
+  return 'RaidBoss(species=' + this.w22_1.toString() + ', tier=' + this.x22_1 + ', shadow=' + this.y22_1 + ')';
 };
 protoOf(RaidBoss).hashCode = function () {
-  var result = this.i22_1.hashCode();
-  result = imul(result, 31) + this.j22_1 | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.k22_1) | 0;
+  var result = this.w22_1.hashCode();
+  result = imul(result, 31) + this.x22_1 | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.y22_1) | 0;
   return result;
 };
 protoOf(RaidBoss).equals = function (other) {
@@ -13386,35 +13580,35 @@ protoOf(RaidBoss).equals = function (other) {
     return true;
   if (!(other instanceof RaidBoss))
     return false;
-  if (!this.i22_1.equals(other.i22_1))
+  if (!this.w22_1.equals(other.w22_1))
     return false;
-  if (!(this.j22_1 === other.j22_1))
+  if (!(this.x22_1 === other.x22_1))
     return false;
-  if (!(this.k22_1 === other.k22_1))
+  if (!(this.y22_1 === other.y22_1))
     return false;
   return true;
 };
 function PveAttacker(species, shadow, iv, level, rating, assumedMoves, uid) {
   uid = uid === VOID ? null : uid;
-  this.g20_1 = species;
-  this.h20_1 = shadow;
-  this.i20_1 = iv;
-  this.j20_1 = level;
-  this.k20_1 = rating;
-  this.l20_1 = assumedMoves;
-  this.m20_1 = uid;
+  this.u20_1 = species;
+  this.v20_1 = shadow;
+  this.w20_1 = iv;
+  this.x20_1 = level;
+  this.y20_1 = rating;
+  this.z20_1 = assumedMoves;
+  this.a21_1 = uid;
 }
 protoOf(PveAttacker).toString = function () {
-  return 'PveAttacker(species=' + this.g20_1.toString() + ', shadow=' + this.h20_1 + ', iv=' + this.i20_1.toString() + ', level=' + this.j20_1 + ', rating=' + this.k20_1.toString() + ', assumedMoves=' + this.l20_1 + ', uid=' + toString(this.m20_1) + ')';
+  return 'PveAttacker(species=' + this.u20_1.toString() + ', shadow=' + this.v20_1 + ', iv=' + this.w20_1.toString() + ', level=' + this.x20_1 + ', rating=' + this.y20_1.toString() + ', assumedMoves=' + this.z20_1 + ', uid=' + toString(this.a21_1) + ')';
 };
 protoOf(PveAttacker).hashCode = function () {
-  var result = this.g20_1.hashCode();
-  result = imul(result, 31) + getBooleanHashCode(this.h20_1) | 0;
-  result = imul(result, 31) + this.i20_1.hashCode() | 0;
-  result = imul(result, 31) + getNumberHashCode(this.j20_1) | 0;
-  result = imul(result, 31) + this.k20_1.hashCode() | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.l20_1) | 0;
-  result = imul(result, 31) + (this.m20_1 == null ? 0 : this.m20_1.hashCode()) | 0;
+  var result = this.u20_1.hashCode();
+  result = imul(result, 31) + getBooleanHashCode(this.v20_1) | 0;
+  result = imul(result, 31) + this.w20_1.hashCode() | 0;
+  result = imul(result, 31) + getNumberHashCode(this.x20_1) | 0;
+  result = imul(result, 31) + this.y20_1.hashCode() | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.z20_1) | 0;
+  result = imul(result, 31) + (this.a21_1 == null ? 0 : this.a21_1.hashCode()) | 0;
   return result;
 };
 protoOf(PveAttacker).equals = function (other) {
@@ -13422,31 +13616,31 @@ protoOf(PveAttacker).equals = function (other) {
     return true;
   if (!(other instanceof PveAttacker))
     return false;
-  if (!this.g20_1.equals(other.g20_1))
+  if (!this.u20_1.equals(other.u20_1))
     return false;
-  if (!(this.h20_1 === other.h20_1))
+  if (!(this.v20_1 === other.v20_1))
     return false;
-  if (!this.i20_1.equals(other.i20_1))
+  if (!this.w20_1.equals(other.w20_1))
     return false;
-  if (!equals(this.j20_1, other.j20_1))
+  if (!equals(this.x20_1, other.x20_1))
     return false;
-  if (!this.k20_1.equals(other.k20_1))
+  if (!this.y20_1.equals(other.y20_1))
     return false;
-  if (!(this.l20_1 === other.l20_1))
+  if (!(this.z20_1 === other.z20_1))
     return false;
-  if (!equals(this.m20_1, other.m20_1))
+  if (!equals(this.a21_1, other.a21_1))
     return false;
   return true;
 };
 function candidates($this) {
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = $this.t20_1.p1f_1;
+  var tmp0 = $this.h21_1.p1f_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (!Companion_getInstance_13().i1z_1.t(element.q1e_1)) {
+    if (!Companion_getInstance_13().w1z_1.t(element.q1e_1)) {
       destination.h(element);
     }
   }
@@ -13479,7 +13673,7 @@ protoOf(Companion_15).h1g = function (species, shadow, metas) {
       var _iterator__ex2g4s_0 = list.i();
       while (_iterator__ex2g4s_0.j()) {
         var item = _iterator__ex2g4s_0.k();
-        if (item.g20_1.q1e_1 === species.q1e_1 && item.h20_1 === shadow) {
+        if (item.u20_1.q1e_1 === species.q1e_1 && item.v20_1 === shadow) {
           tmp$ret$8 = index;
           break $l$block;
         }
@@ -13523,7 +13717,7 @@ protoOf(Companion_15).h1g = function (species, shadow, metas) {
   }
   return tmp$ret$12;
 };
-protoOf(Companion_15).e20 = function (id) {
+protoOf(Companion_15).s20 = function (id) {
   return substringBefore(substringBefore(id, '_mega'), '_primal');
 };
 var Companion_instance_17;
@@ -13533,16 +13727,16 @@ function Companion_getInstance_15() {
   return Companion_instance_17;
 }
 function sam$kotlin_Comparator$0_12(function_0) {
-  this.m22_1 = function_0;
+  this.a23_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_12).sc = function (a, b) {
-  return this.m22_1(a, b);
+  return this.a23_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_12).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_12).r2 = function () {
-  return this.m22_1;
+  return this.a23_1;
 };
 protoOf(sam$kotlin_Comparator$0_12).equals = function (other) {
   var tmp;
@@ -13563,16 +13757,16 @@ protoOf(sam$kotlin_Comparator$0_12).hashCode = function () {
   return hashCode(this.r2());
 };
 function sam$kotlin_Comparator$0_13(function_0) {
-  this.n22_1 = function_0;
+  this.b23_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_13).sc = function (a, b) {
-  return this.n22_1(a, b);
+  return this.b23_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_13).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_13).r2 = function () {
-  return this.n22_1;
+  return this.b23_1;
 };
 protoOf(sam$kotlin_Comparator$0_13).equals = function (other) {
   var tmp;
@@ -13593,16 +13787,16 @@ protoOf(sam$kotlin_Comparator$0_13).hashCode = function () {
   return hashCode(this.r2());
 };
 function sam$kotlin_Comparator$0_14(function_0) {
-  this.o22_1 = function_0;
+  this.c23_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_14).sc = function (a, b) {
-  return this.o22_1(a, b);
+  return this.c23_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_14).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_14).r2 = function () {
-  return this.o22_1;
+  return this.c23_1;
 };
 protoOf(sam$kotlin_Comparator$0_14).equals = function (other) {
   var tmp;
@@ -13626,10 +13820,10 @@ function moveOptions$allowed($regularOnly, $species, id) {
   return !$regularOnly || (!$species.c1f_1.t(id) && !$species.d1f_1.t(id));
 }
 function rate$damage($boss, $attacker, $weather, atk, bossDef, m) {
-  var mult = TypeChart_getInstance().a1j(m.q1j_1, $boss.i22_1.x1e_1);
+  var mult = TypeChart_getInstance().a1j(m.q1j_1, $boss.w22_1.x1e_1);
   if ($attacker.x1e_1.t(m.q1j_1))
     mult = mult * 1.2;
-  if ($weather.s22_1.t(m.q1j_1))
+  if ($weather.g23_1.t(m.q1j_1))
     mult = mult * 1.2;
   // Inline function 'kotlin.math.floor' call
   var x = 0.5 * m.v1j_1 * atk / bossDef * mult;
@@ -13637,28 +13831,28 @@ function rate$damage($boss, $attacker, $weather, atk, bossDef, m) {
 }
 function PveCalc$counters$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.k20_1.r20();
-  var tmp$ret$2 = a.k20_1.r20();
+  var tmp = b.y20_1.f21();
+  var tmp$ret$2 = a.y20_1.f21();
   return compareValues(tmp, tmp$ret$2);
 }
 function PveCalc$topCounters$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.k20_1.r20();
-  var tmp$ret$2 = a.k20_1.r20();
+  var tmp = b.y20_1.f21();
+  var tmp$ret$2 = a.y20_1.f21();
   return compareValues(tmp, tmp$ret$2);
 }
 function PveCalc$typeMeta$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.k20_1.r20();
-  var tmp$ret$2 = a.k20_1.r20();
+  var tmp = b.y20_1.f21();
+  var tmp$ret$2 = a.y20_1.f21();
   return compareValues(tmp, tmp$ret$2);
 }
 function PveCalc(data) {
   Companion_getInstance_15();
-  this.t20_1 = data;
-  this.u20_1 = this.t20_1.k1t();
+  this.h21_1 = data;
+  this.i21_1 = this.h21_1.z1t();
 }
-protoOf(PveCalc).t22 = function (species, regularOnly) {
+protoOf(PveCalc).h23 = function (species, regularOnly) {
   // Inline function 'kotlin.collections.filter' call
   var tmp0 = species.y1e_1;
   // Inline function 'kotlin.collections.filterTo' call
@@ -13677,7 +13871,7 @@ protoOf(PveCalc).t22 = function (species, regularOnly) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
-    var tmp0_safe_receiver = this.u20_1.a2(element_0);
+    var tmp0_safe_receiver = this.i21_1.a2(element_0);
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -13691,7 +13885,7 @@ protoOf(PveCalc).t22 = function (species, regularOnly) {
   var _iterator__ex2g4s_1 = destination_0.i();
   while (_iterator__ex2g4s_1.j()) {
     var element_1 = _iterator__ex2g4s_1.k();
-    if (element_1.g1w() && element_1.w1j_1 > 0) {
+    if (element_1.u1w() && element_1.w1j_1 > 0) {
       destination_1.h(element_1);
     }
   }
@@ -13714,7 +13908,7 @@ protoOf(PveCalc).t22 = function (species, regularOnly) {
   var _iterator__ex2g4s_3 = destination_2.i();
   while (_iterator__ex2g4s_3.j()) {
     var element_3 = _iterator__ex2g4s_3.k();
-    var tmp0_safe_receiver_0 = this.u20_1.a2(element_3);
+    var tmp0_safe_receiver_0 = this.i21_1.a2(element_3);
     if (tmp0_safe_receiver_0 == null)
       null;
     else {
@@ -13728,23 +13922,23 @@ protoOf(PveCalc).t22 = function (species, regularOnly) {
   var _iterator__ex2g4s_4 = destination_3.i();
   while (_iterator__ex2g4s_4.j()) {
     var element_4 = _iterator__ex2g4s_4.k();
-    if (element_4.g1w() && element_4.w1j_1 < 0) {
+    if (element_4.u1w() && element_4.w1j_1 < 0) {
       destination_4.h(element_4);
     }
   }
   var charged = destination_4;
   return to(fast, charged);
 };
-protoOf(PveCalc).u22 = function (attacker, iv, level, shadow, fast, charged, boss, weather) {
-  var cpm = this.t20_1.i1g().r1g(level);
+protoOf(PveCalc).i23 = function (attacker, iv, level, shadow, fast, charged, boss, weather) {
+  var cpm = this.h21_1.i1g().r1g(level);
   var atk = (attacker.u1e_1 + iv.k1j_1 | 0) * cpm * (shadow ? 1.2 : 1.0);
   var def = (attacker.v1e_1 + iv.l1j_1 | 0) * cpm * (shadow ? 5.0 / 6.0 : 1.0);
   // Inline function 'kotlin.math.floor' call
   var x = (attacker.w1e_1 + iv.m1j_1 | 0) * cpm;
   var tmp$ret$0 = Math.floor(x);
   var hp = coerceAtLeast_0(tmp$ret$0, 10.0);
-  var bossDef = (boss.i22_1.v1e_1 + 15 | 0) * boss.l22();
-  var bossAtk = (boss.i22_1.u1e_1 + 15 | 0) * boss.l22();
+  var bossDef = (boss.w22_1.v1e_1 + 15 | 0) * boss.z22();
+  var bossAtk = (boss.w22_1.u1e_1 + 15 | 0) * boss.z22();
   var fastDmg = rate$damage(boss, attacker, weather, atk, bossDef, fast);
   var fastS = fast.x1j_1 / 1000.0;
   var chargedDmg = rate$damage(boss, attacker, weather, atk, bossDef, charged);
@@ -13757,14 +13951,14 @@ protoOf(PveCalc).u22 = function (attacker, iv, level, shadow, fast, charged, bos
   var a = fastDmg / fastS;
   var dps = Math.max(a, cycle);
   // Inline function 'kotlin.collections.mapNotNull' call
-  var tmp0 = plus_1(boss.i22_1.y1e_1, boss.i22_1.z1e_1);
+  var tmp0 = plus_1(boss.w22_1.y1e_1, boss.w22_1.z1e_1);
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.forEach' call
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = this.u20_1.a2(element);
+    var tmp0_safe_receiver = this.i21_1.a2(element);
     var tmp0_safe_receiver_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.q1j_1;
     if (tmp0_safe_receiver_0 == null)
       null;
@@ -13794,8 +13988,8 @@ protoOf(PveCalc).u22 = function (attacker, iv, level, shadow, fast, charged, bos
   var survive = hp / incoming;
   return new PveRating(fast, charged, dps, dps * survive);
 };
-protoOf(PveCalc).w20 = function (attacker, iv, level, shadow, boss, weather, regularOnly) {
-  var _destruct__k2r9zo = this.t22(attacker, regularOnly);
+protoOf(PveCalc).k21 = function (attacker, iv, level, shadow, boss, weather, regularOnly) {
+  var _destruct__k2r9zo = this.h23(attacker, regularOnly);
   var fast = _destruct__k2r9zo.k9();
   var charged = _destruct__k2r9zo.l9();
   var best = null;
@@ -13805,14 +13999,14 @@ protoOf(PveCalc).w20 = function (attacker, iv, level, shadow, boss, weather, reg
     var _iterator__ex2g4s_0 = charged.i();
     while (_iterator__ex2g4s_0.j()) {
       var c = _iterator__ex2g4s_0.k();
-      var r = this.u22(attacker, iv, level, shadow, f, c, boss, weather);
-      if (best == null || r.r20() > best.r20())
+      var r = this.i23(attacker, iv, level, shadow, f, c, boss, weather);
+      if (best == null || r.f21() > best.f21())
         best = r;
     }
   }
   return best;
 };
-protoOf(PveCalc).v20 = function (saved, boss, weather) {
+protoOf(PveCalc).j21 = function (saved, boss, weather) {
   // Inline function 'kotlin.collections.mapNotNull' call
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -13822,7 +14016,7 @@ protoOf(PveCalc).v20 = function (saved, boss, weather) {
     var element = _iterator__ex2g4s.k();
     var tmp$ret$4;
     $l$block_0: {
-      var tmp0_elvis_lhs = this.t20_1.z1f().a2(element.b1l_1);
+      var tmp0_elvis_lhs = this.h21_1.z1f().a2(element.b1l_1);
       var tmp;
       if (tmp0_elvis_lhs == null) {
         tmp$ret$4 = null;
@@ -13838,7 +14032,7 @@ protoOf(PveCalc).v20 = function (saved, boss, weather) {
         tmp_0 = null;
       } else {
         // Inline function 'kotlin.let' call
-        tmp_0 = this.u20_1.a2(tmp1_safe_receiver);
+        tmp_0 = this.i21_1.a2(tmp1_safe_receiver);
       }
       var tmp2_safe_receiver = tmp_0;
       var tmp_1;
@@ -13847,7 +14041,7 @@ protoOf(PveCalc).v20 = function (saved, boss, weather) {
       } else {
         // Inline function 'kotlin.takeIf' call
         var tmp_2;
-        if (tmp2_safe_receiver.g1w()) {
+        if (tmp2_safe_receiver.u1w()) {
           tmp_2 = tmp2_safe_receiver;
         } else {
           tmp_2 = null;
@@ -13861,7 +14055,7 @@ protoOf(PveCalc).v20 = function (saved, boss, weather) {
         tmp_3 = null;
       } else {
         // Inline function 'kotlin.let' call
-        tmp_3 = this.u20_1.a2(tmp3_safe_receiver);
+        tmp_3 = this.i21_1.a2(tmp3_safe_receiver);
       }
       var tmp4_safe_receiver = tmp_3;
       var tmp_4;
@@ -13870,7 +14064,7 @@ protoOf(PveCalc).v20 = function (saved, boss, weather) {
       } else {
         // Inline function 'kotlin.takeIf' call
         var tmp_5;
-        if (tmp4_safe_receiver.g1w()) {
+        if (tmp4_safe_receiver.u1w()) {
           tmp_5 = tmp4_safe_receiver;
         } else {
           tmp_5 = null;
@@ -13880,9 +14074,9 @@ protoOf(PveCalc).v20 = function (saved, boss, weather) {
       var charged = tmp_4;
       var tmp_6;
       if (!(fast == null) && !(charged == null)) {
-        tmp_6 = this.u22(species, element.s1l(), element.h1l_1, shadow, fast, charged, boss, weather);
+        tmp_6 = this.i23(species, element.s1l(), element.h1l_1, shadow, fast, charged, boss, weather);
       } else {
-        tmp_6 = this.w20(species, element.s1l(), element.h1l_1, shadow, boss, weather, true);
+        tmp_6 = this.k21(species, element.s1l(), element.h1l_1, shadow, boss, weather, true);
       }
       var tmp5_elvis_lhs = tmp_6;
       var tmp_7;
@@ -13909,7 +14103,7 @@ protoOf(PveCalc).v20 = function (saved, boss, weather) {
   var tmp$ret$16 = new sam$kotlin_Comparator$0_12(tmp_8);
   return sortedWith(destination, tmp$ret$16);
 };
-protoOf(PveCalc).v22 = function (boss, weather, limit) {
+protoOf(PveCalc).j23 = function (boss, weather, limit) {
   // Inline function 'kotlin.collections.flatMap' call
   var tmp0 = candidates(this);
   // Inline function 'kotlin.collections.flatMapTo' call
@@ -13925,7 +14119,7 @@ protoOf(PveCalc).v22 = function (boss, weather, limit) {
     var _iterator__ex2g4s_0 = tmp0_0.i();
     while (_iterator__ex2g4s_0.j()) {
       var element_0 = _iterator__ex2g4s_0.k();
-      var tmp0_safe_receiver = this.w20(element, Companion_getInstance_15().d1g_1, 40.0, element_0, boss, weather, false);
+      var tmp0_safe_receiver = this.k21(element, Companion_getInstance_15().d1g_1, 40.0, element_0, boss, weather, false);
       var tmp;
       if (tmp0_safe_receiver == null) {
         tmp = null;
@@ -13951,8 +14145,8 @@ protoOf(PveCalc).v22 = function (boss, weather, limit) {
   var tmp$ret$12 = sortedWith(destination, tmp$ret$13);
   return take_0(tmp$ret$12, limit);
 };
-protoOf(PveCalc).w22 = function (type, limit) {
-  var target = new RaidBoss(Companion_getInstance_15().f1g_1.w1v(VOID, VOID, VOID, VOID, VOID, VOID, VOID, listOf_0('none')), 5);
+protoOf(PveCalc).k23 = function (type, limit) {
+  var target = new RaidBoss(Companion_getInstance_15().f1g_1.k1w(VOID, VOID, VOID, VOID, VOID, VOID, VOID, listOf_0('none')), 5);
   // Inline function 'kotlin.collections.flatMap' call
   var tmp0 = candidates(this);
   // Inline function 'kotlin.collections.flatMapTo' call
@@ -13962,7 +14156,7 @@ protoOf(PveCalc).w22 = function (type, limit) {
     var element = _iterator__ex2g4s.k();
     var tmp$ret$2;
     $l$block: {
-      var _destruct__k2r9zo = this.t22(element, false);
+      var _destruct__k2r9zo = this.h23(element, false);
       var fast = _destruct__k2r9zo.k9();
       var charged = _destruct__k2r9zo.l9();
       // Inline function 'kotlin.collections.filter' call
@@ -14010,7 +14204,7 @@ protoOf(PveCalc).w22 = function (type, limit) {
           var _iterator__ex2g4s_4 = c.i();
           while (_iterator__ex2g4s_4.j()) {
             var item_0 = _iterator__ex2g4s_4.k();
-            var tmp$ret$17 = this.u22(element, Companion_getInstance_15().d1g_1, 40.0, item, element_2, item_0, target, Weather_NONE_getInstance());
+            var tmp$ret$17 = this.i23(element, Companion_getInstance_15().d1g_1, 40.0, item, element_2, item_0, target, Weather_NONE_getInstance());
             destination_4.h(tmp$ret$17);
           }
           var list = destination_4;
@@ -14027,10 +14221,10 @@ protoOf(PveCalc).w22 = function (type, limit) {
             tmp$ret$18 = maxElem;
             break $l$block_0;
           }
-          var maxValue = maxElem.r20();
+          var maxValue = maxElem.f21();
           do {
             var e = iterator.k();
-            var v = e.r20();
+            var v = e.f21();
             if (compareTo(maxValue, v) < 0) {
               maxElem = e;
               maxValue = v;
@@ -14114,8 +14308,8 @@ function get_entries_4() {
 var $ENTRIES_4;
 function Weather(name, ordinal, label, types) {
   Enum.call(this, name, ordinal);
-  this.r22_1 = label;
-  this.s22_1 = types;
+  this.f23_1 = label;
+  this.g23_1 = types;
 }
 function Companion_16() {
 }
@@ -14133,22 +14327,22 @@ function $serializer_13() {
   tmp0_serialDesc.it('tier', false);
   tmp0_serialDesc.it('speciesId', false);
   tmp0_serialDesc.it('shadow', false);
-  this.x22_1 = tmp0_serialDesc;
+  this.l23_1 = tmp0_serialDesc;
 }
-protoOf($serializer_13).y22 = function (encoder, value) {
-  var tmp0_desc = this.x22_1;
+protoOf($serializer_13).m23 = function (encoder, value) {
+  var tmp0_desc = this.l23_1;
   var tmp1_output = encoder.bn(tmp0_desc);
-  tmp1_output.qo(tmp0_desc, 0, value.z22_1);
-  tmp1_output.lo(tmp0_desc, 1, value.a23_1);
-  tmp1_output.uo(tmp0_desc, 2, StringSerializer_getInstance(), value.b23_1);
-  tmp1_output.io(tmp0_desc, 3, value.c23_1);
+  tmp1_output.qo(tmp0_desc, 0, value.n23_1);
+  tmp1_output.lo(tmp0_desc, 1, value.o23_1);
+  tmp1_output.uo(tmp0_desc, 2, StringSerializer_getInstance(), value.p23_1);
+  tmp1_output.io(tmp0_desc, 3, value.q23_1);
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_13).kk = function (encoder, value) {
-  return this.y22(encoder, value instanceof Entry_1 ? value : THROW_CCE());
+  return this.m23(encoder, value instanceof Entry_1 ? value : THROW_CCE());
 };
 protoOf($serializer_13).lk = function (decoder) {
-  var tmp0_desc = this.x22_1;
+  var tmp0_desc = this.l23_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -14197,7 +14391,7 @@ protoOf($serializer_13).lk = function (decoder) {
   return Entry_init_$Create$_0(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, null);
 };
 protoOf($serializer_13).jk = function () {
-  return this.x22_1;
+  return this.l23_1;
 };
 protoOf($serializer_13).xt = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -14213,31 +14407,31 @@ function $serializer_getInstance_13() {
 }
 function Entry_init_$Init$_0(seen0, name, tier, speciesId, shadow, serializationConstructorMarker, $this) {
   if (!(15 === (15 & seen0))) {
-    throwMissingFieldException(seen0, 15, $serializer_getInstance_13().x22_1);
+    throwMissingFieldException(seen0, 15, $serializer_getInstance_13().l23_1);
   }
-  $this.z22_1 = name;
-  $this.a23_1 = tier;
-  $this.b23_1 = speciesId;
-  $this.c23_1 = shadow;
+  $this.n23_1 = name;
+  $this.o23_1 = tier;
+  $this.p23_1 = speciesId;
+  $this.q23_1 = shadow;
   return $this;
 }
 function Entry_init_$Create$_0(seen0, name, tier, speciesId, shadow, serializationConstructorMarker) {
   return Entry_init_$Init$_0(seen0, name, tier, speciesId, shadow, serializationConstructorMarker, objectCreate(protoOf(Entry_1)));
 }
 function Entry_1(name, tier, speciesId, shadow) {
-  this.z22_1 = name;
-  this.a23_1 = tier;
-  this.b23_1 = speciesId;
-  this.c23_1 = shadow;
+  this.n23_1 = name;
+  this.o23_1 = tier;
+  this.p23_1 = speciesId;
+  this.q23_1 = shadow;
 }
 protoOf(Entry_1).toString = function () {
-  return 'Entry(name=' + this.z22_1 + ', tier=' + this.a23_1 + ', speciesId=' + this.b23_1 + ', shadow=' + this.c23_1 + ')';
+  return 'Entry(name=' + this.n23_1 + ', tier=' + this.o23_1 + ', speciesId=' + this.p23_1 + ', shadow=' + this.q23_1 + ')';
 };
 protoOf(Entry_1).hashCode = function () {
-  var result = getStringHashCode(this.z22_1);
-  result = imul(result, 31) + this.a23_1 | 0;
-  result = imul(result, 31) + (this.b23_1 == null ? 0 : getStringHashCode(this.b23_1)) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.c23_1) | 0;
+  var result = getStringHashCode(this.n23_1);
+  result = imul(result, 31) + this.o23_1 | 0;
+  result = imul(result, 31) + (this.p23_1 == null ? 0 : getStringHashCode(this.p23_1)) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.q23_1) | 0;
   return result;
 };
 protoOf(Entry_1).equals = function (other) {
@@ -14245,13 +14439,13 @@ protoOf(Entry_1).equals = function (other) {
     return true;
   if (!(other instanceof Entry_1))
     return false;
-  if (!(this.z22_1 === other.z22_1))
+  if (!(this.n23_1 === other.n23_1))
     return false;
-  if (!(this.a23_1 === other.a23_1))
+  if (!(this.o23_1 === other.o23_1))
     return false;
-  if (!(this.b23_1 == other.b23_1))
+  if (!(this.p23_1 == other.p23_1))
     return false;
-  if (!(this.c23_1 === other.c23_1))
+  if (!(this.q23_1 === other.q23_1))
     return false;
   return true;
 };
@@ -14272,13 +14466,13 @@ function match$slug(s) {
 }
 function RaidList() {
   RaidList_instance = this;
-  this.y1u_1 = 'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/raids.min.json';
-  this.z1u_1 = ListSerializer(Companion_instance_18.q1m());
+  this.n1v_1 = 'https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/raids.min.json';
+  this.o1v_1 = ListSerializer(Companion_instance_18.q1m());
   var tmp = this;
-  tmp.a1v_1 = Json(VOID, RaidList$json$lambda);
+  tmp.p1v_1 = Json(VOID, RaidList$json$lambda);
 }
-protoOf(RaidList).d23 = function (list) {
-  return this.a1v_1.x11(this.z1u_1, list);
+protoOf(RaidList).r23 = function (list) {
+  return this.p1v_1.x11(this.o1v_1, list);
 };
 protoOf(RaidList).p1o = function (text) {
   var tmp;
@@ -14291,7 +14485,7 @@ protoOf(RaidList).p1o = function (text) {
     var tmp_0;
     try {
       // Inline function 'kotlin.Companion.success' call
-      var value = this_0.a1v_1.y11(this_0.z1u_1, text);
+      var value = this_0.p1v_1.y11(this_0.o1v_1, text);
       tmp_0 = _Result___init__impl__xyqfz8(value);
     } catch ($p) {
       var tmp_1;
@@ -14312,7 +14506,7 @@ protoOf(RaidList).p1o = function (text) {
   var tmp0_elvis_lhs = tmp;
   return tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
 };
-protoOf(RaidList).e23 = function (text, data) {
+protoOf(RaidList).s23 = function (text, data) {
   // Inline function 'kotlin.let' call
   var it = Default_getInstance().z11(text);
   // Inline function 'kotlin.collections.mapNotNull' call
@@ -14377,7 +14571,7 @@ protoOf(RaidList).e23 = function (text, data) {
       }
       var tier = tmp_3;
       var shadow = startsWith(name, 'Shadow ');
-      tmp$ret$6 = new Entry_1(name, tier, RaidList_getInstance().b1v(name, data), shadow);
+      tmp$ret$6 = new Entry_1(name, tier, RaidList_getInstance().q1v(name, data), shadow);
     }
     var tmp0_safe_receiver = tmp$ret$6;
     if (tmp0_safe_receiver == null)
@@ -14389,7 +14583,7 @@ protoOf(RaidList).e23 = function (text, data) {
   }
   return destination;
 };
-protoOf(RaidList).b1v = function (english, data) {
+protoOf(RaidList).q1v = function (english, data) {
   // Inline function 'kotlin.text.trim' call
   var this_0 = substringBefore(substringBefore(english, ' wearing'), ' with ');
   var name = toString_0(trim(isCharSequence(this_0) ? this_0 : THROW_CCE()));
@@ -14481,26 +14675,26 @@ function RaidList_getInstance() {
   return RaidList_instance;
 }
 function PveRating(fast, charged, dps, tdo) {
-  this.n20_1 = fast;
-  this.o20_1 = charged;
-  this.p20_1 = dps;
-  this.q20_1 = tdo;
+  this.b21_1 = fast;
+  this.c21_1 = charged;
+  this.d21_1 = dps;
+  this.e21_1 = tdo;
 }
-protoOf(PveRating).r20 = function () {
+protoOf(PveRating).f21 = function () {
   // Inline function 'kotlin.math.pow' call
-  var this_0 = this.p20_1;
+  var this_0 = this.d21_1;
   // Inline function 'kotlin.math.pow' call
-  var this_1 = Math.pow(this_0, 3) * this.q20_1;
+  var this_1 = Math.pow(this_0, 3) * this.e21_1;
   return Math.pow(this_1, 0.25);
 };
 protoOf(PveRating).toString = function () {
-  return 'PveRating(fast=' + this.n20_1.toString() + ', charged=' + this.o20_1.toString() + ', dps=' + this.p20_1 + ', tdo=' + this.q20_1 + ')';
+  return 'PveRating(fast=' + this.b21_1.toString() + ', charged=' + this.c21_1.toString() + ', dps=' + this.d21_1 + ', tdo=' + this.e21_1 + ')';
 };
 protoOf(PveRating).hashCode = function () {
-  var result = this.n20_1.hashCode();
-  result = imul(result, 31) + this.o20_1.hashCode() | 0;
-  result = imul(result, 31) + getNumberHashCode(this.p20_1) | 0;
-  result = imul(result, 31) + getNumberHashCode(this.q20_1) | 0;
+  var result = this.b21_1.hashCode();
+  result = imul(result, 31) + this.c21_1.hashCode() | 0;
+  result = imul(result, 31) + getNumberHashCode(this.d21_1) | 0;
+  result = imul(result, 31) + getNumberHashCode(this.e21_1) | 0;
   return result;
 };
 protoOf(PveRating).equals = function (other) {
@@ -14508,13 +14702,13 @@ protoOf(PveRating).equals = function (other) {
     return true;
   if (!(other instanceof PveRating))
     return false;
-  if (!this.n20_1.equals(other.n20_1))
+  if (!this.b21_1.equals(other.b21_1))
     return false;
-  if (!this.o20_1.equals(other.o20_1))
+  if (!this.c21_1.equals(other.c21_1))
     return false;
-  if (!equals(this.p20_1, other.p20_1))
+  if (!equals(this.d21_1, other.d21_1))
     return false;
-  if (!equals(this.q20_1, other.q20_1))
+  if (!equals(this.e21_1, other.e21_1))
     return false;
   return true;
 };
@@ -14569,7 +14763,7 @@ var League_HYPER_instance;
 var League_MASTER_instance;
 var League_LITTLE_instance;
 function Companion_17() {
-  this.f23_1 = 0.85;
+  this.t23_1 = 0.85;
 }
 var Companion_instance_19;
 function League(name, ordinal, cpCap) {
@@ -14634,16 +14828,16 @@ function bestLevelIndex($this, base, iv, league, maxLevel) {
   return best;
 }
 function sam$kotlin_Comparator$0_15(function_0) {
-  this.g23_1 = function_0;
+  this.u23_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_15).sc = function (a, b) {
-  return this.g23_1(a, b);
+  return this.u23_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_15).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_15).r2 = function () {
-  return this.g23_1;
+  return this.u23_1;
 };
 protoOf(sam$kotlin_Comparator$0_15).equals = function (other) {
   var tmp;
@@ -14706,7 +14900,7 @@ protoOf(PvpRanker).j1f = function (base, league, maxLevel) {
         continue $l$loop;
       var cpm = this.i1f_1.k1g_1[li];
       levelIndex[i] = toByte(li);
-      sp[i] = Formulas_instance.h23(base, iv, cpm);
+      sp[i] = Formulas_instance.v23(base, iv, cpm);
       cp[i] = Formulas_instance.s1g(base, iv, cpm);
       valid.h(i);
     }
@@ -14739,12 +14933,12 @@ function result($this, i) {
   var iv = new Iv(i >> 8, i >> 4 & 15, i & 15);
   var level = 1.0 + $this.n1h_1[i] / 2.0;
   var cpm = $this.l1h_1.r1g(level);
-  var sp = Formulas_instance.h23($this.k1h_1, iv, cpm);
+  var sp = Formulas_instance.v23($this.k1h_1, iv, cpm);
   return new PvpResult(iv, level, Formulas_instance.s1g($this.k1h_1, iv, cpm), sp, rank, sp / $this.p1h_1 * 100.0);
 }
 function Companion_18() {
 }
-protoOf(Companion_18).i23 = function (iv) {
+protoOf(Companion_18).w23 = function (iv) {
   return (imul(iv.k1j_1, 256) + imul(iv.l1j_1, 16) | 0) + iv.m1j_1 | 0;
 };
 var Companion_instance_20;
@@ -14760,7 +14954,7 @@ function PvpTable(base, levels, ranks, levelIndex, order, topSp) {
   this.p1h_1 = topSp;
 }
 protoOf(PvpTable).q1h = function (iv) {
-  return result(this, Companion_instance_20.i23(iv));
+  return result(this, Companion_instance_20.w23(iv));
 };
 protoOf(PvpTable).s1h = function () {
   var tmp;
@@ -14789,9 +14983,9 @@ function League_LITTLE_getInstance() {
   return League_LITTLE_instance;
 }
 function Result(species, moves, missing) {
-  this.j23_1 = species;
-  this.k23_1 = moves;
-  this.l23_1 = missing;
+  this.x23_1 = species;
+  this.y23_1 = moves;
+  this.z23_1 = missing;
 }
 function str($this, $receiver, key) {
   return get_jsonPrimitive(getValue($receiver, key)).h14();
@@ -14861,7 +15055,7 @@ function PvpokeImport$merge$lambda_1($byId, $byDex) {
     var tmp_0;
     if (tmp2_elvis_lhs == null) {
       var tmp3_safe_receiver = $byDex.a2(to(fromDex, toDex));
-      tmp_0 = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.c1x(toId);
+      tmp_0 = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.q1x(toId);
     } else {
       tmp_0 = tmp2_elvis_lhs;
     }
@@ -14876,9 +15070,9 @@ function PvpokeImport$merge$lambda_2($byId) {
 }
 function PvpokeImport() {
   PvpokeImport_instance = this;
-  this.m23_1 = mapOf([to('Alolan', 'Alola'), to('Galarian', 'Galar'), to('Hisuian', 'Hisui'), to('Paldean', 'Paldea')]);
+  this.a24_1 = mapOf([to('Alolan', 'Alola'), to('Galarian', 'Galar'), to('Hisuian', 'Hisui'), to('Paldean', 'Paldea')]);
 }
-protoOf(PvpokeImport).n23 = function (gamemasterText, baseName, moveName, evolution, displayName) {
+protoOf(PvpokeImport).b24 = function (gamemasterText, baseName, moveName, evolution, displayName) {
   var root = get_jsonObject(Default_getInstance().z11(gamemasterText));
   var missing = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.map' call
@@ -14984,7 +15178,7 @@ protoOf(PvpokeImport).n23 = function (gamemasterText, baseName, moveName, evolut
     if (charSequenceLength(form) === 0) {
       tmp_3 = base;
     } else {
-      var tmp2_safe_receiver = PvpokeImport_getInstance().m23_1.a2(form);
+      var tmp2_safe_receiver = PvpokeImport_getInstance().a24_1.a2(form);
       var tmp_4;
       if (tmp2_safe_receiver == null) {
         tmp_4 = null;
@@ -15048,7 +15242,7 @@ protoOf(PvpokeImport).n23 = function (gamemasterText, baseName, moveName, evolut
   var moves = destination_6;
   return new Result(species, moves, missing);
 };
-protoOf(PvpokeImport).o23 = function (base, gamemasterText) {
+protoOf(PvpokeImport).c24 = function (base, gamemasterText) {
   // Inline function 'kotlin.collections.associate' call
   var this_0 = base.p1f_1;
   var capacity = coerceAtLeast(mapCapacity(collectionSizeOrDefault(this_0, 10)), 16);
@@ -15104,7 +15298,7 @@ protoOf(PvpokeImport).o23 = function (base, gamemasterText) {
   var tmp_0 = PvpokeImport$merge$lambda(names);
   var tmp_1 = PvpokeImport$merge$lambda_0(moveNames);
   var tmp_2 = PvpokeImport$merge$lambda_1(byId, byDex);
-  var result = this.n23(gamemasterText, tmp_0, tmp_1, tmp_2, PvpokeImport$merge$lambda_2(byId));
+  var result = this.b24(gamemasterText, tmp_0, tmp_1, tmp_2, PvpokeImport$merge$lambda_2(byId));
   // Inline function 'kotlin.collections.associateBy' call
   var this_2 = base.q1f_1;
   var capacity_1 = coerceAtLeast(mapCapacity(collectionSizeOrDefault(this_2, 10)), 16);
@@ -15118,7 +15312,7 @@ protoOf(PvpokeImport).o23 = function (base, gamemasterText) {
   }
   var pve = destination_1;
   // Inline function 'kotlin.collections.map' call
-  var this_3 = result.k23_1;
+  var this_3 = result.y23_1;
   // Inline function 'kotlin.collections.mapTo' call
   var destination_2 = ArrayList_init_$Create$(collectionSizeOrDefault(this_3, 10));
   var _iterator__ex2g4s_4 = this_3.i();
@@ -15131,7 +15325,7 @@ protoOf(PvpokeImport).o23 = function (base, gamemasterText) {
     } else {
       // Inline function 'kotlin.takeIf' call
       var tmp_4;
-      if (tmp0_safe_receiver.g1w()) {
+      if (tmp0_safe_receiver.u1w()) {
         tmp_4 = tmp0_safe_receiver;
       } else {
         tmp_4 = null;
@@ -15144,7 +15338,7 @@ protoOf(PvpokeImport).o23 = function (base, gamemasterText) {
       tmp_5 = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp_5 = item.i1w(VOID, VOID, VOID, VOID, VOID, VOID, VOID, tmp1_safe_receiver.v1j_1, tmp1_safe_receiver.w1j_1, tmp1_safe_receiver.x1j_1);
+      tmp_5 = item.w1w(VOID, VOID, VOID, VOID, VOID, VOID, VOID, tmp1_safe_receiver.v1j_1, tmp1_safe_receiver.w1j_1, tmp1_safe_receiver.x1j_1);
     }
     var tmp2_elvis_lhs = tmp_5;
     var tmp$ret$16 = tmp2_elvis_lhs == null ? item : tmp2_elvis_lhs;
@@ -15152,7 +15346,7 @@ protoOf(PvpokeImport).o23 = function (base, gamemasterText) {
   }
   var moves = destination_2;
   // Inline function 'kotlin.collections.map' call
-  var this_4 = result.j23_1;
+  var this_4 = result.x23_1;
   // Inline function 'kotlin.collections.mapTo' call
   var destination_3 = ArrayList_init_$Create$(collectionSizeOrDefault(this_4, 10));
   var _iterator__ex2g4s_5 = this_4.i();
@@ -15164,14 +15358,14 @@ protoOf(PvpokeImport).o23 = function (base, gamemasterText) {
       tmp_6 = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp_6 = item_0.w1v(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, tmp0_safe_receiver_0.e1f_1, tmp0_safe_receiver_0.f1f_1, tmp0_safe_receiver_0.g1f_1);
+      tmp_6 = item_0.k1w(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, tmp0_safe_receiver_0.e1f_1, tmp0_safe_receiver_0.f1f_1, tmp0_safe_receiver_0.g1f_1);
     }
     var tmp1_elvis_lhs = tmp_6;
     var tmp$ret$23 = tmp1_elvis_lhs == null ? item_0 : tmp1_elvis_lhs;
     destination_3.h(tmp$ret$23);
   }
   var species = destination_3;
-  return base.d1w(VOID, VOID, VOID, VOID, VOID, species, moves);
+  return base.r1w(VOID, VOID, VOID, VOID, VOID, species, moves);
 };
 var PvpokeImport_instance;
 function PvpokeImport_getInstance() {
@@ -15180,17 +15374,17 @@ function PvpokeImport_getInstance() {
   return PvpokeImport_instance;
 }
 function Estimate(players, teamDps, secondsAlone) {
-  this.p23_1 = players;
-  this.q23_1 = teamDps;
-  this.r23_1 = secondsAlone;
+  this.d24_1 = players;
+  this.e24_1 = teamDps;
+  this.f24_1 = secondsAlone;
 }
 protoOf(Estimate).toString = function () {
-  return 'Estimate(players=' + this.p23_1 + ', teamDps=' + this.q23_1 + ', secondsAlone=' + this.r23_1 + ')';
+  return 'Estimate(players=' + this.d24_1 + ', teamDps=' + this.e24_1 + ', secondsAlone=' + this.f24_1 + ')';
 };
 protoOf(Estimate).hashCode = function () {
-  var result = this.p23_1;
-  result = imul(result, 31) + getNumberHashCode(this.q23_1) | 0;
-  result = imul(result, 31) + this.r23_1 | 0;
+  var result = this.d24_1;
+  result = imul(result, 31) + getNumberHashCode(this.e24_1) | 0;
+  result = imul(result, 31) + this.f24_1 | 0;
   return result;
 };
 protoOf(Estimate).equals = function (other) {
@@ -15198,25 +15392,25 @@ protoOf(Estimate).equals = function (other) {
     return true;
   if (!(other instanceof Estimate))
     return false;
-  if (!(this.p23_1 === other.p23_1))
+  if (!(this.d24_1 === other.d24_1))
     return false;
-  if (!equals(this.q23_1, other.q23_1))
+  if (!equals(this.e24_1, other.e24_1))
     return false;
-  if (!(this.r23_1 === other.r23_1))
+  if (!(this.f24_1 === other.f24_1))
     return false;
   return true;
 };
 function RaidPlan() {
-  this.s23_1 = 0.7;
-  this.t23_1 = 10;
+  this.g24_1 = 0.7;
+  this.h24_1 = 10;
 }
-protoOf(RaidPlan).u23 = function (boss) {
-  return boss.j22_1 <= 1 ? 600 : boss.j22_1 <= 3 ? 3600 : boss.j22_1 === 6 && boss.i22_1.a1f_1.t('legendary') ? 22500 : boss.j22_1 === 6 ? 9000 : 15000;
+protoOf(RaidPlan).i24 = function (boss) {
+  return boss.x22_1 <= 1 ? 600 : boss.x22_1 <= 3 ? 3600 : boss.x22_1 === 6 && boss.w22_1.a1f_1.t('legendary') ? 22500 : boss.x22_1 === 6 ? 9000 : 15000;
 };
-protoOf(RaidPlan).v23 = function (boss) {
-  return boss.j22_1 <= 3 ? 180 : 300;
+protoOf(RaidPlan).j24 = function (boss) {
+  return boss.x22_1 <= 3 ? 180 : 300;
 };
-protoOf(RaidPlan).w23 = function (boss, team) {
+protoOf(RaidPlan).k24 = function (boss, team) {
   var six = take_0(team, 6);
   if (six.r())
     return null;
@@ -15226,11 +15420,11 @@ protoOf(RaidPlan).w23 = function (boss, team) {
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
     var tmp = sum;
-    sum = tmp + element.k20_1.p20_1;
+    sum = tmp + element.y20_1.d21_1;
   }
   var dps = sum / six.l();
-  var hp = this.u23(boss);
-  var perPlayer = dps * (this.v23(boss) - 10 | 0) * 0.7;
+  var hp = this.i24(boss);
+  var perPlayer = dps * (this.j24(boss) - 10 | 0) * 0.7;
   // Inline function 'kotlin.math.ceil' call
   var x = hp / perPlayer;
   var tmp$ret$2 = Math.ceil(x);
@@ -15242,19 +15436,19 @@ function RaidPlan_getInstance() {
   return RaidPlan_instance;
 }
 function Reward_0(species, shiny, cpMin, cpMax) {
-  this.x23_1 = species;
-  this.y23_1 = shiny;
-  this.z23_1 = cpMin;
-  this.a24_1 = cpMax;
+  this.l24_1 = species;
+  this.m24_1 = shiny;
+  this.n24_1 = cpMin;
+  this.o24_1 = cpMax;
 }
 protoOf(Reward_0).toString = function () {
-  return 'Reward(species=' + this.x23_1.toString() + ', shiny=' + this.y23_1 + ', cpMin=' + this.z23_1 + ', cpMax=' + this.a24_1 + ')';
+  return 'Reward(species=' + this.l24_1.toString() + ', shiny=' + this.m24_1 + ', cpMin=' + this.n24_1 + ', cpMax=' + this.o24_1 + ')';
 };
 protoOf(Reward_0).hashCode = function () {
-  var result = this.x23_1.hashCode();
-  result = imul(result, 31) + getBooleanHashCode(this.y23_1) | 0;
-  result = imul(result, 31) + this.z23_1 | 0;
-  result = imul(result, 31) + this.a24_1 | 0;
+  var result = this.l24_1.hashCode();
+  result = imul(result, 31) + getBooleanHashCode(this.m24_1) | 0;
+  result = imul(result, 31) + this.n24_1 | 0;
+  result = imul(result, 31) + this.o24_1 | 0;
   return result;
 };
 protoOf(Reward_0).equals = function (other) {
@@ -15262,34 +15456,34 @@ protoOf(Reward_0).equals = function (other) {
     return true;
   if (!(other instanceof Reward_0))
     return false;
-  if (!this.x23_1.equals(other.x23_1))
+  if (!this.l24_1.equals(other.l24_1))
     return false;
-  if (!(this.y23_1 === other.y23_1))
+  if (!(this.m24_1 === other.m24_1))
     return false;
-  if (!(this.z23_1 === other.z23_1))
+  if (!(this.n24_1 === other.n24_1))
     return false;
-  if (!(this.a24_1 === other.a24_1))
+  if (!(this.o24_1 === other.o24_1))
     return false;
   return true;
 };
 function Task(text, textDe, type, rewards) {
-  this.b24_1 = text;
-  this.c24_1 = textDe;
-  this.d24_1 = type;
-  this.e24_1 = rewards;
+  this.p24_1 = text;
+  this.q24_1 = textDe;
+  this.r24_1 = type;
+  this.s24_1 = rewards;
 }
 protoOf(Task).v1l = function () {
-  var tmp0_elvis_lhs = this.c24_1;
-  return tmp0_elvis_lhs == null ? this.b24_1 : tmp0_elvis_lhs;
+  var tmp0_elvis_lhs = this.q24_1;
+  return tmp0_elvis_lhs == null ? this.p24_1 : tmp0_elvis_lhs;
 };
 protoOf(Task).toString = function () {
-  return 'Task(text=' + this.b24_1 + ', textDe=' + this.c24_1 + ', type=' + this.d24_1 + ', rewards=' + toString_0(this.e24_1) + ')';
+  return 'Task(text=' + this.p24_1 + ', textDe=' + this.q24_1 + ', type=' + this.r24_1 + ', rewards=' + toString_0(this.s24_1) + ')';
 };
 protoOf(Task).hashCode = function () {
-  var result = getStringHashCode(this.b24_1);
-  result = imul(result, 31) + (this.c24_1 == null ? 0 : getStringHashCode(this.c24_1)) | 0;
-  result = imul(result, 31) + getStringHashCode(this.d24_1) | 0;
-  result = imul(result, 31) + hashCode(this.e24_1) | 0;
+  var result = getStringHashCode(this.p24_1);
+  result = imul(result, 31) + (this.q24_1 == null ? 0 : getStringHashCode(this.q24_1)) | 0;
+  result = imul(result, 31) + getStringHashCode(this.r24_1) | 0;
+  result = imul(result, 31) + hashCode(this.s24_1) | 0;
   return result;
 };
 protoOf(Task).equals = function (other) {
@@ -15297,27 +15491,27 @@ protoOf(Task).equals = function (other) {
     return true;
   if (!(other instanceof Task))
     return false;
-  if (!(this.b24_1 === other.b24_1))
+  if (!(this.p24_1 === other.p24_1))
     return false;
-  if (!(this.c24_1 == other.c24_1))
+  if (!(this.q24_1 == other.q24_1))
     return false;
-  if (!(this.d24_1 === other.d24_1))
+  if (!(this.r24_1 === other.r24_1))
     return false;
-  if (!equals(this.e24_1, other.e24_1))
+  if (!equals(this.s24_1, other.s24_1))
     return false;
   return true;
 };
 function sam$kotlin_Comparator$0_16(function_0) {
-  this.f24_1 = function_0;
+  this.t24_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_16).sc = function (a, b) {
-  return this.f24_1(a, b);
+  return this.t24_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_16).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_16).r2 = function () {
-  return this.f24_1;
+  return this.t24_1;
 };
 protoOf(sam$kotlin_Comparator$0_16).equals = function (other) {
   var tmp;
@@ -15362,18 +15556,18 @@ function Research() {
   this.m1m_1 = mapOf([to('catch', 'Fangen'), to('throw', 'W\xFCrfe'), to('battle', 'K\xE4mpfe'), to('explore', 'Erkunden'), to('training', 'Trainieren'), to('rocket', 'Team GO Rocket'), to('buddy', 'Kumpel'), to('ar', 'AR'), to('sponsored', 'Gesponsert'), to('event', 'Event')]);
   this.n1m_1 = listOf([to('max. Schlachten', 'Dyna-K\xE4mpfe'), to('max. Schlacht', 'Dyna-Kampf'), to('Max-Schlacht', 'Dyna-Kampf'), to('dunkle Pok\xE9mon', 'Unlicht-Pok\xE9mon'), to('dunklen Pok\xE9mon', 'Unlicht-Pok\xE9mon'), to('Typ Dunkel', 'Typ Unlicht'), to('Kumpel-Pok\xE9mon', 'Kumpel-Pok\xE9mon'), to('Verbessere', 'Verst\xE4rke'), to('einem Fitnessstudio', 'einer Arena'), to('im Fitnessstudio', 'in der Arena'), to('ein Fitnessstudio', 'eine Arena'), to('das Fitnessstudio', 'die Arena'), to('dem Fitnessstudio', 'der Arena'), to('des Fitnessstudios', 'der Arena'), to('einem Gym', 'einer Arena'), to('einer Turnhalle', 'einer Arena'), to('Fitnessstudios', 'Arenen'), to('Fitnessstudio', 'Arena'), to('Fitness-Studios', 'Arenen'), to('Fitness-Studio', 'Arena'), to('Turnhallen', 'Arenen'), to('Turnhalle', 'Arena'), to('Gyms', 'Arenen'), to('Gym', 'Arena'), to('Pok\xE9Stops', 'Pok\xE9Stops'), to('Pok\xE9stopps', 'Pok\xE9Stops'), to('Pokestops', 'Pok\xE9Stops'), to('Raid-P\xE4sse', 'Raid-P\xE4sse'), to('Raidp\xE4sse', 'Raid-P\xE4sse'), to('Raid-P\xE4sse', 'Raid-P\xE4sse'), to('Max-Partikel', 'Dyna-Partikel'), to('Max Partikel', 'Dyna-Partikel'), to('Max Particles', 'Dyna-Partikel'), to('Sternstaub', 'Sternenstaub'), to('S\xFC\xDFigkeiten', 'Bonbons'), to('S\xFC\xDFigkeit', 'Bonbon'), to('gl\xE4nzenden Pok\xE9mon', 'Shiny-Pok\xE9mon'), to('gl\xE4nzende Pok\xE9mon', 'Shiny-Pok\xE9mon'), to('R\xE4ucherst\xE4bchendauer', 'Rauch-Dauer'), to('R\xE4ucherst\xE4bchen', 'Rauch'), to('Weihrauch', 'Rauch'), to('Max-K\xE4mpfe', 'Dyna-K\xE4mpfe'), to('Max-K\xE4mpfen', 'Dyna-K\xE4mpfen'), to('Premier-B\xE4llen', 'Premierb\xE4llen'), to('Premier-B\xE4lle', 'Premierb\xE4lle'), to('Kraftpunkten', 'Kraftfeldern'), to('max. Partikel', 'Dyna-Partikel'), to('maximalen Partikel', 'Dyna-Partikel'), to('maximales Partikel', 'Dyna-Partikel'), to('Partikel-Sammellimit', 'Partikel-Limit')]);
 }
-protoOf(Research).s1t = function (type) {
+protoOf(Research).h1u = function (type) {
   var tmp0_elvis_lhs = this.m1m_1.a2(type);
   return tmp0_elvis_lhs == null ? 'Sonstige' : tmp0_elvis_lhs;
 };
-protoOf(Research).g24 = function (text) {
+protoOf(Research).u24 = function (text) {
   // Inline function 'kotlin.text.replace' call
   var tmp$ret$0 = Regex_init_$Create$('<[^>]*>').rb(text, '');
   // Inline function 'kotlin.text.trim' call
   var this_0 = replace(tmp$ret$0, '&amp;', '&');
   return toString_0(trim(isCharSequence(this_0) ? this_0 : THROW_CCE()));
 };
-protoOf(Research).h24 = function (text, data, translations) {
+protoOf(Research).v24 = function (text, data, translations) {
   // Inline function 'kotlin.runCatching' call
   var tmp;
   try {
@@ -15426,7 +15620,7 @@ protoOf(Research).h24 = function (text, data, translations) {
       // Inline function 'kotlin.text.orEmpty' call
       var tmp0_elvis_lhs_1 = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.h14();
       var tmp$ret$10 = tmp0_elvis_lhs_1 == null ? '' : tmp0_elvis_lhs_1;
-      var raw = tmp_4.g24(tmp$ret$10);
+      var raw = tmp_4.u24(tmp$ret$10);
       // Inline function 'kotlin.text.isEmpty' call
       if (charSequenceLength(raw) === 0) {
         tmp$ret$9 = null;
@@ -15470,7 +15664,7 @@ protoOf(Research).h24 = function (text, data, translations) {
             tmp_10 = tmp2_elvis_lhs;
           }
           var name = tmp_10;
-          var tmp3_elvis_lhs = EventHints_instance.f1t(name, data);
+          var tmp3_elvis_lhs = EventHints_instance.u1t(name, data);
           var tmp_11;
           if (tmp3_elvis_lhs == null) {
             tmp$ret$18 = null;
@@ -15504,7 +15698,7 @@ protoOf(Research).h24 = function (text, data, translations) {
         tmp_14 = null;
       } else {
         // Inline function 'kotlin.let' call
-        tmp_14 = Research_getInstance().o1m(News_getInstance().m1u(tmp3_safe_receiver, data));
+        tmp_14 = Research_getInstance().o1m(News_getInstance().b1v(tmp3_safe_receiver, data));
       }
       tmp$ret$9 = new Task(raw, tmp_14, type, rewards);
     }
@@ -15538,7 +15732,7 @@ protoOf(Research).o1m = function (text) {
   }
   return accumulator;
 };
-protoOf(Research).n21 = function (list) {
+protoOf(Research).b22 = function (list) {
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(list, 10));
@@ -15550,14 +15744,14 @@ protoOf(Research).n21 = function (list) {
   }
   return destination;
 };
-protoOf(Research).i24 = function (tasks) {
+protoOf(Research).w24 = function (tasks) {
   // Inline function 'kotlin.collections.groupBy' call
   // Inline function 'kotlin.collections.groupByTo' call
   var destination = LinkedHashMap_init_$Create$();
   var _iterator__ex2g4s = tasks.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var key = Research_getInstance().s1t(element.d24_1);
+    var key = Research_getInstance().h1u(element.r24_1);
     // Inline function 'kotlin.collections.getOrPut' call
     var value = destination.a2(key);
     var tmp;
@@ -15594,7 +15788,7 @@ function Companion_19() {
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
-  tmp.j24_1 = [null, null, lazy_0(tmp_0, ScanFrame$Companion$$childSerializers$_anonymous__papjsq)];
+  tmp.x24_1 = [null, null, lazy_0(tmp_0, ScanFrame$Companion$$childSerializers$_anonymous__papjsq)];
 }
 var Companion_instance_21;
 function Companion_getInstance_18() {
@@ -15644,10 +15838,10 @@ function $serializer_14() {
   tmp0_serialDesc.it('top', false);
   tmp0_serialDesc.it('right', false);
   tmp0_serialDesc.it('bottom', false);
-  this.k24_1 = tmp0_serialDesc;
+  this.y24_1 = tmp0_serialDesc;
 }
-protoOf($serializer_14).l24 = function (encoder, value) {
-  var tmp0_desc = this.k24_1;
+protoOf($serializer_14).z24 = function (encoder, value) {
+  var tmp0_desc = this.y24_1;
   var tmp1_output = encoder.bn(tmp0_desc);
   tmp1_output.qo(tmp0_desc, 0, value.s1p_1);
   tmp1_output.lo(tmp0_desc, 1, value.t1p_1);
@@ -15657,10 +15851,10 @@ protoOf($serializer_14).l24 = function (encoder, value) {
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_14).kk = function (encoder, value) {
-  return this.l24(encoder, value instanceof TextLine ? value : THROW_CCE());
+  return this.z24(encoder, value instanceof TextLine ? value : THROW_CCE());
 };
 protoOf($serializer_14).lk = function (decoder) {
-  var tmp0_desc = this.k24_1;
+  var tmp0_desc = this.y24_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -15716,7 +15910,7 @@ protoOf($serializer_14).lk = function (decoder) {
   return TextLine_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, null);
 };
 protoOf($serializer_14).jk = function () {
-  return this.k24_1;
+  return this.y24_1;
 };
 protoOf($serializer_14).xt = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -15732,7 +15926,7 @@ function $serializer_getInstance_14() {
 }
 function TextLine_init_$Init$(seen0, text, left, top, right, bottom, serializationConstructorMarker, $this) {
   if (!(31 === (31 & seen0))) {
-    throwMissingFieldException(seen0, 31, $serializer_getInstance_14().k24_1);
+    throwMissingFieldException(seen0, 31, $serializer_getInstance_14().y24_1);
   }
   $this.s1p_1 = text;
   $this.t1p_1 = left;
@@ -15754,13 +15948,13 @@ function TextLine(text, left, top, right, bottom) {
 protoOf(TextLine).z1p = function () {
   return (this.t1p_1 + this.v1p_1 | 0) / 2 | 0;
 };
-protoOf(TextLine).m24 = function () {
+protoOf(TextLine).a25 = function () {
   return (this.u1p_1 + this.w1p_1 | 0) / 2 | 0;
 };
 protoOf(TextLine).u1i = function () {
   return this.w1p_1 - this.u1p_1 | 0;
 };
-protoOf(TextLine).n24 = function (text, left, top, right, bottom) {
+protoOf(TextLine).b25 = function (text, left, top, right, bottom) {
   return new TextLine(text, left, top, right, bottom);
 };
 protoOf(TextLine).x1p = function (text, left, top, right, bottom, $super) {
@@ -15769,7 +15963,7 @@ protoOf(TextLine).x1p = function (text, left, top, right, bottom, $super) {
   top = top === VOID ? this.u1p_1 : top;
   right = right === VOID ? this.v1p_1 : right;
   bottom = bottom === VOID ? this.w1p_1 : bottom;
-  return $super === VOID ? this.n24(text, left, top, right, bottom) : $super.n24.call(this, text, left, top, right, bottom);
+  return $super === VOID ? this.b25(text, left, top, right, bottom) : $super.b25.call(this, text, left, top, right, bottom);
 };
 protoOf(TextLine).toString = function () {
   return 'TextLine(text=' + this.s1p_1 + ', left=' + this.t1p_1 + ', top=' + this.u1p_1 + ', right=' + this.v1p_1 + ', bottom=' + this.w1p_1 + ')';
@@ -15811,50 +16005,50 @@ function ScanResult(cp, hp, nickname, speciesName, candyFamily, powerUpDust, pow
   shadow = shadow === VOID ? false : shadow;
   typeText = typeText === VOID ? null : typeText;
   iv = iv === VOID ? null : iv;
-  this.o24_1 = cp;
-  this.p24_1 = hp;
-  this.q24_1 = nickname;
-  this.r24_1 = speciesName;
-  this.s24_1 = candyFamily;
-  this.t24_1 = powerUpDust;
-  this.u24_1 = powerUpCandy;
-  this.v24_1 = lucky;
-  this.w24_1 = shadow;
-  this.x24_1 = typeText;
-  this.y24_1 = iv;
+  this.c25_1 = cp;
+  this.d25_1 = hp;
+  this.e25_1 = nickname;
+  this.f25_1 = speciesName;
+  this.g25_1 = candyFamily;
+  this.h25_1 = powerUpDust;
+  this.i25_1 = powerUpCandy;
+  this.j25_1 = lucky;
+  this.k25_1 = shadow;
+  this.l25_1 = typeText;
+  this.m25_1 = iv;
 }
-protoOf(ScanResult).z24 = function (cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv) {
+protoOf(ScanResult).n25 = function (cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv) {
   return new ScanResult(cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv);
 };
-protoOf(ScanResult).a25 = function (cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv, $super) {
-  cp = cp === VOID ? this.o24_1 : cp;
-  hp = hp === VOID ? this.p24_1 : hp;
-  nickname = nickname === VOID ? this.q24_1 : nickname;
-  speciesName = speciesName === VOID ? this.r24_1 : speciesName;
-  candyFamily = candyFamily === VOID ? this.s24_1 : candyFamily;
-  powerUpDust = powerUpDust === VOID ? this.t24_1 : powerUpDust;
-  powerUpCandy = powerUpCandy === VOID ? this.u24_1 : powerUpCandy;
-  lucky = lucky === VOID ? this.v24_1 : lucky;
-  shadow = shadow === VOID ? this.w24_1 : shadow;
-  typeText = typeText === VOID ? this.x24_1 : typeText;
-  iv = iv === VOID ? this.y24_1 : iv;
-  return $super === VOID ? this.z24(cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv) : $super.z24.call(this, cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv);
+protoOf(ScanResult).o25 = function (cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv, $super) {
+  cp = cp === VOID ? this.c25_1 : cp;
+  hp = hp === VOID ? this.d25_1 : hp;
+  nickname = nickname === VOID ? this.e25_1 : nickname;
+  speciesName = speciesName === VOID ? this.f25_1 : speciesName;
+  candyFamily = candyFamily === VOID ? this.g25_1 : candyFamily;
+  powerUpDust = powerUpDust === VOID ? this.h25_1 : powerUpDust;
+  powerUpCandy = powerUpCandy === VOID ? this.i25_1 : powerUpCandy;
+  lucky = lucky === VOID ? this.j25_1 : lucky;
+  shadow = shadow === VOID ? this.k25_1 : shadow;
+  typeText = typeText === VOID ? this.l25_1 : typeText;
+  iv = iv === VOID ? this.m25_1 : iv;
+  return $super === VOID ? this.n25(cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv) : $super.n25.call(this, cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv);
 };
 protoOf(ScanResult).toString = function () {
-  return 'ScanResult(cp=' + this.o24_1 + ', hp=' + this.p24_1 + ', nickname=' + this.q24_1 + ', speciesName=' + this.r24_1 + ', candyFamily=' + this.s24_1 + ', powerUpDust=' + this.t24_1 + ', powerUpCandy=' + this.u24_1 + ', lucky=' + this.v24_1 + ', shadow=' + this.w24_1 + ', typeText=' + this.x24_1 + ', iv=' + toString(this.y24_1) + ')';
+  return 'ScanResult(cp=' + this.c25_1 + ', hp=' + this.d25_1 + ', nickname=' + this.e25_1 + ', speciesName=' + this.f25_1 + ', candyFamily=' + this.g25_1 + ', powerUpDust=' + this.h25_1 + ', powerUpCandy=' + this.i25_1 + ', lucky=' + this.j25_1 + ', shadow=' + this.k25_1 + ', typeText=' + this.l25_1 + ', iv=' + toString(this.m25_1) + ')';
 };
 protoOf(ScanResult).hashCode = function () {
-  var result = this.o24_1 == null ? 0 : this.o24_1;
-  result = imul(result, 31) + (this.p24_1 == null ? 0 : this.p24_1) | 0;
-  result = imul(result, 31) + (this.q24_1 == null ? 0 : getStringHashCode(this.q24_1)) | 0;
-  result = imul(result, 31) + (this.r24_1 == null ? 0 : getStringHashCode(this.r24_1)) | 0;
-  result = imul(result, 31) + (this.s24_1 == null ? 0 : getStringHashCode(this.s24_1)) | 0;
-  result = imul(result, 31) + (this.t24_1 == null ? 0 : this.t24_1) | 0;
-  result = imul(result, 31) + (this.u24_1 == null ? 0 : this.u24_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.v24_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.w24_1) | 0;
-  result = imul(result, 31) + (this.x24_1 == null ? 0 : getStringHashCode(this.x24_1)) | 0;
-  result = imul(result, 31) + (this.y24_1 == null ? 0 : this.y24_1.hashCode()) | 0;
+  var result = this.c25_1 == null ? 0 : this.c25_1;
+  result = imul(result, 31) + (this.d25_1 == null ? 0 : this.d25_1) | 0;
+  result = imul(result, 31) + (this.e25_1 == null ? 0 : getStringHashCode(this.e25_1)) | 0;
+  result = imul(result, 31) + (this.f25_1 == null ? 0 : getStringHashCode(this.f25_1)) | 0;
+  result = imul(result, 31) + (this.g25_1 == null ? 0 : getStringHashCode(this.g25_1)) | 0;
+  result = imul(result, 31) + (this.h25_1 == null ? 0 : this.h25_1) | 0;
+  result = imul(result, 31) + (this.i25_1 == null ? 0 : this.i25_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.j25_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.k25_1) | 0;
+  result = imul(result, 31) + (this.l25_1 == null ? 0 : getStringHashCode(this.l25_1)) | 0;
+  result = imul(result, 31) + (this.m25_1 == null ? 0 : this.m25_1.hashCode()) | 0;
   return result;
 };
 protoOf(ScanResult).equals = function (other) {
@@ -15862,27 +16056,27 @@ protoOf(ScanResult).equals = function (other) {
     return true;
   if (!(other instanceof ScanResult))
     return false;
-  if (!(this.o24_1 == other.o24_1))
+  if (!(this.c25_1 == other.c25_1))
     return false;
-  if (!(this.p24_1 == other.p24_1))
+  if (!(this.d25_1 == other.d25_1))
     return false;
-  if (!(this.q24_1 == other.q24_1))
+  if (!(this.e25_1 == other.e25_1))
     return false;
-  if (!(this.r24_1 == other.r24_1))
+  if (!(this.f25_1 == other.f25_1))
     return false;
-  if (!(this.s24_1 == other.s24_1))
+  if (!(this.g25_1 == other.g25_1))
     return false;
-  if (!(this.t24_1 == other.t24_1))
+  if (!(this.h25_1 == other.h25_1))
     return false;
-  if (!(this.u24_1 == other.u24_1))
+  if (!(this.i25_1 == other.i25_1))
     return false;
-  if (!(this.v24_1 === other.v24_1))
+  if (!(this.j25_1 === other.j25_1))
     return false;
-  if (!(this.w24_1 === other.w24_1))
+  if (!(this.k25_1 === other.k25_1))
     return false;
-  if (!(this.x24_1 == other.x24_1))
+  if (!(this.l25_1 == other.l25_1))
     return false;
-  if (!equals(this.y24_1, other.y24_1))
+  if (!equals(this.m25_1, other.m25_1))
     return false;
   return true;
 };
@@ -15919,7 +16113,7 @@ function typeLine($this, lines) {
         tmp_1 = false;
       }
       if (tmp_1) {
-        var tmp0 = ScanParser_getInstance().f25_1;
+        var tmp0 = ScanParser_getInstance().t25_1;
         // Inline function 'kotlin.collections.contains' call
         // Inline function 'kotlin.collections.containsKey' call
         var key = parts.q(0);
@@ -15928,7 +16122,7 @@ function typeLine($this, lines) {
         tmp_0 = false;
       }
       if (tmp_0) {
-        var tmp0_0 = ScanParser_getInstance().g25(element.s1p_1);
+        var tmp0_0 = ScanParser_getInstance().u25(element.s1p_1);
         var tmp$ret$12;
         $l$block_0: {
           // Inline function 'kotlin.collections.all' call
@@ -15980,7 +16174,7 @@ function number($this, text) {
   // Inline function 'kotlin.takeIf' call
   var this_0 = toString_0(trim(isCharSequence(text) ? text : THROW_CCE()));
   var tmp;
-  if (ScanParser_getInstance().e25_1.lb(this_0)) {
+  if (ScanParser_getInstance().s25_1.lb(this_0)) {
     tmp = this_0;
   } else {
     tmp = null;
@@ -16080,16 +16274,16 @@ function candyFamily($this, lines) {
   return null;
 }
 function sam$kotlin_Comparator$0_17(function_0) {
-  this.h25_1 = function_0;
+  this.v25_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_17).sc = function (a, b) {
-  return this.h25_1(a, b);
+  return this.v25_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_17).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_17).r2 = function () {
-  return this.h25_1;
+  return this.v25_1;
 };
 protoOf(sam$kotlin_Comparator$0_17).equals = function (other) {
   var tmp;
@@ -16110,16 +16304,16 @@ protoOf(sam$kotlin_Comparator$0_17).hashCode = function () {
   return hashCode(this.r2());
 };
 function sam$kotlin_Comparator$0_18(function_0) {
-  this.i25_1 = function_0;
+  this.w25_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_18).sc = function (a, b) {
-  return this.i25_1(a, b);
+  return this.w25_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_18).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_18).r2 = function () {
-  return this.i25_1;
+  return this.w25_1;
 };
 protoOf(sam$kotlin_Comparator$0_18).equals = function (other) {
   var tmp;
@@ -16153,13 +16347,13 @@ function ScanParser$candyFamily$lambda(a, b) {
 }
 function ScanParser() {
   ScanParser_instance = this;
-  this.b25_1 = Regex_init_$Create$('^[wWvV][pP]\\s?(\\d{2,5})$');
-  this.c25_1 = Regex_init_$Create$_0('(\\d+)\\s*/\\s*(\\d+)\\s*KP', RegexOption_IGNORE_CASE_getInstance());
-  this.d25_1 = Regex_init_$Create$('Dieses\\s+(.+?)\\s+wurde');
-  this.e25_1 = Regex_init_$Create$('^\\d{1,3}(\\.\\d{3})*$');
-  this.f25_1 = mapOf([to('NORMAL', 'normal'), to('FEUER', 'fire'), to('WASSER', 'water'), to('PFLANZE', 'grass'), to('ELEKTRO', 'electric'), to('EIS', 'ice'), to('KAMPF', 'fighting'), to('GIFT', 'poison'), to('BODEN', 'ground'), to('FLUG', 'flying'), to('PSYCHO', 'psychic'), to('K\xC4FER', 'bug'), to('GESTEIN', 'rock'), to('GEIST', 'ghost'), to('DRACHE', 'dragon'), to('UNLICHT', 'dark'), to('STAHL', 'steel'), to('FEE', 'fairy')]);
+  this.p25_1 = Regex_init_$Create$('^[wWvV][pP]\\s?(\\d{2,5})$');
+  this.q25_1 = Regex_init_$Create$_0('(\\d+)\\s*/\\s*(\\d+)\\s*KP', RegexOption_IGNORE_CASE_getInstance());
+  this.r25_1 = Regex_init_$Create$('Dieses\\s+(.+?)\\s+wurde');
+  this.s25_1 = Regex_init_$Create$('^\\d{1,3}(\\.\\d{3})*$');
+  this.t25_1 = mapOf([to('NORMAL', 'normal'), to('FEUER', 'fire'), to('WASSER', 'water'), to('PFLANZE', 'grass'), to('ELEKTRO', 'electric'), to('EIS', 'ice'), to('KAMPF', 'fighting'), to('GIFT', 'poison'), to('BODEN', 'ground'), to('FLUG', 'flying'), to('PSYCHO', 'psychic'), to('K\xC4FER', 'bug'), to('GESTEIN', 'rock'), to('GEIST', 'ghost'), to('DRACHE', 'dragon'), to('UNLICHT', 'dark'), to('STAHL', 'steel'), to('FEE', 'fairy')]);
 }
-protoOf(ScanParser).j25 = function (frame, iv) {
+protoOf(ScanParser).x25 = function (frame, iv) {
   var lines = frame.c1q_1;
   var tmp$ret$0;
   $l$block: {
@@ -16167,7 +16361,7 @@ protoOf(ScanParser).j25 = function (frame, iv) {
     var _iterator__ex2g4s = lines.i();
     while (_iterator__ex2g4s.j()) {
       var element = _iterator__ex2g4s.k();
-      if (ScanParser_getInstance().c25_1.mb(element.s1p_1)) {
+      if (ScanParser_getInstance().q25_1.mb(element.s1p_1)) {
         tmp$ret$0 = element;
         break $l$block;
       }
@@ -16191,7 +16385,7 @@ protoOf(ScanParser).j25 = function (frame, iv) {
     var _iterator__ex2g4s_1 = destination.i();
     while (_iterator__ex2g4s_1.j()) {
       var element_1 = _iterator__ex2g4s_1.k();
-      var tmp = ScanParser_getInstance().b25_1;
+      var tmp = ScanParser_getInstance().p25_1;
       // Inline function 'kotlin.text.trim' call
       var this_0 = element_1.s1p_1;
       var tmp$ret$7 = toString_0(trim(isCharSequence(this_0) ? this_0 : THROW_CCE()));
@@ -16308,7 +16502,7 @@ protoOf(ScanParser).j25 = function (frame, iv) {
     var _iterator__ex2g4s_5 = lines.i();
     while (_iterator__ex2g4s_5.j()) {
       var element_5 = _iterator__ex2g4s_5.k();
-      if (element_5.t1p_1 > powerUp.v1p_1 && abs(element_5.m24() - powerUp.m24() | 0) < powerUp.u1i()) {
+      if (element_5.t1p_1 > powerUp.v1p_1 && abs(element_5.a25() - powerUp.a25() | 0) < powerUp.u1i()) {
         destination_1.h(element_5);
       }
     }
@@ -16342,7 +16536,7 @@ protoOf(ScanParser).j25 = function (frame, iv) {
     tmp_5 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_5 = toIntOrNull(ensureNotNull(ScanParser_getInstance().c25_1.nb(hpLine.s1p_1)).qc().q(2));
+    tmp_5 = toIntOrNull(ensureNotNull(ScanParser_getInstance().q25_1.nb(hpLine.s1p_1)).qc().q(2));
   }
   var tmp3_hp = tmp_5;
   var tmp$ret$38;
@@ -16351,7 +16545,7 @@ protoOf(ScanParser).j25 = function (frame, iv) {
     var _iterator__ex2g4s_7 = lines.i();
     while (_iterator__ex2g4s_7.j()) {
       var element_7 = _iterator__ex2g4s_7.k();
-      var tmp0_safe_receiver_2 = ScanParser_getInstance().d25_1.nb(element_7.s1p_1);
+      var tmp0_safe_receiver_2 = ScanParser_getInstance().r25_1.nb(element_7.s1p_1);
       var tmp1_safe_receiver_1 = tmp0_safe_receiver_2 == null ? null : tmp0_safe_receiver_2.qc();
       var result_0 = tmp1_safe_receiver_1 == null ? null : tmp1_safe_receiver_1.q(1);
       if (!(result_0 == null)) {
@@ -16395,7 +16589,7 @@ protoOf(ScanParser).j25 = function (frame, iv) {
   var tmp9_typeText = typeLine(this, lines);
   return new ScanResult(cp, tmp3_hp, nickname, tmp4_speciesName, tmp5_candyFamily, tmp6_powerUpDust, tmp7_powerUpCandy, lucky, tmp8_shadow, tmp9_typeText, iv);
 };
-protoOf(ScanParser).g25 = function (text) {
+protoOf(ScanParser).u25 = function (text) {
   // Inline function 'kotlin.collections.map' call
   var this_0 = split(text, ['/']);
   // Inline function 'kotlin.collections.mapTo' call
@@ -16427,7 +16621,7 @@ protoOf(ScanParser).g25 = function (text) {
   while (_iterator__ex2g4s_1.j()) {
     var item_0 = _iterator__ex2g4s_1.k();
     // Inline function 'kotlin.collections.filterKeys' call
-    var this_1 = ScanParser_getInstance().f25_1;
+    var this_1 = ScanParser_getInstance().t25_1;
     var result = LinkedHashMap_init_$Create$();
     // Inline function 'kotlin.collections.iterator' call
     var _iterator__ex2g4s_2 = this_1.w().i();
@@ -16450,13 +16644,13 @@ function ScanParser_getInstance() {
   return ScanParser_instance;
 }
 function pool($this, scan) {
-  var tmp0_safe_receiver = scan.r24_1;
+  var tmp0_safe_receiver = scan.f25_1;
   var tmp;
   if (tmp0_safe_receiver == null) {
     tmp = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp = $this.p25(tmp0_safe_receiver);
+    tmp = $this.d26(tmp0_safe_receiver);
   }
   var tmp1_safe_receiver = tmp;
   var tmp_0;
@@ -16480,13 +16674,13 @@ function pool($this, scan) {
     // Inline function 'kotlin.let' call
     return tmp2_safe_receiver;
   }
-  var tmp3_safe_receiver = scan.s24_1;
+  var tmp3_safe_receiver = scan.g25_1;
   var tmp_2;
   if (tmp3_safe_receiver == null) {
     tmp_2 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_2 = $this.p25(tmp3_safe_receiver);
+    tmp_2 = $this.d26(tmp3_safe_receiver);
   }
   // Inline function 'kotlin.collections.orEmpty' call
   var tmp0_elvis_lhs = tmp_2;
@@ -16501,7 +16695,7 @@ function pool($this, scan) {
     addAll(destination, list);
   }
   var family_0 = distinct(destination);
-  var nick = scan.q24_1;
+  var nick = scan.e25_1;
   var tmp_3;
   if (nick == null) {
     tmp_3 = null;
@@ -16535,7 +16729,7 @@ function pool($this, scan) {
     while (_iterator__ex2g4s_0.j()) {
       var element_0 = _iterator__ex2g4s_0.k();
       // Inline function 'kotlin.takeIf' call
-      var this_0 = $this.p25(element_0);
+      var this_0 = $this.d26(element_0);
       var tmp_4;
       // Inline function 'kotlin.collections.isNotEmpty' call
       if (!this_0.r()) {
@@ -16583,7 +16777,7 @@ function pool($this, scan) {
 function byTypes($this, pool, typeText) {
   if (typeText == null || pool.l() < 2)
     return pool;
-  var parts = ScanParser_getInstance().g25(typeText);
+  var parts = ScanParser_getInstance().u25(typeText);
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp = ScanResolver$byTypes$lambda(parts);
@@ -16596,7 +16790,7 @@ function family($this, root) {
   return out;
 }
 function solve($this, species, scan) {
-  var tmp0_elvis_lhs = scan.p24_1;
+  var tmp0_elvis_lhs = scan.d25_1;
   var tmp;
   if (tmp0_elvis_lhs == null) {
     return emptyList();
@@ -16604,10 +16798,10 @@ function solve($this, species, scan) {
     tmp = tmp0_elvis_lhs;
   }
   var hp = tmp;
-  if (scan.o24_1 == null && (scan.y24_1 == null || scan.t24_1 == null))
+  if (scan.c25_1 == null && (scan.m25_1 == null || scan.h25_1 == null))
     return emptyList();
-  var hits = $this.m25_1.n1g(species.h1f(), scan.o24_1, hp, $this.k25_1.i1g().l1g(1.0, $this.l25_1), scan.y24_1);
-  var tmp1_elvis_lhs = scan.t24_1;
+  var hits = $this.a26_1.n1g(species.h1f(), scan.c25_1, hp, $this.y25_1.i1g().l1g(1.0, $this.z25_1), scan.m25_1);
+  var tmp1_elvis_lhs = scan.h25_1;
   var tmp_0;
   if (tmp1_elvis_lhs == null) {
     return hits;
@@ -16628,7 +16822,7 @@ function solve($this, species, scan) {
   // Inline function 'kotlin.collections.ifEmpty' call
   var tmp_1;
   if (destination.r()) {
-    tmp_1 = !(scan.o24_1 == null) ? hits : emptyList();
+    tmp_1 = !(scan.c25_1 == null) ? hits : emptyList();
   } else {
     tmp_1 = destination;
   }
@@ -16636,7 +16830,7 @@ function solve($this, species, scan) {
 }
 function variantFor($this, level, dust) {
   var tmp;
-  if (level >= $this.k25_1.u1h().h1o()) {
+  if (level >= $this.y25_1.u1h().h1o()) {
     tmp = null;
   } else {
     var tmp0 = get_entries_0();
@@ -16646,7 +16840,7 @@ function variantFor($this, level, dust) {
       var _iterator__ex2g4s = tmp0.i();
       while (_iterator__ex2g4s.j()) {
         var element = _iterator__ex2g4s.k();
-        if ($this.k25_1.u1h().y1h(level, level + 0.5, element).z1h_1 === dust) {
+        if ($this.y25_1.u1h().y1h(level, level + 0.5, element).z1h_1 === dust) {
           tmp$ret$0 = element;
           break $l$block;
         }
@@ -16719,16 +16913,16 @@ function distance_1($this, a, b, limit) {
   return prev[b.length];
 }
 function sam$kotlin_Comparator$0_19(function_0) {
-  this.q25_1 = function_0;
+  this.e26_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_19).sc = function (a, b) {
-  return this.q25_1(a, b);
+  return this.e26_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_19).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_19).r2 = function () {
-  return this.q25_1;
+  return this.e26_1;
 };
 protoOf(sam$kotlin_Comparator$0_19).equals = function (other) {
   var tmp;
@@ -16821,7 +17015,7 @@ function family$walk(out, this$0, s, depth) {
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = this$0.k25_1.z1f().a2(element.a1g_1);
+    var tmp0_safe_receiver = this$0.y25_1.z1f().a2(element.a1g_1);
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -16838,12 +17032,12 @@ function family$walk(out, this$0, s, depth) {
 }
 function ScanResolver(data, maxLevel) {
   maxLevel = maxLevel === VOID ? 51.0 : maxLevel;
-  this.k25_1 = data;
-  this.l25_1 = maxLevel;
-  this.m25_1 = new IvSolver(this.k25_1.i1g());
+  this.y25_1 = data;
+  this.z25_1 = maxLevel;
+  this.a26_1 = new IvSolver(this.y25_1.i1g());
   var tmp = this;
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = this.k25_1.p1f_1;
+  var tmp0 = this.y25_1.p1f_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
@@ -16853,10 +17047,10 @@ function ScanResolver(data, maxLevel) {
       destination.h(element);
     }
   }
-  tmp.n25_1 = destination;
+  tmp.b26_1 = destination;
   var tmp_0 = this;
   // Inline function 'kotlin.collections.groupBy' call
-  var tmp0_0 = this.n25_1;
+  var tmp0_0 = this.b26_1;
   // Inline function 'kotlin.collections.groupByTo' call
   var destination_0 = LinkedHashMap_init_$Create$();
   var _iterator__ex2g4s_0 = tmp0_0.i();
@@ -16876,10 +17070,10 @@ function ScanResolver(data, maxLevel) {
     var list = tmp_1;
     list.h(element_0);
   }
-  tmp_0.o25_1 = destination_0;
+  tmp_0.c26_1 = destination_0;
 }
-protoOf(ScanResolver).r25 = function (scan) {
-  var pool_0 = byTypes(this, pool(this, scan), scan.x24_1);
+protoOf(ScanResolver).f26 = function (scan) {
+  var pool_0 = byTypes(this, pool(this, scan), scan.l25_1);
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(pool_0, 10));
@@ -16918,15 +17112,15 @@ protoOf(ScanResolver).r25 = function (scan) {
     destination_0.h(tmp$ret$8);
   }
   var level = singleOrNull(distinct(destination_0));
-  var fromDust = !(level == null) && !(scan.t24_1 == null) ? variantFor(this, level, scan.t24_1) : null;
-  var variant = scan.w24_1 ? Variant_SHADOW_getInstance() : scan.v24_1 ? Variant_LUCKY_getInstance() : fromDust;
+  var fromDust = !(level == null) && !(scan.h25_1 == null) ? variantFor(this, level, scan.h25_1) : null;
+  var variant = scan.k25_1 ? Variant_SHADOW_getInstance() : scan.j25_1 ? Variant_LUCKY_getInstance() : fromDust;
   return new Resolved(scan, species, candidates, variant == null ? Variant_NORMAL_getInstance() : variant, !(variant == null));
 };
-protoOf(ScanResolver).p25 = function (name) {
+protoOf(ScanResolver).d26 = function (name) {
   var key = normalize(this, name);
   if (key.length < 3)
     return emptyList();
-  var tmp0_safe_receiver = this.o25_1.a2(key);
+  var tmp0_safe_receiver = this.c26_1.a2(key);
   if (tmp0_safe_receiver == null)
     null;
   else {
@@ -16937,7 +17131,7 @@ protoOf(ScanResolver).p25 = function (name) {
   var b = key.length / 4 | 0;
   var limit = Math.min(2, b);
   // Inline function 'kotlin.collections.map' call
-  var this_0 = this.o25_1.b2();
+  var this_0 = this.c26_1.b2();
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(this_0, 10));
   var _iterator__ex2g4s = this_0.i();
@@ -16989,24 +17183,24 @@ protoOf(ScanResolver).p25 = function (name) {
     tmp = tmp1_elvis_lhs;
   }
   var best = tmp;
-  return getValue(this.o25_1, best.i9_1);
+  return getValue(this.c26_1, best.i9_1);
 };
 function Resolved(scan, species, candidates, variant, variantKnown) {
-  this.s25_1 = scan;
-  this.t25_1 = species;
-  this.u25_1 = candidates;
-  this.v25_1 = variant;
-  this.w25_1 = variantKnown;
+  this.g26_1 = scan;
+  this.h26_1 = species;
+  this.i26_1 = candidates;
+  this.j26_1 = variant;
+  this.k26_1 = variantKnown;
 }
 protoOf(Resolved).toString = function () {
-  return 'Resolved(scan=' + this.s25_1.toString() + ', species=' + toString(this.t25_1) + ', candidates=' + toString_0(this.u25_1) + ', variant=' + this.v25_1.toString() + ', variantKnown=' + this.w25_1 + ')';
+  return 'Resolved(scan=' + this.g26_1.toString() + ', species=' + toString(this.h26_1) + ', candidates=' + toString_0(this.i26_1) + ', variant=' + this.j26_1.toString() + ', variantKnown=' + this.k26_1 + ')';
 };
 protoOf(Resolved).hashCode = function () {
-  var result = this.s25_1.hashCode();
-  result = imul(result, 31) + (this.t25_1 == null ? 0 : this.t25_1.hashCode()) | 0;
-  result = imul(result, 31) + hashCode(this.u25_1) | 0;
-  result = imul(result, 31) + this.v25_1.hashCode() | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.w25_1) | 0;
+  var result = this.g26_1.hashCode();
+  result = imul(result, 31) + (this.h26_1 == null ? 0 : this.h26_1.hashCode()) | 0;
+  result = imul(result, 31) + hashCode(this.i26_1) | 0;
+  result = imul(result, 31) + this.j26_1.hashCode() | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.k26_1) | 0;
   return result;
 };
 protoOf(Resolved).equals = function (other) {
@@ -17014,15 +17208,15 @@ protoOf(Resolved).equals = function (other) {
     return true;
   if (!(other instanceof Resolved))
     return false;
-  if (!this.s25_1.equals(other.s25_1))
+  if (!this.g26_1.equals(other.g26_1))
     return false;
-  if (!equals(this.t25_1, other.t25_1))
+  if (!equals(this.h26_1, other.h26_1))
     return false;
-  if (!equals(this.u25_1, other.u25_1))
+  if (!equals(this.i26_1, other.i26_1))
     return false;
-  if (!this.v25_1.equals(other.v25_1))
+  if (!this.j26_1.equals(other.j26_1))
     return false;
-  if (!(this.w25_1 === other.w25_1))
+  if (!(this.k26_1 === other.k26_1))
     return false;
   return true;
 };
@@ -17051,27 +17245,27 @@ function get_entries_5() {
 var $ENTRIES_5;
 function Kind_2(name, ordinal, code) {
   Enum.call(this, name, ordinal);
-  this.z25_1 = code;
+  this.n26_1 = code;
 }
 function Payload(kind, pokemon, league, ownedDex, name) {
   league = league === VOID ? 0 : league;
   ownedDex = ownedDex === VOID ? emptySet() : ownedDex;
   name = name === VOID ? '' : name;
-  this.a26_1 = kind;
-  this.b26_1 = pokemon;
-  this.c26_1 = league;
-  this.d26_1 = ownedDex;
-  this.e26_1 = name;
+  this.o26_1 = kind;
+  this.p26_1 = pokemon;
+  this.q26_1 = league;
+  this.r26_1 = ownedDex;
+  this.s26_1 = name;
 }
 protoOf(Payload).toString = function () {
-  return 'Payload(kind=' + this.a26_1.toString() + ', pokemon=' + toString_0(this.b26_1) + ', league=' + this.c26_1 + ', ownedDex=' + toString_0(this.d26_1) + ', name=' + this.e26_1 + ')';
+  return 'Payload(kind=' + this.o26_1.toString() + ', pokemon=' + toString_0(this.p26_1) + ', league=' + this.q26_1 + ', ownedDex=' + toString_0(this.r26_1) + ', name=' + this.s26_1 + ')';
 };
 protoOf(Payload).hashCode = function () {
-  var result = this.a26_1.hashCode();
-  result = imul(result, 31) + hashCode(this.b26_1) | 0;
-  result = imul(result, 31) + this.c26_1 | 0;
-  result = imul(result, 31) + hashCode(this.d26_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.e26_1) | 0;
+  var result = this.o26_1.hashCode();
+  result = imul(result, 31) + hashCode(this.p26_1) | 0;
+  result = imul(result, 31) + this.q26_1 | 0;
+  result = imul(result, 31) + hashCode(this.r26_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.s26_1) | 0;
   return result;
 };
 protoOf(Payload).equals = function (other) {
@@ -17079,15 +17273,15 @@ protoOf(Payload).equals = function (other) {
     return true;
   if (!(other instanceof Payload))
     return false;
-  if (!this.a26_1.equals(other.a26_1))
+  if (!this.o26_1.equals(other.o26_1))
     return false;
-  if (!equals(this.b26_1, other.b26_1))
+  if (!equals(this.p26_1, other.p26_1))
     return false;
-  if (!(this.c26_1 === other.c26_1))
+  if (!(this.q26_1 === other.q26_1))
     return false;
-  if (!equals(this.d26_1, other.d26_1))
+  if (!equals(this.r26_1, other.r26_1))
     return false;
-  if (!(this.e26_1 === other.e26_1))
+  if (!(this.s26_1 === other.s26_1))
     return false;
   return true;
 };
@@ -17137,31 +17331,31 @@ function Kind_TRADE_getInstance() {
   return Kind_TRADE_instance;
 }
 function ShareCode() {
-  this.f26_1 = 'https://pimiva.github.io/pogo-iv/';
-  this.g26_1 = 1;
-  this.h26_1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
+  this.t26_1 = 'https://pimiva.github.io/pogo-iv/';
+  this.u26_1 = 1;
+  this.v26_1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
 }
-protoOf(ShareCode).i26 = function (p) {
-  return 'https://pimiva.github.io/pogo-iv/#c=' + this.j26(p);
+protoOf(ShareCode).w26 = function (p) {
+  return 'https://pimiva.github.io/pogo-iv/#c=' + this.x26(p);
 };
-protoOf(ShareCode).p25 = function (text) {
+protoOf(ShareCode).d26 = function (text) {
   var tmp0_safe_receiver = Regex_init_$Create$('#c=([A-Za-z0-9_-]+)').nb(text);
   var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.qc();
   return tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q(1);
 };
-protoOf(ShareCode).j26 = function (p) {
+protoOf(ShareCode).x26 = function (p) {
   var out = ArrayList_init_$Create$_0();
   encode$u8(out, 1);
   // Inline function 'kotlin.code' call
-  var this_0 = p.a26_1.z25_1;
+  var this_0 = p.o26_1.n26_1;
   var tmp$ret$0 = Char__toInt_impl_vasixd(this_0);
   encode$u8(out, tmp$ret$0);
-  encode$str(out, take(p.e26_1, 40));
-  encode$u16(out, p.c26_1);
-  var tmp0_elvis_lhs = maxOrNull(p.d26_1);
+  encode$str(out, take(p.s26_1, 40));
+  encode$u16(out, p.q26_1);
+  var tmp0_elvis_lhs = maxOrNull(p.r26_1);
   var maxDex = tmp0_elvis_lhs == null ? 0 : tmp0_elvis_lhs;
   var bits = new Int8Array(maxDex === 0 ? 0 : (maxDex / 8 | 0) + 1 | 0);
-  var _iterator__ex2g4s = p.d26_1.i();
+  var _iterator__ex2g4s = p.r26_1.i();
   while (_iterator__ex2g4s.j()) {
     var d = _iterator__ex2g4s.k();
     bits[d / 8 | 0] = toByte(bits[d / 8 | 0] | 1 << (d % 8 | 0));
@@ -17176,7 +17370,7 @@ protoOf(ShareCode).j26 = function (p) {
     out.h(element);
   }
   // Inline function 'kotlin.collections.map' call
-  var this_1 = p.b26_1;
+  var this_1 = p.p26_1;
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(this_1, 10));
   var _iterator__ex2g4s_0 = this_1.i();
@@ -17187,7 +17381,7 @@ protoOf(ShareCode).j26 = function (p) {
   }
   var species = distinct(destination);
   // Inline function 'kotlin.collections.flatMap' call
-  var tmp0 = p.b26_1;
+  var tmp0 = p.p26_1;
   // Inline function 'kotlin.collections.flatMapTo' call
   var destination_0 = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s_1 = tmp0.i();
@@ -17211,8 +17405,8 @@ protoOf(ShareCode).j26 = function (p) {
     var element_2 = _iterator__ex2g4s_3.k();
     encode$str(out, element_2);
   }
-  encode$u16(out, p.b26_1.l());
-  var _iterator__ex2g4s_4 = p.b26_1.i();
+  encode$u16(out, p.p26_1.l());
+  var _iterator__ex2g4s_4 = p.p26_1.i();
   while (_iterator__ex2g4s_4.j()) {
     var x = _iterator__ex2g4s_4.k();
     encode$u16(out, species.u(x.b1l_1));
@@ -17241,13 +17435,13 @@ protoOf(ShareCode).j26 = function (p) {
       encode$u16(out, moves.u(element_3));
     }
   }
-  return this.k26(toByteArray(out));
+  return this.y26(toByteArray(out));
 };
-protoOf(ShareCode).l26 = function (code, uidStart) {
+protoOf(ShareCode).z26 = function (code, uidStart) {
   // Inline function 'kotlin.runCatching' call
   var tmp;
   try {
-    var b = this.m26(code);
+    var b = this.a27(code);
     var i = {_v: 0};
     // Inline function 'kotlin.require' call
     // Inline function 'kotlin.require' call
@@ -17263,7 +17457,7 @@ protoOf(ShareCode).l26 = function (code, uidStart) {
       var _iterator__ex2g4s = tmp0.i();
       while (_iterator__ex2g4s.j()) {
         var element = _iterator__ex2g4s.k();
-        if (element.z25_1 === kindCode) {
+        if (element.n26_1 === kindCode) {
           tmp$ret$5 = element;
           break $l$block;
         }
@@ -17384,7 +17578,7 @@ protoOf(ShareCode).l26 = function (code, uidStart) {
   var this_0 = tmp;
   return _Result___get_isFailure__impl__jpiriv(this_0) ? null : _Result___get_value__impl__bjfvqg(this_0);
 };
-protoOf(ShareCode).k26 = function (bytes) {
+protoOf(ShareCode).y26 = function (bytes) {
   var sb = StringBuilder_init_$Create$();
   var i = 0;
   while (i < bytes.length) {
@@ -17412,7 +17606,7 @@ protoOf(ShareCode).k26 = function (bytes) {
   }
   return sb.toString();
 };
-protoOf(ShareCode).m26 = function (text) {
+protoOf(ShareCode).a27 = function (text) {
   var out = ArrayList_init_$Create$_0();
   var i = 0;
   while (i < text.length) {
@@ -17462,7 +17656,7 @@ function ShareCode_getInstance() {
 }
 function TradeMatch() {
 }
-protoOf(TradeMatch).n26 = function (data, p) {
+protoOf(TradeMatch).b27 = function (data, p) {
   var tmp0_elvis_lhs = data.z1f().a2(p.b1l_1);
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -17473,7 +17667,7 @@ protoOf(TradeMatch).n26 = function (data, p) {
   var s = tmp;
   return !p.i1l_1.equals(Variant_SHADOW_getInstance()) && !s.a1f_1.t('untradeable');
 };
-protoOf(TradeMatch).o26 = function (data, cleanup, limit) {
+protoOf(TradeMatch).c27 = function (data, cleanup, limit) {
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(cleanup, 10));
@@ -17489,7 +17683,7 @@ protoOf(TradeMatch).o26 = function (data, cleanup, limit) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var element = _iterator__ex2g4s_0.k();
-    if (TradeMatch_instance.n26(data, element)) {
+    if (TradeMatch_instance.b27(data, element)) {
       destination_0.h(element);
     }
   }
@@ -17506,11 +17700,11 @@ protoOf(TradeMatch).o26 = function (data, cleanup, limit) {
   }
   return take_0(list, limit);
 };
-protoOf(TradeMatch).p26 = function (data, cleanup, limit, $super) {
+protoOf(TradeMatch).d27 = function (data, cleanup, limit, $super) {
   limit = limit === VOID ? 80 : limit;
-  return $super === VOID ? this.o26(data, cleanup, limit) : $super.o26.call(this, data, cleanup, limit);
+  return $super === VOID ? this.c27(data, cleanup, limit) : $super.c27.call(this, data, cleanup, limit);
 };
-protoOf(TradeMatch).q26 = function (data, list) {
+protoOf(TradeMatch).e27 = function (data, list) {
   // Inline function 'kotlin.collections.mapNotNull' call
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -17529,7 +17723,7 @@ protoOf(TradeMatch).q26 = function (data, list) {
   }
   return toSet(destination);
 };
-protoOf(TradeMatch).r26 = function (data, myOffers, friend) {
+protoOf(TradeMatch).f27 = function (data, myOffers, friend) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -17543,7 +17737,7 @@ protoOf(TradeMatch).r26 = function (data, myOffers, friend) {
       tmp = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp = !friend.d26_1.t(tmp1_safe_receiver);
+      tmp = !friend.r26_1.t(tmp1_safe_receiver);
     }
     if (tmp === true) {
       destination.h(element);
@@ -17551,10 +17745,10 @@ protoOf(TradeMatch).r26 = function (data, myOffers, friend) {
   }
   return destination;
 };
-protoOf(TradeMatch).s26 = function (data, mine, friend) {
-  var have = this.q26(data, mine);
+protoOf(TradeMatch).g27 = function (data, mine, friend) {
+  var have = this.e27(data, mine);
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = friend.b26_1;
+  var tmp0 = friend.p26_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
@@ -17580,15 +17774,15 @@ function TradeMatch_getInstance() {
   return TradeMatch_instance;
 }
 function Source_0(file, url) {
-  this.t26_1 = file;
-  this.u26_1 = url;
+  this.h27_1 = file;
+  this.i27_1 = url;
 }
 protoOf(Source_0).toString = function () {
-  return 'Source(file=' + this.t26_1 + ', url=' + this.u26_1 + ')';
+  return 'Source(file=' + this.h27_1 + ', url=' + this.i27_1 + ')';
 };
 protoOf(Source_0).hashCode = function () {
-  var result = getStringHashCode(this.t26_1);
-  result = imul(result, 31) + getStringHashCode(this.u26_1) | 0;
+  var result = getStringHashCode(this.h27_1);
+  result = imul(result, 31) + getStringHashCode(this.i27_1) | 0;
   return result;
 };
 protoOf(Source_0).equals = function (other) {
@@ -17596,25 +17790,25 @@ protoOf(Source_0).equals = function (other) {
     return true;
   if (!(other instanceof Source_0))
     return false;
-  if (!(this.t26_1 === other.t26_1))
+  if (!(this.h27_1 === other.h27_1))
     return false;
-  if (!(this.u26_1 === other.u26_1))
+  if (!(this.i27_1 === other.i27_1))
     return false;
   return true;
 };
 function SpriteNames() {
-  this.v26_1 = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/';
-  this.w26_1 = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/Addressable%20Assets/';
-  this.x26_1 = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/';
+  this.j27_1 = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/';
+  this.k27_1 = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/Addressable%20Assets/';
+  this.l27_1 = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/';
 }
-protoOf(SpriteNames).y26 = function (species) {
+protoOf(SpriteNames).m27 = function (species) {
   var dex = species.r1e_1;
   var padded = padStart(dex.toString(), 3, _Char___init__impl__6a9atx(48));
   // Inline function 'kotlin.collections.buildList' call
   // Inline function 'kotlin.collections.buildListInternal' call
   // Inline function 'kotlin.apply' call
   var this_0 = ArrayList_init_$Create$_0();
-  var tmp0_safe_receiver = SpriteNames_instance.z26(species.q1e_1);
+  var tmp0_safe_receiver = SpriteNames_instance.n27(species.q1e_1);
   if (tmp0_safe_receiver == null)
     null;
   else {
@@ -17627,7 +17821,7 @@ protoOf(SpriteNames).y26 = function (species) {
   this_0.h(new Source_0('home_' + dex + '.png', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/' + dex + '.png'));
   return this_0.p4();
 };
-protoOf(SpriteNames).z26 = function (id) {
+protoOf(SpriteNames).n27 = function (id) {
   var suffix = substringAfter_0(id, _Char___init__impl__6a9atx(95), '');
   // Inline function 'kotlin.text.isEmpty' call
   if (charSequenceLength(suffix) === 0)
@@ -17741,17 +17935,17 @@ protoOf(LevelTable).l1g = function (from, to) {
   return destination;
 };
 function BaseStats(atk, def, sta) {
-  this.a27_1 = atk;
-  this.b27_1 = def;
-  this.c27_1 = sta;
+  this.o27_1 = atk;
+  this.p27_1 = def;
+  this.q27_1 = sta;
 }
 protoOf(BaseStats).toString = function () {
-  return 'BaseStats(atk=' + this.a27_1 + ', def=' + this.b27_1 + ', sta=' + this.c27_1 + ')';
+  return 'BaseStats(atk=' + this.o27_1 + ', def=' + this.p27_1 + ', sta=' + this.q27_1 + ')';
 };
 protoOf(BaseStats).hashCode = function () {
-  var result = this.a27_1;
-  result = imul(result, 31) + this.b27_1 | 0;
-  result = imul(result, 31) + this.c27_1 | 0;
+  var result = this.o27_1;
+  result = imul(result, 31) + this.p27_1 | 0;
+  result = imul(result, 31) + this.q27_1 | 0;
   return result;
 };
 protoOf(BaseStats).equals = function (other) {
@@ -17759,20 +17953,20 @@ protoOf(BaseStats).equals = function (other) {
     return true;
   if (!(other instanceof BaseStats))
     return false;
-  if (!(this.a27_1 === other.a27_1))
+  if (!(this.o27_1 === other.o27_1))
     return false;
-  if (!(this.b27_1 === other.b27_1))
+  if (!(this.p27_1 === other.p27_1))
     return false;
-  if (!(this.c27_1 === other.c27_1))
+  if (!(this.q27_1 === other.q27_1))
     return false;
   return true;
 };
 function Formulas() {
 }
 protoOf(Formulas).s1g = function (base, iv, cpm) {
-  var a = base.a27_1 + iv.k1j_1 | 0;
-  var d = base.b27_1 + iv.l1j_1 | 0;
-  var s = base.c27_1 + iv.m1j_1 | 0;
+  var a = base.o27_1 + iv.k1j_1 | 0;
+  var d = base.p27_1 + iv.l1j_1 | 0;
+  var s = base.q27_1 + iv.m1j_1 | 0;
   // Inline function 'kotlin.math.sqrt' call
   var tmp = a * Math.sqrt(d);
   // Inline function 'kotlin.math.sqrt' call
@@ -17785,14 +17979,14 @@ protoOf(Formulas).s1g = function (base, iv, cpm) {
 };
 protoOf(Formulas).b1n = function (base, iv, cpm) {
   // Inline function 'kotlin.math.floor' call
-  var x = (base.c27_1 + iv.m1j_1 | 0) * cpm;
+  var x = (base.q27_1 + iv.m1j_1 | 0) * cpm;
   var tmp$ret$0 = Math.floor(x);
   // Inline function 'kotlin.math.max' call
   var b = numberToInt(tmp$ret$0);
   return Math.max(10, b);
 };
-protoOf(Formulas).h23 = function (base, iv, cpm) {
-  return (base.a27_1 + iv.k1j_1 | 0) * cpm * (base.b27_1 + iv.l1j_1 | 0) * cpm * this.b1n(base, iv, cpm);
+protoOf(Formulas).v23 = function (base, iv, cpm) {
+  return (base.o27_1 + iv.k1j_1 | 0) * cpm * (base.p27_1 + iv.l1j_1 | 0) * cpm * this.b1n(base, iv, cpm);
 };
 var Formulas_instance;
 function Formulas_getInstance() {
@@ -17801,19 +17995,19 @@ function Formulas_getInstance() {
 function TeamReport(league, candidates, metaNames, teams, publishedShare, anchor, anchorUsable) {
   anchor = anchor === VOID ? null : anchor;
   anchorUsable = anchorUsable === VOID ? true : anchorUsable;
-  this.d27_1 = league;
-  this.e27_1 = candidates;
-  this.f27_1 = metaNames;
-  this.g27_1 = teams;
-  this.h27_1 = publishedShare;
-  this.i27_1 = anchor;
-  this.j27_1 = anchorUsable;
+  this.r27_1 = league;
+  this.s27_1 = candidates;
+  this.t27_1 = metaNames;
+  this.u27_1 = teams;
+  this.v27_1 = publishedShare;
+  this.w27_1 = anchor;
+  this.x27_1 = anchorUsable;
 }
 function MetaFoe(name, species, entry, combatant) {
-  this.k27_1 = name;
-  this.l27_1 = species;
-  this.m27_1 = entry;
-  this.n27_1 = combatant;
+  this.y27_1 = name;
+  this.z27_1 = species;
+  this.a28_1 = entry;
+  this.b28_1 = combatant;
 }
 function lineup($this, trio) {
   var order = listOf([TeamRole_LEAD_getInstance(), TeamRole_SWITCH_getInstance(), TeamRole_CLOSER_getInstance()]);
@@ -17849,7 +18043,7 @@ function lineup($this, trio) {
         var _iterator__ex2g4s_0 = order.i();
         while (_iterator__ex2g4s_0.j()) {
           var element_0 = _iterator__ex2g4s_0.k();
-          if (element.u27_1.r1w(element_0) == null) {
+          if (element.i28_1.f1x(element_0) == null) {
             tmp$ret$2 = true;
             break $l$block_1;
           }
@@ -17889,7 +18083,7 @@ function lineup($this, trio) {
         inductionVariable = inductionVariable + 1 | 0;
         var tmp_1 = sum;
         var it = element_1;
-        sum = tmp_1 + ensureNotNull(trio.q(p.q(it)).u27_1.r1w(order.q(it)));
+        sum = tmp_1 + ensureNotNull(trio.q(p.q(it)).i28_1.f1x(order.q(it)));
       }
        while (!(element_1 === last));
     var maxValue = sum;
@@ -17906,7 +18100,7 @@ function lineup($this, trio) {
           inductionVariable_0 = inductionVariable_0 + 1 | 0;
           var tmp_2 = sum_0;
           var it_0 = element_2;
-          sum_0 = tmp_2 + ensureNotNull(trio.q(e.q(it_0)).u27_1.r1w(order.q(it_0)));
+          sum_0 = tmp_2 + ensureNotNull(trio.q(e.q(it_0)).i28_1.f1x(order.q(it_0)));
         }
          while (!(element_2 === last_0));
       var v = sum_0;
@@ -17930,7 +18124,7 @@ function lineup($this, trio) {
       inductionVariable_1 = inductionVariable_1 + 1 | 0;
       var tmp_3 = sum_1;
       var it_1 = element_3;
-      sum_1 = tmp_3 + ensureNotNull(trio.q(best.q(it_1)).u27_1.r1w(order.q(it_1)));
+      sum_1 = tmp_3 + ensureNotNull(trio.q(best.q(it_1)).i28_1.f1x(order.q(it_1)));
     }
      while (!(element_3 === last_1));
   var sum_2 = sum_1;
@@ -17951,7 +18145,7 @@ function lineup($this, trio) {
 }
 function sharedWeaknesses($this, members) {
   // Inline function 'kotlin.collections.map' call
-  var this_0 = $this.z27_1.r1f_1.b2();
+  var this_0 = $this.n28_1.r1f_1.b2();
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(this_0, 10));
   var _iterator__ex2g4s = this_0.i();
@@ -17974,7 +18168,7 @@ function sharedWeaknesses($this, members) {
       var _iterator__ex2g4s_0 = members.i();
       while (_iterator__ex2g4s_0.j()) {
         var element = _iterator__ex2g4s_0.k();
-        if (TypeChart_getInstance().a1j(item, element.p27_1.x1e_1) > 1.0) {
+        if (TypeChart_getInstance().a1j(item, element.d28_1.x1e_1) > 1.0) {
           count = count + 1 | 0;
           checkCountOverflow(count);
         }
@@ -18008,7 +18202,7 @@ function meta($this, league, size, list) {
     if (out.l() >= size)
       break $l$loop_2;
     var shadow = endsWith(entry.e1i_1, '_shadow');
-    var tmp0_elvis_lhs = $this.z27_1.z1f().a2(removeSuffix(entry.e1i_1, '_shadow'));
+    var tmp0_elvis_lhs = $this.n28_1.z1f().a2(removeSuffix(entry.e1i_1, '_shadow'));
     var tmp;
     if (tmp0_elvis_lhs == null) {
       continue $l$loop_2;
@@ -18016,7 +18210,7 @@ function meta($this, league, size, list) {
       tmp = tmp0_elvis_lhs;
     }
     var species = tmp;
-    var tmp1_elvis_lhs = $this.a28_1.r1h(species, league);
+    var tmp1_elvis_lhs = $this.o28_1.r1h(species, league);
     var tmp_0;
     if (tmp1_elvis_lhs == null) {
       continue $l$loop_2;
@@ -18040,7 +18234,7 @@ function candidate($this, o, league, index, exclude, minPercent, best, chosen, c
   chosen = chosen === VOID ? false : chosen;
   chosenUids = chosenUids === VOID ? HashSet_init_$Create$() : chosenUids;
   maxRank = maxRank === VOID ? 0 : maxRank;
-  var tmp0_elvis_lhs = $this.z27_1.z1f().a2(o.c28_1);
+  var tmp0_elvis_lhs = $this.n28_1.z1f().a2(o.q28_1);
   var tmp;
   if (tmp0_elvis_lhs == null) {
     return Unit_instance;
@@ -18048,12 +18242,12 @@ function candidate($this, o, league, index, exclude, minPercent, best, chosen, c
     tmp = tmp0_elvis_lhs;
   }
   var species = tmp;
-  var shadow = o.f28_1.equals(Variant_SHADOW_getInstance());
+  var shadow = o.t28_1.equals(Variant_SHADOW_getInstance());
   // Inline function 'kotlin.run' call
-  var _iterator__ex2g4s = $this.a28_1.t1g(species, o.f28_1).i();
+  var _iterator__ex2g4s = $this.o28_1.t1g(species, o.t28_1).i();
   $l$loop_6: while (_iterator__ex2g4s.j()) {
     var path = _iterator__ex2g4s.k();
-    var tmp0_elvis_lhs_0 = $this.a28_1.j1h(path.w1g_1, o.d28_1, league);
+    var tmp0_elvis_lhs_0 = $this.o28_1.j1h(path.w1g_1, o.r28_1, league);
     var tmp_0;
     if (tmp0_elvis_lhs_0 == null) {
       continue $l$loop_6;
@@ -18068,10 +18262,10 @@ function candidate($this, o, league, index, exclude, minPercent, best, chosen, c
     if (league.j1e(pvp.c1e_1))
       continue $l$loop_6;
     var tmp_1;
-    if (pvp.b1e_1 >= o.e28_1) {
+    if (pvp.b1e_1 >= o.s28_1) {
       tmp_1 = pvp.b1e_1;
     } else if (league.equals(League_MASTER_getInstance())) {
-      tmp_1 = o.e28_1;
+      tmp_1 = o.s28_1;
     } else {
       continue $l$loop_6;
     }
@@ -18085,7 +18279,7 @@ function candidate($this, o, league, index, exclude, minPercent, best, chosen, c
       tmp_2 = tmp2_elvis_lhs;
     }
     var rank = tmp_2;
-    var tmp3_elvis_lhs = combatant($this, path.w1g_1, o.d28_1, level, shadow, rank.j9_1);
+    var tmp3_elvis_lhs = combatant($this, path.w1g_1, o.r28_1, level, shadow, rank.j9_1);
     var tmp_3;
     if (tmp3_elvis_lhs == null) {
       continue $l$loop_6;
@@ -18093,19 +18287,19 @@ function candidate($this, o, league, index, exclude, minPercent, best, chosen, c
       tmp_3 = tmp3_elvis_lhs;
     }
     var combatant_0 = tmp_3;
-    var cost = $this.z27_1.u1h().y1h(o.e28_1, level, o.f28_1).c1i(new Cost(VOID, path.x1g_1));
+    var cost = $this.n28_1.u1h().y1h(o.s28_1, level, o.t28_1).c1i(new Cost(VOID, path.x1g_1));
     var candidate = new TeamCandidate(o, path.w1g_1, level, pvp.c1e_1, cost, rank.i9_1, rank.j9_1, combatant_0, pvp.e1e_1, pvp.f1e_1);
     if (!chosen && exclude(candidate))
       continue $l$loop_6;
     var key = path.w1g_1.q1e_1 + (shadow ? '_shadow' : '');
     var old = best.a2(key);
-    if (old == null || chosen || (pvp.d1e_1 > old.i9_1 && !chosenUids.t(old.j9_1.o27_1.b28_1))) {
+    if (old == null || chosen || (pvp.d1e_1 > old.i9_1 && !chosenUids.t(old.j9_1.c28_1.p28_1))) {
       // Inline function 'kotlin.collections.set' call
       var value = to(pvp.d1e_1, candidate);
       best.d2(key, value);
       if (chosen) {
         // Inline function 'kotlin.collections.plusAssign' call
-        var element = candidate.o27_1.b28_1;
+        var element = candidate.c28_1.p28_1;
         chosenUids.h(element);
       }
     }
@@ -18118,7 +18312,7 @@ function combatant($this, species, iv, level, shadow, entry) {
     tmp = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp = $this.z27_1.k1t().a2(tmp0_safe_receiver);
+    tmp = $this.n28_1.z1t().a2(tmp0_safe_receiver);
   }
   var tmp1_elvis_lhs = tmp;
   var tmp_0;
@@ -18136,7 +18330,7 @@ function combatant($this, species, iv, level, shadow, entry) {
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver_0 = $this.z27_1.k1t().a2(element);
+    var tmp0_safe_receiver_0 = $this.n28_1.z1t().a2(element);
     if (tmp0_safe_receiver_0 == null)
       null;
     else {
@@ -18157,22 +18351,22 @@ function combatant($this, species, iv, level, shadow, entry) {
   var charged = destination_0;
   if (charged.r())
     return null;
-  return new Combatant(species, iv, level, shadow, fast, charged, $this.z27_1.i1g().r1g(level));
+  return new Combatant(species, iv, level, shadow, fast, charged, $this.n28_1.i1g().r1g(level));
 }
 function rankKey($this, league) {
   return league.equals(League_MASTER_getInstance()) ? '10000' : league.i1e_1.toString();
 }
 function sam$kotlin_Comparator$0_20(function_0) {
-  this.g28_1 = function_0;
+  this.u28_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_20).sc = function (a, b) {
-  return this.g28_1(a, b);
+  return this.u28_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_20).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_20).r2 = function () {
-  return this.g28_1;
+  return this.u28_1;
 };
 protoOf(sam$kotlin_Comparator$0_20).equals = function (other) {
   var tmp;
@@ -18193,16 +18387,16 @@ protoOf(sam$kotlin_Comparator$0_20).hashCode = function () {
   return hashCode(this.r2());
 };
 function sam$kotlin_Comparator$0_21(function_0) {
-  this.h28_1 = function_0;
+  this.v28_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_21).sc = function (a, b) {
-  return this.h28_1(a, b);
+  return this.v28_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_21).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_21).r2 = function () {
-  return this.h28_1;
+  return this.v28_1;
 };
 protoOf(sam$kotlin_Comparator$0_21).equals = function (other) {
   var tmp;
@@ -18236,8 +18430,8 @@ function TeamBuilder$build$lambda_1($progress) {
 }
 function TeamBuilder$build$lambda_2(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = a.t27_1;
-  var tmp$ret$2 = b.t27_1;
+  var tmp = a.h28_1;
+  var tmp$ret$2 = b.h28_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function TeamBuilder$build$lambda_3(a, b) {
@@ -18248,13 +18442,13 @@ function TeamBuilder$build$lambda_3(a, b) {
 }
 function TeamBuilder$build$lambda_4(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.j28_1;
-  var tmp$ret$2 = a.j28_1;
+  var tmp = b.x28_1;
+  var tmp$ret$2 = a.x28_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function TeamBuilder$lackingRule$lambda($families, this$0) {
   return function (c) {
-    return c.r28() && $families.t(this$0.a28_1.u1g(c.o27_1.c28_1));
+    return c.f29() && $families.t(this$0.o28_1.u1g(c.c28_1.q28_1));
   };
 }
 function TeamBuilder$sharedWeaknesses$lambda(a, b) {
@@ -18267,14 +18461,14 @@ function TeamBuilder$theoretical$lambda(it) {
   return Unit_instance;
 }
 function TeamBuilder(data, analyzer) {
-  this.z27_1 = data;
-  this.a28_1 = analyzer;
+  this.n28_1 = data;
+  this.o28_1 = analyzer;
 }
-protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress) {
+protoOf(TeamBuilder).g29 = function (owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress) {
   progress(0.0);
   var meta_0 = meta(this, league, metaSize, ranking);
   progress(0.1);
-  var all = this.t28(owned, league, ranking, exclude, minPercent, anchor, maxRank, TeamBuilder$build$lambda_1(progress));
+  var all = this.h29(owned, league, ranking, exclude, minPercent, anchor, maxRank, TeamBuilder$build$lambda_1(progress));
   // Inline function 'kotlin.collections.sortedBy' call
   // Inline function 'kotlin.comparisons.compareBy' call
   var tmp = TeamBuilder$build$lambda_2;
@@ -18287,7 +18481,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
   var _iterator__ex2g4s = all.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (element.o27_1.b28_1.equals(anchor)) {
+    if (element.c28_1.p28_1.equals(anchor)) {
       destination.h(element);
     }
   }
@@ -18312,7 +18506,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
       var _iterator__ex2g4s_0 = candidates.i();
       while (_iterator__ex2g4s_0.j()) {
         var element_0 = _iterator__ex2g4s_0.k();
-        if (element_0.o27_1.b28_1.equals(anchor)) {
+        if (element_0.c28_1.p28_1.equals(anchor)) {
           tmp$ret$6 = true;
           break $l$block_0;
         }
@@ -18339,10 +18533,10 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
     while (tmp_3 < tmp_4) {
       var tmp_6 = tmp_3;
       var foe = meta_0.q(tmp_6);
-      var tmp0_elvis_lhs = item.u27_1.w1w(foe.m27_1.e1i_1);
+      var tmp0_elvis_lhs = item.i28_1.k1x(foe.a28_1.e1i_1);
       var tmp_7;
       if (tmp0_elvis_lhs == null) {
-        var tmp1_safe_receiver = foe.m27_1.w1w(item.u27_1.e1i_1);
+        var tmp1_safe_receiver = foe.a28_1.k1x(item.i28_1.e1i_1);
         var tmp_8;
         if (tmp1_safe_receiver == null) {
           tmp_8 = null;
@@ -18371,7 +18565,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
             inductionVariable = inductionVariable + 1 | 0;
             var tmp_10 = sum_0;
             var it = element_1;
-            sum_0 = tmp_10 + Battle_instance.i1k(item.v27_1, foe.n27_1, it);
+            sum_0 = tmp_10 + Battle_instance.i1k(item.j28_1, foe.b28_1, it);
           }
            while (!(element_1 === last));
         tmp_9 = sum_0 / 3.0;
@@ -18415,7 +18609,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
         sum_1 = tmp_16 + ratings.q(i)[it_0] * weights[it_0];
       }
        while (!(element_2 === last_0));
-    tmp_15.y27_1 = sum_1 / weightSum;
+    tmp_15.m28_1 = sum_1 / weightSum;
   }
   progress(0.9);
   var teams = ArrayList_init_$Create$_0();
@@ -18476,7 +18670,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_6 = members.i();
               while (_iterator__ex2g4s_6.j()) {
                 var item_4 = _iterator__ex2g4s_6.k();
-                var tmp$ret$32 = item_4.p27_1.r1e_1;
+                var tmp$ret$32 = item_4.d28_1.r1e_1;
                 destination_4.h(tmp$ret$32);
               }
               if (distinct(destination_4).l() < 3)
@@ -18487,7 +18681,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_7 = members.i();
               while (_iterator__ex2g4s_7.j()) {
                 var item_5 = _iterator__ex2g4s_7.k();
-                var tmp$ret$35 = item_5.o27_1.b28_1;
+                var tmp$ret$35 = item_5.c28_1.p28_1;
                 destination_5.h(tmp$ret$35);
               }
               if (distinct(destination_5).l() < 3)
@@ -18510,7 +18704,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
                   var _iterator__ex2g4s_8 = members.i();
                   while (_iterator__ex2g4s_8.j()) {
                     var element_3 = _iterator__ex2g4s_8.k();
-                    if (element_3.o27_1.b28_1.equals(anchor)) {
+                    if (element_3.c28_1.p28_1.equals(anchor)) {
                       tmp$ret$36 = false;
                       break $l$block_2;
                     }
@@ -18570,7 +18764,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_11 = members.i();
               while (_iterator__ex2g4s_11.j()) {
                 var item_8 = _iterator__ex2g4s_11.k();
-                var tmp$ret$48 = item_8.u27_1.f1i_1;
+                var tmp$ret$48 = item_8.i28_1.f1i_1;
                 destination_8.h(tmp$ret$48);
               }
               var pvpoke = average(destination_8);
@@ -18608,7 +18802,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_14 = sortedThreats.i();
               while (_iterator__ex2g4s_14.j()) {
                 var item_10 = _iterator__ex2g4s_14.k();
-                var tmp$ret$56 = item_10.k27_1;
+                var tmp$ret$56 = item_10.y27_1;
                 destination_10.h(tmp$ret$56);
               }
               // Inline function 'kotlin.collections.map' call
@@ -18617,7 +18811,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_15 = weak.i();
               while (_iterator__ex2g4s_15.j()) {
                 var item_11 = _iterator__ex2g4s_15.k();
-                var tmp0_elvis_lhs_0 = this.z27_1.r1f_1.a2(item_11.i9_1);
+                var tmp0_elvis_lhs_0 = this.n28_1.r1f_1.a2(item_11.i9_1);
                 var tmp$ret$59 = tmp0_elvis_lhs_0 == null ? item_11.i9_1 : tmp0_elvis_lhs_0;
                 destination_11.h(tmp$ret$59);
               }
@@ -18627,7 +18821,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_16 = sortedThreats.i();
               while (_iterator__ex2g4s_16.j()) {
                 var item_12 = _iterator__ex2g4s_16.k();
-                var tmp$ret$62 = item_12.l27_1;
+                var tmp$ret$62 = item_12.z27_1;
                 destination_12.h(tmp$ret$62);
               }
               // Inline function 'kotlin.collections.map' call
@@ -18654,7 +18848,7 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
   var _iterator__ex2g4s_18 = meta_0.i();
   while (_iterator__ex2g4s_18.j()) {
     var item_14 = _iterator__ex2g4s_18.k();
-    var tmp$ret$68 = item_14.k27_1;
+    var tmp$ret$68 = item_14.y27_1;
     destination_14.h(tmp$ret$68);
   }
   var tmp_22 = destination_14;
@@ -18665,11 +18859,11 @@ protoOf(TeamBuilder).s28 = function (owned, league, ranking, metaSize, maxCandid
   var tmp$ret$69 = sortedWith(teams, tmp$ret$70);
   return new TeamReport(league, candidates, tmp_22, take_0(tmp$ret$69, top), pairs === 0 ? 0.0 : published._v / pairs, anchor, anchorUsable);
 };
-protoOf(TeamBuilder).u28 = function (owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress, $super) {
+protoOf(TeamBuilder).i29 = function (owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress, $super) {
   var tmp;
   if (ranking === VOID) {
     // Inline function 'kotlin.collections.orEmpty' call
-    var tmp0_elvis_lhs = this.z27_1.s1f_1.a2(rankKey(this, league));
+    var tmp0_elvis_lhs = this.n28_1.s1f_1.a2(rankKey(this, league));
     tmp = tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
   } else {
     tmp = ranking;
@@ -18695,9 +18889,9 @@ protoOf(TeamBuilder).u28 = function (owned, league, ranking, metaSize, maxCandid
     tmp_1 = progress;
   }
   progress = tmp_1;
-  return $super === VOID ? this.s28(owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress) : $super.s28.call(this, owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress);
+  return $super === VOID ? this.g29(owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress) : $super.g29.call(this, owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress);
 };
-protoOf(TeamBuilder).v28 = function (saved, league) {
+protoOf(TeamBuilder).j29 = function (saved, league) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -18714,16 +18908,16 @@ protoOf(TeamBuilder).v28 = function (saved, league) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var item = _iterator__ex2g4s_0.k();
-    var tmp$ret$5 = this.a28_1.u1g(item.b1l_1);
+    var tmp$ret$5 = this.o28_1.u1g(item.b1l_1);
     destination_0.h(tmp$ret$5);
   }
   return toSet(destination_0);
 };
-protoOf(TeamBuilder).w28 = function (saved, league) {
-  var families = this.v28(saved, league);
+protoOf(TeamBuilder).k29 = function (saved, league) {
+  var families = this.j29(saved, league);
   return TeamBuilder$lackingRule$lambda(families, this);
 };
-protoOf(TeamBuilder).t28 = function (owned, league, ranking, exclude, minPercent, anchor, maxRank, progress) {
+protoOf(TeamBuilder).h29 = function (owned, league, ranking, exclude, minPercent, anchor, maxRank, progress) {
   var index = HashMap_init_$Create$();
   // Inline function 'kotlin.collections.forEachIndexed' call
   var index_0 = 0;
@@ -18748,7 +18942,7 @@ protoOf(TeamBuilder).t28 = function (owned, league, ranking, exclude, minPercent
     var _unary__edvuaz_0 = index_1;
     index_1 = _unary__edvuaz_0 + 1 | 0;
     progress(checkIndexOverflow(_unary__edvuaz_0) / owned.l());
-    candidate(this, item_0, league, index, exclude, minPercent, best, item_0.b28_1.equals(anchor), chosenUids, maxRank);
+    candidate(this, item_0, league, index, exclude, minPercent, best, item_0.p28_1.equals(anchor), chosenUids, maxRank);
   }
   // Inline function 'kotlin.collections.map' call
   var this_0 = best.c2();
@@ -18762,7 +18956,7 @@ protoOf(TeamBuilder).t28 = function (owned, league, ranking, exclude, minPercent
   }
   return destination;
 };
-protoOf(TeamBuilder).x28 = function (league, ranking, size, top, progress) {
+protoOf(TeamBuilder).l29 = function (league, ranking, size, top, progress) {
   // Inline function 'kotlin.collections.mapIndexedNotNull' call
   var tmp0 = take_0(ranking, size);
   // Inline function 'kotlin.collections.mapIndexedNotNullTo' call
@@ -18778,7 +18972,7 @@ protoOf(TeamBuilder).x28 = function (league, ranking, size, top, progress) {
     var tmp$ret$5;
     $l$block_0: {
       var shadow = endsWith(item.e1i_1, '_shadow');
-      var tmp0_elvis_lhs = this.z27_1.z1f().a2(removeSuffix(item.e1i_1, '_shadow'));
+      var tmp0_elvis_lhs = this.n28_1.z1f().a2(removeSuffix(item.e1i_1, '_shadow'));
       var tmp;
       if (tmp0_elvis_lhs == null) {
         tmp$ret$5 = null;
@@ -18787,7 +18981,7 @@ protoOf(TeamBuilder).x28 = function (league, ranking, size, top, progress) {
         tmp = tmp0_elvis_lhs;
       }
       var species = tmp;
-      var tmp1_elvis_lhs = this.a28_1.r1h(species, league);
+      var tmp1_elvis_lhs = this.o28_1.r1h(species, league);
       var tmp_0;
       if (tmp1_elvis_lhs == null) {
         tmp$ret$5 = null;
@@ -18807,13 +19001,13 @@ protoOf(TeamBuilder).x28 = function (league, ranking, size, top, progress) {
     }
   }
   var owned = destination;
-  return this.u28(owned, league, ranking, VOID, size, top, VOID, VOID, VOID, VOID, progress);
+  return this.i29(owned, league, ranking, VOID, size, top, VOID, VOID, VOID, VOID, progress);
 };
-protoOf(TeamBuilder).y28 = function (league, ranking, size, top, progress, $super) {
+protoOf(TeamBuilder).m29 = function (league, ranking, size, top, progress, $super) {
   var tmp;
   if (ranking === VOID) {
     // Inline function 'kotlin.collections.orEmpty' call
-    var tmp0_elvis_lhs = this.z27_1.s1f_1.a2(rankKey(this, league));
+    var tmp0_elvis_lhs = this.n28_1.s1f_1.a2(rankKey(this, league));
     tmp = tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
   } else {
     tmp = ranking;
@@ -18828,59 +19022,59 @@ protoOf(TeamBuilder).y28 = function (league, ranking, size, top, progress, $supe
     tmp_0 = progress;
   }
   progress = tmp_0;
-  return $super === VOID ? this.x28(league, ranking, size, top, progress) : $super.x28.call(this, league, ranking, size, top, progress);
+  return $super === VOID ? this.l29(league, ranking, size, top, progress) : $super.l29.call(this, league, ranking, size, top, progress);
 };
 function Team_0(members, score, coverage, pvpokeScore, threats, sharedWeaknesses, threatSpecies, sharedWeaknessTypes, roles) {
   threatSpecies = threatSpecies === VOID ? emptyList() : threatSpecies;
   sharedWeaknessTypes = sharedWeaknessTypes === VOID ? emptyList() : sharedWeaknessTypes;
   roles = roles === VOID ? emptyList() : roles;
-  this.i28_1 = members;
-  this.j28_1 = score;
-  this.k28_1 = coverage;
-  this.l28_1 = pvpokeScore;
-  this.m28_1 = threats;
-  this.n28_1 = sharedWeaknesses;
-  this.o28_1 = threatSpecies;
-  this.p28_1 = sharedWeaknessTypes;
-  this.q28_1 = roles;
+  this.w28_1 = members;
+  this.x28_1 = score;
+  this.y28_1 = coverage;
+  this.z28_1 = pvpokeScore;
+  this.a29_1 = threats;
+  this.b29_1 = sharedWeaknesses;
+  this.c29_1 = threatSpecies;
+  this.d29_1 = sharedWeaknessTypes;
+  this.e29_1 = roles;
 }
-protoOf(Team_0).z28 = function () {
-  var tmp0 = this.i28_1;
+protoOf(Team_0).n29 = function () {
+  var tmp0 = this.w28_1;
   // Inline function 'kotlin.collections.fold' call
   var accumulator = new Cost();
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    accumulator = accumulator.c1i(element.s27_1);
+    accumulator = accumulator.c1i(element.g28_1);
   }
   return accumulator;
 };
 function TeamCandidate(owned, target, level, cp, cost, metaRank, entry, combatant, ivRank, ivPercent) {
   ivRank = ivRank === VOID ? 0 : ivRank;
   ivPercent = ivPercent === VOID ? 0.0 : ivPercent;
-  this.o27_1 = owned;
-  this.p27_1 = target;
-  this.q27_1 = level;
-  this.r27_1 = cp;
-  this.s27_1 = cost;
-  this.t27_1 = metaRank;
-  this.u27_1 = entry;
-  this.v27_1 = combatant;
-  this.w27_1 = ivRank;
-  this.x27_1 = ivPercent;
-  this.y27_1 = 0.0;
+  this.c28_1 = owned;
+  this.d28_1 = target;
+  this.e28_1 = level;
+  this.f28_1 = cp;
+  this.g28_1 = cost;
+  this.h28_1 = metaRank;
+  this.i28_1 = entry;
+  this.j28_1 = combatant;
+  this.k28_1 = ivRank;
+  this.l28_1 = ivPercent;
+  this.m28_1 = 0.0;
 }
-protoOf(TeamCandidate).a29 = function () {
-  return this.o27_1.f28_1.equals(Variant_SHADOW_getInstance());
+protoOf(TeamCandidate).o29 = function () {
+  return this.c28_1.t28_1.equals(Variant_SHADOW_getInstance());
 };
-protoOf(TeamCandidate).r28 = function () {
-  return this.s27_1.a1i_1 > 0 || this.s27_1.b1i_1 > 0;
+protoOf(TeamCandidate).f29 = function () {
+  return this.g28_1.a1i_1 > 0 || this.g28_1.b1i_1 > 0;
 };
-protoOf(TeamCandidate).b29 = function () {
-  var fast = this.v27_1.f1j_1;
+protoOf(TeamCandidate).p29 = function () {
+  var fast = this.j28_1.f1j_1;
   if (fast.t1j_1 <= 0)
     return null;
-  var tmp0 = this.v27_1.g1j_1;
+  var tmp0 = this.j28_1.g1j_1;
   var tmp$ret$0;
   $l$block_0: {
     // Inline function 'kotlin.collections.minByOrNull' call
@@ -18917,21 +19111,21 @@ protoOf(TeamCandidate).b29 = function () {
   return to(move, ((move.s1j_1 + fast.t1j_1 | 0) - 1 | 0) / fast.t1j_1 | 0);
 };
 function Owned(uid, speciesId, iv, level, variant) {
-  this.b28_1 = uid;
-  this.c28_1 = speciesId;
-  this.d28_1 = iv;
-  this.e28_1 = level;
-  this.f28_1 = variant;
+  this.p28_1 = uid;
+  this.q28_1 = speciesId;
+  this.r28_1 = iv;
+  this.s28_1 = level;
+  this.t28_1 = variant;
 }
 protoOf(Owned).toString = function () {
-  return 'Owned(uid=' + this.b28_1.toString() + ', speciesId=' + this.c28_1 + ', iv=' + this.d28_1.toString() + ', level=' + this.e28_1 + ', variant=' + this.f28_1.toString() + ')';
+  return 'Owned(uid=' + this.p28_1.toString() + ', speciesId=' + this.q28_1 + ', iv=' + this.r28_1.toString() + ', level=' + this.s28_1 + ', variant=' + this.t28_1.toString() + ')';
 };
 protoOf(Owned).hashCode = function () {
-  var result = this.b28_1.hashCode();
-  result = imul(result, 31) + getStringHashCode(this.c28_1) | 0;
-  result = imul(result, 31) + this.d28_1.hashCode() | 0;
-  result = imul(result, 31) + getNumberHashCode(this.e28_1) | 0;
-  result = imul(result, 31) + this.f28_1.hashCode() | 0;
+  var result = this.p28_1.hashCode();
+  result = imul(result, 31) + getStringHashCode(this.q28_1) | 0;
+  result = imul(result, 31) + this.r28_1.hashCode() | 0;
+  result = imul(result, 31) + getNumberHashCode(this.s28_1) | 0;
+  result = imul(result, 31) + this.t28_1.hashCode() | 0;
   return result;
 };
 protoOf(Owned).equals = function (other) {
@@ -18939,15 +19133,15 @@ protoOf(Owned).equals = function (other) {
     return true;
   if (!(other instanceof Owned))
     return false;
-  if (!equalsLong(this.b28_1, other.b28_1))
+  if (!equalsLong(this.p28_1, other.p28_1))
     return false;
-  if (!(this.c28_1 === other.c28_1))
+  if (!(this.q28_1 === other.q28_1))
     return false;
-  if (!this.d28_1.equals(other.d28_1))
+  if (!this.r28_1.equals(other.r28_1))
     return false;
-  if (!equals(this.e28_1, other.e28_1))
+  if (!equals(this.s28_1, other.s28_1))
     return false;
-  if (!this.f28_1.equals(other.f28_1))
+  if (!this.t28_1.equals(other.t28_1))
     return false;
   return true;
 };
@@ -18965,8 +19159,8 @@ var TeamRole_SWITCH_instance;
 var TeamRole_CLOSER_instance;
 function TeamRole(name, ordinal, label, pvpokeIndex) {
   Enum.call(this, name, ordinal);
-  this.u1w_1 = label;
-  this.v1w_1 = pvpokeIndex;
+  this.i1x_1 = label;
+  this.j1x_1 = pvpokeIndex;
 }
 function TeamRole_LEAD_getInstance() {
   static_init_13();
@@ -19009,25 +19203,25 @@ function get_entries_6() {
 var $ENTRIES_6;
 function Friendship(name, ordinal, label, floor) {
   Enum.call(this, name, ordinal);
-  this.e29_1 = label;
-  this.f29_1 = floor;
+  this.s29_1 = label;
+  this.t29_1 = floor;
 }
 function TradeOdds(betterIv, hundo, betterRank, league, currentRank) {
-  this.g29_1 = betterIv;
-  this.h29_1 = hundo;
-  this.i29_1 = betterRank;
-  this.j29_1 = league;
-  this.k29_1 = currentRank;
+  this.u29_1 = betterIv;
+  this.v29_1 = hundo;
+  this.w29_1 = betterRank;
+  this.x29_1 = league;
+  this.y29_1 = currentRank;
 }
 protoOf(TradeOdds).toString = function () {
-  return 'TradeOdds(betterIv=' + this.g29_1 + ', hundo=' + this.h29_1 + ', betterRank=' + this.i29_1 + ', league=' + toString(this.j29_1) + ', currentRank=' + this.k29_1 + ')';
+  return 'TradeOdds(betterIv=' + this.u29_1 + ', hundo=' + this.v29_1 + ', betterRank=' + this.w29_1 + ', league=' + toString(this.x29_1) + ', currentRank=' + this.y29_1 + ')';
 };
 protoOf(TradeOdds).hashCode = function () {
-  var result = getNumberHashCode(this.g29_1);
-  result = imul(result, 31) + getNumberHashCode(this.h29_1) | 0;
-  result = imul(result, 31) + (this.i29_1 == null ? 0 : getNumberHashCode(this.i29_1)) | 0;
-  result = imul(result, 31) + (this.j29_1 == null ? 0 : this.j29_1.hashCode()) | 0;
-  result = imul(result, 31) + (this.k29_1 == null ? 0 : this.k29_1) | 0;
+  var result = getNumberHashCode(this.u29_1);
+  result = imul(result, 31) + getNumberHashCode(this.v29_1) | 0;
+  result = imul(result, 31) + (this.w29_1 == null ? 0 : getNumberHashCode(this.w29_1)) | 0;
+  result = imul(result, 31) + (this.x29_1 == null ? 0 : this.x29_1.hashCode()) | 0;
+  result = imul(result, 31) + (this.y29_1 == null ? 0 : this.y29_1) | 0;
   return result;
 };
 protoOf(TradeOdds).equals = function (other) {
@@ -19035,15 +19229,15 @@ protoOf(TradeOdds).equals = function (other) {
     return true;
   if (!(other instanceof TradeOdds))
     return false;
-  if (!equals(this.g29_1, other.g29_1))
+  if (!equals(this.u29_1, other.u29_1))
     return false;
-  if (!equals(this.h29_1, other.h29_1))
+  if (!equals(this.v29_1, other.v29_1))
     return false;
-  if (!equals(this.i29_1, other.i29_1))
+  if (!equals(this.w29_1, other.w29_1))
     return false;
-  if (!equals(this.j29_1, other.j29_1))
+  if (!equals(this.x29_1, other.x29_1))
     return false;
-  if (!(this.k29_1 == other.k29_1))
+  if (!(this.y29_1 == other.y29_1))
     return false;
   return true;
 };
@@ -19069,8 +19263,8 @@ function Friendship_LUCKY_getInstance() {
 }
 function TradeCalc() {
 }
-protoOf(TradeCalc).l29 = function (analyzer, target, iv, f, league, currentRank) {
-  var range = numberRangeToNumber(f.f29_1, 15);
+protoOf(TradeCalc).z29 = function (analyzer, target, iv, f, league, currentRank) {
+  var range = numberRangeToNumber(f.t29_1, 15);
   // Inline function 'kotlin.let' call
   var it = count(range);
   var n = imul(imul(it, it), it);
@@ -19117,7 +19311,7 @@ protoOf(TradeCalc).l29 = function (analyzer, target, iv, f, league, currentRank)
      while (!(a === last));
   return new TradeOdds(better / n, hundo / n, !(league == null) && !(currentRank == null) ? rankBetter / n : null, league, currentRank);
 };
-protoOf(TradeCalc).m29 = function (iv) {
+protoOf(TradeCalc).a2a = function (iv) {
   // Inline function 'kotlin.comparisons.minOf' call
   var b = iv.k1j_1 + 2 | 0;
   var tmp = Math.min(15, b);
@@ -19129,7 +19323,7 @@ protoOf(TradeCalc).m29 = function (iv) {
   var tmp$ret$2 = Math.min(15, b_1);
   return new Iv(tmp, tmp_0, tmp$ret$2);
 };
-protoOf(TradeCalc).n29 = function (level) {
+protoOf(TradeCalc).b2a = function (level) {
   // Inline function 'kotlin.comparisons.maxOf' call
   return Math.max(level, 25.0);
 };
@@ -19151,20 +19345,20 @@ function $serializer_15() {
   var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('pogo.core.TrashEntry', this, 2);
   tmp0_serialDesc.it('pokemon', false);
   tmp0_serialDesc.it('deletedAt', false);
-  this.o29_1 = tmp0_serialDesc;
+  this.c2a_1 = tmp0_serialDesc;
 }
-protoOf($serializer_15).p29 = function (encoder, value) {
-  var tmp0_desc = this.o29_1;
+protoOf($serializer_15).d2a = function (encoder, value) {
+  var tmp0_desc = this.c2a_1;
   var tmp1_output = encoder.bn(tmp0_desc);
-  tmp1_output.so(tmp0_desc, 0, $serializer_getInstance(), value.q29_1);
-  tmp1_output.mo(tmp0_desc, 1, value.r29_1);
+  tmp1_output.so(tmp0_desc, 0, $serializer_getInstance(), value.e2a_1);
+  tmp1_output.mo(tmp0_desc, 1, value.f2a_1);
   tmp1_output.cn(tmp0_desc);
 };
 protoOf($serializer_15).kk = function (encoder, value) {
-  return this.p29(encoder, value instanceof TrashEntry ? value : THROW_CCE());
+  return this.d2a(encoder, value instanceof TrashEntry ? value : THROW_CCE());
 };
 protoOf($serializer_15).lk = function (decoder) {
-  var tmp0_desc = this.o29_1;
+  var tmp0_desc = this.c2a_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -19199,7 +19393,7 @@ protoOf($serializer_15).lk = function (decoder) {
   return TrashEntry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, null);
 };
 protoOf($serializer_15).jk = function () {
-  return this.o29_1;
+  return this.c2a_1;
 };
 protoOf($serializer_15).xt = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -19215,25 +19409,25 @@ function $serializer_getInstance_15() {
 }
 function TrashEntry_init_$Init$(seen0, pokemon, deletedAt, serializationConstructorMarker, $this) {
   if (!(3 === (3 & seen0))) {
-    throwMissingFieldException(seen0, 3, $serializer_getInstance_15().o29_1);
+    throwMissingFieldException(seen0, 3, $serializer_getInstance_15().c2a_1);
   }
-  $this.q29_1 = pokemon;
-  $this.r29_1 = deletedAt;
+  $this.e2a_1 = pokemon;
+  $this.f2a_1 = deletedAt;
   return $this;
 }
 function TrashEntry_init_$Create$(seen0, pokemon, deletedAt, serializationConstructorMarker) {
   return TrashEntry_init_$Init$(seen0, pokemon, deletedAt, serializationConstructorMarker, objectCreate(protoOf(TrashEntry)));
 }
 function TrashEntry(pokemon, deletedAt) {
-  this.q29_1 = pokemon;
-  this.r29_1 = deletedAt;
+  this.e2a_1 = pokemon;
+  this.f2a_1 = deletedAt;
 }
 protoOf(TrashEntry).toString = function () {
-  return 'TrashEntry(pokemon=' + this.q29_1.toString() + ', deletedAt=' + this.r29_1.toString() + ')';
+  return 'TrashEntry(pokemon=' + this.e2a_1.toString() + ', deletedAt=' + this.f2a_1.toString() + ')';
 };
 protoOf(TrashEntry).hashCode = function () {
-  var result = this.q29_1.hashCode();
-  result = imul(result, 31) + this.r29_1.hashCode() | 0;
+  var result = this.e2a_1.hashCode();
+  result = imul(result, 31) + this.f2a_1.hashCode() | 0;
   return result;
 };
 protoOf(TrashEntry).equals = function (other) {
@@ -19241,23 +19435,23 @@ protoOf(TrashEntry).equals = function (other) {
     return true;
   if (!(other instanceof TrashEntry))
     return false;
-  if (!this.q29_1.equals(other.q29_1))
+  if (!this.e2a_1.equals(other.e2a_1))
     return false;
-  if (!equalsLong(this.r29_1, other.r29_1))
+  if (!equalsLong(this.f2a_1, other.f2a_1))
     return false;
   return true;
 };
 function sam$kotlin_Comparator$0_22(function_0) {
-  this.s29_1 = function_0;
+  this.g2a_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_22).sc = function (a, b) {
-  return this.s29_1(a, b);
+  return this.g2a_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_22).compare = function (a, b) {
   return this.sc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_22).r2 = function () {
-  return this.s29_1;
+  return this.g2a_1;
 };
 protoOf(sam$kotlin_Comparator$0_22).equals = function (other) {
   var tmp;
@@ -19283,27 +19477,27 @@ function Trash$json$lambda($this$Json) {
 }
 function Trash$fresh$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.r29_1;
-  var tmp$ret$2 = a.r29_1;
+  var tmp = b.f2a_1;
+  var tmp$ret$2 = a.f2a_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function Trash() {
   Trash_instance = this;
-  this.t29_1 = 7;
-  this.u29_1 = new Long(604800000, 0);
+  this.h2a_1 = 7;
+  this.i2a_1 = new Long(604800000, 0);
   var tmp = this;
-  tmp.v29_1 = Json(VOID, Trash$json$lambda);
-  this.w29_1 = ListSerializer(Companion_instance_25.q1m());
+  tmp.j2a_1 = Json(VOID, Trash$json$lambda);
+  this.k2a_1 = ListSerializer(Companion_instance_25.q1m());
 }
-protoOf(Trash).x29 = function (entries) {
-  return this.v29_1.x11(this.w29_1, entries);
+protoOf(Trash).l2a = function (entries) {
+  return this.j2a_1.x11(this.k2a_1, entries);
 };
 protoOf(Trash).mi = function (text) {
   // Inline function 'kotlin.runCatching' call
   var tmp;
   try {
     // Inline function 'kotlin.Companion.success' call
-    var value = this.v29_1.y11(this.w29_1, text);
+    var value = this.j2a_1.y11(this.k2a_1, text);
     tmp = _Result___init__impl__xyqfz8(value);
   } catch ($p) {
     var tmp_0;
@@ -19329,14 +19523,14 @@ protoOf(Trash).mi = function (text) {
   }
   return tmp$ret$4;
 };
-protoOf(Trash).y29 = function (entries, now) {
+protoOf(Trash).m2a = function (entries, now) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = entries.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (compare(subtract(now, element.r29_1), new Long(604800000, 0)) < 0) {
+    if (compare(subtract(now, element.f2a_1), new Long(604800000, 0)) < 0) {
       destination.h(element);
     }
   }
@@ -19346,8 +19540,8 @@ protoOf(Trash).y29 = function (entries, now) {
   var tmp$ret$4 = new sam$kotlin_Comparator$0_22(tmp);
   return sortedWith(destination, tmp$ret$4);
 };
-protoOf(Trash).z29 = function (entry, now) {
-  var left = subtract(new Long(604800000, 0), subtract(now, entry.r29_1));
+protoOf(Trash).n2a = function (entry, now) {
+  var left = subtract(new Long(604800000, 0), subtract(now, entry.f2a_1));
   // Inline function 'kotlin.Long.times' call
   var this_0 = new Long(24, 0);
   // Inline function 'kotlin.Long.times' call
@@ -19367,7 +19561,7 @@ protoOf(Trash).z29 = function (entry, now) {
   var tmp$ret$6 = multiply(this_6, fromInt(1000));
   return coerceAtLeast(convertToInt(divide(tmp, tmp$ret$6)), 1);
 };
-protoOf(Trash).a2a = function (entries, pokemon, now) {
+protoOf(Trash).o2a = function (entries, pokemon, now) {
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(pokemon, 10));
@@ -19521,6 +19715,7 @@ export {
   Iv as Iv21hyr5k5mza68,
   Boss as Bossqhie70meqck9,
   MaxCalc as MaxCalc1lte8tkzakcst,
+  Entry_0 as Entrytn1leuxa7bhq,
   get_entries_3 as get_entries2c3hc91paq2et,
   valueOf as valueOf2yj8u7wc88nt6,
   Owned as Owned20ts7miagvt4w,
