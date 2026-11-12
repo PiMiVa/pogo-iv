@@ -164,7 +164,7 @@ import {
   StringCompanionObject_instance2dx16b5pp3v3z as StringCompanionObject_instance,
   getKClass3t8tygqu4lcxf as getKClass,
   mapOf1xd03cq9cnmy8 as mapOf,
-} from './kotlin-kotlin-stdlib.js?v=1794519745097';
+} from './kotlin-kotlin-stdlib.js?v=1794521431977';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -396,7 +396,7 @@ function SerializationException() {
   captureStack(this, SerializationException);
 }
 function MissingFieldException_init_$Init$(missingFields, serialName, $this) {
-  var tmp0_message = missingFields.l() === 1 ? "Field '" + missingFields.q(0) + "' is required for type with serial name '" + serialName + "', but it was missing" : 'Fields ' + toString(missingFields) + " are required for type with serial name '" + serialName + "', but they were missing";
+  var tmp0_message = missingFields.l() === 1 ? "Field '" + missingFields.r(0) + "' is required for type with serial name '" + serialName + "', but it was missing" : 'Fields ' + toString(missingFields) + " are required for type with serial name '" + serialName + "', but they were missing";
   MissingFieldException.call($this, tmp0_message, null, missingFields, serialName);
   return $this;
 }
@@ -2421,7 +2421,7 @@ function compactArray(_this__u8e3s4) {
   // Inline function 'kotlin.takeUnless' call
   var tmp;
   // Inline function 'kotlin.collections.isNullOrEmpty' call
-  if (!(_this__u8e3s4 == null || _this__u8e3s4.r())) {
+  if (!(_this__u8e3s4 == null || _this__u8e3s4.q())) {
     tmp = _this__u8e3s4;
   } else {
     tmp = null;
@@ -4002,7 +4002,7 @@ protoOf(NamedValueDecoder).b10 = function (parentName, childName) {
   return tmp;
 };
 protoOf(NamedValueDecoder).c10 = function () {
-  return this.yz_1.r() ? '$' : joinToString(this.yz_1, '.', '$.');
+  return this.yz_1.q() ? '$' : joinToString(this.yz_1, '.', '$.');
 };
 function tagBlock($this, tag, block) {
   $this.q10(tag);

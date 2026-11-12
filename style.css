@@ -510,3 +510,12 @@ section.card.flush:has(.team-head) { border: 3px solid var(--sun); }
 .upgrade { border-top: 1px solid var(--line, rgba(0,0,0,.08)); padding-top: 8px; margin-top: 8px; display: flex; flex-direction: column; gap: 4px; }
 .upgrade .row { align-items: center; gap: 8px; }
 .small.accent { color: var(--accent, #2FB6E8); }
+.up-row { display: flex; align-items: center; gap: 6px; padding: 3px 0; cursor: pointer; }
+.up-row.head { font-size: 11px; color: var(--muted, #888); cursor: default; }
+.up-row.gain { background: rgba(46, 160, 67, .12); border-radius: 10px; padding: 4px 6px; }
+.up-type { width: 78px; flex: none; }
+.up-cell { display: flex; align-items: center; gap: 4px; }
+.type-tag { color: #fff; font-weight: 700; font-size: 12px; border-radius: 8px; padding: 2px 6px; white-space: nowrap; }
+.up-details { background: var(--card-2, rgba(0,0,0,.05)); border-radius: 10px; padding: 6px; }
+.up-steps { padding-left: 34px; display: flex; flex-direction: column; gap: 2px; }
+.good { color: #2ea043; }
