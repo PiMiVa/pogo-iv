@@ -505,3 +505,8 @@ section.card.flush:has(.team-head) { border: 3px solid var(--sun); }
 @media (prefers-color-scheme: dark) {
   .info-area, .bonus-tile.move b { filter: brightness(1.45); }
 }
+
+/* Ausbau-Ratgeber */
+.upgrade { border-top: 1px solid var(--line, rgba(0,0,0,.08)); padding-top: 8px; margin-top: 8px; display: flex; flex-direction: column; gap: 4px; }
+.upgrade .row { align-items: center; gap: 8px; }
+.small.accent { color: var(--accent, #2FB6E8); }
