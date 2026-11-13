@@ -164,7 +164,7 @@ import {
   StringCompanionObject_instance2dx16b5pp3v3z as StringCompanionObject_instance,
   getKClass3t8tygqu4lcxf as getKClass,
   mapOf1xd03cq9cnmy8 as mapOf,
-} from './kotlin-kotlin-stdlib.js?v=1794525052014';
+} from './kotlin-kotlin-stdlib.js?v=1794562769828';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -708,7 +708,7 @@ function SerialDescriptorImpl(serialName, kind, elementsCount, typeParameters, b
   var _iterator__ex2g4s = this_2.i();
   while (_iterator__ex2g4s.j()) {
     var item = _iterator__ex2g4s.k();
-    var tmp$ret$4 = to(item.zd_1, item.yd_1);
+    var tmp$ret$4 = to(item.ae_1, item.zd_1);
     destination.h(tmp$ret$4);
   }
   tmp_1.hm_1 = toMap(destination);
