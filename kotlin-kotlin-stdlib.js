@@ -111,13 +111,13 @@ initMetadataForClass(AbstractCollection, 'AbstractCollection', VOID, VOID, [Coll
 initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [MutableIterable, Collection]);
 initMetadataForClass(IteratorImpl, 'IteratorImpl');
 initMetadataForClass(ListIteratorImpl, 'ListIteratorImpl', VOID, IteratorImpl);
-initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [KtList, MutableIterable, Collection]);
+initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [MutableIterable, Collection, KtList]);
 initMetadataForClass(AbstractMap, 'AbstractMap', VOID, VOID, [KtMap]);
 initMetadataForClass(AbstractMutableMap, 'AbstractMutableMap', VOID, AbstractMap, [KtMutableMap]);
 initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [KtSet, MutableIterable, Collection]);
 initMetadataForCompanion(Companion_2);
 initMetadataForInterface(RandomAccess, 'RandomAccess');
-initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [KtList, MutableIterable, Collection, RandomAccess]);
+initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [MutableIterable, Collection, KtList, RandomAccess]);
 initMetadataForClass(HashMap, 'HashMap', HashMap_init_$Create$, AbstractMutableMap, [KtMutableMap]);
 initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [KtSet, MutableIterable, Collection]);
 initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [MutableIterable, Collection]);
@@ -9092,6 +9092,18 @@ function plus_5(_this__u8e3s4, pair) {
   }
   return tmp;
 }
+function plus_6(_this__u8e3s4, pairs) {
+  var tmp;
+  if (_this__u8e3s4.q()) {
+    tmp = toMap(pairs);
+  } else {
+    // Inline function 'kotlin.apply' call
+    var this_0 = LinkedHashMap_init_$Create$_1(_this__u8e3s4);
+    putAll(this_0, pairs);
+    tmp = this_0;
+  }
+  return tmp;
+}
 function EmptyMap() {
   EmptyMap_instance = this;
   this.fe_1 = new Long(-888910638, 1920087921);
@@ -9150,12 +9162,12 @@ function EmptyMap_getInstance() {
 }
 function toMap_0(_this__u8e3s4, destination) {
   // Inline function 'kotlin.apply' call
-  putAll(destination, _this__u8e3s4);
+  putAll_0(destination, _this__u8e3s4);
   return destination;
 }
 function toMap_1(_this__u8e3s4, destination) {
   // Inline function 'kotlin.apply' call
-  putAll_0(destination, _this__u8e3s4);
+  putAll(destination, _this__u8e3s4);
   return destination;
 }
 function optimizeReadOnlyMap(_this__u8e3s4) {
@@ -9179,6 +9191,15 @@ function toMutableMap(_this__u8e3s4) {
   return LinkedHashMap_init_$Create$_1(_this__u8e3s4);
 }
 function putAll(_this__u8e3s4, pairs) {
+  var _iterator__ex2g4s = pairs.i();
+  while (_iterator__ex2g4s.j()) {
+    var _destruct__k2r9zo = _iterator__ex2g4s.k();
+    var key = _destruct__k2r9zo.k9();
+    var value = _destruct__k2r9zo.l9();
+    _this__u8e3s4.d2(key, value);
+  }
+}
+function putAll_0(_this__u8e3s4, pairs) {
   var inductionVariable = 0;
   var last = pairs.length;
   while (inductionVariable < last) {
@@ -9189,22 +9210,13 @@ function putAll(_this__u8e3s4, pairs) {
     _this__u8e3s4.d2(key, value);
   }
 }
-function putAll_0(_this__u8e3s4, pairs) {
-  var _iterator__ex2g4s = pairs.i();
-  while (_iterator__ex2g4s.j()) {
-    var _destruct__k2r9zo = _iterator__ex2g4s.k();
-    var key = _destruct__k2r9zo.k9();
-    var value = _destruct__k2r9zo.l9();
-    _this__u8e3s4.d2(key, value);
-  }
-}
 function hashMapOf(pairs) {
   // Inline function 'kotlin.apply' call
   var this_0 = HashMap_init_$Create$_0(mapCapacity(pairs.length));
-  putAll(this_0, pairs);
+  putAll_0(this_0, pairs);
   return this_0;
 }
-function plus_6(_this__u8e3s4, map) {
+function plus_7(_this__u8e3s4, map) {
   // Inline function 'kotlin.apply' call
   var this_0 = LinkedHashMap_init_$Create$_1(_this__u8e3s4);
   this_0.f2(map);
@@ -14607,7 +14619,8 @@ export {
   minus_0 as minus27abgkurcn6u0,
   min as min1k70eijzp4395,
   mutableListOf as mutableListOf6oorvk2mtdmp,
-  plus_6 as plus2m1vv33moko5t,
+  plus_7 as plus2m1vv33moko5t,
+  plus_6 as plus1so6nizi7tpx6,
   plus_3 as plus1ogy4liedzq5j,
   plus_5 as plus2lr02ok6jhhxu,
   plus_2 as plus18eogev54fmsa,
