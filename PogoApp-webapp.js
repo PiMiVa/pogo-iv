@@ -138,7 +138,7 @@ import {
   returnIfSuspended39bw7wdvakhp8 as returnIfSuspended,
   toInt2q8uldh7sc951 as toInt,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1794567485894';
+} from './kotlin-kotlin-stdlib.js?v=1794578383491';
 import {
   Variant_NORMAL_getInstance23fgbcbkjs7l7 as Variant_NORMAL_getInstance,
   Cleanup_instance32xjuxulytgi8 as Cleanup_instance,
@@ -249,7 +249,7 @@ import {
   PageSettle21idp888bmz3 as PageSettle,
   Last3mxaoe9u97sp1 as Last,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1794567485894';
+} from './PogoApp-core.js?v=1794578383491';
 import {
   launch1c91vkjzdi9sd as launch,
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
@@ -258,9 +258,9 @@ import {
   MainScope1gi1r4abhrtmm as MainScope,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1794567485894';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794567485894';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794567485894';
+} from './kotlinx-coroutines-core.js?v=1794578383491';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794578383491';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794578383491';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -7501,11 +7501,43 @@ function leaguePicker($this, selected) {
   else
     tmp0_safe_receiver.appendChild(overlay);
 }
-function metaDialog($this, format) {
+function metaDialog($this, start) {
+  var format = {_v: start};
+  var tmp = Companion_getInstance().o1x_1;
+  // Inline function 'kotlin.collections.mapNotNull' call
+  var tmp0 = Store_getInstance().a2u_1;
+  // Inline function 'kotlin.collections.mapNotNullTo' call
+  var destination = ArrayList_init_$Create$();
+  // Inline function 'kotlin.collections.forEach' call
+  var _iterator__ex2g4s = tmp0.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    var tmp0_safe_receiver = element.j9_1;
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      // Inline function 'kotlin.let' call
+      destination.h(tmp0_safe_receiver);
+    }
+  }
+  // Inline function 'kotlin.collections.distinctBy' call
+  var this_0 = plus_3(plus_2(tmp, destination), start);
+  var set = HashSet_init_$Create$();
+  var list = ArrayList_init_$Create$();
+  var _iterator__ex2g4s_0 = this_0.i();
+  while (_iterator__ex2g4s_0.j()) {
+    var e = _iterator__ex2g4s_0.k();
+    var key = e.x();
+    if (set.h(key)) {
+      list.h(e);
+    }
+  }
+  var choices = list;
   var overlay = tag('div', 'overlay');
   overlay.onclick = TeamView$metaDialog$lambda(overlay);
   var box = add_0(overlay, 'div', 'dialog');
-  add_0(box, 'h3', '', '\uD83D\uDCC8 Meta \xB7 ' + format.a1m());
+  var head = add_0(box, 'h3', '', '\uD83D\uDCC8 Meta \xB7 ' + format._v.a1m());
+  var leagues = add_0(box, 'div', 'chips wrap');
   add_0(box, 'div', 'small', 'PvPoke-Rangliste (Stand ' + germanDate(Store_getInstance().f2t_1) + '). \u2713 = hast du (IV-Rang deines besten), \u25D0 = Familie da.');
   var filter = {_v: null};
   var limit = {_v: 50};
@@ -7513,13 +7545,13 @@ function metaDialog($this, format) {
   var chips = add_0(box, 'div', 'chips wrap');
   var area = add_0(box, 'div');
   add_0(box, 'div', 'row end', VOID, TeamView$metaDialog$lambda_0(overlay));
-  var tmp0_safe_receiver = document.body;
-  if (tmp0_safe_receiver == null)
+  var tmp0_safe_receiver_0 = document.body;
+  if (tmp0_safe_receiver_0 == null)
     null;
   else
-    tmp0_safe_receiver.appendChild(overlay);
+    tmp0_safe_receiver_0.appendChild(overlay);
   var draw = {_v: null};
-  draw._v = TeamView$metaDialog$lambda_1(chips, filter, area, rows, limit, draw, format);
+  draw._v = TeamView$metaDialog$lambda_1(chips, head, format, leagues, choices, filter, area, rows, limit, draw);
   metaDialog$load(area, limit, format, rows, draw);
 }
 function theoryDialog($this, format) {
@@ -8343,7 +8375,7 @@ protoOf(TeamView$metaDialog$load$slambda).f8 = function () {
           if (tmp0_safe_receiver == null)
             null;
           else {
-            Store_getInstance().s2v().x1h(tmp0_safe_receiver, item.x1l(), item.l1l_1, item.m1l_1, listOf(this.t37_1.s1x()));
+            Store_getInstance().s2v().x1h(tmp0_safe_receiver, item.x1l(), item.l1l_1, item.m1l_1, listOf(this.t37_1._v.s1x()));
           }
 
           if ((i % 15 | 0) === 0) {
@@ -8372,7 +8404,7 @@ protoOf(TeamView$metaDialog$load$slambda).f8 = function () {
           this.b38_1 = Store_getInstance().c2u();
           this.a38_1 = Store_getInstance().s2v();
           this.x7_1 = 6;
-          suspendResult = Store_getInstance().f38(this.t37_1, this);
+          suspendResult = Store_getInstance().f38(this.t37_1._v, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -8380,7 +8412,7 @@ protoOf(TeamView$metaDialog$load$slambda).f8 = function () {
           continue $sm;
         case 6:
           var ARGUMENT = suspendResult;
-          var ARGUMENT_0 = this.c38_1.d23(this.b38_1, this.a38_1, this.z37_1, ARGUMENT, this.t37_1.s1x(), this.w37_1._v);
+          var ARGUMENT_0 = this.c38_1.d23(this.b38_1, this.a38_1, this.z37_1, ARGUMENT, this.t37_1._v.s1x(), this.w37_1._v);
           this.v37_1._v = ARGUMENT_0;
           var tmp_1;
           if (this.x37_1._v == null) {
@@ -8438,13 +8470,21 @@ function TeamView$metaDialog$lambda_0($overlay) {
     return Unit_instance;
   };
 }
-function metaDialog$load(area, limit, $format, rows, draw) {
+function metaDialog$load(area, limit, format, rows, draw) {
   area.textContent = '';
-  var bar = new Progress(area, 'Vergleiche mit deiner Sammlung', 'Top ' + limit._v + ' der ' + $format.a1m());
+  var bar = new Progress(area, 'Vergleiche mit deiner Sammlung', 'Top ' + limit._v + ' der ' + format._v.a1m());
   var tmp = App_getInstance().t2v_1;
-  launch(tmp, VOID, VOID, TeamView$metaDialog$load$slambda_0($format, bar, rows, limit, draw, null));
+  launch(tmp, VOID, VOID, TeamView$metaDialog$load$slambda_0(format, bar, rows, limit, draw, null));
 }
-function TeamView$metaDialog$lambda$lambda_0($filter, $draw) {
+function TeamView$metaDialog$lambda$lambda_0($format, $f, $limit, $area, $rows, $draw) {
+  return function () {
+    $format._v = $f;
+    $limit._v = 50;
+    metaDialog$load($area, $limit, $format, $rows, $draw);
+    return Unit_instance;
+  };
+}
+function TeamView$metaDialog$lambda$lambda_1($filter, $draw) {
   return function () {
     $filter._v = null;
     var tmp;
@@ -8457,7 +8497,7 @@ function TeamView$metaDialog$lambda$lambda_0($filter, $draw) {
     return Unit_instance;
   };
 }
-function TeamView$metaDialog$lambda$lambda_1($filter, $draw) {
+function TeamView$metaDialog$lambda$lambda_2($filter, $draw) {
   return function () {
     $filter._v = Own_HAVE_getInstance();
     var tmp;
@@ -8470,7 +8510,7 @@ function TeamView$metaDialog$lambda$lambda_1($filter, $draw) {
     return Unit_instance;
   };
 }
-function TeamView$metaDialog$lambda$lambda_2($filter, $draw) {
+function TeamView$metaDialog$lambda$lambda_3($filter, $draw) {
   return function () {
     $filter._v = Own_MISSING_getInstance();
     var tmp;
@@ -8516,7 +8556,7 @@ function TeamView$metaDialog$lambda$lambda$lambda($r) {
     return Unit_instance;
   };
 }
-function TeamView$metaDialog$lambda$lambda_3($r) {
+function TeamView$metaDialog$lambda$lambda_4($r) {
   return function ($this$add) {
     add_0($this$add, 'b', 'meta-place', '' + $r.s22_1 + '.');
     sprite($this$add, $r.t22_1, 36, $r.u22_1 ? Variant_SHADOW_getInstance() : Variant_NORMAL_getInstance());
@@ -8525,31 +8565,40 @@ function TeamView$metaDialog$lambda$lambda_3($r) {
     return Unit_instance;
   };
 }
-function TeamView$metaDialog$lambda$lambda_4($limit, $area, $format, $rows, $draw) {
+function TeamView$metaDialog$lambda$lambda_5($limit, $area, $format, $rows, $draw) {
   return function () {
     $limit._v = $limit._v + 50 | 0;
     metaDialog$load($area, $limit, $format, $rows, $draw);
     return Unit_instance;
   };
 }
-function TeamView$metaDialog$lambda_1($chips, $filter, $area, $rows, $limit, $draw, $format) {
+function TeamView$metaDialog$lambda_1($chips, $head, $format, $leagues, $choices, $filter, $area, $rows, $limit, $draw) {
   return function () {
     $chips.textContent = '';
-    var tmp = $filter._v == null;
-    chip($chips, 'Alle', tmp, TeamView$metaDialog$lambda$lambda_0($filter, $draw));
-    var tmp_0 = equals($filter._v, Own_HAVE_getInstance());
-    chip($chips, '\u2713 Hast du', tmp_0, TeamView$metaDialog$lambda$lambda_1($filter, $draw));
-    var tmp_1 = equals($filter._v, Own_MISSING_getInstance());
-    chip($chips, 'Fehlt', tmp_1, TeamView$metaDialog$lambda$lambda_2($filter, $draw));
+    $head.textContent = '\uD83D\uDCC8 Meta \xB7 ' + $format._v.a1m();
+    $leagues.textContent = '';
+    var _iterator__ex2g4s = $choices.i();
+    while (_iterator__ex2g4s.j()) {
+      var f = _iterator__ex2g4s.k();
+      var tmp = (Store_getInstance().g37(f) ? '\u25CF ' : '') + f.a1m();
+      var tmp_0 = f.x() === $format._v.x();
+      chip($leagues, tmp, tmp_0, TeamView$metaDialog$lambda$lambda_0($format, f, $limit, $area, $rows, $draw));
+    }
+    var tmp_1 = $filter._v == null;
+    chip($chips, 'Alle', tmp_1, TeamView$metaDialog$lambda$lambda_1($filter, $draw));
+    var tmp_2 = equals($filter._v, Own_HAVE_getInstance());
+    chip($chips, '\u2713 Hast du', tmp_2, TeamView$metaDialog$lambda$lambda_2($filter, $draw));
+    var tmp_3 = equals($filter._v, Own_MISSING_getInstance());
+    chip($chips, 'Fehlt', tmp_3, TeamView$metaDialog$lambda$lambda_3($filter, $draw));
     $area.textContent = '';
-    var tmp_2;
+    var tmp_4;
     if ($rows._v.q()) {
       add_0($area, 'div', 'small', 'F\xFCr diese Liga gibt es noch keine Rangliste.');
-      tmp_2 = Unit_instance;
+      tmp_4 = Unit_instance;
     }
-    var _iterator__ex2g4s = $rows._v.i();
-    $l$loop: while (_iterator__ex2g4s.j()) {
-      var r = _iterator__ex2g4s.k();
+    var _iterator__ex2g4s_0 = $rows._v.i();
+    $l$loop: while (_iterator__ex2g4s_0.j()) {
+      var r = _iterator__ex2g4s_0.k();
       var tmp0_subject = $filter._v;
       var show;
       switch (tmp0_subject == null ? -1 : tmp0_subject.i2_1) {
@@ -8565,13 +8614,13 @@ function TeamView$metaDialog$lambda_1($chips, $filter, $area, $rows, $limit, $dr
       }
       if (!show)
         continue $l$loop;
-      add_0($area, 'div', 'meta-row', VOID, TeamView$metaDialog$lambda$lambda_3(r));
+      add_0($area, 'div', 'meta-row', VOID, TeamView$metaDialog$lambda$lambda_4(r));
     }
-    var tmp_3;
+    var tmp_5;
     if ($rows._v.l() >= $limit._v && $limit._v < 150) {
-      var tmp_4 = 'Mehr zeigen (bis Platz ' + ($limit._v + 50 | 0) + ')';
-      button($area, tmp_4, 'flat small-btn', TeamView$metaDialog$lambda$lambda_4($limit, $area, $format, $rows, $draw));
-      tmp_3 = Unit_instance;
+      var tmp_6 = 'Mehr zeigen (bis Platz ' + ($limit._v + 50 | 0) + ')';
+      button($area, tmp_6, 'flat small-btn', TeamView$metaDialog$lambda$lambda_5($limit, $area, $format, $rows, $draw));
+      tmp_5 = Unit_instance;
     }
     return Unit_instance;
   };
