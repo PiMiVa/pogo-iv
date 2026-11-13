@@ -526,3 +526,9 @@ section.card.flush:has(.team-head) { border: 3px solid var(--sun); }
 .start-tile { background: var(--card, #fff); border-radius: 16px; padding: 10px 12px; cursor: pointer; min-height: 60px; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
 .start-tile.hi { background: rgba(255, 203, 5, .35); }
 .start-title { font-weight: 700; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* PvP-Meta-Liste */
+.meta-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line, rgba(127,127,127,.25)); }
+.meta-row .meta-place { width: 28px; flex: none; }
+.meta-row .grow { flex: 1; min-width: 0; }
+.meta-row .grow .small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
