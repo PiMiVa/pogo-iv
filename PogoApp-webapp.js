@@ -138,7 +138,7 @@ import {
   returnIfSuspended39bw7wdvakhp8 as returnIfSuspended,
   toInt2q8uldh7sc951 as toInt,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1794607659082';
+} from './kotlin-kotlin-stdlib.js?v=1794610063897';
 import {
   Variant_NORMAL_getInstance23fgbcbkjs7l7 as Variant_NORMAL_getInstance,
   Cleanup_instance32xjuxulytgi8 as Cleanup_instance,
@@ -249,7 +249,7 @@ import {
   PageSettle21idp888bmz3 as PageSettle,
   Last3mxaoe9u97sp1 as Last,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1794607659082';
+} from './PogoApp-core.js?v=1794610063897';
 import {
   launch1c91vkjzdi9sd as launch,
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
@@ -258,9 +258,9 @@ import {
   MainScope1gi1r4abhrtmm as MainScope,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1794607659082';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794607659082';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794607659082';
+} from './kotlinx-coroutines-core.js?v=1794610063897';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794610063897';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794610063897';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -12005,7 +12005,8 @@ function owned($this, a) {
     var _iterator__ex2g4s = tmp0.i();
     while (_iterator__ex2g4s.j()) {
       var element = _iterator__ex2g4s.k();
-      if (element.f1l_1 === Companion_getInstance_1().d22(a.f22_1.r1e_1) && element.m1l_1.equals(Variant_SHADOW_getInstance()) === a.g22_1) {
+      var id = Companion_getInstance_1().d22(a.f22_1.r1e_1);
+      if (element.f1l_1 === id && element.m1l_1.equals(Variant_SHADOW_getInstance()) === a.g22_1 && (id === a.f22_1.r1e_1 || element.c1n())) {
         tmp$ret$0 = true;
         break $l$block_0;
       }
@@ -13457,27 +13458,19 @@ function RaidView$maxMeta$lambda$lambda$lambda($e, $families, $saved) {
     add_0($this$add, 'div', '', $e.u20_1.t1e_1 + ($e.v20_1 ? ' (G-Max)' : '')).style.fontWeight = '600';
     var have = maxMeta$mine($saved, $e);
     var fam = !have && $families.t(Store_getInstance().a2w().w1g($e.u20_1.r1e_1));
-    var tmp0_safe_receiver = $e.y20_1;
-    var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.t1j_1;
     var tmp;
-    if (tmp1_safe_receiver == null) {
-      tmp = null;
+    if ($e.v20_1) {
+      tmp = 'G-Max-Angriff';
     } else {
-      // Inline function 'kotlin.takeIf' call
-      var tmp_0;
-      if (!$e.v20_1) {
-        tmp_0 = tmp1_safe_receiver;
-      } else {
-        tmp_0 = null;
-      }
-      tmp = tmp_0;
+      var tmp0_safe_receiver = $e.y20_1;
+      tmp = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.t1j_1;
     }
     var line = joinToString(listOfNotNull([tmp, have ? '\u2713 hast du' : fam ? '\u25D0 Familie da' : null]), ' \xB7 ');
-    var tmp_1;
+    var tmp_0;
     // Inline function 'kotlin.text.isNotEmpty' call
     if (charSequenceLength(line) > 0) {
       add_0($this$add, 'div', have ? 'small good' : 'small', line);
-      tmp_1 = Unit_instance;
+      tmp_0 = Unit_instance;
     }
     return Unit_instance;
   };

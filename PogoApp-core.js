@@ -199,7 +199,7 @@ import {
   convertToIntofdoxh9bstof as convertToInt,
   lines3g90sq0zeq43v as lines,
   substringBefore3n7kj60w69hju as substringBefore_0,
-} from './kotlin-kotlin-stdlib.js?v=1794607659082';
+} from './kotlin-kotlin-stdlib.js?v=1794610063897';
 import {
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
   JsonObjectee06ihoeeiqj as JsonObject,
@@ -212,7 +212,7 @@ import {
   get_jsonArray18sglwhl4pclz as get_jsonArray,
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794607659082';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794610063897';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -230,7 +230,7 @@ import {
   ListSerializer1hxuk9dx5n9du as ListSerializer,
   SerializableWithd2dap36updxd as SerializableWith,
   LinkedHashMapSerializermaoj2nyji7op as LinkedHashMapSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794607659082';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794610063897';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -11128,7 +11128,7 @@ protoOf(MaxCalc).l21 = function () {
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (element.f1f_1) {
+    if (element.f1f_1 && !contains(element.r1e_1, 'eternamax')) {
       destination.h(element);
     }
   }
@@ -11200,11 +11200,25 @@ protoOf(MaxCalc).l21 = function () {
       fastOf.d2(key_0, m);
     }
     var tmp0_safe_receiver_1 = s.g1f_1;
-    if (tmp0_safe_receiver_1 == null)
+    var tmp_0;
+    if (tmp0_safe_receiver_1 == null) {
+      tmp_0 = null;
+    } else {
+      // Inline function 'kotlin.takeIf' call
+      var tmp_1;
+      if (!(s.r1e_1 === 'eternatus')) {
+        tmp_1 = tmp0_safe_receiver_1;
+      } else {
+        tmp_1 = null;
+      }
+      tmp_0 = tmp_1;
+    }
+    var tmp1_safe_receiver = tmp_0;
+    if (tmp1_safe_receiver == null)
       null;
     else {
       // Inline function 'kotlin.let' call
-      raw.h(new Triple(s, true, to(tmp0_safe_receiver_1, meta$dmg(atk, s, tmp0_safe_receiver_1, Companion_getInstance_13().a21_1.r(2)))));
+      raw.h(new Triple(s, true, to(tmp1_safe_receiver, meta$dmg(atk, s, tmp1_safe_receiver, Companion_getInstance_13().a21_1.r(2)))));
     }
   }
   // Inline function 'kotlin.collections.groupBy' call
@@ -11216,15 +11230,15 @@ protoOf(MaxCalc).l21 = function () {
     var key_1 = element_3.ki_1.i9_1;
     // Inline function 'kotlin.collections.getOrPut' call
     var value = destination_3.a2(key_1);
-    var tmp_0;
+    var tmp_2;
     if (value == null) {
       var answer = ArrayList_init_$Create$_0();
       destination_3.d2(key_1, answer);
-      tmp_0 = answer;
+      tmp_2 = answer;
     } else {
-      tmp_0 = value;
+      tmp_2 = value;
     }
-    var list_0 = tmp_0;
+    var list_0 = tmp_2;
     list_0.h(element_3);
   }
   // Inline function 'kotlin.collections.mapValues' call
@@ -11234,7 +11248,7 @@ protoOf(MaxCalc).l21 = function () {
   var _iterator__ex2g4s_7 = destination_3.w().i();
   while (_iterator__ex2g4s_7.j()) {
     var element_4 = _iterator__ex2g4s_7.k();
-    var tmp_1 = element_4.x();
+    var tmp_3 = element_4.x();
     // Inline function 'kotlin.collections.component1' call
     var type = element_4.x();
     // Inline function 'kotlin.collections.component2' call
@@ -11253,10 +11267,10 @@ protoOf(MaxCalc).l21 = function () {
     var top = maxValue;
     // Inline function 'kotlin.collections.sortedByDescending' call
     // Inline function 'kotlin.comparisons.compareByDescending' call
-    var tmp_2 = MaxCalc$meta$lambda;
-    var tmp$ret$42 = new sam$kotlin_Comparator$0_4(tmp_2);
+    var tmp_4 = MaxCalc$meta$lambda;
+    var tmp$ret$44 = new sam$kotlin_Comparator$0_4(tmp_4);
     // Inline function 'kotlin.collections.distinctBy' call
-    var this_0 = sortedWith(list_1, tmp$ret$42);
+    var this_0 = sortedWith(list_1, tmp$ret$44);
     var set_0 = HashSet_init_$Create$();
     var list_2 = ArrayList_init_$Create$_0();
     var _iterator__ex2g4s_8 = this_0.i();
@@ -11276,10 +11290,10 @@ protoOf(MaxCalc).l21 = function () {
       var s_0 = item.k9();
       var giga = item.l9();
       var t = item.li();
-      var tmp$ret$47 = new MetaEntry(s_0, giga, type, roundToInt(t.j9_1 / top * 100), fastOf.a2(s_0.r1e_1 + '|' + type));
-      destination_5.h(tmp$ret$47);
+      var tmp$ret$49 = new MetaEntry(s_0, giga, type, roundToInt(t.j9_1 / top * 100), fastOf.a2(s_0.r1e_1 + '|' + type));
+      destination_5.h(tmp$ret$49);
     }
-    destination_4.d2(tmp_1, destination_5);
+    destination_4.d2(tmp_3, destination_5);
   }
   return destination_4;
 };
