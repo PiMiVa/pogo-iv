@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T17:53:37Z",
+ "generated": "2026-11-13T23:41:57Z",
  "news": [
   {
    "title": "GO Wild Area 2026 Global: PvE Analysis for Raids, Eggs and Max Battles",
@@ -1773,6 +1773,7 @@
   "Win a raid": "Gewinne einen Raid",
   "Catch 10 Pokémon": "Fange 10 Pokémon",
   "Win a Max Battle": "Gewinne eine max. Schlacht",
+  "Hatch an Egg": "Ein Ei ausbrüten",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -1791,7 +1792,6 @@
   "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
   "Win 5 raids": "Gewinne 5 Raids",
   "Explore 2 km": "2 km erkunden",
-  "Hatch an Egg": "Ein Ei ausbrüten",
   "Hatch 2 Eggs": "Schlüpfe 2 Eier",
   "Spin 3 PokéStops or Gyms": "Drehe 3 PokéStops oder Fitnessstudios",
   "Spin 5 PokéStops": "Drehe 5 PokéStops",
@@ -2438,6 +2438,7 @@
   "Win a raid": "Gewinne einen Raid",
   "Catch 10 Pokémon": "Fange 10 Pokémon",
   "Win a Max Battle": "Gewinne eine max. Schlacht",
+  "Hatch an Egg": "Ein Ei ausbrüten",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -2456,7 +2457,6 @@
   "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
   "Win 5 raids": "Gewinne 5 Raids",
   "Explore 2 km": "2 km erkunden",
-  "Hatch an Egg": "Ein Ei ausbrüten",
   "Hatch 2 Eggs": "Schlüpfe 2 Eier",
   "Spin 3 PokéStops or Gyms": "Drehe 3 PokéStops oder Fitnessstudios",
   "Spin 5 PokéStops": "Drehe 5 PokéStops",
