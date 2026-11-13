@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-13T09:46:00Z",
+ "generated": "2026-11-13T17:53:37Z",
  "news": [
   {
    "title": "GO Wild Area 2026 Global: PvE Analysis for Raids, Eggs and Max Battles",
-   "titleDe": null,
+   "titleDe": "GO Wild Area 2026 Global: PvE-Analyse für Raids, Eier und Max-Kämpfe",
    "link": "https://pokemongohub.net/post/meta/go-wild-area-2026-global-pve-analysis-for-raids-eggs-and-max-battles/",
    "date": "Fri, 13 Nov 2026 08:47:50 +0000",
    "categories": [
@@ -20,7 +20,7 @@
   },
   {
    "title": "How to Beat Dynamax Latios: Best Counters & Guide",
-   "titleDe": null,
+   "titleDe": "So besiegt man Dynamax-Latios: Die besten Konter und ein Leitfaden",
    "link": "https://pokemongohub.net/post/guide/how-to-beat-dynamax-latios-best-counters-guide/",
    "date": "Fri, 13 Nov 2026 05:00:51 +0000",
    "categories": [
@@ -115,7 +115,7 @@
   },
   {
    "title": "Pokémon Sleep: Good Sleep Day (November 2026)",
-   "titleDe": null,
+   "titleDe": "Pokémon Schlaf: Tag des guten Schlafs (November 2026)",
    "link": "https://pokemongohub.net/post/sleep/pokemon-sleep-good-sleep-day-november-2026/",
    "date": "Wed, 11 Nov 2026 08:20:59 +0000",
    "categories": [
@@ -441,8 +441,6 @@
   }
  ],
  "events": {
-  "gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
-  "pokemon-night-out-london-2026": "Pokémon-Nacht im Jahr 2026 - London",
   "into-the-wild-2026": "In die Wildnis 2026",
   "zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026": "Zacian (Kronenschwert) und Zamazenta (Kronenschild) in 5-Sterne-Raid-Kämpfen",
   "pokemon-go-wild-area-2026-global": "Pokémon GO Wild Area 2026: Global",
@@ -491,78 +489,6 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "details": {
-  "pokemon-night-out-london-2026": {
-   "v": 2,
-   "sections": [
-    {
-     "id": "spawns",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Gastly",
-        "Voltorb",
-        "Alolan Marowak",
-        "Hoothoot",
-        "Murkrow",
-        "Houndour",
-        "Electrike",
-        "Carvanha",
-        "Shinx",
-        "Zorua",
-        "Joltik",
-        "Froakie",
-        "Dedenne",
-        "Rookidee",
-        "Unown P",
-        "Unown N",
-        "Unown O"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "One-Star Raids",
-       "pokemon": [
-        "Pikachu"
-       ]
-      },
-      {
-       "title": "Three-Star Raids",
-       "pokemon": [
-        "Gengar"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "research",
-     "groups": [
-      {
-       "title": "Featured Research Encounters",
-       "pokemon": [
-        "Toxtricity (Low Key Form)",
-        "Toxtricity (Amped Form)"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [
-    "Lure Modules activated during the event last for one hour, excluding Golden Lure Modules"
-   ],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-13",
-   "bonusesDe": [
-    "Während des Events aktivierte Ködermodule dauern eine Stunde, ausgenommen Goldene Ködermodule"
-   ],
-   "ticketBonusesDe": []
-  },
   "into-the-wild-2026": {
    "v": 2,
    "sections": [
@@ -2355,12 +2281,15 @@
   }
  ],
  "translations": {
+  "GO Wild Area 2026 Global: PvE Analysis for Raids, Eggs and Max Battles": "GO Wild Area 2026 Global: PvE-Analyse für Raids, Eier und Max-Kämpfe",
+  "How to Beat Dynamax Latios: Best Counters & Guide": "So besiegt man Dynamax-Latios: Die besten Konter und ein Leitfaden",
   "How to Beat Dynamax Latias: Best Counters & Guide": "So besiegt man Dynamax-Latias: Die besten Konter und ein Leitfaden",
   "Which Adventure Effect Should I Use During Pokémon GO Wild Area: Global 2026?": "Welchen Abenteuer-Effekt sollte ich während der Pokémon GO Wildgebiete: Global 2026 verwenden?",
   "GO Wild Area 2026 Global: Wild Spawns PvE Tier List": "GO Wildnis 2026 Global: Liste der PvE-Stufen für Wild-Spawns",
   "How to beat Dynamax Regidrago: Complete Guide": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
   "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
   "What Pokémon Should I Use My Silver Bottle Cap On?": "Auf welches Pokémon sollte ich meinen silbernen Flaschenverschluss aufsetzen?",
+  "Pokémon Sleep: Good Sleep Day (November 2026)": "Pokémon Schlaf: Tag des guten Schlafs (November 2026)",
   "How to Beat Dynamax Registeel: Best Counters & Guide": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
   "Pokémon News This Week: Pokopia Expansion Pass, Fender Guitars Collaboration, Vivillon Challenge and More!": "Pokémon-Nachrichten diese Woche: Pokopia-Erweiterungspass, Fender-Gitarren-Kollaboration, Vivillon-Herausforderung und mehr!",
   "Silver Bottle Cap Guide": "Leitfaden für silberne Flaschenverschlüsse",
@@ -2382,9 +2311,6 @@
   "Pokémon GO Wild Area: Mexico City – Additional Details, Maps, In-Person Activities, Notable Trainers etc": "Pokémon GO Wild Area: Mexiko-Stadt – Zusätzliche Details, Karten, persönliche Aktivitäten, bemerkenswerte Trainer usw.",
   "Pokémon GO Wild Area 2026: Global Community Meetups in the Asia-Pacific region": "Pokémon GO Wild Area 2026: Globale Community-Meetups im asiatisch-pazifischen Raum",
   "How to beat Dynamax Dialga: Complete Guide": "Wie man Dynamax Dialga besiegt: Komplette Anleitung",
-  "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Twilight Trails": "Great League: Mega Edition, Ultra League: Mega Edition und Master League: Mega Edition | Twilight Trails",
-  "Pokémon Night Out 2026 - London": "Pokémon-Nacht im Jahr 2026 - London",
-  "Lure Modules activated during the event last for one hour, excluding Golden Lure Modules": "Während des Events aktivierte Ködermodule dauern eine Stunde, ausgenommen Goldene Ködermodule",
   "Into the Wild 2026": "In die Wildnis 2026",
   "Remote Raid limit increased to 30 from Monday, November 9, to Friday, November 13, 2026": "Das Remote-Raid-Limit wurde von Montag, 9. November, auf Freitag, 13. November 2026, auf 30 erhöht",
   "No Remote Raid limit from Saturday, November 14, to Sunday, November 15, 2026": "Kein Remote-Raid-Limit von Samstag, 14. November, bis Sonntag, 15. November 2026",
