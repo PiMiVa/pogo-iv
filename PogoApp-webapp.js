@@ -138,7 +138,7 @@ import {
   returnIfSuspended39bw7wdvakhp8 as returnIfSuspended,
   toInt2q8uldh7sc951 as toInt,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1794610063897';
+} from './kotlin-kotlin-stdlib.js?v=1794642960011';
 import {
   Variant_NORMAL_getInstance23fgbcbkjs7l7 as Variant_NORMAL_getInstance,
   Cleanup_instance32xjuxulytgi8 as Cleanup_instance,
@@ -249,7 +249,7 @@ import {
   PageSettle21idp888bmz3 as PageSettle,
   Last3mxaoe9u97sp1 as Last,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1794610063897';
+} from './PogoApp-core.js?v=1794642960011';
 import {
   launch1c91vkjzdi9sd as launch,
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
@@ -258,9 +258,9 @@ import {
   MainScope1gi1r4abhrtmm as MainScope,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1794610063897';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794610063897';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794610063897';
+} from './kotlinx-coroutines-core.js?v=1794642960011';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794642960011';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794642960011';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -6215,7 +6215,7 @@ function static_init_0() {
   Tab_VIDEO_instance = new Tab('VIDEO', 1, 'Video', 'M8 5v14l11-7z', false);
   Tab_GUIDE_instance = new Tab('GUIDE', 2, 'Einf\xFChrung', '', false);
   Tab_COLLECTION_instance = new Tab('COLLECTION', 3, 'Sammlung', 'M3 6h2v2H3zm4 0h14v2H7zM3 11h2v2H3zm4 0h14v2H7zM3 16h2v2H3zm4 0h14v2H7z');
-  Tab_TEAM_instance = new Tab('TEAM', 4, 'Teams', 'M12 17.3l6.2 3.7-1.6-7 5.4-4.7-7.1-.6L12 2 9.1 8.7 2 9.3l5.4 4.7-1.6 7z');
+  Tab_TEAM_instance = new Tab('TEAM', 4, 'Teams', 'M12 17.3l6.2 3.7-1.6-7 5.4-4.7-7.1-.6L12 2 9.1 8.7 2 9.3l5.4 4.7-1.6 7z', false);
   Tab_RAIDS_instance = new Tab('RAIDS', 5, 'Raids', 'M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z');
   Tab_NEWS_instance = new Tab('NEWS', 6, 'Kalender', 'M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 16H5V9h14v11z');
 }
@@ -6720,21 +6720,35 @@ function App$render$lambda($this$add) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var t = _iterator__ex2g4s_0.k();
-    var tmp = App_getInstance().c2w_1.equals(t) || (t.equals(Tab_START_getInstance()) && (App_getInstance().c2w_1.equals(Tab_VIDEO_getInstance()) || App_getInstance().c2w_1.equals(Tab_GUIDE_getInstance()))) ? 'on' : '';
-    add_0($this$add, 'button', tmp, VOID, App$render$lambda$lambda(t));
+    if (t.equals(Tab_RAIDS_getInstance())) {
+      var tmp = App_getInstance().c2w_1.equals(Tab_VIDEO_getInstance()) ? 'scan on' : 'scan';
+      add_0($this$add, 'button', tmp, VOID, App$render$lambda$lambda);
+    }
+    var tmp_0 = App_getInstance().c2w_1.equals(t) || (t.equals(Tab_START_getInstance()) && (App_getInstance().c2w_1.equals(Tab_TEAM_getInstance()) || App_getInstance().c2w_1.equals(Tab_GUIDE_getInstance()))) ? 'on' : '';
+    add_0($this$add, 'button', tmp_0, VOID, App$render$lambda$lambda_0(t));
   }
   return Unit_instance;
 }
-function App$render$lambda$lambda$lambda($t) {
+function App$render$lambda$lambda($this$add) {
+  $this$add.title = 'Video einlesen';
+  $this$add.onclick = App$render$lambda$lambda$lambda;
+  add_0($this$add, 'span', 'icon').innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 9V5.5A1.5 1.5 0 0 1 5.5 4H9M15 4h3.5A1.5 1.5 0 0 1 20 5.5V9M20 15v3.5a1.5 1.5 0 0 1-1.5 1.5H15M9 20H5.5A1.5 1.5 0 0 1 4 18.5V15M7 12h10"/><\/svg>';
+  return Unit_instance;
+}
+function App$render$lambda$lambda$lambda(it) {
+  App_getInstance().c35(Tab_VIDEO_getInstance());
+  return null;
+}
+function App$render$lambda$lambda$lambda_0($t) {
   return function (it) {
     var tmp;
     if (App_getInstance().c2w_1.equals(Tab_TEAM_getInstance()) && !$t.equals(Tab_TEAM_getInstance())) {
-      Store_getInstance().c35();
+      Store_getInstance().d35();
       tmp = Unit_instance;
     }
     var tmp_0;
     if (App_getInstance().c2w_1.equals(Tab_NEWS_getInstance()) && !$t.equals(Tab_NEWS_getInstance())) {
-      NewsView_getInstance().d35();
+      NewsView_getInstance().e35();
       tmp_0 = Unit_instance;
     }
     App_getInstance().c2w_1 = $t;
@@ -6743,7 +6757,7 @@ function App$render$lambda$lambda$lambda($t) {
     return Unit_instance;
   };
 }
-function App$render$lambda$lambda$lambda_0($t) {
+function App$render$lambda$lambda$lambda_1($t) {
   return function ($this$add) {
     add_0($this$add, 'span', '', $t.b33_1);
     var tmp;
@@ -6759,23 +6773,23 @@ function App$render$lambda$lambda$lambda_0($t) {
       tmp = Unit_instance;
     }
     var tmp_1;
-    if ($t.equals(Tab_TEAM_getInstance()) && Store_getInstance().e35()) {
+    if ($t.equals(Tab_START_getInstance()) && Store_getInstance().f35()) {
       add_0($this$add, 'span', 'badge', 'neu');
       tmp_1 = Unit_instance;
     }
     var tmp_2;
-    if ($t.equals(Tab_NEWS_getInstance()) && NewsView_getInstance().f35()) {
+    if ($t.equals(Tab_NEWS_getInstance()) && NewsView_getInstance().g35()) {
       add_0($this$add, 'span', 'badge', '!');
       tmp_2 = Unit_instance;
     }
     return Unit_instance;
   };
 }
-function App$render$lambda$lambda($t) {
+function App$render$lambda$lambda_0($t) {
   return function ($this$add) {
-    $this$add.onclick = App$render$lambda$lambda$lambda($t);
+    $this$add.onclick = App$render$lambda$lambda$lambda_0($t);
     add_0($this$add, 'span', 'icon').innerHTML = '<svg viewBox="0 0 24 24"><path d="' + $t.c33_1 + '"/><\/svg>';
-    add_0($this$add, 'span', VOID, VOID, App$render$lambda$lambda$lambda_0($t));
+    add_0($this$add, 'span', VOID, VOID, App$render$lambda$lambda$lambda_1($t));
     return Unit_instance;
   };
 }
@@ -6824,7 +6838,7 @@ protoOf($autoRefresh$stepCOROUTINE$).f8 = function () {
           this.y7_1 = 2;
           this.j34_1 = Companion_instance;
           this.x7_1 = 1;
-          suspendResult = Store_getInstance().g35(VOID, this);
+          suspendResult = Store_getInstance().h35(VOID, this);
           if (suspendResult === get_COROUTINE_SUSPENDED()) {
             return suspendResult;
           }
@@ -6864,7 +6878,7 @@ protoOf($autoRefresh$stepCOROUTINE$).f8 = function () {
           }
            while (false);
           var fresh = tmp$ret$0;
-          NewsView_getInstance().h35();
+          NewsView_getInstance().i35();
           if (Store_getInstance().t33()) {
             TeamView_getInstance().s33(true);
           }
@@ -6896,19 +6910,19 @@ function App() {
   this.f2w_1 = '';
   this.g2w_1 = emptyList();
 }
-protoOf(App).i35 = function () {
+protoOf(App).j35 = function () {
   var tmp = this;
   var tmp_0 = document.getElementById('app');
   tmp.d2w_1 = tmp_0 instanceof HTMLElement ? tmp_0 : THROW_CCE();
   _get_root__dd8asp(this).textContent = 'Lade Spieldaten \u2026';
   launch(this.b2w_1, VOID, VOID, App$start$slambda_0(null));
 };
-protoOf(App).j35 = function (t) {
+protoOf(App).c35 = function (t) {
   if (this.c2w_1.equals(Tab_TEAM_getInstance()) && !t.equals(Tab_TEAM_getInstance())) {
-    Store_getInstance().c35();
+    Store_getInstance().d35();
   }
   if (this.c2w_1.equals(Tab_NEWS_getInstance()) && !t.equals(Tab_NEWS_getInstance())) {
-    NewsView_getInstance().d35();
+    NewsView_getInstance().e35();
   }
   this.c2w_1 = t;
   this.h2w();
@@ -8322,7 +8336,7 @@ function TeamView$leaguePicker$lambda($overlay) {
 }
 function leaguePicker$draw(area, live, open, custom, cups, query, $selected, overlay) {
   area.textContent = '';
-  var tmp = (Store_getInstance().e35() ? '\uD83C\uDD95 ' : '') + 'Diese Woche in der Kampfliga';
+  var tmp = (Store_getInstance().f35() ? '\uD83C\uDD95 ' : '') + 'Diese Woche in der Kampfliga';
   var tmp0_safe_receiver = Store_getInstance().h2u_1;
   var tmp_0;
   if (tmp0_safe_receiver == null) {
@@ -10346,7 +10360,7 @@ protoOf(TeamView).i30 = function (host) {
     launch(tmp_2, VOID, VOID, TeamView$render$slambda_0(format, null));
   }
   add_0(host, 'div', 'league-bar', VOID, TeamView$render$lambda(filterCount, format));
-  if (Store_getInstance().e35()) {
+  if (Store_getInstance().f35()) {
     add_0(host, 'div', 'small good', '\uD83C\uDD95 Neue Kampfliga-Woche \u2013 tippe oben auf die Liga', TeamView$render$lambda_0(format));
   }
   if (!this.p31_1) {
@@ -10577,7 +10591,7 @@ function TeamView_getInstance() {
   return TeamView_instance;
 }
 function main() {
-  App_getInstance().i35();
+  App_getInstance().j35();
 }
 function Tile(icon, title, hint, highlight, go) {
   highlight = highlight === VOID ? false : highlight;
@@ -10595,7 +10609,8 @@ function StartView$render$group$lambda$lambda$lambda($t) {
 }
 function StartView$render$group$lambda$lambda($t) {
   return function ($this$add) {
-    add_0($this$add, 'div', 'start-title', $t.z3a_1 + '  ' + $t.a3b_1);
+    add_0($this$add, 'div', 'start-icon', $t.z3a_1);
+    add_0($this$add, 'div', 'start-title', $t.a3b_1);
     add_0($this$add, 'div', 'small', $t.b3b_1);
     $this$add.onclick = StartView$render$group$lambda$lambda$lambda($t);
     return Unit_instance;
@@ -10615,93 +10630,153 @@ function StartView$render$group$lambda($tiles) {
     return Unit_instance;
   };
 }
-function render$group_0($host, title, tiles) {
+function render$group_0($host, pastel, title, tiles) {
   add_0($host, 'div', 'start-group', title);
-  add_0($host, 'div', 'start-grid', VOID, StartView$render$group$lambda(tiles));
+  var tmp = 'start-grid p-' + pastel._v;
+  add_0($host, 'div', tmp, VOID, StartView$render$group$lambda(tiles));
 }
 function StartView$render$lambda() {
-  App_getInstance().j35(Tab_GUIDE_getInstance());
+  App_getInstance().c35(Tab_GUIDE_getInstance());
   return Unit_instance;
 }
-function StartView$render$lambda_0() {
-  App_getInstance().j35(Tab_VIDEO_getInstance());
+function StartView$render$lambda_0($this$add) {
+  var tmp = '' + Store_getInstance().k2t_1.l();
+  invoke$stat($this$add, 'lilac', '\uD83D\uDCE6', 'Sammlung', tmp, 'Pok\xE9mon', StartView$render$lambda$lambda);
+  var tmp0_safe_receiver = Store_getInstance().h2u_1;
+  var tmp_0;
+  if (tmp0_safe_receiver == null) {
+    tmp_0 = null;
+  } else {
+    // Inline function 'kotlin.let' call
+    tmp_0 = GblSchedule_getInstance().s1v(tmp0_safe_receiver.v1y_1);
+  }
+  var tmp1_elvis_lhs = tmp_0;
+  var tmp_1 = tmp1_elvis_lhs == null ? '\u2013' : tmp1_elvis_lhs;
+  invoke$stat($this$add, 'butter', '\uD83C\uDFC6', 'Kampfliga', tmp_1, '', StartView$render$lambda$lambda_0);
+  // Inline function 'kotlin.collections.isNotEmpty' call
+  if (!Store_getInstance().l2t_1.q()) {
+    var tmp_2 = '' + Store_getInstance().l2t_1.l();
+    invoke$stat($this$add, 'rose', '\u2753', 'Unklar', tmp_2, 'pr\xFCfen', StartView$render$lambda$lambda_1);
+  }
+  return Unit_instance;
+}
+function StartView$render$lambda$stat$lambda$lambda($value, $detail) {
+  return function ($this$add) {
+    add_0($this$add, 'b', '', $value);
+    add_0($this$add, 'span', '', $detail);
+    return Unit_instance;
+  };
+}
+function StartView$render$lambda$stat$lambda$lambda_0($go) {
+  return function (it) {
+    $go();
+    return null;
+  };
+}
+function StartView$render$lambda$stat$lambda($icon, $label, $value, $detail, $go) {
+  return function ($this$add) {
+    add_0($this$add, 'div', 'stat-icon', $icon);
+    add_0($this$add, 'div', 'stat-label', $label);
+    add_0($this$add, 'div', 'stat-value', VOID, StartView$render$lambda$stat$lambda$lambda($value, $detail));
+    $this$add.onclick = StartView$render$lambda$stat$lambda$lambda_0($go);
+    return Unit_instance;
+  };
+}
+function invoke$stat($this_add, cls, icon, label, value, detail, go) {
+  var tmp = 'stat ' + cls;
+  return add_0($this_add, 'div', tmp, VOID, StartView$render$lambda$stat$lambda(icon, label, value, detail, go));
+}
+function StartView$render$lambda$lambda() {
+  App_getInstance().c35(Tab_COLLECTION_getInstance());
+  return Unit_instance;
+}
+function StartView$render$lambda$lambda_0() {
+  App_getInstance().c35(Tab_TEAM_getInstance());
+  return Unit_instance;
+}
+function StartView$render$lambda$lambda_1() {
+  App_getInstance().c35(Tab_COLLECTION_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_1() {
-  CollectionView_getInstance().s2v_1 = 2;
-  App_getInstance().j35(Tab_COLLECTION_getInstance());
+  App_getInstance().c35(Tab_VIDEO_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_2() {
-  App_getInstance().j35(Tab_COLLECTION_getInstance());
+  CollectionView_getInstance().s2v_1 = 2;
+  App_getInstance().c35(Tab_COLLECTION_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_3() {
-  CollectionView_getInstance().s2v_1 = 3;
-  App_getInstance().j35(Tab_COLLECTION_getInstance());
+  App_getInstance().c35(Tab_COLLECTION_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_4() {
-  CollectionView_getInstance().g30();
-  App_getInstance().j35(Tab_COLLECTION_getInstance());
+  CollectionView_getInstance().s2v_1 = 3;
+  App_getInstance().c35(Tab_COLLECTION_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_5() {
-  CollectionView_getInstance().r2u_1 = true;
-  App_getInstance().j35(Tab_COLLECTION_getInstance());
+  CollectionView_getInstance().g30();
+  App_getInstance().c35(Tab_COLLECTION_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_6() {
-  App_getInstance().j35(Tab_TEAM_getInstance());
+  CollectionView_getInstance().r2u_1 = true;
+  App_getInstance().c35(Tab_COLLECTION_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_7() {
-  RaidView_getInstance().m35_1 = 0;
-  App_getInstance().j35(Tab_RAIDS_getInstance());
+  App_getInstance().c35(Tab_TEAM_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_8() {
-  RaidView_getInstance().m35_1 = 2;
-  App_getInstance().j35(Tab_RAIDS_getInstance());
+  RaidView_getInstance().m35_1 = 0;
+  App_getInstance().c35(Tab_RAIDS_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_9() {
-  RaidView_getInstance().m35_1 = 1;
-  App_getInstance().j35(Tab_RAIDS_getInstance());
+  RaidView_getInstance().m35_1 = 2;
+  App_getInstance().c35(Tab_RAIDS_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_10() {
-  TeamView_getInstance().q31_1 = true;
-  App_getInstance().j35(Tab_TEAM_getInstance());
+  RaidView_getInstance().m35_1 = 1;
+  App_getInstance().c35(Tab_RAIDS_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_11() {
-  NewsView_getInstance().x30_1 = 3;
-  App_getInstance().j35(Tab_NEWS_getInstance());
+  TeamView_getInstance().q31_1 = true;
+  App_getInstance().c35(Tab_TEAM_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_12() {
-  NewsView_getInstance().x30_1 = 2;
-  App_getInstance().j35(Tab_NEWS_getInstance());
+  NewsView_getInstance().x30_1 = 3;
+  App_getInstance().c35(Tab_NEWS_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_13() {
-  NewsView_getInstance().x30_1 = 0;
-  App_getInstance().j35(Tab_NEWS_getInstance());
+  NewsView_getInstance().x30_1 = 2;
+  App_getInstance().c35(Tab_NEWS_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_14() {
-  NewsView_getInstance().x30_1 = 4;
-  App_getInstance().j35(Tab_NEWS_getInstance());
+  NewsView_getInstance().x30_1 = 0;
+  App_getInstance().c35(Tab_NEWS_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_15() {
-  NewsView_getInstance().x30_1 = 1;
-  App_getInstance().j35(Tab_NEWS_getInstance());
+  NewsView_getInstance().x30_1 = 4;
+  App_getInstance().c35(Tab_NEWS_getInstance());
   return Unit_instance;
 }
 function StartView$render$lambda_16() {
-  App_getInstance().j35(Tab_GUIDE_getInstance());
+  NewsView_getInstance().x30_1 = 1;
+  App_getInstance().c35(Tab_NEWS_getInstance());
+  return Unit_instance;
+}
+function StartView$render$lambda_17() {
+  App_getInstance().c35(Tab_GUIDE_getInstance());
   return Unit_instance;
 }
 function StartView() {
@@ -10796,6 +10871,7 @@ protoOf(StartView).i30 = function (host) {
   var tmp6_elvis_lhs = tmp_2;
   var dynaHint = tmp6_elvis_lhs == null ? 'Dein Dyna-Team' : tmp6_elvis_lhs;
   var codes = NewsView_getInstance().e3b();
+  var pastel = {_v: 'sky'};
   var guide = Guide_getInstance().r1z(true);
   var tmp$ret$17;
   $l$block_2: {
@@ -10824,38 +10900,50 @@ protoOf(StartView).i30 = function (host) {
   var guideCount = tmp$ret$17;
   if (!GuideView_getInstance().l35_1 && guideCount < guide.l()) {
     var tmp_5 = '' + guideCount + ' von ' + guide.l() + ' erledigt \u2013 so scannst du alles richtig ein';
-    render$group_0(host, '\uD83C\uDF93 Neu hier?', [new Tile('\uD83C\uDF93', 'Einf\xFChrung', tmp_5, true, StartView$render$lambda)]);
+    render$group_0(host, pastel, 'Neu hier?', [new Tile('\uD83C\uDF93', 'Einf\xFChrung', tmp_5, true, StartView$render$lambda)]);
   }
-  var tmp_6 = new Tile('\uD83C\uDFAC', 'Video einlesen', 'Bildschirmaufnahme auswerten', VOID, StartView$render$lambda_0);
-  render$group_0(host, '\uD83D\uDCF7 Scannen', [tmp_6, new Tile('\uD83C\uDFF7', 'Merkmale einlesen', 'Crypto, Dyna, Gl\xFCcks \u2026', VOID, StartView$render$lambda_1)]);
-  var tmp_7 = '' + Store_getInstance().k2t_1.l() + ' Pok\xE9mon';
-  var tmp_8;
+  add_0(host, 'div', 'stat-row', VOID, StartView$render$lambda_0);
+  var tmp_6 = new Tile('\uD83C\uDFAC', 'Video einlesen', 'Bildschirmaufnahme auswerten', VOID, StartView$render$lambda_1);
+  render$group_0(host, pastel, 'Scannen', [tmp_6, new Tile('\uD83C\uDFF7', 'Merkmale einlesen', 'Crypto, Dyna, Gl\xFCcks \u2026', VOID, StartView$render$lambda_2)]);
+  // Inline function 'kotlin.also' call
+  var this_0 = 'Meine Pok\xE9mon';
+  pastel._v = 'lilac';
+  var tmp_7 = this_0;
+  var tmp_8 = '' + Store_getInstance().k2t_1.l() + ' Pok\xE9mon';
+  var tmp_9;
   // Inline function 'kotlin.collections.isNotEmpty' call
   if (!Store_getInstance().l2t_1.q()) {
-    tmp_8 = ' \xB7 ' + Store_getInstance().l2t_1.l() + ' unklar';
+    tmp_9 = ' \xB7 ' + Store_getInstance().l2t_1.l() + ' unklar';
   } else {
-    tmp_8 = '';
+    tmp_9 = '';
   }
-  var tmp_9 = tmp_7 + tmp_8;
-  var tmp_10 = new Tile('\uD83D\uDCE6', 'Sammlung', tmp_9, VOID, StartView$render$lambda_2);
-  var tmp_11 = new Tile('\uD83D\uDD27', 'Was lohnt sich?', 'Raids, PvP, Dyna ausbauen', VOID, StartView$render$lambda_3);
-  var tmp_12 = new Tile('\u23F3', 'Entwickeln', 'Was jetzt dran ist', VOID, StartView$render$lambda_4);
-  render$group_0(host, '\uD83D\uDCE6 Meine Pok\xE9mon', [tmp_10, tmp_11, tmp_12, new Tile('\uD83E\uDDF9', 'Aufr\xE4umen', 'Kann weg', VOID, StartView$render$lambda_5)]);
-  var tmp_13 = Store_getInstance().e35() ? '\uD83C\uDD95 Neue Liga!' : 'Kampfliga';
-  var tmp_14 = Store_getInstance().e35();
-  var tmp_15 = new Tile('\uD83C\uDFC6', 'Teams (PvP)', tmp_13, tmp_14, StartView$render$lambda_6);
-  var tmp_16 = new Tile('\u2694', 'Raids', raidHint, VOID, StartView$render$lambda_7);
-  var tmp_17 = new Tile('\u26A1', 'Dyna-K\xE4mpfe', dynaHint, VOID, StartView$render$lambda_8);
-  var tmp_18 = new Tile('\uD83D\uDCCA', 'Typ-Meta', 'Beste Angreifer je Typ', VOID, StartView$render$lambda_9);
-  render$group_0(host, '\u2694 K\xE4mpfen', [tmp_15, tmp_16, tmp_17, tmp_18, new Tile('\uD83D\uDCC8', 'PvP-Meta', 'Wer gerade stark ist \u2013 und ob du ihn hast', VOID, StartView$render$lambda_10)]);
-  var tmp_19 = new Tile('\uD83D\uDCC6', 'Tage', 'Was gibt es wann?', VOID, StartView$render$lambda_11);
-  var tmp_20 = new Tile('\uD83D\uDD2C', 'Forschung', 'Aktuelle Feldforschungen', VOID, StartView$render$lambda_12);
-  var tmp_21 = new Tile('\uD83D\uDCC5', 'Kalender', 'Events', VOID, StartView$render$lambda_13);
-  var tmp_22 = codes > 0 ? '' + codes + ' neu' : 'Zum Einl\xF6sen';
-  var tmp_23 = codes > 0;
-  var tmp_24 = new Tile('\uD83C\uDF81', 'Codes', tmp_22, tmp_23, StartView$render$lambda_14);
-  var tmp_25 = new Tile('\uD83D\uDCF0', 'News', 'Ger\xFCchte & Neuigkeiten', VOID, StartView$render$lambda_15);
-  render$group_0(host, '\uD83D\uDCC5 Aktuell', [tmp_19, tmp_20, tmp_21, tmp_24, tmp_25, new Tile('\uD83C\uDF93', 'Einf\xFChrung', 'Schritt f\xFCr Schritt alles einscannen', VOID, StartView$render$lambda_16)]);
+  var tmp_10 = tmp_8 + tmp_9;
+  var tmp_11 = new Tile('\uD83D\uDCE6', 'Sammlung', tmp_10, VOID, StartView$render$lambda_3);
+  var tmp_12 = new Tile('\uD83D\uDD27', 'Was lohnt sich?', 'Raids, PvP, Dyna ausbauen', VOID, StartView$render$lambda_4);
+  var tmp_13 = new Tile('\u23F3', 'Entwickeln', 'Was jetzt dran ist', VOID, StartView$render$lambda_5);
+  render$group_0(host, pastel, tmp_7, [tmp_11, tmp_12, tmp_13, new Tile('\uD83E\uDDF9', 'Aufr\xE4umen', 'Kann weg', VOID, StartView$render$lambda_6)]);
+  // Inline function 'kotlin.also' call
+  var this_1 = 'K\xE4mpfen';
+  pastel._v = 'butter';
+  var tmp_14 = this_1;
+  var tmp_15 = Store_getInstance().f35() ? '\uD83C\uDD95 Neue Liga!' : 'Kampfliga';
+  var tmp_16 = Store_getInstance().f35();
+  var tmp_17 = new Tile('\uD83C\uDFC6', 'Teams (PvP)', tmp_15, tmp_16, StartView$render$lambda_7);
+  var tmp_18 = new Tile('\u2694', 'Raids', raidHint, VOID, StartView$render$lambda_8);
+  var tmp_19 = new Tile('\u26A1', 'Dyna-K\xE4mpfe', dynaHint, VOID, StartView$render$lambda_9);
+  var tmp_20 = new Tile('\uD83D\uDCCA', 'Typ-Meta', 'Beste Angreifer je Typ', VOID, StartView$render$lambda_10);
+  render$group_0(host, pastel, tmp_14, [tmp_17, tmp_18, tmp_19, tmp_20, new Tile('\uD83D\uDCC8', 'PvP-Meta', 'Wer gerade stark ist \u2013 und ob du ihn hast', VOID, StartView$render$lambda_11)]);
+  // Inline function 'kotlin.also' call
+  pastel._v = 'lime';
+  var tmp_21 = 'Aktuell';
+  var tmp_22 = new Tile('\uD83D\uDCC6', 'Tage', 'Was gibt es wann?', VOID, StartView$render$lambda_12);
+  var tmp_23 = new Tile('\uD83D\uDD2C', 'Forschung', 'Aktuelle Feldforschungen', VOID, StartView$render$lambda_13);
+  var tmp_24 = new Tile('\uD83D\uDCC5', 'Kalender', 'Events', VOID, StartView$render$lambda_14);
+  var tmp_25 = codes > 0 ? '' + codes + ' neu' : 'Zum Einl\xF6sen';
+  var tmp_26 = codes > 0;
+  var tmp_27 = new Tile('\uD83C\uDF81', 'Codes', tmp_25, tmp_26, StartView$render$lambda_15);
+  var tmp_28 = new Tile('\uD83D\uDCF0', 'News', 'Ger\xFCchte & Neuigkeiten', VOID, StartView$render$lambda_16);
+  render$group_0(host, pastel, tmp_21, [tmp_22, tmp_23, tmp_24, tmp_27, tmp_28, new Tile('\uD83C\uDF93', 'Einf\xFChrung', 'Schritt f\xFCr Schritt alles einscannen', VOID, StartView$render$lambda_17)]);
 };
 var StartView_instance;
 function StartView_getInstance() {
@@ -10996,7 +11084,7 @@ function GuideView$render$lambda_0($isDone, $s, $i) {
 function GuideView$render$lambda_1() {
   GuideView_getInstance().l35_1 = true;
   save(GuideView_getInstance());
-  App_getInstance().j35(Tab_START_getInstance());
+  App_getInstance().c35(Tab_START_getInstance());
   return Unit_instance;
 }
 function GuideView() {
@@ -11082,30 +11170,30 @@ protoOf(GuideView).f3b = function (target) {
     case 'traits':
       CollectionView_getInstance().h30(arg);
       CollectionView_getInstance().s2v_1 = 2;
-      App_getInstance().j35(Tab_COLLECTION_getInstance());
+      App_getInstance().c35(Tab_COLLECTION_getInstance());
       break;
     case 'moves':
       CollectionView_getInstance().s2v_1 = 2;
-      App_getInstance().j35(Tab_COLLECTION_getInstance());
+      App_getInstance().c35(Tab_COLLECTION_getInstance());
       break;
     case 'upgrade':
       CollectionView_getInstance().s2v_1 = 3;
-      App_getInstance().j35(Tab_COLLECTION_getInstance());
+      App_getInstance().c35(Tab_COLLECTION_getInstance());
       break;
     case 'raids':
       var tmp = RaidView_getInstance();
       var tmp1_elvis_lhs = toIntOrNull(arg);
       tmp.m35_1 = tmp1_elvis_lhs == null ? 0 : tmp1_elvis_lhs;
-      App_getInstance().j35(Tab_RAIDS_getInstance());
+      App_getInstance().c35(Tab_RAIDS_getInstance());
       break;
     case 'teams':
-      App_getInstance().j35(Tab_TEAM_getInstance());
+      App_getInstance().c35(Tab_TEAM_getInstance());
       break;
     case 'video':
-      App_getInstance().j35(Tab_VIDEO_getInstance());
+      App_getInstance().c35(Tab_VIDEO_getInstance());
       break;
     default:
-      App_getInstance().j35(Tab_COLLECTION_getInstance());
+      App_getInstance().c35(Tab_COLLECTION_getInstance());
       break;
   }
 };
@@ -16588,7 +16676,7 @@ function NewsView() {
   tmp_0.f31_1 = tmp$ret$5;
   this.g31_1 = '';
 }
-protoOf(NewsView).d35 = function () {
+protoOf(NewsView).e35 = function () {
   var tmp0_safe_receiver = newest(this);
   if (tmp0_safe_receiver == null)
     null;
@@ -16616,7 +16704,7 @@ protoOf(NewsView).d35 = function () {
     new Result(tmp$ret$0);
   }
 };
-protoOf(NewsView).f35 = function () {
+protoOf(NewsView).g35 = function () {
   var tmp0_elvis_lhs = this.q30_1;
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -16653,7 +16741,7 @@ protoOf(NewsView).f35 = function () {
   }
   return tmp$ret$0;
 };
-protoOf(NewsView).h35 = function () {
+protoOf(NewsView).i35 = function () {
   if (Date.now() - this.y30_1 > 60 * 60000.0) {
     this.k3e(true);
   }
@@ -18777,11 +18865,11 @@ protoOf(Store).k3c = function (force, $completion) {
   tmp.a8_1 = null;
   return tmp.f8();
 };
-protoOf(Store).g35 = function (force, $completion, $super) {
+protoOf(Store).h35 = function (force, $completion, $super) {
   force = force === VOID ? false : force;
   return $super === VOID ? this.k3c(force, $completion) : $super.k3c.call(this, force, $completion);
 };
-protoOf(Store).e35 = function () {
+protoOf(Store).f35 = function () {
   var tmp;
   if (!(this.h2u_1 == null)) {
     // Inline function 'kotlin.runCatching' call
@@ -18811,7 +18899,7 @@ protoOf(Store).e35 = function () {
   }
   return tmp;
 };
-protoOf(Store).c35 = function () {
+protoOf(Store).d35 = function () {
   var tmp0_safe_receiver = this.h2u_1;
   var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.w1y_1;
   if (tmp1_safe_receiver == null)
