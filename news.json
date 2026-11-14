@@ -1,6 +1,17 @@
 {
- "generated": "2026-11-14T06:45:11Z",
+ "generated": "2026-11-14T14:19:05Z",
  "news": [
+  {
+   "title": "GO Pass Dynamax Trails",
+   "titleDe": "GO Pass-Dynamax-Pfade",
+   "link": "https://pokemongohub.net/post/guide/go-pass-dynamax-trails/",
+   "date": "Sat, 14 Nov 2026 07:26:03 +0000",
+   "categories": [
+    "Guides",
+    "dynamax trails",
+    "eternatus"
+   ]
+  },
   {
    "title": "Best Wild Pokémon to Catch at GO Wild Area 2026: Global",
    "titleDe": "Die besten wilden Pokémon, die man bei GO Wild Area 2026: Global fangen kann",
@@ -419,19 +430,6 @@
     "News",
     "mexico city",
     "mexico city wild area"
-   ]
-  },
-  {
-   "title": "Pokémon GO Wild Area 2026: Global Community Meetups in the Asia-Pacific region",
-   "titleDe": "Pokémon GO Wild Area 2026: Globale Community-Meetups im asiatisch-pazifischen Raum",
-   "link": "https://pokemongohub.net/post/news/pokemon-go-wild-area-2026-global-community-meetups-in-the-asia-pacific-region/",
-   "date": "Thu, 05 Nov 2026 11:58:27 +0000",
-   "categories": [
-    "News",
-    "asia pacific",
-    "community ambassador",
-    "meet ups",
-    "wild area"
    ]
   }
  ],
@@ -1638,7 +1636,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1649,7 +1647,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1660,7 +1658,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1671,7 +1669,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1682,7 +1680,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1693,7 +1691,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1704,7 +1702,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1715,7 +1713,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1741,7 +1739,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1770,7 +1768,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1799,7 +1797,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-13",
+   "fetched": "2026-11-14",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1808,21 +1806,21 @@
   }
  },
  "research": {
-  "Power up Steel-type Pokémon 5 times": "Verbessere 5 Mal Pokémon vom Typ Stahl",
-  "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
-  "Win a raid": "Gewinne einen Raid",
-  "Catch 10 Pokémon": "Fange 10 Pokémon",
-  "Win a Max Battle": "Gewinne eine max. Schlacht",
   "Catch 2 mighty Pokémon": "Fange 2 mächtige Pokémon",
   "Catch 10 Steel-type Pokémon": "Fange 10 Pokémon vom Typ Stahl",
   "Catch 4 different species of Steel-type Pokémon": "Fange 4 verschiedene Arten von Pokémon vom Typ Stahl",
   "Use a Steel-type Charged Attack in a battle": "Verwende in einem Kampf eine Attacke vom Typ Stahl",
   "Win 2 Max Battles": "Gewinne 2 Max-Kämpfe",
   "Hatch an Egg": "Ein Ei ausbrüten",
+  "Power up Steel-type Pokémon 5 times": "Verbessere 5 Mal Pokémon vom Typ Stahl",
   "Catch 10 Dragon-type Pokémon": "Fange 10 Pokémon vom Typ Drache",
   "Catch 4 different species of Dragon-type Pokémon": "Fange 4 verschiedene Arten von Pokémon des Typs Drache",
   "Use a Dragon-type Charged Attack in a battle": "Verwende in einem Kampf eine Volltreffer-Attacke vom Typ Drache",
   "Win 2 raids": "Gewinne 2 Raids",
+  "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
+  "Win a raid": "Gewinne einen Raid",
+  "Catch 10 Pokémon": "Fange 10 Pokémon",
+  "Win a Max Battle": "Gewinne eine max. Schlacht",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -2330,6 +2328,7 @@
   }
  ],
  "translations": {
+  "GO Pass Dynamax Trails": "GO Pass-Dynamax-Pfade",
   "Best Wild Pokémon to Catch at GO Wild Area 2026: Global": "Die besten wilden Pokémon, die man bei GO Wild Area 2026: Global fangen kann",
   "GO Wild Area 2026: Global": "GO-Wildnisgebiet 2026: Global",
   "GO Wild Area 2026 Global: Which Pokémon Are Worth Investing In?": "GO Wild Area 2026 Global: In welche Pokémon lohnt es sich zu investieren?",
@@ -2359,7 +2358,6 @@
   "Free Gigantamax Machamp Timed Research Available This Weekend Only!": "Kostenlose zeitlich begrenzte Gigantamax-Machamp-Forschung nur an diesem Wochenende verfügbar!",
   "Super Mega Clefable Raid Day": "Super-Mega-Clefable-Raid-Tag",
   "Pokémon GO Wild Area: Mexico City – Additional Details, Maps, In-Person Activities, Notable Trainers etc": "Pokémon GO Wild Area: Mexiko-Stadt – Zusätzliche Details, Karten, persönliche Aktivitäten, bemerkenswerte Trainer usw.",
-  "Pokémon GO Wild Area 2026: Global Community Meetups in the Asia-Pacific region": "Pokémon GO Wild Area 2026: Globale Community-Meetups im asiatisch-pazifischen Raum",
   "Into the Wild 2026": "In die Wildnis 2026",
   "Remote Raid limit increased to 30 from Monday, November 9, to Friday, November 13, 2026": "Das Remote-Raid-Limit wurde von Montag, 9. November, auf Freitag, 13. November 2026, auf 30 erhöht",
   "No Remote Raid limit from Saturday, November 14, to Sunday, November 15, 2026": "Kein Remote-Raid-Limit von Samstag, 14. November, bis Sonntag, 15. November 2026",
@@ -2482,21 +2480,21 @@
   "Max Particles Giveaway - Day 3": "Max.-Partikel-Geschenk – Tag 3",
   "Max Particles Giveaway - Day 2": "Max-Partikel-Geschenk – Tag 2",
   "Max Particles Giveaway - Day 1": "Max-Partikel-Geschenk – Tag 1",
-  "Power up Steel-type Pokémon 5 times": "Verbessere 5 Mal Pokémon vom Typ Stahl",
-  "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
-  "Win a raid": "Gewinne einen Raid",
-  "Catch 10 Pokémon": "Fange 10 Pokémon",
-  "Win a Max Battle": "Gewinne eine max. Schlacht",
   "Catch 2 mighty Pokémon": "Fange 2 mächtige Pokémon",
   "Catch 10 Steel-type Pokémon": "Fange 10 Pokémon vom Typ Stahl",
   "Catch 4 different species of Steel-type Pokémon": "Fange 4 verschiedene Arten von Pokémon vom Typ Stahl",
   "Use a Steel-type Charged Attack in a battle": "Verwende in einem Kampf eine Attacke vom Typ Stahl",
   "Win 2 Max Battles": "Gewinne 2 Max-Kämpfe",
   "Hatch an Egg": "Ein Ei ausbrüten",
+  "Power up Steel-type Pokémon 5 times": "Verbessere 5 Mal Pokémon vom Typ Stahl",
   "Catch 10 Dragon-type Pokémon": "Fange 10 Pokémon vom Typ Drache",
   "Catch 4 different species of Dragon-type Pokémon": "Fange 4 verschiedene Arten von Pokémon des Typs Drache",
   "Use a Dragon-type Charged Attack in a battle": "Verwende in einem Kampf eine Volltreffer-Attacke vom Typ Drache",
   "Win 2 raids": "Gewinne 2 Raids",
+  "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
+  "Win a raid": "Gewinne einen Raid",
+  "Catch 10 Pokémon": "Fange 10 Pokémon",
+  "Win a Max Battle": "Gewinne eine max. Schlacht",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
