@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T11:14:22Z",
+ "generated": "2026-11-15T17:51:08Z",
  "news": [
   {
    "title": "GO Pass Dynamax Trails",
@@ -436,8 +436,6 @@
   }
  ],
  "events": {
-  "into-the-wild-2026": "In die Wildnis 2026",
-  "zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026": "Zacian (Kronenschwert) und Zamazenta (Kronenschild) in 5-Sterne-Raid-Kämpfen",
   "pokemon-go-wild-area-2026-global": "Pokémon GO Wild Area 2026: Global",
   "go-wild-area-gigantamax-machamp-power-up-timed-research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
   "max-mondays-2026-11-16": "Max. Montag: Pokémon wird bekannt gegeben",
@@ -484,178 +482,6 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "details": {
-  "into-the-wild-2026": {
-   "v": 2,
-   "sections": [
-    {
-     "id": "spawns",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Galarian Meowth",
-        "Magnemite",
-        "Horsea",
-        "Scyther",
-        "Dratini",
-        "Mareep",
-        "Mawile",
-        "Aron",
-        "Bagon",
-        "Skrelp",
-        "Noibat",
-        "Togedemaru"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "Three-Star Raids",
-       "pokemon": [
-        "Druddigon",
-        "Orthworm"
-       ]
-      },
-      {
-       "title": "Five-Star Raids",
-       "pokemon": [
-        "Zacian (Crowned Sword)",
-        "Zamazenta (Crowned Shield)"
-       ]
-      },
-      {
-       "title": "Raid Hour: Monday, November 9",
-       "pokemon": [
-        "Zacian (Crowned Sword)"
-       ]
-      },
-      {
-       "title": "Raid Hour: Tuesday, November 10",
-       "pokemon": [
-        "Zamazenta (Crowned Shield)"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "max-battles",
-     "groups": [
-      {
-       "title": "One-Star Max Battles",
-       "pokemon": [
-        "Ralts"
-       ]
-      },
-      {
-       "title": "Two-Star Max Battles",
-       "pokemon": [
-        "Machop"
-       ]
-      },
-      {
-       "title": "Five-Star Max Battles: Wednesday, November 11",
-       "pokemon": [
-        "Registeel"
-       ]
-      },
-      {
-       "title": "Five-Star Max Battles: Thursday, November 12",
-       "pokemon": [
-        "Regidrago"
-       ]
-      },
-      {
-       "title": "Five-Star Max Battles: Friday, November 13",
-       "pokemon": [
-        "Latias",
-        "Latios"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [
-    "Remote Raid limit increased to 30 from Monday, November 9, to Friday, November 13, 2026",
-    "No Remote Raid limit from Saturday, November 14, to Sunday, November 15, 2026",
-    "Chance to encounter Shiny Gimmighoul when using a Coin Bag*",
-    "Chance to encounter Shiny Meltan when opening the Mystery Box*",
-    "Reduced wait time before you can open the Mystery Box again*",
-    "Trainers can receive special event stickers from PokéStops and Gifts"
-   ],
-   "ticketBonuses": [],
-   "moves": [
-    {
-     "pokemon": "Registeel",
-     "move": "Metal Claw",
-     "fast": true
-    },
-    {
-     "pokemon": "Latias",
-     "move": "Mist Ball",
-     "fast": false
-    },
-    {
-     "pokemon": "Latios",
-     "move": "Luster Purge",
-     "fast": false
-    },
-    {
-     "pokemon": "Regidrago",
-     "move": "Dragon Breath",
-     "fast": true
-    }
-   ],
-   "ticket": "",
-   "fetched": "2026-11-15",
-   "bonusesDe": [
-    "Das Remote-Raid-Limit wurde von Montag, 9. November, auf Freitag, 13. November 2026, auf 30 erhöht",
-    "Kein Remote-Raid-Limit von Samstag, 14. November, bis Sonntag, 15. November 2026",
-    "Chance, glänzenden Gimmighoul zu begegnen, wenn du eine Münztasche verwendest *",
-    "Chance, Shiny Meltan beim Öffnen der Mystery Box zu begegnen *",
-    "Verkürzte Wartezeit, bevor Sie die Mystery Box wieder öffnen können *",
-    "Trainer können spezielle Event-Sticker von PokéStops und Geschenken erhalten"
-   ],
-   "ticketBonusesDe": []
-  },
-  "zacian-crowned-sword-zamazenta-crowned-shield-in-5-star-raid-battles-november-2026": {
-   "v": 2,
-   "sections": [
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Zacian (Crowned Sword)",
-        "Zamazenta (Crowned Shield)"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "shiny",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Zacian (Crowned Sword)",
-        "Zamazenta (Crowned Shield)"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-15",
-   "bonusesDe": [],
-   "ticketBonusesDe": []
-  },
   "pokemon-go-wild-area-2026-global": {
    "v": 2,
    "sections": [
@@ -1820,9 +1646,6 @@
   "Use a Dragon-type Charged Attack in a battle": "Verwende in einem Kampf eine Volltreffer-Attacke vom Typ Drache",
   "Win 2 raids": "Gewinne 2 Raids",
   "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
-  "Win a raid": "Gewinne einen Raid",
-  "Catch 10 Pokémon": "Fange 10 Pokémon",
-  "Win a Max Battle": "Gewinne eine max. Schlacht",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -1838,6 +1661,7 @@
   "Make 3 Great Throws in a row": "Mache 3 große Würfe in Folge",
   "Make 5 Great Curveball Throws in a row": "Mache 5 großartige Curveball-Würfe in Folge",
   "Make 5 Nice Throws": "Mache 5 schöne Überwürfe",
+  "Win a raid": "Gewinne einen Raid",
   "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
   "Win 5 raids": "Gewinne 5 Raids",
   "Explore 2 km": "2 km erkunden",
@@ -2360,14 +2184,6 @@
   "Free Gigantamax Machamp Timed Research Available This Weekend Only!": "Kostenlose zeitlich begrenzte Gigantamax-Machamp-Forschung nur an diesem Wochenende verfügbar!",
   "Super Mega Clefable Raid Day": "Super-Mega-Clefable-Raid-Tag",
   "Pokémon GO Wild Area: Mexico City – Additional Details, Maps, In-Person Activities, Notable Trainers etc": "Pokémon GO Wild Area: Mexiko-Stadt – Zusätzliche Details, Karten, persönliche Aktivitäten, bemerkenswerte Trainer usw.",
-  "Into the Wild 2026": "In die Wildnis 2026",
-  "Remote Raid limit increased to 30 from Monday, November 9, to Friday, November 13, 2026": "Das Remote-Raid-Limit wurde von Montag, 9. November, auf Freitag, 13. November 2026, auf 30 erhöht",
-  "No Remote Raid limit from Saturday, November 14, to Sunday, November 15, 2026": "Kein Remote-Raid-Limit von Samstag, 14. November, bis Sonntag, 15. November 2026",
-  "Chance to encounter Shiny Gimmighoul when using a Coin Bag*": "Chance, glänzenden Gimmighoul zu begegnen, wenn du eine Münztasche verwendest *",
-  "Chance to encounter Shiny Meltan when opening the Mystery Box*": "Chance, Shiny Meltan beim Öffnen der Mystery Box zu begegnen *",
-  "Reduced wait time before you can open the Mystery Box again*": "Verkürzte Wartezeit, bevor Sie die Mystery Box wieder öffnen können *",
-  "Trainers can receive special event stickers from PokéStops and Gifts": "Trainer können spezielle Event-Sticker von PokéStops und Geschenken erhalten",
-  "Zacian (Crowned Sword) and Zamazenta (Crowned Shield) in 5-star Raid Battles": "Zacian (Kronenschwert) und Zamazenta (Kronenschild) in 5-Sterne-Raid-Kämpfen",
   "Pokémon GO Wild Area 2026: Global": "Pokémon GO Wild Area 2026: Global",
   "Chance to get GO Safari Balls from PokéStops and Gyms": "Chance, GO-Safari-Bälle von PokéStops und Fitnessstudios zu erhalten",
   "Up to 3 free Raid Passes per day from Gyms": "Bis zu 3 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
@@ -2494,9 +2310,6 @@
   "Use a Dragon-type Charged Attack in a battle": "Verwende in einem Kampf eine Volltreffer-Attacke vom Typ Drache",
   "Win 2 raids": "Gewinne 2 Raids",
   "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
-  "Win a raid": "Gewinne einen Raid",
-  "Catch 10 Pokémon": "Fange 10 Pokémon",
-  "Win a Max Battle": "Gewinne eine max. Schlacht",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -2512,6 +2325,7 @@
   "Make 3 Great Throws in a row": "Mache 3 große Würfe in Folge",
   "Make 5 Great Curveball Throws in a row": "Mache 5 großartige Curveball-Würfe in Folge",
   "Make 5 Nice Throws": "Mache 5 schöne Überwürfe",
+  "Win a raid": "Gewinne einen Raid",
   "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
   "Win 5 raids": "Gewinne 5 Raids",
   "Explore 2 km": "2 km erkunden",
