@@ -1,6 +1,24 @@
 {
- "generated": "2026-11-15T17:51:08Z",
+ "generated": "2026-11-15T22:59:07Z",
  "news": [
+  {
+   "title": "This Week in Pokémon GO (November 16-22): Dynamax Trails, Eternatus, Pawniard Community Day",
+   "titleDe": "Diese Woche in Pokémon GO (16.–22. November): Dynamax-Pfade, Eternatus, Community Day mit Zurrokex",
+   "link": "https://pokemongohub.net/post/event/this-week-in-pokemon-go-november-16-22-dynamax-trails-eternatus-pawniard-community-day/",
+   "date": "Sun, 15 Nov 2026 20:02:04 +0000",
+   "categories": [
+    "Events",
+    "cresselia raid hour",
+    "darkrai raid hour",
+    "eternatus",
+    "galar first partner pokemon spotlight hour",
+    "galar starter spotlight hour",
+    "grookey spotlight hour",
+    "scorbunny spotlight hour",
+    "sobble spotlight hour",
+    "This Week in Pokémon GO"
+   ]
+  },
   {
    "title": "GO Pass Dynamax Trails",
    "titleDe": "GO Pass-Dynamax-Pfade",
@@ -420,18 +438,6 @@
    "date": "Thu, 05 Nov 2026 18:14:11 +0000",
    "categories": [
     "Events"
-   ]
-  },
-  {
-   "title": "Pokémon GO Wild Area: Mexico City – Additional Details, Maps, In-Person Activities, Notable Trainers etc",
-   "titleDe": "Pokémon GO Wild Area: Mexiko-Stadt – Zusätzliche Details, Karten, persönliche Aktivitäten, bemerkenswerte Trainer usw.",
-   "link": "https://pokemongohub.net/post/event/pokemon-go-wild-area-mexico-city-additional-details-maps-in-person-activities-notable-trainers-etc/",
-   "date": "Thu, 05 Nov 2026 13:36:30 +0000",
-   "categories": [
-    "Events",
-    "News",
-    "mexico city",
-    "mexico city wild area"
    ]
   }
  ],
@@ -2154,6 +2160,7 @@
   }
  ],
  "translations": {
+  "This Week in Pokémon GO (November 16-22): Dynamax Trails, Eternatus, Pawniard Community Day": "Diese Woche in Pokémon GO (16.–22. November): Dynamax-Pfade, Eternatus, Community Day mit Zurrokex",
   "GO Pass Dynamax Trails": "GO Pass-Dynamax-Pfade",
   "Best Wild Pokémon to Catch at GO Wild Area 2026: Global": "Die besten wilden Pokémon, die man bei GO Wild Area 2026: Global fangen kann",
   "GO Wild Area 2026: Global": "GO-Wildnisgebiet 2026: Global",
@@ -2183,7 +2190,6 @@
   "Hisuian Goodra Meta Guide: Is It Worth Building?": "Hisuian Goodra Meta Guide: Lohnt es sich zu bauen?",
   "Free Gigantamax Machamp Timed Research Available This Weekend Only!": "Kostenlose zeitlich begrenzte Gigantamax-Machamp-Forschung nur an diesem Wochenende verfügbar!",
   "Super Mega Clefable Raid Day": "Super-Mega-Clefable-Raid-Tag",
-  "Pokémon GO Wild Area: Mexico City – Additional Details, Maps, In-Person Activities, Notable Trainers etc": "Pokémon GO Wild Area: Mexiko-Stadt – Zusätzliche Details, Karten, persönliche Aktivitäten, bemerkenswerte Trainer usw.",
   "Pokémon GO Wild Area 2026: Global": "Pokémon GO Wild Area 2026: Global",
   "Chance to get GO Safari Balls from PokéStops and Gyms": "Chance, GO-Safari-Bälle von PokéStops und Fitnessstudios zu erhalten",
   "Up to 3 free Raid Passes per day from Gyms": "Bis zu 3 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
