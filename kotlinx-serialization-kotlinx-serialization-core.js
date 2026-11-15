@@ -164,7 +164,7 @@ import {
   StringCompanionObject_instance2dx16b5pp3v3z as StringCompanionObject_instance,
   getKClass3t8tygqu4lcxf as getKClass,
   mapOf1xd03cq9cnmy8 as mapOf,
-} from './kotlin-kotlin-stdlib.js?v=1794735344430';
+} from './kotlin-kotlin-stdlib.js?v=1794746943564';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -173,8 +173,8 @@ initMetadataForInterface(SerializationStrategy, 'SerializationStrategy');
 initMetadataForInterface(DeserializationStrategy, 'DeserializationStrategy');
 initMetadataForInterface(KSerializer, 'KSerializer', VOID, VOID, [SerializationStrategy, DeserializationStrategy]);
 initMetadataForClass(SerializationException, 'SerializationException', SerializationException_init_$Create$, IllegalArgumentException);
-initMetadataForClass(MissingFieldException, 'MissingFieldException', VOID, SerializationException);
 initMetadataForClass(UnknownFieldException, 'UnknownFieldException', VOID, SerializationException);
+initMetadataForClass(MissingFieldException, 'MissingFieldException', VOID, SerializationException);
 function get_isNullable() {
   return false;
 }
@@ -395,6 +395,19 @@ function SerializationException_init_$Init$_1(message, cause, $this) {
 function SerializationException() {
   captureStack(this, SerializationException);
 }
+function UnknownFieldException_init_$Init$(index, $this) {
+  UnknownFieldException.call($this, 'An unknown field for index ' + index);
+  return $this;
+}
+function UnknownFieldException_init_$Create$(index) {
+  var tmp = UnknownFieldException_init_$Init$(index, objectCreate(protoOf(UnknownFieldException)));
+  captureStack(tmp, UnknownFieldException_init_$Create$);
+  return tmp;
+}
+function UnknownFieldException(message) {
+  SerializationException_init_$Init$_0(message, this);
+  captureStack(this, UnknownFieldException);
+}
 function MissingFieldException_init_$Init$(missingFields, serialName, $this) {
   var tmp0_message = missingFields.l() === 1 ? "Field '" + missingFields.r(0) + "' is required for type with serial name '" + serialName + "', but it was missing" : 'Fields ' + toString(missingFields) + " are required for type with serial name '" + serialName + "', but they were missing";
   MissingFieldException.call($this, tmp0_message, null, missingFields, serialName);
@@ -414,19 +427,6 @@ function MissingFieldException(message, cause, missingFields, serialName) {
 protoOf(MissingFieldException).al = function (newMessage) {
   return new MissingFieldException(newMessage, this, this.yk_1, this.zk_1);
 };
-function UnknownFieldException_init_$Init$(index, $this) {
-  UnknownFieldException.call($this, 'An unknown field for index ' + index);
-  return $this;
-}
-function UnknownFieldException_init_$Create$(index) {
-  var tmp = UnknownFieldException_init_$Init$(index, objectCreate(protoOf(UnknownFieldException)));
-  captureStack(tmp, UnknownFieldException_init_$Create$);
-  return tmp;
-}
-function UnknownFieldException(message) {
-  SerializationException_init_$Init$_0(message, this);
-  captureStack(this, UnknownFieldException);
-}
 function serializer(_this__u8e3s4) {
   return StringSerializer_getInstance();
 }

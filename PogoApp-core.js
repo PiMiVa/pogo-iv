@@ -206,7 +206,7 @@ import {
   convertToIntofdoxh9bstof as convertToInt,
   lines3g90sq0zeq43v as lines,
   substringBefore3n7kj60w69hju as substringBefore_0,
-} from './kotlin-kotlin-stdlib.js?v=1794735344430';
+} from './kotlin-kotlin-stdlib.js?v=1794746943564';
 import {
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
   JsonObjectee06ihoeeiqj as JsonObject,
@@ -219,7 +219,7 @@ import {
   get_jsonArray18sglwhl4pclz as get_jsonArray,
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794735344430';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794746943564';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -237,7 +237,7 @@ import {
   ListSerializer1hxuk9dx5n9du as ListSerializer,
   SerializableWithd2dap36updxd as SerializableWith,
   LinkedHashMapSerializermaoj2nyji7op as LinkedHashMapSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794735344430';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794746943564';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -345,6 +345,11 @@ initMetadataForObject(Ico, 'Ico');
 initMetadataForObject(IconData, 'IconData');
 initMetadataForClass(IvCandidate, 'IvCandidate');
 initMetadataForClass(IvSolver, 'IvSolver');
+initMetadataForClass(Kind_2, 'Kind', VOID, Enum);
+initMetadataForClass(Form, 'Form');
+initMetadataForClass(Row, 'Row');
+initMetadataForClass(sam$kotlin_Comparator$0_5, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForObject(LegendForms, 'LegendForms');
 initMetadataForClass(Boss, 'Boss');
 initMetadataForClass(Role, 'Role', VOID, Enum);
 initMetadataForClass(Pick, 'Pick');
@@ -353,19 +358,19 @@ initMetadataForClass(Member, 'Member');
 initMetadataForClass(Team, 'Team');
 initMetadataForClass(MetaEntry, 'MetaEntry');
 initMetadataForCompanion(Companion_13);
-initMetadataForClass(sam$kotlin_Comparator$0_5, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_6, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_7, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_8, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(MaxCalc, 'MaxCalc');
 initMetadataForCompanion(Companion_14);
 initMetadataForObject($serializer_12, '$serializer', VOID, VOID, [GeneratedSerializer]);
 initMetadataForClass(Entry_0, 'Entry', VOID, VOID, VOID, VOID, VOID, {0: $serializer_getInstance_12});
-initMetadataForClass(sam$kotlin_Comparator$0_8, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
-initMetadataForObject(MaxEvents, 'MaxEvents');
 initMetadataForClass(sam$kotlin_Comparator$0_9, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForObject(MaxEvents, 'MaxEvents');
+initMetadataForClass(sam$kotlin_Comparator$0_10, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForObject(Mega, 'Mega');
 initMetadataForClass(Own, 'Own', VOID, Enum);
-initMetadataForClass(Row, 'Row');
+initMetadataForClass(Row_0, 'Row');
 initMetadataForObject(MetaList, 'MetaList');
 initMetadataForClass(DetailGroup, 'DetailGroup');
 initMetadataForClass(EventMove_0, 'EventMove');
@@ -373,31 +378,31 @@ initMetadataForClass(EventDetails, 'EventDetails');
 initMetadataForClass(Feed, 'Feed');
 initMetadataForClass(Item_0, 'Item');
 initMetadataForClass(Hit_0, 'Hit');
-initMetadataForClass(sam$kotlin_Comparator$0_10, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_11, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(News$hits$$inlined$groupingBy$1);
 initMetadataForObject(News, 'News');
 initMetadataForClass(Suggestion, 'Suggestion');
 initMetadataForClass(Mode, 'Mode', VOID, Enum);
 initMetadataForClass(Block, 'Block', VOID, Enum);
-initMetadataForClass(sam$kotlin_Comparator$0_11, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_12, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_13, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_14, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForObject(Nickname, 'Nickname');
 initMetadataForClass(Page, 'Page');
 initMetadataForClass(Last, 'Last');
 initMetadataForClass(Outcome, 'Outcome');
 initMetadataForClass(Group, 'Group', VOID, Enum);
 initMetadataForClass(Batch, 'Batch');
-initMetadataForClass(sam$kotlin_Comparator$0_14, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_15, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForObject(PageScan, 'PageScan');
 initMetadataForClass(Action, 'Action', VOID, Enum);
 initMetadataForCompanion(Companion_15);
 initMetadataForClass(PageSettle, 'PageSettle', PageSettle);
 initMetadataForClass(PveAttacker, 'PveAttacker');
 initMetadataForCompanion(Companion_16);
-initMetadataForClass(sam$kotlin_Comparator$0_15, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_16, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_17, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_18, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(PveCalc, 'PveCalc');
 initMetadataForClass(RaidBoss, 'RaidBoss');
 initMetadataForClass(Weather, 'Weather', VOID, Enum);
@@ -409,7 +414,7 @@ initMetadataForClass(PveRating, 'PveRating');
 initMetadataForCompanion(Companion_18);
 initMetadataForClass(League, 'League', VOID, Enum);
 initMetadataForClass(PvpResult, 'PvpResult');
-initMetadataForClass(sam$kotlin_Comparator$0_18, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_19, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(PvpRanker, 'PvpRanker');
 initMetadataForCompanion(Companion_19);
 initMetadataForClass(PvpTable, 'PvpTable');
@@ -419,7 +424,7 @@ initMetadataForClass(Estimate, 'Estimate');
 initMetadataForObject(RaidPlan, 'RaidPlan');
 initMetadataForClass(Reward_0, 'Reward');
 initMetadataForClass(Task, 'Task');
-initMetadataForClass(sam$kotlin_Comparator$0_19, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_20, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForObject(Research, 'Research');
 initMetadataForCompanion(Companion_20);
 initMetadataForClass(ScanFrame, 'ScanFrame');
@@ -427,21 +432,21 @@ initMetadataForCompanion(Companion_21);
 initMetadataForObject($serializer_14, '$serializer', VOID, VOID, [GeneratedSerializer]);
 initMetadataForClass(TextLine, 'TextLine', VOID, VOID, VOID, VOID, VOID, {0: $serializer_getInstance_14});
 initMetadataForClass(ScanResult, 'ScanResult', ScanResult);
-initMetadataForClass(sam$kotlin_Comparator$0_20, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_21, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
-initMetadataForObject(ScanParser, 'ScanParser');
 initMetadataForClass(sam$kotlin_Comparator$0_22, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForObject(ScanParser, 'ScanParser');
+initMetadataForClass(sam$kotlin_Comparator$0_23, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(ScanResolver, 'ScanResolver');
 initMetadataForClass(Resolved, 'Resolved');
-initMetadataForClass(Kind_2, 'Kind', VOID, Enum);
+initMetadataForClass(Kind_3, 'Kind', VOID, Enum);
 initMetadataForClass(Payload, 'Payload');
 initMetadataForObject(ShareCode, 'ShareCode');
 initMetadataForObject(TradeMatch, 'TradeMatch');
-initMetadataForClass(Kind_3, 'Kind', VOID, Enum);
+initMetadataForClass(Kind_4, 'Kind', VOID, Enum);
 initMetadataForClass(Hit_1, 'Hit');
 initMetadataForClass(Feature, 'Feature');
-initMetadataForClass(sam$kotlin_Comparator$0_23, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_24, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_25, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForObject(SmartSearch, 'SmartSearch');
 initMetadataForClass(Source_0, 'Source');
 initMetadataForObject(SpriteNames, 'SpriteNames');
@@ -453,8 +458,8 @@ initMetadataForClass(BaseStats, 'BaseStats');
 initMetadataForObject(Formulas, 'Formulas');
 initMetadataForClass(TeamReport, 'TeamReport');
 initMetadataForClass(MetaFoe, 'MetaFoe');
-initMetadataForClass(sam$kotlin_Comparator$0_25, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_26, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_27, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(TeamBuilder, 'TeamBuilder');
 initMetadataForClass(Team_0, 'Team');
 initMetadataForClass(TeamCandidate, 'TeamCandidate');
@@ -466,7 +471,7 @@ initMetadataForObject(TradeCalc, 'TradeCalc');
 initMetadataForCompanion(Companion_24);
 initMetadataForObject($serializer_15, '$serializer', VOID, VOID, [GeneratedSerializer]);
 initMetadataForClass(TrashEntry, 'TrashEntry', VOID, VOID, VOID, VOID, VOID, {0: $serializer_getInstance_15});
-initMetadataForClass(sam$kotlin_Comparator$0_27, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_28, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForObject(Trash, 'Trash');
 initMetadataForClass(Done, 'Done');
 initMetadataForClass(Level, 'Level', VOID, Done);
@@ -479,10 +484,10 @@ initMetadataForClass(Mark, 'Mark', VOID, Enum);
 initMetadataForClass(RaidSpot, 'RaidSpot');
 initMetadataForClass(RaidRow, 'RaidRow');
 initMetadataForClass(TypeRow, 'TypeRow');
-initMetadataForClass(sam$kotlin_Comparator$0_28, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_29, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_30, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForClass(sam$kotlin_Comparator$0_31, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_32, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForObject(Upgrade, 'Upgrade');
 //endregion
 function LeagueEval(league, target, pvp, cost, metaRank, metaScore, moveset) {
@@ -1851,7 +1856,7 @@ function parse$s(o, k) {
   var tmp = o.hc(k);
   var tmp0_safe_receiver = tmp instanceof JsonPrimitive ? tmp : null;
   // Inline function 'kotlin.text.orEmpty' call
-  var tmp0_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.q14();
+  var tmp0_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.u14();
   return tmp0_elvis_lhs == null ? '' : tmp0_elvis_lhs;
 }
 function Codes() {
@@ -1917,7 +1922,7 @@ protoOf(Codes).y1m = function (array) {
           var ro = tmp_1;
           var tmp_2 = ro.hc('name');
           var tmp1_safe_receiver = tmp_2 instanceof JsonPrimitive ? tmp_2 : null;
-          var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q14();
+          var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u14();
           var tmp_3;
           if (tmp2_elvis_lhs == null) {
             tmp$ret$11 = null;
@@ -1929,7 +1934,7 @@ protoOf(Codes).y1m = function (array) {
           var tmp_4 = ro.hc('qty');
           var tmp3_safe_receiver = tmp_4 instanceof JsonPrimitive ? tmp_4 : null;
           // Inline function 'kotlin.text.orEmpty' call
-          var tmp0_elvis_lhs_2 = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.q14();
+          var tmp0_elvis_lhs_2 = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.u14();
           var tmp$ret$12 = tmp0_elvis_lhs_2 == null ? '' : tmp0_elvis_lhs_2;
           tmp$ret$11 = new Reward(name, tmp$ret$12);
         }
@@ -5436,7 +5441,7 @@ function parse$s_0(o, k) {
   var tmp = o.hc(k);
   var tmp0_safe_receiver = tmp instanceof JsonPrimitive ? tmp : null;
   // Inline function 'kotlin.text.orEmpty' call
-  var tmp0_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.q14();
+  var tmp0_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.u14();
   return tmp0_elvis_lhs == null ? '' : tmp0_elvis_lhs;
 }
 function parse$names(extra, section, key) {
@@ -5456,7 +5461,7 @@ function parse$names(extra, section, key) {
     var tmp0_safe_receiver = element instanceof JsonObject ? element : null;
     var tmp_1 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.hc('name');
     var tmp1_safe_receiver_0 = tmp_1 instanceof JsonPrimitive ? tmp_1 : null;
-    var tmp0_safe_receiver_0 = tmp1_safe_receiver_0 == null ? null : tmp1_safe_receiver_0.q14();
+    var tmp0_safe_receiver_0 = tmp1_safe_receiver_0 == null ? null : tmp1_safe_receiver_0.u14();
     if (tmp0_safe_receiver_0 == null)
       null;
     else {
@@ -6480,7 +6485,7 @@ function parse$s_1(o, k) {
   var tmp = o.hc(k);
   var tmp0_safe_receiver = tmp instanceof JsonPrimitive ? tmp : null;
   // Inline function 'kotlin.text.orEmpty' call
-  var tmp0_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.q14();
+  var tmp0_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.u14();
   return tmp0_elvis_lhs == null ? '' : tmp0_elvis_lhs;
 }
 function parse$names_0(extra, section, key) {
@@ -6500,7 +6505,7 @@ function parse$names_0(extra, section, key) {
     var tmp0_safe_receiver = element instanceof JsonObject ? element : null;
     var tmp_1 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.hc('name');
     var tmp1_safe_receiver_0 = tmp_1 instanceof JsonPrimitive ? tmp_1 : null;
-    var tmp0_safe_receiver_0 = tmp1_safe_receiver_0 == null ? null : tmp1_safe_receiver_0.q14();
+    var tmp0_safe_receiver_0 = tmp1_safe_receiver_0 == null ? null : tmp1_safe_receiver_0.u14();
     if (tmp0_safe_receiver_0 == null)
       null;
     else {
@@ -7419,6 +7424,11 @@ var EvolveAdvice_instance;
 function EvolveAdvice_getInstance() {
   return EvolveAdvice_instance;
 }
+function get_SIGNATURE_MAX() {
+  _init_properties_GameData_kt__qdjh7g();
+  return SIGNATURE_MAX;
+}
+var SIGNATURE_MAX;
 function SpeciesData$Companion$$childSerializers$_anonymous__w1uuec() {
   return new ArrayListSerializer(StringSerializer_getInstance());
 }
@@ -7792,10 +7802,13 @@ function SpeciesData(id, dex, name, baseName, atk, def, sta, types, fastMoves, c
 protoOf(SpeciesData).s1f = function () {
   return new BaseStats(this.e1f_1, this.f1f_1, this.g1f_1);
 };
-protoOf(SpeciesData).l1x = function (id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, thirdMoveCost) {
+protoOf(SpeciesData).l1x = function () {
+  return !(this.p1f_1 == null) && !get_SIGNATURE_MAX().t(this.a1f_1);
+};
+protoOf(SpeciesData).m1x = function (id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, thirdMoveCost) {
   return new SpeciesData(id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, thirdMoveCost);
 };
-protoOf(SpeciesData).m1x = function (id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, thirdMoveCost, $super) {
+protoOf(SpeciesData).n1x = function (id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, thirdMoveCost, $super) {
   id = id === VOID ? this.a1f_1 : id;
   dex = dex === VOID ? this.b1f_1 : dex;
   name = name === VOID ? this.c1f_1 : name;
@@ -7814,7 +7827,7 @@ protoOf(SpeciesData).m1x = function (id, dex, name, baseName, atk, def, sta, typ
   gmaxType = gmaxType === VOID ? this.p1f_1 : gmaxType;
   maxGroup = maxGroup === VOID ? this.q1f_1 : maxGroup;
   thirdMoveCost = thirdMoveCost === VOID ? this.r1f_1 : thirdMoveCost;
-  return $super === VOID ? this.l1x(id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, thirdMoveCost) : $super.l1x.call(this, id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, thirdMoveCost);
+  return $super === VOID ? this.m1x(id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, thirdMoveCost) : $super.m1x.call(this, id, dex, name, baseName, atk, def, sta, types, fastMoves, chargedMoves, tags, evolutions, eliteMoves, legacyMoves, dynamax, gmaxType, maxGroup, thirdMoveCost);
 };
 protoOf(SpeciesData).toString = function () {
   return 'SpeciesData(id=' + this.a1f_1 + ', dex=' + this.b1f_1 + ', name=' + this.c1f_1 + ', baseName=' + this.d1f_1 + ', atk=' + this.e1f_1 + ', def=' + this.f1f_1 + ', sta=' + this.g1f_1 + ', types=' + toString_0(this.h1f_1) + ', fastMoves=' + toString_0(this.i1f_1) + ', chargedMoves=' + toString_0(this.j1f_1) + ', tags=' + toString_0(this.k1f_1) + ', evolutions=' + toString_0(this.l1f_1) + ', eliteMoves=' + toString_0(this.m1f_1) + ', legacyMoves=' + toString_0(this.n1f_1) + ', dynamax=' + this.o1f_1 + ', gmaxType=' + this.p1f_1 + ', maxGroup=' + this.q1f_1 + ', thirdMoveCost=' + this.r1f_1 + ')';
@@ -7944,12 +7957,12 @@ function Companion_4() {
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
-  tmp.n1x_1 = [null, tmp_1, tmp_3, tmp_5, tmp_7, tmp_9, tmp_11, tmp_13, tmp_15, lazy_0(tmp_16, GameData$Companion$$childSerializers$_anonymous__w51i8i_7)];
+  tmp.o1x_1 = [null, tmp_1, tmp_3, tmp_5, tmp_7, tmp_9, tmp_11, tmp_13, tmp_15, lazy_0(tmp_16, GameData$Companion$$childSerializers$_anonymous__w51i8i_7)];
   var tmp_17 = this;
-  tmp_17.o1x_1 = Json(VOID, GameData$Companion$json$lambda);
+  tmp_17.p1x_1 = Json(VOID, GameData$Companion$json$lambda);
 }
 protoOf(Companion_4).vi = function (text) {
-  return this.o1x_1.h12(this.e1n(), text);
+  return this.p1x_1.h12(this.e1n(), text);
 };
 protoOf(Companion_4).e1n = function () {
   return $serializer_getInstance_4();
@@ -7973,12 +7986,12 @@ function $serializer_4() {
   tmp0_serialDesc.rt('typeNames', false);
   tmp0_serialDesc.rt('rankings', false);
   tmp0_serialDesc.rt('maxCosts', true);
-  this.p1x_1 = tmp0_serialDesc;
+  this.q1x_1 = tmp0_serialDesc;
 }
-protoOf($serializer_4).q1x = function (encoder, value) {
-  var tmp0_desc = this.p1x_1;
+protoOf($serializer_4).r1x = function (encoder, value) {
+  var tmp0_desc = this.q1x_1;
   var tmp1_output = encoder.kn(tmp0_desc);
-  var tmp2_cached = Companion_getInstance_4().n1x_1;
+  var tmp2_cached = Companion_getInstance_4().o1x_1;
   tmp1_output.zo(tmp0_desc, 0, value.v1f_1);
   tmp1_output.bp(tmp0_desc, 1, tmp2_cached[1].y(), value.w1f_1);
   tmp1_output.bp(tmp0_desc, 2, tmp2_cached[2].y(), value.x1f_1);
@@ -7994,10 +8007,10 @@ protoOf($serializer_4).q1x = function (encoder, value) {
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_4).tk = function (encoder, value) {
-  return this.q1x(encoder, value instanceof GameData ? value : THROW_CCE());
+  return this.r1x(encoder, value instanceof GameData ? value : THROW_CCE());
 };
 protoOf($serializer_4).uk = function (decoder) {
-  var tmp0_desc = this.p1x_1;
+  var tmp0_desc = this.q1x_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -8012,7 +8025,7 @@ protoOf($serializer_4).uk = function (decoder) {
   var tmp12_local8 = null;
   var tmp13_local9 = null;
   var tmp19_input = decoder.kn(tmp0_desc);
-  var tmp20_cached = Companion_getInstance_4().n1x_1;
+  var tmp20_cached = Companion_getInstance_4().o1x_1;
   if (tmp19_input.ao()) {
     tmp4_local0 = tmp19_input.un(tmp0_desc, 0);
     tmp3_bitMask0 = tmp3_bitMask0 | 1;
@@ -8089,10 +8102,10 @@ protoOf($serializer_4).uk = function (decoder) {
   return GameData_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, tmp9_local5, tmp10_local6, tmp11_local7, tmp12_local8, tmp13_local9, null);
 };
 protoOf($serializer_4).sk = function () {
-  return this.p1x_1;
+  return this.q1x_1;
 };
 protoOf($serializer_4).gu = function () {
-  var tmp0_cached = Companion_getInstance_4().n1x_1;
+  var tmp0_cached = Companion_getInstance_4().o1x_1;
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
@@ -8106,7 +8119,7 @@ function $serializer_getInstance_4() {
 }
 function GameData_init_$Init$(seen0, generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts, serializationConstructorMarker, $this) {
   if (!(511 === (511 & seen0))) {
-    throwMissingFieldException(seen0, 511, $serializer_getInstance_4().p1x_1);
+    throwMissingFieldException(seen0, 511, $serializer_getInstance_4().q1x_1);
   }
   $this.v1f_1 = generated;
   $this.w1f_1 = cpm;
@@ -8361,7 +8374,7 @@ protoOf(GameData).c1v = function () {
   getPropertyCallableRef('movesById', 1, tmp, GameData$_get_movesById_$ref_qju43g(), null);
   return tmp0.y();
 };
-protoOf(GameData).r1x = function (species, moveId) {
+protoOf(GameData).s1x = function (species, moveId) {
   var tmp0_safe_receiver = this.c1v().c2(moveId);
   var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.c1k_1;
   var name = tmp1_elvis_lhs == null ? moveId : tmp1_elvis_lhs;
@@ -8372,10 +8385,10 @@ protoOf(GameData).q1i = function (speciesId, league, shadow) {
   var tmp0_safe_receiver = _get_rankIndex__5yzab9(this).c2(key);
   return tmp0_safe_receiver == null ? null : tmp0_safe_receiver.c2(shadow ? speciesId + '_shadow' : speciesId);
 };
-protoOf(GameData).s1x = function (generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts) {
+protoOf(GameData).t1x = function (generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts) {
   return new GameData(generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts);
 };
-protoOf(GameData).t1x = function (generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts, $super) {
+protoOf(GameData).u1x = function (generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts, $super) {
   generated = generated === VOID ? this.v1f_1 : generated;
   cpm = cpm === VOID ? this.w1f_1 : cpm;
   stardust = stardust === VOID ? this.x1f_1 : stardust;
@@ -8386,7 +8399,7 @@ protoOf(GameData).t1x = function (generated, cpm, stardust, candy, xlCandy, spec
   typeNames = typeNames === VOID ? this.c1g_1 : typeNames;
   rankings = rankings === VOID ? this.d1g_1 : rankings;
   maxCosts = maxCosts === VOID ? this.e1g_1 : maxCosts;
-  return $super === VOID ? this.s1x(generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts) : $super.s1x.call(this, generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts);
+  return $super === VOID ? this.t1x(generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts) : $super.t1x.call(this, generated, cpm, stardust, candy, xlCandy, species, moves, typeNames, rankings, maxCosts);
 };
 protoOf(GameData).toString = function () {
   return 'GameData(generated=' + this.v1f_1 + ', cpm=' + toString_0(this.w1f_1) + ', stardust=' + toString_0(this.x1f_1) + ', candy=' + toString_0(this.y1f_1) + ', xlCandy=' + toString_0(this.z1f_1) + ', species=' + toString_0(this.a1g_1) + ', moves=' + toString_0(this.b1g_1) + ', typeNames=' + toString_0(this.c1g_1) + ', rankings=' + toString_0(this.d1g_1) + ', maxCosts=' + toString_0(this.e1g_1) + ')';
@@ -8450,10 +8463,10 @@ function $serializer_5() {
   tmp0_serialDesc.rt('pvePower', true);
   tmp0_serialDesc.rt('pveEnergy', true);
   tmp0_serialDesc.rt('pveMs', true);
-  this.u1x_1 = tmp0_serialDesc;
+  this.v1x_1 = tmp0_serialDesc;
 }
-protoOf($serializer_5).v1x = function (encoder, value) {
-  var tmp0_desc = this.u1x_1;
+protoOf($serializer_5).w1x = function (encoder, value) {
+  var tmp0_desc = this.v1x_1;
   var tmp1_output = encoder.kn(tmp0_desc);
   tmp1_output.zo(tmp0_desc, 0, value.b1k_1);
   tmp1_output.zo(tmp0_desc, 1, value.c1k_1);
@@ -8476,10 +8489,10 @@ protoOf($serializer_5).v1x = function (encoder, value) {
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_5).tk = function (encoder, value) {
-  return this.v1x(encoder, value instanceof MoveData ? value : THROW_CCE());
+  return this.w1x(encoder, value instanceof MoveData ? value : THROW_CCE());
 };
 protoOf($serializer_5).uk = function (decoder) {
-  var tmp0_desc = this.u1x_1;
+  var tmp0_desc = this.v1x_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -8570,7 +8583,7 @@ protoOf($serializer_5).uk = function (decoder) {
   return MoveData_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, tmp9_local5, tmp10_local6, tmp11_local7, tmp12_local8, tmp13_local9, null);
 };
 protoOf($serializer_5).sk = function () {
-  return this.u1x_1;
+  return this.v1x_1;
 };
 protoOf($serializer_5).gu = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -8586,7 +8599,7 @@ function $serializer_getInstance_5() {
 }
 function MoveData_init_$Init$(seen0, id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs, serializationConstructorMarker, $this) {
   if (!(63 === (63 & seen0))) {
-    throwMissingFieldException(seen0, 63, $serializer_getInstance_5().u1x_1);
+    throwMissingFieldException(seen0, 63, $serializer_getInstance_5().v1x_1);
   }
   $this.b1k_1 = id;
   $this.c1k_1 = name;
@@ -8631,13 +8644,13 @@ function MoveData(id, name, type, power, energy, energyGain, turns, pvePower, pv
   this.j1k_1 = pveEnergy;
   this.k1k_1 = pveMs;
 }
-protoOf(MoveData).w1x = function () {
+protoOf(MoveData).x1x = function () {
   return this.k1k_1 > 0;
 };
-protoOf(MoveData).x1x = function (id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs) {
+protoOf(MoveData).y1x = function (id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs) {
   return new MoveData(id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs);
 };
-protoOf(MoveData).y1x = function (id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs, $super) {
+protoOf(MoveData).z1x = function (id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs, $super) {
   id = id === VOID ? this.b1k_1 : id;
   name = name === VOID ? this.c1k_1 : name;
   type = type === VOID ? this.d1k_1 : type;
@@ -8648,7 +8661,7 @@ protoOf(MoveData).y1x = function (id, name, type, power, energy, energyGain, tur
   pvePower = pvePower === VOID ? this.i1k_1 : pvePower;
   pveEnergy = pveEnergy === VOID ? this.j1k_1 : pveEnergy;
   pveMs = pveMs === VOID ? this.k1k_1 : pveMs;
-  return $super === VOID ? this.x1x(id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs) : $super.x1x.call(this, id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs);
+  return $super === VOID ? this.y1x(id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs) : $super.y1x.call(this, id, name, type, power, energy, energyGain, turns, pvePower, pveEnergy, pveMs);
 };
 protoOf(MoveData).toString = function () {
   return 'MoveData(id=' + this.b1k_1 + ', name=' + this.c1k_1 + ', type=' + this.d1k_1 + ', power=' + this.e1k_1 + ', energy=' + this.f1k_1 + ', energyGain=' + this.g1k_1 + ', turns=' + this.h1k_1 + ', pvePower=' + this.i1k_1 + ', pveEnergy=' + this.j1k_1 + ', pveMs=' + this.k1k_1 + ')';
@@ -8696,13 +8709,13 @@ protoOf(MoveData).equals = function (other) {
 function parsePvpoke$flag(f, key) {
   var tmp0_safe_receiver = f.hc(key);
   var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : get_jsonPrimitive(tmp0_safe_receiver);
-  return (tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q14()) === 'true';
+  return (tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u14()) === 'true';
 }
 function Companion_6() {
   Companion_instance_8 = this;
-  this.z1x_1 = listOf([new BattleFormat('Superliga', 'all', 1500), new BattleFormat('Hyperliga', 'all', 2500), new BattleFormat('Meisterliga', 'all', 10000)]);
+  this.a1y_1 = listOf([new BattleFormat('Superliga', 'all', 1500), new BattleFormat('Hyperliga', 'all', 2500), new BattleFormat('Meisterliga', 'all', 10000)]);
 }
-protoOf(Companion_6).a1y = function (gamemasterText) {
+protoOf(Companion_6).b1y = function (gamemasterText) {
   var tmp = get_jsonObject(Default_getInstance().i12(gamemasterText)).hc('formats');
   var tmp0_elvis_lhs = tmp instanceof JsonArray ? tmp : null;
   var tmp_0;
@@ -8724,7 +8737,7 @@ protoOf(Companion_6).a1y = function (gamemasterText) {
       var f = get_jsonObject(element);
       var tmp0_safe_receiver = f.hc('cup');
       var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : get_jsonPrimitive(tmp0_safe_receiver);
-      var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q14();
+      var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u14();
       var tmp_1;
       if (tmp2_elvis_lhs == null) {
         tmp$ret$4 = null;
@@ -8735,7 +8748,7 @@ protoOf(Companion_6).a1y = function (gamemasterText) {
       var cup = tmp_1;
       var tmp3_safe_receiver = f.hc('cp');
       var tmp4_safe_receiver = tmp3_safe_receiver == null ? null : get_jsonPrimitive(tmp3_safe_receiver);
-      var tmp5_safe_receiver = tmp4_safe_receiver == null ? null : tmp4_safe_receiver.q14();
+      var tmp5_safe_receiver = tmp4_safe_receiver == null ? null : tmp4_safe_receiver.u14();
       var tmp6_elvis_lhs = tmp5_safe_receiver == null ? null : toIntOrNull(tmp5_safe_receiver);
       var tmp_2;
       if (tmp6_elvis_lhs == null) {
@@ -8747,7 +8760,7 @@ protoOf(Companion_6).a1y = function (gamemasterText) {
       var cp = tmp_2;
       var tmp7_safe_receiver = f.hc('title');
       var tmp8_safe_receiver = tmp7_safe_receiver == null ? null : get_jsonPrimitive(tmp7_safe_receiver);
-      var tmp9_elvis_lhs = tmp8_safe_receiver == null ? null : tmp8_safe_receiver.q14();
+      var tmp9_elvis_lhs = tmp8_safe_receiver == null ? null : tmp8_safe_receiver.u14();
       var tmp_3;
       if (tmp9_elvis_lhs == null) {
         tmp$ret$4 = null;
@@ -8794,10 +8807,10 @@ function $serializer_6() {
   tmp0_serialDesc.rt('title', false);
   tmp0_serialDesc.rt('cup', false);
   tmp0_serialDesc.rt('cp', false);
-  this.b1y_1 = tmp0_serialDesc;
+  this.c1y_1 = tmp0_serialDesc;
 }
-protoOf($serializer_6).c1y = function (encoder, value) {
-  var tmp0_desc = this.b1y_1;
+protoOf($serializer_6).d1y = function (encoder, value) {
+  var tmp0_desc = this.c1y_1;
   var tmp1_output = encoder.kn(tmp0_desc);
   tmp1_output.zo(tmp0_desc, 0, value.g1p_1);
   tmp1_output.zo(tmp0_desc, 1, value.h1p_1);
@@ -8805,10 +8818,10 @@ protoOf($serializer_6).c1y = function (encoder, value) {
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_6).tk = function (encoder, value) {
-  return this.c1y(encoder, value instanceof BattleFormat ? value : THROW_CCE());
+  return this.d1y(encoder, value instanceof BattleFormat ? value : THROW_CCE());
 };
 protoOf($serializer_6).uk = function (decoder) {
-  var tmp0_desc = this.b1y_1;
+  var tmp0_desc = this.c1y_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -8850,7 +8863,7 @@ protoOf($serializer_6).uk = function (decoder) {
   return BattleFormat_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, null);
 };
 protoOf($serializer_6).sk = function () {
-  return this.b1y_1;
+  return this.c1y_1;
 };
 protoOf($serializer_6).gu = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -8866,7 +8879,7 @@ function $serializer_getInstance_6() {
 }
 function BattleFormat_init_$Init$(seen0, title, cup, cp, serializationConstructorMarker, $this) {
   if (!(7 === (7 & seen0))) {
-    throwMissingFieldException(seen0, 7, $serializer_getInstance_6().b1y_1);
+    throwMissingFieldException(seen0, 7, $serializer_getInstance_6().c1y_1);
   }
   $this.g1p_1 = title;
   $this.h1p_1 = cup;
@@ -8888,7 +8901,7 @@ protoOf(BattleFormat).x = function () {
 protoOf(BattleFormat).j1m = function () {
   return GblSchedule_getInstance().c1w(this.g1p_1);
 };
-protoOf(BattleFormat).d1y = function () {
+protoOf(BattleFormat).e1y = function () {
   switch (this.i1p_1) {
     case 500:
       return League_LITTLE_getInstance();
@@ -8946,7 +8959,7 @@ function parsePvpoke$list(o, key) {
   while (_iterator__ex2g4s.j()) {
     var item = _iterator__ex2g4s.k();
     var m = get_jsonObject(item);
-    var tmp$ret$3 = new Matchup(get_jsonPrimitive(getValue(m, 'opponent')).q14(), numberToInt(get_double(get_jsonPrimitive(getValue(m, 'rating')))));
+    var tmp$ret$3 = new Matchup(get_jsonPrimitive(getValue(m, 'opponent')).u14(), numberToInt(get_double(get_jsonPrimitive(getValue(m, 'rating')))));
     destination.h(tmp$ret$3);
   }
   return destination;
@@ -8964,9 +8977,9 @@ function Companion_7() {
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
-  tmp.e1y_1 = [null, null, tmp_1, tmp_3, tmp_5, lazy_0(tmp_6, RankEntry$Companion$$childSerializers$_anonymous__y9xa2k_2)];
+  tmp.f1y_1 = [null, null, tmp_1, tmp_3, tmp_5, lazy_0(tmp_6, RankEntry$Companion$$childSerializers$_anonymous__y9xa2k_2)];
 }
-protoOf(Companion_7).a1y = function (text) {
+protoOf(Companion_7).b1y = function (text) {
   // Inline function 'kotlin.collections.map' call
   var this_0 = get_jsonArray(Default_getInstance().i12(text));
   // Inline function 'kotlin.collections.mapTo' call
@@ -8975,7 +8988,7 @@ protoOf(Companion_7).a1y = function (text) {
   while (_iterator__ex2g4s.j()) {
     var item = _iterator__ex2g4s.k();
     var r = get_jsonObject(item);
-    var tmp = get_jsonPrimitive(getValue(r, 'speciesId')).q14();
+    var tmp = get_jsonPrimitive(getValue(r, 'speciesId')).u14();
     var tmp_0 = get_double(get_jsonPrimitive(getValue(r, 'score')));
     var tmp_1 = r.hc('moveset');
     // Inline function 'kotlin.collections.orEmpty' call
@@ -8987,7 +9000,7 @@ protoOf(Companion_7).a1y = function (text) {
     var _iterator__ex2g4s_0 = this_1.i();
     while (_iterator__ex2g4s_0.j()) {
       var item_0 = _iterator__ex2g4s_0.k();
-      var tmp$ret$6 = get_jsonPrimitive(item_0).q14();
+      var tmp$ret$6 = get_jsonPrimitive(item_0).u14();
       destination_0.h(tmp$ret$6);
     }
     var tmp_2 = destination_0;
@@ -9032,12 +9045,12 @@ function $serializer_7() {
   tmp0_serialDesc.rt('matchups', true);
   tmp0_serialDesc.rt('counters', true);
   tmp0_serialDesc.rt('roles', true);
-  this.f1y_1 = tmp0_serialDesc;
+  this.g1y_1 = tmp0_serialDesc;
 }
-protoOf($serializer_7).g1y = function (encoder, value) {
-  var tmp0_desc = this.f1y_1;
+protoOf($serializer_7).h1y = function (encoder, value) {
+  var tmp0_desc = this.g1y_1;
   var tmp1_output = encoder.kn(tmp0_desc);
-  var tmp2_cached = Companion_getInstance_7().e1y_1;
+  var tmp2_cached = Companion_getInstance_7().f1y_1;
   tmp1_output.zo(tmp0_desc, 0, value.r1i_1);
   tmp1_output.xo(tmp0_desc, 1, value.s1i_1);
   if (tmp1_output.hp(tmp0_desc, 2) ? true : !equals(value.t1i_1, emptyList())) {
@@ -9055,10 +9068,10 @@ protoOf($serializer_7).g1y = function (encoder, value) {
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_7).tk = function (encoder, value) {
-  return this.g1y(encoder, value instanceof RankEntry ? value : THROW_CCE());
+  return this.h1y(encoder, value instanceof RankEntry ? value : THROW_CCE());
 };
 protoOf($serializer_7).uk = function (decoder) {
-  var tmp0_desc = this.f1y_1;
+  var tmp0_desc = this.g1y_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -9069,7 +9082,7 @@ protoOf($serializer_7).uk = function (decoder) {
   var tmp8_local4 = null;
   var tmp9_local5 = null;
   var tmp10_input = decoder.kn(tmp0_desc);
-  var tmp11_cached = Companion_getInstance_7().e1y_1;
+  var tmp11_cached = Companion_getInstance_7().f1y_1;
   if (tmp10_input.ao()) {
     tmp4_local0 = tmp10_input.un(tmp0_desc, 0);
     tmp3_bitMask0 = tmp3_bitMask0 | 1;
@@ -9122,10 +9135,10 @@ protoOf($serializer_7).uk = function (decoder) {
   return RankEntry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, tmp9_local5, null);
 };
 protoOf($serializer_7).sk = function () {
-  return this.f1y_1;
+  return this.g1y_1;
 };
 protoOf($serializer_7).gu = function () {
-  var tmp0_cached = Companion_getInstance_7().e1y_1;
+  var tmp0_cached = Companion_getInstance_7().f1y_1;
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
@@ -9139,7 +9152,7 @@ function $serializer_getInstance_7() {
 }
 function RankEntry_init_$Init$(seen0, id, score, moveset, matchups, counters, roles, serializationConstructorMarker, $this) {
   if (!(3 === (3 & seen0))) {
-    throwMissingFieldException(seen0, 3, $serializer_getInstance_7().f1y_1);
+    throwMissingFieldException(seen0, 3, $serializer_getInstance_7().g1y_1);
   }
   $this.r1i_1 = id;
   $this.s1i_1 = score;
@@ -9177,10 +9190,10 @@ function RankEntry(id, score, moveset, matchups, counters, roles) {
   this.v1i_1 = counters;
   this.w1i_1 = roles;
 }
-protoOf(RankEntry).h1y = function (r) {
-  return getOrNull(this.w1i_1, r.l1y_1);
+protoOf(RankEntry).i1y = function (r) {
+  return getOrNull(this.w1i_1, r.m1y_1);
 };
-protoOf(RankEntry).m1y = function (opponent) {
+protoOf(RankEntry).n1y = function (opponent) {
   var tmp0 = this.u1i_1;
   var tmp$ret$0;
   $l$block: {
@@ -9188,7 +9201,7 @@ protoOf(RankEntry).m1y = function (opponent) {
     var _iterator__ex2g4s = tmp0.i();
     while (_iterator__ex2g4s.j()) {
       var element = _iterator__ex2g4s.k();
-      if (element.n1y_1 === opponent) {
+      if (element.o1y_1 === opponent) {
         tmp$ret$0 = element;
         break $l$block;
       }
@@ -9205,7 +9218,7 @@ protoOf(RankEntry).m1y = function (opponent) {
       var _iterator__ex2g4s_0 = tmp0_0.i();
       while (_iterator__ex2g4s_0.j()) {
         var element_0 = _iterator__ex2g4s_0.k();
-        if (element_0.n1y_1 === opponent) {
+        if (element_0.o1y_1 === opponent) {
           tmp$ret$2 = element_0;
           break $l$block_0;
         }
@@ -9217,7 +9230,7 @@ protoOf(RankEntry).m1y = function (opponent) {
     tmp = tmp0_elvis_lhs;
   }
   var tmp1_safe_receiver = tmp;
-  return tmp1_safe_receiver == null ? null : tmp1_safe_receiver.o1y_1;
+  return tmp1_safe_receiver == null ? null : tmp1_safe_receiver.p1y_1;
 };
 protoOf(RankEntry).toString = function () {
   return 'RankEntry(id=' + this.r1i_1 + ', score=' + this.s1i_1 + ', moveset=' + toString_0(this.t1i_1) + ', matchups=' + toString_0(this.u1i_1) + ', counters=' + toString_0(this.v1i_1) + ', roles=' + toString_0(this.w1i_1) + ')';
@@ -9262,10 +9275,10 @@ function $serializer_8() {
   tmp0_serialDesc.rt('to', false);
   tmp0_serialDesc.rt('candy', false);
   tmp0_serialDesc.rt('candyPurified', true);
-  this.p1y_1 = tmp0_serialDesc;
+  this.q1y_1 = tmp0_serialDesc;
 }
-protoOf($serializer_8).q1y = function (encoder, value) {
-  var tmp0_desc = this.p1y_1;
+protoOf($serializer_8).r1y = function (encoder, value) {
+  var tmp0_desc = this.q1y_1;
   var tmp1_output = encoder.kn(tmp0_desc);
   tmp1_output.zo(tmp0_desc, 0, value.l1g_1);
   tmp1_output.uo(tmp0_desc, 1, value.m1g_1);
@@ -9275,10 +9288,10 @@ protoOf($serializer_8).q1y = function (encoder, value) {
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_8).tk = function (encoder, value) {
-  return this.q1y(encoder, value instanceof EvoData ? value : THROW_CCE());
+  return this.r1y(encoder, value instanceof EvoData ? value : THROW_CCE());
 };
 protoOf($serializer_8).uk = function (decoder) {
-  var tmp0_desc = this.p1y_1;
+  var tmp0_desc = this.q1y_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -9320,7 +9333,7 @@ protoOf($serializer_8).uk = function (decoder) {
   return EvoData_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, null);
 };
 protoOf($serializer_8).sk = function () {
-  return this.p1y_1;
+  return this.q1y_1;
 };
 protoOf($serializer_8).gu = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -9336,7 +9349,7 @@ function $serializer_getInstance_8() {
 }
 function EvoData_init_$Init$(seen0, to, candy, candyPurified, serializationConstructorMarker, $this) {
   if (!(3 === (3 & seen0))) {
-    throwMissingFieldException(seen0, 3, $serializer_getInstance_8().p1y_1);
+    throwMissingFieldException(seen0, 3, $serializer_getInstance_8().q1y_1);
   }
   $this.l1g_1 = to;
   $this.m1g_1 = candy;
@@ -9355,14 +9368,14 @@ function EvoData(to, candy, candyPurified) {
   this.m1g_1 = candy;
   this.n1g_1 = candyPurified;
 }
-protoOf(EvoData).r1y = function (to, candy, candyPurified) {
+protoOf(EvoData).s1y = function (to, candy, candyPurified) {
   return new EvoData(to, candy, candyPurified);
 };
-protoOf(EvoData).s1y = function (to, candy, candyPurified, $super) {
+protoOf(EvoData).t1y = function (to, candy, candyPurified, $super) {
   to = to === VOID ? this.l1g_1 : to;
   candy = candy === VOID ? this.m1g_1 : candy;
   candyPurified = candyPurified === VOID ? this.n1g_1 : candyPurified;
-  return $super === VOID ? this.r1y(to, candy, candyPurified) : $super.r1y.call(this, to, candy, candyPurified);
+  return $super === VOID ? this.s1y(to, candy, candyPurified) : $super.s1y.call(this, to, candy, candyPurified);
 };
 protoOf(EvoData).toString = function () {
   return 'EvoData(to=' + this.l1g_1 + ', candy=' + this.m1g_1 + ', candyPurified=' + this.n1g_1 + ')';
@@ -9398,27 +9411,27 @@ function $serializer_9() {
   tmp0_serialDesc.rt('particles', true);
   tmp0_serialDesc.rt('candy', true);
   tmp0_serialDesc.rt('xl', true);
-  this.t1y_1 = tmp0_serialDesc;
+  this.u1y_1 = tmp0_serialDesc;
 }
-protoOf($serializer_9).u1y = function (encoder, value) {
-  var tmp0_desc = this.t1y_1;
+protoOf($serializer_9).v1y = function (encoder, value) {
+  var tmp0_desc = this.u1y_1;
   var tmp1_output = encoder.kn(tmp0_desc);
-  if (tmp1_output.hp(tmp0_desc, 0) ? true : !(value.v1y_1 === 0)) {
-    tmp1_output.uo(tmp0_desc, 0, value.v1y_1);
+  if (tmp1_output.hp(tmp0_desc, 0) ? true : !(value.w1y_1 === 0)) {
+    tmp1_output.uo(tmp0_desc, 0, value.w1y_1);
   }
-  if (tmp1_output.hp(tmp0_desc, 1) ? true : !(value.w1y_1 === 0)) {
-    tmp1_output.uo(tmp0_desc, 1, value.w1y_1);
+  if (tmp1_output.hp(tmp0_desc, 1) ? true : !(value.x1y_1 === 0)) {
+    tmp1_output.uo(tmp0_desc, 1, value.x1y_1);
   }
-  if (tmp1_output.hp(tmp0_desc, 2) ? true : !(value.x1y_1 === 0)) {
-    tmp1_output.uo(tmp0_desc, 2, value.x1y_1);
+  if (tmp1_output.hp(tmp0_desc, 2) ? true : !(value.y1y_1 === 0)) {
+    tmp1_output.uo(tmp0_desc, 2, value.y1y_1);
   }
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_9).tk = function (encoder, value) {
-  return this.u1y(encoder, value instanceof MaxStepCost ? value : THROW_CCE());
+  return this.v1y(encoder, value instanceof MaxStepCost ? value : THROW_CCE());
 };
 protoOf($serializer_9).uk = function (decoder) {
-  var tmp0_desc = this.t1y_1;
+  var tmp0_desc = this.u1y_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -9460,7 +9473,7 @@ protoOf($serializer_9).uk = function (decoder) {
   return MaxStepCost_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, null);
 };
 protoOf($serializer_9).sk = function () {
-  return this.t1y_1;
+  return this.u1y_1;
 };
 protoOf($serializer_9).gu = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -9476,20 +9489,20 @@ function $serializer_getInstance_9() {
 }
 function MaxStepCost_init_$Init$(seen0, particles, candy, xl, serializationConstructorMarker, $this) {
   if (!(0 === (0 & seen0))) {
-    throwMissingFieldException(seen0, 0, $serializer_getInstance_9().t1y_1);
+    throwMissingFieldException(seen0, 0, $serializer_getInstance_9().u1y_1);
   }
   if (0 === (seen0 & 1))
-    $this.v1y_1 = 0;
-  else
-    $this.v1y_1 = particles;
-  if (0 === (seen0 & 2))
     $this.w1y_1 = 0;
   else
-    $this.w1y_1 = candy;
-  if (0 === (seen0 & 4))
+    $this.w1y_1 = particles;
+  if (0 === (seen0 & 2))
     $this.x1y_1 = 0;
   else
-    $this.x1y_1 = xl;
+    $this.x1y_1 = candy;
+  if (0 === (seen0 & 4))
+    $this.y1y_1 = 0;
+  else
+    $this.y1y_1 = xl;
   return $this;
 }
 function MaxStepCost_init_$Create$(seen0, particles, candy, xl, serializationConstructorMarker) {
@@ -9499,17 +9512,17 @@ function MaxStepCost(particles, candy, xl) {
   particles = particles === VOID ? 0 : particles;
   candy = candy === VOID ? 0 : candy;
   xl = xl === VOID ? 0 : xl;
-  this.v1y_1 = particles;
-  this.w1y_1 = candy;
-  this.x1y_1 = xl;
+  this.w1y_1 = particles;
+  this.x1y_1 = candy;
+  this.y1y_1 = xl;
 }
 protoOf(MaxStepCost).toString = function () {
-  return 'MaxStepCost(particles=' + this.v1y_1 + ', candy=' + this.w1y_1 + ', xl=' + this.x1y_1 + ')';
+  return 'MaxStepCost(particles=' + this.w1y_1 + ', candy=' + this.x1y_1 + ', xl=' + this.y1y_1 + ')';
 };
 protoOf(MaxStepCost).hashCode = function () {
-  var result = this.v1y_1;
-  result = imul(result, 31) + this.w1y_1 | 0;
+  var result = this.w1y_1;
   result = imul(result, 31) + this.x1y_1 | 0;
+  result = imul(result, 31) + this.y1y_1 | 0;
   return result;
 };
 protoOf(MaxStepCost).equals = function (other) {
@@ -9517,11 +9530,11 @@ protoOf(MaxStepCost).equals = function (other) {
     return true;
   if (!(other instanceof MaxStepCost))
     return false;
-  if (!(this.v1y_1 === other.v1y_1))
-    return false;
   if (!(this.w1y_1 === other.w1y_1))
     return false;
   if (!(this.x1y_1 === other.x1y_1))
+    return false;
+  if (!(this.y1y_1 === other.y1y_1))
     return false;
   return true;
 };
@@ -9536,20 +9549,20 @@ function $serializer_10() {
   var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('pogo.core.Matchup', this, 2);
   tmp0_serialDesc.rt('opponent', false);
   tmp0_serialDesc.rt('rating', false);
-  this.y1y_1 = tmp0_serialDesc;
+  this.z1y_1 = tmp0_serialDesc;
 }
-protoOf($serializer_10).z1y = function (encoder, value) {
-  var tmp0_desc = this.y1y_1;
+protoOf($serializer_10).a1z = function (encoder, value) {
+  var tmp0_desc = this.z1y_1;
   var tmp1_output = encoder.kn(tmp0_desc);
-  tmp1_output.zo(tmp0_desc, 0, value.n1y_1);
-  tmp1_output.uo(tmp0_desc, 1, value.o1y_1);
+  tmp1_output.zo(tmp0_desc, 0, value.o1y_1);
+  tmp1_output.uo(tmp0_desc, 1, value.p1y_1);
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_10).tk = function (encoder, value) {
-  return this.z1y(encoder, value instanceof Matchup ? value : THROW_CCE());
+  return this.a1z(encoder, value instanceof Matchup ? value : THROW_CCE());
 };
 protoOf($serializer_10).uk = function (decoder) {
-  var tmp0_desc = this.y1y_1;
+  var tmp0_desc = this.z1y_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -9584,7 +9597,7 @@ protoOf($serializer_10).uk = function (decoder) {
   return Matchup_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, null);
 };
 protoOf($serializer_10).sk = function () {
-  return this.y1y_1;
+  return this.z1y_1;
 };
 protoOf($serializer_10).gu = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -9600,25 +9613,25 @@ function $serializer_getInstance_10() {
 }
 function Matchup_init_$Init$(seen0, opponent, rating, serializationConstructorMarker, $this) {
   if (!(3 === (3 & seen0))) {
-    throwMissingFieldException(seen0, 3, $serializer_getInstance_10().y1y_1);
+    throwMissingFieldException(seen0, 3, $serializer_getInstance_10().z1y_1);
   }
-  $this.n1y_1 = opponent;
-  $this.o1y_1 = rating;
+  $this.o1y_1 = opponent;
+  $this.p1y_1 = rating;
   return $this;
 }
 function Matchup_init_$Create$(seen0, opponent, rating, serializationConstructorMarker) {
   return Matchup_init_$Init$(seen0, opponent, rating, serializationConstructorMarker, objectCreate(protoOf(Matchup)));
 }
 function Matchup(opponent, rating) {
-  this.n1y_1 = opponent;
-  this.o1y_1 = rating;
+  this.o1y_1 = opponent;
+  this.p1y_1 = rating;
 }
 protoOf(Matchup).toString = function () {
-  return 'Matchup(opponent=' + this.n1y_1 + ', rating=' + this.o1y_1 + ')';
+  return 'Matchup(opponent=' + this.o1y_1 + ', rating=' + this.p1y_1 + ')';
 };
 protoOf(Matchup).hashCode = function () {
-  var result = getStringHashCode(this.n1y_1);
-  result = imul(result, 31) + this.o1y_1 | 0;
+  var result = getStringHashCode(this.o1y_1);
+  result = imul(result, 31) + this.p1y_1 | 0;
   return result;
 };
 protoOf(Matchup).equals = function (other) {
@@ -9626,12 +9639,19 @@ protoOf(Matchup).equals = function (other) {
     return true;
   if (!(other instanceof Matchup))
     return false;
-  if (!(this.n1y_1 === other.n1y_1))
-    return false;
   if (!(this.o1y_1 === other.o1y_1))
+    return false;
+  if (!(this.p1y_1 === other.p1y_1))
     return false;
   return true;
 };
+var properties_initialized_GameData_kt_rbp6yq;
+function _init_properties_GameData_kt__qdjh7g() {
+  if (!properties_initialized_GameData_kt_rbp6yq) {
+    properties_initialized_GameData_kt_rbp6yq = true;
+    SIGNATURE_MAX = setOf(['zacian_crowned_sword', 'zamazenta_crowned_shield', 'eternatus', 'eternatus_eternamax']);
+  }
+}
 function GameSearch$text$bars$lambda($word) {
   return function (it) {
     return '' + it + $word;
@@ -9644,7 +9664,7 @@ function text$bars(known, word, value) {
   var _iterator__ex2g4s = known.i();
   while (_iterator__ex2g4s.j()) {
     var item = _iterator__ex2g4s.k();
-    var tmp$ret$2 = GameSearch_instance.a1z(value(item));
+    var tmp$ret$2 = GameSearch_instance.b1z(value(item));
     destination.h(tmp$ret$2);
   }
   var tmp = sorted(distinct(destination));
@@ -9661,10 +9681,10 @@ function GameSearch$text$lambda_1(it) {
 }
 function GameSearch() {
 }
-protoOf(GameSearch).a1z = function (iv) {
+protoOf(GameSearch).b1z = function (iv) {
   return iv <= 0 ? 0 : iv <= 5 ? 1 : iv <= 10 ? 2 : iv <= 14 ? 3 : 4;
 };
-protoOf(GameSearch).b1z = function (data, list, extra) {
+protoOf(GameSearch).c1z = function (data, list, extra) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -9761,9 +9781,9 @@ protoOf(GameSearch).b1z = function (data, list, extra) {
   }
   return joinToString(parts, '&');
 };
-protoOf(GameSearch).c1z = function (data, list, extra, $super) {
+protoOf(GameSearch).d1z = function (data, list, extra, $super) {
   extra = extra === VOID ? null : extra;
-  return $super === VOID ? this.b1z(data, list, extra) : $super.b1z.call(this, data, list, extra);
+  return $super === VOID ? this.c1z(data, list, extra) : $super.c1z.call(this, data, list, extra);
 };
 var GameSearch_instance;
 function GameSearch_getInstance() {
@@ -9784,21 +9804,21 @@ function $serializer_11() {
   tmp0_serialDesc.rt('name', false);
   tmp0_serialDesc.rt('start', false);
   tmp0_serialDesc.rt('end', false);
-  this.d1z_1 = tmp0_serialDesc;
+  this.e1z_1 = tmp0_serialDesc;
 }
-protoOf($serializer_11).e1z = function (encoder, value) {
-  var tmp0_desc = this.d1z_1;
+protoOf($serializer_11).f1z = function (encoder, value) {
+  var tmp0_desc = this.e1z_1;
   var tmp1_output = encoder.kn(tmp0_desc);
-  tmp1_output.zo(tmp0_desc, 0, value.f1z_1);
-  tmp1_output.zo(tmp0_desc, 1, value.g1z_1);
-  tmp1_output.zo(tmp0_desc, 2, value.h1z_1);
+  tmp1_output.zo(tmp0_desc, 0, value.g1z_1);
+  tmp1_output.zo(tmp0_desc, 1, value.h1z_1);
+  tmp1_output.zo(tmp0_desc, 2, value.i1z_1);
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_11).tk = function (encoder, value) {
-  return this.e1z(encoder, value instanceof GblWeek ? value : THROW_CCE());
+  return this.f1z(encoder, value instanceof GblWeek ? value : THROW_CCE());
 };
 protoOf($serializer_11).uk = function (decoder) {
-  var tmp0_desc = this.d1z_1;
+  var tmp0_desc = this.e1z_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -9840,7 +9860,7 @@ protoOf($serializer_11).uk = function (decoder) {
   return GblWeek_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, null);
 };
 protoOf($serializer_11).sk = function () {
-  return this.d1z_1;
+  return this.e1z_1;
 };
 protoOf($serializer_11).gu = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -9856,23 +9876,23 @@ function $serializer_getInstance_11() {
 }
 function GblWeek_init_$Init$(seen0, name, start, end, serializationConstructorMarker, $this) {
   if (!(7 === (7 & seen0))) {
-    throwMissingFieldException(seen0, 7, $serializer_getInstance_11().d1z_1);
+    throwMissingFieldException(seen0, 7, $serializer_getInstance_11().e1z_1);
   }
-  $this.f1z_1 = name;
-  $this.g1z_1 = start;
-  $this.h1z_1 = end;
+  $this.g1z_1 = name;
+  $this.h1z_1 = start;
+  $this.i1z_1 = end;
   return $this;
 }
 function GblWeek_init_$Create$(seen0, name, start, end, serializationConstructorMarker) {
   return GblWeek_init_$Init$(seen0, name, start, end, serializationConstructorMarker, objectCreate(protoOf(GblWeek)));
 }
 function GblWeek(name, start, end) {
-  this.f1z_1 = name;
-  this.g1z_1 = start;
-  this.h1z_1 = end;
+  this.g1z_1 = name;
+  this.h1z_1 = start;
+  this.i1z_1 = end;
 }
-protoOf(GblWeek).i1z = function () {
-  var tmp0 = substringBefore(this.f1z_1, ' | ');
+protoOf(GblWeek).j1z = function () {
+  var tmp0 = substringBefore(this.g1z_1, ' | ');
   // Inline function 'kotlin.text.split' call
   // Inline function 'kotlin.collections.map' call
   var this_0 = Regex_init_$Create$(',\\s*(?:and\\s+)?|\\s+and\\s+').bc(tmp0, 0);
@@ -9899,12 +9919,12 @@ protoOf(GblWeek).i1z = function () {
   return destination_0;
 };
 protoOf(GblWeek).toString = function () {
-  return 'GblWeek(name=' + this.f1z_1 + ', start=' + this.g1z_1 + ', end=' + this.h1z_1 + ')';
+  return 'GblWeek(name=' + this.g1z_1 + ', start=' + this.h1z_1 + ', end=' + this.i1z_1 + ')';
 };
 protoOf(GblWeek).hashCode = function () {
-  var result = getStringHashCode(this.f1z_1);
-  result = imul(result, 31) + getStringHashCode(this.g1z_1) | 0;
+  var result = getStringHashCode(this.g1z_1);
   result = imul(result, 31) + getStringHashCode(this.h1z_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.i1z_1) | 0;
   return result;
 };
 protoOf(GblWeek).equals = function (other) {
@@ -9912,11 +9932,11 @@ protoOf(GblWeek).equals = function (other) {
     return true;
   if (!(other instanceof GblWeek))
     return false;
-  if (!(this.f1z_1 === other.f1z_1))
-    return false;
   if (!(this.g1z_1 === other.g1z_1))
     return false;
   if (!(this.h1z_1 === other.h1z_1))
+    return false;
+  if (!(this.i1z_1 === other.i1z_1))
     return false;
   return true;
 };
@@ -9981,16 +10001,16 @@ function cp($this, text) {
   return contains(t, 'little') ? 500 : contains(t, 'ultra') ? 2500 : contains(t, 'master') ? 10000 : 1500;
 }
 function sam$kotlin_Comparator$0_3(function_0) {
-  this.j1z_1 = function_0;
+  this.k1z_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_3).uc = function (a, b) {
-  return this.j1z_1(a, b);
+  return this.k1z_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_3).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_3).t2 = function () {
-  return this.j1z_1;
+  return this.k1z_1;
 };
 protoOf(sam$kotlin_Comparator$0_3).equals = function (other) {
   var tmp;
@@ -10016,8 +10036,8 @@ function GblSchedule$json$lambda($this$Json) {
 }
 function GblSchedule$parseEvents$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = a.g1z_1;
-  var tmp$ret$2 = b.g1z_1;
+  var tmp = a.h1z_1;
+  var tmp$ret$2 = b.h1z_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function GblSchedule() {
@@ -10031,7 +10051,7 @@ function GblSchedule() {
 protoOf(GblSchedule).c1w = function (name) {
   return replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(name, 'Great League', 'Superliga'), 'Ultra League', 'Hyperliga'), 'Master League', 'Meisterliga'), 'Little League', 'Little Cup'), ' Edition', '-Edition'), ' Cup', '-Cup'), 'Classic', 'Klassik'), 'Holiday', 'Feiertags'), ', and ', ' und '), ' and ', ' und ');
 };
-protoOf(GblSchedule).k1z = function (text) {
+protoOf(GblSchedule).l1z = function (text) {
   // Inline function 'kotlin.collections.mapNotNull' call
   var tmp0 = get_jsonArray(Default_getInstance().i12(text));
   // Inline function 'kotlin.collections.mapNotNullTo' call
@@ -10045,13 +10065,13 @@ protoOf(GblSchedule).k1z = function (text) {
       var e = get_jsonObject(element);
       var tmp0_safe_receiver = e.hc('eventType');
       var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : get_jsonPrimitive(tmp0_safe_receiver);
-      if (!((tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q14()) === 'go-battle-league')) {
+      if (!((tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u14()) === 'go-battle-league')) {
         tmp$ret$4 = null;
         break $l$block_2;
       }
       var tmp2_safe_receiver = e.hc('name');
       var tmp3_safe_receiver = tmp2_safe_receiver == null ? null : get_jsonPrimitive(tmp2_safe_receiver);
-      var tmp4_elvis_lhs = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.q14();
+      var tmp4_elvis_lhs = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.u14();
       var tmp;
       if (tmp4_elvis_lhs == null) {
         tmp$ret$4 = null;
@@ -10062,7 +10082,7 @@ protoOf(GblSchedule).k1z = function (text) {
       var tmp_0 = tmp;
       var tmp5_safe_receiver = e.hc('start');
       var tmp6_safe_receiver = tmp5_safe_receiver == null ? null : get_jsonPrimitive(tmp5_safe_receiver);
-      var tmp7_elvis_lhs = tmp6_safe_receiver == null ? null : tmp6_safe_receiver.q14();
+      var tmp7_elvis_lhs = tmp6_safe_receiver == null ? null : tmp6_safe_receiver.u14();
       var tmp_1;
       if (tmp7_elvis_lhs == null) {
         tmp$ret$4 = null;
@@ -10073,7 +10093,7 @@ protoOf(GblSchedule).k1z = function (text) {
       var tmp_2 = tmp_1;
       var tmp8_safe_receiver = e.hc('end');
       var tmp9_safe_receiver = tmp8_safe_receiver == null ? null : get_jsonPrimitive(tmp8_safe_receiver);
-      var tmp10_elvis_lhs = tmp9_safe_receiver == null ? null : tmp9_safe_receiver.q14();
+      var tmp10_elvis_lhs = tmp9_safe_receiver == null ? null : tmp9_safe_receiver.u14();
       var tmp_3;
       if (tmp10_elvis_lhs == null) {
         tmp$ret$4 = null;
@@ -10097,7 +10117,7 @@ protoOf(GblSchedule).k1z = function (text) {
   var tmp$ret$8 = new sam$kotlin_Comparator$0_3(tmp_4);
   return sortedWith(destination, tmp$ret$8);
 };
-protoOf(GblSchedule).l1z = function (weeks) {
+protoOf(GblSchedule).m1z = function (weeks) {
   return this.z1v_1.g12(this.a1w_1, weeks);
 };
 protoOf(GblSchedule).e1p = function (text) {
@@ -10132,14 +10152,14 @@ protoOf(GblSchedule).e1p = function (text) {
   var tmp0_elvis_lhs = tmp;
   return tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
 };
-protoOf(GblSchedule).m1z = function (weeks, now) {
+protoOf(GblSchedule).n1z = function (weeks, now) {
   var tmp$ret$0;
   $l$block: {
     // Inline function 'kotlin.collections.lastOrNull' call
     var iterator = weeks.s(weeks.l());
     while (iterator.z3()) {
       var element = iterator.a4();
-      if (compareTo(utc(GblSchedule_getInstance(), element.g1z_1), utc(GblSchedule_getInstance(), now)) <= 0 && compareTo(utc(GblSchedule_getInstance(), now), utc(GblSchedule_getInstance(), element.h1z_1)) < 0) {
+      if (compareTo(utc(GblSchedule_getInstance(), element.h1z_1), utc(GblSchedule_getInstance(), now)) <= 0 && compareTo(utc(GblSchedule_getInstance(), now), utc(GblSchedule_getInstance(), element.i1z_1)) < 0) {
         tmp$ret$0 = element;
         break $l$block;
       }
@@ -10148,14 +10168,14 @@ protoOf(GblSchedule).m1z = function (weeks, now) {
   }
   return tmp$ret$0;
 };
-protoOf(GblSchedule).n1z = function (weeks, now) {
+protoOf(GblSchedule).o1z = function (weeks, now) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = weeks.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (compareTo(utc(GblSchedule_getInstance(), element.g1z_1), utc(GblSchedule_getInstance(), now)) > 0) {
+    if (compareTo(utc(GblSchedule_getInstance(), element.h1z_1), utc(GblSchedule_getInstance(), now)) > 0) {
       destination.h(element);
     }
   }
@@ -10173,10 +10193,10 @@ protoOf(GblSchedule).n1z = function (weeks, now) {
       break $l$block_0;
     }
     var it = minElem;
-    var minValue = utc(GblSchedule_getInstance(), it.g1z_1);
+    var minValue = utc(GblSchedule_getInstance(), it.h1z_1);
     do {
       var e = iterator.k();
-      var v = utc(GblSchedule_getInstance(), e.g1z_1);
+      var v = utc(GblSchedule_getInstance(), e.h1z_1);
       if (compareTo(minValue, v) > 0) {
         minElem = e;
         minValue = v;
@@ -10187,7 +10207,7 @@ protoOf(GblSchedule).n1z = function (weeks, now) {
   }
   return tmp$ret$3;
 };
-protoOf(GblSchedule).o1z = function (part, formats) {
+protoOf(GblSchedule).p1z = function (part, formats) {
   var cp_0 = cp(this, part);
   var want = tokens(this, part);
   // Inline function 'kotlin.collections.filter' call
@@ -10275,7 +10295,7 @@ function parse$values(o) {
   var _iterator__ex2g4s = this_0.i();
   while (_iterator__ex2g4s.j()) {
     var item = _iterator__ex2g4s.k();
-    var tmp$ret$3 = get_jsonPrimitive(item).q14();
+    var tmp$ret$3 = get_jsonPrimitive(item).u14();
     destination.h(tmp$ret$3);
   }
   return destination;
@@ -10287,7 +10307,7 @@ function Companion_12() {
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
-  tmp.p1z_1 = [lazy_0(tmp_0, CupRules$Companion$$childSerializers$_anonymous__2smypb), null, null];
+  tmp.q1z_1 = [lazy_0(tmp_0, CupRules$Companion$$childSerializers$_anonymous__2smypb), null, null];
 }
 protoOf(Companion_12).vi = function (gamemasterText) {
   var tmp = get_jsonObject(Default_getInstance().i12(gamemasterText)).hc('cups');
@@ -10311,7 +10331,7 @@ protoOf(Companion_12).vi = function (gamemasterText) {
       var cup = get_jsonObject(element);
       var tmp0_safe_receiver = cup.hc('name');
       var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : get_jsonPrimitive(tmp0_safe_receiver);
-      var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q14();
+      var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u14();
       var tmp_1;
       if (tmp2_elvis_lhs == null) {
         tmp$ret$4 = null;
@@ -10342,7 +10362,7 @@ protoOf(Companion_12).vi = function (gamemasterText) {
         var element_0 = _iterator__ex2g4s_1.k();
         var tmp0_safe_receiver_0 = element_0.hc('filterType');
         var tmp1_safe_receiver_0 = tmp0_safe_receiver_0 == null ? null : get_jsonPrimitive(tmp0_safe_receiver_0);
-        if ((tmp1_safe_receiver_0 == null ? null : tmp1_safe_receiver_0.q14()) === 'type') {
+        if ((tmp1_safe_receiver_0 == null ? null : tmp1_safe_receiver_0.u14()) === 'type') {
           destination_1.h(element_0);
         }
       }
@@ -10364,7 +10384,7 @@ protoOf(Companion_12).vi = function (gamemasterText) {
         var element_2 = _iterator__ex2g4s_3.k();
         var tmp0_safe_receiver_1 = element_2.hc('filterType');
         var tmp1_safe_receiver_1 = tmp0_safe_receiver_1 == null ? null : get_jsonPrimitive(tmp0_safe_receiver_1);
-        if ((tmp1_safe_receiver_1 == null ? null : tmp1_safe_receiver_1.q14()) === 'id') {
+        if ((tmp1_safe_receiver_1 == null ? null : tmp1_safe_receiver_1.u14()) === 'id') {
           destination_3.h(element_2);
         }
       }
@@ -10396,7 +10416,7 @@ protoOf(Companion_12).vi = function (gamemasterText) {
           var element_4 = _iterator__ex2g4s_5.k();
           var tmp0_safe_receiver_2 = element_4.hc('filterType');
           var tmp1_safe_receiver_2 = tmp0_safe_receiver_2 == null ? null : get_jsonPrimitive(tmp0_safe_receiver_2);
-          if ((tmp1_safe_receiver_2 == null ? null : tmp1_safe_receiver_2.q14()) === 'evolution') {
+          if ((tmp1_safe_receiver_2 == null ? null : tmp1_safe_receiver_2.u14()) === 'evolution') {
             tmp$ret$21 = true;
             break $l$block_1;
           }
@@ -10430,17 +10450,17 @@ function CupRules(types, extraSpecies, firstStageOnly) {
   types = types === VOID ? emptyList() : types;
   extraSpecies = extraSpecies === VOID ? false : extraSpecies;
   firstStageOnly = firstStageOnly === VOID ? false : firstStageOnly;
-  this.q1z_1 = types;
-  this.r1z_1 = extraSpecies;
-  this.s1z_1 = firstStageOnly;
+  this.r1z_1 = types;
+  this.s1z_1 = extraSpecies;
+  this.t1z_1 = firstStageOnly;
 }
 protoOf(CupRules).toString = function () {
-  return 'CupRules(types=' + toString_0(this.q1z_1) + ', extraSpecies=' + this.r1z_1 + ', firstStageOnly=' + this.s1z_1 + ')';
+  return 'CupRules(types=' + toString_0(this.r1z_1) + ', extraSpecies=' + this.s1z_1 + ', firstStageOnly=' + this.t1z_1 + ')';
 };
 protoOf(CupRules).hashCode = function () {
-  var result = hashCode(this.q1z_1);
-  result = imul(result, 31) + getBooleanHashCode(this.r1z_1) | 0;
+  var result = hashCode(this.r1z_1);
   result = imul(result, 31) + getBooleanHashCode(this.s1z_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.t1z_1) | 0;
   return result;
 };
 protoOf(CupRules).equals = function (other) {
@@ -10448,11 +10468,11 @@ protoOf(CupRules).equals = function (other) {
     return true;
   if (!(other instanceof CupRules))
     return false;
-  if (!equals(this.q1z_1, other.q1z_1))
-    return false;
-  if (!(this.r1z_1 === other.r1z_1))
+  if (!equals(this.r1z_1, other.r1z_1))
     return false;
   if (!(this.s1z_1 === other.s1z_1))
+    return false;
+  if (!(this.t1z_1 === other.t1z_1))
     return false;
   return true;
 };
@@ -10461,25 +10481,25 @@ function Step(id, title, text, search, target, appOnly, webOnly) {
   target = target === VOID ? null : target;
   appOnly = appOnly === VOID ? false : appOnly;
   webOnly = webOnly === VOID ? false : webOnly;
-  this.t1z_1 = id;
-  this.u1z_1 = title;
-  this.v1z_1 = text;
-  this.w1z_1 = search;
-  this.x1z_1 = target;
-  this.y1z_1 = appOnly;
-  this.z1z_1 = webOnly;
+  this.u1z_1 = id;
+  this.v1z_1 = title;
+  this.w1z_1 = text;
+  this.x1z_1 = search;
+  this.y1z_1 = target;
+  this.z1z_1 = appOnly;
+  this.a20_1 = webOnly;
 }
 protoOf(Step).toString = function () {
-  return 'Step(id=' + this.t1z_1 + ', title=' + this.u1z_1 + ', text=' + this.v1z_1 + ', search=' + this.w1z_1 + ', target=' + this.x1z_1 + ', appOnly=' + this.y1z_1 + ', webOnly=' + this.z1z_1 + ')';
+  return 'Step(id=' + this.u1z_1 + ', title=' + this.v1z_1 + ', text=' + this.w1z_1 + ', search=' + this.x1z_1 + ', target=' + this.y1z_1 + ', appOnly=' + this.z1z_1 + ', webOnly=' + this.a20_1 + ')';
 };
 protoOf(Step).hashCode = function () {
-  var result = getStringHashCode(this.t1z_1);
-  result = imul(result, 31) + getStringHashCode(this.u1z_1) | 0;
+  var result = getStringHashCode(this.u1z_1);
   result = imul(result, 31) + getStringHashCode(this.v1z_1) | 0;
-  result = imul(result, 31) + (this.w1z_1 == null ? 0 : getStringHashCode(this.w1z_1)) | 0;
+  result = imul(result, 31) + getStringHashCode(this.w1z_1) | 0;
   result = imul(result, 31) + (this.x1z_1 == null ? 0 : getStringHashCode(this.x1z_1)) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.y1z_1) | 0;
+  result = imul(result, 31) + (this.y1z_1 == null ? 0 : getStringHashCode(this.y1z_1)) | 0;
   result = imul(result, 31) + getBooleanHashCode(this.z1z_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.a20_1) | 0;
   return result;
 };
 protoOf(Step).equals = function (other) {
@@ -10487,44 +10507,44 @@ protoOf(Step).equals = function (other) {
     return true;
   if (!(other instanceof Step))
     return false;
-  if (!(this.t1z_1 === other.t1z_1))
-    return false;
   if (!(this.u1z_1 === other.u1z_1))
     return false;
   if (!(this.v1z_1 === other.v1z_1))
     return false;
-  if (!(this.w1z_1 == other.w1z_1))
+  if (!(this.w1z_1 === other.w1z_1))
     return false;
   if (!(this.x1z_1 == other.x1z_1))
     return false;
-  if (!(this.y1z_1 === other.y1z_1))
+  if (!(this.y1z_1 == other.y1z_1))
     return false;
   if (!(this.z1z_1 === other.z1z_1))
+    return false;
+  if (!(this.a20_1 === other.a20_1))
     return false;
   return true;
 };
 function Guide() {
   Guide_instance = this;
-  this.a20_1 = listOf([new Step('names', 'Spitzname & Markierungen', 'Oben bei \u201EName\u201C steht \u201EAuto\u201C: Die App entscheidet je Pok\xE9mon PvP oder PvE und nennt dir die passende Markierung (PVE, PvP Super Liga, PvP Hyper Liga, PvP alle). Lege diese Markierungen im Spiel einmal an.', VOID, VOID, true), new Step('scan_mode', 'Scannen einstellen', 'Automatik auf \u201EAnzeigen\u201C: Beim Wischen durch die Bewertung zeigt die App sofort \u2705 Speichern / \uD83E\uDD14 Vielleicht / \u2716 Nicht n\xF6tig. Den runden \uD83D\uDCBE-Knopf tippen speichert. \u201EScan starten\u201C einmal tippen und die Bildschirmaufnahme erlauben.', VOID, VOID, true), new Step('legendary', 'Legend\xE4re & Mysteri\xF6se scannen', 'Suchbefehl einf\xFCgen, das erste Pok\xE9mon \xF6ffnen, Bewertung aufrufen und durchwischen.', 'legend\xE4r,mysteri\xF6s'), new Step('hundos', '100er und 3-Sterne scannen', 'Deine besten IV \u2013 wichtig f\xFCr Raids und Dyna-K\xE4mpfe.', '4*,3*'), new Step('pvp', 'PvP-Kandidaten scannen', 'Wenig Angriff, viel Verteidigung und KP: typische PvP-Exemplare f\xFCr Super- und Hyperliga.', '0Angriff,1Angriff&3Verteidigung,4Verteidigung&3KP,4KP'), new Step('video', 'Per Video scannen', 'Im Spiel Bildschirmaufnahme starten, Suchbefehl einf\xFCgen, Bewertung \xF6ffnen und langsam durchwischen. Dann das Video im Reiter \u201EVideo\u201C w\xE4hlen.', VOID, 'video', VOID, true), new Step('shadow', 'Crypto einsortieren', 'Im Spiel nach Crypto suchen, die Liste langsam durchscrollen (live oder Video). Die App markiert deine gespeicherten Pok\xE9mon als Crypto.', 'crypto', 'traits:SHADOW'), new Step('dynamax', 'Dynamax & Gigadynamax einsortieren', 'Erst \u201Edynamax&!gigadynamax\u201C, dann \u201Egigadynamax\u201C \u2013 jeweils die Liste durchscrollen.', 'dynamax&!gigadynamax', 'traits:DYNAMAX'), new Step('purified', 'Erl\xF6st & Gl\xFCcks einsortieren', 'Wie bei Crypto, mit den Suchen \u201Eerl\xF6st\u201C und \u201Egl\xFCcks\u201C.', 'erl\xF6st', 'traits:PURIFIED'), new Step('mega', 'Megas einsortieren', 'Mit \u201Emega1-\u201C erscheinen alle, die du schon einmal Mega-entwickelt hast. Liste durchscrollen, danach je Pok\xE9mon die Mega-Stufe w\xE4hlen (1 Basis, 2 Hoch, 3 Max, 4 Super-Max).', 'mega1-', 'traits:MEGA'), new Step('moves', 'Attacken & Markierungen einlesen', 'Die App nennt dir einen Suchbefehl f\xFCr alle Pok\xE9mon, bei denen sich das lohnt. Jedes \xF6ffnen (Attacken sichtbar) und weiterwischen.', VOID, 'moves'), new Step('max_levels', 'Dyna-Stufen eintragen', 'Unter Raids \u2192 Dyna deine Dyna-Pok\xE9mon antippen und Angriff/Schild/Geist-Stufe eintragen.', VOID, 'raids:2'), new Step('upgrade', 'Ratgeber ansehen', '\u201EWas lohnt sich?\u201C zeigt je Typ dein bestes Pok\xE9mon und was sich auszubauen lohnt. Nicht genug Bonbons? \u201E\u23F8 Sp\xE4ter\u201C.', VOID, 'upgrade'), new Step('teams', 'PvP-Teams ansehen', 'Der Teamfinder baut Teams aus deinen Pok\xE9mon f\xFCr die laufende Kampfliga.', VOID, 'teams'), new Step('daily', 'T\xE4glicher Ablauf', 'Nach dem Fangen im Spiel \u201E!#\u201C suchen (nur Pok\xE9mon ohne Markierung), mit der Automatik \u201EAnzeigen\u201C durchwischen, Lohnendes mit \uD83D\uDCBE speichern, umbenennen und markieren. Den Rest tauschen oder verschicken.', '!#', VOID, true), new Step('daily_web', 'T\xE4glicher Ablauf', 'Nach dem Fangen im Spiel \u201E!#\u201C suchen (nur Pok\xE9mon ohne Markierung), Bildschirm aufnehmen, Bewertung durchwischen und das Video im Reiter \u201EVideo\u201C einlesen. Danach umbenennen und markieren, den Rest tauschen oder verschicken.', '!#', 'video', VOID, true)]);
+  this.b20_1 = listOf([new Step('names', 'Spitzname & Markierungen', 'Oben bei \u201EName\u201C steht \u201EAuto\u201C: Die App entscheidet je Pok\xE9mon PvP oder PvE und nennt dir die passende Markierung (PVE, PvP Super Liga, PvP Hyper Liga, PvP alle). Lege diese Markierungen im Spiel einmal an.', VOID, VOID, true), new Step('scan_mode', 'Scannen einstellen', 'Automatik auf \u201EAnzeigen\u201C: Beim Wischen durch die Bewertung zeigt die App sofort \u2705 Speichern / \uD83E\uDD14 Vielleicht / \u2716 Nicht n\xF6tig. Den runden \uD83D\uDCBE-Knopf tippen speichert. \u201EScan starten\u201C einmal tippen und die Bildschirmaufnahme erlauben.', VOID, VOID, true), new Step('legendary', 'Legend\xE4re & Mysteri\xF6se scannen', 'Suchbefehl einf\xFCgen, das erste Pok\xE9mon \xF6ffnen, Bewertung aufrufen und durchwischen.', 'legend\xE4r,mysteri\xF6s'), new Step('hundos', '100er und 3-Sterne scannen', 'Deine besten IV \u2013 wichtig f\xFCr Raids und Dyna-K\xE4mpfe.', '4*,3*'), new Step('pvp', 'PvP-Kandidaten scannen', 'Wenig Angriff, viel Verteidigung und KP: typische PvP-Exemplare f\xFCr Super- und Hyperliga.', '0Angriff,1Angriff&3Verteidigung,4Verteidigung&3KP,4KP'), new Step('video', 'Per Video scannen', 'Im Spiel Bildschirmaufnahme starten, Suchbefehl einf\xFCgen, Bewertung \xF6ffnen und langsam durchwischen. Dann das Video im Reiter \u201EVideo\u201C w\xE4hlen.', VOID, 'video', VOID, true), new Step('shadow', 'Crypto einsortieren', 'Im Spiel nach Crypto suchen, die Liste langsam durchscrollen (live oder Video). Die App markiert deine gespeicherten Pok\xE9mon als Crypto.', 'crypto', 'traits:SHADOW'), new Step('dynamax', 'Dynamax & Gigadynamax einsortieren', 'Erst \u201Edynamax&!gigadynamax\u201C, dann \u201Egigadynamax\u201C \u2013 jeweils die Liste durchscrollen.', 'dynamax&!gigadynamax', 'traits:DYNAMAX'), new Step('purified', 'Erl\xF6st & Gl\xFCcks einsortieren', 'Wie bei Crypto, mit den Suchen \u201Eerl\xF6st\u201C und \u201Egl\xFCcks\u201C.', 'erl\xF6st', 'traits:PURIFIED'), new Step('mega', 'Megas einsortieren', 'Mit \u201Emega1-\u201C erscheinen alle, die du schon einmal Mega-entwickelt hast. Liste durchscrollen, danach je Pok\xE9mon die Mega-Stufe w\xE4hlen (1 Basis, 2 Hoch, 3 Max, 4 Super-Max).', 'mega1-', 'traits:MEGA'), new Step('moves', 'Attacken & Markierungen einlesen', 'Die App nennt dir einen Suchbefehl f\xFCr alle Pok\xE9mon, bei denen sich das lohnt. Jedes \xF6ffnen (Attacken sichtbar) und weiterwischen.', VOID, 'moves'), new Step('max_levels', 'Dyna-Stufen eintragen', 'Unter Raids \u2192 Dyna deine Dyna-Pok\xE9mon antippen und Angriff/Schild/Geist-Stufe eintragen.', VOID, 'raids:2'), new Step('upgrade', 'Ratgeber ansehen', '\u201EWas lohnt sich?\u201C zeigt je Typ dein bestes Pok\xE9mon und was sich auszubauen lohnt. Nicht genug Bonbons? \u201E\u23F8 Sp\xE4ter\u201C.', VOID, 'upgrade'), new Step('teams', 'PvP-Teams ansehen', 'Der Teamfinder baut Teams aus deinen Pok\xE9mon f\xFCr die laufende Kampfliga.', VOID, 'teams'), new Step('daily', 'T\xE4glicher Ablauf', 'Nach dem Fangen im Spiel \u201E!#\u201C suchen (nur Pok\xE9mon ohne Markierung), mit der Automatik \u201EAnzeigen\u201C durchwischen, Lohnendes mit \uD83D\uDCBE speichern, umbenennen und markieren. Den Rest tauschen oder verschicken.', '!#', VOID, true), new Step('daily_web', 'T\xE4glicher Ablauf', 'Nach dem Fangen im Spiel \u201E!#\u201C suchen (nur Pok\xE9mon ohne Markierung), Bildschirm aufnehmen, Bewertung durchwischen und das Video im Reiter \u201EVideo\u201C einlesen. Danach umbenennen und markieren, den Rest tauschen oder verschicken.', '!#', 'video', VOID, true)]);
 }
-protoOf(Guide).b20 = function (web) {
+protoOf(Guide).c20 = function (web) {
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = this.a20_1;
+  var tmp0 = this.b20_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (web ? !element.y1z_1 : !element.z1z_1) {
+    if (web ? !element.z1z_1 : !element.a20_1) {
       destination.h(element);
     }
   }
   return destination;
 };
-protoOf(Guide).c20 = function (ids) {
+protoOf(Guide).d20 = function (ids) {
   return joinToString(ids, ',');
 };
-protoOf(Guide).d20 = function (text) {
+protoOf(Guide).e20 = function (text) {
   // Inline function 'kotlin.text.orEmpty' call
   var tmp$ret$0 = text == null ? '' : text;
   // Inline function 'kotlin.collections.filter' call
@@ -10549,15 +10569,15 @@ function Guide_getInstance() {
 }
 function Part(text, icon) {
   icon = icon === VOID ? null : icon;
-  this.e20_1 = text;
-  this.f20_1 = icon;
+  this.f20_1 = text;
+  this.g20_1 = icon;
 }
 protoOf(Part).toString = function () {
-  return 'Part(text=' + this.e20_1 + ', icon=' + this.f20_1 + ')';
+  return 'Part(text=' + this.f20_1 + ', icon=' + this.g20_1 + ')';
 };
 protoOf(Part).hashCode = function () {
-  var result = getStringHashCode(this.e20_1);
-  result = imul(result, 31) + (this.f20_1 == null ? 0 : getStringHashCode(this.f20_1)) | 0;
+  var result = getStringHashCode(this.f20_1);
+  result = imul(result, 31) + (this.g20_1 == null ? 0 : getStringHashCode(this.g20_1)) | 0;
   return result;
 };
 protoOf(Part).equals = function (other) {
@@ -10565,9 +10585,9 @@ protoOf(Part).equals = function (other) {
     return true;
   if (!(other instanceof Part))
     return false;
-  if (!(this.e20_1 === other.e20_1))
+  if (!(this.f20_1 === other.f20_1))
     return false;
-  if (!(this.f20_1 == other.f20_1))
+  if (!(this.g20_1 == other.g20_1))
     return false;
   return true;
 };
@@ -10599,16 +10619,16 @@ function isPictograph($this, cp) {
   return (126976 <= cp ? cp <= 129791 : false) || (9728 <= cp ? cp <= 10175 : false) || (11008 <= cp ? cp <= 11263 : false) || (8592 <= cp ? cp <= 8703 : false) || (8960 <= cp ? cp <= 9215 : false) || (9632 <= cp ? cp <= 9727 : false) || cp === 65039 || cp === 8205 || (127995 <= cp ? cp <= 127999 : false);
 }
 function sam$kotlin_Comparator$0_4(function_0) {
-  this.g20_1 = function_0;
+  this.h20_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_4).uc = function (a, b) {
-  return this.g20_1(a, b);
+  return this.h20_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_4).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_4).t2 = function () {
-  return this.g20_1;
+  return this.h20_1;
 };
 protoOf(sam$kotlin_Comparator$0_4).equals = function (other) {
   var tmp;
@@ -10643,10 +10663,10 @@ function split$flush(buf, out) {
 }
 function Ico() {
   Ico_instance = this;
-  this.h20_1 = mapOf([to('\u2713', 'check'), to('\u2714', 'check'), to('\u2705', 'check_circle'), to('\u2611', 'check_box'), to('\u2610', 'check_box_outline_blank'), to('\u2192', 'arrow_forward'), to('\u279C', 'arrow_forward'), to('\u2794', 'arrow_forward'), to('\u2190', 'arrow_back'), to('\u2191', 'arrow_upward'), to('\u2B06', 'upgrade'), to('\u2193', 'arrow_downward'), to('\u2B07', 'download'), to('\u21BB', 'refresh'), to('\uD83D\uDD04', 'sync'), to('\u2605', 'star'), to('\u2B50', 'star'), to('\u2606', 'star'), to('\u2728', 'auto_awesome'), to('\uD83D\uDCAB', 'auto_awesome'), to('\u2694', 'swords'), to('\u26A1', 'bolt'), to('\u26A0', 'warning'), to('\u23F3', 'hourglass_top'), to('\u231B', 'hourglass_top'), to('\u25BC', 'expand_more'), to('\u25BE', 'expand_more'), to('\u25B2', 'expand_less'), to('\u25B4', 'expand_less'), to('\u25B6', 'play_arrow'), to('\u23F8', 'pause'), to('\u23FA', 'fiber_manual_record'), to('\u25A0', 'stop'), to('\u232B', 'backspace'), to('\uD83C\uDFF7', 'sell'), to('\uD83D\uDD0D', 'search'), to('\uD83D\uDD0E', 'search'), to('\uD83D\uDCCB', 'content_copy'), to('\uD83D\uDCBE', 'save'), to('\u25D0', 'contrast'), to('\u25CF', 'circle'), to('\uD83D\uDD34', 'circle'), to('\u25CB', 'circle'), to('\uD83C\uDFC6', 'trophy'), to('\uD83C\uDF81', 'redeem'), to('\uD83D\uDD2C', 'science'), to('\uD83D\uDCC5', 'calendar_month'), to('\uD83D\uDCC6', 'event'), to('\uD83C\uDD95', 'fiber_new'), to('\uD83D\uDD27', 'build'), to('\uD83D\uDD17', 'link'), to('\uD83D\uDCCA', 'bar_chart'), to('\uD83D\uDCC8', 'trending_up'), to('\uD83D\uDCAF', 'verified'), to('\uD83C\uDF93', 'school'), to('\uD83D\uDC65', 'group'), to('\uD83C\uDFAC', 'movie'), to('\uD83E\uDDF9', 'cleaning_services'), to('\uD83D\uDEAB', 'block'), to('\uD83D\uDCF0', 'newspaper'), to('\uD83D\uDCE6', 'inventory_2'), to('\u2715', 'close'), to('\u2716', 'close'), to('\u274C', 'close'), to('\uD83E\uDD5A', 'egg'), to('\uD83E\uDD1D', 'handshake'), to('\uD83E\uDD14', 'help'), to('\u2753', 'help'), to('\u2754', 'help'), to('\uD83D\uDDD1', 'delete'), to('\uD83D\uDCD6', 'menu_book'), to('\uD83D\uDCA5', 'flare'), to('\uD83D\uDC41', 'visibility'), to('\uD83C\uDFAB', 'confirmation_number'), to('\uD83C\uDF9F', 'local_activity'), to('\uD83C\uDF3F', 'park'), to('\uD83C\uDF31', 'park'), to('\u270E', 'edit'), to('\u270F', 'edit'), to('\u2630', 'view_agenda'), to('\u25A6', 'grid_view'), to('\u2600', 'sunny'), to('\uD83C\uDF24', 'partly_cloudy_day'), to('\u26C5', 'partly_cloudy_day'), to('\u2601', 'cloud'), to('\uD83C\uDF27', 'rainy'), to('\u2744', 'ac_unit'), to('\uD83D\uDCA8', 'air'), to('\uD83C\uDF2B', 'foggy'), to('\uD83C\uDF19', 'nights_stay'), to('\uD83E\uDDEE', 'calculate'), to('\uD83D\uDEE4', 'route'), to('\uD83D\uDCF7', 'photo_camera'), to('\uD83D\uDCE5', 'download'), to('\uD83D\uDCCD', 'location_on'), to('\uD83C\uDF88', 'celebration'), to('\uD83C\uDF89', 'celebration'), to('\uD83C\uDF6C', 'cookie'), to('\u26BE', 'sports_baseball'), to('\u2699', 'settings'), to('\u2642', 'male'), to('\u2640', 'female'), to('\u2620', 'skull'), to('\uD83E\uDE9D', 'pin_drop'), to('\uD83D\uDD2E', 'auto_awesome'), to('\uD83D\uDD25', 'local_fire_department'), to('\uD83D\uDCA7', 'water_drop'), to('\uD83D\uDEE1', 'shield'), to('\uD83D\uDCA1', 'lightbulb'), to('\uD83D\uDE80', 'rocket_launch'), to('\uD83D\uDC4D', 'thumb_up'), to('\uD83D\uDC4E', 'thumb_down'), to('\u2139', 'info'), to('\u23F1', 'timer'), to('\uD83D\uDD52', 'schedule'), to('\uD83D\uDD14', 'notifications'), to('\uD83D\uDC64', 'person'), to('\uD83C\uDFE0', 'home'), to('\uD83D\uDCE4', 'upload'), to('\uD83D\uDCCC', 'pin_drop'), to('\uD83D\uDC51', 'crown'), to('\uD83C\uDF38', 'local_florist'), to('\u26C8', 'thunderstorm'), to('\uD83D\uDC3E', 'pets'), to('\uD83D\uDC8E', 'diamond'), to('\uD83D\uDD01', 'swap_horiz'), to('\u21C4', 'swap_horiz')]);
+  this.i20_1 = mapOf([to('\u2713', 'check'), to('\u2714', 'check'), to('\u2705', 'check_circle'), to('\u2611', 'check_box'), to('\u2610', 'check_box_outline_blank'), to('\u2192', 'arrow_forward'), to('\u279C', 'arrow_forward'), to('\u2794', 'arrow_forward'), to('\u2190', 'arrow_back'), to('\u2191', 'arrow_upward'), to('\u2B06', 'upgrade'), to('\u2193', 'arrow_downward'), to('\u2B07', 'download'), to('\u21BB', 'refresh'), to('\uD83D\uDD04', 'sync'), to('\u2605', 'star'), to('\u2B50', 'star'), to('\u2606', 'star'), to('\u2728', 'auto_awesome'), to('\uD83D\uDCAB', 'auto_awesome'), to('\u2694', 'swords'), to('\u26A1', 'bolt'), to('\u26A0', 'warning'), to('\u23F3', 'hourglass_top'), to('\u231B', 'hourglass_top'), to('\u25BC', 'expand_more'), to('\u25BE', 'expand_more'), to('\u25B2', 'expand_less'), to('\u25B4', 'expand_less'), to('\u25B6', 'play_arrow'), to('\u23F8', 'pause'), to('\u23FA', 'fiber_manual_record'), to('\u25A0', 'stop'), to('\u232B', 'backspace'), to('\uD83C\uDFF7', 'sell'), to('\uD83D\uDD0D', 'search'), to('\uD83D\uDD0E', 'search'), to('\uD83D\uDCCB', 'content_copy'), to('\uD83D\uDCBE', 'save'), to('\u25D0', 'contrast'), to('\u25CF', 'circle'), to('\uD83D\uDD34', 'circle'), to('\u25CB', 'circle'), to('\uD83C\uDFC6', 'trophy'), to('\uD83C\uDF81', 'redeem'), to('\uD83D\uDD2C', 'science'), to('\uD83D\uDCC5', 'calendar_month'), to('\uD83D\uDCC6', 'event'), to('\uD83C\uDD95', 'fiber_new'), to('\uD83D\uDD27', 'build'), to('\uD83D\uDD17', 'link'), to('\uD83D\uDCCA', 'bar_chart'), to('\uD83D\uDCC8', 'trending_up'), to('\uD83D\uDCAF', 'verified'), to('\uD83C\uDF93', 'school'), to('\uD83D\uDC65', 'group'), to('\uD83C\uDFAC', 'movie'), to('\uD83E\uDDF9', 'cleaning_services'), to('\uD83D\uDEAB', 'block'), to('\uD83D\uDCF0', 'newspaper'), to('\uD83D\uDCE6', 'inventory_2'), to('\u2715', 'close'), to('\u2716', 'close'), to('\u274C', 'close'), to('\uD83E\uDD5A', 'egg'), to('\uD83E\uDD1D', 'handshake'), to('\uD83E\uDD14', 'help'), to('\u2753', 'help'), to('\u2754', 'help'), to('\uD83D\uDDD1', 'delete'), to('\uD83D\uDCD6', 'menu_book'), to('\uD83D\uDCA5', 'flare'), to('\uD83D\uDC41', 'visibility'), to('\uD83C\uDFAB', 'confirmation_number'), to('\uD83C\uDF9F', 'local_activity'), to('\uD83C\uDF3F', 'park'), to('\uD83C\uDF31', 'park'), to('\u270E', 'edit'), to('\u270F', 'edit'), to('\u2630', 'view_agenda'), to('\u25A6', 'grid_view'), to('\u2600', 'sunny'), to('\uD83C\uDF24', 'partly_cloudy_day'), to('\u26C5', 'partly_cloudy_day'), to('\u2601', 'cloud'), to('\uD83C\uDF27', 'rainy'), to('\u2744', 'ac_unit'), to('\uD83D\uDCA8', 'air'), to('\uD83C\uDF2B', 'foggy'), to('\uD83C\uDF19', 'nights_stay'), to('\uD83E\uDDEE', 'calculate'), to('\uD83D\uDEE4', 'route'), to('\uD83D\uDCF7', 'photo_camera'), to('\uD83D\uDCE5', 'download'), to('\uD83D\uDCCD', 'location_on'), to('\uD83C\uDF88', 'celebration'), to('\uD83C\uDF89', 'celebration'), to('\uD83C\uDF6C', 'cookie'), to('\u26BE', 'sports_baseball'), to('\u2699', 'settings'), to('\u2642', 'male'), to('\u2640', 'female'), to('\u2620', 'skull'), to('\uD83E\uDE9D', 'pin_drop'), to('\uD83D\uDD2E', 'auto_awesome'), to('\uD83D\uDD25', 'local_fire_department'), to('\uD83D\uDCA7', 'water_drop'), to('\uD83D\uDEE1', 'shield'), to('\uD83D\uDCA1', 'lightbulb'), to('\uD83D\uDE80', 'rocket_launch'), to('\uD83D\uDC4D', 'thumb_up'), to('\uD83D\uDC4E', 'thumb_down'), to('\u2139', 'info'), to('\u23F1', 'timer'), to('\uD83D\uDD52', 'schedule'), to('\uD83D\uDD14', 'notifications'), to('\uD83D\uDC64', 'person'), to('\uD83C\uDFE0', 'home'), to('\uD83D\uDCE4', 'upload'), to('\uD83D\uDCCC', 'pin_drop'), to('\uD83D\uDC51', 'crown'), to('\uD83C\uDF38', 'local_florist'), to('\u26C8', 'thunderstorm'), to('\uD83D\uDC3E', 'pets'), to('\uD83D\uDC8E', 'diamond'), to('\uD83D\uDD01', 'swap_horiz'), to('\u21C4', 'swap_horiz')]);
   var tmp = this;
   // Inline function 'kotlin.collections.groupBy' call
-  var tmp0 = this.h20_1.d2();
+  var tmp0 = this.i20_1.d2();
   // Inline function 'kotlin.collections.groupByTo' call
   var destination = LinkedHashMap_init_$Create$();
   var _iterator__ex2g4s = tmp0.i();
@@ -10683,19 +10703,19 @@ function Ico() {
     var tmp$ret$9 = sortedWith(v, tmp$ret$12);
     destination_0.f2(tmp_1, tmp$ret$9);
   }
-  tmp.i20_1 = destination_0;
+  tmp.j20_1 = destination_0;
 }
-protoOf(Ico).j20 = function (name, filled) {
-  var tmp0_elvis_lhs = filled ? IconData_getInstance().k20_1.c2(name) : IconData_getInstance().l20_1.c2(name);
-  return tmp0_elvis_lhs == null ? IconData_getInstance().k20_1.c2(name) : tmp0_elvis_lhs;
+protoOf(Ico).k20 = function (name, filled) {
+  var tmp0_elvis_lhs = filled ? IconData_getInstance().l20_1.c2(name) : IconData_getInstance().m20_1.c2(name);
+  return tmp0_elvis_lhs == null ? IconData_getInstance().l20_1.c2(name) : tmp0_elvis_lhs;
 };
-protoOf(Ico).m20 = function (name) {
+protoOf(Ico).n20 = function (name) {
   // Inline function 'kotlin.collections.contains' call
   // Inline function 'kotlin.collections.containsKey' call
-  var this_0 = IconData_getInstance().k20_1;
+  var this_0 = IconData_getInstance().l20_1;
   return (isInterface(this_0, KtMap) ? this_0 : THROW_CCE()).a2(name);
 };
-protoOf(Ico).n20 = function (text) {
+protoOf(Ico).o20 = function (text) {
   // Inline function 'kotlin.text.isEmpty' call
   if (charSequenceLength(text) === 0)
     return emptyList();
@@ -10709,7 +10729,7 @@ protoOf(Ico).n20 = function (text) {
       var end = indexOf(text, _Char___init__impl__6a9atx(93), i);
       if (end > i) {
         var name = substring(text, i + 3 | 0, end);
-        if (this.m20(name)) {
+        if (this.n20(name)) {
           split$flush(buf, out);
           out.h(new Part('', name));
           i = end + 1 | 0;
@@ -10717,7 +10737,7 @@ protoOf(Ico).n20 = function (text) {
         }
       }
     }
-    var tmp0_safe_receiver = this.i20_1.c2(new Char(charCodeAt(text, i)));
+    var tmp0_safe_receiver = this.j20_1.c2(new Char(charCodeAt(text, i)));
     var tmp;
     if (tmp0_safe_receiver == null) {
       tmp = null;
@@ -10740,7 +10760,7 @@ protoOf(Ico).n20 = function (text) {
     var key = tmp;
     if (!(key == null)) {
       split$flush(buf, out);
-      out.h(new Part('', getValue(this.h20_1, key)));
+      out.h(new Part('', getValue(this.i20_1, key)));
       i = i + key.length | 0;
       while (i < text.length && charCodeAt(text, i) === _Char___init__impl__6a9atx(65039)) {
         i = i + 1 | 0;
@@ -10791,8 +10811,8 @@ function Ico_getInstance() {
 }
 function IconData() {
   IconData_instance = this;
-  this.k20_1 = mapOf([to('ac_unit', 'M440-246 337-145q-11 11-27.5 11T282-146q-12-11-12-27.5t12-28.5l158-158v-80h-80L201-281q-11 11-27.5 11T145-282q-11-11-11-27.5t11-27.5l101-103H119q-17 0-28-11.5T80-480q0-17 11.5-28.5T120-520h126L145-622q-11-11-11-27.5t12-28.5q11-11 27.5-11t28.5 11l158 158h80v-80L281-758q-11-11-11-27.5t12-28.5q11-11 27.5-11t27.5 11l103 100v-126q0-17 11.5-28.5T480-880q17 0 28.5 11.5T520-840v126l102-100q11-11 27.5-11t28.5 11q11 12 11 28.5T678-758L520-600v80h80l158-158q11-11 27.5-11t28.5 12q11 11 11 27.5T814-622L714-520h126q17 0 28.5 11.5T880-480q0 17-11.5 28.5T840-440H714l100 103q11 11 11 27.5T814-282q-12 12-28.5 12T758-282L600-440h-80v80l158 159q11 11 11 27.5T677-145q-11 11-27.5 11T622-145L520-246v127q0 17-11.5 28T480-80q-17 0-28.5-11.5T440-120v-126Z'), to('add', 'M440-440H240q-17 0-28.5-11.5T200-480q0-17 11.5-28.5T240-520h200v-200q0-17 11.5-28.5T480-760q17 0 28.5 11.5T520-720v200h200q17 0 28.5 11.5T760-480q0 17-11.5 28.5T720-440H520v200q0 17-11.5 28.5T480-200q-17 0-28.5-11.5T440-240v-200Z'), to('air', 'M460-160q-32 0-59.5-16T356-220q-11-20-.5-40t32.5-20q13 0 23 8t18 18q5 7 13.5 10.5T460-240q17 0 28.5-11.5T500-280q0-17-11.5-28.5T460-320H120q-17 0-28.5-11.5T80-360q0-17 11.5-28.5T120-400h340q50 0 85 35t35 85q0 50-35 85t-85 35ZM120-560q-17 0-28.5-11.5T80-600q0-17 11.5-28.5T120-640h500q25 0 42.5-17.5T680-700q0-25-17.5-42.5T620-760q-16 0-30 7.5T568-731q-7 12-17 21.5t-24 9.5q-20 0-32.5-15t-6.5-32q14-42 50.5-67.5T620-840q58 0 99 41t41 99q0 58-41 99t-99 41H120Zm678 308q-20 9-39-2.5T740-288q0-14 9.5-23.5T771-328q14-8 21.5-22t7.5-30q0-25-17.5-42.5T740-440H120q-17 0-28.5-11.5T80-480q0-17 11.5-28.5T120-520h620q58 0 99 41t41 99q0 42-22 76.5T798-252Z'), to('arrow_back', 'm313-440 196 196q12 12 11.5 28T508-188q-12 11-28 11.5T452-188L188-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l264-264q11-11 27.5-11t28.5 11q12 12 12 28.5T508-715L313-520h447q17 0 28.5 11.5T800-480q0 17-11.5 28.5T760-440H313Z'), to('arrow_downward', 'M440-313v-447q0-17 11.5-28.5T480-800q17 0 28.5 11.5T520-760v447l196-196q12-12 28-11.5t28 12.5q11 12 11.5 28T772-452L508-188q-6 6-13 8.5t-15 2.5q-8 0-15-2.5t-13-8.5L188-452q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l195 195Z'), to('arrow_forward', 'M647-440H200q-17 0-28.5-11.5T160-480q0-17 11.5-28.5T200-520h447L451-716q-12-12-11.5-28t12.5-28q12-11 28-11.5t28 11.5l264 264q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L508-188q-11 11-27.5 11T452-188q-12-12-12-28.5t12-28.5l195-195Z'), to('arrow_upward', 'M440-647 244-451q-12 12-28 11.5T188-452q-11-12-11.5-28t11.5-28l264-264q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l264 264q11 11 11 27.5T772-452q-12 12-28.5 12T715-452L520-647v447q0 17-11.5 28.5T480-160q-17 0-28.5-11.5T440-200v-447Z'), to('auto_awesome', 'm646-438-86 138q-11 17-30.5 14T505-309l-28-112-273 273q-11 11-27.5 11.5T148-148q-11-11-11-28t11-28l273-274-112-28q-20-5-23-24.5t14-30.5l138-85-12-163q-2-20 16-29t33 4l125 105 151-61q19-8 33 6t6 33l-61 151 105 124q13 15 4 33t-29 16l-163-11ZM134-706q-6-6-6-14t6-14l52-52q6-6 14-6t14 6l52 52q6 6 6 14t-6 14l-52 52q-6 6-14 6t-14-6l-52-52Zm572 572-52-52q-6-6-6-14t6-14l52-52q6-6 14-6t14 6l52 52q6 6 6 14t-6 14l-52 52q-6 6-14 6t-14-6Z'), to('backspace', 'M360-200q-20 0-37.5-9T294-234L153-434q-15-21-15-46t15-46l141-200q11-16 28.5-25t37.5-9h400q33 0 56.5 23.5T840-680v400q0 33-23.5 56.5T760-200H360Zm200-224 76 76q11 11 28 11t28-11q11-11 11-28t-11-28l-76-76 76-76q11-11 11-28t-11-28q-11-11-28-11t-28 11l-76 76-76-76q-11-11-28-11t-28 11q-11 11-11 28t11 28l76 76-76 76q-11 11-11 28t11 28q11 11 28 11t28-11l76-76Z'), to('bar_chart', 'M680-160q-17 0-28.5-11.5T640-200v-200q0-17 11.5-28.5T680-440h80q17 0 28.5 11.5T800-400v200q0 17-11.5 28.5T760-160h-80Zm-240 0q-17 0-28.5-11.5T400-200v-560q0-17 11.5-28.5T440-800h80q17 0 28.5 11.5T560-760v560q0 17-11.5 28.5T520-160h-80Zm-240 0q-17 0-28.5-11.5T160-200v-360q0-17 11.5-28.5T200-600h80q17 0 28.5 11.5T320-560v360q0 17-11.5 28.5T280-160h-80Z'), to('block', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z'), to('bolt', 'M360-360H236q-24 0-35.5-21.5T203-423l299-430q10-14 26-19.5t33 .5q17 6 25 21t6 32l-32 259h155q26 0 36.5 23t-6.5 43L416-100q-11 13-27 17t-31-3q-15-7-23.5-21.5T328-139l32-221Z'), to('bookmark', 'm480-240-168 72q-40 17-76-6.5T200-241v-519q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v519q0 43-36 66.5t-76 6.5l-168-72Z'), to('bug_report', 'M480-120q-65 0-120.5-32T272-240h-72q-17 0-28.5-11.5T160-280q0-17 11.5-28.5T200-320h44q-3-20-3.5-40t-.5-40h-40q-17 0-28.5-11.5T160-440q0-17 11.5-28.5T200-480h40q0-20 .5-40t3.5-40h-44q-17 0-28.5-11.5T160-600q0-17 11.5-28.5T200-640h72q14-23 31.5-43t40.5-35l-37-38q-11-11-11-27.5t12-28.5q11-11 28-11t28 11l58 58q28-9 57-9t57 9l60-59q11-11 27.5-11t28.5 12q11 11 11 28t-11 28l-38 38q23 15 41.5 34.5T688-640h72q17 0 28.5 11.5T800-600q0 17-11.5 28.5T760-560h-44q3 20 3.5 40t.5 40h40q17 0 28.5 11.5T800-440q0 17-11.5 28.5T760-400h-40q0 20-.5 40t-3.5 40h44q17 0 28.5 11.5T800-280q0 17-11.5 28.5T760-240h-72q-32 56-87.5 88T480-120Zm-40-200h80q17 0 28.5-11.5T560-360q0-17-11.5-28.5T520-400h-80q-17 0-28.5 11.5T400-360q0 17 11.5 28.5T440-320Zm0-160h80q17 0 28.5-11.5T560-520q0-17-11.5-28.5T520-560h-80q-17 0-28.5 11.5T400-520q0 17 11.5 28.5T440-480Z'), to('build', 'M360-360q-100 0-170-70t-70-170q0-20 3-40t11-38q5-10 12.5-15t16.5-7q9-2 18.5.5T199-689l105 105 72-72-105-105q-8-8-10.5-17.5T260-797q2-9 7-16.5t15-12.5q18-8 38-11t40-3q100 0 170 70t70 170q0 23-4 43.5T584-516l202 200q29 29 29 71t-29 71q-29 29-71 29t-71-30L444-376q-20 8-40.5 12t-43.5 4Z'), to('calculate', 'M320-320v50q0 13 8.5 21.5T350-240q13 0 21.5-8.5T380-270v-50h50q13 0 21.5-8.5T460-350q0-13-8.5-21.5T430-380h-50v-50q0-13-8.5-21.5T350-460q-13 0-21.5 8.5T320-430v50h-50q-13 0-21.5 8.5T240-350q0 13 8.5 21.5T270-320h50Zm230 50h140q13 0 21.5-8.5T720-300q0-13-8.5-21.5T690-330H550q-13 0-21.5 8.5T520-300q0 13 8.5 21.5T550-270Zm0-100h140q13 0 21.5-8.5T720-400q0-13-8.5-21.5T690-430H550q-13 0-21.5 8.5T520-400q0 13 8.5 21.5T550-370Zm70-208 35 35q9 9 21 9t21-9q8-8 8.5-20.5T698-585l-36-37 35-35q9-9 9-21t-9-21q-9-9-21-9t-21 9l-35 35-35-35q-9-9-21-9t-21 9q-9 9-9 21t9 21l35 35-36 37q-8 9-8 21t9 21q9 9 21 9t21-9l35-35Zm-340-14h140q13 0 21.5-8.5T450-622q0-13-8.5-21.5T420-652H280q-13 0-21.5 8.5T250-622q0 13 8.5 21.5T280-592Zm-80 472q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Z'), to('calendar_month', 'M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm280-240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z'), to('cancel', 'm480-424 116 116q11 11 28 11t28-11q11-11 11-28t-11-28L536-480l116-116q11-11 11-28t-11-28q-11-11-28-11t-28 11L480-536 364-652q-11-11-28-11t-28 11q-11 11-11 28t11 28l116 116-116 116q-11 11-11 28t11 28q11 11 28 11t28-11l116-116Zm0 344q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('category', 'm297-581 149-243q6-10 15-14.5t19-4.5q10 0 19 4.5t15 14.5l149 243q6 10 6 21t-5 20q-5 9-14 14.5t-21 5.5H331q-12 0-21-5.5T296-540q-5-9-5-20t6-21ZM700-80q-75 0-127.5-52.5T520-260q0-75 52.5-127.5T700-440q75 0 127.5 52.5T880-260q0 75-52.5 127.5T700-80Zm-580-60v-240q0-17 11.5-28.5T160-420h240q17 0 28.5 11.5T440-380v240q0 17-11.5 28.5T400-100H160q-17 0-28.5-11.5T120-140Z'), to('celebration', 'm108-160 151-420q5-13 15.5-20t22.5-7q8 0 15 3t13 9l270 270q6 6 9 13t3 15q0 12-7 22.5T580-259L160-108q-12 5-23 1.5T118-118q-8-8-11.5-19t1.5-23Zm813-519q-9 9-21 9t-21-9l-3-3q-14-14-35-14t-35 14L603-479q-9 9-21 9t-21-9q-9-9-9-21t9-21l203-203q32-32 77-32t77 32l3 3q9 9 9 21t-9 21ZM399-799q9-9 21-9t21 9l5 5q32 32 32 76t-32 76l-3 3q-9 9-21 9t-21-9q-9-9-9-21t9-21l3-3q14-14 14-34t-14-34l-5-5q-9-9-9-21t9-21Zm162-80q9-9 21-9t21 9l43 43q32 32 32 77t-32 77L523-559q-9 9-21 9t-21-9q-9-9-9-21t9-21l123-123q14-14 14-35t-14-35l-43-43q-9-9-9-21t9-21Zm320 480q-9 9-21 9t-21-9l-43-43q-14-14-35-14t-35 14l-43 43q-9 9-21 9t-21-9q-9-9-9-21t9-21l43-43q32-32 77-32t77 32l43 43q9 9 9 21t-9 21Z'), to('check_box', 'm424-424-86-86q-11-11-28-11t-28 11q-11 11-11 28t11 28l114 114q12 12 28 12t28-12l226-226q11-11 11-28t-11-28q-11-11-28-11t-28 11L424-424ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Z'), to('check_box_outline_blank', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Z'), to('check_circle', 'm424-408-86-86q-11-11-28-11t-28 11q-11 11-11 28t11 28l114 114q12 12 28 12t28-12l226-226q11-11 11-28t-11-28q-11-11-28-11t-28 11L424-408Zm56 328q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('check', 'm382-354 339-339q12-12 28-12t28 12q12 12 12 28.5T777-636L410-268q-12 12-28 12t-28-12L182-440q-12-12-11.5-28.5T183-497q12-12 28.5-12t28.5 12l142 143Z'), to('chevron_left', 'm432-480 156 156q11 11 11 28t-11 28q-11 11-28 11t-28-11L348-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l184-184q11-11 28-11t28 11q11 11 11 28t-11 28L432-480Z'), to('chevron_right', 'M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z'), to('circle', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('cleaning_services', 'M200-40q-33 0-56.5-23.5T120-120v-200q0-83 58.5-141.5T320-520h40v-320q0-33 23.5-56.5T440-920h80q33 0 56.5 23.5T600-840v320h40q83 0 141.5 58.5T840-320v200q0 33-23.5 56.5T760-40H200Zm0-80h80v-120q0-17 11.5-28.5T320-280q17 0 28.5 11.5T360-240v120h80v-120q0-17 11.5-28.5T480-280q17 0 28.5 11.5T520-240v120h80v-120q0-17 11.5-28.5T640-280q17 0 28.5 11.5T680-240v120h80v-200q0-50-35-85t-85-35H320q-50 0-85 35t-35 85v200Z'), to('close', 'M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z'), to('cloud', 'M260-160q-91 0-155.5-63T40-377q0-78 47-139t123-78q25-92 100-149t170-57q117 0 198.5 81.5T760-520q69 8 114.5 59.5T920-340q0 75-52.5 127.5T740-160H260Z'), to('compare_arrows', 'M367-320H120q-17 0-28.5-11.5T80-360q0-17 11.5-28.5T120-400h247l-75-75q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l143 143q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L348-188q-12 12-28 11.5T292-189q-11-12-11.5-28t11.5-28l75-75Zm226-240 75 75q11 11 11 27.5T668-429q-12 12-28.5 12T611-429L468-572q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l144-144q12-12 28-11.5t28 12.5q11 12 11.5 28T668-715l-75 75h247q17 0 28.5 11.5T880-600q0 17-11.5 28.5T840-560H593Z'), to('confirmation_number', 'M160-160q-33 0-56.5-23.5T80-240v-135q0-11 7-19t18-10q24-8 39.5-29t15.5-47q0-26-15.5-47T105-556q-11-2-18-10t-7-19v-135q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v135q0 11-7 19t-18 10q-24 8-39.5 29T800-480q0 26 15.5 47t39.5 29q11 2 18 10t7 19v135q0 33-23.5 56.5T800-160H160Zm320-120q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm0-160q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm0-160q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Z'), to('content_copy', 'M360-240q-33 0-56.5-23.5T280-320v-480q0-33 23.5-56.5T360-880h360q33 0 56.5 23.5T800-800v480q0 33-23.5 56.5T720-240H360ZM200-80q-33 0-56.5-23.5T120-160v-520q0-17 11.5-28.5T160-720q17 0 28.5 11.5T200-680v520h400q17 0 28.5 11.5T640-120q0 17-11.5 28.5T600-80H200Z'), to('contrast', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm40-83q119-15 199.5-104.5T800-480q0-123-80.5-212.5T520-797v634Z'), to('cookie', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-81 33.5-157.5t93-134.5Q266-830 348-860t180-18q15 2 23 12.5t9 28.5q2 64 47.5 109.5T716-680q21 1 32 12t12 34q2 42 25.5 69t65.5 41q14 5 21.5 14.5T880-486q2 83-29 157t-85 129.5Q712-144 638-112T480-80Zm-60-480q25 0 42.5-17.5T480-620q0-25-17.5-42.5T420-680q-25 0-42.5 17.5T360-620q0 25 17.5 42.5T420-560Zm-80 200q25 0 42.5-17.5T400-420q0-25-17.5-42.5T340-480q-25 0-42.5 17.5T280-420q0 25 17.5 42.5T340-360Zm260 40q17 0 28.5-11.5T640-360q0-17-11.5-28.5T600-400q-17 0-28.5 11.5T560-360q0 17 11.5 28.5T600-320Z'), to('crown', 'M240-160q-17 0-28.5-11.5T200-200q0-17 11.5-28.5T240-240h480q17 0 28.5 11.5T760-200q0 17-11.5 28.5T720-160H240Zm28-140q-29 0-51.5-19T189-367l-40-254q-2 0-4.5.5t-4.5.5q-25 0-42.5-17.5T80-680q0-25 17.5-42.5T140-740q25 0 42.5 17.5T200-680q0 7-1.5 13t-3.5 11l125 56 125-171q-11-8-18-21t-7-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820q0 15-7 28t-18 21l125 171 125-56q-2-5-3.5-11t-1.5-13q0-25 17.5-42.5T820-740q25 0 42.5 17.5T880-680q0 25-17.5 42.5T820-620q-2 0-4.5-.5t-4.5-.5l-40 254q-5 29-27.5 48T692-300H268Z'), to('delete', 'M280-120q-33 0-56.5-23.5T200-200v-520q-17 0-28.5-11.5T160-760q0-17 11.5-28.5T200-800h160q0-17 11.5-28.5T400-840h160q17 0 28.5 11.5T600-800h160q17 0 28.5 11.5T800-760q0 17-11.5 28.5T760-720v520q0 33-23.5 56.5T680-120H280Zm120-160q17 0 28.5-11.5T440-320v-280q0-17-11.5-28.5T400-640q-17 0-28.5 11.5T360-600v280q0 17 11.5 28.5T400-280Zm160 0q17 0 28.5-11.5T600-320v-280q0-17-11.5-28.5T560-640q-17 0-28.5 11.5T520-600v280q0 17 11.5 28.5T560-280Z'), to('diamond', 'M368-630h224L486-840h-12L368-630Zm82 474v-414H105l345 414Zm60 0 345-414H510v414Zm148-474h207l-83-166q-11-20-29.5-32T711-840H554l104 210Zm-563 0h207l104-210H249q-23 0-41.5 12T178-796L95-630Z'), to('download', 'M480-337q-8 0-15-2.5t-13-8.5L308-492q-12-12-11.5-28t11.5-28q12-12 28.5-12.5T365-549l75 75v-286q0-17 11.5-28.5T480-800q17 0 28.5 11.5T520-760v286l75-75q12-12 28.5-11.5T652-548q11 12 11.5 28T652-492L508-348q-6 6-13 8.5t-15 2.5ZM240-160q-33 0-56.5-23.5T160-240v-80q0-17 11.5-28.5T200-360q17 0 28.5 11.5T240-320v80h480v-80q0-17 11.5-28.5T760-360q17 0 28.5 11.5T800-320v80q0 33-23.5 56.5T720-160H240Z'), to('edit', 'M160-120q-17 0-28.5-11.5T120-160v-97q0-16 6-30.5t17-25.5l505-504q12-11 26.5-17t30.5-6q16 0 31 6t26 18l55 56q12 11 17.5 26t5.5 30q0 16-5.5 30.5T817-647L313-143q-11 11-25.5 17t-30.5 6h-97Zm544-528 56-56-56-56-56 56 56 56Z'), to('egg', 'M480-120q-117 0-198.5-81.5T200-400q0-77 25.5-155t66-141.5Q332-760 382-800t98-40q49 0 98.5 40t90 103.5Q709-633 734.5-555T760-400q0 117-81.5 198.5T480-120Zm40-120q17 0 28.5-11.5T560-280q0-17-11.5-28.5T520-320q-50 0-85-35t-35-85q0-17-11.5-28.5T360-480q-17 0-28.5 11.5T320-440q0 83 58.5 141.5T520-240Z'), to('event', 'M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Z'), to('expand_less', 'M480-529 324-373q-11 11-28 11t-28-11q-11-11-11-28t11-28l184-184q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l184 184q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-529Z'), to('expand_more', 'M480-362q-8 0-15-2.5t-13-8.5L268-557q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-373q-6 6-13 8.5t-15 2.5Z'), to('favorite', 'M480-147q-14 0-28.5-5T426-168l-69-63q-106-97-191.5-192.5T80-634q0-94 63-157t157-63q53 0 100 22.5t80 61.5q33-39 80-61.5T660-854q94 0 157 63t63 157q0 115-85 211T602-230l-68 62q-11 11-25.5 16t-28.5 5Z'), to('female', 'M440-200h-40q-17 0-28.5-11.5T360-240q0-17 11.5-28.5T400-280h40v-84q-79-14-129.5-75.5T260-582q0-91 64.5-154.5T480-800q91 0 155.5 63.5T700-582q0 81-50.5 142.5T520-364v84h40q17 0 28.5 11.5T600-240q0 17-11.5 28.5T560-200h-40v40q0 17-11.5 28.5T480-120q-17 0-28.5-11.5T440-160v-40Zm40-240q58 0 99-41t41-99q0-58-41-99t-99-41q-58 0-99 41t-41 99q0 58 41 99t99 41Z'), to('fiber_manual_record', 'M480-200q-117 0-198.5-81.5T200-480q0-117 81.5-198.5T480-760q117 0 198.5 81.5T760-480q0 117-81.5 198.5T480-200Z'), to('fiber_new', 'M120-160q-33 0-56.5-23.5T40-240v-480q0-33 23.5-56.5T120-800h720q33 0 56.5 23.5T920-720v480q0 33-23.5 56.5T840-160H120Zm70-340 95 130q3 5 8 7.5t11 2.5h12q10 0 17-7t7-17v-191q0-11-7-18t-18-7q-11 0-18 7t-7 18v115l-93-130q-4-5-9-7.5t-11-2.5h-12q-11 0-18 7t-7 18v190q0 11 7 18t18 7q11 0 18-7t7-18v-115Zm210 140h115q11 0 18-7t7-18q0-11-7-18t-18-7h-75v-44h75q11 0 18-7t7-18q0-11-7-18t-18-7h-75v-46h75q11 0 18-7t7-18q0-11-7-18t-18-7H400q-8 0-14 6t-6 14v200q0 8 6 14t14 6Zm220 0h160q17 0 28.5-11.5T820-400v-175q0-11-7-18t-18-7q-11 0-18 7t-7 18v155h-44v-115q0-11-7-18t-18-7q-11 0-18 7t-7 18v115h-46v-155q0-11-7-18t-18-7q-11 0-18 7t-7 18v175q0 17 11.5 28.5T620-360Z'), to('filter_list', 'M440-240q-17 0-28.5-11.5T400-280q0-17 11.5-28.5T440-320h80q17 0 28.5 11.5T560-280q0 17-11.5 28.5T520-240h-80ZM280-440q-17 0-28.5-11.5T240-480q0-17 11.5-28.5T280-520h400q17 0 28.5 11.5T720-480q0 17-11.5 28.5T680-440H280ZM160-640q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z'), to('flare', 'M280-480q0 17-11.5 28.5T240-440H80q-17 0-28.5-11.5T40-480q0-17 11.5-28.5T80-520h160q17 0 28.5 11.5T280-480Zm58-142q-11 11-28 11t-28-11l-28-28q-11-11-11-28t11-28q11-11 28-11t28 11l28 28q11 11 11 28t-11 28Zm102-98v-160q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v160q0 17-11.5 28.5T480-680q-17 0-28.5-11.5T440-720Zm182 98q-11-11-11-28t11-28l28-28q11-11 28-11t28 11q11 11 11 28t-11 28l-28 28q-11 11-28 11t-28-11Zm58 142q0-17 11.5-28.5T720-520h160q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440H720q-17 0-28.5-11.5T680-480ZM480-360q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm142 22q11-11 28-11t28 11l28 28q11 11 11 28t-11 28q-11 11-28 11t-28-11l-28-28q-11-11-11-28t11-28Zm-284 0q11 11 11 28t-11 28l-28 28q-11 11-28 11t-28-11q-11-11-11-28t11-28l28-28q11-11 28-11t28 11Zm142 58q17 0 28.5 11.5T520-240v160q0 17-11.5 28.5T480-40q-17 0-28.5-11.5T440-80v-160q0-17 11.5-28.5T480-280Z'), to('foggy', 'M720-200q-17 0-28.5-11.5T680-240q0-17 11.5-28.5T720-280q17 0 28.5 11.5T760-240q0 17-11.5 28.5T720-200ZM280-80q-17 0-28.5-11.5T240-120q0-17 11.5-28.5T280-160q17 0 28.5 11.5T320-120q0 17-11.5 28.5T280-80Zm-40-120q-17 0-28.5-11.5T200-240q0-17 11.5-28.5T240-280h360q17 0 28.5 11.5T640-240q0 17-11.5 28.5T600-200H240ZM400-80q-17 0-28.5-11.5T360-120q0-17 11.5-28.5T400-160h280q17 0 28.5 11.5T720-120q0 17-11.5 28.5T680-80H400ZM300-320q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Z'), to('forest', 'M520-120v-80h160v80q0 17-11.5 28.5T640-80h-80q-17 0-28.5-11.5T520-120Zm-240 0v-120H73q-24 0-35-21t2-41l114-178q-23 0-34.5-20.5T122-541l205-292q6-8 15-12.5t18-4.5q9 0 18 4.5t15 12.5l205 292q14 20 2.5 40.5T566-480l115 178q13 20 2 41t-35 21H440v120q0 17-11.5 28.5T400-80h-80q-17 0-28.5-11.5T280-120Zm490-120L640-440q24 0 35.5-21.5T673-503L505-743l62-90q6-8 15-12.5t18-4.5q9 0 18 4.5t15 12.5l205 292q14 20 2.5 40.5T806-480l114 178q13 20 2 41t-35 21H770Z'), to('format_list_bulleted', 'M400-200q-17 0-28.5-11.5T360-240q0-17 11.5-28.5T400-280h400q17 0 28.5 11.5T840-240q0 17-11.5 28.5T800-200H400Zm0-240q-17 0-28.5-11.5T360-480q0-17 11.5-28.5T400-520h400q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H400Zm0-240q-17 0-28.5-11.5T360-720q0-17 11.5-28.5T400-760h400q17 0 28.5 11.5T840-720q0 17-11.5 28.5T800-680H400ZM200-160q-33 0-56.5-23.5T120-240q0-33 23.5-56.5T200-320q33 0 56.5 23.5T280-240q0 33-23.5 56.5T200-160Zm0-240q-33 0-56.5-23.5T120-480q0-33 23.5-56.5T200-560q33 0 56.5 23.5T280-480q0 33-23.5 56.5T200-400Zm0-240q-33 0-56.5-23.5T120-720q0-33 23.5-56.5T200-800q33 0 56.5 23.5T280-720q0 33-23.5 56.5T200-640Z'), to('grid_view', 'M200-520q-33 0-56.5-23.5T120-600v-160q0-33 23.5-56.5T200-840h160q33 0 56.5 23.5T440-760v160q0 33-23.5 56.5T360-520H200Zm0 400q-33 0-56.5-23.5T120-200v-160q0-33 23.5-56.5T200-440h160q33 0 56.5 23.5T440-360v160q0 33-23.5 56.5T360-120H200Zm400-400q-33 0-56.5-23.5T520-600v-160q0-33 23.5-56.5T600-840h160q33 0 56.5 23.5T840-760v160q0 33-23.5 56.5T760-520H600Zm0 400q-33 0-56.5-23.5T520-200v-160q0-33 23.5-56.5T600-440h160q33 0 56.5 23.5T840-360v160q0 33-23.5 56.5T760-120H600Z'), to('group', 'M40-272q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v32q0 33-23.5 56.5T600-160H120q-33 0-56.5-23.5T40-240v-32Zm698 112q11-18 16.5-38.5T760-240v-40q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v40q0 33-23.5 56.5T840-160H738ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113Z'), to('handshake', 'M484-120q-17 0-28.5-11.5T444-160q0-7 3-14.5t9-13.5l171-171q6-6 6-14.5t-6-14.5q-6-6-14.5-5.5T598-387L428-217q-6 6-13 9t-15 3q-17 0-28.5-11.5T360-245q0-10 3-16.5t8-11.5l171-171q6-6 6-14t-6-14q-6-6-14-6t-14 6L343-302q-6 6-13 9t-16 3q-16 0-28-12t-12-28q0-8 3-15t9-13l170-170q6-6 6-14.5t-6-14.5q-6-6-14-6t-14 6L258-386q-5 5-12 8t-17 3q-17 0-28.5-11.5T189-415q0-8 3-15t9-13l196-196q11-11 27.5-10t27.5 12l122 122q11 11 26 17.5t30 6.5q32 0 56-22.5t24-57.5q0-14-5-29t-18-28L550-765q-11-11-14.5-24t3.5-25q9-15 23-22t31-7q21 0 43 10t40 28l169 170q18 18 26.5 40t8.5 51q0 20-9 40.5T845-466L512-132q-8 8-14 10t-14 2ZM116-475q-19-14-28.5-33.5T78-550q0-23 9.5-45t27.5-40l169-170q17-17 37.5-26t43.5-9q25 0 48.5 9t40.5 26l205 205q5 5 8.5 12.5T671-572q0 17-11.5 28.5T631-532q-8 0-15.5-3.5T603-544L480-666q-23-23-56.5-23T367-666L179-478q-13 13-30.5 13.5T116-475Z'), to('healing', 'M218-104 104-218q-23-23-23-56t23-56l526-526q23-23 56-23t56 23l114 114q23 23 23 56t-23 56L330-104q-23 23-56 23t-56-23Zm290-122 226-226 122 122q23 23 23 56t-23 56L742-104q-23 23-56 23t-56-23L508-226Zm-28-134q17 0 28.5-11.5T520-400q0-17-11.5-28.5T480-440q-17 0-28.5 11.5T440-400q0 17 11.5 28.5T480-360Zm-80-80q17 0 28.5-11.5T440-480q0-17-11.5-28.5T400-520q-17 0-28.5 11.5T360-480q0 17 11.5 28.5T400-440Zm160 0q17 0 28.5-11.5T600-480q0-17-11.5-28.5T560-520q-17 0-28.5 11.5T520-480q0 17 11.5 28.5T560-440Zm-335-69L104-630q-23-23-23-56t23-56l114-114q23-23 56-23t56 23l122 122-227 225Zm255-11q17 0 28.5-11.5T520-560q0-17-11.5-28.5T480-600q-17 0-28.5 11.5T440-560q0 17 11.5 28.5T480-520Z'), to('help', 'M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm2 160q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm4-572q25 0 43.5 16t18.5 40q0 22-13.5 39T502-525q-23 20-40.5 44T444-427q0 14 10.5 23.5T479-394q15 0 25.5-10t13.5-25q4-21 18-37.5t30-31.5q23-22 39.5-48t16.5-58q0-51-41.5-83.5T484-720q-38 0-72.5 16T359-655q-7 12-4.5 25.5T368-609q14 8 29 5t25-17q11-15 27.5-23t34.5-8Z'), to('history', 'M480-120q-126 0-223-76.5T131-392q-4-15 6-27.5t27-14.5q16-2 29 6t18 24q24 90 99 147t170 57q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h70q17 0 28.5 11.5T360-600q0 17-11.5 28.5T320-560H160q-17 0-28.5-11.5T120-600v-160q0-17 11.5-28.5T160-800q17 0 28.5 11.5T200-760v54q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm40-376 100 100q11 11 11 28t-11 28q-11 11-28 11t-28-11L452-452q-6-6-9-13.5t-3-15.5v-159q0-17 11.5-28.5T480-680q17 0 28.5 11.5T520-640v144Z'), to('home', 'M160-200v-360q0-19 8.5-36t23.5-28l240-180q21-16 48-16t48 16l240 180q15 11 23.5 28t8.5 36v360q0 33-23.5 56.5T720-120H600q-17 0-28.5-11.5T560-160v-200q0-17-11.5-28.5T520-400h-80q-17 0-28.5 11.5T400-360v200q0 17-11.5 28.5T360-120H240q-33 0-56.5-23.5T160-200Z'), to('hourglass_top', 'M320-160h320v-120q0-66-47-113t-113-47q-66 0-113 47t-47 113v120ZM200-80q-17 0-28.5-11.5T160-120q0-17 11.5-28.5T200-160h40v-120q0-61 28.5-114.5T348-480q-51-32-79.5-85.5T240-680v-120h-40q-17 0-28.5-11.5T160-840q0-17 11.5-28.5T200-880h560q17 0 28.5 11.5T800-840q0 17-11.5 28.5T760-800h-40v120q0 61-28.5 114.5T612-480q51 32 79.5 85.5T720-280v120h40q17 0 28.5 11.5T800-120q0 17-11.5 28.5T760-80H200Z'), to('info', 'M480-280q17 0 28.5-11.5T520-320v-160q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480v160q0 17 11.5 28.5T480-280Zm0-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('inventory_2', 'M200-80q-33 0-56.5-23.5T120-160v-451q-18-11-29-28.5T80-680v-120q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v120q0 23-11 40.5T840-611v451q0 33-23.5 56.5T760-80H200Zm-40-600h640v-120H160v120Zm240 280h160q17 0 28.5-11.5T600-440q0-17-11.5-28.5T560-480H400q-17 0-28.5 11.5T360-440q0 17 11.5 28.5T400-400Z'), to('keyboard_arrow_down', 'M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z'), to('leaderboard', 'M120-120q-17 0-28.5-11.5T80-160v-400q0-17 11.5-28.5T120-600h140q17 0 28.5 11.5T300-560v400q0 17-11.5 28.5T260-120H120Zm290 0q-17 0-28.5-11.5T370-160v-640q0-17 11.5-28.5T410-840h140q17 0 28.5 11.5T590-800v640q0 17-11.5 28.5T550-120H410Zm290 0q-17 0-28.5-11.5T660-160v-320q0-17 11.5-28.5T700-520h140q17 0 28.5 11.5T880-480v320q0 17-11.5 28.5T840-120H700Z'), to('lightbulb', 'M480-80q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM360-200q-17 0-28.5-11.5T320-240q0-17 11.5-28.5T360-280h240q17 0 28.5 11.5T640-240q0 17-11.5 28.5T600-200H360Zm-30-120q-69-41-109.5-110T180-580q0-125 87.5-212.5T480-880q125 0 212.5 87.5T780-580q0 81-40.5 150T630-320H330Z'), to('link', 'M280-280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h120q17 0 28.5 11.5T440-640q0 17-11.5 28.5T400-600H280q-50 0-85 35t-35 85q0 50 35 85t85 35h120q17 0 28.5 11.5T440-320q0 17-11.5 28.5T400-280H280Zm80-160q-17 0-28.5-11.5T320-480q0-17 11.5-28.5T360-520h240q17 0 28.5 11.5T640-480q0 17-11.5 28.5T600-440H360Zm200 160q-17 0-28.5-11.5T520-320q0-17 11.5-28.5T560-360h120q50 0 85-35t35-85q0-50-35-85t-85-35H560q-17 0-28.5-11.5T520-640q0-17 11.5-28.5T560-680h120q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H560Z'), to('list', 'M320-600q-17 0-28.5-11.5T280-640q0-17 11.5-28.5T320-680h480q17 0 28.5 11.5T840-640q0 17-11.5 28.5T800-600H320Zm0 160q-17 0-28.5-11.5T280-480q0-17 11.5-28.5T320-520h480q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H320Zm0 160q-17 0-28.5-11.5T280-320q0-17 11.5-28.5T320-360h480q17 0 28.5 11.5T840-320q0 17-11.5 28.5T800-280H320ZM160-600q-17 0-28.5-11.5T120-640q0-17 11.5-28.5T160-680q17 0 28.5 11.5T200-640q0 17-11.5 28.5T160-600Zm0 160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440Zm0 160q-17 0-28.5-11.5T120-320q0-17 11.5-28.5T160-360q17 0 28.5 11.5T200-320q0 17-11.5 28.5T160-280Z'), to('local_activity', 'm480-404 60 46q11 9 24 .5t8-22.5l-24-76 67-52q11-9 6-22.5T602-544h-78l-25-77q-5-14-19-14t-19 14l-25 77h-79q-14 0-18.5 13.5T345-508l65 52-24 77q-5 14 7 22.5t24-.5l63-47ZM160-160q-33 0-56.5-23.5T80-240v-135q0-11 7-19t18-10q24-8 39.5-29t15.5-47q0-26-15.5-47T105-556q-11-2-18-10t-7-19v-135q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v135q0 11-7 19t-18 10q-24 8-39.5 29T800-480q0 26 15.5 47t39.5 29q11 2 18 10t7 19v135q0 33-23.5 56.5T800-160H160Z'), to('local_fire_department', 'M160-400q0-113 67-217t184-182q22-15 45.5-1.5T480-760v52q0 34 23.5 57t57.5 23q17 0 32.5-7.5T621-657q8-10 20.5-12.5T665-664q63 45 99 115t36 149q0 88-43 160.5T644-125q17-24 26.5-52.5T680-238q0-40-15-75.5T622-377L480-516 339-377q-29 29-44 64t-15 75q0 32 9.5 60.5T316-125q-70-42-113-114.5T160-400Zm320-4 85 83q17 17 26 38t9 45q0 49-35 83.5T480-120q-50 0-85-34.5T360-238q0-23 9-44.5t26-38.5l85-83Z'), to('local_florist', 'M480-540q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29Zm0 180q-39 0-70.5-21.5T364-438q-5 0-9 .5t-9 .5q-52 0-89-37t-37-89q0-21 7-40.5t21-36.5q-13-17-20-36.5t-7-40.5q0-52 36.5-89t88.5-37q5 0 9 .5t9 .5q14-35 45.5-56.5T480-920q39 0 70.5 21.5T596-842q5 0 9-.5t9-.5q52 0 88.5 37t36.5 89q0 21-6.5 40.5T712-640q13 17 20 36.5t7 40.5q0 52-36.5 89T614-437q-5 0-9-.5t-9-.5q-14 35-45.5 56.5T480-360Zm0 279q0-126 76-223t193-126q19-5 37.5-3.5T819-418q12 13 13.5 31t-3.5 35q-28 118-125.5 194.5T480-81Zm0 1q0-126-76-223T211-429q-19-5-37.5-3.5T141-417q-12 13-13.5 31t3.5 35q28 118 125.5 194.5T480-80Z'), to('location_on', 'M480-107q-14 0-28-5t-25-15q-65-60-115-117t-83.5-110.5q-33.5-53.5-51-103T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 45-17.5 94.5t-51 103Q698-301 648-244T533-127q-11 10-25 15t-28 5Zm0-373q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Z'), to('male', 'M800-760v160q0 17-11.5 28.5T760-560q-17 0-28.5-11.5T720-600v-63L561-505q19 28 29 59.5t10 65.5q0 92-64 156t-156 64q-92 0-156-64t-64-156q0-92 64-156t156-64q33 0 65 9.5t59 29.5l159-159h-63q-17 0-28.5-11.5T560-760q0-17 11.5-28.5T600-800h160q17 0 28.5 11.5T800-760ZM380-520q-58 0-99 41t-41 99q0 58 41 99t99 41q58 0 99-41t41-99q0-58-41-99t-99-41Z'), to('menu_book', 'M520-278q44-21 88.5-31.5T700-320q36 0 70.5 6t69.5 18v-396q-33-14-68.5-21t-71.5-7q-47 0-93 12t-87 36v394Zm-40 97q-14 0-26.5-3.5T430-194q-39-23-82-34.5T260-240q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q47-23 96.5-35.5T260-800q58 0 113.5 15T480-740q51-30 106.5-45T700-800q52 0 101.5 12.5T898-752q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-45 0-88 11.5T530-194q-11 6-23.5 9.5T480-181Zm80-428q0-9 6.5-18.5T581-640q29-10 58-15t61-5q20 0 39.5 2.5T778-651q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-600q-26 0-51 5t-48 13q-18 7-29.5-1T560-609Zm0 220q0-9 6.5-18.5T581-420q29-10 58-15t61-5q20 0 39.5 2.5T778-431q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-380q-26 0-51 4.5T601-363q-18 7-29.5-.5T560-389Zm0-110q0-9 6.5-18.5T581-530q29-10 58-15t61-5q20 0 39.5 2.5T778-541q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-490q-26 0-51 5t-48 13q-18 7-29.5-1T560-499Z'), to('more_horiz', 'M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z'), to('movie', 'm160-800 65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h80l65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h80l65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Z'), to('newspaper', 'M160-120q-33 0-56.5-23.5T80-200v-616q0-7 6-9.5t11 2.5l50 50 52-53q6-6 14-6t14 6l53 53 53-53q6-6 14-6t14 6l52 53 53-53q6-6 14-6t14 6l53 53 52-53q6-6 14-6t14 6l53 53 53-53q6-6 14-6t14 6l52 53 50-50q5-5 11-2.5t6 9.5v616q0 33-23.5 56.5T800-120H160Zm0-80h280v-240H160v240Zm360 0h280v-80H520v80Zm0-160h280v-80H520v80ZM160-520h640v-120H160v120Z'), to('nights_stay', 'M240-400q48 0 88 26t59 71l10 23h25q42 0 70 29.5t28 70.5q0 42-29 71t-71 29H240q-66 0-113-47T80-240q0-67 47-113.5T240-400Zm321-81q60 60 138.5 90.5T863-366q11-1 19.5 3t14.5 12q6 8 8 17t-1 19q-35 121-140.5 197T533-40q32-26 49.5-62.5T600-180q0-68-42.5-117.5T449-357q-32-57-87.5-90T240-480q-32 0-62.5 8T120-448q2-131 76.5-232T394-822q10-3 19.5-1t17.5 8q8 6 12.5 14.5T447-781q-5 86 24 162.5T561-481Z'), to('notifications', 'M200-200q-17 0-28.5-11.5T160-240q0-17 11.5-28.5T200-280h40v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h40q17 0 28.5 11.5T800-240q0 17-11.5 28.5T760-200H200ZM480-80q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80Z'), to('open_in_new', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h240q17 0 28.5 11.5T480-800q0 17-11.5 28.5T440-760H200v560h560v-240q0-17 11.5-28.5T800-480q17 0 28.5 11.5T840-440v240q0 33-23.5 56.5T760-120H200Zm560-584L416-360q-11 11-28 11t-28-11q-11-11-11-28t11-28l344-344H600q-17 0-28.5-11.5T560-800q0-17 11.5-28.5T600-840h200q17 0 28.5 11.5T840-800v200q0 17-11.5 28.5T800-560q-17 0-28.5-11.5T760-600v-104Z'), to('park', 'M402-240H195q-24 0-36-21t2-41l119-178h-3q-24 0-35.5-21.5T244-543l203-290q6-8 15-12.5t18-4.5q9 0 18 4.5t15 12.5l203 290q14 20 2.5 41.5T683-480h-3l119 178q14 20 2 41t-36 21H558v120q0 17-11.5 28.5T518-80h-76q-17 0-28.5-11.5T402-120v-120Z'), to('partly_cloudy_day', 'm734-169-56-57q-11-12-11-28.5t11-27.5q11-11 27.5-11t28.5 11l57 56q12 12 12 28.5T791-169q-12 12-28.5 12T734-169Zm-494 9q-66 0-113-47T80-320q0-66 47-113t113-47q48 0 88.5 26t58.5 71l10 23h24q42 0 70.5 29t28.5 71q0 42-29 71t-71 29H240Zm359-112q-4-63-45.5-109T449-438q-31-54-83.5-85.5T250-560q26-73 89-116.5T480-720q100 0 170 70t70 170q0 65-32 120.5T599-272Zm201-168q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520h80q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440h-80ZM226-678l-57-57q-11-11-11-28t11-28q12-12 28.5-12t28.5 12l56 57q11 12 11 28.5T282-678q-11 11-28 11t-28-11Zm452 0q-11-11-11-27.5t11-28.5l56-57q12-12 28.5-12t28.5 12q11 11 11 28t-11 28l-57 57q-11 11-28 11t-28-11Zm-198-82q-17 0-28.5-11.5T440-800v-80q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v80q0 17-11.5 28.5T480-760Z'), to('pause', 'M640-200q-33 0-56.5-23.5T560-280v-400q0-33 23.5-56.5T640-760q33 0 56.5 23.5T720-680v400q0 33-23.5 56.5T640-200Zm-320 0q-33 0-56.5-23.5T240-280v-400q0-33 23.5-56.5T320-760q33 0 56.5 23.5T400-680v400q0 33-23.5 56.5T320-200Z'), to('person', 'M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-240v-32q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v32q0 33-23.5 56.5T720-160H240q-33 0-56.5-23.5T160-240Z'), to('pets', 'M180-475q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm180-160q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm240 0q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm180 160q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM266-75q-45 0-75.5-34.5T160-191q0-52 35.5-91t70.5-77q29-31 50-67.5t50-68.5q22-26 51-43t63-17q34 0 63 16t51 42q28 32 49.5 69t50.5 69q35 38 70.5 77t35.5 91q0 47-30.5 81.5T694-75q-54 0-107-9t-107-9q-54 0-107 9t-107 9Z'), to('photo_camera', 'M480-260q75 0 127.5-52.5T660-440q0-75-52.5-127.5T480-620q-75 0-127.5 52.5T300-440q0 75 52.5 127.5T480-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM160-120q-33 0-56.5-23.5T80-200v-480q0-33 23.5-56.5T160-760h126l50-54q11-12 26.5-19t32.5-7h170q17 0 32.5 7t26.5 19l50 54h126q33 0 56.5 23.5T880-680v480q0 33-23.5 56.5T800-120H160Z'), to('pin_drop', 'M480-216q-10 0-19.5-3t-17.5-9q-81-63-162-158.5T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 112-81 207.5T517-228q-8 6-17.5 9t-19.5 3Zm0-304q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520ZM240-80q-17 0-28.5-11.5T200-120q0-17 11.5-28.5T240-160h480q17 0 28.5 11.5T760-120q0 17-11.5 28.5T720-80H240Z'), to('play_arrow', 'M320-273v-414q0-17 12-28.5t28-11.5q5 0 10.5 1.5T381-721l326 207q9 6 13.5 15t4.5 19q0 10-4.5 19T707-446L381-239q-5 3-10.5 4.5T360-233q-16 0-28-11.5T320-273Z'), to('rainy', 'M558-84q-15 8-30.5 2.5T504-102l-60-120q-8-15-2.5-30.5T462-276q15-8 30.5-2.5T516-258l60 120q8 15 2.5 30.5T558-84Zm240 0q-15 8-30.5 2.5T744-102l-60-120q-8-15-2.5-30.5T702-276q15-8 30.5-2.5T756-258l60 120q8 15 2.5 30.5T798-84Zm-480 0q-15 8-30.5 2.5T264-102l-60-120q-8-15-2.5-30.5T222-276q15-8 30.5-2.5T276-258l60 120q8 15 2.5 30.5T318-84Zm-18-236q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Z'), to('rate_review', 'M280-400h66q8 0 15.5-3t13.5-9l187-188q9-9 13.5-20.5T580-643q0-11-4.5-21.5T563-684l-37-38q-9-9-20-13.5t-23-4.5q-11 0-22 4.5T441-722L252-535q-6 6-9 13.5t-3 15.5v66q0 17 11.5 28.5T280-400Zm202-204-38-37 39-39 37 38-38 38Zm-34 204h232q17 0 28.5-11.5T720-440q0-17-11.5-28.5T680-480H528l-80 80ZM240-240l-92 92q-19 19-43.5 8.5T80-177v-623q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240Z'), to('redeem', 'M160-280v80h640v-80H160Zm0-440h88q-5-9-6.5-19t-1.5-21q0-50 35-85t85-35q30 0 55.5 15.5T460-826l20 26 20-26q18-24 44-39t56-15q50 0 85 35t35 85q0 11-1.5 21t-6.5 19h88q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720Zm0 320h640v-240H596l60 82q10 14 8 29.5T648-503q-14 10-29.5 7.5T593-511L480-664 367-511q-10 13-25.5 15.5T312-503q-14-10-16.5-25.5T303-558l59-82H160v240Zm200-320q17 0 28.5-11.5T400-760q0-17-11.5-28.5T360-800q-17 0-28.5 11.5T320-760q0 17 11.5 28.5T360-720Zm240 0q17 0 28.5-11.5T640-760q0-17-11.5-28.5T600-800q-17 0-28.5 11.5T560-760q0 17 11.5 28.5T600-720Z'), to('refresh', 'M480-160q-134 0-227-93t-93-227q0-134 93-227t227-93q69 0 132 28.5T720-690v-70q0-17 11.5-28.5T760-800q17 0 28.5 11.5T800-760v200q0 17-11.5 28.5T760-520H560q-17 0-28.5-11.5T520-560q0-17 11.5-28.5T560-600h128q-32-56-87.5-88T480-720q-100 0-170 70t-70 170q0 100 70 170t170 70q68 0 124.5-34.5T692-367q8-14 22.5-19.5t29.5-.5q16 5 23 21t-1 30q-41 80-117 128t-169 48Z'), to('remove', 'M240-440q-17 0-28.5-11.5T200-480q0-17 11.5-28.5T240-520h480q17 0 28.5 11.5T760-480q0 17-11.5 28.5T720-440H240Z'), to('rocket', 'M215-102q-20 8-37.5-4T160-139v-178q0-20 9.5-38t26.5-29l44-29q7 81 21.5 140T309-139l-94 37Zm177-58q-14 0-24-9t-15-22q-27-69-40-127.5T300-453q0-112 40-213.5T449-831q6-6 14.5-8.5T480-842q8 0 16.5 2.5T511-831q69 63 109 164.5T660-453q0 77-13 135t-40 127q-5 13-15 22t-24 9H392Zm88-280q33 0 56.5-23.5T560-520q0-33-23.5-56.5T480-600q-33 0-56.5 23.5T400-520q0 33 23.5 56.5T480-440Zm265 338-94-37q33-75 47.5-134T720-413l44 29q17 11 26.5 29t9.5 38v178q0 21-17.5 33t-37.5 4Z'), to('rocket_launch', 'M245-474q26-66 62.5-127T390-716l-52-11q-20-4-39 2t-33 20L140-579q-15 15-11.5 36t23.5 29l93 40Zm588-390q-106-5-201.5 41T461-702q-48 48-84.5 104T313-480q-5 13-5 26.5t10 23.5l125 125q10 10 23.5 10t26.5-5q62-27 118-63.5T715-448q75-75 121-170.5T877-820q0-8-4-16t-10-14q-6-6-14-10t-16-4ZM579-566q-23-23-23-56.5t23-56.5q23-23 56.5-23t56.5 23q23 23 23 56.5T692-566q-23 23-56.5 23T579-566Zm-92 334 40 93q8 20 29 24t36-11l126-126q14-14 20-33.5t2-39.5l-10-52q-55 46-115.5 82.5T487-232Zm-325-86q35-35 85-35.5t85 34.5q35 35 35 85t-35 85q-48 48-113.5 57T87-74q9-66 18.5-131.5T162-318Z'), to('route', 'M360-120q-66 0-113-47t-47-113v-327q-35-13-57.5-43.5T120-720q0-50 35-85t85-35q50 0 85 35t35 85q0 39-22.5 69.5T280-607v327q0 33 23.5 56.5T360-200q33 0 56.5-23.5T440-280v-400q0-66 47-113t113-47q66 0 113 47t47 113v327q35 13 57.5 43.5T840-240q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-39 22.5-70t57.5-43v-327q0-33-23.5-56.5T600-760q-33 0-56.5 23.5T520-680v400q0 66-47 113t-113 47Z'), to('save', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h447q16 0 30.5 6t25.5 17l114 114q11 11 17 25.5t6 30.5v447q0 33-23.5 56.5T760-120H200Zm280-120q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35ZM280-560h280q17 0 28.5-11.5T600-600v-80q0-17-11.5-28.5T560-720H280q-17 0-28.5 11.5T240-680v80q0 17 11.5 28.5T280-560Z'), to('schedule', 'M520-496v-144q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640v159q0 8 3 15.5t9 13.5l132 132q11 11 28 11t28-11q11-11 11-28t-11-28L520-496ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('school', 'M840-320v-236L518-381q-18 10-38 10t-38-10L104-565q-11-6-15.5-15T84-600q0-11 4.5-20t15.5-15l338-184q9-5 18.5-7.5T480-829q10 0 19.5 2.5T518-819l381 208q10 5 15.5 14.5T920-576v256q0 17-11.5 28.5T880-280q-17 0-28.5-11.5T840-320ZM442-141 242-249q-20-11-31-30t-11-41v-152l242 131q18 10 38 10t38-10l242-131v152q0 22-11 41t-31 30L518-141q-9 5-18.5 7.5T480-131q-10 0-19.5-2.5T442-141Z'), to('science', 'M200-120q-51 0-72.5-45.5T138-250l222-270v-240h-40q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0 17-11.5 28.5T640-760h-40v240l222 270q32 39 10.5 84.5T760-120H200Z'), to('search', 'M380-320q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z'), to('sell', 'M856-390 570-104q-12 12-27 18t-30 6q-15 0-30-6t-27-18L103-457q-11-11-17-25.5T80-513v-287q0-33 23.5-56.5T160-880h287q16 0 31 6.5t26 17.5l352 353q12 12 17.5 27t5.5 30q0 15-5.5 29.5T856-390ZM260-640q25 0 42.5-17.5T320-700q0-25-17.5-42.5T260-760q-25 0-42.5 17.5T200-700q0 25 17.5 42.5T260-640Z'), to('settings', 'M433-80q-27 0-46.5-18T363-142l-9-66q-13-5-24.5-12T307-235l-62 26q-25 11-50 2t-39-32l-47-82q-14-23-8-49t27-43l53-40q-1-7-1-13.5v-27q0-6.5 1-13.5l-53-40q-21-17-27-43t8-49l47-82q14-23 39-32t50 2l62 26q11-8 23-15t24-12l9-66q4-26 23.5-44t46.5-18h94q27 0 46.5 18t23.5 44l9 66q13 5 24.5 12t22.5 15l62-26q25-11 50-2t39 32l47 82q14 23 8 49t-27 43l-53 40q1 7 1 13.5v27q0 6.5-2 13.5l53 40q21 17 27 43t-8 49l-48 82q-14 23-39 32t-50-2l-60-26q-11 8-23 15t-24 12l-9 66q-4 26-23.5 44T527-80h-94Zm49-260q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Z'), to('share', 'M720-80q-50 0-85-35t-35-85q0-7 1-14.5t3-13.5L322-392q-17 15-38 23.5t-44 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q23 0 44 8.5t38 23.5l282-164q-2-6-3-13.5t-1-14.5q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-23 0-44-8.5T638-672L356-508q2 6 3 13.5t1 14.5q0 7-1 14.5t-3 13.5l282 164q17-15 38-23.5t44-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Z'), to('shield', 'M480-84q-7 0-13-1t-12-3q-135-45-215-166.5T160-516v-189q0-25 14.5-45t37.5-29l240-90q14-5 28-5t28 5l240 90q23 9 37.5 29t14.5 45v189q0 140-80 261.5T505-88q-6 2-12 3t-13 1Z'), to('skull', 'M420-330h120l-60-120-60 120Zm-80-110q33 0 56.5-23.5T420-520q0-33-23.5-56.5T340-600q-33 0-56.5 23.5T260-520q0 33 23.5 56.5T340-440Zm280 0q33 0 56.5-23.5T700-520q0-33-23.5-56.5T620-600q-33 0-56.5 23.5T540-520q0 33 23.5 56.5T620-440ZM240-80v-170q-39-17-68.5-45.5t-50-64.5q-20.5-36-31-77T80-520q0-158 112-259t288-101q176 0 288 101t112 259q0 42-10.5 83t-31 77q-20.5 36-50 64.5T720-250v170H600v-80h-80v80h-80v-80h-80v80H240Z'), to('speed', 'M418-340q25 25 63 23.5t55-27.5l169-253q9-14-2.5-25.5T677-625L424-456q-26 18-28.5 54.5T418-340ZM204-160q-22 0-40.5-9.5T134-198q-26-47-40-97.5T80-400q0-83 31.5-156T197-683q54-54 127-85.5T480-800q82 0 154 31t126 84.5q54 53.5 86 125T879-406q1 55-12.5 107.5T825-198q-11 19-29.5 28.5T755-160H204Z'), to('sports_baseball', 'M167-231q-42-54-64.5-117.5T80-480q0-68 22.5-131.5T167-729q58 45 91 110.5T291-480q0 73-33 138.5T167-231ZM480-80q-72 0-137.5-24T223-174q69-57 108-136.5T370-480q0-90-39-169.5T223-786q54-46 119.5-70T480-880q72 0 137.5 24T737-786q-69 57-108 136.5T590-480q0 90 39 169.5T737-174q-54 46-119.5 70T480-80Zm313-151q-58-45-91-110.5T669-480q0-73 33-138.5T793-729q42 54 64.5 117.5T880-480q0 68-22.5 131.5T793-231Z'), to('star', 'M480-269 314-169q-11 7-23 6t-21-8q-9-7-14-17.5t-2-23.5l44-189-147-127q-10-9-12.5-20.5T140-571q4-11 12-18t22-9l194-17 75-178q5-12 15.5-18t21.5-6q11 0 21.5 6t15.5 18l75 178 194 17q14 2 22 9t12 18q4 11 1.5 22.5T809-528L662-401l44 189q3 13-2 23.5T690-171q-9 7-21 8t-23-6L480-269Z'), to('stop', 'M240-320v-320q0-33 23.5-56.5T320-720h320q33 0 56.5 23.5T720-640v320q0 33-23.5 56.5T640-240H320q-33 0-56.5-23.5T240-320Z'), to('sunny', 'M480-760q-17 0-28.5-11.5T440-800v-80q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v80q0 17-11.5 28.5T480-760Zm198 82q-11-11-11-27.5t11-28.5l56-57q12-12 28.5-12t28.5 12q11 11 11 28t-11 28l-57 57q-11 11-28 11t-28-11Zm122 238q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520h80q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440h-80ZM480-40q-17 0-28.5-11.5T440-80v-80q0-17 11.5-28.5T480-200q17 0 28.5 11.5T520-160v80q0 17-11.5 28.5T480-40ZM226-678l-57-56q-12-12-12-29t12-28q11-11 28-11t28 11l57 57q11 11 11 28t-11 28q-12 11-28 11t-28-11Zm508 509-56-57q-11-12-11-28.5t11-27.5q11-11 27.5-11t28.5 11l57 56q12 11 11.5 28T791-169q-12 12-29 12t-28-12ZM80-440q-17 0-28.5-11.5T40-480q0-17 11.5-28.5T80-520h80q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440H80Zm89 271q-11-11-11-28t11-28l57-57q11-11 27.5-11t28.5 11q12 12 12 28.5T282-225l-56 56q-12 12-29 12t-28-12Zm311-71q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Z'), to('swap_horiz', 'm233-320 75 75q11 11 11 27.5T308-189q-12 12-28.5 12T251-189L108-332q-6-6-8.5-13T97-360q0-8 2.5-15t8.5-13l144-144q12-12 28-11.5t28 12.5q11 12 11.5 28T308-475l-75 75h247q17 0 28.5 11.5T520-360q0 17-11.5 28.5T480-320H233Zm494-240H480q-17 0-28.5-11.5T440-600q0-17 11.5-28.5T480-640h247l-75-75q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l143 143q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L708-428q-12 12-28 11.5T652-429q-11-12-11.5-28t11.5-28l75-75Z'), to('swords', 'M762-96 645-212l-60 60q-11 11-28 11t-28-11q-23-23-23-57t23-57l169-169q23-23 57-23t57 23q11 11 11 28t-11 28l-60 60 116 117q12 12 12 28t-12 28l-50 50q-12 12-28 12t-28-12Zm106-616L426-270l5 4q23 23 23 57t-23 57q-11 11-28 11t-28-11l-60-60L198-96q-12 12-28 12t-28-12l-50-50q-12-12-12-28t12-28l116-117-60-60q-11-11-11-28t11-28q23-23 57-23t57 23l4 5 431-431q11-11 25.5-17t30.5-6h87q17 0 28.5 11.5T880-844v103q0 8-3 15.5t-9 13.5ZM249-555 103-701q-11-11-17-25.5T80-757v-87q0-17 11.5-28.5T120-884h87q16 0 30.5 6t25.5 17l146 146q12 12 12 28.5T409-658L306-555q-12 12-28.5 12T249-555Z'), to('sync', 'M240-478q0 45 17 87.5t53 78.5l10 10v-58q0-17 11.5-28.5T360-400q17 0 28.5 11.5T400-360v160q0 17-11.5 28.5T360-160H200q-17 0-28.5-11.5T160-200q0-17 11.5-28.5T200-240h70l-16-14q-52-46-73-105t-21-119q0-94 48-170.5T337-766q14-8 29.5-1t20.5 23q5 15-.5 30T367-691q-58 32-92.5 88.5T240-478Zm480-4q0-45-17-87.5T650-648l-10-10v58q0 17-11.5 28.5T600-560q-17 0-28.5-11.5T560-600v-160q0-17 11.5-28.5T600-800h160q17 0 28.5 11.5T800-760q0 17-11.5 28.5T760-720h-70l16 14q49 49 71.5 106.5T800-482q0 94-48 170.5T623-194q-14 8-29.5 1T573-216q-5-15 .5-30t19.5-23q58-32 92.5-88.5T720-482Z'), to('thumb_down', 'M120-320q-32 0-56-24t-24-56v-80q0-7 1.5-15t4.5-15l120-282q9-20 30-34t44-14h320q33 0 56.5 23.5T640-760v407q0 16-6.5 30.5T616-297L399-81q-15 14-35.5 17T324-71q-19-10-27.5-28t-3.5-37l45-184H120Zm680-520q33 0 56.5 23.5T880-760v360q0 33-23.5 56.5T800-320q-33 0-56.5-23.5T720-400v-360q0-33 23.5-56.5T800-840Z'), to('thumb_up', 'M840-640q32 0 56 24t24 56v80q0 7-1.5 15t-4.5 15L794-168q-9 20-30 34t-44 14H400q-33 0-56.5-23.5T320-200v-407q0-16 6.5-30.5T344-663l217-216q15-14 35.5-17t39.5 7q19 10 27.5 28t3.5 37l-45 184h218ZM160-120q-33 0-56.5-23.5T80-200v-360q0-33 23.5-56.5T160-640q33 0 56.5 23.5T240-560v360q0 33-23.5 56.5T160-120Z'), to('thunderstorm', 'm520-66 36-41-34-17q-17-9-21-28t9-34l70-80q5-7 13.5-10.5T610-280q26 0 36.5 23t-6.5 43l-36 41 34 17q17 9 21 28t-9 34l-70 80q-5 7-13.5 10.5T550 0q-26 0-36.5-23t6.5-43Zm-240 0 36-41-34-17q-17-9-21-28t9-34l70-80q5-7 13.5-10.5T370-280q26 0 36.5 23t-6.5 43l-36 41 34 17q17 9 21 28t-9 34l-70 80q-5 7-13.5 10.5T310 0q-26 0-36.5-23t6.5-43Zm20-254q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Z'), to('timer', 'M400-840q-17 0-28.5-11.5T360-880q0-17 11.5-28.5T400-920h160q17 0 28.5 11.5T600-880q0 17-11.5 28.5T560-840H400Zm80 440q17 0 28.5-11.5T520-440v-160q0-17-11.5-28.5T480-640q-17 0-28.5 11.5T440-600v160q0 17 11.5 28.5T480-400Zm0 320q-74 0-139.5-28.5T226-186q-49-49-77.5-114.5T120-440q0-74 28.5-139.5T226-694q49-49 114.5-77.5T480-800q62 0 119 20t107 58l28-28q11-11 28-11t28 11q11 11 11 28t-11 28l-28 28q38 50 58 107t20 119q0 74-28.5 139.5T734-186q-49 49-114.5 77.5T480-80Z'), to('today', 'M360-300q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Z'), to('trending_up', 'M108-255q-12-12-11.5-28.5T108-311l211-214q23-23 57-23t57 23l103 104 208-206h-64q-17 0-28.5-11.5T640-667q0-17 11.5-28.5T680-707h160q17 0 28.5 11.5T880-667v160q0 17-11.5 28.5T840-467q-17 0-28.5-11.5T800-507v-64L593-364q-23 23-57 23t-57-23L376-467 164-255q-11 11-28 11t-28-11Z'), to('trophy', 'M280-528v-152h-80v40q0 38 22 68.5t58 43.5Zm400 0q36-13 58-43.5t22-68.5v-40h-80v152ZM440-200v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80q0-33 23.5-56.5T360-840h240q33 0 56.5 23.5T680-760h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h120q17 0 28.5 11.5T680-160q0 17-11.5 28.5T640-120H320q-17 0-28.5-11.5T280-160q0-17 11.5-28.5T320-200h120Z'), to('tune', 'M480-120q-17 0-28.5-11.5T440-160v-160q0-17 11.5-28.5T480-360q17 0 28.5 11.5T520-320v40h280q17 0 28.5 11.5T840-240q0 17-11.5 28.5T800-200H520v40q0 17-11.5 28.5T480-120Zm-320-80q-17 0-28.5-11.5T120-240q0-17 11.5-28.5T160-280h160q17 0 28.5 11.5T360-240q0 17-11.5 28.5T320-200H160Zm160-160q-17 0-28.5-11.5T280-400v-40H160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h120v-40q0-17 11.5-28.5T320-600q17 0 28.5 11.5T360-560v160q0 17-11.5 28.5T320-360Zm160-80q-17 0-28.5-11.5T440-480q0-17 11.5-28.5T480-520h320q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H480Zm160-160q-17 0-28.5-11.5T600-640v-160q0-17 11.5-28.5T640-840q17 0 28.5 11.5T680-800v40h120q17 0 28.5 11.5T840-720q0 17-11.5 28.5T800-680H680v40q0 17-11.5 28.5T640-600Zm-480-80q-17 0-28.5-11.5T120-720q0-17 11.5-28.5T160-760h320q17 0 28.5 11.5T520-720q0 17-11.5 28.5T480-680H160Z'), to('upgrade', 'M320-160q-17 0-28.5-11.5T280-200q0-17 11.5-28.5T320-240h320q17 0 28.5 11.5T680-200q0 17-11.5 28.5T640-160H320Zm160-160q-17 0-28.5-11.5T440-360v-287l-76 75q-11 11-27.5 11.5T308-572q-11-11-11-28t11-28l144-144q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l144 144q11 11 11.5 27.5T652-572q-11 11-28 11t-28-11l-76-75v287q0 17-11.5 28.5T480-320Z'), to('upload', 'M240-160q-33 0-56.5-23.5T160-240v-80q0-17 11.5-28.5T200-360q17 0 28.5 11.5T240-320v80h480v-80q0-17 11.5-28.5T760-360q17 0 28.5 11.5T800-320v80q0 33-23.5 56.5T720-160H240Zm200-486-75 75q-12 12-28.5 11.5T308-572q-11-12-11.5-28t11.5-28l144-144q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l144 144q12 12 11.5 28T652-572q-12 12-28.5 12.5T595-571l-75-75v286q0 17-11.5 28.5T480-320q-17 0-28.5-11.5T440-360v-286Z'), to('verified', 'm438-452-58-57q-11-11-27.5-11T324-508q-11 11-11 28t11 28l86 86q12 12 28 12t28-12l170-170q12-12 11.5-28T636-592q-12-12-28.5-12.5T579-593L438-452ZM326-90l-58-98-110-24q-15-3-24-15.5t-7-27.5l11-113-75-86q-10-11-10-26t10-26l75-86-11-113q-2-15 7-27.5t24-15.5l110-24 58-98q8-13 22-17.5t28 1.5l104 44 104-44q14-6 28-1.5t22 17.5l58 98 110 24q15 3 24 15.5t7 27.5l-11 113 75 86q10 11 10 26t-10 26l-75 86 11 113q2 15-7 27.5T802-212l-110 24-58 98q-8 13-22 17.5T584-74l-104-44-104 44q-14 6-28 1.5T326-90Z'), to('view_agenda', 'M200-520q-33 0-56.5-23.5T120-600v-160q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v160q0 33-23.5 56.5T760-520H200Zm0 400q-33 0-56.5-23.5T120-200v-160q0-33 23.5-56.5T200-440h560q33 0 56.5 23.5T840-360v160q0 33-23.5 56.5T760-120H200Z'), to('visibility', 'M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-134 0-244.5-72T61-462q-5-9-7.5-18.5T51-500q0-10 2.5-19.5T61-538q64-118 174.5-190T480-800q134 0 244.5 72T899-538q5 9 7.5 18.5T909-500q0 10-2.5 19.5T899-462q-64 118-174.5 190T480-200Z'), to('warning', 'M109-120q-11 0-20-5.5T75-140q-5-9-5.5-19.5T75-180l370-640q6-10 15.5-15t19.5-5q10 0 19.5 5t15.5 15l370 640q6 10 5.5 20.5T885-140q-5 9-14 14.5t-20 5.5H109Zm371-120q17 0 28.5-11.5T520-280q0-17-11.5-28.5T480-320q-17 0-28.5 11.5T440-280q0 17 11.5 28.5T480-240Zm0-120q17 0 28.5-11.5T520-400v-120q0-17-11.5-28.5T480-560q-17 0-28.5 11.5T440-520v120q0 17 11.5 28.5T480-360Z'), to('water_drop', 'M480-80q-137 0-228.5-94T160-408q0-62 28-124t70-119q42-57 91-107t91-87q8-8 18.5-11.5T480-860q11 0 21.5 3.5T520-845q42 37 91 87t91 107q42 57 70 119t28 124q0 140-91.5 234T480-80Zm11-120q12-1 20.5-9.5T520-230q0-14-9-22.5t-23-7.5q-41 3-87-22.5T343-375q-2-11-10.5-18t-19.5-7q-14 0-23 10.5t-6 24.5q17 91 80 130t127 35Z')]);
-  this.l20_1 = mapOf([to('ac_unit', 'M440-246 337-145q-11 11-27.5 11T282-146q-12-11-12-27.5t12-28.5l158-158v-80h-80L201-281q-11 11-27.5 11T145-282q-11-11-11-27.5t11-27.5l101-103H119q-17 0-28-11.5T80-480q0-17 11.5-28.5T120-520h126L145-622q-11-11-11-27.5t12-28.5q11-11 27.5-11t28.5 11l158 158h80v-80L281-758q-11-11-11-27.5t12-28.5q11-11 27.5-11t27.5 11l103 100v-126q0-17 11.5-28.5T480-880q17 0 28.5 11.5T520-840v126l102-100q11-11 27.5-11t28.5 11q11 12 11 28.5T678-758L520-600v80h80l158-158q11-11 27.5-11t28.5 12q11 11 11 27.5T814-622L714-520h126q17 0 28.5 11.5T880-480q0 17-11.5 28.5T840-440H714l100 103q11 11 11 27.5T814-282q-12 12-28.5 12T758-282L600-440h-80v80l158 159q11 11 11 27.5T677-145q-11 11-27.5 11T622-145L520-246v127q0 17-11.5 28T480-80q-17 0-28.5-11.5T440-120v-126Z'), to('add', 'M440-440H240q-17 0-28.5-11.5T200-480q0-17 11.5-28.5T240-520h200v-200q0-17 11.5-28.5T480-760q17 0 28.5 11.5T520-720v200h200q17 0 28.5 11.5T760-480q0 17-11.5 28.5T720-440H520v200q0 17-11.5 28.5T480-200q-17 0-28.5-11.5T440-240v-200Z'), to('air', 'M460-160q-32 0-59.5-16T356-220q-11-20-.5-40t32.5-20q13 0 23 8t18 18q5 7 13.5 10.5T460-240q17 0 28.5-11.5T500-280q0-17-11.5-28.5T460-320H120q-17 0-28.5-11.5T80-360q0-17 11.5-28.5T120-400h340q50 0 85 35t35 85q0 50-35 85t-85 35ZM120-560q-17 0-28.5-11.5T80-600q0-17 11.5-28.5T120-640h500q25 0 42.5-17.5T680-700q0-25-17.5-42.5T620-760q-16 0-30 7.5T568-731q-7 12-17 21.5t-24 9.5q-20 0-32.5-15t-6.5-32q14-42 50.5-67.5T620-840q58 0 99 41t41 99q0 58-41 99t-99 41H120Zm678 308q-20 9-39-2.5T740-288q0-14 9.5-23.5T771-328q14-8 21.5-22t7.5-30q0-25-17.5-42.5T740-440H120q-17 0-28.5-11.5T80-480q0-17 11.5-28.5T120-520h620q58 0 99 41t41 99q0 42-22 76.5T798-252Z'), to('arrow_back', 'm313-440 196 196q12 12 11.5 28T508-188q-12 11-28 11.5T452-188L188-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l264-264q11-11 27.5-11t28.5 11q12 12 12 28.5T508-715L313-520h447q17 0 28.5 11.5T800-480q0 17-11.5 28.5T760-440H313Z'), to('arrow_downward', 'M440-313v-447q0-17 11.5-28.5T480-800q17 0 28.5 11.5T520-760v447l196-196q12-12 28-11.5t28 12.5q11 12 11.5 28T772-452L508-188q-6 6-13 8.5t-15 2.5q-8 0-15-2.5t-13-8.5L188-452q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l195 195Z'), to('arrow_forward', 'M647-440H200q-17 0-28.5-11.5T160-480q0-17 11.5-28.5T200-520h447L451-716q-12-12-11.5-28t12.5-28q12-11 28-11.5t28 11.5l264 264q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L508-188q-11 11-27.5 11T452-188q-12-12-12-28.5t12-28.5l195-195Z'), to('arrow_upward', 'M440-647 244-451q-12 12-28 11.5T188-452q-11-12-11.5-28t11.5-28l264-264q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l264 264q11 11 11 27.5T772-452q-12 12-28.5 12T715-452L520-647v447q0 17-11.5 28.5T480-160q-17 0-28.5-11.5T440-200v-447Z'), to('auto_awesome', 'm646-438-86 138q-11 17-30.5 14T505-309l-28-112-273 273q-11 11-27.5 11.5T148-148q-11-11-11-28t11-28l273-274-112-28q-20-5-23-24.5t14-30.5l138-85-12-163q-2-20 16-29t33 4l125 105 151-61q19-8 33 6t6 33l-61 151 105 124q13 15 4 33t-29 16l-163-11ZM134-706q-6-6-6-14t6-14l52-52q6-6 14-6t14 6l52 52q6 6 6 14t-6 14l-52 52q-6 6-14 6t-14-6l-52-52Zm421 263 48-79 93 7-60-71 35-86-86 35-71-59 7 92-79 49 90 22 23 90Zm151 309-52-52q-6-6-6-14t6-14l52-52q6-6 14-6t14 6l52 52q6 6 6 14t-6 14l-52 52q-6 6-14 6t-14-6ZM569-570Z'), to('backspace', 'M360-200q-20 0-37.5-9T294-234L153-434q-15-21-15-46t15-46l141-200q11-16 28.5-25t37.5-9h400q33 0 56.5 23.5T840-680v400q0 33-23.5 56.5T760-200H360Zm400-80v-400 400Zm-400 0h400v-400H360L218-480l142 200Zm200-144 76 76q11 11 28 11t28-11q11-11 11-28t-11-28l-76-76 76-76q11-11 11-28t-11-28q-11-11-28-11t-28 11l-76 76-76-76q-11-11-28-11t-28 11q-11 11-11 28t11 28l76 76-76 76q-11 11-11 28t11 28q11 11 28 11t28-11l76-76Z'), to('bar_chart', 'M680-160q-17 0-28.5-11.5T640-200v-200q0-17 11.5-28.5T680-440h80q17 0 28.5 11.5T800-400v200q0 17-11.5 28.5T760-160h-80Zm-240 0q-17 0-28.5-11.5T400-200v-560q0-17 11.5-28.5T440-800h80q17 0 28.5 11.5T560-760v560q0 17-11.5 28.5T520-160h-80Zm-240 0q-17 0-28.5-11.5T160-200v-360q0-17 11.5-28.5T200-600h80q17 0 28.5 11.5T320-560v360q0 17-11.5 28.5T280-160h-80Z'), to('block', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z'), to('bolt', 'm422-232 207-248H469l29-227-185 267h139l-30 208Zm-62-128H236q-24 0-35.5-21.5T203-423l299-430q10-14 26-19.5t33 .5q17 6 25 21t6 32l-32 259h155q26 0 36.5 23t-6.5 43L416-100q-11 13-27 17t-31-3q-15-7-23.5-21.5T328-139l32-221Zm111-110Z'), to('bookmark', 'm480-240-168 72q-40 17-76-6.5T200-241v-519q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v519q0 43-36 66.5t-76 6.5l-168-72Zm0-88 200 86v-518H280v518l200-86Zm0-432H280h400-200Z'), to('bug_report', 'M480-120q-65 0-120.5-32T272-240h-72q-17 0-28.5-11.5T160-280q0-17 11.5-28.5T200-320h44q-3-20-3.5-40t-.5-40h-40q-17 0-28.5-11.5T160-440q0-17 11.5-28.5T200-480h40q0-20 .5-40t3.5-40h-44q-17 0-28.5-11.5T160-600q0-17 11.5-28.5T200-640h72q14-23 31.5-43t40.5-35l-37-38q-11-11-11-27.5t12-28.5q11-11 28-11t28 11l58 58q28-9 57-9t57 9l60-59q11-11 27.5-11t28.5 12q11 11 11 28t-11 28l-38 38q23 15 41.5 34.5T688-640h72q17 0 28.5 11.5T800-600q0 17-11.5 28.5T760-560h-44q3 20 3.5 40t.5 40h40q17 0 28.5 11.5T800-440q0 17-11.5 28.5T760-400h-40q0 20-.5 40t-3.5 40h44q17 0 28.5 11.5T800-280q0 17-11.5 28.5T760-240h-72q-32 56-87.5 88T480-120Zm0-80q66 0 113-47t47-113v-160q0-66-47-113t-113-47q-66 0-113 47t-47 113v160q0 66 47 113t113 47Zm-40-120h80q17 0 28.5-11.5T560-360q0-17-11.5-28.5T520-400h-80q-17 0-28.5 11.5T400-360q0 17 11.5 28.5T440-320Zm0-160h80q17 0 28.5-11.5T560-520q0-17-11.5-28.5T520-560h-80q-17 0-28.5 11.5T400-520q0 17 11.5 28.5T440-480Zm40 40Z'), to('build', 'M360-360q-100 0-170-70t-70-170q0-20 3-40t11-38q5-10 12.5-15t16.5-7q9-2 18.5.5T199-689l105 105 72-72-105-105q-8-8-10.5-17.5T260-797q2-9 7-16.5t15-12.5q18-8 38-11t40-3q100 0 170 70t70 170q0 23-4 43.5T584-516l202 200q29 29 29 71t-29 71q-29 29-71 29t-71-30L444-376q-20 8-40.5 12t-43.5 4Zm0-80q26 0 52-8t47-25l243 243q5 5 13.5 4.5T729-231q5-5 5-13.5t-5-13.5L486-500q18-20 26-46.5t8-53.5q0-60-38.5-104.5T386-758l74 74q12 12 12 28t-12 28L332-500q-12 12-28 12t-28-12l-74-74q9 57 53.5 95.5T360-440Zm109-51Z'), to('calculate', 'M320-320v50q0 13 8.5 21.5T350-240q13 0 21.5-8.5T380-270v-50h50q13 0 21.5-8.5T460-350q0-13-8.5-21.5T430-380h-50v-50q0-13-8.5-21.5T350-460q-13 0-21.5 8.5T320-430v50h-50q-13 0-21.5 8.5T240-350q0 13 8.5 21.5T270-320h50Zm230 50h140q13 0 21.5-8.5T720-300q0-13-8.5-21.5T690-330H550q-13 0-21.5 8.5T520-300q0 13 8.5 21.5T550-270Zm0-100h140q13 0 21.5-8.5T720-400q0-13-8.5-21.5T690-430H550q-13 0-21.5 8.5T520-400q0 13 8.5 21.5T550-370Zm70-208 35 35q9 9 21 9t21-9q8-8 8.5-20.5T698-585l-36-37 35-35q9-9 9-21t-9-21q-9-9-21-9t-21 9l-35 35-35-35q-9-9-21-9t-21 9q-9 9-9 21t9 21l35 35-36 37q-8 9-8 21t9 21q9 9 21 9t21-9l35-35Zm-340-14h140q13 0 21.5-8.5T450-622q0-13-8.5-21.5T420-652H280q-13 0-21.5 8.5T250-622q0 13 8.5 21.5T280-592Zm-80 472q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z'), to('calendar_month', 'M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Zm280 240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z'), to('cancel', 'm480-424 116 116q11 11 28 11t28-11q11-11 11-28t-11-28L536-480l116-116q11-11 11-28t-11-28q-11-11-28-11t-28 11L480-536 364-652q-11-11-28-11t-28 11q-11 11-11 28t11 28l116 116-116 116q-11 11-11 28t11 28q11 11 28 11t28-11l116-116Zm0 344q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z'), to('category', 'm297-581 149-243q6-10 15-14.5t19-4.5q10 0 19 4.5t15 14.5l149 243q6 10 6 21t-5 20q-5 9-14 14.5t-21 5.5H331q-12 0-21-5.5T296-540q-5-9-5-20t6-21ZM700-80q-75 0-127.5-52.5T520-260q0-75 52.5-127.5T700-440q75 0 127.5 52.5T880-260q0 75-52.5 127.5T700-80Zm-580-60v-240q0-17 11.5-28.5T160-420h240q17 0 28.5 11.5T440-380v240q0 17-11.5 28.5T400-100H160q-17 0-28.5-11.5T120-140Zm580-20q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29Zm-500-20h160v-160H200v160Zm202-420h156l-78-126-78 126Zm78 0ZM360-340Zm340 80Z'), to('celebration', 'm212-212 282-100-182-182-100 282Zm709-467q-9 9-21 9t-21-9l-3-3q-14-14-35-14t-35 14L603-479q-9 9-21 9t-21-9q-9-9-9-21t9-21l203-203q32-32 77-32t77 32l3 3q9 9 9 21t-9 21ZM399-799q9-9 21-9t21 9l5 5q32 32 32 76t-32 76l-3 3q-9 9-21 9t-21-9q-9-9-9-21t9-21l3-3q14-14 14-34t-14-34l-5-5q-9-9-9-21t9-21Zm162-80q9-9 21-9t21 9l43 43q32 32 32 77t-32 77L523-559q-9 9-21 9t-21-9q-9-9-9-21t9-21l123-123q14-14 14-35t-14-35l-43-43q-9-9-9-21t9-21Zm320 480q-9 9-21 9t-21-9l-43-43q-14-14-35-14t-35 14l-43 43q-9 9-21 9t-21-9q-9-9-9-21t9-21l43-43q32-32 77-32t77 32l43 43q9 9 9 21t-9 21ZM212-212Zm-104 52 151-420q5-13 15.5-20t22.5-7q8 0 15 3t13 9l270 270q6 6 9 13t3 15q0 12-7 22.5T580-259L160-108q-12 5-23 1.5T118-118q-8-8-11.5-19t1.5-23Z'), to('check', 'm382-354 339-339q12-12 28-12t28 12q12 12 12 28.5T777-636L410-268q-12 12-28 12t-28-12L182-440q-12-12-11.5-28.5T183-497q12-12 28.5-12t28.5 12l142 143Z'), to('check_box', 'm424-424-86-86q-11-11-28-11t-28 11q-11 11-11 28t11 28l114 114q12 12 28 12t28-12l226-226q11-11 11-28t-11-28q-11-11-28-11t-28 11L424-424ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z'), to('check_box_outline_blank', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Z'), to('check_circle', 'm424-408-86-86q-11-11-28-11t-28 11q-11 11-11 28t11 28l114 114q12 12 28 12t28-12l226-226q11-11 11-28t-11-28q-11-11-28-11t-28 11L424-408Zm56 328q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z'), to('chevron_left', 'm432-480 156 156q11 11 11 28t-11 28q-11 11-28 11t-28-11L348-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l184-184q11-11 28-11t28 11q11 11 11 28t-11 28L432-480Z'), to('chevron_right', 'M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z'), to('circle', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z'), to('cleaning_services', 'M200-40q-33 0-56.5-23.5T120-120v-200q0-83 58.5-141.5T320-520h40v-320q0-33 23.5-56.5T440-920h80q33 0 56.5 23.5T600-840v320h40q83 0 141.5 58.5T840-320v200q0 33-23.5 56.5T760-40H200Zm0-80h80v-120q0-17 11.5-28.5T320-280q17 0 28.5 11.5T360-240v120h80v-120q0-17 11.5-28.5T480-280q17 0 28.5 11.5T520-240v120h80v-120q0-17 11.5-28.5T640-280q17 0 28.5 11.5T680-240v120h80v-200q0-50-35-85t-85-35H320q-50 0-85 35t-35 85v200Zm320-400v-320h-80v320h80Zm0 0h-80 80Z'), to('close', 'M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z'), to('cloud', 'M260-160q-91 0-155.5-63T40-377q0-78 47-139t123-78q25-92 100-149t170-57q117 0 198.5 81.5T760-520q69 8 114.5 59.5T920-340q0 75-52.5 127.5T740-160H260Zm0-80h480q42 0 71-29t29-71q0-42-29-71t-71-29h-60v-80q0-83-58.5-141.5T480-720q-83 0-141.5 58.5T280-520h-20q-58 0-99 41t-41 99q0 58 41 99t99 41Zm220-240Z'), to('compare_arrows', 'M367-320H120q-17 0-28.5-11.5T80-360q0-17 11.5-28.5T120-400h247l-75-75q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l143 143q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L348-188q-12 12-28 11.5T292-189q-11-12-11.5-28t11.5-28l75-75Zm226-240 75 75q11 11 11 27.5T668-429q-12 12-28.5 12T611-429L468-572q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l144-144q12-12 28-11.5t28 12.5q11 12 11.5 28T668-715l-75 75h247q17 0 28.5 11.5T880-600q0 17-11.5 28.5T840-560H593Z'), to('confirmation_number', 'M160-160q-33 0-56.5-23.5T80-240v-135q0-11 7-19t18-10q24-8 39.5-29t15.5-47q0-26-15.5-47T105-556q-11-2-18-10t-7-19v-135q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v135q0 11-7 19t-18 10q-24 8-39.5 29T800-480q0 26 15.5 47t39.5 29q11 2 18 10t7 19v135q0 33-23.5 56.5T800-160H160Zm0-80h640v-102q-37-22-58.5-58.5T720-480q0-43 21.5-79.5T800-618v-102H160v102q37 22 58.5 58.5T240-480q0 43-21.5 79.5T160-342v102Zm320-40q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm0-160q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm0-160q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 120Z'), to('content_copy', 'M360-240q-33 0-56.5-23.5T280-320v-480q0-33 23.5-56.5T360-880h360q33 0 56.5 23.5T800-800v480q0 33-23.5 56.5T720-240H360Zm0-80h360v-480H360v480ZM200-80q-33 0-56.5-23.5T120-160v-520q0-17 11.5-28.5T160-720q17 0 28.5 11.5T200-680v520h400q17 0 28.5 11.5T640-120q0 17-11.5 28.5T600-80H200Zm160-240v-480 480Z'), to('contrast', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm40-83q119-15 199.5-104.5T800-480q0-123-80.5-212.5T520-797v634Z'), to('cookie', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-81 33.5-157.5t93-134.5Q266-830 348-860t180-18q15 2 23 12.5t9 28.5q2 64 47.5 109.5T716-680q21 1 32 12t12 34q2 42 25.5 69t65.5 41q14 5 21.5 14.5T880-486q2 83-29 157t-85 129.5Q712-144 638-112T480-80Zm0-80q122 0 216.5-84T800-458q-50-22-78.5-60T683-603q-77-11-132-66t-68-132q-80-2-140.5 29t-101 79.5Q201-644 180.5-587T160-480q0 133 93.5 226.5T480-160Zm0-324Zm-60-76q25 0 42.5-17.5T480-620q0-25-17.5-42.5T420-680q-25 0-42.5 17.5T360-620q0 25 17.5 42.5T420-560Zm-80 200q25 0 42.5-17.5T400-420q0-25-17.5-42.5T340-480q-25 0-42.5 17.5T280-420q0 25 17.5 42.5T340-360Zm260 40q17 0 28.5-11.5T640-360q0-17-11.5-28.5T600-400q-17 0-28.5 11.5T560-360q0 17 11.5 28.5T600-320Z'), to('crown', 'M240-160q-17 0-28.5-11.5T200-200q0-17 11.5-28.5T240-240h480q17 0 28.5 11.5T760-200q0 17-11.5 28.5T720-160H240Zm28-140q-29 0-51.5-19T189-367l-40-254q-2 0-4.5.5t-4.5.5q-25 0-42.5-17.5T80-680q0-25 17.5-42.5T140-740q25 0 42.5 17.5T200-680q0 7-1.5 13t-3.5 11l125 56 125-171q-11-8-18-21t-7-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820q0 15-7 28t-18 21l125 171 125-56q-2-5-3.5-11t-1.5-13q0-25 17.5-42.5T820-740q25 0 42.5 17.5T880-680q0 25-17.5 42.5T820-620q-2 0-4.5-.5t-4.5-.5l-40 254q-5 29-27.5 48T692-300H268Zm0-80h424l26-167-46 20q-26 11-53 4t-44-30l-95-131-95 131q-17 23-44 30t-53-4l-46-20 26 167Zm212 0Z'), to('delete', 'M280-120q-33 0-56.5-23.5T200-200v-520q-17 0-28.5-11.5T160-760q0-17 11.5-28.5T200-800h160q0-17 11.5-28.5T400-840h160q17 0 28.5 11.5T600-800h160q17 0 28.5 11.5T800-760q0 17-11.5 28.5T760-720v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM400-280q17 0 28.5-11.5T440-320v-280q0-17-11.5-28.5T400-640q-17 0-28.5 11.5T360-600v280q0 17 11.5 28.5T400-280Zm160 0q17 0 28.5-11.5T600-320v-280q0-17-11.5-28.5T560-640q-17 0-28.5 11.5T520-600v280q0 17 11.5 28.5T560-280ZM280-720v520-520Z'), to('diamond', 'M480-165q-17 0-33-7.5T419-194L113-560q-9-11-13.5-24T95-611q0-9 1.5-18.5T103-647l75-149q11-20 29.5-32t41.5-12h462q23 0 41.5 12t29.5 32l75 149q5 8 6.5 17.5T865-611q0 14-4.5 27T847-560L541-194q-12 14-28 21.5t-33 7.5Zm-95-475h190l-60-120h-70l-60 120Zm55 347v-267H218l222 267Zm80 0 222-267H520v267Zm144-347h106l-60-120H604l60 120Zm-474 0h106l60-120H250l-60 120Z'), to('download', 'M480-337q-8 0-15-2.5t-13-8.5L308-492q-12-12-11.5-28t11.5-28q12-12 28.5-12.5T365-549l75 75v-286q0-17 11.5-28.5T480-800q17 0 28.5 11.5T520-760v286l75-75q12-12 28.5-11.5T652-548q11 12 11.5 28T652-492L508-348q-6 6-13 8.5t-15 2.5ZM240-160q-33 0-56.5-23.5T160-240v-80q0-17 11.5-28.5T200-360q17 0 28.5 11.5T240-320v80h480v-80q0-17 11.5-28.5T760-360q17 0 28.5 11.5T800-320v80q0 33-23.5 56.5T720-160H240Z'), to('edit', 'M200-200h57l391-391-57-57-391 391v57Zm-40 80q-17 0-28.5-11.5T120-160v-97q0-16 6-30.5t17-25.5l505-504q12-11 26.5-17t30.5-6q16 0 31 6t26 18l55 56q12 11 17.5 26t5.5 30q0 16-5.5 30.5T817-647L313-143q-11 11-25.5 17t-30.5 6h-97Zm600-584-56-56 56 56Zm-141 85-28-29 57 57-29-28Z'), to('egg', 'M480-120q-117 0-198.5-81.5T200-400q0-77 25.5-155t66-141.5Q332-760 382-800t98-40q49 0 98.5 40t90 103.5Q709-633 734.5-555T760-400q0 117-81.5 198.5T480-120Zm0-80q83 0 141.5-58.5T680-400q0-57-19.5-120t-49-116.5Q582-690 547-725t-67-35q-31 0-66.5 35t-65 88.5Q319-583 299.5-520T280-400q0 83 58.5 141.5T480-200Zm40-40q17 0 28.5-11.5T560-280q0-17-11.5-28.5T520-320q-50 0-85-35t-35-85q0-17-11.5-28.5T360-480q-17 0-28.5 11.5T320-440q0 83 58.5 141.5T520-240Zm-40-240Z'), to('event', 'M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z'), to('expand_less', 'M480-529 324-373q-11 11-28 11t-28-11q-11-11-11-28t11-28l184-184q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l184 184q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-529Z'), to('expand_more', 'M480-362q-8 0-15-2.5t-13-8.5L268-557q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-373q-6 6-13 8.5t-15 2.5Z'), to('favorite', 'M480-147q-14 0-28.5-5T426-168l-69-63q-106-97-191.5-192.5T80-634q0-94 63-157t157-63q53 0 100 22.5t80 61.5q33-39 80-61.5T660-854q94 0 157 63t63 157q0 115-85 211T602-230l-68 62q-11 11-25.5 16t-28.5 5Zm-38-543q-29-41-62-62.5T300-774q-60 0-100 40t-40 100q0 52 37 110.5T285.5-410q51.5 55 106 103t88.5 79q34-31 88.5-79t106-103Q726-465 763-523.5T800-634q0-60-40-100t-100-40q-47 0-80 21.5T518-690q-7 10-17 15t-21 5q-11 0-21-5t-17-15Zm38 189Z'), to('female', 'M440-200h-40q-17 0-28.5-11.5T360-240q0-17 11.5-28.5T400-280h40v-84q-79-14-129.5-75.5T260-582q0-91 64.5-154.5T480-800q91 0 155.5 63.5T700-582q0 81-50.5 142.5T520-364v84h40q17 0 28.5 11.5T600-240q0 17-11.5 28.5T560-200h-40v40q0 17-11.5 28.5T480-120q-17 0-28.5-11.5T440-160v-40Zm40-240q58 0 99-41t41-99q0-58-41-99t-99-41q-58 0-99 41t-41 99q0 58 41 99t99 41Z'), to('fiber_manual_record', 'M480-480Zm0 280q-116 0-198-82t-82-198q0-116 82-198t198-82q116 0 198 82t82 198q0 116-82 198t-198 82Zm0-80q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Z'), to('fiber_new', 'M120-160q-33 0-56.5-23.5T40-240v-480q0-33 23.5-56.5T120-800h720q33 0 56.5 23.5T920-720v480q0 33-23.5 56.5T840-160H120Zm0-80h720v-480H120v480Zm70-260 95 130q3 5 8 7.5t11 2.5h12q10 0 17-7t7-17v-191q0-11-7-18t-18-7q-11 0-18 7t-7 18v115l-93-130q-4-5-9-7.5t-11-2.5h-12q-11 0-18 7t-7 18v190q0 11 7 18t18 7q11 0 18-7t7-18v-115Zm210 140h115q11 0 18-7t7-18q0-11-7-18t-18-7h-75v-44h75q11 0 18-7t7-18q0-11-7-18t-18-7h-75v-46h75q11 0 18-7t7-18q0-11-7-18t-18-7H400q-8 0-14 6t-6 14v200q0 8 6 14t14 6Zm220 0h160q17 0 28.5-11.5T820-400v-175q0-11-7-18t-18-7q-11 0-18 7t-7 18v155h-44v-115q0-11-7-18t-18-7q-11 0-18 7t-7 18v115h-46v-155q0-11-7-18t-18-7q-11 0-18 7t-7 18v175q0 17 11.5 28.5T620-360ZM120-240v-480 480Z'), to('filter_list', 'M440-240q-17 0-28.5-11.5T400-280q0-17 11.5-28.5T440-320h80q17 0 28.5 11.5T560-280q0 17-11.5 28.5T520-240h-80ZM280-440q-17 0-28.5-11.5T240-480q0-17 11.5-28.5T280-520h400q17 0 28.5 11.5T720-480q0 17-11.5 28.5T680-440H280ZM160-640q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z'), to('flare', 'M280-480q0 17-11.5 28.5T240-440H80q-17 0-28.5-11.5T40-480q0-17 11.5-28.5T80-520h160q17 0 28.5 11.5T280-480Zm58-142q-11 11-28 11t-28-11l-28-28q-11-11-11-28t11-28q11-11 28-11t28 11l28 28q11 11 11 28t-11 28Zm102-98v-160q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v160q0 17-11.5 28.5T480-680q-17 0-28.5-11.5T440-720Zm182 98q-11-11-11-28t11-28l28-28q11-11 28-11t28 11q11 11 11 28t-11 28l-28 28q-11 11-28 11t-28-11Zm58 142q0-17 11.5-28.5T720-520h160q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440H720q-17 0-28.5-11.5T680-480ZM480-360q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm142 22q11-11 28-11t28 11l28 28q11 11 11 28t-11 28q-11 11-28 11t-28-11l-28-28q-11-11-11-28t11-28Zm-284 0q11 11 11 28t-11 28l-28 28q-11 11-28 11t-28-11q-11-11-11-28t11-28l28-28q11-11 28-11t28 11Zm142 58q17 0 28.5 11.5T520-240v160q0 17-11.5 28.5T480-40q-17 0-28.5-11.5T440-80v-160q0-17 11.5-28.5T480-280Z'), to('foggy', 'M720-200q-17 0-28.5-11.5T680-240q0-17 11.5-28.5T720-280q17 0 28.5 11.5T760-240q0 17-11.5 28.5T720-200ZM280-80q-17 0-28.5-11.5T240-120q0-17 11.5-28.5T280-160q17 0 28.5 11.5T320-120q0 17-11.5 28.5T280-80Zm-40-120q-17 0-28.5-11.5T200-240q0-17 11.5-28.5T240-280h360q17 0 28.5 11.5T640-240q0 17-11.5 28.5T600-200H240ZM400-80q-17 0-28.5-11.5T360-120q0-17 11.5-28.5T400-160h280q17 0 28.5 11.5T720-120q0 17-11.5 28.5T680-80H400ZM300-320q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Zm0-80h400q42 0 71-29t29-71q0-42-29-71t-71-29h-60v-40q0-66-47-113t-113-47q-48 0-87.5 26T333-704l-10 24h-25q-57 2-97.5 42.5T160-540q0 58 41 99t99 41Zm180-200Z'), to('forest', 'M280-120v-120H73q-24 0-35-21t2-41l114-178q-23 0-34.5-20.5T122-541l205-292q12-17 33-17t33 17l87 125 87-125q12-17 33-17t33 17l205 292q14 20 2.5 40.5T806-480l114 178q13 20 2 41t-35 21H680v120q0 17-11.5 28.5T640-80h-80q-17 0-28.5-11.5T520-120v-120h-80v120q0 17-11.5 28.5T400-80h-80q-17 0-28.5-11.5T280-120Zm389-200h145L659-560h67L600-740l-71 101 69 98q14 20 2.5 40.5T566-480l103 160Zm-523 0h428L419-560h67L360-740 234-560h67L146-320Zm0 0h155-67 252-67 155-428Zm523 0H566h74-111 197-67 155-145Zm-149 80h160-160Zm201 0Z'), to('format_list_bulleted', 'M400-200q-17 0-28.5-11.5T360-240q0-17 11.5-28.5T400-280h400q17 0 28.5 11.5T840-240q0 17-11.5 28.5T800-200H400Zm0-240q-17 0-28.5-11.5T360-480q0-17 11.5-28.5T400-520h400q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H400Zm0-240q-17 0-28.5-11.5T360-720q0-17 11.5-28.5T400-760h400q17 0 28.5 11.5T840-720q0 17-11.5 28.5T800-680H400ZM200-160q-33 0-56.5-23.5T120-240q0-33 23.5-56.5T200-320q33 0 56.5 23.5T280-240q0 33-23.5 56.5T200-160Zm0-240q-33 0-56.5-23.5T120-480q0-33 23.5-56.5T200-560q33 0 56.5 23.5T280-480q0 33-23.5 56.5T200-400Zm0-240q-33 0-56.5-23.5T120-720q0-33 23.5-56.5T200-800q33 0 56.5 23.5T280-720q0 33-23.5 56.5T200-640Z'), to('grid_view', 'M200-520q-33 0-56.5-23.5T120-600v-160q0-33 23.5-56.5T200-840h160q33 0 56.5 23.5T440-760v160q0 33-23.5 56.5T360-520H200Zm0 400q-33 0-56.5-23.5T120-200v-160q0-33 23.5-56.5T200-440h160q33 0 56.5 23.5T440-360v160q0 33-23.5 56.5T360-120H200Zm400-400q-33 0-56.5-23.5T520-600v-160q0-33 23.5-56.5T600-840h160q33 0 56.5 23.5T840-760v160q0 33-23.5 56.5T760-520H600Zm0 400q-33 0-56.5-23.5T520-200v-160q0-33 23.5-56.5T600-440h160q33 0 56.5 23.5T840-360v160q0 33-23.5 56.5T760-120H600ZM200-600h160v-160H200v160Zm400 0h160v-160H600v160Zm0 400h160v-160H600v160Zm-400 0h160v-160H200v160Zm400-400Zm0 240Zm-240 0Zm0-240Z'), to('group', 'M40-272q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v32q0 33-23.5 56.5T600-160H120q-33 0-56.5-23.5T40-240v-32Zm800 112H738q11-18 16.5-38.5T760-240v-40q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v40q0 33-23.5 56.5T840-160ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113ZM120-240h480v-32q0-11-5.5-20T580-306q-54-27-109-40.5T360-360q-56 0-111 13.5T140-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T440-640q0-33-23.5-56.5T360-720q-33 0-56.5 23.5T280-640q0 33 23.5 56.5T360-560Zm0 320Zm0-400Z'), to('handshake', 'M475-160q4 0 8-2t6-4l328-328q12-12 17.5-27t5.5-30q0-16-5.5-30.5T817-607L647-777q-11-12-25.5-17.5T591-800q-15 0-30 5.5T534-777l-11 11 74 75q15 14 22 32t7 38q0 42-28.5 70.5T527-522q-20 0-38.5-7T456-550l-75-74-175 175q-3 3-4.5 6.5T200-435q0 8 6 14.5t14 6.5q4 0 8-2t6-4l108-108q11-11 27.5-11.5T398-528q11 11 11 28t-11 28L291-364q-3 3-4.5 6.5T285-350q0 8 6 14t14 6q4 0 8-2t6-4l108-107q11-11 27.5-11.5T483-443q11 11 11 28t-11 28L376-279q-3 2-4.5 6t-1.5 8q0 8 6 14t14 6q4 0 7.5-1.5t6.5-4.5l108-107q11-11 27.5-11.5T568-358q11 11 11 28t-11 28L460-194q-3 3-4.5 6.5T454-180q0 8 6.5 14t14.5 6Zm-1 80q-37 0-65.5-24.5T375-166q-34-5-57-28t-28-57q-34-5-56.5-28.5T206-336q-38-5-62-33t-24-66q0-20 7.5-38.5T149-506l175-175q23-23 56.5-23t56.5 23l75 75q2 3 6 4.5t8 1.5q9 0 15-5.5t6-14.5q0-4-1.5-8t-4.5-6L398-777q-11-12-25.5-17.5T342-800q-15 0-30 5.5T285-777L144-635q-14 14-20 33t-3 38q3 17-7 30t-27 15q-17 2-30-7.5T42-553q-6-38 5.5-74.5T87-692l141-141q24-23 53.5-35t60.5-12q31 0 60.5 12t52.5 35l11 11 11-11q24-23 53.5-35t60.5-12q31 0 60.5 12t52.5 35l169 169q23 23 35 53t12 61q0 31-12 60.5T873-437L545-110q-14 14-32.5 22T474-80Zm-98-560Z'), to('healing', 'M480-254 330-104q-23 23-56 23t-56-23L104-218q-23-23-23-56t23-56l150-150-150-150q-23-23-23-56t23-56l114-114q23-23 56-23t56 23l150 150 150-150q23-23 56-23t56 23l114 114q23 23 23 56t-23 56L706-480l150 150q23 23 23 56t-23 56L742-104q-23 23-56 23t-56-23L480-254Zm0-266q17 0 28.5-11.5T520-560q0-17-11.5-28.5T480-600q-17 0-28.5 11.5T440-560q0 17 11.5 28.5T480-520Zm-170-16 114-114-150-150-114 114 150 150Zm90 96q17 0 28.5-11.5T440-480q0-17-11.5-28.5T400-520q-17 0-28.5 11.5T360-480q0 17 11.5 28.5T400-440Zm80 80q17 0 28.5-11.5T520-400q0-17-11.5-28.5T480-440q-17 0-28.5 11.5T440-400q0 17 11.5 28.5T480-360Zm80-80q17 0 28.5-11.5T600-480q0-17-11.5-28.5T560-520q-17 0-28.5 11.5T520-480q0 17 11.5 28.5T560-440Zm-24 130 150 150 114-114-150-150-114 114ZM339-621Zm282 282Z'), to('help', 'M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm2 160q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Zm4-172q25 0 43.5 16t18.5 40q0 22-13.5 39T502-525q-23 20-40.5 44T444-427q0 14 10.5 23.5T479-394q15 0 25.5-10t13.5-25q4-21 18-37.5t30-31.5q23-22 39.5-48t16.5-58q0-51-41.5-83.5T484-720q-38 0-72.5 16T359-655q-7 12-4.5 25.5T368-609q14 8 29 5t25-17q11-15 27.5-23t34.5-8Z'), to('history', 'M480-120q-126 0-223-76.5T131-392q-4-15 6-27.5t27-14.5q16-2 29 6t18 24q24 90 99 147t170 57q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h70q17 0 28.5 11.5T360-600q0 17-11.5 28.5T320-560H160q-17 0-28.5-11.5T120-600v-160q0-17 11.5-28.5T160-800q17 0 28.5 11.5T200-760v54q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm40-376 100 100q11 11 11 28t-11 28q-11 11-28 11t-28-11L452-452q-6-6-9-13.5t-3-15.5v-159q0-17 11.5-28.5T480-680q17 0 28.5 11.5T520-640v144Z'), to('home', 'M240-200h120v-200q0-17 11.5-28.5T400-440h160q17 0 28.5 11.5T600-400v200h120v-360L480-740 240-560v360Zm-80 0v-360q0-19 8.5-36t23.5-28l240-180q21-16 48-16t48 16l240 180q15 11 23.5 28t8.5 36v360q0 33-23.5 56.5T720-120H560q-17 0-28.5-11.5T520-160v-200h-80v200q0 17-11.5 28.5T400-120H240q-33 0-56.5-23.5T160-200Zm320-270Z'), to('hourglass_top', 'M320-160h320v-120q0-66-47-113t-113-47q-66 0-113 47t-47 113v120ZM200-80q-17 0-28.5-11.5T160-120q0-17 11.5-28.5T200-160h40v-120q0-61 28.5-114.5T348-480q-51-32-79.5-85.5T240-680v-120h-40q-17 0-28.5-11.5T160-840q0-17 11.5-28.5T200-880h560q17 0 28.5 11.5T800-840q0 17-11.5 28.5T760-800h-40v120q0 61-28.5 114.5T612-480q51 32 79.5 85.5T720-280v120h40q17 0 28.5 11.5T800-120q0 17-11.5 28.5T760-80H200Z'), to('info', 'M480-280q17 0 28.5-11.5T520-320v-160q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480v160q0 17 11.5 28.5T480-280Zm0-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z'), to('inventory_2', 'M200-80q-33 0-56.5-23.5T120-160v-451q-18-11-29-28.5T80-680v-120q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v120q0 23-11 40.5T840-611v451q0 33-23.5 56.5T760-80H200Zm0-520v440h560v-440H200Zm-40-80h640v-120H160v120Zm240 280h160q17 0 28.5-11.5T600-440q0-17-11.5-28.5T560-480H400q-17 0-28.5 11.5T360-440q0 17 11.5 28.5T400-400Zm80 20Z'), to('keyboard_arrow_down', 'M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z'), to('leaderboard', 'M160-200h160v-320H160v320Zm240 0h160v-560H400v560Zm240 0h160v-240H640v240Zm-560 0v-320q0-33 23.5-56.5T160-600h160v-160q0-33 23.5-56.5T400-840h160q33 0 56.5 23.5T640-760v240h160q33 0 56.5 23.5T880-440v240q0 33-23.5 56.5T800-120H160q-33 0-56.5-23.5T80-200Z'), to('lightbulb', 'M480-80q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM360-200q-17 0-28.5-11.5T320-240q0-17 11.5-28.5T360-280h240q17 0 28.5 11.5T640-240q0 17-11.5 28.5T600-200H360Zm-30-120q-69-41-109.5-110T180-580q0-125 87.5-212.5T480-880q125 0 212.5 87.5T780-580q0 81-40.5 150T630-320H330Zm24-80h252q45-32 69.5-79T700-580q0-92-64-156t-156-64q-92 0-156 64t-64 156q0 54 24.5 101t69.5 79Zm126 0Z'), to('link', 'M280-280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h120q17 0 28.5 11.5T440-640q0 17-11.5 28.5T400-600H280q-50 0-85 35t-35 85q0 50 35 85t85 35h120q17 0 28.5 11.5T440-320q0 17-11.5 28.5T400-280H280Zm80-160q-17 0-28.5-11.5T320-480q0-17 11.5-28.5T360-520h240q17 0 28.5 11.5T640-480q0 17-11.5 28.5T600-440H360Zm200 160q-17 0-28.5-11.5T520-320q0-17 11.5-28.5T560-360h120q50 0 85-35t35-85q0-50-35-85t-85-35H560q-17 0-28.5-11.5T520-640q0-17 11.5-28.5T560-680h120q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H560Z'), to('list', 'M320-600q-17 0-28.5-11.5T280-640q0-17 11.5-28.5T320-680h480q17 0 28.5 11.5T840-640q0 17-11.5 28.5T800-600H320Zm0 160q-17 0-28.5-11.5T280-480q0-17 11.5-28.5T320-520h480q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H320Zm0 160q-17 0-28.5-11.5T280-320q0-17 11.5-28.5T320-360h480q17 0 28.5 11.5T840-320q0 17-11.5 28.5T800-280H320ZM160-600q-17 0-28.5-11.5T120-640q0-17 11.5-28.5T160-680q17 0 28.5 11.5T200-640q0 17-11.5 28.5T160-600Zm0 160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440Zm0 160q-17 0-28.5-11.5T120-320q0-17 11.5-28.5T160-360q17 0 28.5 11.5T200-320q0 17-11.5 28.5T160-280Z'), to('local_activity', 'm480-404 60 46q11 9 24 .5t8-22.5l-24-76 67-52q11-9 6-22.5T602-544h-78l-25-77q-5-14-19-14t-19 14l-25 77h-79q-14 0-18.5 13.5T345-508l65 52-24 77q-5 14 7 22.5t24-.5l63-47ZM160-160q-33 0-56.5-23.5T80-240v-135q0-11 7-19t18-10q24-8 39.5-29t15.5-47q0-26-15.5-47T105-556q-11-2-18-10t-7-19v-135q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v135q0 11-7 19t-18 10q-24 8-39.5 29T800-480q0 26 15.5 47t39.5 29q11 2 18 10t7 19v135q0 33-23.5 56.5T800-160H160Zm0-80h640v-102q-37-22-58.5-58.5T720-480q0-43 21.5-79.5T800-618v-102H160v102q37 22 58.5 58.5T240-480q0 43-21.5 79.5T160-342v102Zm320-240Z'), to('local_fire_department', 'M480-80q-134 0-227-93t-93-227q0-113 67-217t184-182q22-15 45.5-1.5T480-760v52q0 34 23.5 57t57.5 23q17 0 32.5-7.5T621-657q8-10 20.5-12.5T665-664q63 45 99 115t36 149q0 134-93 227T480-80ZM240-400q0 52 21 98.5t60 81.5q-1-5-1-9v-9q0-32 12-60t35-51l113-111 113 111q23 23 35 51t12 60v9q0 4-1 9 39-35 60-81.5t21-98.5q0-50-18.5-94.5T648-574q-20 13-42 19.5t-45 6.5q-62 0-107.5-41T401-690q-78 66-119.5 140.5T240-400Zm240 52-57 56q-11 11-17 25t-6 29q0 32 23.5 55t56.5 23q33 0 56.5-23t23.5-55q0-16-6-29.5T537-292l-57-56Z'), to('local_florist', 'M480-81q0-126 76-223t193-126q19-5 37.5-3.5T819-418q12 13 13.5 31t-3.5 35q-28 118-125.5 194.5T480-81Zm98-97q57-21 100-64t64-100q-57 21-100 64t-64 100Zm-98 98q0-126-76-223T211-429q-19-5-37.5-3.5T141-417q-12 13-13.5 31t3.5 35q28 118 125.5 194.5T480-80Zm-98-98q-57-21-100-64t-64-100q57 21 100 64t64 100Zm196 0Zm-196 0Zm98-422q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 240q-39 0-70.5-21.5T364-438q-5 0-9 .5t-9 .5q-52 0-89-37t-37-89q0-21 7-40.5t21-36.5q-13-17-20-36.5t-7-40.5q0-52 36.5-89t88.5-37q5 0 9 .5t9 .5q14-35 45.5-56.5T480-920q39 0 70.5 21.5T596-842q5 0 9-.5t9-.5q52 0 88.5 37t36.5 89q0 21-6.5 40.5T712-640q13 17 20 36.5t7 40.5q0 52-36.5 89T614-437q-5 0-9-.5t-9-.5q-14 35-45.5 56.5T480-360Zm134-157q19 0 32.5-13.5T660-563q0-14-7.5-24.5T633-604l-35-17q-2 11-6 21.5t-9 19.5q-5 9-12 17t-15 15l32 23q5 4 11.5 6t14.5 2Zm-16-142 35-17q12-6 19-17t7-24q0-19-13-32.5T614-763q-8 0-14 2t-12 6l-33 23q8 7 15.5 15t12.5 17q5 9 9 19.5t6 21.5Zm-159-93q10-4 20-6t21-2q11 0 21 2t20 6l5-44q2-18-12.5-31T480-840q-19 0-33.5 13T434-796l5 44Zm41 312q19 0 33.5-13t12.5-31l-5-44q-10 4-20 6t-21 2q-11 0-21-2t-20-6l-5 44q-2 18 12.5 31t33.5 13ZM362-659q2-11 6-21.5t9-19.5q5-9 12-17t15-15l-32-23q-5-4-11.5-6t-14.5-2q-19 0-32.5 13.5T300-717q0 13 7.5 24t19.5 17l35 17Zm-16 141q8 0 14-1.5t12-6.5l33-22q-8-7-15.5-15T377-580q-5-9-9-19.5t-6-21.5l-35 17q-12 6-19 17t-7 24q1 19 13.5 32t31.5 13Zm237-62Zm0-120Zm-103-60Zm0 240ZM377-700Zm0 120Z'), to('location_on', 'M480-186q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 79q-14 0-28-5t-25-15q-65-60-115-117t-83.5-110.5q-33.5-53.5-51-103T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 45-17.5 94.5t-51 103Q698-301 648-244T533-127q-11 10-25 15t-28 5Zm0-453Zm0 80q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Z'), to('male', 'M800-760v160q0 17-11.5 28.5T760-560q-17 0-28.5-11.5T720-600v-63L561-505q19 28 29 59.5t10 65.5q0 92-64 156t-156 64q-92 0-156-64t-64-156q0-92 64-156t156-64q33 0 65 9.5t59 29.5l159-159h-63q-17 0-28.5-11.5T560-760q0-17 11.5-28.5T600-800h160q17 0 28.5 11.5T800-760ZM380-520q-58 0-99 41t-41 99q0 58 41 99t99 41q58 0 99-41t41-99q0-58-41-99t-99-41Z'), to('menu_book', 'M260-320q47 0 91.5 10.5T440-278v-394q-41-24-87-36t-93-12q-36 0-71.5 7T120-692v396q35-12 69.5-18t70.5-6Zm260 42q44-21 88.5-31.5T700-320q36 0 70.5 6t69.5 18v-396q-33-14-68.5-21t-71.5-7q-47 0-93 12t-87 36v394Zm-40 97q-14 0-26.5-3.5T430-194q-39-23-82-34.5T260-240q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q46-24 96-36t102-12q58 0 113.5 15T480-740q51-30 106.5-45T700-800q52 0 102 12t96 36q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-45 0-88 11.5T530-194q-11 6-23.5 9.5T480-181ZM280-494Zm280-115q0-9 6.5-18.5T581-640q29-10 58-15t61-5q20 0 39.5 2.5T778-651q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-600q-26 0-51 5t-48 13q-18 7-29.5-1T560-609Zm0 220q0-9 6.5-18.5T581-420q29-10 58-15t61-5q20 0 39.5 2.5T778-431q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-380q-26 0-51 4.5T601-363q-18 7-29.5-.5T560-389Zm0-110q0-9 6.5-18.5T581-530q29-10 58-15t61-5q20 0 39.5 2.5T778-541q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-490q-26 0-51 5t-48 13q-18 7-29.5-1T560-499Z'), to('more_horiz', 'M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z'), to('movie', 'm160-800 65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h80l65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h80l65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z'), to('newspaper', 'M160-120q-33 0-56.5-23.5T80-200v-616q0-7 6-9.5t11 2.5l50 50 52-53q6-6 14-6t14 6l53 53 53-53q6-6 14-6t14 6l52 53 53-53q6-6 14-6t14 6l53 53 52-53q6-6 14-6t14 6l53 53 53-53q6-6 14-6t14 6l52 53 50-50q5-5 11-2.5t6 9.5v616q0 33-23.5 56.5T800-120H160Zm0-80h280v-240H160v240Zm360 0h280v-80H520v80Zm0-160h280v-80H520v80ZM160-520h640v-120H160v120Z'), to('nights_stay', 'M504-425Zm20 385H420l20-12.5q20-12.5 43.5-28t43.5-28l20-12.5q81-6 149.5-49T805-285q-86-8-163-43.5T504-425q-61-61-97-138t-43-163q-77 43-120.5 118.5T200-444v12l-12 5.5q-12 5.5-26.5 11.5T135-403.5l-12 5.5q-2-11-2.5-23t-.5-23q0-126 76-235t199-145q11-3 20-1t17 8q8 6 11.5 14.5T446-783q-6 85 24.5 163.5T561-481q61 61 137.5 90T860-367q11-1 20.5 3.5T895-351q5 8 7 17t-2 20q-43 125-142 199.5T524-40Zm-284-80h180q25 0 42.5-17.5T480-180q0-25-17-42.5T422-240h-52l-20-48q-14-33-44-52.5T240-360q-50 0-85 34.5T120-240q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T40-240q0-83 58.5-141.5T240-440q60 0 109.5 32.5T423-320q57 2 97 42.5t40 97.5q0 58-41 99t-99 41H240Z'), to('notifications', 'M200-200q-17 0-28.5-11.5T160-240q0-17 11.5-28.5T200-280h40v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h40q17 0 28.5 11.5T800-240q0 17-11.5 28.5T760-200H200Zm280-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z'), to('open_in_new', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h240q17 0 28.5 11.5T480-800q0 17-11.5 28.5T440-760H200v560h560v-240q0-17 11.5-28.5T800-480q17 0 28.5 11.5T840-440v240q0 33-23.5 56.5T760-120H200Zm560-584L416-360q-11 11-28 11t-28-11q-11-11-11-28t11-28l344-344H600q-17 0-28.5-11.5T560-800q0-17 11.5-28.5T600-840h200q17 0 28.5 11.5T840-800v200q0 17-11.5 28.5T800-560q-17 0-28.5-11.5T760-600v-104Z'), to('park', 'M402-240H195q-24 0-36-21t2-41l119-178h-3q-24 0-35.5-21.5T244-543l203-290q6-8 15-12.5t18-4.5q9 0 18 4.5t15 12.5l203 290q14 20 2.5 41.5T683-480h-3l119 178q14 20 2 41t-36 21H558v120q0 17-11.5 28.5T518-80h-76q-17 0-28.5-11.5T402-120v-120Zm-132-80h160-76 252-76 160-420Zm0 0h420L530-560h76L480-740 354-560h76L270-320Z'), to('partly_cloudy_day', 'M480-760q-17 0-28.5-11.5T440-800v-80q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v80q0 17-11.5 28.5T480-760Zm198 82q-11-11-11-28t11-28l56-57q12-12 28.5-12t28.5 12q11 11 11 28t-11 28l-57 57q-11 11-28 11t-28-11Zm122 238q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520h80q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440h-80Zm-66 271-56-57q-11-11-11-28t11-28q11-11 28-11t28 11l57 56q12 12 12 28.5T791-169q-12 12-28.5 12T734-169ZM226-678l-57-57q-11-11-11-28t11-28q12-12 28.5-12t28.5 12l56 57q11 11 11 28t-11 28q-11 11-28 11t-28-11Zm14 478h180q25 0 42.5-17.5T480-260q0-25-17-42.5T421-320h-51l-20-48q-14-33-44-52.5T240-440q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T40-320q0-83 58.5-141.5T240-520q60 0 109.5 32.5T423-400q58 0 97.5 43T560-254q-2 57-42.5 95.5T420-120H240Zm320-134q-5-20-10-39t-10-39q45-19 72.5-59t27.5-89q0-66-47-113t-113-47q-60 0-105 39t-53 99q-20-5-41-9t-41-9q14-88 82.5-144T480-720q100 0 170 70t70 170q0 77-44 138.5T560-254Zm-79-226Z'), to('pause', 'M600-200q-33 0-56.5-23.5T520-280v-400q0-33 23.5-56.5T600-760h80q33 0 56.5 23.5T760-680v400q0 33-23.5 56.5T680-200h-80Zm-320 0q-33 0-56.5-23.5T200-280v-400q0-33 23.5-56.5T280-760h80q33 0 56.5 23.5T440-680v400q0 33-23.5 56.5T360-200h-80Zm320-80h80v-400h-80v400Zm-320 0h80v-400h-80v400Zm0-400v400-400Zm320 0v400-400Z'), to('person', 'M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-240v-32q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v32q0 33-23.5 56.5T720-160H240q-33 0-56.5-23.5T160-240Zm80 0h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z'), to('pets', 'M180-475q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm180-160q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm240 0q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm180 160q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM266-75q-45 0-75.5-34.5T160-191q0-52 35.5-91t70.5-77q29-31 50-67.5t50-68.5q22-26 51-43t63-17q34 0 63 16t51 42q28 32 49.5 69t50.5 69q35 38 70.5 77t35.5 91q0 47-30.5 81.5T694-75q-54 0-107-9t-107-9q-54 0-107 9t-107 9Z'), to('photo_camera', 'M480-260q75 0 127.5-52.5T660-440q0-75-52.5-127.5T480-620q-75 0-127.5 52.5T300-440q0 75 52.5 127.5T480-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM160-120q-33 0-56.5-23.5T80-200v-480q0-33 23.5-56.5T160-760h126l50-54q11-12 26.5-19t32.5-7h170q17 0 32.5 7t26.5 19l50 54h126q33 0 56.5 23.5T880-680v480q0 33-23.5 56.5T800-120H160Zm0-80h640v-480H638l-73-80H395l-73 80H160v480Zm320-240Z'), to('pin_drop', 'M480-301q99-80 149.5-154T680-594q0-56-20.5-95.5t-50.5-64Q579-778 544-789t-64-11q-29 0-64 11t-65 35.5q-30 24.5-50.5 64T280-594q0 65 50.5 139T480-301Zm0 85q-10 0-19.5-3t-17.5-9q-81-63-162-158.5T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 112-81 207.5T517-228q-8 6-17.5 9t-19.5 3Zm0-304q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520ZM240-80q-17 0-28.5-11.5T200-120q0-17 11.5-28.5T240-160h480q17 0 28.5 11.5T760-120q0 17-11.5 28.5T720-80H240Zm240-514Z'), to('play_arrow', 'M320-273v-414q0-17 12-28.5t28-11.5q5 0 10.5 1.5T381-721l326 207q9 6 13.5 15t4.5 19q0 10-4.5 19T707-446L381-239q-5 3-10.5 4.5T360-233q-16 0-28-11.5T320-273Zm80-207Zm0 134 210-134-210-134v268Z'), to('rainy', 'M558-84q-15 8-30.5 2.5T504-102l-60-120q-8-15-2.5-30.5T462-276q15-8 30.5-2.5T516-258l60 120q8 15 2.5 30.5T558-84Zm240 0q-15 8-30.5 2.5T744-102l-60-120q-8-15-2.5-30.5T702-276q15-8 30.5-2.5T756-258l60 120q8 15 2.5 30.5T798-84Zm-480 0q-15 8-30.5 2.5T264-102l-60-120q-8-15-2.5-30.5T222-276q15-8 30.5-2.5T276-258l60 120q8 15 2.5 30.5T318-84Zm-18-236q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Zm0-80h400q42 0 71-29t29-71q0-42-29-71t-71-29h-60v-40q0-66-47-113t-113-47q-48 0-87.5 26T333-704l-10 24h-25q-57 2-97.5 42.5T160-540q0 58 41 99t99 41Zm180-200Z'), to('rate_review', 'M280-400h65q8 0 15.5-3t13.5-9l188-188q9-9 13.5-20.5T580-643q0-11-5-21.5T562-684l-36-38q-9-9-20-13.5t-23-4.5q-11 0-22.5 4.5T440-722L252-534q-6 6-9 13.5t-3 15.5v65q0 17 11.5 28.5T280-400Zm240-243-37-37 37 37ZM300-460v-38l101-101 20 18 18 20-101 101h-38Zm121-121 18 20-38-38 20 18Zm26 181h233q17 0 28.5-11.5T720-440q0-17-11.5-28.5T680-480H527l-80 80ZM240-240l-92 92q-19 19-43.5 8.5T80-177v-623q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240Zm-34-80h594v-480H160v525l46-45Zm-46 0v-480 480Z'), to('redeem', 'M160-280v80h640v-80H160Zm0-440h88q-5-9-6.5-19t-1.5-21q0-50 35-85t85-35q30 0 55.5 15.5T460-826l20 26 20-26q18-24 44-39t56-15q50 0 85 35t35 85q0 11-1.5 21t-6.5 19h88q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720Zm0 320h640v-240H596l60 82q10 14 8 29.5T648-503q-14 10-29.5 7.5T593-511L480-664 367-511q-10 13-25.5 15.5T312-503q-14-10-16.5-25.5T303-558l59-82H160v240Zm200-320q17 0 28.5-11.5T400-760q0-17-11.5-28.5T360-800q-17 0-28.5 11.5T320-760q0 17 11.5 28.5T360-720Zm240 0q17 0 28.5-11.5T640-760q0-17-11.5-28.5T600-800q-17 0-28.5 11.5T560-760q0 17 11.5 28.5T600-720Z'), to('refresh', 'M480-160q-134 0-227-93t-93-227q0-134 93-227t227-93q69 0 132 28.5T720-690v-70q0-17 11.5-28.5T760-800q17 0 28.5 11.5T800-760v200q0 17-11.5 28.5T760-520H560q-17 0-28.5-11.5T520-560q0-17 11.5-28.5T560-600h128q-32-56-87.5-88T480-720q-100 0-170 70t-70 170q0 100 70 170t170 70q68 0 124.5-34.5T692-367q8-14 22.5-19.5t29.5-.5q16 5 23 21t-1 30q-41 80-117 128t-169 48Z'), to('remove', 'M240-440q-17 0-28.5-11.5T200-480q0-17 11.5-28.5T240-520h480q17 0 28.5 11.5T760-480q0 17-11.5 28.5T720-440H240Z'), to('rocket', 'M319-230q-10-29-18.5-59T287-349l-47 32v119l79-32Zm147-535q-48 51-77 134.5T360-455q0 60 11 117.5t29 97.5h160q18-40 29-97.5T600-455q0-92-29-175.5T494-765q-3-3-6.5-4.5T480-771q-4 0-7.5 1.5T466-765Zm14 325q-33 0-56.5-23.5T400-520q0-33 23.5-56.5T480-600q33 0 56.5 23.5T560-520q0 33-23.5 56.5T480-440Zm161 210 79 32v-119l-47-32q-5 30-13.5 60T641-230ZM511-856q84 72 126.5 177T680-440l84 56q17 11 26.5 29t9.5 38v178q0 21-17.5 33t-37.5 4l-144-58H359l-144 58q-20 8-37.5-4T160-139v-178q0-20 9.5-38t26.5-29l84-56q0-134 42.5-239T449-856q7-5 15-8t16-3q8 0 16 3t15 8Z'), to('rocket_launch', 'M284-506q14-28 29-54t33-52l-56-11-84 84 78 33Zm482-275q-70 2-149.5 41T472-636q-42 42-75 90t-49 90l114 113q42-16 90-49t90-75q65-65 104-144t41-149q0-4-1.5-8t-4.5-7q-3-3-7-4.5t-8-1.5ZM546-541q-23-23-23-56.5t23-56.5q23-23 57-23t57 23q23 23 23 56.5T660-541q-23 23-57 23t-57-23Zm-34 262 33 79 84-84-11-56q-26 18-52 32.5T512-279Zm351-534q8 110-36 214.5T688-399l20 99q4 20-2 39t-20 33L560-102q-15 15-36 11.5T495-114l-61-143-171-171-143-61q-20-8-24-29t11-36l126-126q14-14 33.5-20t39.5-2l99 20q95-95 199.5-139T819-857q8 1 16 4.5t14 9.5q6 6 9.5 14t4.5 16ZM157-321q35-35 85.5-35.5T328-322q35 35 34.5 85.5T327-151q-48 48-113.5 57T82-76q9-66 18-131.5T157-321Zm57 56q-17 17-23.5 41T180-175q25-4 49-10t41-23q12-12 13-29t-11-29q-12-12-29-11.5T214-265Z'), to('route', 'M360-120q-66 0-113-47t-47-113v-327q-35-13-57.5-43.5T120-720q0-50 35-85t85-35q50 0 85 35t35 85q0 39-22.5 69.5T280-607v327q0 33 23.5 56.5T360-200q33 0 56.5-23.5T440-280v-400q0-66 47-113t113-47q66 0 113 47t47 113v327q35 13 57.5 43.5T840-240q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-39 22.5-70t57.5-43v-327q0-33-23.5-56.5T600-760q-33 0-56.5 23.5T520-680v400q0 66-47 113t-113 47ZM240-680q17 0 28.5-11.5T280-720q0-17-11.5-28.5T240-760q-17 0-28.5 11.5T200-720q0 17 11.5 28.5T240-680Zm480 480q17 0 28.5-11.5T760-240q0-17-11.5-28.5T720-280q-17 0-28.5 11.5T680-240q0 17 11.5 28.5T720-200ZM240-720Zm480 480Z'), to('save', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h447q16 0 30.5 6t25.5 17l114 114q11 11 17 25.5t6 30.5v447q0 33-23.5 56.5T760-120H200Zm560-526L646-760H200v560h560v-446ZM480-240q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35ZM280-560h280q17 0 28.5-11.5T600-600v-80q0-17-11.5-28.5T560-720H280q-17 0-28.5 11.5T240-680v80q0 17 11.5 28.5T280-560Zm-80-86v446-560 114Z'), to('schedule', 'M520-496v-144q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640v159q0 8 3 15.5t9 13.5l132 132q11 11 28 11t28-11q11-11 11-28t-11-28L520-496ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z'), to('school', 'M242-249q-20-11-31-29.5T200-320v-192l-96-53q-11-6-16-15t-5-20q0-11 5-20t16-15l338-184q9-5 18.5-7.5T480-829q10 0 19.5 2.5T518-819l381 208q10 5 15.5 14.5T920-576v256q0 17-11.5 28.5T880-280q-17 0-28.5-11.5T840-320v-236l-80 44v192q0 23-11 41.5T718-249L518-141q-9 5-18.5 7.5T480-131q-10 0-19.5-2.5T442-141L242-249Zm238-203 274-148-274-148-274 148 274 148Zm0 241 200-108v-151l-161 89q-9 5-19 7.5t-20 2.5q-10 0-20-2.5t-19-7.5l-161-89v151l200 108Zm0-241Zm0 121Zm0 0Z'), to('science', 'M200-120q-51 0-72.5-45.5T138-250l222-270v-240h-40q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0 17-11.5 28.5T640-760h-40v240l222 270q32 39 10.5 84.5T760-120H200Zm0-80h560L520-492v-268h-80v268L200-200Zm280-280Z'), to('search', 'M380-320q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z'), to('sell', 'M856-390 570-104q-12 12-27 18t-30 6q-15 0-30-6t-27-18L103-457q-11-11-17-25.5T80-513v-287q0-33 23.5-56.5T160-880h287q16 0 31 6.5t26 17.5l352 353q12 12 17.5 27t5.5 30q0 15-5.5 29.5T856-390ZM513-160l286-286-353-354H160v286l353 354ZM260-640q25 0 42.5-17.5T320-700q0-25-17.5-42.5T260-760q-25 0-42.5 17.5T200-700q0 25 17.5 42.5T260-640Zm220 160Z'), to('settings', 'M433-80q-27 0-46.5-18T363-142l-9-66q-13-5-24.5-12T307-235l-62 26q-25 11-50 2t-39-32l-47-82q-14-23-8-49t27-43l53-40q-1-7-1-13.5v-27q0-6.5 1-13.5l-53-40q-21-17-27-43t8-49l47-82q14-23 39-32t50 2l62 26q11-8 23-15t24-12l9-66q4-26 23.5-44t46.5-18h94q27 0 46.5 18t23.5 44l9 66q13 5 24.5 12t22.5 15l62-26q25-11 50-2t39 32l47 82q14 23 8 49t-27 43l-53 40q1 7 1 13.5v27q0 6.5-2 13.5l53 40q21 17 27 43t-8 49l-48 82q-14 23-39 32t-50-2l-60-26q-11 8-23 15t-24 12l-9 66q-4 26-23.5 44T527-80h-94Zm7-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z'), to('share', 'M720-80q-50 0-85-35t-35-85q0-7 1-14.5t3-13.5L322-392q-17 15-38 23.5t-44 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q23 0 44 8.5t38 23.5l282-164q-2-6-3-13.5t-1-14.5q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-23 0-44-8.5T638-672L356-508q2 6 3 13.5t1 14.5q0 7-1 14.5t-3 13.5l282 164q17-15 38-23.5t44-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-640q17 0 28.5-11.5T760-760q0-17-11.5-28.5T720-800q-17 0-28.5 11.5T680-760q0 17 11.5 28.5T720-720ZM240-440q17 0 28.5-11.5T280-480q0-17-11.5-28.5T240-520q-17 0-28.5 11.5T200-480q0 17 11.5 28.5T240-440Zm480 280q17 0 28.5-11.5T760-200q0-17-11.5-28.5T720-240q-17 0-28.5 11.5T680-200q0 17 11.5 28.5T720-160Zm0-600ZM240-480Zm480 280Z'), to('shield', 'M480-84q-7 0-13-1t-12-3q-135-45-215-166.5T160-516v-189q0-25 14.5-45t37.5-29l240-90q14-5 28-5t28 5l240 90q23 9 37.5 29t14.5 45v189q0 140-80 261.5T505-88q-6 2-12 3t-13 1Zm0-80q104-33 172-132t68-220v-189l-240-90-240 90v189q0 121 68 220t172 132Zm0-316Z'), to('skull', 'M240-80v-170q-39-17-68.5-45.5t-50-64.5q-20.5-36-31-77T80-520q0-158 112-259t288-101q176 0 288 101t112 259q0 42-10.5 83t-31 77q-20.5 36-50 64.5T720-250v170H240Zm80-80h40v-80h80v80h80v-80h80v80h40v-142q38-9 67.5-30t50-50q20.5-29 31.5-64t11-74q0-125-88.5-202.5T480-800q-143 0-231.5 77.5T160-520q0 39 11 74t31.5 64q20.5 29 50.5 50t67 30v142Zm100-200h120l-60-120-60 120Zm-80-80q33 0 56.5-23.5T420-520q0-33-23.5-56.5T340-600q-33 0-56.5 23.5T260-520q0 33 23.5 56.5T340-440Zm280 0q33 0 56.5-23.5T700-520q0-33-23.5-56.5T620-600q-33 0-56.5 23.5T540-520q0 33 23.5 56.5T620-440ZM480-160Z'), to('speed', 'M418-340q24 24 62 23.5t56-27.5l169-253q9-14-2.5-25.5T677-625L424-456q-27 18-28.5 55t22.5 61Zm62-460q36 0 71 6t68 19q16 6 34 22.5t10 31.5q-8 15-36 20t-45-1q-25-9-50.5-13.5T480-720q-133 0-226.5 93.5T160-400q0 42 11.5 83t32.5 77h552q23-38 33.5-79t10.5-85q0-26-4.5-51T782-504q-6-17-2-33t18-27q13-10 28.5-6t21.5 18q15 35 23 71.5t9 74.5q1 57-13 109t-41 99q-11 18-30 28t-40 10H204q-21 0-40-10t-30-28q-26-45-40-95.5T80-400q0-83 31.5-155.5t86-127Q252-737 325-768.5T480-800Zm7 313Z'), to('sports_baseball', 'M224-288q45-35 70.5-85T320-480q0-57-25.5-107T224-672q-31 42-47.5 91T160-480q0 52 16.5 101t47.5 91Zm256 128q55 0 106.5-17.5T680-230q-57-46-88.5-111.5T560-480q0-73 31.5-138.5T680-730q-42-35-93.5-52.5T480-800q-55 0-106.5 17.5T280-730q57 46 88.5 111.5T400-480q0 73-31.5 138.5T280-230q42 35 93.5 52.5T480-160Zm256-128q31-42 47.5-91T800-480q0-52-16.5-101T736-672q-45 35-70.5 85T640-480q0 57 25.5 107t70.5 85ZM480-480Zm0 400q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('star', 'm354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143Zm126 18L314-169q-11 7-23 6t-21-8q-9-7-14-17.5t-2-23.5l44-189-147-127q-10-9-12.5-20.5T140-571q4-11 12-18t22-9l194-17 75-178q5-12 15.5-18t21.5-6q11 0 21.5 6t15.5 18l75 178 194 17q14 2 22 9t12 18q4 11 1.5 22.5T809-528L662-401l44 189q3 13-2 23.5T690-171q-9 7-21 8t-23-6L480-269Zm0-201Z'), to('stop', 'M240-320v-320q0-33 23.5-56.5T320-720h320q33 0 56.5 23.5T720-640v320q0 33-23.5 56.5T640-240H320q-33 0-56.5-23.5T240-320Zm80 0h320v-320H320v320Zm160-160Z'), to('sunny', 'M480-760q-17 0-28.5-11.5T440-800v-80q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v80q0 17-11.5 28.5T480-760Zm198 82q-11-11-11-27.5t11-28.5l56-57q12-12 28.5-12t28.5 12q11 11 11 28t-11 28l-57 57q-11 11-28 11t-28-11Zm122 238q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520h80q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440h-80ZM480-40q-17 0-28.5-11.5T440-80v-80q0-17 11.5-28.5T480-200q17 0 28.5 11.5T520-160v80q0 17-11.5 28.5T480-40ZM226-678l-57-56q-12-12-12-29t12-28q11-11 28-11t28 11l57 57q11 11 11 28t-11 28q-12 11-28 11t-28-11Zm508 509-56-57q-11-12-11-28.5t11-27.5q11-11 27.5-11t28.5 11l57 56q12 11 11.5 28T791-169q-12 12-29 12t-28-12ZM80-440q-17 0-28.5-11.5T40-480q0-17 11.5-28.5T80-520h80q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440H80Zm89 271q-11-11-11-28t11-28l57-57q11-11 27.5-11t28.5 11q12 12 12 28.5T282-225l-56 56q-12 12-29 12t-28-12Zm311-71q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-160Z'), to('swap_horiz', 'm233-320 75 75q11 11 11 27.5T308-189q-12 12-28.5 12T251-189L108-332q-6-6-8.5-13T97-360q0-8 2.5-15t8.5-13l144-144q12-12 28-11.5t28 12.5q11 12 11.5 28T308-475l-75 75h247q17 0 28.5 11.5T520-360q0 17-11.5 28.5T480-320H233Zm494-240H480q-17 0-28.5-11.5T440-600q0-17 11.5-28.5T480-640h247l-75-75q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l143 143q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L708-428q-12 12-28 11.5T652-429q-11-12-11.5-28t11.5-28l75-75Z'), to('swords', 'M762-96 645-212l-60 60q-11 11-28 11t-28-11q-23-23-23-57t23-57l169-169q23-23 57-23t57 23q11 11 11 28t-11 28l-60 60 116 117q12 12 12 28t-12 28l-50 50q-12 12-28 12t-28-12Zm106-616L426-270l5 4q23 23 23 57t-23 57q-11 11-28 11t-28-11l-60-60L198-96q-12 12-28 12t-28-12l-50-50q-12-12-12-28t12-28l116-117-60-60q-11-11-11-28t11-28q23-23 57-23t57 23l4 5 431-431q11-11 25.5-17t30.5-6h87q17 0 28.5 11.5T880-844v103q0 8-3 15.5t-9 13.5ZM334-583l24-23 23-24-23 24-24 23Zm-85 28L103-701q-11-11-17-25.5T80-757v-87q0-17 11.5-28.5T120-884h87q16 0 30.5 6t25.5 17l147 147q12 12 11.5 28T409-658q-12 11-28 11.5T353-658L207-804h-47v47l146 146q11 11 11 27.5T306-555q-12 12-28.5 12T249-555Zm121 228 430-430v-47h-47L323-374l47 47Zm0 0-24-23-23-24 23 24 24 23Z'), to('sync', 'M240-478q0 45 17 87.5t53 78.5l10 10v-58q0-17 11.5-28.5T360-400q17 0 28.5 11.5T400-360v160q0 17-11.5 28.5T360-160H200q-17 0-28.5-11.5T160-200q0-17 11.5-28.5T200-240h70l-16-14q-52-46-73-105t-21-119q0-94 48-170.5T337-766q14-8 29.5-1t20.5 23q5 15-.5 30T367-691q-58 32-92.5 88.5T240-478Zm480-4q0-45-17-87.5T650-648l-10-10v58q0 17-11.5 28.5T600-560q-17 0-28.5-11.5T560-600v-160q0-17 11.5-28.5T600-800h160q17 0 28.5 11.5T800-760q0 17-11.5 28.5T760-720h-70l16 14q49 49 71.5 106.5T800-482q0 94-48 170.5T623-194q-14 8-29.5 1T573-216q-5-15 .5-30t19.5-23q58-32 92.5-88.5T720-482Z'), to('thumb_down', 'M120-320q-32 0-56-24t-24-56v-80q0-7 2-15t4-15l120-282q9-20 30-34t44-14h440v520L440-82q-15 15-35.5 17.5T365-72q-19-10-28-28t-4-37l45-183H120Zm480-34v-406H240L120-480v80h360l-54 220 174-174Zm200-486q33 0 56.5 23.5T880-760v360q0 33-23.5 56.5T800-320H680v-80h120v-360H680v-80h120Zm-200 80v406-406Z'), to('thumb_up', 'M840-640q32 0 56 24t24 56v80q0 7-2 15t-4 15L794-168q-9 20-30 34t-44 14H280v-520l240-238q15-15 35.5-17.5T595-888q19 10 28 28t4 37l-45 183h258Zm-480 34v406h360l120-280v-80H480l54-220-174 174ZM160-120q-33 0-56.5-23.5T80-200v-360q0-33 23.5-56.5T160-640h120v80H160v360h120v80H160Zm200-80v-406 406Z'), to('thunderstorm', 'm520-66 36-41-34-17q-17-9-21-28t9-34l70-80q5-7 13.5-10.5T610-280q26 0 36.5 23t-6.5 43l-36 41 34 17q17 9 21 28t-9 34l-70 80q-5 7-13.5 10.5T550 0q-26 0-36.5-23t6.5-43Zm-240 0 36-41-34-17q-17-9-21-28t9-34l70-80q5-7 13.5-10.5T370-280q26 0 36.5 23t-6.5 43l-36 41 34 17q17 9 21 28t-9 34l-70 80q-5 7-13.5 10.5T310 0q-26 0-36.5-23t6.5-43Zm20-254q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Zm0-80h400q42 0 71-29t29-71q0-42-29-71t-71-29h-60v-40q0-66-47-113t-113-47q-48 0-87.5 26T333-704l-10 24h-25q-57 2-97.5 42.5T160-540q0 58 41 99t99 41Zm180-200Z'), to('timer', 'M400-840q-17 0-28.5-11.5T360-880q0-17 11.5-28.5T400-920h160q17 0 28.5 11.5T600-880q0 17-11.5 28.5T560-840H400Zm80 440q17 0 28.5-11.5T520-440v-160q0-17-11.5-28.5T480-640q-17 0-28.5 11.5T440-600v160q0 17 11.5 28.5T480-400Zm0 320q-74 0-139.5-28.5T226-186q-49-49-77.5-114.5T120-440q0-74 28.5-139.5T226-694q49-49 114.5-77.5T480-800q62 0 119 20t107 58l28-28q11-11 28-11t28 11q11 11 11 28t-11 28l-28 28q38 50 58 107t20 119q0 74-28.5 139.5T734-186q-49 49-114.5 77.5T480-80Zm0-80q116 0 198-82t82-198q0-116-82-198t-198-82q-116 0-198 82t-82 198q0 116 82 198t198 82Zm0-280Z'), to('today', 'M360-300q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z'), to('trending_up', 'M108-255q-12-12-11.5-28.5T108-311l211-214q23-23 57-23t57 23l103 104 208-206h-64q-17 0-28.5-11.5T640-667q0-17 11.5-28.5T680-707h160q17 0 28.5 11.5T880-667v160q0 17-11.5 28.5T840-467q-17 0-28.5-11.5T800-507v-64L593-364q-23 23-57 23t-57-23L376-467 164-255q-11 11-28 11t-28-11Z'), to('trophy', 'M440-200v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80q0-33 23.5-56.5T360-840h240q33 0 56.5 23.5T680-760h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h120q17 0 28.5 11.5T680-160q0 17-11.5 28.5T640-120H320q-17 0-28.5-11.5T280-160q0-17 11.5-28.5T320-200h120ZM280-528v-152h-80v40q0 38 22 68.5t58 43.5Zm200 128q50 0 85-35t35-85v-240H360v240q0 50 35 85t85 35Zm200-128q36-13 58-43.5t22-68.5v-40h-80v152Zm-200-52Z'), to('tune', 'M480-120q-17 0-28.5-11.5T440-160v-160q0-17 11.5-28.5T480-360q17 0 28.5 11.5T520-320v40h280q17 0 28.5 11.5T840-240q0 17-11.5 28.5T800-200H520v40q0 17-11.5 28.5T480-120Zm-320-80q-17 0-28.5-11.5T120-240q0-17 11.5-28.5T160-280h160q17 0 28.5 11.5T360-240q0 17-11.5 28.5T320-200H160Zm160-160q-17 0-28.5-11.5T280-400v-40H160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h120v-40q0-17 11.5-28.5T320-600q17 0 28.5 11.5T360-560v160q0 17-11.5 28.5T320-360Zm160-80q-17 0-28.5-11.5T440-480q0-17 11.5-28.5T480-520h320q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H480Zm160-160q-17 0-28.5-11.5T600-640v-160q0-17 11.5-28.5T640-840q17 0 28.5 11.5T680-800v40h120q17 0 28.5 11.5T840-720q0 17-11.5 28.5T800-680H680v40q0 17-11.5 28.5T640-600Zm-480-80q-17 0-28.5-11.5T120-720q0-17 11.5-28.5T160-760h320q17 0 28.5 11.5T520-720q0 17-11.5 28.5T480-680H160Z'), to('upgrade', 'M320-160q-17 0-28.5-11.5T280-200q0-17 11.5-28.5T320-240h320q17 0 28.5 11.5T680-200q0 17-11.5 28.5T640-160H320Zm160-160q-17 0-28.5-11.5T440-360v-287l-76 75q-11 11-27.5 11.5T308-572q-11-11-11-28t11-28l144-144q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l144 144q11 11 11.5 27.5T652-572q-11 11-28 11t-28-11l-76-75v287q0 17-11.5 28.5T480-320Z'), to('upload', 'M240-160q-33 0-56.5-23.5T160-240v-80q0-17 11.5-28.5T200-360q17 0 28.5 11.5T240-320v80h480v-80q0-17 11.5-28.5T760-360q17 0 28.5 11.5T800-320v80q0 33-23.5 56.5T720-160H240Zm200-486-75 75q-12 12-28.5 11.5T308-572q-11-12-11.5-28t11.5-28l144-144q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l144 144q12 12 11.5 28T652-572q-12 12-28.5 12.5T595-571l-75-75v286q0 17-11.5 28.5T480-320q-17 0-28.5-11.5T440-360v-286Z'), to('verified', 'm438-452-58-57q-11-11-27.5-11T324-508q-11 11-11 28t11 28l86 86q12 12 28 12t28-12l170-170q12-12 11.5-28T636-592q-12-12-28.5-12.5T579-593L438-452ZM326-90l-58-98-110-24q-15-3-24-15.5t-7-27.5l11-113-75-86q-10-11-10-26t10-26l75-86-11-113q-2-15 7-27.5t24-15.5l110-24 58-98q8-13 22-17.5t28 1.5l104 44 104-44q14-6 28-1.5t22 17.5l58 98 110 24q15 3 24 15.5t7 27.5l-11 113 75 86q10 11 10 26t-10 26l-75 86 11 113q2 15-7 27.5T802-212l-110 24-58 98q-8 13-22 17.5T584-74l-104-44-104 44q-14 6-28 1.5T326-90Zm52-72 102-44 104 44 56-96 110-26-10-112 74-84-74-86 10-112-110-24-58-96-102 44-104-44-56 96-110 24 10 112-74 86 74 84-10 114 110 24 58 96Zm102-318Z'), to('view_agenda', 'M200-520q-33 0-56.5-23.5T120-600v-160q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v160q0 33-23.5 56.5T760-520H200Zm0-80h560v-160H200v160Zm0 480q-33 0-56.5-23.5T120-200v-160q0-33 23.5-56.5T200-440h560q33 0 56.5 23.5T840-360v160q0 33-23.5 56.5T760-120H200Zm0-80h560v-160H200v160Zm0-560v160-160Zm0 400v160-160Z'), to('visibility', 'M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-134 0-244.5-72T61-462q-5-9-7.5-18.5T51-500q0-10 2.5-19.5T61-538q64-118 174.5-190T480-800q134 0 244.5 72T899-538q5 9 7.5 18.5T909-500q0 10-2.5 19.5T899-462q-64 118-174.5 190T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z'), to('warning', 'M109-120q-11 0-20-5.5T75-140q-5-9-5.5-19.5T75-180l370-640q6-10 15.5-15t19.5-5q10 0 19.5 5t15.5 15l370 640q6 10 5.5 20.5T885-140q-5 9-14 14.5t-20 5.5H109Zm69-80h604L480-720 178-200Zm302-40q17 0 28.5-11.5T520-280q0-17-11.5-28.5T480-320q-17 0-28.5 11.5T440-280q0 17 11.5 28.5T480-240Zm0-120q17 0 28.5-11.5T520-400v-120q0-17-11.5-28.5T480-560q-17 0-28.5 11.5T440-520v120q0 17 11.5 28.5T480-360Zm0-100Z'), to('water_drop', 'M480-80q-137 0-228.5-94T160-408q0-62 28-124t70-119q42-57 91-107t91-87q8-8 18.5-11.5T480-860q11 0 21.5 3.5T520-845q42 37 91 87t91 107q42 57 70 119t28 124q0 140-91.5 234T480-80Zm0-80q104 0 172-70.5T720-408q0-73-60.5-165T480-774Q361-665 300.5-573T240-408q0 107 68 177.5T480-160Zm0-320Zm11 280q12-1 20.5-9.5T520-230q0-14-9-22.5t-23-7.5q-41 3-87-22.5T343-375q-2-11-10.5-18t-19.5-7q-14 0-23 10.5t-6 24.5q17 91 80 130t127 35Z')]);
+  this.l20_1 = mapOf([to('ac_unit', 'M440-246 337-145q-11 11-27.5 11T282-146q-12-11-12-27.5t12-28.5l158-158v-80h-80L201-281q-11 11-27.5 11T145-282q-11-11-11-27.5t11-27.5l101-103H119q-17 0-28-11.5T80-480q0-17 11.5-28.5T120-520h126L145-622q-11-11-11-27.5t12-28.5q11-11 27.5-11t28.5 11l158 158h80v-80L281-758q-11-11-11-27.5t12-28.5q11-11 27.5-11t27.5 11l103 100v-126q0-17 11.5-28.5T480-880q17 0 28.5 11.5T520-840v126l102-100q11-11 27.5-11t28.5 11q11 12 11 28.5T678-758L520-600v80h80l158-158q11-11 27.5-11t28.5 12q11 11 11 27.5T814-622L714-520h126q17 0 28.5 11.5T880-480q0 17-11.5 28.5T840-440H714l100 103q11 11 11 27.5T814-282q-12 12-28.5 12T758-282L600-440h-80v80l158 159q11 11 11 27.5T677-145q-11 11-27.5 11T622-145L520-246v127q0 17-11.5 28T480-80q-17 0-28.5-11.5T440-120v-126Z'), to('add', 'M440-440H240q-17 0-28.5-11.5T200-480q0-17 11.5-28.5T240-520h200v-200q0-17 11.5-28.5T480-760q17 0 28.5 11.5T520-720v200h200q17 0 28.5 11.5T760-480q0 17-11.5 28.5T720-440H520v200q0 17-11.5 28.5T480-200q-17 0-28.5-11.5T440-240v-200Z'), to('air', 'M460-160q-32 0-59.5-16T356-220q-11-20-.5-40t32.5-20q13 0 23 8t18 18q5 7 13.5 10.5T460-240q17 0 28.5-11.5T500-280q0-17-11.5-28.5T460-320H120q-17 0-28.5-11.5T80-360q0-17 11.5-28.5T120-400h340q50 0 85 35t35 85q0 50-35 85t-85 35ZM120-560q-17 0-28.5-11.5T80-600q0-17 11.5-28.5T120-640h500q25 0 42.5-17.5T680-700q0-25-17.5-42.5T620-760q-16 0-30 7.5T568-731q-7 12-17 21.5t-24 9.5q-20 0-32.5-15t-6.5-32q14-42 50.5-67.5T620-840q58 0 99 41t41 99q0 58-41 99t-99 41H120Zm678 308q-20 9-39-2.5T740-288q0-14 9.5-23.5T771-328q14-8 21.5-22t7.5-30q0-25-17.5-42.5T740-440H120q-17 0-28.5-11.5T80-480q0-17 11.5-28.5T120-520h620q58 0 99 41t41 99q0 42-22 76.5T798-252Z'), to('arrow_back', 'm313-440 196 196q12 12 11.5 28T508-188q-12 11-28 11.5T452-188L188-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l264-264q11-11 27.5-11t28.5 11q12 12 12 28.5T508-715L313-520h447q17 0 28.5 11.5T800-480q0 17-11.5 28.5T760-440H313Z'), to('arrow_downward', 'M440-313v-447q0-17 11.5-28.5T480-800q17 0 28.5 11.5T520-760v447l196-196q12-12 28-11.5t28 12.5q11 12 11.5 28T772-452L508-188q-6 6-13 8.5t-15 2.5q-8 0-15-2.5t-13-8.5L188-452q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l195 195Z'), to('arrow_forward', 'M647-440H200q-17 0-28.5-11.5T160-480q0-17 11.5-28.5T200-520h447L451-716q-12-12-11.5-28t12.5-28q12-11 28-11.5t28 11.5l264 264q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L508-188q-11 11-27.5 11T452-188q-12-12-12-28.5t12-28.5l195-195Z'), to('arrow_upward', 'M440-647 244-451q-12 12-28 11.5T188-452q-11-12-11.5-28t11.5-28l264-264q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l264 264q11 11 11 27.5T772-452q-12 12-28.5 12T715-452L520-647v447q0 17-11.5 28.5T480-160q-17 0-28.5-11.5T440-200v-447Z'), to('auto_awesome', 'm646-438-86 138q-11 17-30.5 14T505-309l-28-112-273 273q-11 11-27.5 11.5T148-148q-11-11-11-28t11-28l273-274-112-28q-20-5-23-24.5t14-30.5l138-85-12-163q-2-20 16-29t33 4l125 105 151-61q19-8 33 6t6 33l-61 151 105 124q13 15 4 33t-29 16l-163-11ZM134-706q-6-6-6-14t6-14l52-52q6-6 14-6t14 6l52 52q6 6 6 14t-6 14l-52 52q-6 6-14 6t-14-6l-52-52Zm572 572-52-52q-6-6-6-14t6-14l52-52q6-6 14-6t14 6l52 52q6 6 6 14t-6 14l-52 52q-6 6-14 6t-14-6Z'), to('backspace', 'M360-200q-20 0-37.5-9T294-234L153-434q-15-21-15-46t15-46l141-200q11-16 28.5-25t37.5-9h400q33 0 56.5 23.5T840-680v400q0 33-23.5 56.5T760-200H360Zm200-224 76 76q11 11 28 11t28-11q11-11 11-28t-11-28l-76-76 76-76q11-11 11-28t-11-28q-11-11-28-11t-28 11l-76 76-76-76q-11-11-28-11t-28 11q-11 11-11 28t11 28l76 76-76 76q-11 11-11 28t11 28q11 11 28 11t28-11l76-76Z'), to('bar_chart', 'M680-160q-17 0-28.5-11.5T640-200v-200q0-17 11.5-28.5T680-440h80q17 0 28.5 11.5T800-400v200q0 17-11.5 28.5T760-160h-80Zm-240 0q-17 0-28.5-11.5T400-200v-560q0-17 11.5-28.5T440-800h80q17 0 28.5 11.5T560-760v560q0 17-11.5 28.5T520-160h-80Zm-240 0q-17 0-28.5-11.5T160-200v-360q0-17 11.5-28.5T200-600h80q17 0 28.5 11.5T320-560v360q0 17-11.5 28.5T280-160h-80Z'), to('block', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z'), to('bolt', 'M360-360H236q-24 0-35.5-21.5T203-423l299-430q10-14 26-19.5t33 .5q17 6 25 21t6 32l-32 259h155q26 0 36.5 23t-6.5 43L416-100q-11 13-27 17t-31-3q-15-7-23.5-21.5T328-139l32-221Z'), to('bookmark', 'm480-240-168 72q-40 17-76-6.5T200-241v-519q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v519q0 43-36 66.5t-76 6.5l-168-72Z'), to('bug_report', 'M480-120q-65 0-120.5-32T272-240h-72q-17 0-28.5-11.5T160-280q0-17 11.5-28.5T200-320h44q-3-20-3.5-40t-.5-40h-40q-17 0-28.5-11.5T160-440q0-17 11.5-28.5T200-480h40q0-20 .5-40t3.5-40h-44q-17 0-28.5-11.5T160-600q0-17 11.5-28.5T200-640h72q14-23 31.5-43t40.5-35l-37-38q-11-11-11-27.5t12-28.5q11-11 28-11t28 11l58 58q28-9 57-9t57 9l60-59q11-11 27.5-11t28.5 12q11 11 11 28t-11 28l-38 38q23 15 41.5 34.5T688-640h72q17 0 28.5 11.5T800-600q0 17-11.5 28.5T760-560h-44q3 20 3.5 40t.5 40h40q17 0 28.5 11.5T800-440q0 17-11.5 28.5T760-400h-40q0 20-.5 40t-3.5 40h44q17 0 28.5 11.5T800-280q0 17-11.5 28.5T760-240h-72q-32 56-87.5 88T480-120Zm-40-200h80q17 0 28.5-11.5T560-360q0-17-11.5-28.5T520-400h-80q-17 0-28.5 11.5T400-360q0 17 11.5 28.5T440-320Zm0-160h80q17 0 28.5-11.5T560-520q0-17-11.5-28.5T520-560h-80q-17 0-28.5 11.5T400-520q0 17 11.5 28.5T440-480Z'), to('build', 'M360-360q-100 0-170-70t-70-170q0-20 3-40t11-38q5-10 12.5-15t16.5-7q9-2 18.5.5T199-689l105 105 72-72-105-105q-8-8-10.5-17.5T260-797q2-9 7-16.5t15-12.5q18-8 38-11t40-3q100 0 170 70t70 170q0 23-4 43.5T584-516l202 200q29 29 29 71t-29 71q-29 29-71 29t-71-30L444-376q-20 8-40.5 12t-43.5 4Z'), to('calculate', 'M320-320v50q0 13 8.5 21.5T350-240q13 0 21.5-8.5T380-270v-50h50q13 0 21.5-8.5T460-350q0-13-8.5-21.5T430-380h-50v-50q0-13-8.5-21.5T350-460q-13 0-21.5 8.5T320-430v50h-50q-13 0-21.5 8.5T240-350q0 13 8.5 21.5T270-320h50Zm230 50h140q13 0 21.5-8.5T720-300q0-13-8.5-21.5T690-330H550q-13 0-21.5 8.5T520-300q0 13 8.5 21.5T550-270Zm0-100h140q13 0 21.5-8.5T720-400q0-13-8.5-21.5T690-430H550q-13 0-21.5 8.5T520-400q0 13 8.5 21.5T550-370Zm70-208 35 35q9 9 21 9t21-9q8-8 8.5-20.5T698-585l-36-37 35-35q9-9 9-21t-9-21q-9-9-21-9t-21 9l-35 35-35-35q-9-9-21-9t-21 9q-9 9-9 21t9 21l35 35-36 37q-8 9-8 21t9 21q9 9 21 9t21-9l35-35Zm-340-14h140q13 0 21.5-8.5T450-622q0-13-8.5-21.5T420-652H280q-13 0-21.5 8.5T250-622q0 13 8.5 21.5T280-592Zm-80 472q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Z'), to('calendar_month', 'M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm280-240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z'), to('cancel', 'm480-424 116 116q11 11 28 11t28-11q11-11 11-28t-11-28L536-480l116-116q11-11 11-28t-11-28q-11-11-28-11t-28 11L480-536 364-652q-11-11-28-11t-28 11q-11 11-11 28t11 28l116 116-116 116q-11 11-11 28t11 28q11 11 28 11t28-11l116-116Zm0 344q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('category', 'm297-581 149-243q6-10 15-14.5t19-4.5q10 0 19 4.5t15 14.5l149 243q6 10 6 21t-5 20q-5 9-14 14.5t-21 5.5H331q-12 0-21-5.5T296-540q-5-9-5-20t6-21ZM700-80q-75 0-127.5-52.5T520-260q0-75 52.5-127.5T700-440q75 0 127.5 52.5T880-260q0 75-52.5 127.5T700-80Zm-580-60v-240q0-17 11.5-28.5T160-420h240q17 0 28.5 11.5T440-380v240q0 17-11.5 28.5T400-100H160q-17 0-28.5-11.5T120-140Z'), to('celebration', 'm108-160 151-420q5-13 15.5-20t22.5-7q8 0 15 3t13 9l270 270q6 6 9 13t3 15q0 12-7 22.5T580-259L160-108q-12 5-23 1.5T118-118q-8-8-11.5-19t1.5-23Zm813-519q-9 9-21 9t-21-9l-3-3q-14-14-35-14t-35 14L603-479q-9 9-21 9t-21-9q-9-9-9-21t9-21l203-203q32-32 77-32t77 32l3 3q9 9 9 21t-9 21ZM399-799q9-9 21-9t21 9l5 5q32 32 32 76t-32 76l-3 3q-9 9-21 9t-21-9q-9-9-9-21t9-21l3-3q14-14 14-34t-14-34l-5-5q-9-9-9-21t9-21Zm162-80q9-9 21-9t21 9l43 43q32 32 32 77t-32 77L523-559q-9 9-21 9t-21-9q-9-9-9-21t9-21l123-123q14-14 14-35t-14-35l-43-43q-9-9-9-21t9-21Zm320 480q-9 9-21 9t-21-9l-43-43q-14-14-35-14t-35 14l-43 43q-9 9-21 9t-21-9q-9-9-9-21t9-21l43-43q32-32 77-32t77 32l43 43q9 9 9 21t-9 21Z'), to('check_box', 'm424-424-86-86q-11-11-28-11t-28 11q-11 11-11 28t11 28l114 114q12 12 28 12t28-12l226-226q11-11 11-28t-11-28q-11-11-28-11t-28 11L424-424ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Z'), to('check_box_outline_blank', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Z'), to('check_circle', 'm424-408-86-86q-11-11-28-11t-28 11q-11 11-11 28t11 28l114 114q12 12 28 12t28-12l226-226q11-11 11-28t-11-28q-11-11-28-11t-28 11L424-408Zm56 328q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('check', 'm382-354 339-339q12-12 28-12t28 12q12 12 12 28.5T777-636L410-268q-12 12-28 12t-28-12L182-440q-12-12-11.5-28.5T183-497q12-12 28.5-12t28.5 12l142 143Z'), to('chevron_left', 'm432-480 156 156q11 11 11 28t-11 28q-11 11-28 11t-28-11L348-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l184-184q11-11 28-11t28 11q11 11 11 28t-11 28L432-480Z'), to('chevron_right', 'M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z'), to('circle', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('cleaning_services', 'M200-40q-33 0-56.5-23.5T120-120v-200q0-83 58.5-141.5T320-520h40v-320q0-33 23.5-56.5T440-920h80q33 0 56.5 23.5T600-840v320h40q83 0 141.5 58.5T840-320v200q0 33-23.5 56.5T760-40H200Zm0-80h80v-120q0-17 11.5-28.5T320-280q17 0 28.5 11.5T360-240v120h80v-120q0-17 11.5-28.5T480-280q17 0 28.5 11.5T520-240v120h80v-120q0-17 11.5-28.5T640-280q17 0 28.5 11.5T680-240v120h80v-200q0-50-35-85t-85-35H320q-50 0-85 35t-35 85v200Z'), to('close', 'M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z'), to('cloud', 'M260-160q-91 0-155.5-63T40-377q0-78 47-139t123-78q25-92 100-149t170-57q117 0 198.5 81.5T760-520q69 8 114.5 59.5T920-340q0 75-52.5 127.5T740-160H260Z'), to('compare_arrows', 'M367-320H120q-17 0-28.5-11.5T80-360q0-17 11.5-28.5T120-400h247l-75-75q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l143 143q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L348-188q-12 12-28 11.5T292-189q-11-12-11.5-28t11.5-28l75-75Zm226-240 75 75q11 11 11 27.5T668-429q-12 12-28.5 12T611-429L468-572q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l144-144q12-12 28-11.5t28 12.5q11 12 11.5 28T668-715l-75 75h247q17 0 28.5 11.5T880-600q0 17-11.5 28.5T840-560H593Z'), to('confirmation_number', 'M160-160q-33 0-56.5-23.5T80-240v-135q0-11 7-19t18-10q24-8 39.5-29t15.5-47q0-26-15.5-47T105-556q-11-2-18-10t-7-19v-135q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v135q0 11-7 19t-18 10q-24 8-39.5 29T800-480q0 26 15.5 47t39.5 29q11 2 18 10t7 19v135q0 33-23.5 56.5T800-160H160Zm320-120q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm0-160q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm0-160q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Z'), to('content_copy', 'M360-240q-33 0-56.5-23.5T280-320v-480q0-33 23.5-56.5T360-880h360q33 0 56.5 23.5T800-800v480q0 33-23.5 56.5T720-240H360ZM200-80q-33 0-56.5-23.5T120-160v-520q0-17 11.5-28.5T160-720q17 0 28.5 11.5T200-680v520h400q17 0 28.5 11.5T640-120q0 17-11.5 28.5T600-80H200Z'), to('contrast', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm40-83q119-15 199.5-104.5T800-480q0-123-80.5-212.5T520-797v634Z'), to('cookie', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-81 33.5-157.5t93-134.5Q266-830 348-860t180-18q15 2 23 12.5t9 28.5q2 64 47.5 109.5T716-680q21 1 32 12t12 34q2 42 25.5 69t65.5 41q14 5 21.5 14.5T880-486q2 83-29 157t-85 129.5Q712-144 638-112T480-80Zm-60-480q25 0 42.5-17.5T480-620q0-25-17.5-42.5T420-680q-25 0-42.5 17.5T360-620q0 25 17.5 42.5T420-560Zm-80 200q25 0 42.5-17.5T400-420q0-25-17.5-42.5T340-480q-25 0-42.5 17.5T280-420q0 25 17.5 42.5T340-360Zm260 40q17 0 28.5-11.5T640-360q0-17-11.5-28.5T600-400q-17 0-28.5 11.5T560-360q0 17 11.5 28.5T600-320Z'), to('crown', 'M240-160q-17 0-28.5-11.5T200-200q0-17 11.5-28.5T240-240h480q17 0 28.5 11.5T760-200q0 17-11.5 28.5T720-160H240Zm28-140q-29 0-51.5-19T189-367l-40-254q-2 0-4.5.5t-4.5.5q-25 0-42.5-17.5T80-680q0-25 17.5-42.5T140-740q25 0 42.5 17.5T200-680q0 7-1.5 13t-3.5 11l125 56 125-171q-11-8-18-21t-7-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820q0 15-7 28t-18 21l125 171 125-56q-2-5-3.5-11t-1.5-13q0-25 17.5-42.5T820-740q25 0 42.5 17.5T880-680q0 25-17.5 42.5T820-620q-2 0-4.5-.5t-4.5-.5l-40 254q-5 29-27.5 48T692-300H268Z'), to('delete', 'M280-120q-33 0-56.5-23.5T200-200v-520q-17 0-28.5-11.5T160-760q0-17 11.5-28.5T200-800h160q0-17 11.5-28.5T400-840h160q17 0 28.5 11.5T600-800h160q17 0 28.5 11.5T800-760q0 17-11.5 28.5T760-720v520q0 33-23.5 56.5T680-120H280Zm120-160q17 0 28.5-11.5T440-320v-280q0-17-11.5-28.5T400-640q-17 0-28.5 11.5T360-600v280q0 17 11.5 28.5T400-280Zm160 0q17 0 28.5-11.5T600-320v-280q0-17-11.5-28.5T560-640q-17 0-28.5 11.5T520-600v280q0 17 11.5 28.5T560-280Z'), to('diamond', 'M368-630h224L486-840h-12L368-630Zm82 474v-414H105l345 414Zm60 0 345-414H510v414Zm148-474h207l-83-166q-11-20-29.5-32T711-840H554l104 210Zm-563 0h207l104-210H249q-23 0-41.5 12T178-796L95-630Z'), to('download', 'M480-337q-8 0-15-2.5t-13-8.5L308-492q-12-12-11.5-28t11.5-28q12-12 28.5-12.5T365-549l75 75v-286q0-17 11.5-28.5T480-800q17 0 28.5 11.5T520-760v286l75-75q12-12 28.5-11.5T652-548q11 12 11.5 28T652-492L508-348q-6 6-13 8.5t-15 2.5ZM240-160q-33 0-56.5-23.5T160-240v-80q0-17 11.5-28.5T200-360q17 0 28.5 11.5T240-320v80h480v-80q0-17 11.5-28.5T760-360q17 0 28.5 11.5T800-320v80q0 33-23.5 56.5T720-160H240Z'), to('edit', 'M160-120q-17 0-28.5-11.5T120-160v-97q0-16 6-30.5t17-25.5l505-504q12-11 26.5-17t30.5-6q16 0 31 6t26 18l55 56q12 11 17.5 26t5.5 30q0 16-5.5 30.5T817-647L313-143q-11 11-25.5 17t-30.5 6h-97Zm544-528 56-56-56-56-56 56 56 56Z'), to('egg', 'M480-120q-117 0-198.5-81.5T200-400q0-77 25.5-155t66-141.5Q332-760 382-800t98-40q49 0 98.5 40t90 103.5Q709-633 734.5-555T760-400q0 117-81.5 198.5T480-120Zm40-120q17 0 28.5-11.5T560-280q0-17-11.5-28.5T520-320q-50 0-85-35t-35-85q0-17-11.5-28.5T360-480q-17 0-28.5 11.5T320-440q0 83 58.5 141.5T520-240Z'), to('event', 'M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Z'), to('expand_less', 'M480-529 324-373q-11 11-28 11t-28-11q-11-11-11-28t11-28l184-184q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l184 184q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-529Z'), to('expand_more', 'M480-362q-8 0-15-2.5t-13-8.5L268-557q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-373q-6 6-13 8.5t-15 2.5Z'), to('favorite', 'M480-147q-14 0-28.5-5T426-168l-69-63q-106-97-191.5-192.5T80-634q0-94 63-157t157-63q53 0 100 22.5t80 61.5q33-39 80-61.5T660-854q94 0 157 63t63 157q0 115-85 211T602-230l-68 62q-11 11-25.5 16t-28.5 5Z'), to('female', 'M440-200h-40q-17 0-28.5-11.5T360-240q0-17 11.5-28.5T400-280h40v-84q-79-14-129.5-75.5T260-582q0-91 64.5-154.5T480-800q91 0 155.5 63.5T700-582q0 81-50.5 142.5T520-364v84h40q17 0 28.5 11.5T600-240q0 17-11.5 28.5T560-200h-40v40q0 17-11.5 28.5T480-120q-17 0-28.5-11.5T440-160v-40Zm40-240q58 0 99-41t41-99q0-58-41-99t-99-41q-58 0-99 41t-41 99q0 58 41 99t99 41Z'), to('fiber_manual_record', 'M480-200q-117 0-198.5-81.5T200-480q0-117 81.5-198.5T480-760q117 0 198.5 81.5T760-480q0 117-81.5 198.5T480-200Z'), to('fiber_new', 'M120-160q-33 0-56.5-23.5T40-240v-480q0-33 23.5-56.5T120-800h720q33 0 56.5 23.5T920-720v480q0 33-23.5 56.5T840-160H120Zm70-340 95 130q3 5 8 7.5t11 2.5h12q10 0 17-7t7-17v-191q0-11-7-18t-18-7q-11 0-18 7t-7 18v115l-93-130q-4-5-9-7.5t-11-2.5h-12q-11 0-18 7t-7 18v190q0 11 7 18t18 7q11 0 18-7t7-18v-115Zm210 140h115q11 0 18-7t7-18q0-11-7-18t-18-7h-75v-44h75q11 0 18-7t7-18q0-11-7-18t-18-7h-75v-46h75q11 0 18-7t7-18q0-11-7-18t-18-7H400q-8 0-14 6t-6 14v200q0 8 6 14t14 6Zm220 0h160q17 0 28.5-11.5T820-400v-175q0-11-7-18t-18-7q-11 0-18 7t-7 18v155h-44v-115q0-11-7-18t-18-7q-11 0-18 7t-7 18v115h-46v-155q0-11-7-18t-18-7q-11 0-18 7t-7 18v175q0 17 11.5 28.5T620-360Z'), to('filter_list', 'M440-240q-17 0-28.5-11.5T400-280q0-17 11.5-28.5T440-320h80q17 0 28.5 11.5T560-280q0 17-11.5 28.5T520-240h-80ZM280-440q-17 0-28.5-11.5T240-480q0-17 11.5-28.5T280-520h400q17 0 28.5 11.5T720-480q0 17-11.5 28.5T680-440H280ZM160-640q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z'), to('flare', 'M280-480q0 17-11.5 28.5T240-440H80q-17 0-28.5-11.5T40-480q0-17 11.5-28.5T80-520h160q17 0 28.5 11.5T280-480Zm58-142q-11 11-28 11t-28-11l-28-28q-11-11-11-28t11-28q11-11 28-11t28 11l28 28q11 11 11 28t-11 28Zm102-98v-160q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v160q0 17-11.5 28.5T480-680q-17 0-28.5-11.5T440-720Zm182 98q-11-11-11-28t11-28l28-28q11-11 28-11t28 11q11 11 11 28t-11 28l-28 28q-11 11-28 11t-28-11Zm58 142q0-17 11.5-28.5T720-520h160q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440H720q-17 0-28.5-11.5T680-480ZM480-360q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm142 22q11-11 28-11t28 11l28 28q11 11 11 28t-11 28q-11 11-28 11t-28-11l-28-28q-11-11-11-28t11-28Zm-284 0q11 11 11 28t-11 28l-28 28q-11 11-28 11t-28-11q-11-11-11-28t11-28l28-28q11-11 28-11t28 11Zm142 58q17 0 28.5 11.5T520-240v160q0 17-11.5 28.5T480-40q-17 0-28.5-11.5T440-80v-160q0-17 11.5-28.5T480-280Z'), to('foggy', 'M720-200q-17 0-28.5-11.5T680-240q0-17 11.5-28.5T720-280q17 0 28.5 11.5T760-240q0 17-11.5 28.5T720-200ZM280-80q-17 0-28.5-11.5T240-120q0-17 11.5-28.5T280-160q17 0 28.5 11.5T320-120q0 17-11.5 28.5T280-80Zm-40-120q-17 0-28.5-11.5T200-240q0-17 11.5-28.5T240-280h360q17 0 28.5 11.5T640-240q0 17-11.5 28.5T600-200H240ZM400-80q-17 0-28.5-11.5T360-120q0-17 11.5-28.5T400-160h280q17 0 28.5 11.5T720-120q0 17-11.5 28.5T680-80H400ZM300-320q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Z'), to('forest', 'M520-120v-80h160v80q0 17-11.5 28.5T640-80h-80q-17 0-28.5-11.5T520-120Zm-240 0v-120H73q-24 0-35-21t2-41l114-178q-23 0-34.5-20.5T122-541l205-292q6-8 15-12.5t18-4.5q9 0 18 4.5t15 12.5l205 292q14 20 2.5 40.5T566-480l115 178q13 20 2 41t-35 21H440v120q0 17-11.5 28.5T400-80h-80q-17 0-28.5-11.5T280-120Zm490-120L640-440q24 0 35.5-21.5T673-503L505-743l62-90q6-8 15-12.5t18-4.5q9 0 18 4.5t15 12.5l205 292q14 20 2.5 40.5T806-480l114 178q13 20 2 41t-35 21H770Z'), to('format_list_bulleted', 'M400-200q-17 0-28.5-11.5T360-240q0-17 11.5-28.5T400-280h400q17 0 28.5 11.5T840-240q0 17-11.5 28.5T800-200H400Zm0-240q-17 0-28.5-11.5T360-480q0-17 11.5-28.5T400-520h400q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H400Zm0-240q-17 0-28.5-11.5T360-720q0-17 11.5-28.5T400-760h400q17 0 28.5 11.5T840-720q0 17-11.5 28.5T800-680H400ZM200-160q-33 0-56.5-23.5T120-240q0-33 23.5-56.5T200-320q33 0 56.5 23.5T280-240q0 33-23.5 56.5T200-160Zm0-240q-33 0-56.5-23.5T120-480q0-33 23.5-56.5T200-560q33 0 56.5 23.5T280-480q0 33-23.5 56.5T200-400Zm0-240q-33 0-56.5-23.5T120-720q0-33 23.5-56.5T200-800q33 0 56.5 23.5T280-720q0 33-23.5 56.5T200-640Z'), to('grid_view', 'M200-520q-33 0-56.5-23.5T120-600v-160q0-33 23.5-56.5T200-840h160q33 0 56.5 23.5T440-760v160q0 33-23.5 56.5T360-520H200Zm0 400q-33 0-56.5-23.5T120-200v-160q0-33 23.5-56.5T200-440h160q33 0 56.5 23.5T440-360v160q0 33-23.5 56.5T360-120H200Zm400-400q-33 0-56.5-23.5T520-600v-160q0-33 23.5-56.5T600-840h160q33 0 56.5 23.5T840-760v160q0 33-23.5 56.5T760-520H600Zm0 400q-33 0-56.5-23.5T520-200v-160q0-33 23.5-56.5T600-440h160q33 0 56.5 23.5T840-360v160q0 33-23.5 56.5T760-120H600Z'), to('group', 'M40-272q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v32q0 33-23.5 56.5T600-160H120q-33 0-56.5-23.5T40-240v-32Zm698 112q11-18 16.5-38.5T760-240v-40q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v40q0 33-23.5 56.5T840-160H738ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113Z'), to('handshake', 'M484-120q-17 0-28.5-11.5T444-160q0-7 3-14.5t9-13.5l171-171q6-6 6-14.5t-6-14.5q-6-6-14.5-5.5T598-387L428-217q-6 6-13 9t-15 3q-17 0-28.5-11.5T360-245q0-10 3-16.5t8-11.5l171-171q6-6 6-14t-6-14q-6-6-14-6t-14 6L343-302q-6 6-13 9t-16 3q-16 0-28-12t-12-28q0-8 3-15t9-13l170-170q6-6 6-14.5t-6-14.5q-6-6-14-6t-14 6L258-386q-5 5-12 8t-17 3q-17 0-28.5-11.5T189-415q0-8 3-15t9-13l196-196q11-11 27.5-10t27.5 12l122 122q11 11 26 17.5t30 6.5q32 0 56-22.5t24-57.5q0-14-5-29t-18-28L550-765q-11-11-14.5-24t3.5-25q9-15 23-22t31-7q21 0 43 10t40 28l169 170q18 18 26.5 40t8.5 51q0 20-9 40.5T845-466L512-132q-8 8-14 10t-14 2ZM116-475q-19-14-28.5-33.5T78-550q0-23 9.5-45t27.5-40l169-170q17-17 37.5-26t43.5-9q25 0 48.5 9t40.5 26l205 205q5 5 8.5 12.5T671-572q0 17-11.5 28.5T631-532q-8 0-15.5-3.5T603-544L480-666q-23-23-56.5-23T367-666L179-478q-13 13-30.5 13.5T116-475Z'), to('healing', 'M218-104 104-218q-23-23-23-56t23-56l526-526q23-23 56-23t56 23l114 114q23 23 23 56t-23 56L330-104q-23 23-56 23t-56-23Zm290-122 226-226 122 122q23 23 23 56t-23 56L742-104q-23 23-56 23t-56-23L508-226Zm-28-134q17 0 28.5-11.5T520-400q0-17-11.5-28.5T480-440q-17 0-28.5 11.5T440-400q0 17 11.5 28.5T480-360Zm-80-80q17 0 28.5-11.5T440-480q0-17-11.5-28.5T400-520q-17 0-28.5 11.5T360-480q0 17 11.5 28.5T400-440Zm160 0q17 0 28.5-11.5T600-480q0-17-11.5-28.5T560-520q-17 0-28.5 11.5T520-480q0 17 11.5 28.5T560-440Zm-335-69L104-630q-23-23-23-56t23-56l114-114q23-23 56-23t56 23l122 122-227 225Zm255-11q17 0 28.5-11.5T520-560q0-17-11.5-28.5T480-600q-17 0-28.5 11.5T440-560q0 17 11.5 28.5T480-520Z'), to('help', 'M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm2 160q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm4-572q25 0 43.5 16t18.5 40q0 22-13.5 39T502-525q-23 20-40.5 44T444-427q0 14 10.5 23.5T479-394q15 0 25.5-10t13.5-25q4-21 18-37.5t30-31.5q23-22 39.5-48t16.5-58q0-51-41.5-83.5T484-720q-38 0-72.5 16T359-655q-7 12-4.5 25.5T368-609q14 8 29 5t25-17q11-15 27.5-23t34.5-8Z'), to('history', 'M480-120q-126 0-223-76.5T131-392q-4-15 6-27.5t27-14.5q16-2 29 6t18 24q24 90 99 147t170 57q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h70q17 0 28.5 11.5T360-600q0 17-11.5 28.5T320-560H160q-17 0-28.5-11.5T120-600v-160q0-17 11.5-28.5T160-800q17 0 28.5 11.5T200-760v54q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm40-376 100 100q11 11 11 28t-11 28q-11 11-28 11t-28-11L452-452q-6-6-9-13.5t-3-15.5v-159q0-17 11.5-28.5T480-680q17 0 28.5 11.5T520-640v144Z'), to('home', 'M160-200v-360q0-19 8.5-36t23.5-28l240-180q21-16 48-16t48 16l240 180q15 11 23.5 28t8.5 36v360q0 33-23.5 56.5T720-120H600q-17 0-28.5-11.5T560-160v-200q0-17-11.5-28.5T520-400h-80q-17 0-28.5 11.5T400-360v200q0 17-11.5 28.5T360-120H240q-33 0-56.5-23.5T160-200Z'), to('hourglass_top', 'M320-160h320v-120q0-66-47-113t-113-47q-66 0-113 47t-47 113v120ZM200-80q-17 0-28.5-11.5T160-120q0-17 11.5-28.5T200-160h40v-120q0-61 28.5-114.5T348-480q-51-32-79.5-85.5T240-680v-120h-40q-17 0-28.5-11.5T160-840q0-17 11.5-28.5T200-880h560q17 0 28.5 11.5T800-840q0 17-11.5 28.5T760-800h-40v120q0 61-28.5 114.5T612-480q51 32 79.5 85.5T720-280v120h40q17 0 28.5 11.5T800-120q0 17-11.5 28.5T760-80H200Z'), to('info', 'M480-280q17 0 28.5-11.5T520-320v-160q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480v160q0 17 11.5 28.5T480-280Zm0-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('inventory_2', 'M200-80q-33 0-56.5-23.5T120-160v-451q-18-11-29-28.5T80-680v-120q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v120q0 23-11 40.5T840-611v451q0 33-23.5 56.5T760-80H200Zm-40-600h640v-120H160v120Zm240 280h160q17 0 28.5-11.5T600-440q0-17-11.5-28.5T560-480H400q-17 0-28.5 11.5T360-440q0 17 11.5 28.5T400-400Z'), to('keyboard_arrow_down', 'M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z'), to('leaderboard', 'M120-120q-17 0-28.5-11.5T80-160v-400q0-17 11.5-28.5T120-600h140q17 0 28.5 11.5T300-560v400q0 17-11.5 28.5T260-120H120Zm290 0q-17 0-28.5-11.5T370-160v-640q0-17 11.5-28.5T410-840h140q17 0 28.5 11.5T590-800v640q0 17-11.5 28.5T550-120H410Zm290 0q-17 0-28.5-11.5T660-160v-320q0-17 11.5-28.5T700-520h140q17 0 28.5 11.5T880-480v320q0 17-11.5 28.5T840-120H700Z'), to('lightbulb', 'M480-80q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM360-200q-17 0-28.5-11.5T320-240q0-17 11.5-28.5T360-280h240q17 0 28.5 11.5T640-240q0 17-11.5 28.5T600-200H360Zm-30-120q-69-41-109.5-110T180-580q0-125 87.5-212.5T480-880q125 0 212.5 87.5T780-580q0 81-40.5 150T630-320H330Z'), to('link', 'M280-280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h120q17 0 28.5 11.5T440-640q0 17-11.5 28.5T400-600H280q-50 0-85 35t-35 85q0 50 35 85t85 35h120q17 0 28.5 11.5T440-320q0 17-11.5 28.5T400-280H280Zm80-160q-17 0-28.5-11.5T320-480q0-17 11.5-28.5T360-520h240q17 0 28.5 11.5T640-480q0 17-11.5 28.5T600-440H360Zm200 160q-17 0-28.5-11.5T520-320q0-17 11.5-28.5T560-360h120q50 0 85-35t35-85q0-50-35-85t-85-35H560q-17 0-28.5-11.5T520-640q0-17 11.5-28.5T560-680h120q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H560Z'), to('list', 'M320-600q-17 0-28.5-11.5T280-640q0-17 11.5-28.5T320-680h480q17 0 28.5 11.5T840-640q0 17-11.5 28.5T800-600H320Zm0 160q-17 0-28.5-11.5T280-480q0-17 11.5-28.5T320-520h480q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H320Zm0 160q-17 0-28.5-11.5T280-320q0-17 11.5-28.5T320-360h480q17 0 28.5 11.5T840-320q0 17-11.5 28.5T800-280H320ZM160-600q-17 0-28.5-11.5T120-640q0-17 11.5-28.5T160-680q17 0 28.5 11.5T200-640q0 17-11.5 28.5T160-600Zm0 160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440Zm0 160q-17 0-28.5-11.5T120-320q0-17 11.5-28.5T160-360q17 0 28.5 11.5T200-320q0 17-11.5 28.5T160-280Z'), to('local_activity', 'm480-404 60 46q11 9 24 .5t8-22.5l-24-76 67-52q11-9 6-22.5T602-544h-78l-25-77q-5-14-19-14t-19 14l-25 77h-79q-14 0-18.5 13.5T345-508l65 52-24 77q-5 14 7 22.5t24-.5l63-47ZM160-160q-33 0-56.5-23.5T80-240v-135q0-11 7-19t18-10q24-8 39.5-29t15.5-47q0-26-15.5-47T105-556q-11-2-18-10t-7-19v-135q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v135q0 11-7 19t-18 10q-24 8-39.5 29T800-480q0 26 15.5 47t39.5 29q11 2 18 10t7 19v135q0 33-23.5 56.5T800-160H160Z'), to('local_fire_department', 'M160-400q0-113 67-217t184-182q22-15 45.5-1.5T480-760v52q0 34 23.5 57t57.5 23q17 0 32.5-7.5T621-657q8-10 20.5-12.5T665-664q63 45 99 115t36 149q0 88-43 160.5T644-125q17-24 26.5-52.5T680-238q0-40-15-75.5T622-377L480-516 339-377q-29 29-44 64t-15 75q0 32 9.5 60.5T316-125q-70-42-113-114.5T160-400Zm320-4 85 83q17 17 26 38t9 45q0 49-35 83.5T480-120q-50 0-85-34.5T360-238q0-23 9-44.5t26-38.5l85-83Z'), to('local_florist', 'M480-540q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29Zm0 180q-39 0-70.5-21.5T364-438q-5 0-9 .5t-9 .5q-52 0-89-37t-37-89q0-21 7-40.5t21-36.5q-13-17-20-36.5t-7-40.5q0-52 36.5-89t88.5-37q5 0 9 .5t9 .5q14-35 45.5-56.5T480-920q39 0 70.5 21.5T596-842q5 0 9-.5t9-.5q52 0 88.5 37t36.5 89q0 21-6.5 40.5T712-640q13 17 20 36.5t7 40.5q0 52-36.5 89T614-437q-5 0-9-.5t-9-.5q-14 35-45.5 56.5T480-360Zm0 279q0-126 76-223t193-126q19-5 37.5-3.5T819-418q12 13 13.5 31t-3.5 35q-28 118-125.5 194.5T480-81Zm0 1q0-126-76-223T211-429q-19-5-37.5-3.5T141-417q-12 13-13.5 31t3.5 35q28 118 125.5 194.5T480-80Z'), to('location_on', 'M480-107q-14 0-28-5t-25-15q-65-60-115-117t-83.5-110.5q-33.5-53.5-51-103T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 45-17.5 94.5t-51 103Q698-301 648-244T533-127q-11 10-25 15t-28 5Zm0-373q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Z'), to('male', 'M800-760v160q0 17-11.5 28.5T760-560q-17 0-28.5-11.5T720-600v-63L561-505q19 28 29 59.5t10 65.5q0 92-64 156t-156 64q-92 0-156-64t-64-156q0-92 64-156t156-64q33 0 65 9.5t59 29.5l159-159h-63q-17 0-28.5-11.5T560-760q0-17 11.5-28.5T600-800h160q17 0 28.5 11.5T800-760ZM380-520q-58 0-99 41t-41 99q0 58 41 99t99 41q58 0 99-41t41-99q0-58-41-99t-99-41Z'), to('menu_book', 'M520-278q44-21 88.5-31.5T700-320q36 0 70.5 6t69.5 18v-396q-33-14-68.5-21t-71.5-7q-47 0-93 12t-87 36v394Zm-40 97q-14 0-26.5-3.5T430-194q-39-23-82-34.5T260-240q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q47-23 96.5-35.5T260-800q58 0 113.5 15T480-740q51-30 106.5-45T700-800q52 0 101.5 12.5T898-752q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-45 0-88 11.5T530-194q-11 6-23.5 9.5T480-181Zm80-428q0-9 6.5-18.5T581-640q29-10 58-15t61-5q20 0 39.5 2.5T778-651q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-600q-26 0-51 5t-48 13q-18 7-29.5-1T560-609Zm0 220q0-9 6.5-18.5T581-420q29-10 58-15t61-5q20 0 39.5 2.5T778-431q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-380q-26 0-51 4.5T601-363q-18 7-29.5-.5T560-389Zm0-110q0-9 6.5-18.5T581-530q29-10 58-15t61-5q20 0 39.5 2.5T778-541q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-490q-26 0-51 5t-48 13q-18 7-29.5-1T560-499Z'), to('more_horiz', 'M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z'), to('movie', 'm160-800 65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h80l65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h80l65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Z'), to('newspaper', 'M160-120q-33 0-56.5-23.5T80-200v-616q0-7 6-9.5t11 2.5l50 50 52-53q6-6 14-6t14 6l53 53 53-53q6-6 14-6t14 6l52 53 53-53q6-6 14-6t14 6l53 53 52-53q6-6 14-6t14 6l53 53 53-53q6-6 14-6t14 6l52 53 50-50q5-5 11-2.5t6 9.5v616q0 33-23.5 56.5T800-120H160Zm0-80h280v-240H160v240Zm360 0h280v-80H520v80Zm0-160h280v-80H520v80ZM160-520h640v-120H160v120Z'), to('nights_stay', 'M240-400q48 0 88 26t59 71l10 23h25q42 0 70 29.5t28 70.5q0 42-29 71t-71 29H240q-66 0-113-47T80-240q0-67 47-113.5T240-400Zm321-81q60 60 138.5 90.5T863-366q11-1 19.5 3t14.5 12q6 8 8 17t-1 19q-35 121-140.5 197T533-40q32-26 49.5-62.5T600-180q0-68-42.5-117.5T449-357q-32-57-87.5-90T240-480q-32 0-62.5 8T120-448q2-131 76.5-232T394-822q10-3 19.5-1t17.5 8q8 6 12.5 14.5T447-781q-5 86 24 162.5T561-481Z'), to('notifications', 'M200-200q-17 0-28.5-11.5T160-240q0-17 11.5-28.5T200-280h40v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h40q17 0 28.5 11.5T800-240q0 17-11.5 28.5T760-200H200ZM480-80q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80Z'), to('open_in_new', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h240q17 0 28.5 11.5T480-800q0 17-11.5 28.5T440-760H200v560h560v-240q0-17 11.5-28.5T800-480q17 0 28.5 11.5T840-440v240q0 33-23.5 56.5T760-120H200Zm560-584L416-360q-11 11-28 11t-28-11q-11-11-11-28t11-28l344-344H600q-17 0-28.5-11.5T560-800q0-17 11.5-28.5T600-840h200q17 0 28.5 11.5T840-800v200q0 17-11.5 28.5T800-560q-17 0-28.5-11.5T760-600v-104Z'), to('park', 'M402-240H195q-24 0-36-21t2-41l119-178h-3q-24 0-35.5-21.5T244-543l203-290q6-8 15-12.5t18-4.5q9 0 18 4.5t15 12.5l203 290q14 20 2.5 41.5T683-480h-3l119 178q14 20 2 41t-36 21H558v120q0 17-11.5 28.5T518-80h-76q-17 0-28.5-11.5T402-120v-120Z'), to('partly_cloudy_day', 'm734-169-56-57q-11-12-11-28.5t11-27.5q11-11 27.5-11t28.5 11l57 56q12 12 12 28.5T791-169q-12 12-28.5 12T734-169Zm-494 9q-66 0-113-47T80-320q0-66 47-113t113-47q48 0 88.5 26t58.5 71l10 23h24q42 0 70.5 29t28.5 71q0 42-29 71t-71 29H240Zm359-112q-4-63-45.5-109T449-438q-31-54-83.5-85.5T250-560q26-73 89-116.5T480-720q100 0 170 70t70 170q0 65-32 120.5T599-272Zm201-168q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520h80q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440h-80ZM226-678l-57-57q-11-11-11-28t11-28q12-12 28.5-12t28.5 12l56 57q11 12 11 28.5T282-678q-11 11-28 11t-28-11Zm452 0q-11-11-11-27.5t11-28.5l56-57q12-12 28.5-12t28.5 12q11 11 11 28t-11 28l-57 57q-11 11-28 11t-28-11Zm-198-82q-17 0-28.5-11.5T440-800v-80q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v80q0 17-11.5 28.5T480-760Z'), to('pause', 'M640-200q-33 0-56.5-23.5T560-280v-400q0-33 23.5-56.5T640-760q33 0 56.5 23.5T720-680v400q0 33-23.5 56.5T640-200Zm-320 0q-33 0-56.5-23.5T240-280v-400q0-33 23.5-56.5T320-760q33 0 56.5 23.5T400-680v400q0 33-23.5 56.5T320-200Z'), to('person', 'M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-240v-32q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v32q0 33-23.5 56.5T720-160H240q-33 0-56.5-23.5T160-240Z'), to('pets', 'M180-475q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm180-160q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm240 0q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm180 160q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM266-75q-45 0-75.5-34.5T160-191q0-52 35.5-91t70.5-77q29-31 50-67.5t50-68.5q22-26 51-43t63-17q34 0 63 16t51 42q28 32 49.5 69t50.5 69q35 38 70.5 77t35.5 91q0 47-30.5 81.5T694-75q-54 0-107-9t-107-9q-54 0-107 9t-107 9Z'), to('photo_camera', 'M480-260q75 0 127.5-52.5T660-440q0-75-52.5-127.5T480-620q-75 0-127.5 52.5T300-440q0 75 52.5 127.5T480-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM160-120q-33 0-56.5-23.5T80-200v-480q0-33 23.5-56.5T160-760h126l50-54q11-12 26.5-19t32.5-7h170q17 0 32.5 7t26.5 19l50 54h126q33 0 56.5 23.5T880-680v480q0 33-23.5 56.5T800-120H160Z'), to('pin_drop', 'M480-216q-10 0-19.5-3t-17.5-9q-81-63-162-158.5T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 112-81 207.5T517-228q-8 6-17.5 9t-19.5 3Zm0-304q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520ZM240-80q-17 0-28.5-11.5T200-120q0-17 11.5-28.5T240-160h480q17 0 28.5 11.5T760-120q0 17-11.5 28.5T720-80H240Z'), to('play_arrow', 'M320-273v-414q0-17 12-28.5t28-11.5q5 0 10.5 1.5T381-721l326 207q9 6 13.5 15t4.5 19q0 10-4.5 19T707-446L381-239q-5 3-10.5 4.5T360-233q-16 0-28-11.5T320-273Z'), to('rainy', 'M558-84q-15 8-30.5 2.5T504-102l-60-120q-8-15-2.5-30.5T462-276q15-8 30.5-2.5T516-258l60 120q8 15 2.5 30.5T558-84Zm240 0q-15 8-30.5 2.5T744-102l-60-120q-8-15-2.5-30.5T702-276q15-8 30.5-2.5T756-258l60 120q8 15 2.5 30.5T798-84Zm-480 0q-15 8-30.5 2.5T264-102l-60-120q-8-15-2.5-30.5T222-276q15-8 30.5-2.5T276-258l60 120q8 15 2.5 30.5T318-84Zm-18-236q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Z'), to('rate_review', 'M280-400h66q8 0 15.5-3t13.5-9l187-188q9-9 13.5-20.5T580-643q0-11-4.5-21.5T563-684l-37-38q-9-9-20-13.5t-23-4.5q-11 0-22 4.5T441-722L252-535q-6 6-9 13.5t-3 15.5v66q0 17 11.5 28.5T280-400Zm202-204-38-37 39-39 37 38-38 38Zm-34 204h232q17 0 28.5-11.5T720-440q0-17-11.5-28.5T680-480H528l-80 80ZM240-240l-92 92q-19 19-43.5 8.5T80-177v-623q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240Z'), to('redeem', 'M160-280v80h640v-80H160Zm0-440h88q-5-9-6.5-19t-1.5-21q0-50 35-85t85-35q30 0 55.5 15.5T460-826l20 26 20-26q18-24 44-39t56-15q50 0 85 35t35 85q0 11-1.5 21t-6.5 19h88q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720Zm0 320h640v-240H596l60 82q10 14 8 29.5T648-503q-14 10-29.5 7.5T593-511L480-664 367-511q-10 13-25.5 15.5T312-503q-14-10-16.5-25.5T303-558l59-82H160v240Zm200-320q17 0 28.5-11.5T400-760q0-17-11.5-28.5T360-800q-17 0-28.5 11.5T320-760q0 17 11.5 28.5T360-720Zm240 0q17 0 28.5-11.5T640-760q0-17-11.5-28.5T600-800q-17 0-28.5 11.5T560-760q0 17 11.5 28.5T600-720Z'), to('refresh', 'M480-160q-134 0-227-93t-93-227q0-134 93-227t227-93q69 0 132 28.5T720-690v-70q0-17 11.5-28.5T760-800q17 0 28.5 11.5T800-760v200q0 17-11.5 28.5T760-520H560q-17 0-28.5-11.5T520-560q0-17 11.5-28.5T560-600h128q-32-56-87.5-88T480-720q-100 0-170 70t-70 170q0 100 70 170t170 70q68 0 124.5-34.5T692-367q8-14 22.5-19.5t29.5-.5q16 5 23 21t-1 30q-41 80-117 128t-169 48Z'), to('remove', 'M240-440q-17 0-28.5-11.5T200-480q0-17 11.5-28.5T240-520h480q17 0 28.5 11.5T760-480q0 17-11.5 28.5T720-440H240Z'), to('rocket', 'M215-102q-20 8-37.5-4T160-139v-178q0-20 9.5-38t26.5-29l44-29q7 81 21.5 140T309-139l-94 37Zm177-58q-14 0-24-9t-15-22q-27-69-40-127.5T300-453q0-112 40-213.5T449-831q6-6 14.5-8.5T480-842q8 0 16.5 2.5T511-831q69 63 109 164.5T660-453q0 77-13 135t-40 127q-5 13-15 22t-24 9H392Zm88-280q33 0 56.5-23.5T560-520q0-33-23.5-56.5T480-600q-33 0-56.5 23.5T400-520q0 33 23.5 56.5T480-440Zm265 338-94-37q33-75 47.5-134T720-413l44 29q17 11 26.5 29t9.5 38v178q0 21-17.5 33t-37.5 4Z'), to('rocket_launch', 'M245-474q26-66 62.5-127T390-716l-52-11q-20-4-39 2t-33 20L140-579q-15 15-11.5 36t23.5 29l93 40Zm588-390q-106-5-201.5 41T461-702q-48 48-84.5 104T313-480q-5 13-5 26.5t10 23.5l125 125q10 10 23.5 10t26.5-5q62-27 118-63.5T715-448q75-75 121-170.5T877-820q0-8-4-16t-10-14q-6-6-14-10t-16-4ZM579-566q-23-23-23-56.5t23-56.5q23-23 56.5-23t56.5 23q23 23 23 56.5T692-566q-23 23-56.5 23T579-566Zm-92 334 40 93q8 20 29 24t36-11l126-126q14-14 20-33.5t2-39.5l-10-52q-55 46-115.5 82.5T487-232Zm-325-86q35-35 85-35.5t85 34.5q35 35 35 85t-35 85q-48 48-113.5 57T87-74q9-66 18.5-131.5T162-318Z'), to('route', 'M360-120q-66 0-113-47t-47-113v-327q-35-13-57.5-43.5T120-720q0-50 35-85t85-35q50 0 85 35t35 85q0 39-22.5 69.5T280-607v327q0 33 23.5 56.5T360-200q33 0 56.5-23.5T440-280v-400q0-66 47-113t113-47q66 0 113 47t47 113v327q35 13 57.5 43.5T840-240q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-39 22.5-70t57.5-43v-327q0-33-23.5-56.5T600-760q-33 0-56.5 23.5T520-680v400q0 66-47 113t-113 47Z'), to('save', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h447q16 0 30.5 6t25.5 17l114 114q11 11 17 25.5t6 30.5v447q0 33-23.5 56.5T760-120H200Zm280-120q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35ZM280-560h280q17 0 28.5-11.5T600-600v-80q0-17-11.5-28.5T560-720H280q-17 0-28.5 11.5T240-680v80q0 17 11.5 28.5T280-560Z'), to('schedule', 'M520-496v-144q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640v159q0 8 3 15.5t9 13.5l132 132q11 11 28 11t28-11q11-11 11-28t-11-28L520-496ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('school', 'M840-320v-236L518-381q-18 10-38 10t-38-10L104-565q-11-6-15.5-15T84-600q0-11 4.5-20t15.5-15l338-184q9-5 18.5-7.5T480-829q10 0 19.5 2.5T518-819l381 208q10 5 15.5 14.5T920-576v256q0 17-11.5 28.5T880-280q-17 0-28.5-11.5T840-320ZM442-141 242-249q-20-11-31-30t-11-41v-152l242 131q18 10 38 10t38-10l242-131v152q0 22-11 41t-31 30L518-141q-9 5-18.5 7.5T480-131q-10 0-19.5-2.5T442-141Z'), to('science', 'M200-120q-51 0-72.5-45.5T138-250l222-270v-240h-40q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0 17-11.5 28.5T640-760h-40v240l222 270q32 39 10.5 84.5T760-120H200Z'), to('search', 'M380-320q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z'), to('sell', 'M856-390 570-104q-12 12-27 18t-30 6q-15 0-30-6t-27-18L103-457q-11-11-17-25.5T80-513v-287q0-33 23.5-56.5T160-880h287q16 0 31 6.5t26 17.5l352 353q12 12 17.5 27t5.5 30q0 15-5.5 29.5T856-390ZM260-640q25 0 42.5-17.5T320-700q0-25-17.5-42.5T260-760q-25 0-42.5 17.5T200-700q0 25 17.5 42.5T260-640Z'), to('settings', 'M433-80q-27 0-46.5-18T363-142l-9-66q-13-5-24.5-12T307-235l-62 26q-25 11-50 2t-39-32l-47-82q-14-23-8-49t27-43l53-40q-1-7-1-13.5v-27q0-6.5 1-13.5l-53-40q-21-17-27-43t8-49l47-82q14-23 39-32t50 2l62 26q11-8 23-15t24-12l9-66q4-26 23.5-44t46.5-18h94q27 0 46.5 18t23.5 44l9 66q13 5 24.5 12t22.5 15l62-26q25-11 50-2t39 32l47 82q14 23 8 49t-27 43l-53 40q1 7 1 13.5v27q0 6.5-2 13.5l53 40q21 17 27 43t-8 49l-48 82q-14 23-39 32t-50-2l-60-26q-11 8-23 15t-24 12l-9 66q-4 26-23.5 44T527-80h-94Zm49-260q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Z'), to('share', 'M720-80q-50 0-85-35t-35-85q0-7 1-14.5t3-13.5L322-392q-17 15-38 23.5t-44 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q23 0 44 8.5t38 23.5l282-164q-2-6-3-13.5t-1-14.5q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-23 0-44-8.5T638-672L356-508q2 6 3 13.5t1 14.5q0 7-1 14.5t-3 13.5l282 164q17-15 38-23.5t44-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Z'), to('shield', 'M480-84q-7 0-13-1t-12-3q-135-45-215-166.5T160-516v-189q0-25 14.5-45t37.5-29l240-90q14-5 28-5t28 5l240 90q23 9 37.5 29t14.5 45v189q0 140-80 261.5T505-88q-6 2-12 3t-13 1Z'), to('skull', 'M420-330h120l-60-120-60 120Zm-80-110q33 0 56.5-23.5T420-520q0-33-23.5-56.5T340-600q-33 0-56.5 23.5T260-520q0 33 23.5 56.5T340-440Zm280 0q33 0 56.5-23.5T700-520q0-33-23.5-56.5T620-600q-33 0-56.5 23.5T540-520q0 33 23.5 56.5T620-440ZM240-80v-170q-39-17-68.5-45.5t-50-64.5q-20.5-36-31-77T80-520q0-158 112-259t288-101q176 0 288 101t112 259q0 42-10.5 83t-31 77q-20.5 36-50 64.5T720-250v170H600v-80h-80v80h-80v-80h-80v80H240Z'), to('speed', 'M418-340q25 25 63 23.5t55-27.5l169-253q9-14-2.5-25.5T677-625L424-456q-26 18-28.5 54.5T418-340ZM204-160q-22 0-40.5-9.5T134-198q-26-47-40-97.5T80-400q0-83 31.5-156T197-683q54-54 127-85.5T480-800q82 0 154 31t126 84.5q54 53.5 86 125T879-406q1 55-12.5 107.5T825-198q-11 19-29.5 28.5T755-160H204Z'), to('sports_baseball', 'M167-231q-42-54-64.5-117.5T80-480q0-68 22.5-131.5T167-729q58 45 91 110.5T291-480q0 73-33 138.5T167-231ZM480-80q-72 0-137.5-24T223-174q69-57 108-136.5T370-480q0-90-39-169.5T223-786q54-46 119.5-70T480-880q72 0 137.5 24T737-786q-69 57-108 136.5T590-480q0 90 39 169.5T737-174q-54 46-119.5 70T480-80Zm313-151q-58-45-91-110.5T669-480q0-73 33-138.5T793-729q42 54 64.5 117.5T880-480q0 68-22.5 131.5T793-231Z'), to('star', 'M480-269 314-169q-11 7-23 6t-21-8q-9-7-14-17.5t-2-23.5l44-189-147-127q-10-9-12.5-20.5T140-571q4-11 12-18t22-9l194-17 75-178q5-12 15.5-18t21.5-6q11 0 21.5 6t15.5 18l75 178 194 17q14 2 22 9t12 18q4 11 1.5 22.5T809-528L662-401l44 189q3 13-2 23.5T690-171q-9 7-21 8t-23-6L480-269Z'), to('stop', 'M240-320v-320q0-33 23.5-56.5T320-720h320q33 0 56.5 23.5T720-640v320q0 33-23.5 56.5T640-240H320q-33 0-56.5-23.5T240-320Z'), to('sunny', 'M480-760q-17 0-28.5-11.5T440-800v-80q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v80q0 17-11.5 28.5T480-760Zm198 82q-11-11-11-27.5t11-28.5l56-57q12-12 28.5-12t28.5 12q11 11 11 28t-11 28l-57 57q-11 11-28 11t-28-11Zm122 238q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520h80q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440h-80ZM480-40q-17 0-28.5-11.5T440-80v-80q0-17 11.5-28.5T480-200q17 0 28.5 11.5T520-160v80q0 17-11.5 28.5T480-40ZM226-678l-57-56q-12-12-12-29t12-28q11-11 28-11t28 11l57 57q11 11 11 28t-11 28q-12 11-28 11t-28-11Zm508 509-56-57q-11-12-11-28.5t11-27.5q11-11 27.5-11t28.5 11l57 56q12 11 11.5 28T791-169q-12 12-29 12t-28-12ZM80-440q-17 0-28.5-11.5T40-480q0-17 11.5-28.5T80-520h80q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440H80Zm89 271q-11-11-11-28t11-28l57-57q11-11 27.5-11t28.5 11q12 12 12 28.5T282-225l-56 56q-12 12-29 12t-28-12Zm311-71q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Z'), to('swap_horiz', 'm233-320 75 75q11 11 11 27.5T308-189q-12 12-28.5 12T251-189L108-332q-6-6-8.5-13T97-360q0-8 2.5-15t8.5-13l144-144q12-12 28-11.5t28 12.5q11 12 11.5 28T308-475l-75 75h247q17 0 28.5 11.5T520-360q0 17-11.5 28.5T480-320H233Zm494-240H480q-17 0-28.5-11.5T440-600q0-17 11.5-28.5T480-640h247l-75-75q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l143 143q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L708-428q-12 12-28 11.5T652-429q-11-12-11.5-28t11.5-28l75-75Z'), to('swords', 'M762-96 645-212l-60 60q-11 11-28 11t-28-11q-23-23-23-57t23-57l169-169q23-23 57-23t57 23q11 11 11 28t-11 28l-60 60 116 117q12 12 12 28t-12 28l-50 50q-12 12-28 12t-28-12Zm106-616L426-270l5 4q23 23 23 57t-23 57q-11 11-28 11t-28-11l-60-60L198-96q-12 12-28 12t-28-12l-50-50q-12-12-12-28t12-28l116-117-60-60q-11-11-11-28t11-28q23-23 57-23t57 23l4 5 431-431q11-11 25.5-17t30.5-6h87q17 0 28.5 11.5T880-844v103q0 8-3 15.5t-9 13.5ZM249-555 103-701q-11-11-17-25.5T80-757v-87q0-17 11.5-28.5T120-884h87q16 0 30.5 6t25.5 17l146 146q12 12 12 28.5T409-658L306-555q-12 12-28.5 12T249-555Z'), to('sync', 'M240-478q0 45 17 87.5t53 78.5l10 10v-58q0-17 11.5-28.5T360-400q17 0 28.5 11.5T400-360v160q0 17-11.5 28.5T360-160H200q-17 0-28.5-11.5T160-200q0-17 11.5-28.5T200-240h70l-16-14q-52-46-73-105t-21-119q0-94 48-170.5T337-766q14-8 29.5-1t20.5 23q5 15-.5 30T367-691q-58 32-92.5 88.5T240-478Zm480-4q0-45-17-87.5T650-648l-10-10v58q0 17-11.5 28.5T600-560q-17 0-28.5-11.5T560-600v-160q0-17 11.5-28.5T600-800h160q17 0 28.5 11.5T800-760q0 17-11.5 28.5T760-720h-70l16 14q49 49 71.5 106.5T800-482q0 94-48 170.5T623-194q-14 8-29.5 1T573-216q-5-15 .5-30t19.5-23q58-32 92.5-88.5T720-482Z'), to('thumb_down', 'M120-320q-32 0-56-24t-24-56v-80q0-7 1.5-15t4.5-15l120-282q9-20 30-34t44-14h320q33 0 56.5 23.5T640-760v407q0 16-6.5 30.5T616-297L399-81q-15 14-35.5 17T324-71q-19-10-27.5-28t-3.5-37l45-184H120Zm680-520q33 0 56.5 23.5T880-760v360q0 33-23.5 56.5T800-320q-33 0-56.5-23.5T720-400v-360q0-33 23.5-56.5T800-840Z'), to('thumb_up', 'M840-640q32 0 56 24t24 56v80q0 7-1.5 15t-4.5 15L794-168q-9 20-30 34t-44 14H400q-33 0-56.5-23.5T320-200v-407q0-16 6.5-30.5T344-663l217-216q15-14 35.5-17t39.5 7q19 10 27.5 28t3.5 37l-45 184h218ZM160-120q-33 0-56.5-23.5T80-200v-360q0-33 23.5-56.5T160-640q33 0 56.5 23.5T240-560v360q0 33-23.5 56.5T160-120Z'), to('thunderstorm', 'm520-66 36-41-34-17q-17-9-21-28t9-34l70-80q5-7 13.5-10.5T610-280q26 0 36.5 23t-6.5 43l-36 41 34 17q17 9 21 28t-9 34l-70 80q-5 7-13.5 10.5T550 0q-26 0-36.5-23t6.5-43Zm-240 0 36-41-34-17q-17-9-21-28t9-34l70-80q5-7 13.5-10.5T370-280q26 0 36.5 23t-6.5 43l-36 41 34 17q17 9 21 28t-9 34l-70 80q-5 7-13.5 10.5T310 0q-26 0-36.5-23t6.5-43Zm20-254q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Z'), to('timer', 'M400-840q-17 0-28.5-11.5T360-880q0-17 11.5-28.5T400-920h160q17 0 28.5 11.5T600-880q0 17-11.5 28.5T560-840H400Zm80 440q17 0 28.5-11.5T520-440v-160q0-17-11.5-28.5T480-640q-17 0-28.5 11.5T440-600v160q0 17 11.5 28.5T480-400Zm0 320q-74 0-139.5-28.5T226-186q-49-49-77.5-114.5T120-440q0-74 28.5-139.5T226-694q49-49 114.5-77.5T480-800q62 0 119 20t107 58l28-28q11-11 28-11t28 11q11 11 11 28t-11 28l-28 28q38 50 58 107t20 119q0 74-28.5 139.5T734-186q-49 49-114.5 77.5T480-80Z'), to('today', 'M360-300q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Z'), to('trending_up', 'M108-255q-12-12-11.5-28.5T108-311l211-214q23-23 57-23t57 23l103 104 208-206h-64q-17 0-28.5-11.5T640-667q0-17 11.5-28.5T680-707h160q17 0 28.5 11.5T880-667v160q0 17-11.5 28.5T840-467q-17 0-28.5-11.5T800-507v-64L593-364q-23 23-57 23t-57-23L376-467 164-255q-11 11-28 11t-28-11Z'), to('trophy', 'M280-528v-152h-80v40q0 38 22 68.5t58 43.5Zm400 0q36-13 58-43.5t22-68.5v-40h-80v152ZM440-200v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80q0-33 23.5-56.5T360-840h240q33 0 56.5 23.5T680-760h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h120q17 0 28.5 11.5T680-160q0 17-11.5 28.5T640-120H320q-17 0-28.5-11.5T280-160q0-17 11.5-28.5T320-200h120Z'), to('tune', 'M480-120q-17 0-28.5-11.5T440-160v-160q0-17 11.5-28.5T480-360q17 0 28.5 11.5T520-320v40h280q17 0 28.5 11.5T840-240q0 17-11.5 28.5T800-200H520v40q0 17-11.5 28.5T480-120Zm-320-80q-17 0-28.5-11.5T120-240q0-17 11.5-28.5T160-280h160q17 0 28.5 11.5T360-240q0 17-11.5 28.5T320-200H160Zm160-160q-17 0-28.5-11.5T280-400v-40H160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h120v-40q0-17 11.5-28.5T320-600q17 0 28.5 11.5T360-560v160q0 17-11.5 28.5T320-360Zm160-80q-17 0-28.5-11.5T440-480q0-17 11.5-28.5T480-520h320q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H480Zm160-160q-17 0-28.5-11.5T600-640v-160q0-17 11.5-28.5T640-840q17 0 28.5 11.5T680-800v40h120q17 0 28.5 11.5T840-720q0 17-11.5 28.5T800-680H680v40q0 17-11.5 28.5T640-600Zm-480-80q-17 0-28.5-11.5T120-720q0-17 11.5-28.5T160-760h320q17 0 28.5 11.5T520-720q0 17-11.5 28.5T480-680H160Z'), to('upgrade', 'M320-160q-17 0-28.5-11.5T280-200q0-17 11.5-28.5T320-240h320q17 0 28.5 11.5T680-200q0 17-11.5 28.5T640-160H320Zm160-160q-17 0-28.5-11.5T440-360v-287l-76 75q-11 11-27.5 11.5T308-572q-11-11-11-28t11-28l144-144q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l144 144q11 11 11.5 27.5T652-572q-11 11-28 11t-28-11l-76-75v287q0 17-11.5 28.5T480-320Z'), to('upload', 'M240-160q-33 0-56.5-23.5T160-240v-80q0-17 11.5-28.5T200-360q17 0 28.5 11.5T240-320v80h480v-80q0-17 11.5-28.5T760-360q17 0 28.5 11.5T800-320v80q0 33-23.5 56.5T720-160H240Zm200-486-75 75q-12 12-28.5 11.5T308-572q-11-12-11.5-28t11.5-28l144-144q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l144 144q12 12 11.5 28T652-572q-12 12-28.5 12.5T595-571l-75-75v286q0 17-11.5 28.5T480-320q-17 0-28.5-11.5T440-360v-286Z'), to('verified', 'm438-452-58-57q-11-11-27.5-11T324-508q-11 11-11 28t11 28l86 86q12 12 28 12t28-12l170-170q12-12 11.5-28T636-592q-12-12-28.5-12.5T579-593L438-452ZM326-90l-58-98-110-24q-15-3-24-15.5t-7-27.5l11-113-75-86q-10-11-10-26t10-26l75-86-11-113q-2-15 7-27.5t24-15.5l110-24 58-98q8-13 22-17.5t28 1.5l104 44 104-44q14-6 28-1.5t22 17.5l58 98 110 24q15 3 24 15.5t7 27.5l-11 113 75 86q10 11 10 26t-10 26l-75 86 11 113q2 15-7 27.5T802-212l-110 24-58 98q-8 13-22 17.5T584-74l-104-44-104 44q-14 6-28 1.5T326-90Z'), to('view_agenda', 'M200-520q-33 0-56.5-23.5T120-600v-160q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v160q0 33-23.5 56.5T760-520H200Zm0 400q-33 0-56.5-23.5T120-200v-160q0-33 23.5-56.5T200-440h560q33 0 56.5 23.5T840-360v160q0 33-23.5 56.5T760-120H200Z'), to('visibility', 'M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-134 0-244.5-72T61-462q-5-9-7.5-18.5T51-500q0-10 2.5-19.5T61-538q64-118 174.5-190T480-800q134 0 244.5 72T899-538q5 9 7.5 18.5T909-500q0 10-2.5 19.5T899-462q-64 118-174.5 190T480-200Z'), to('warning', 'M109-120q-11 0-20-5.5T75-140q-5-9-5.5-19.5T75-180l370-640q6-10 15.5-15t19.5-5q10 0 19.5 5t15.5 15l370 640q6 10 5.5 20.5T885-140q-5 9-14 14.5t-20 5.5H109Zm371-120q17 0 28.5-11.5T520-280q0-17-11.5-28.5T480-320q-17 0-28.5 11.5T440-280q0 17 11.5 28.5T480-240Zm0-120q17 0 28.5-11.5T520-400v-120q0-17-11.5-28.5T480-560q-17 0-28.5 11.5T440-520v120q0 17 11.5 28.5T480-360Z'), to('water_drop', 'M480-80q-137 0-228.5-94T160-408q0-62 28-124t70-119q42-57 91-107t91-87q8-8 18.5-11.5T480-860q11 0 21.5 3.5T520-845q42 37 91 87t91 107q42 57 70 119t28 124q0 140-91.5 234T480-80Zm11-120q12-1 20.5-9.5T520-230q0-14-9-22.5t-23-7.5q-41 3-87-22.5T343-375q-2-11-10.5-18t-19.5-7q-14 0-23 10.5t-6 24.5q17 91 80 130t127 35Z')]);
+  this.m20_1 = mapOf([to('ac_unit', 'M440-246 337-145q-11 11-27.5 11T282-146q-12-11-12-27.5t12-28.5l158-158v-80h-80L201-281q-11 11-27.5 11T145-282q-11-11-11-27.5t11-27.5l101-103H119q-17 0-28-11.5T80-480q0-17 11.5-28.5T120-520h126L145-622q-11-11-11-27.5t12-28.5q11-11 27.5-11t28.5 11l158 158h80v-80L281-758q-11-11-11-27.5t12-28.5q11-11 27.5-11t27.5 11l103 100v-126q0-17 11.5-28.5T480-880q17 0 28.5 11.5T520-840v126l102-100q11-11 27.5-11t28.5 11q11 12 11 28.5T678-758L520-600v80h80l158-158q11-11 27.5-11t28.5 12q11 11 11 27.5T814-622L714-520h126q17 0 28.5 11.5T880-480q0 17-11.5 28.5T840-440H714l100 103q11 11 11 27.5T814-282q-12 12-28.5 12T758-282L600-440h-80v80l158 159q11 11 11 27.5T677-145q-11 11-27.5 11T622-145L520-246v127q0 17-11.5 28T480-80q-17 0-28.5-11.5T440-120v-126Z'), to('add', 'M440-440H240q-17 0-28.5-11.5T200-480q0-17 11.5-28.5T240-520h200v-200q0-17 11.5-28.5T480-760q17 0 28.5 11.5T520-720v200h200q17 0 28.5 11.5T760-480q0 17-11.5 28.5T720-440H520v200q0 17-11.5 28.5T480-200q-17 0-28.5-11.5T440-240v-200Z'), to('air', 'M460-160q-32 0-59.5-16T356-220q-11-20-.5-40t32.5-20q13 0 23 8t18 18q5 7 13.5 10.5T460-240q17 0 28.5-11.5T500-280q0-17-11.5-28.5T460-320H120q-17 0-28.5-11.5T80-360q0-17 11.5-28.5T120-400h340q50 0 85 35t35 85q0 50-35 85t-85 35ZM120-560q-17 0-28.5-11.5T80-600q0-17 11.5-28.5T120-640h500q25 0 42.5-17.5T680-700q0-25-17.5-42.5T620-760q-16 0-30 7.5T568-731q-7 12-17 21.5t-24 9.5q-20 0-32.5-15t-6.5-32q14-42 50.5-67.5T620-840q58 0 99 41t41 99q0 58-41 99t-99 41H120Zm678 308q-20 9-39-2.5T740-288q0-14 9.5-23.5T771-328q14-8 21.5-22t7.5-30q0-25-17.5-42.5T740-440H120q-17 0-28.5-11.5T80-480q0-17 11.5-28.5T120-520h620q58 0 99 41t41 99q0 42-22 76.5T798-252Z'), to('arrow_back', 'm313-440 196 196q12 12 11.5 28T508-188q-12 11-28 11.5T452-188L188-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l264-264q11-11 27.5-11t28.5 11q12 12 12 28.5T508-715L313-520h447q17 0 28.5 11.5T800-480q0 17-11.5 28.5T760-440H313Z'), to('arrow_downward', 'M440-313v-447q0-17 11.5-28.5T480-800q17 0 28.5 11.5T520-760v447l196-196q12-12 28-11.5t28 12.5q11 12 11.5 28T772-452L508-188q-6 6-13 8.5t-15 2.5q-8 0-15-2.5t-13-8.5L188-452q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l195 195Z'), to('arrow_forward', 'M647-440H200q-17 0-28.5-11.5T160-480q0-17 11.5-28.5T200-520h447L451-716q-12-12-11.5-28t12.5-28q12-11 28-11.5t28 11.5l264 264q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L508-188q-11 11-27.5 11T452-188q-12-12-12-28.5t12-28.5l195-195Z'), to('arrow_upward', 'M440-647 244-451q-12 12-28 11.5T188-452q-11-12-11.5-28t11.5-28l264-264q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l264 264q11 11 11 27.5T772-452q-12 12-28.5 12T715-452L520-647v447q0 17-11.5 28.5T480-160q-17 0-28.5-11.5T440-200v-447Z'), to('auto_awesome', 'm646-438-86 138q-11 17-30.5 14T505-309l-28-112-273 273q-11 11-27.5 11.5T148-148q-11-11-11-28t11-28l273-274-112-28q-20-5-23-24.5t14-30.5l138-85-12-163q-2-20 16-29t33 4l125 105 151-61q19-8 33 6t6 33l-61 151 105 124q13 15 4 33t-29 16l-163-11ZM134-706q-6-6-6-14t6-14l52-52q6-6 14-6t14 6l52 52q6 6 6 14t-6 14l-52 52q-6 6-14 6t-14-6l-52-52Zm421 263 48-79 93 7-60-71 35-86-86 35-71-59 7 92-79 49 90 22 23 90Zm151 309-52-52q-6-6-6-14t6-14l52-52q6-6 14-6t14 6l52 52q6 6 6 14t-6 14l-52 52q-6 6-14 6t-14-6ZM569-570Z'), to('backspace', 'M360-200q-20 0-37.5-9T294-234L153-434q-15-21-15-46t15-46l141-200q11-16 28.5-25t37.5-9h400q33 0 56.5 23.5T840-680v400q0 33-23.5 56.5T760-200H360Zm400-80v-400 400Zm-400 0h400v-400H360L218-480l142 200Zm200-144 76 76q11 11 28 11t28-11q11-11 11-28t-11-28l-76-76 76-76q11-11 11-28t-11-28q-11-11-28-11t-28 11l-76 76-76-76q-11-11-28-11t-28 11q-11 11-11 28t11 28l76 76-76 76q-11 11-11 28t11 28q11 11 28 11t28-11l76-76Z'), to('bar_chart', 'M680-160q-17 0-28.5-11.5T640-200v-200q0-17 11.5-28.5T680-440h80q17 0 28.5 11.5T800-400v200q0 17-11.5 28.5T760-160h-80Zm-240 0q-17 0-28.5-11.5T400-200v-560q0-17 11.5-28.5T440-800h80q17 0 28.5 11.5T560-760v560q0 17-11.5 28.5T520-160h-80Zm-240 0q-17 0-28.5-11.5T160-200v-360q0-17 11.5-28.5T200-600h80q17 0 28.5 11.5T320-560v360q0 17-11.5 28.5T280-160h-80Z'), to('block', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z'), to('bolt', 'm422-232 207-248H469l29-227-185 267h139l-30 208Zm-62-128H236q-24 0-35.5-21.5T203-423l299-430q10-14 26-19.5t33 .5q17 6 25 21t6 32l-32 259h155q26 0 36.5 23t-6.5 43L416-100q-11 13-27 17t-31-3q-15-7-23.5-21.5T328-139l32-221Zm111-110Z'), to('bookmark', 'm480-240-168 72q-40 17-76-6.5T200-241v-519q0-33 23.5-56.5T280-840h400q33 0 56.5 23.5T760-760v519q0 43-36 66.5t-76 6.5l-168-72Zm0-88 200 86v-518H280v518l200-86Zm0-432H280h400-200Z'), to('bug_report', 'M480-120q-65 0-120.5-32T272-240h-72q-17 0-28.5-11.5T160-280q0-17 11.5-28.5T200-320h44q-3-20-3.5-40t-.5-40h-40q-17 0-28.5-11.5T160-440q0-17 11.5-28.5T200-480h40q0-20 .5-40t3.5-40h-44q-17 0-28.5-11.5T160-600q0-17 11.5-28.5T200-640h72q14-23 31.5-43t40.5-35l-37-38q-11-11-11-27.5t12-28.5q11-11 28-11t28 11l58 58q28-9 57-9t57 9l60-59q11-11 27.5-11t28.5 12q11 11 11 28t-11 28l-38 38q23 15 41.5 34.5T688-640h72q17 0 28.5 11.5T800-600q0 17-11.5 28.5T760-560h-44q3 20 3.5 40t.5 40h40q17 0 28.5 11.5T800-440q0 17-11.5 28.5T760-400h-40q0 20-.5 40t-3.5 40h44q17 0 28.5 11.5T800-280q0 17-11.5 28.5T760-240h-72q-32 56-87.5 88T480-120Zm0-80q66 0 113-47t47-113v-160q0-66-47-113t-113-47q-66 0-113 47t-47 113v160q0 66 47 113t113 47Zm-40-120h80q17 0 28.5-11.5T560-360q0-17-11.5-28.5T520-400h-80q-17 0-28.5 11.5T400-360q0 17 11.5 28.5T440-320Zm0-160h80q17 0 28.5-11.5T560-520q0-17-11.5-28.5T520-560h-80q-17 0-28.5 11.5T400-520q0 17 11.5 28.5T440-480Zm40 40Z'), to('build', 'M360-360q-100 0-170-70t-70-170q0-20 3-40t11-38q5-10 12.5-15t16.5-7q9-2 18.5.5T199-689l105 105 72-72-105-105q-8-8-10.5-17.5T260-797q2-9 7-16.5t15-12.5q18-8 38-11t40-3q100 0 170 70t70 170q0 23-4 43.5T584-516l202 200q29 29 29 71t-29 71q-29 29-71 29t-71-30L444-376q-20 8-40.5 12t-43.5 4Zm0-80q26 0 52-8t47-25l243 243q5 5 13.5 4.5T729-231q5-5 5-13.5t-5-13.5L486-500q18-20 26-46.5t8-53.5q0-60-38.5-104.5T386-758l74 74q12 12 12 28t-12 28L332-500q-12 12-28 12t-28-12l-74-74q9 57 53.5 95.5T360-440Zm109-51Z'), to('calculate', 'M320-320v50q0 13 8.5 21.5T350-240q13 0 21.5-8.5T380-270v-50h50q13 0 21.5-8.5T460-350q0-13-8.5-21.5T430-380h-50v-50q0-13-8.5-21.5T350-460q-13 0-21.5 8.5T320-430v50h-50q-13 0-21.5 8.5T240-350q0 13 8.5 21.5T270-320h50Zm230 50h140q13 0 21.5-8.5T720-300q0-13-8.5-21.5T690-330H550q-13 0-21.5 8.5T520-300q0 13 8.5 21.5T550-270Zm0-100h140q13 0 21.5-8.5T720-400q0-13-8.5-21.5T690-430H550q-13 0-21.5 8.5T520-400q0 13 8.5 21.5T550-370Zm70-208 35 35q9 9 21 9t21-9q8-8 8.5-20.5T698-585l-36-37 35-35q9-9 9-21t-9-21q-9-9-21-9t-21 9l-35 35-35-35q-9-9-21-9t-21 9q-9 9-9 21t9 21l35 35-36 37q-8 9-8 21t9 21q9 9 21 9t21-9l35-35Zm-340-14h140q13 0 21.5-8.5T450-622q0-13-8.5-21.5T420-652H280q-13 0-21.5 8.5T250-622q0 13 8.5 21.5T280-592Zm-80 472q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z'), to('calendar_month', 'M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Zm280 240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z'), to('cancel', 'm480-424 116 116q11 11 28 11t28-11q11-11 11-28t-11-28L536-480l116-116q11-11 11-28t-11-28q-11-11-28-11t-28 11L480-536 364-652q-11-11-28-11t-28 11q-11 11-11 28t11 28l116 116-116 116q-11 11-11 28t11 28q11 11 28 11t28-11l116-116Zm0 344q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z'), to('category', 'm297-581 149-243q6-10 15-14.5t19-4.5q10 0 19 4.5t15 14.5l149 243q6 10 6 21t-5 20q-5 9-14 14.5t-21 5.5H331q-12 0-21-5.5T296-540q-5-9-5-20t6-21ZM700-80q-75 0-127.5-52.5T520-260q0-75 52.5-127.5T700-440q75 0 127.5 52.5T880-260q0 75-52.5 127.5T700-80Zm-580-60v-240q0-17 11.5-28.5T160-420h240q17 0 28.5 11.5T440-380v240q0 17-11.5 28.5T400-100H160q-17 0-28.5-11.5T120-140Zm580-20q42 0 71-29t29-71q0-42-29-71t-71-29q-42 0-71 29t-29 71q0 42 29 71t71 29Zm-500-20h160v-160H200v160Zm202-420h156l-78-126-78 126Zm78 0ZM360-340Zm340 80Z'), to('celebration', 'm212-212 282-100-182-182-100 282Zm709-467q-9 9-21 9t-21-9l-3-3q-14-14-35-14t-35 14L603-479q-9 9-21 9t-21-9q-9-9-9-21t9-21l203-203q32-32 77-32t77 32l3 3q9 9 9 21t-9 21ZM399-799q9-9 21-9t21 9l5 5q32 32 32 76t-32 76l-3 3q-9 9-21 9t-21-9q-9-9-9-21t9-21l3-3q14-14 14-34t-14-34l-5-5q-9-9-9-21t9-21Zm162-80q9-9 21-9t21 9l43 43q32 32 32 77t-32 77L523-559q-9 9-21 9t-21-9q-9-9-9-21t9-21l123-123q14-14 14-35t-14-35l-43-43q-9-9-9-21t9-21Zm320 480q-9 9-21 9t-21-9l-43-43q-14-14-35-14t-35 14l-43 43q-9 9-21 9t-21-9q-9-9-9-21t9-21l43-43q32-32 77-32t77 32l43 43q9 9 9 21t-9 21ZM212-212Zm-104 52 151-420q5-13 15.5-20t22.5-7q8 0 15 3t13 9l270 270q6 6 9 13t3 15q0 12-7 22.5T580-259L160-108q-12 5-23 1.5T118-118q-8-8-11.5-19t1.5-23Z'), to('check', 'm382-354 339-339q12-12 28-12t28 12q12 12 12 28.5T777-636L410-268q-12 12-28 12t-28-12L182-440q-12-12-11.5-28.5T183-497q12-12 28.5-12t28.5 12l142 143Z'), to('check_box', 'm424-424-86-86q-11-11-28-11t-28 11q-11 11-11 28t11 28l114 114q12 12 28 12t28-12l226-226q11-11 11-28t-11-28q-11-11-28-11t-28 11L424-424ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z'), to('check_box_outline_blank', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Z'), to('check_circle', 'm424-408-86-86q-11-11-28-11t-28 11q-11 11-11 28t11 28l114 114q12 12 28 12t28-12l226-226q11-11 11-28t-11-28q-11-11-28-11t-28 11L424-408Zm56 328q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z'), to('chevron_left', 'm432-480 156 156q11 11 11 28t-11 28q-11 11-28 11t-28-11L348-452q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l184-184q11-11 28-11t28 11q11 11 11 28t-11 28L432-480Z'), to('chevron_right', 'M504-480 348-636q-11-11-11-28t11-28q11-11 28-11t28 11l184 184q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L404-268q-11 11-28 11t-28-11q-11-11-11-28t11-28l156-156Z'), to('circle', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z'), to('cleaning_services', 'M200-40q-33 0-56.5-23.5T120-120v-200q0-83 58.5-141.5T320-520h40v-320q0-33 23.5-56.5T440-920h80q33 0 56.5 23.5T600-840v320h40q83 0 141.5 58.5T840-320v200q0 33-23.5 56.5T760-40H200Zm0-80h80v-120q0-17 11.5-28.5T320-280q17 0 28.5 11.5T360-240v120h80v-120q0-17 11.5-28.5T480-280q17 0 28.5 11.5T520-240v120h80v-120q0-17 11.5-28.5T640-280q17 0 28.5 11.5T680-240v120h80v-200q0-50-35-85t-85-35H320q-50 0-85 35t-35 85v200Zm320-400v-320h-80v320h80Zm0 0h-80 80Z'), to('close', 'M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z'), to('cloud', 'M260-160q-91 0-155.5-63T40-377q0-78 47-139t123-78q25-92 100-149t170-57q117 0 198.5 81.5T760-520q69 8 114.5 59.5T920-340q0 75-52.5 127.5T740-160H260Zm0-80h480q42 0 71-29t29-71q0-42-29-71t-71-29h-60v-80q0-83-58.5-141.5T480-720q-83 0-141.5 58.5T280-520h-20q-58 0-99 41t-41 99q0 58 41 99t99 41Zm220-240Z'), to('compare_arrows', 'M367-320H120q-17 0-28.5-11.5T80-360q0-17 11.5-28.5T120-400h247l-75-75q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l143 143q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L348-188q-12 12-28 11.5T292-189q-11-12-11.5-28t11.5-28l75-75Zm226-240 75 75q11 11 11 27.5T668-429q-12 12-28.5 12T611-429L468-572q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l144-144q12-12 28-11.5t28 12.5q11 12 11.5 28T668-715l-75 75h247q17 0 28.5 11.5T880-600q0 17-11.5 28.5T840-560H593Z'), to('confirmation_number', 'M160-160q-33 0-56.5-23.5T80-240v-135q0-11 7-19t18-10q24-8 39.5-29t15.5-47q0-26-15.5-47T105-556q-11-2-18-10t-7-19v-135q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v135q0 11-7 19t-18 10q-24 8-39.5 29T800-480q0 26 15.5 47t39.5 29q11 2 18 10t7 19v135q0 33-23.5 56.5T800-160H160Zm0-80h640v-102q-37-22-58.5-58.5T720-480q0-43 21.5-79.5T800-618v-102H160v102q37 22 58.5 58.5T240-480q0 43-21.5 79.5T160-342v102Zm320-40q17 0 28.5-11.5T520-320q0-17-11.5-28.5T480-360q-17 0-28.5 11.5T440-320q0 17 11.5 28.5T480-280Zm0-160q17 0 28.5-11.5T520-480q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480q0 17 11.5 28.5T480-440Zm0-160q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 120Z'), to('content_copy', 'M360-240q-33 0-56.5-23.5T280-320v-480q0-33 23.5-56.5T360-880h360q33 0 56.5 23.5T800-800v480q0 33-23.5 56.5T720-240H360Zm0-80h360v-480H360v480ZM200-80q-33 0-56.5-23.5T120-160v-520q0-17 11.5-28.5T160-720q17 0 28.5 11.5T200-680v520h400q17 0 28.5 11.5T640-120q0 17-11.5 28.5T600-80H200Zm160-240v-480 480Z'), to('contrast', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm40-83q119-15 199.5-104.5T800-480q0-123-80.5-212.5T520-797v634Z'), to('cookie', 'M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-81 33.5-157.5t93-134.5Q266-830 348-860t180-18q15 2 23 12.5t9 28.5q2 64 47.5 109.5T716-680q21 1 32 12t12 34q2 42 25.5 69t65.5 41q14 5 21.5 14.5T880-486q2 83-29 157t-85 129.5Q712-144 638-112T480-80Zm0-80q122 0 216.5-84T800-458q-50-22-78.5-60T683-603q-77-11-132-66t-68-132q-80-2-140.5 29t-101 79.5Q201-644 180.5-587T160-480q0 133 93.5 226.5T480-160Zm0-324Zm-60-76q25 0 42.5-17.5T480-620q0-25-17.5-42.5T420-680q-25 0-42.5 17.5T360-620q0 25 17.5 42.5T420-560Zm-80 200q25 0 42.5-17.5T400-420q0-25-17.5-42.5T340-480q-25 0-42.5 17.5T280-420q0 25 17.5 42.5T340-360Zm260 40q17 0 28.5-11.5T640-360q0-17-11.5-28.5T600-400q-17 0-28.5 11.5T560-360q0 17 11.5 28.5T600-320Z'), to('crown', 'M240-160q-17 0-28.5-11.5T200-200q0-17 11.5-28.5T240-240h480q17 0 28.5 11.5T760-200q0 17-11.5 28.5T720-160H240Zm28-140q-29 0-51.5-19T189-367l-40-254q-2 0-4.5.5t-4.5.5q-25 0-42.5-17.5T80-680q0-25 17.5-42.5T140-740q25 0 42.5 17.5T200-680q0 7-1.5 13t-3.5 11l125 56 125-171q-11-8-18-21t-7-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820q0 15-7 28t-18 21l125 171 125-56q-2-5-3.5-11t-1.5-13q0-25 17.5-42.5T820-740q25 0 42.5 17.5T880-680q0 25-17.5 42.5T820-620q-2 0-4.5-.5t-4.5-.5l-40 254q-5 29-27.5 48T692-300H268Zm0-80h424l26-167-46 20q-26 11-53 4t-44-30l-95-131-95 131q-17 23-44 30t-53-4l-46-20 26 167Zm212 0Z'), to('delete', 'M280-120q-33 0-56.5-23.5T200-200v-520q-17 0-28.5-11.5T160-760q0-17 11.5-28.5T200-800h160q0-17 11.5-28.5T400-840h160q17 0 28.5 11.5T600-800h160q17 0 28.5 11.5T800-760q0 17-11.5 28.5T760-720v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM400-280q17 0 28.5-11.5T440-320v-280q0-17-11.5-28.5T400-640q-17 0-28.5 11.5T360-600v280q0 17 11.5 28.5T400-280Zm160 0q17 0 28.5-11.5T600-320v-280q0-17-11.5-28.5T560-640q-17 0-28.5 11.5T520-600v280q0 17 11.5 28.5T560-280ZM280-720v520-520Z'), to('diamond', 'M480-165q-17 0-33-7.5T419-194L113-560q-9-11-13.5-24T95-611q0-9 1.5-18.5T103-647l75-149q11-20 29.5-32t41.5-12h462q23 0 41.5 12t29.5 32l75 149q5 8 6.5 17.5T865-611q0 14-4.5 27T847-560L541-194q-12 14-28 21.5t-33 7.5Zm-95-475h190l-60-120h-70l-60 120Zm55 347v-267H218l222 267Zm80 0 222-267H520v267Zm144-347h106l-60-120H604l60 120Zm-474 0h106l60-120H250l-60 120Z'), to('download', 'M480-337q-8 0-15-2.5t-13-8.5L308-492q-12-12-11.5-28t11.5-28q12-12 28.5-12.5T365-549l75 75v-286q0-17 11.5-28.5T480-800q17 0 28.5 11.5T520-760v286l75-75q12-12 28.5-11.5T652-548q11 12 11.5 28T652-492L508-348q-6 6-13 8.5t-15 2.5ZM240-160q-33 0-56.5-23.5T160-240v-80q0-17 11.5-28.5T200-360q17 0 28.5 11.5T240-320v80h480v-80q0-17 11.5-28.5T760-360q17 0 28.5 11.5T800-320v80q0 33-23.5 56.5T720-160H240Z'), to('edit', 'M200-200h57l391-391-57-57-391 391v57Zm-40 80q-17 0-28.5-11.5T120-160v-97q0-16 6-30.5t17-25.5l505-504q12-11 26.5-17t30.5-6q16 0 31 6t26 18l55 56q12 11 17.5 26t5.5 30q0 16-5.5 30.5T817-647L313-143q-11 11-25.5 17t-30.5 6h-97Zm600-584-56-56 56 56Zm-141 85-28-29 57 57-29-28Z'), to('egg', 'M480-120q-117 0-198.5-81.5T200-400q0-77 25.5-155t66-141.5Q332-760 382-800t98-40q49 0 98.5 40t90 103.5Q709-633 734.5-555T760-400q0 117-81.5 198.5T480-120Zm0-80q83 0 141.5-58.5T680-400q0-57-19.5-120t-49-116.5Q582-690 547-725t-67-35q-31 0-66.5 35t-65 88.5Q319-583 299.5-520T280-400q0 83 58.5 141.5T480-200Zm40-40q17 0 28.5-11.5T560-280q0-17-11.5-28.5T520-320q-50 0-85-35t-35-85q0-17-11.5-28.5T360-480q-17 0-28.5 11.5T320-440q0 83 58.5 141.5T520-240Zm-40-240Z'), to('event', 'M580-240q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z'), to('expand_less', 'M480-529 324-373q-11 11-28 11t-28-11q-11-11-11-28t11-28l184-184q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l184 184q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-529Z'), to('expand_more', 'M480-362q-8 0-15-2.5t-13-8.5L268-557q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-373q-6 6-13 8.5t-15 2.5Z'), to('favorite', 'M480-147q-14 0-28.5-5T426-168l-69-63q-106-97-191.5-192.5T80-634q0-94 63-157t157-63q53 0 100 22.5t80 61.5q33-39 80-61.5T660-854q94 0 157 63t63 157q0 115-85 211T602-230l-68 62q-11 11-25.5 16t-28.5 5Zm-38-543q-29-41-62-62.5T300-774q-60 0-100 40t-40 100q0 52 37 110.5T285.5-410q51.5 55 106 103t88.5 79q34-31 88.5-79t106-103Q726-465 763-523.5T800-634q0-60-40-100t-100-40q-47 0-80 21.5T518-690q-7 10-17 15t-21 5q-11 0-21-5t-17-15Zm38 189Z'), to('female', 'M440-200h-40q-17 0-28.5-11.5T360-240q0-17 11.5-28.5T400-280h40v-84q-79-14-129.5-75.5T260-582q0-91 64.5-154.5T480-800q91 0 155.5 63.5T700-582q0 81-50.5 142.5T520-364v84h40q17 0 28.5 11.5T600-240q0 17-11.5 28.5T560-200h-40v40q0 17-11.5 28.5T480-120q-17 0-28.5-11.5T440-160v-40Zm40-240q58 0 99-41t41-99q0-58-41-99t-99-41q-58 0-99 41t-41 99q0 58 41 99t99 41Z'), to('fiber_manual_record', 'M480-480Zm0 280q-116 0-198-82t-82-198q0-116 82-198t198-82q116 0 198 82t82 198q0 116-82 198t-198 82Zm0-80q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Z'), to('fiber_new', 'M120-160q-33 0-56.5-23.5T40-240v-480q0-33 23.5-56.5T120-800h720q33 0 56.5 23.5T920-720v480q0 33-23.5 56.5T840-160H120Zm0-80h720v-480H120v480Zm70-260 95 130q3 5 8 7.5t11 2.5h12q10 0 17-7t7-17v-191q0-11-7-18t-18-7q-11 0-18 7t-7 18v115l-93-130q-4-5-9-7.5t-11-2.5h-12q-11 0-18 7t-7 18v190q0 11 7 18t18 7q11 0 18-7t7-18v-115Zm210 140h115q11 0 18-7t7-18q0-11-7-18t-18-7h-75v-44h75q11 0 18-7t7-18q0-11-7-18t-18-7h-75v-46h75q11 0 18-7t7-18q0-11-7-18t-18-7H400q-8 0-14 6t-6 14v200q0 8 6 14t14 6Zm220 0h160q17 0 28.5-11.5T820-400v-175q0-11-7-18t-18-7q-11 0-18 7t-7 18v155h-44v-115q0-11-7-18t-18-7q-11 0-18 7t-7 18v115h-46v-155q0-11-7-18t-18-7q-11 0-18 7t-7 18v175q0 17 11.5 28.5T620-360ZM120-240v-480 480Z'), to('filter_list', 'M440-240q-17 0-28.5-11.5T400-280q0-17 11.5-28.5T440-320h80q17 0 28.5 11.5T560-280q0 17-11.5 28.5T520-240h-80ZM280-440q-17 0-28.5-11.5T240-480q0-17 11.5-28.5T280-520h400q17 0 28.5 11.5T720-480q0 17-11.5 28.5T680-440H280ZM160-640q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z'), to('flare', 'M280-480q0 17-11.5 28.5T240-440H80q-17 0-28.5-11.5T40-480q0-17 11.5-28.5T80-520h160q17 0 28.5 11.5T280-480Zm58-142q-11 11-28 11t-28-11l-28-28q-11-11-11-28t11-28q11-11 28-11t28 11l28 28q11 11 11 28t-11 28Zm102-98v-160q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v160q0 17-11.5 28.5T480-680q-17 0-28.5-11.5T440-720Zm182 98q-11-11-11-28t11-28l28-28q11-11 28-11t28 11q11 11 11 28t-11 28l-28 28q-11 11-28 11t-28-11Zm58 142q0-17 11.5-28.5T720-520h160q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440H720q-17 0-28.5-11.5T680-480ZM480-360q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm142 22q11-11 28-11t28 11l28 28q11 11 11 28t-11 28q-11 11-28 11t-28-11l-28-28q-11-11-11-28t11-28Zm-284 0q11 11 11 28t-11 28l-28 28q-11 11-28 11t-28-11q-11-11-11-28t11-28l28-28q11-11 28-11t28 11Zm142 58q17 0 28.5 11.5T520-240v160q0 17-11.5 28.5T480-40q-17 0-28.5-11.5T440-80v-160q0-17 11.5-28.5T480-280Z'), to('foggy', 'M720-200q-17 0-28.5-11.5T680-240q0-17 11.5-28.5T720-280q17 0 28.5 11.5T760-240q0 17-11.5 28.5T720-200ZM280-80q-17 0-28.5-11.5T240-120q0-17 11.5-28.5T280-160q17 0 28.5 11.5T320-120q0 17-11.5 28.5T280-80Zm-40-120q-17 0-28.5-11.5T200-240q0-17 11.5-28.5T240-280h360q17 0 28.5 11.5T640-240q0 17-11.5 28.5T600-200H240ZM400-80q-17 0-28.5-11.5T360-120q0-17 11.5-28.5T400-160h280q17 0 28.5 11.5T720-120q0 17-11.5 28.5T680-80H400ZM300-320q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Zm0-80h400q42 0 71-29t29-71q0-42-29-71t-71-29h-60v-40q0-66-47-113t-113-47q-48 0-87.5 26T333-704l-10 24h-25q-57 2-97.5 42.5T160-540q0 58 41 99t99 41Zm180-200Z'), to('forest', 'M280-120v-120H73q-24 0-35-21t2-41l114-178q-23 0-34.5-20.5T122-541l205-292q12-17 33-17t33 17l87 125 87-125q12-17 33-17t33 17l205 292q14 20 2.5 40.5T806-480l114 178q13 20 2 41t-35 21H680v120q0 17-11.5 28.5T640-80h-80q-17 0-28.5-11.5T520-120v-120h-80v120q0 17-11.5 28.5T400-80h-80q-17 0-28.5-11.5T280-120Zm389-200h145L659-560h67L600-740l-71 101 69 98q14 20 2.5 40.5T566-480l103 160Zm-523 0h428L419-560h67L360-740 234-560h67L146-320Zm0 0h155-67 252-67 155-428Zm523 0H566h74-111 197-67 155-145Zm-149 80h160-160Zm201 0Z'), to('format_list_bulleted', 'M400-200q-17 0-28.5-11.5T360-240q0-17 11.5-28.5T400-280h400q17 0 28.5 11.5T840-240q0 17-11.5 28.5T800-200H400Zm0-240q-17 0-28.5-11.5T360-480q0-17 11.5-28.5T400-520h400q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H400Zm0-240q-17 0-28.5-11.5T360-720q0-17 11.5-28.5T400-760h400q17 0 28.5 11.5T840-720q0 17-11.5 28.5T800-680H400ZM200-160q-33 0-56.5-23.5T120-240q0-33 23.5-56.5T200-320q33 0 56.5 23.5T280-240q0 33-23.5 56.5T200-160Zm0-240q-33 0-56.5-23.5T120-480q0-33 23.5-56.5T200-560q33 0 56.5 23.5T280-480q0 33-23.5 56.5T200-400Zm0-240q-33 0-56.5-23.5T120-720q0-33 23.5-56.5T200-800q33 0 56.5 23.5T280-720q0 33-23.5 56.5T200-640Z'), to('grid_view', 'M200-520q-33 0-56.5-23.5T120-600v-160q0-33 23.5-56.5T200-840h160q33 0 56.5 23.5T440-760v160q0 33-23.5 56.5T360-520H200Zm0 400q-33 0-56.5-23.5T120-200v-160q0-33 23.5-56.5T200-440h160q33 0 56.5 23.5T440-360v160q0 33-23.5 56.5T360-120H200Zm400-400q-33 0-56.5-23.5T520-600v-160q0-33 23.5-56.5T600-840h160q33 0 56.5 23.5T840-760v160q0 33-23.5 56.5T760-520H600Zm0 400q-33 0-56.5-23.5T520-200v-160q0-33 23.5-56.5T600-440h160q33 0 56.5 23.5T840-360v160q0 33-23.5 56.5T760-120H600ZM200-600h160v-160H200v160Zm400 0h160v-160H600v160Zm0 400h160v-160H600v160Zm-400 0h160v-160H200v160Zm400-400Zm0 240Zm-240 0Zm0-240Z'), to('group', 'M40-272q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v32q0 33-23.5 56.5T600-160H120q-33 0-56.5-23.5T40-240v-32Zm800 112H738q11-18 16.5-38.5T760-240v-40q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v40q0 33-23.5 56.5T840-160ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113ZM120-240h480v-32q0-11-5.5-20T580-306q-54-27-109-40.5T360-360q-56 0-111 13.5T140-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T440-640q0-33-23.5-56.5T360-720q-33 0-56.5 23.5T280-640q0 33 23.5 56.5T360-560Zm0 320Zm0-400Z'), to('handshake', 'M475-160q4 0 8-2t6-4l328-328q12-12 17.5-27t5.5-30q0-16-5.5-30.5T817-607L647-777q-11-12-25.5-17.5T591-800q-15 0-30 5.5T534-777l-11 11 74 75q15 14 22 32t7 38q0 42-28.5 70.5T527-522q-20 0-38.5-7T456-550l-75-74-175 175q-3 3-4.5 6.5T200-435q0 8 6 14.5t14 6.5q4 0 8-2t6-4l108-108q11-11 27.5-11.5T398-528q11 11 11 28t-11 28L291-364q-3 3-4.5 6.5T285-350q0 8 6 14t14 6q4 0 8-2t6-4l108-107q11-11 27.5-11.5T483-443q11 11 11 28t-11 28L376-279q-3 2-4.5 6t-1.5 8q0 8 6 14t14 6q4 0 7.5-1.5t6.5-4.5l108-107q11-11 27.5-11.5T568-358q11 11 11 28t-11 28L460-194q-3 3-4.5 6.5T454-180q0 8 6.5 14t14.5 6Zm-1 80q-37 0-65.5-24.5T375-166q-34-5-57-28t-28-57q-34-5-56.5-28.5T206-336q-38-5-62-33t-24-66q0-20 7.5-38.5T149-506l175-175q23-23 56.5-23t56.5 23l75 75q2 3 6 4.5t8 1.5q9 0 15-5.5t6-14.5q0-4-1.5-8t-4.5-6L398-777q-11-12-25.5-17.5T342-800q-15 0-30 5.5T285-777L144-635q-14 14-20 33t-3 38q3 17-7 30t-27 15q-17 2-30-7.5T42-553q-6-38 5.5-74.5T87-692l141-141q24-23 53.5-35t60.5-12q31 0 60.5 12t52.5 35l11 11 11-11q24-23 53.5-35t60.5-12q31 0 60.5 12t52.5 35l169 169q23 23 35 53t12 61q0 31-12 60.5T873-437L545-110q-14 14-32.5 22T474-80Zm-98-560Z'), to('healing', 'M480-254 330-104q-23 23-56 23t-56-23L104-218q-23-23-23-56t23-56l150-150-150-150q-23-23-23-56t23-56l114-114q23-23 56-23t56 23l150 150 150-150q23-23 56-23t56 23l114 114q23 23 23 56t-23 56L706-480l150 150q23 23 23 56t-23 56L742-104q-23 23-56 23t-56-23L480-254Zm0-266q17 0 28.5-11.5T520-560q0-17-11.5-28.5T480-600q-17 0-28.5 11.5T440-560q0 17 11.5 28.5T480-520Zm-170-16 114-114-150-150-114 114 150 150Zm90 96q17 0 28.5-11.5T440-480q0-17-11.5-28.5T400-520q-17 0-28.5 11.5T360-480q0 17 11.5 28.5T400-440Zm80 80q17 0 28.5-11.5T520-400q0-17-11.5-28.5T480-440q-17 0-28.5 11.5T440-400q0 17 11.5 28.5T480-360Zm80-80q17 0 28.5-11.5T600-480q0-17-11.5-28.5T560-520q-17 0-28.5 11.5T520-480q0 17 11.5 28.5T560-440Zm-24 130 150 150 114-114-150-150-114 114ZM339-621Zm282 282Z'), to('help', 'M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm2 160q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Zm4-172q25 0 43.5 16t18.5 40q0 22-13.5 39T502-525q-23 20-40.5 44T444-427q0 14 10.5 23.5T479-394q15 0 25.5-10t13.5-25q4-21 18-37.5t30-31.5q23-22 39.5-48t16.5-58q0-51-41.5-83.5T484-720q-38 0-72.5 16T359-655q-7 12-4.5 25.5T368-609q14 8 29 5t25-17q11-15 27.5-23t34.5-8Z'), to('history', 'M480-120q-126 0-223-76.5T131-392q-4-15 6-27.5t27-14.5q16-2 29 6t18 24q24 90 99 147t170 57q117 0 198.5-81.5T760-480q0-117-81.5-198.5T480-760q-69 0-129 32t-101 88h70q17 0 28.5 11.5T360-600q0 17-11.5 28.5T320-560H160q-17 0-28.5-11.5T120-600v-160q0-17 11.5-28.5T160-800q17 0 28.5 11.5T200-760v54q51-64 124.5-99T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-120Zm40-376 100 100q11 11 11 28t-11 28q-11 11-28 11t-28-11L452-452q-6-6-9-13.5t-3-15.5v-159q0-17 11.5-28.5T480-680q17 0 28.5 11.5T520-640v144Z'), to('home', 'M240-200h120v-200q0-17 11.5-28.5T400-440h160q17 0 28.5 11.5T600-400v200h120v-360L480-740 240-560v360Zm-80 0v-360q0-19 8.5-36t23.5-28l240-180q21-16 48-16t48 16l240 180q15 11 23.5 28t8.5 36v360q0 33-23.5 56.5T720-120H560q-17 0-28.5-11.5T520-160v-200h-80v200q0 17-11.5 28.5T400-120H240q-33 0-56.5-23.5T160-200Zm320-270Z'), to('hourglass_top', 'M320-160h320v-120q0-66-47-113t-113-47q-66 0-113 47t-47 113v120ZM200-80q-17 0-28.5-11.5T160-120q0-17 11.5-28.5T200-160h40v-120q0-61 28.5-114.5T348-480q-51-32-79.5-85.5T240-680v-120h-40q-17 0-28.5-11.5T160-840q0-17 11.5-28.5T200-880h560q17 0 28.5 11.5T800-840q0 17-11.5 28.5T760-800h-40v120q0 61-28.5 114.5T612-480q51 32 79.5 85.5T720-280v120h40q17 0 28.5 11.5T800-120q0 17-11.5 28.5T760-80H200Z'), to('info', 'M480-280q17 0 28.5-11.5T520-320v-160q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480v160q0 17 11.5 28.5T480-280Zm0-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z'), to('inventory_2', 'M200-80q-33 0-56.5-23.5T120-160v-451q-18-11-29-28.5T80-680v-120q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v120q0 23-11 40.5T840-611v451q0 33-23.5 56.5T760-80H200Zm0-520v440h560v-440H200Zm-40-80h640v-120H160v120Zm240 280h160q17 0 28.5-11.5T600-440q0-17-11.5-28.5T560-480H400q-17 0-28.5 11.5T360-440q0 17 11.5 28.5T400-400Zm80 20Z'), to('keyboard_arrow_down', 'M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z'), to('leaderboard', 'M160-200h160v-320H160v320Zm240 0h160v-560H400v560Zm240 0h160v-240H640v240Zm-560 0v-320q0-33 23.5-56.5T160-600h160v-160q0-33 23.5-56.5T400-840h160q33 0 56.5 23.5T640-760v240h160q33 0 56.5 23.5T880-440v240q0 33-23.5 56.5T800-120H160q-33 0-56.5-23.5T80-200Z'), to('lightbulb', 'M480-80q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM360-200q-17 0-28.5-11.5T320-240q0-17 11.5-28.5T360-280h240q17 0 28.5 11.5T640-240q0 17-11.5 28.5T600-200H360Zm-30-120q-69-41-109.5-110T180-580q0-125 87.5-212.5T480-880q125 0 212.5 87.5T780-580q0 81-40.5 150T630-320H330Zm24-80h252q45-32 69.5-79T700-580q0-92-64-156t-156-64q-92 0-156 64t-64 156q0 54 24.5 101t69.5 79Zm126 0Z'), to('link', 'M280-280q-83 0-141.5-58.5T80-480q0-83 58.5-141.5T280-680h120q17 0 28.5 11.5T440-640q0 17-11.5 28.5T400-600H280q-50 0-85 35t-35 85q0 50 35 85t85 35h120q17 0 28.5 11.5T440-320q0 17-11.5 28.5T400-280H280Zm80-160q-17 0-28.5-11.5T320-480q0-17 11.5-28.5T360-520h240q17 0 28.5 11.5T640-480q0 17-11.5 28.5T600-440H360Zm200 160q-17 0-28.5-11.5T520-320q0-17 11.5-28.5T560-360h120q50 0 85-35t35-85q0-50-35-85t-85-35H560q-17 0-28.5-11.5T520-640q0-17 11.5-28.5T560-680h120q83 0 141.5 58.5T880-480q0 83-58.5 141.5T680-280H560Z'), to('list', 'M320-600q-17 0-28.5-11.5T280-640q0-17 11.5-28.5T320-680h480q17 0 28.5 11.5T840-640q0 17-11.5 28.5T800-600H320Zm0 160q-17 0-28.5-11.5T280-480q0-17 11.5-28.5T320-520h480q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H320Zm0 160q-17 0-28.5-11.5T280-320q0-17 11.5-28.5T320-360h480q17 0 28.5 11.5T840-320q0 17-11.5 28.5T800-280H320ZM160-600q-17 0-28.5-11.5T120-640q0-17 11.5-28.5T160-680q17 0 28.5 11.5T200-640q0 17-11.5 28.5T160-600Zm0 160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440Zm0 160q-17 0-28.5-11.5T120-320q0-17 11.5-28.5T160-360q17 0 28.5 11.5T200-320q0 17-11.5 28.5T160-280Z'), to('local_activity', 'm480-404 60 46q11 9 24 .5t8-22.5l-24-76 67-52q11-9 6-22.5T602-544h-78l-25-77q-5-14-19-14t-19 14l-25 77h-79q-14 0-18.5 13.5T345-508l65 52-24 77q-5 14 7 22.5t24-.5l63-47ZM160-160q-33 0-56.5-23.5T80-240v-135q0-11 7-19t18-10q24-8 39.5-29t15.5-47q0-26-15.5-47T105-556q-11-2-18-10t-7-19v-135q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v135q0 11-7 19t-18 10q-24 8-39.5 29T800-480q0 26 15.5 47t39.5 29q11 2 18 10t7 19v135q0 33-23.5 56.5T800-160H160Zm0-80h640v-102q-37-22-58.5-58.5T720-480q0-43 21.5-79.5T800-618v-102H160v102q37 22 58.5 58.5T240-480q0 43-21.5 79.5T160-342v102Zm320-240Z'), to('local_fire_department', 'M480-80q-134 0-227-93t-93-227q0-113 67-217t184-182q22-15 45.5-1.5T480-760v52q0 34 23.5 57t57.5 23q17 0 32.5-7.5T621-657q8-10 20.5-12.5T665-664q63 45 99 115t36 149q0 134-93 227T480-80ZM240-400q0 52 21 98.5t60 81.5q-1-5-1-9v-9q0-32 12-60t35-51l113-111 113 111q23 23 35 51t12 60v9q0 4-1 9 39-35 60-81.5t21-98.5q0-50-18.5-94.5T648-574q-20 13-42 19.5t-45 6.5q-62 0-107.5-41T401-690q-78 66-119.5 140.5T240-400Zm240 52-57 56q-11 11-17 25t-6 29q0 32 23.5 55t56.5 23q33 0 56.5-23t23.5-55q0-16-6-29.5T537-292l-57-56Z'), to('local_florist', 'M480-81q0-126 76-223t193-126q19-5 37.5-3.5T819-418q12 13 13.5 31t-3.5 35q-28 118-125.5 194.5T480-81Zm98-97q57-21 100-64t64-100q-57 21-100 64t-64 100Zm-98 98q0-126-76-223T211-429q-19-5-37.5-3.5T141-417q-12 13-13.5 31t3.5 35q28 118 125.5 194.5T480-80Zm-98-98q-57-21-100-64t-64-100q57 21 100 64t64 100Zm196 0Zm-196 0Zm98-422q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 240q-39 0-70.5-21.5T364-438q-5 0-9 .5t-9 .5q-52 0-89-37t-37-89q0-21 7-40.5t21-36.5q-13-17-20-36.5t-7-40.5q0-52 36.5-89t88.5-37q5 0 9 .5t9 .5q14-35 45.5-56.5T480-920q39 0 70.5 21.5T596-842q5 0 9-.5t9-.5q52 0 88.5 37t36.5 89q0 21-6.5 40.5T712-640q13 17 20 36.5t7 40.5q0 52-36.5 89T614-437q-5 0-9-.5t-9-.5q-14 35-45.5 56.5T480-360Zm134-157q19 0 32.5-13.5T660-563q0-14-7.5-24.5T633-604l-35-17q-2 11-6 21.5t-9 19.5q-5 9-12 17t-15 15l32 23q5 4 11.5 6t14.5 2Zm-16-142 35-17q12-6 19-17t7-24q0-19-13-32.5T614-763q-8 0-14 2t-12 6l-33 23q8 7 15.5 15t12.5 17q5 9 9 19.5t6 21.5Zm-159-93q10-4 20-6t21-2q11 0 21 2t20 6l5-44q2-18-12.5-31T480-840q-19 0-33.5 13T434-796l5 44Zm41 312q19 0 33.5-13t12.5-31l-5-44q-10 4-20 6t-21 2q-11 0-21-2t-20-6l-5 44q-2 18 12.5 31t33.5 13ZM362-659q2-11 6-21.5t9-19.5q5-9 12-17t15-15l-32-23q-5-4-11.5-6t-14.5-2q-19 0-32.5 13.5T300-717q0 13 7.5 24t19.5 17l35 17Zm-16 141q8 0 14-1.5t12-6.5l33-22q-8-7-15.5-15T377-580q-5-9-9-19.5t-6-21.5l-35 17q-12 6-19 17t-7 24q1 19 13.5 32t31.5 13Zm237-62Zm0-120Zm-103-60Zm0 240ZM377-700Zm0 120Z'), to('location_on', 'M480-186q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 79q-14 0-28-5t-25-15q-65-60-115-117t-83.5-110.5q-33.5-53.5-51-103T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 45-17.5 94.5t-51 103Q698-301 648-244T533-127q-11 10-25 15t-28 5Zm0-453Zm0 80q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Z'), to('male', 'M800-760v160q0 17-11.5 28.5T760-560q-17 0-28.5-11.5T720-600v-63L561-505q19 28 29 59.5t10 65.5q0 92-64 156t-156 64q-92 0-156-64t-64-156q0-92 64-156t156-64q33 0 65 9.5t59 29.5l159-159h-63q-17 0-28.5-11.5T560-760q0-17 11.5-28.5T600-800h160q17 0 28.5 11.5T800-760ZM380-520q-58 0-99 41t-41 99q0 58 41 99t99 41q58 0 99-41t41-99q0-58-41-99t-99-41Z'), to('menu_book', 'M260-320q47 0 91.5 10.5T440-278v-394q-41-24-87-36t-93-12q-36 0-71.5 7T120-692v396q35-12 69.5-18t70.5-6Zm260 42q44-21 88.5-31.5T700-320q36 0 70.5 6t69.5 18v-396q-33-14-68.5-21t-71.5-7q-47 0-93 12t-87 36v394Zm-40 97q-14 0-26.5-3.5T430-194q-39-23-82-34.5T260-240q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q46-24 96-36t102-12q58 0 113.5 15T480-740q51-30 106.5-45T700-800q52 0 102 12t96 36q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-45 0-88 11.5T530-194q-11 6-23.5 9.5T480-181ZM280-494Zm280-115q0-9 6.5-18.5T581-640q29-10 58-15t61-5q20 0 39.5 2.5T778-651q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-600q-26 0-51 5t-48 13q-18 7-29.5-1T560-609Zm0 220q0-9 6.5-18.5T581-420q29-10 58-15t61-5q20 0 39.5 2.5T778-431q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-380q-26 0-51 4.5T601-363q-18 7-29.5-.5T560-389Zm0-110q0-9 6.5-18.5T581-530q29-10 58-15t61-5q20 0 39.5 2.5T778-541q9 2 15.5 10t6.5 18q0 17-11 25t-28 4q-14-3-29.5-4.5T700-490q-26 0-51 5t-48 13q-18 7-29.5-1T560-499Z'), to('more_horiz', 'M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z'), to('movie', 'm160-800 65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h80l65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h80l65 130q7 14 20 22t28 8q30 0 46-25.5t2-52.5l-41-82h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z'), to('newspaper', 'M160-120q-33 0-56.5-23.5T80-200v-616q0-7 6-9.5t11 2.5l50 50 52-53q6-6 14-6t14 6l53 53 53-53q6-6 14-6t14 6l52 53 53-53q6-6 14-6t14 6l53 53 52-53q6-6 14-6t14 6l53 53 53-53q6-6 14-6t14 6l52 53 50-50q5-5 11-2.5t6 9.5v616q0 33-23.5 56.5T800-120H160Zm0-80h280v-240H160v240Zm360 0h280v-80H520v80Zm0-160h280v-80H520v80ZM160-520h640v-120H160v120Z'), to('nights_stay', 'M504-425Zm20 385H420l20-12.5q20-12.5 43.5-28t43.5-28l20-12.5q81-6 149.5-49T805-285q-86-8-163-43.5T504-425q-61-61-97-138t-43-163q-77 43-120.5 118.5T200-444v12l-12 5.5q-12 5.5-26.5 11.5T135-403.5l-12 5.5q-2-11-2.5-23t-.5-23q0-126 76-235t199-145q11-3 20-1t17 8q8 6 11.5 14.5T446-783q-6 85 24.5 163.5T561-481q61 61 137.5 90T860-367q11-1 20.5 3.5T895-351q5 8 7 17t-2 20q-43 125-142 199.5T524-40Zm-284-80h180q25 0 42.5-17.5T480-180q0-25-17-42.5T422-240h-52l-20-48q-14-33-44-52.5T240-360q-50 0-85 34.5T120-240q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T40-240q0-83 58.5-141.5T240-440q60 0 109.5 32.5T423-320q57 2 97 42.5t40 97.5q0 58-41 99t-99 41H240Z'), to('notifications', 'M200-200q-17 0-28.5-11.5T160-240q0-17 11.5-28.5T200-280h40v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h40q17 0 28.5 11.5T800-240q0 17-11.5 28.5T760-200H200Zm280-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z'), to('open_in_new', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h240q17 0 28.5 11.5T480-800q0 17-11.5 28.5T440-760H200v560h560v-240q0-17 11.5-28.5T800-480q17 0 28.5 11.5T840-440v240q0 33-23.5 56.5T760-120H200Zm560-584L416-360q-11 11-28 11t-28-11q-11-11-11-28t11-28l344-344H600q-17 0-28.5-11.5T560-800q0-17 11.5-28.5T600-840h200q17 0 28.5 11.5T840-800v200q0 17-11.5 28.5T800-560q-17 0-28.5-11.5T760-600v-104Z'), to('park', 'M402-240H195q-24 0-36-21t2-41l119-178h-3q-24 0-35.5-21.5T244-543l203-290q6-8 15-12.5t18-4.5q9 0 18 4.5t15 12.5l203 290q14 20 2.5 41.5T683-480h-3l119 178q14 20 2 41t-36 21H558v120q0 17-11.5 28.5T518-80h-76q-17 0-28.5-11.5T402-120v-120Zm-132-80h160-76 252-76 160-420Zm0 0h420L530-560h76L480-740 354-560h76L270-320Z'), to('partly_cloudy_day', 'M480-760q-17 0-28.5-11.5T440-800v-80q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v80q0 17-11.5 28.5T480-760Zm198 82q-11-11-11-28t11-28l56-57q12-12 28.5-12t28.5 12q11 11 11 28t-11 28l-57 57q-11 11-28 11t-28-11Zm122 238q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520h80q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440h-80Zm-66 271-56-57q-11-11-11-28t11-28q11-11 28-11t28 11l57 56q12 12 12 28.5T791-169q-12 12-28.5 12T734-169ZM226-678l-57-57q-11-11-11-28t11-28q12-12 28.5-12t28.5 12l56 57q11 11 11 28t-11 28q-11 11-28 11t-28-11Zm14 478h180q25 0 42.5-17.5T480-260q0-25-17-42.5T421-320h-51l-20-48q-14-33-44-52.5T240-440q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T40-320q0-83 58.5-141.5T240-520q60 0 109.5 32.5T423-400q58 0 97.5 43T560-254q-2 57-42.5 95.5T420-120H240Zm320-134q-5-20-10-39t-10-39q45-19 72.5-59t27.5-89q0-66-47-113t-113-47q-60 0-105 39t-53 99q-20-5-41-9t-41-9q14-88 82.5-144T480-720q100 0 170 70t70 170q0 77-44 138.5T560-254Zm-79-226Z'), to('pause', 'M600-200q-33 0-56.5-23.5T520-280v-400q0-33 23.5-56.5T600-760h80q33 0 56.5 23.5T760-680v400q0 33-23.5 56.5T680-200h-80Zm-320 0q-33 0-56.5-23.5T200-280v-400q0-33 23.5-56.5T280-760h80q33 0 56.5 23.5T440-680v400q0 33-23.5 56.5T360-200h-80Zm320-80h80v-400h-80v400Zm-320 0h80v-400h-80v400Zm0-400v400-400Zm320 0v400-400Z'), to('person', 'M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-240v-32q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v32q0 33-23.5 56.5T720-160H240q-33 0-56.5-23.5T160-240Zm80 0h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z'), to('pets', 'M180-475q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm180-160q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm240 0q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29Zm180 160q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM266-75q-45 0-75.5-34.5T160-191q0-52 35.5-91t70.5-77q29-31 50-67.5t50-68.5q22-26 51-43t63-17q34 0 63 16t51 42q28 32 49.5 69t50.5 69q35 38 70.5 77t35.5 91q0 47-30.5 81.5T694-75q-54 0-107-9t-107-9q-54 0-107 9t-107 9Z'), to('photo_camera', 'M480-260q75 0 127.5-52.5T660-440q0-75-52.5-127.5T480-620q-75 0-127.5 52.5T300-440q0 75 52.5 127.5T480-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM160-120q-33 0-56.5-23.5T80-200v-480q0-33 23.5-56.5T160-760h126l50-54q11-12 26.5-19t32.5-7h170q17 0 32.5 7t26.5 19l50 54h126q33 0 56.5 23.5T880-680v480q0 33-23.5 56.5T800-120H160Zm0-80h640v-480H638l-73-80H395l-73 80H160v480Zm320-240Z'), to('pin_drop', 'M480-301q99-80 149.5-154T680-594q0-56-20.5-95.5t-50.5-64Q579-778 544-789t-64-11q-29 0-64 11t-65 35.5q-30 24.5-50.5 64T280-594q0 65 50.5 139T480-301Zm0 85q-10 0-19.5-3t-17.5-9q-81-63-162-158.5T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 112-81 207.5T517-228q-8 6-17.5 9t-19.5 3Zm0-304q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520ZM240-80q-17 0-28.5-11.5T200-120q0-17 11.5-28.5T240-160h480q17 0 28.5 11.5T760-120q0 17-11.5 28.5T720-80H240Zm240-514Z'), to('play_arrow', 'M320-273v-414q0-17 12-28.5t28-11.5q5 0 10.5 1.5T381-721l326 207q9 6 13.5 15t4.5 19q0 10-4.5 19T707-446L381-239q-5 3-10.5 4.5T360-233q-16 0-28-11.5T320-273Zm80-207Zm0 134 210-134-210-134v268Z'), to('rainy', 'M558-84q-15 8-30.5 2.5T504-102l-60-120q-8-15-2.5-30.5T462-276q15-8 30.5-2.5T516-258l60 120q8 15 2.5 30.5T558-84Zm240 0q-15 8-30.5 2.5T744-102l-60-120q-8-15-2.5-30.5T702-276q15-8 30.5-2.5T756-258l60 120q8 15 2.5 30.5T798-84Zm-480 0q-15 8-30.5 2.5T264-102l-60-120q-8-15-2.5-30.5T222-276q15-8 30.5-2.5T276-258l60 120q8 15 2.5 30.5T318-84Zm-18-236q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Zm0-80h400q42 0 71-29t29-71q0-42-29-71t-71-29h-60v-40q0-66-47-113t-113-47q-48 0-87.5 26T333-704l-10 24h-25q-57 2-97.5 42.5T160-540q0 58 41 99t99 41Zm180-200Z'), to('rate_review', 'M280-400h65q8 0 15.5-3t13.5-9l188-188q9-9 13.5-20.5T580-643q0-11-5-21.5T562-684l-36-38q-9-9-20-13.5t-23-4.5q-11 0-22.5 4.5T440-722L252-534q-6 6-9 13.5t-3 15.5v65q0 17 11.5 28.5T280-400Zm240-243-37-37 37 37ZM300-460v-38l101-101 20 18 18 20-101 101h-38Zm121-121 18 20-38-38 20 18Zm26 181h233q17 0 28.5-11.5T720-440q0-17-11.5-28.5T680-480H527l-80 80ZM240-240l-92 92q-19 19-43.5 8.5T80-177v-623q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240Zm-34-80h594v-480H160v525l46-45Zm-46 0v-480 480Z'), to('redeem', 'M160-280v80h640v-80H160Zm0-440h88q-5-9-6.5-19t-1.5-21q0-50 35-85t85-35q30 0 55.5 15.5T460-826l20 26 20-26q18-24 44-39t56-15q50 0 85 35t35 85q0 11-1.5 21t-6.5 19h88q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720Zm0 320h640v-240H596l60 82q10 14 8 29.5T648-503q-14 10-29.5 7.5T593-511L480-664 367-511q-10 13-25.5 15.5T312-503q-14-10-16.5-25.5T303-558l59-82H160v240Zm200-320q17 0 28.5-11.5T400-760q0-17-11.5-28.5T360-800q-17 0-28.5 11.5T320-760q0 17 11.5 28.5T360-720Zm240 0q17 0 28.5-11.5T640-760q0-17-11.5-28.5T600-800q-17 0-28.5 11.5T560-760q0 17 11.5 28.5T600-720Z'), to('refresh', 'M480-160q-134 0-227-93t-93-227q0-134 93-227t227-93q69 0 132 28.5T720-690v-70q0-17 11.5-28.5T760-800q17 0 28.5 11.5T800-760v200q0 17-11.5 28.5T760-520H560q-17 0-28.5-11.5T520-560q0-17 11.5-28.5T560-600h128q-32-56-87.5-88T480-720q-100 0-170 70t-70 170q0 100 70 170t170 70q68 0 124.5-34.5T692-367q8-14 22.5-19.5t29.5-.5q16 5 23 21t-1 30q-41 80-117 128t-169 48Z'), to('remove', 'M240-440q-17 0-28.5-11.5T200-480q0-17 11.5-28.5T240-520h480q17 0 28.5 11.5T760-480q0 17-11.5 28.5T720-440H240Z'), to('rocket', 'M319-230q-10-29-18.5-59T287-349l-47 32v119l79-32Zm147-535q-48 51-77 134.5T360-455q0 60 11 117.5t29 97.5h160q18-40 29-97.5T600-455q0-92-29-175.5T494-765q-3-3-6.5-4.5T480-771q-4 0-7.5 1.5T466-765Zm14 325q-33 0-56.5-23.5T400-520q0-33 23.5-56.5T480-600q33 0 56.5 23.5T560-520q0 33-23.5 56.5T480-440Zm161 210 79 32v-119l-47-32q-5 30-13.5 60T641-230ZM511-856q84 72 126.5 177T680-440l84 56q17 11 26.5 29t9.5 38v178q0 21-17.5 33t-37.5 4l-144-58H359l-144 58q-20 8-37.5-4T160-139v-178q0-20 9.5-38t26.5-29l84-56q0-134 42.5-239T449-856q7-5 15-8t16-3q8 0 16 3t15 8Z'), to('rocket_launch', 'M284-506q14-28 29-54t33-52l-56-11-84 84 78 33Zm482-275q-70 2-149.5 41T472-636q-42 42-75 90t-49 90l114 113q42-16 90-49t90-75q65-65 104-144t41-149q0-4-1.5-8t-4.5-7q-3-3-7-4.5t-8-1.5ZM546-541q-23-23-23-56.5t23-56.5q23-23 57-23t57 23q23 23 23 56.5T660-541q-23 23-57 23t-57-23Zm-34 262 33 79 84-84-11-56q-26 18-52 32.5T512-279Zm351-534q8 110-36 214.5T688-399l20 99q4 20-2 39t-20 33L560-102q-15 15-36 11.5T495-114l-61-143-171-171-143-61q-20-8-24-29t11-36l126-126q14-14 33.5-20t39.5-2l99 20q95-95 199.5-139T819-857q8 1 16 4.5t14 9.5q6 6 9.5 14t4.5 16ZM157-321q35-35 85.5-35.5T328-322q35 35 34.5 85.5T327-151q-48 48-113.5 57T82-76q9-66 18-131.5T157-321Zm57 56q-17 17-23.5 41T180-175q25-4 49-10t41-23q12-12 13-29t-11-29q-12-12-29-11.5T214-265Z'), to('route', 'M360-120q-66 0-113-47t-47-113v-327q-35-13-57.5-43.5T120-720q0-50 35-85t85-35q50 0 85 35t35 85q0 39-22.5 69.5T280-607v327q0 33 23.5 56.5T360-200q33 0 56.5-23.5T440-280v-400q0-66 47-113t113-47q66 0 113 47t47 113v327q35 13 57.5 43.5T840-240q0 50-35 85t-85 35q-50 0-85-35t-35-85q0-39 22.5-70t57.5-43v-327q0-33-23.5-56.5T600-760q-33 0-56.5 23.5T520-680v400q0 66-47 113t-113 47ZM240-680q17 0 28.5-11.5T280-720q0-17-11.5-28.5T240-760q-17 0-28.5 11.5T200-720q0 17 11.5 28.5T240-680Zm480 480q17 0 28.5-11.5T760-240q0-17-11.5-28.5T720-280q-17 0-28.5 11.5T680-240q0 17 11.5 28.5T720-200ZM240-720Zm480 480Z'), to('save', 'M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h447q16 0 30.5 6t25.5 17l114 114q11 11 17 25.5t6 30.5v447q0 33-23.5 56.5T760-120H200Zm560-526L646-760H200v560h560v-446ZM480-240q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35ZM280-560h280q17 0 28.5-11.5T600-600v-80q0-17-11.5-28.5T560-720H280q-17 0-28.5 11.5T240-680v80q0 17 11.5 28.5T280-560Zm-80-86v446-560 114Z'), to('schedule', 'M520-496v-144q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640v159q0 8 3 15.5t9 13.5l132 132q11 11 28 11t28-11q11-11 11-28t-11-28L520-496ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-400Zm0 320q133 0 226.5-93.5T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160Z'), to('school', 'M242-249q-20-11-31-29.5T200-320v-192l-96-53q-11-6-16-15t-5-20q0-11 5-20t16-15l338-184q9-5 18.5-7.5T480-829q10 0 19.5 2.5T518-819l381 208q10 5 15.5 14.5T920-576v256q0 17-11.5 28.5T880-280q-17 0-28.5-11.5T840-320v-236l-80 44v192q0 23-11 41.5T718-249L518-141q-9 5-18.5 7.5T480-131q-10 0-19.5-2.5T442-141L242-249Zm238-203 274-148-274-148-274 148 274 148Zm0 241 200-108v-151l-161 89q-9 5-19 7.5t-20 2.5q-10 0-20-2.5t-19-7.5l-161-89v151l200 108Zm0-241Zm0 121Zm0 0Z'), to('science', 'M200-120q-51 0-72.5-45.5T138-250l222-270v-240h-40q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0 17-11.5 28.5T640-760h-40v240l222 270q32 39 10.5 84.5T760-120H200Zm0-80h560L520-492v-268h-80v268L200-200Zm280-280Z'), to('search', 'M380-320q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z'), to('sell', 'M856-390 570-104q-12 12-27 18t-30 6q-15 0-30-6t-27-18L103-457q-11-11-17-25.5T80-513v-287q0-33 23.5-56.5T160-880h287q16 0 31 6.5t26 17.5l352 353q12 12 17.5 27t5.5 30q0 15-5.5 29.5T856-390ZM513-160l286-286-353-354H160v286l353 354ZM260-640q25 0 42.5-17.5T320-700q0-25-17.5-42.5T260-760q-25 0-42.5 17.5T200-700q0 25 17.5 42.5T260-640Zm220 160Z'), to('settings', 'M433-80q-27 0-46.5-18T363-142l-9-66q-13-5-24.5-12T307-235l-62 26q-25 11-50 2t-39-32l-47-82q-14-23-8-49t27-43l53-40q-1-7-1-13.5v-27q0-6.5 1-13.5l-53-40q-21-17-27-43t8-49l47-82q14-23 39-32t50 2l62 26q11-8 23-15t24-12l9-66q4-26 23.5-44t46.5-18h94q27 0 46.5 18t23.5 44l9 66q13 5 24.5 12t22.5 15l62-26q25-11 50-2t39 32l47 82q14 23 8 49t-27 43l-53 40q1 7 1 13.5v27q0 6.5-2 13.5l53 40q21 17 27 43t-8 49l-48 82q-14 23-39 32t-50-2l-60-26q-11 8-23 15t-24 12l-9 66q-4 26-23.5 44T527-80h-94Zm7-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z'), to('share', 'M720-80q-50 0-85-35t-35-85q0-7 1-14.5t3-13.5L322-392q-17 15-38 23.5t-44 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q23 0 44 8.5t38 23.5l282-164q-2-6-3-13.5t-1-14.5q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-23 0-44-8.5T638-672L356-508q2 6 3 13.5t1 14.5q0 7-1 14.5t-3 13.5l282 164q17-15 38-23.5t44-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-640q17 0 28.5-11.5T760-760q0-17-11.5-28.5T720-800q-17 0-28.5 11.5T680-760q0 17 11.5 28.5T720-720ZM240-440q17 0 28.5-11.5T280-480q0-17-11.5-28.5T240-520q-17 0-28.5 11.5T200-480q0 17 11.5 28.5T240-440Zm480 280q17 0 28.5-11.5T760-200q0-17-11.5-28.5T720-240q-17 0-28.5 11.5T680-200q0 17 11.5 28.5T720-160Zm0-600ZM240-480Zm480 280Z'), to('shield', 'M480-84q-7 0-13-1t-12-3q-135-45-215-166.5T160-516v-189q0-25 14.5-45t37.5-29l240-90q14-5 28-5t28 5l240 90q23 9 37.5 29t14.5 45v189q0 140-80 261.5T505-88q-6 2-12 3t-13 1Zm0-80q104-33 172-132t68-220v-189l-240-90-240 90v189q0 121 68 220t172 132Zm0-316Z'), to('skull', 'M240-80v-170q-39-17-68.5-45.5t-50-64.5q-20.5-36-31-77T80-520q0-158 112-259t288-101q176 0 288 101t112 259q0 42-10.5 83t-31 77q-20.5 36-50 64.5T720-250v170H240Zm80-80h40v-80h80v80h80v-80h80v80h40v-142q38-9 67.5-30t50-50q20.5-29 31.5-64t11-74q0-125-88.5-202.5T480-800q-143 0-231.5 77.5T160-520q0 39 11 74t31.5 64q20.5 29 50.5 50t67 30v142Zm100-200h120l-60-120-60 120Zm-80-80q33 0 56.5-23.5T420-520q0-33-23.5-56.5T340-600q-33 0-56.5 23.5T260-520q0 33 23.5 56.5T340-440Zm280 0q33 0 56.5-23.5T700-520q0-33-23.5-56.5T620-600q-33 0-56.5 23.5T540-520q0 33 23.5 56.5T620-440ZM480-160Z'), to('speed', 'M418-340q24 24 62 23.5t56-27.5l169-253q9-14-2.5-25.5T677-625L424-456q-27 18-28.5 55t22.5 61Zm62-460q36 0 71 6t68 19q16 6 34 22.5t10 31.5q-8 15-36 20t-45-1q-25-9-50.5-13.5T480-720q-133 0-226.5 93.5T160-400q0 42 11.5 83t32.5 77h552q23-38 33.5-79t10.5-85q0-26-4.5-51T782-504q-6-17-2-33t18-27q13-10 28.5-6t21.5 18q15 35 23 71.5t9 74.5q1 57-13 109t-41 99q-11 18-30 28t-40 10H204q-21 0-40-10t-30-28q-26-45-40-95.5T80-400q0-83 31.5-155.5t86-127Q252-737 325-768.5T480-800Zm7 313Z'), to('sports_baseball', 'M224-288q45-35 70.5-85T320-480q0-57-25.5-107T224-672q-31 42-47.5 91T160-480q0 52 16.5 101t47.5 91Zm256 128q55 0 106.5-17.5T680-230q-57-46-88.5-111.5T560-480q0-73 31.5-138.5T680-730q-42-35-93.5-52.5T480-800q-55 0-106.5 17.5T280-730q57 46 88.5 111.5T400-480q0 73-31.5 138.5T280-230q42 35 93.5 52.5T480-160Zm256-128q31-42 47.5-91T800-480q0-52-16.5-101T736-672q-45 35-70.5 85T640-480q0 57 25.5 107t70.5 85ZM480-480Zm0 400q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z'), to('star', 'm354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143Zm126 18L314-169q-11 7-23 6t-21-8q-9-7-14-17.5t-2-23.5l44-189-147-127q-10-9-12.5-20.5T140-571q4-11 12-18t22-9l194-17 75-178q5-12 15.5-18t21.5-6q11 0 21.5 6t15.5 18l75 178 194 17q14 2 22 9t12 18q4 11 1.5 22.5T809-528L662-401l44 189q3 13-2 23.5T690-171q-9 7-21 8t-23-6L480-269Zm0-201Z'), to('stop', 'M240-320v-320q0-33 23.5-56.5T320-720h320q33 0 56.5 23.5T720-640v320q0 33-23.5 56.5T640-240H320q-33 0-56.5-23.5T240-320Zm80 0h320v-320H320v320Zm160-160Z'), to('sunny', 'M480-760q-17 0-28.5-11.5T440-800v-80q0-17 11.5-28.5T480-920q17 0 28.5 11.5T520-880v80q0 17-11.5 28.5T480-760Zm198 82q-11-11-11-27.5t11-28.5l56-57q12-12 28.5-12t28.5 12q11 11 11 28t-11 28l-57 57q-11 11-28 11t-28-11Zm122 238q-17 0-28.5-11.5T760-480q0-17 11.5-28.5T800-520h80q17 0 28.5 11.5T920-480q0 17-11.5 28.5T880-440h-80ZM480-40q-17 0-28.5-11.5T440-80v-80q0-17 11.5-28.5T480-200q17 0 28.5 11.5T520-160v80q0 17-11.5 28.5T480-40ZM226-678l-57-56q-12-12-12-29t12-28q11-11 28-11t28 11l57 57q11 11 11 28t-11 28q-12 11-28 11t-28-11Zm508 509-56-57q-11-12-11-28.5t11-27.5q11-11 27.5-11t28.5 11l57 56q12 11 11.5 28T791-169q-12 12-29 12t-28-12ZM80-440q-17 0-28.5-11.5T40-480q0-17 11.5-28.5T80-520h80q17 0 28.5 11.5T200-480q0 17-11.5 28.5T160-440H80Zm89 271q-11-11-11-28t11-28l57-57q11-11 27.5-11t28.5 11q12 12 12 28.5T282-225l-56 56q-12 12-29 12t-28-12Zm311-71q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-160Z'), to('swap_horiz', 'm233-320 75 75q11 11 11 27.5T308-189q-12 12-28.5 12T251-189L108-332q-6-6-8.5-13T97-360q0-8 2.5-15t8.5-13l144-144q12-12 28-11.5t28 12.5q11 12 11.5 28T308-475l-75 75h247q17 0 28.5 11.5T520-360q0 17-11.5 28.5T480-320H233Zm494-240H480q-17 0-28.5-11.5T440-600q0-17 11.5-28.5T480-640h247l-75-75q-11-11-11-27.5t11-28.5q12-12 28.5-12t28.5 12l143 143q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13L708-428q-12 12-28 11.5T652-429q-11-12-11.5-28t11.5-28l75-75Z'), to('swords', 'M762-96 645-212l-60 60q-11 11-28 11t-28-11q-23-23-23-57t23-57l169-169q23-23 57-23t57 23q11 11 11 28t-11 28l-60 60 116 117q12 12 12 28t-12 28l-50 50q-12 12-28 12t-28-12Zm106-616L426-270l5 4q23 23 23 57t-23 57q-11 11-28 11t-28-11l-60-60L198-96q-12 12-28 12t-28-12l-50-50q-12-12-12-28t12-28l116-117-60-60q-11-11-11-28t11-28q23-23 57-23t57 23l4 5 431-431q11-11 25.5-17t30.5-6h87q17 0 28.5 11.5T880-844v103q0 8-3 15.5t-9 13.5ZM334-583l24-23 23-24-23 24-24 23Zm-85 28L103-701q-11-11-17-25.5T80-757v-87q0-17 11.5-28.5T120-884h87q16 0 30.5 6t25.5 17l147 147q12 12 11.5 28T409-658q-12 11-28 11.5T353-658L207-804h-47v47l146 146q11 11 11 27.5T306-555q-12 12-28.5 12T249-555Zm121 228 430-430v-47h-47L323-374l47 47Zm0 0-24-23-23-24 23 24 24 23Z'), to('sync', 'M240-478q0 45 17 87.5t53 78.5l10 10v-58q0-17 11.5-28.5T360-400q17 0 28.5 11.5T400-360v160q0 17-11.5 28.5T360-160H200q-17 0-28.5-11.5T160-200q0-17 11.5-28.5T200-240h70l-16-14q-52-46-73-105t-21-119q0-94 48-170.5T337-766q14-8 29.5-1t20.5 23q5 15-.5 30T367-691q-58 32-92.5 88.5T240-478Zm480-4q0-45-17-87.5T650-648l-10-10v58q0 17-11.5 28.5T600-560q-17 0-28.5-11.5T560-600v-160q0-17 11.5-28.5T600-800h160q17 0 28.5 11.5T800-760q0 17-11.5 28.5T760-720h-70l16 14q49 49 71.5 106.5T800-482q0 94-48 170.5T623-194q-14 8-29.5 1T573-216q-5-15 .5-30t19.5-23q58-32 92.5-88.5T720-482Z'), to('thumb_down', 'M120-320q-32 0-56-24t-24-56v-80q0-7 2-15t4-15l120-282q9-20 30-34t44-14h440v520L440-82q-15 15-35.5 17.5T365-72q-19-10-28-28t-4-37l45-183H120Zm480-34v-406H240L120-480v80h360l-54 220 174-174Zm200-486q33 0 56.5 23.5T880-760v360q0 33-23.5 56.5T800-320H680v-80h120v-360H680v-80h120Zm-200 80v406-406Z'), to('thumb_up', 'M840-640q32 0 56 24t24 56v80q0 7-2 15t-4 15L794-168q-9 20-30 34t-44 14H280v-520l240-238q15-15 35.5-17.5T595-888q19 10 28 28t4 37l-45 183h258Zm-480 34v406h360l120-280v-80H480l54-220-174 174ZM160-120q-33 0-56.5-23.5T80-200v-360q0-33 23.5-56.5T160-640h120v80H160v360h120v80H160Zm200-80v-406 406Z'), to('thunderstorm', 'm520-66 36-41-34-17q-17-9-21-28t9-34l70-80q5-7 13.5-10.5T610-280q26 0 36.5 23t-6.5 43l-36 41 34 17q17 9 21 28t-9 34l-70 80q-5 7-13.5 10.5T550 0q-26 0-36.5-23t6.5-43Zm-240 0 36-41-34-17q-17-9-21-28t9-34l70-80q5-7 13.5-10.5T370-280q26 0 36.5 23t-6.5 43l-36 41 34 17q17 9 21 28t-9 34l-70 80q-5 7-13.5 10.5T310 0q-26 0-36.5-23t6.5-43Zm20-254q-91 0-155.5-64.5T80-540q0-83 55-145t136-73q32-57 87.5-89.5T480-880q90 0 156.5 57.5T717-679q69 6 116 57t47 122q0 75-52.5 127.5T700-320H300Zm0-80h400q42 0 71-29t29-71q0-42-29-71t-71-29h-60v-40q0-66-47-113t-113-47q-48 0-87.5 26T333-704l-10 24h-25q-57 2-97.5 42.5T160-540q0 58 41 99t99 41Zm180-200Z'), to('timer', 'M400-840q-17 0-28.5-11.5T360-880q0-17 11.5-28.5T400-920h160q17 0 28.5 11.5T600-880q0 17-11.5 28.5T560-840H400Zm80 440q17 0 28.5-11.5T520-440v-160q0-17-11.5-28.5T480-640q-17 0-28.5 11.5T440-600v160q0 17 11.5 28.5T480-400Zm0 320q-74 0-139.5-28.5T226-186q-49-49-77.5-114.5T120-440q0-74 28.5-139.5T226-694q49-49 114.5-77.5T480-800q62 0 119 20t107 58l28-28q11-11 28-11t28 11q11 11 11 28t-11 28l-28 28q38 50 58 107t20 119q0 74-28.5 139.5T734-186q-49 49-114.5 77.5T480-80Zm0-80q116 0 198-82t82-198q0-116-82-198t-198-82q-116 0-198 82t-82 198q0 116 82 198t198 82Zm0-280Z'), to('today', 'M360-300q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-40q0-17 11.5-28.5T280-880q17 0 28.5 11.5T320-840v40h320v-40q0-17 11.5-28.5T680-880q17 0 28.5 11.5T720-840v40h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z'), to('trending_up', 'M108-255q-12-12-11.5-28.5T108-311l211-214q23-23 57-23t57 23l103 104 208-206h-64q-17 0-28.5-11.5T640-667q0-17 11.5-28.5T680-707h160q17 0 28.5 11.5T880-667v160q0 17-11.5 28.5T840-467q-17 0-28.5-11.5T800-507v-64L593-364q-23 23-57 23t-57-23L376-467 164-255q-11 11-28 11t-28-11Z'), to('trophy', 'M440-200v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80q0-33 23.5-56.5T360-840h240q33 0 56.5 23.5T680-760h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h120q17 0 28.5 11.5T680-160q0 17-11.5 28.5T640-120H320q-17 0-28.5-11.5T280-160q0-17 11.5-28.5T320-200h120ZM280-528v-152h-80v40q0 38 22 68.5t58 43.5Zm200 128q50 0 85-35t35-85v-240H360v240q0 50 35 85t85 35Zm200-128q36-13 58-43.5t22-68.5v-40h-80v152Zm-200-52Z'), to('tune', 'M480-120q-17 0-28.5-11.5T440-160v-160q0-17 11.5-28.5T480-360q17 0 28.5 11.5T520-320v40h280q17 0 28.5 11.5T840-240q0 17-11.5 28.5T800-200H520v40q0 17-11.5 28.5T480-120Zm-320-80q-17 0-28.5-11.5T120-240q0-17 11.5-28.5T160-280h160q17 0 28.5 11.5T360-240q0 17-11.5 28.5T320-200H160Zm160-160q-17 0-28.5-11.5T280-400v-40H160q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h120v-40q0-17 11.5-28.5T320-600q17 0 28.5 11.5T360-560v160q0 17-11.5 28.5T320-360Zm160-80q-17 0-28.5-11.5T440-480q0-17 11.5-28.5T480-520h320q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H480Zm160-160q-17 0-28.5-11.5T600-640v-160q0-17 11.5-28.5T640-840q17 0 28.5 11.5T680-800v40h120q17 0 28.5 11.5T840-720q0 17-11.5 28.5T800-680H680v40q0 17-11.5 28.5T640-600Zm-480-80q-17 0-28.5-11.5T120-720q0-17 11.5-28.5T160-760h320q17 0 28.5 11.5T520-720q0 17-11.5 28.5T480-680H160Z'), to('upgrade', 'M320-160q-17 0-28.5-11.5T280-200q0-17 11.5-28.5T320-240h320q17 0 28.5 11.5T680-200q0 17-11.5 28.5T640-160H320Zm160-160q-17 0-28.5-11.5T440-360v-287l-76 75q-11 11-27.5 11.5T308-572q-11-11-11-28t11-28l144-144q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l144 144q11 11 11.5 27.5T652-572q-11 11-28 11t-28-11l-76-75v287q0 17-11.5 28.5T480-320Z'), to('upload', 'M240-160q-33 0-56.5-23.5T160-240v-80q0-17 11.5-28.5T200-360q17 0 28.5 11.5T240-320v80h480v-80q0-17 11.5-28.5T760-360q17 0 28.5 11.5T800-320v80q0 33-23.5 56.5T720-160H240Zm200-486-75 75q-12 12-28.5 11.5T308-572q-11-12-11.5-28t11.5-28l144-144q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l144 144q12 12 11.5 28T652-572q-12 12-28.5 12.5T595-571l-75-75v286q0 17-11.5 28.5T480-320q-17 0-28.5-11.5T440-360v-286Z'), to('verified', 'm438-452-58-57q-11-11-27.5-11T324-508q-11 11-11 28t11 28l86 86q12 12 28 12t28-12l170-170q12-12 11.5-28T636-592q-12-12-28.5-12.5T579-593L438-452ZM326-90l-58-98-110-24q-15-3-24-15.5t-7-27.5l11-113-75-86q-10-11-10-26t10-26l75-86-11-113q-2-15 7-27.5t24-15.5l110-24 58-98q8-13 22-17.5t28 1.5l104 44 104-44q14-6 28-1.5t22 17.5l58 98 110 24q15 3 24 15.5t7 27.5l-11 113 75 86q10 11 10 26t-10 26l-75 86 11 113q2 15-7 27.5T802-212l-110 24-58 98q-8 13-22 17.5T584-74l-104-44-104 44q-14 6-28 1.5T326-90Zm52-72 102-44 104 44 56-96 110-26-10-112 74-84-74-86 10-112-110-24-58-96-102 44-104-44-56 96-110 24 10 112-74 86 74 84-10 114 110 24 58 96Zm102-318Z'), to('view_agenda', 'M200-520q-33 0-56.5-23.5T120-600v-160q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v160q0 33-23.5 56.5T760-520H200Zm0-80h560v-160H200v160Zm0 480q-33 0-56.5-23.5T120-200v-160q0-33 23.5-56.5T200-440h560q33 0 56.5 23.5T840-360v160q0 33-23.5 56.5T760-120H200Zm0-80h560v-160H200v160Zm0-560v160-160Zm0 400v160-160Z'), to('visibility', 'M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-134 0-244.5-72T61-462q-5-9-7.5-18.5T51-500q0-10 2.5-19.5T61-538q64-118 174.5-190T480-800q134 0 244.5 72T899-538q5 9 7.5 18.5T909-500q0 10-2.5 19.5T899-462q-64 118-174.5 190T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z'), to('warning', 'M109-120q-11 0-20-5.5T75-140q-5-9-5.5-19.5T75-180l370-640q6-10 15.5-15t19.5-5q10 0 19.5 5t15.5 15l370 640q6 10 5.5 20.5T885-140q-5 9-14 14.5t-20 5.5H109Zm69-80h604L480-720 178-200Zm302-40q17 0 28.5-11.5T520-280q0-17-11.5-28.5T480-320q-17 0-28.5 11.5T440-280q0 17 11.5 28.5T480-240Zm0-120q17 0 28.5-11.5T520-400v-120q0-17-11.5-28.5T480-560q-17 0-28.5 11.5T440-520v120q0 17 11.5 28.5T480-360Zm0-100Z'), to('water_drop', 'M480-80q-137 0-228.5-94T160-408q0-62 28-124t70-119q42-57 91-107t91-87q8-8 18.5-11.5T480-860q11 0 21.5 3.5T520-845q42 37 91 87t91 107q42 57 70 119t28 124q0 140-91.5 234T480-80Zm0-80q104 0 172-70.5T720-408q0-73-60.5-165T480-774Q361-665 300.5-573T240-408q0 107 68 177.5T480-160Zm0-320Zm11 280q12-1 20.5-9.5T520-230q0-14-9-22.5t-23-7.5q-41 3-87-22.5T343-375q-2-11-10.5-18t-19.5-7q-14 0-23 10.5t-6 24.5q17 91 80 130t127 35Z')]);
 }
 var IconData_instance;
 function IconData_getInstance() {
@@ -10876,260 +10896,115 @@ function static_init_8() {
   if (static_init_called_8)
     return Unit_instance;
   static_init_called_8 = true;
-  Role_ATTACKER_instance = new Role('ATTACKER', 0, 'Angreifer');
-  Role_TANK_instance = new Role('TANK', 1, 'Tank');
-  Role_HEALER_instance = new Role('HEALER', 2, 'Heiler');
+  Kind_ITEM_instance = new Kind_2('ITEM', 0, 'Form-Item', 'redeem');
+  Kind_FUSION_instance = new Kind_2('FUSION', 1, 'Fusion', 'handshake');
+  Kind_PRIMAL_instance = new Kind_2('PRIMAL', 2, 'Proto-Entwicklung', 'bolt');
+  Kind_MEGA_instance = new Kind_2('MEGA', 3, 'Mega-Entwicklung', 'auto_awesome');
 }
-var Role_ATTACKER_instance;
-var Role_TANK_instance;
-var Role_HEALER_instance;
-function Boss(species, giga) {
-  this.o20_1 = species;
-  this.p20_1 = giga;
-}
-protoOf(Boss).toString = function () {
-  return 'Boss(species=' + this.o20_1.toString() + ', giga=' + this.p20_1 + ')';
-};
-protoOf(Boss).hashCode = function () {
-  var result = this.o20_1.hashCode();
-  result = imul(result, 31) + getBooleanHashCode(this.p20_1) | 0;
-  return result;
-};
-protoOf(Boss).equals = function (other) {
-  if (this === other)
-    return true;
-  if (!(other instanceof Boss))
-    return false;
-  if (!this.o20_1.equals(other.o20_1))
-    return false;
-  if (!(this.p20_1 === other.p20_1))
-    return false;
-  return true;
-};
-function Role(name, ordinal, label) {
+var Kind_ITEM_instance;
+var Kind_FUSION_instance;
+var Kind_PRIMAL_instance;
+var Kind_MEGA_instance;
+function Kind_2(name, ordinal, label, icon) {
   Enum.call(this, name, ordinal);
-  this.s20_1 = label;
+  this.r20_1 = label;
+  this.s20_1 = icon;
 }
-function Pick(pokemon, species, giga, fast, maxType, maxDamage, bulk, weakness) {
-  this.t20_1 = pokemon;
-  this.u20_1 = species;
-  this.v20_1 = giga;
-  this.w20_1 = fast;
-  this.x20_1 = maxType;
-  this.y20_1 = maxDamage;
-  this.z20_1 = bulk;
-  this.a21_1 = weakness;
+function Form(from, to, kind, how, partner, dyna) {
+  partner = partner === VOID ? null : partner;
+  dyna = dyna === VOID ? false : dyna;
+  this.t20_1 = from;
+  this.u20_1 = to;
+  this.v20_1 = kind;
+  this.w20_1 = how;
+  this.x20_1 = partner;
+  this.y20_1 = dyna;
 }
-protoOf(Pick).g1m = function () {
-  return this.t20_1.g1m();
+protoOf(Form).toString = function () {
+  return 'Form(from=' + this.t20_1 + ', to=' + this.u20_1 + ', kind=' + this.v20_1.toString() + ', how=' + this.w20_1 + ', partner=' + this.x20_1 + ', dyna=' + this.y20_1 + ')';
 };
-protoOf(Pick).b21 = function () {
-  return this.t20_1.u1l_1;
-};
-protoOf(Pick).toString = function () {
-  return 'Pick(pokemon=' + this.t20_1.toString() + ', species=' + this.u20_1.toString() + ', giga=' + this.v20_1 + ', fast=' + toString(this.w20_1) + ', maxType=' + this.x20_1 + ', maxDamage=' + this.y20_1 + ', bulk=' + this.z20_1 + ', weakness=' + this.a21_1 + ')';
-};
-protoOf(Pick).hashCode = function () {
-  var result = this.t20_1.hashCode();
-  result = imul(result, 31) + this.u20_1.hashCode() | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.v20_1) | 0;
-  result = imul(result, 31) + (this.w20_1 == null ? 0 : this.w20_1.hashCode()) | 0;
+protoOf(Form).hashCode = function () {
+  var result = getStringHashCode(this.t20_1);
+  result = imul(result, 31) + getStringHashCode(this.u20_1) | 0;
+  result = imul(result, 31) + this.v20_1.hashCode() | 0;
+  result = imul(result, 31) + getStringHashCode(this.w20_1) | 0;
   result = imul(result, 31) + (this.x20_1 == null ? 0 : getStringHashCode(this.x20_1)) | 0;
-  result = imul(result, 31) + getNumberHashCode(this.y20_1) | 0;
-  result = imul(result, 31) + getNumberHashCode(this.z20_1) | 0;
-  result = imul(result, 31) + getNumberHashCode(this.a21_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.y20_1) | 0;
   return result;
 };
-protoOf(Pick).equals = function (other) {
+protoOf(Form).equals = function (other) {
   if (this === other)
     return true;
-  if (!(other instanceof Pick))
+  if (!(other instanceof Form))
     return false;
-  if (!this.t20_1.equals(other.t20_1))
+  if (!(this.t20_1 === other.t20_1))
     return false;
-  if (!this.u20_1.equals(other.u20_1))
+  if (!(this.u20_1 === other.u20_1))
     return false;
-  if (!(this.v20_1 === other.v20_1))
+  if (!this.v20_1.equals(other.v20_1))
     return false;
-  if (!equals(this.w20_1, other.w20_1))
+  if (!(this.w20_1 === other.w20_1))
     return false;
   if (!(this.x20_1 == other.x20_1))
     return false;
-  if (!equals(this.y20_1, other.y20_1))
-    return false;
-  if (!equals(this.z20_1, other.z20_1))
-    return false;
-  if (!equals(this.a21_1, other.a21_1))
+  if (!(this.y20_1 === other.y20_1))
     return false;
   return true;
 };
-function Advice(text, gain, cost) {
-  this.c21_1 = text;
-  this.d21_1 = gain;
-  this.e21_1 = cost;
+function Row(form, base, target, partner, haveBase, havePartner, haveTarget) {
+  this.z20_1 = form;
+  this.a21_1 = base;
+  this.b21_1 = target;
+  this.c21_1 = partner;
+  this.d21_1 = haveBase;
+  this.e21_1 = havePartner;
+  this.f21_1 = haveTarget;
 }
-protoOf(Advice).toString = function () {
-  return 'Advice(text=' + this.c21_1 + ', gain=' + this.d21_1 + ', cost=' + this.e21_1 + ')';
+protoOf(Row).toString = function () {
+  return 'Row(form=' + this.z20_1.toString() + ', base=' + this.a21_1.toString() + ', target=' + this.b21_1.toString() + ', partner=' + toString(this.c21_1) + ', haveBase=' + this.d21_1 + ', havePartner=' + this.e21_1 + ', haveTarget=' + this.f21_1 + ')';
 };
-protoOf(Advice).hashCode = function () {
-  var result = getStringHashCode(this.c21_1);
-  result = imul(result, 31) + this.d21_1 | 0;
-  result = imul(result, 31) + getStringHashCode(this.e21_1) | 0;
+protoOf(Row).hashCode = function () {
+  var result = this.z20_1.hashCode();
+  result = imul(result, 31) + this.a21_1.hashCode() | 0;
+  result = imul(result, 31) + this.b21_1.hashCode() | 0;
+  result = imul(result, 31) + (this.c21_1 == null ? 0 : this.c21_1.hashCode()) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.d21_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.e21_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.f21_1) | 0;
   return result;
 };
-protoOf(Advice).equals = function (other) {
+protoOf(Row).equals = function (other) {
   if (this === other)
     return true;
-  if (!(other instanceof Advice))
+  if (!(other instanceof Row))
     return false;
-  if (!(this.c21_1 === other.c21_1))
+  if (!this.z20_1.equals(other.z20_1))
+    return false;
+  if (!this.a21_1.equals(other.a21_1))
+    return false;
+  if (!this.b21_1.equals(other.b21_1))
+    return false;
+  if (!equals(this.c21_1, other.c21_1))
     return false;
   if (!(this.d21_1 === other.d21_1))
     return false;
   if (!(this.e21_1 === other.e21_1))
     return false;
-  return true;
-};
-function Member(role, pick, advice) {
-  this.f21_1 = role;
-  this.g21_1 = pick;
-  this.h21_1 = advice;
-}
-protoOf(Member).toString = function () {
-  return 'Member(role=' + this.f21_1.toString() + ', pick=' + this.g21_1.toString() + ', advice=' + toString_0(this.h21_1) + ')';
-};
-protoOf(Member).hashCode = function () {
-  var result = this.f21_1.hashCode();
-  result = imul(result, 31) + this.g21_1.hashCode() | 0;
-  result = imul(result, 31) + hashCode(this.h21_1) | 0;
-  return result;
-};
-protoOf(Member).equals = function (other) {
-  if (this === other)
-    return true;
-  if (!(other instanceof Member))
-    return false;
-  if (!this.f21_1.equals(other.f21_1))
-    return false;
-  if (!this.g21_1.equals(other.g21_1))
-    return false;
-  if (!equals(this.h21_1, other.h21_1))
+  if (!(this.f21_1 === other.f21_1))
     return false;
   return true;
 };
-function Team(members, bench, unmarked) {
-  this.i21_1 = members;
-  this.j21_1 = bench;
-  this.k21_1 = unmarked;
-}
-protoOf(Team).toString = function () {
-  return 'Team(members=' + toString_0(this.i21_1) + ', bench=' + toString_0(this.j21_1) + ', unmarked=' + toString_0(this.k21_1) + ')';
-};
-protoOf(Team).hashCode = function () {
-  var result = hashCode(this.i21_1);
-  result = imul(result, 31) + hashCode(this.j21_1) | 0;
-  result = imul(result, 31) + hashCode(this.k21_1) | 0;
-  return result;
-};
-protoOf(Team).equals = function (other) {
-  if (this === other)
-    return true;
-  if (!(other instanceof Team))
-    return false;
-  if (!equals(this.i21_1, other.i21_1))
-    return false;
-  if (!equals(this.j21_1, other.j21_1))
-    return false;
-  if (!equals(this.k21_1, other.k21_1))
-    return false;
-  return true;
-};
-function weakness($this, boss, types) {
-  // Inline function 'kotlin.collections.maxOf' call
-  var iterator = $this.n21(boss).i();
-  if (!iterator.j())
-    throw NoSuchElementException_init_$Create$();
-  var t = iterator.k();
-  var maxValue = TypeChart_getInstance().n1j(t, types) * (boss.o20_1.h1f_1.t(t) ? 1.2 : 1.0);
-  while (iterator.j()) {
-    var t_0 = iterator.k();
-    var v = TypeChart_getInstance().n1j(t_0, types) * (boss.o20_1.h1f_1.t(t_0) ? 1.2 : 1.0);
-    // Inline function 'kotlin.comparisons.maxOf' call
-    var a = maxValue;
-    maxValue = Math.max(a, v);
-  }
-  return maxValue;
-}
-function MetaEntry(species, giga, type, percent, fast) {
-  this.o21_1 = species;
-  this.p21_1 = giga;
-  this.q21_1 = type;
-  this.r21_1 = percent;
-  this.s21_1 = fast;
-}
-protoOf(MetaEntry).toString = function () {
-  return 'MetaEntry(species=' + this.o21_1.toString() + ', giga=' + this.p21_1 + ', type=' + this.q21_1 + ', percent=' + this.r21_1 + ', fast=' + toString(this.s21_1) + ')';
-};
-protoOf(MetaEntry).hashCode = function () {
-  var result = this.o21_1.hashCode();
-  result = imul(result, 31) + getBooleanHashCode(this.p21_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.q21_1) | 0;
-  result = imul(result, 31) + this.r21_1 | 0;
-  result = imul(result, 31) + (this.s21_1 == null ? 0 : this.s21_1.hashCode()) | 0;
-  return result;
-};
-protoOf(MetaEntry).equals = function (other) {
-  if (this === other)
-    return true;
-  if (!(other instanceof MetaEntry))
-    return false;
-  if (!this.o21_1.equals(other.o21_1))
-    return false;
-  if (!(this.p21_1 === other.p21_1))
-    return false;
-  if (!(this.q21_1 === other.q21_1))
-    return false;
-  if (!(this.r21_1 === other.r21_1))
-    return false;
-  if (!equals(this.s21_1, other.s21_1))
-    return false;
-  return true;
-};
-function Companion_13() {
-  Companion_instance_15 = this;
-  this.t21_1 = listOf([250.0, 300.0, 350.0]);
-  this.u21_1 = listOf([350.0, 400.0, 450.0]);
-  this.v21_1 = listOf([0.0, 20.0, 40.0, 60.0]);
-  this.w21_1 = listOf([0, 8, 12, 16]);
-  this.x21_1 = 0.79;
-  this.y21_1 = 40.0;
-  this.z21_1 = setOf_0('eternatus_eternamax');
-}
-protoOf(Companion_13).a22 = function (n) {
-  // Inline function 'kotlin.text.reversed' call
-  var this_0 = n.toString();
-  var tmp$ret$0 = toString_0(reversed(isCharSequence(this_0) ? this_0 : THROW_CCE()));
-  // Inline function 'kotlin.text.reversed' call
-  var this_1 = joinToString(chunked(tmp$ret$0, 3), '.');
-  return toString_0(reversed(isCharSequence(this_1) ? this_1 : THROW_CCE()));
-};
-var Companion_instance_15;
-function Companion_getInstance_13() {
-  if (Companion_instance_15 == null)
-    new Companion_13();
-  return Companion_instance_15;
-}
 function sam$kotlin_Comparator$0_5(function_0) {
-  this.b22_1 = function_0;
+  this.g21_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_5).uc = function (a, b) {
-  return this.b22_1(a, b);
+  return this.g21_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_5).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_5).t2 = function () {
-  return this.b22_1;
+  return this.g21_1;
 };
 protoOf(sam$kotlin_Comparator$0_5).equals = function (other) {
   var tmp;
@@ -11149,17 +11024,411 @@ protoOf(sam$kotlin_Comparator$0_5).equals = function (other) {
 protoOf(sam$kotlin_Comparator$0_5).hashCode = function () {
   return hashCode(this.t2());
 };
+function LegendForms$giga$lambda(a, b) {
+  // Inline function 'kotlin.comparisons.compareValuesBy' call
+  var tmp = a.b1f_1;
+  var tmp$ret$2 = b.b1f_1;
+  return compareValues(tmp, tmp$ret$2);
+}
+function Kind_ITEM_getInstance() {
+  static_init_8();
+  return Kind_ITEM_instance;
+}
+function Kind_FUSION_getInstance() {
+  static_init_8();
+  return Kind_FUSION_instance;
+}
+function Kind_PRIMAL_getInstance() {
+  static_init_8();
+  return Kind_PRIMAL_instance;
+}
+function Kind_MEGA_getInstance() {
+  static_init_8();
+  return Kind_MEGA_instance;
+}
+function LegendForms() {
+  LegendForms_instance = this;
+  this.h21_1 = listOf([new Form('zacian_hero', 'zacian_crowned_sword', Kind_ITEM_getInstance(), 'Rostiges Schwert. Nur als K\xF6nig des Schwertes ist Zacian im Dyna-Kampf einsetzbar.', VOID, true), new Form('zamazenta_hero', 'zamazenta_crowned_shield', Kind_ITEM_getInstance(), 'Rostiges Schild. Nur als K\xF6nig des Schildes ist Zamazenta im Dyna-Kampf einsetzbar.', VOID, true), new Form('kyurem', 'kyurem_black', Kind_FUSION_getInstance(), 'Fusion mit Zekrom, dazu Fusionsenergie aus Raids.', 'zekrom'), new Form('kyurem', 'kyurem_white', Kind_FUSION_getInstance(), 'Fusion mit Reshiram, dazu Fusionsenergie aus Raids.', 'reshiram'), new Form('necrozma', 'necrozma_dusk_mane', Kind_FUSION_getInstance(), 'Fusion mit Solgaleo, dazu Fusionsenergie aus Necrozma-Raids.', 'solgaleo'), new Form('necrozma', 'necrozma_dawn_wings', Kind_FUSION_getInstance(), 'Fusion mit Lunala, dazu Fusionsenergie aus Necrozma-Raids.', 'lunala'), new Form('calyrex', 'calyrex_ice_rider', Kind_FUSION_getInstance(), 'Fusion mit Polaross, dazu Fusionsenergie.', 'glastrier'), new Form('calyrex', 'calyrex_shadow_rider', Kind_FUSION_getInstance(), 'Fusion mit Phantoross, dazu Fusionsenergie.', 'spectrier'), new Form('kyogre', 'kyogre_primal', Kind_PRIMAL_getInstance(), 'Proto-Energie aus Proto-Raids.'), new Form('groudon', 'groudon_primal', Kind_PRIMAL_getInstance(), 'Proto-Energie aus Proto-Raids.'), new Form('dialga', 'dialga_origin', Kind_ITEM_getInstance(), 'Formwechsel mit Spezial-Item (Urform), aus Event bzw. Forschung.'), new Form('palkia', 'palkia_origin', Kind_ITEM_getInstance(), 'Formwechsel mit Spezial-Item (Urform), aus Event bzw. Forschung.'), new Form('giratina_altered', 'giratina_origin', Kind_ITEM_getInstance(), 'Formwechsel mit Spezial-Item (Urform), aus Event bzw. Forschung.'), new Form('hoopa', 'hoopa_unbound', Kind_ITEM_getInstance(), 'Entfesseltes Hoopa, Formwechsel aus Event bzw. Forschung.'), new Form('rayquaza', 'rayquaza_mega', Kind_MEGA_getInstance(), 'Mega-Energie; Rayquaza braucht daf\xFCr die Attacke Zenitst\xFCrmer.')]);
+}
+protoOf(LegendForms).i21 = function (data, saved) {
+  // Inline function 'kotlin.collections.map' call
+  // Inline function 'kotlin.collections.mapTo' call
+  var destination = ArrayList_init_$Create$(collectionSizeOrDefault(saved, 10));
+  var _iterator__ex2g4s = saved.i();
+  while (_iterator__ex2g4s.j()) {
+    var item = _iterator__ex2g4s.k();
+    var tmp$ret$2 = item.o1l_1;
+    destination.h(tmp$ret$2);
+  }
+  var owned = toSet(destination);
+  // Inline function 'kotlin.collections.mapNotNull' call
+  var tmp0 = this.h21_1;
+  // Inline function 'kotlin.collections.mapNotNullTo' call
+  var destination_0 = ArrayList_init_$Create$_0();
+  // Inline function 'kotlin.collections.forEach' call
+  var _iterator__ex2g4s_0 = tmp0.i();
+  while (_iterator__ex2g4s_0.j()) {
+    var element = _iterator__ex2g4s_0.k();
+    var tmp$ret$7;
+    $l$block_0: {
+      var tmp0_elvis_lhs = data.k1g().c2(element.t20_1);
+      var tmp;
+      if (tmp0_elvis_lhs == null) {
+        tmp$ret$7 = null;
+        break $l$block_0;
+      } else {
+        tmp = tmp0_elvis_lhs;
+      }
+      var base = tmp;
+      var tmp1_elvis_lhs = data.k1g().c2(element.u20_1);
+      var tmp_0;
+      if (tmp1_elvis_lhs == null) {
+        tmp$ret$7 = null;
+        break $l$block_0;
+      } else {
+        tmp_0 = tmp1_elvis_lhs;
+      }
+      var target = tmp_0;
+      var tmp2_safe_receiver = element.x20_1;
+      var tmp_1;
+      if (tmp2_safe_receiver == null) {
+        tmp_1 = null;
+      } else {
+        // Inline function 'kotlin.let' call
+        tmp_1 = data.k1g().c2(tmp2_safe_receiver);
+      }
+      var partner = tmp_1;
+      var tmp_2;
+      if (owned.t(element.u20_1)) {
+        tmp_2 = true;
+      } else {
+        var tmp_3;
+        if (element.v20_1.equals(Kind_MEGA_getInstance()) || element.v20_1.equals(Kind_PRIMAL_getInstance())) {
+          var tmp$ret$10;
+          $l$block_2: {
+            // Inline function 'kotlin.collections.any' call
+            var tmp_4;
+            if (isInterface(saved, Collection)) {
+              tmp_4 = saved.q();
+            } else {
+              tmp_4 = false;
+            }
+            if (tmp_4) {
+              tmp$ret$10 = false;
+              break $l$block_2;
+            }
+            var _iterator__ex2g4s_1 = saved.i();
+            while (_iterator__ex2g4s_1.j()) {
+              var element_0 = _iterator__ex2g4s_1.k();
+              if (element_0.o1l_1 === element.t20_1 && element_0.e1m_1 > 0) {
+                tmp$ret$10 = true;
+                break $l$block_2;
+              }
+            }
+            tmp$ret$10 = false;
+          }
+          tmp_3 = tmp$ret$10;
+        } else {
+          tmp_3 = false;
+        }
+        tmp_2 = tmp_3;
+      }
+      var haveTarget = tmp_2;
+      tmp$ret$7 = new Row(element, base, target, partner, owned.t(element.t20_1), !(element.x20_1 == null) && owned.t(element.x20_1), haveTarget);
+    }
+    var tmp0_safe_receiver = tmp$ret$7;
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      // Inline function 'kotlin.let' call
+      destination_0.h(tmp0_safe_receiver);
+    }
+  }
+  return destination_0;
+};
+protoOf(LegendForms).j21 = function (data) {
+  // Inline function 'kotlin.collections.filter' call
+  var tmp0 = data.a1g_1;
+  // Inline function 'kotlin.collections.filterTo' call
+  var destination = ArrayList_init_$Create$_0();
+  var _iterator__ex2g4s = tmp0.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    if (element.l1x()) {
+      destination.h(element);
+    }
+  }
+  // Inline function 'kotlin.collections.sortedBy' call
+  // Inline function 'kotlin.comparisons.compareBy' call
+  var tmp = LegendForms$giga$lambda;
+  var tmp$ret$4 = new sam$kotlin_Comparator$0_5(tmp);
+  return sortedWith(destination, tmp$ret$4);
+};
+var LegendForms_instance;
+function LegendForms_getInstance() {
+  if (LegendForms_instance == null)
+    new LegendForms();
+  return LegendForms_instance;
+}
+var static_init_called_9;
+function static_init_9() {
+  if (static_init_called_9)
+    return Unit_instance;
+  static_init_called_9 = true;
+  Role_ATTACKER_instance = new Role('ATTACKER', 0, 'Angreifer');
+  Role_TANK_instance = new Role('TANK', 1, 'Tank');
+  Role_HEALER_instance = new Role('HEALER', 2, 'Heiler');
+}
+var Role_ATTACKER_instance;
+var Role_TANK_instance;
+var Role_HEALER_instance;
+function Boss(species, giga) {
+  this.k21_1 = species;
+  this.l21_1 = giga;
+}
+protoOf(Boss).toString = function () {
+  return 'Boss(species=' + this.k21_1.toString() + ', giga=' + this.l21_1 + ')';
+};
+protoOf(Boss).hashCode = function () {
+  var result = this.k21_1.hashCode();
+  result = imul(result, 31) + getBooleanHashCode(this.l21_1) | 0;
+  return result;
+};
+protoOf(Boss).equals = function (other) {
+  if (this === other)
+    return true;
+  if (!(other instanceof Boss))
+    return false;
+  if (!this.k21_1.equals(other.k21_1))
+    return false;
+  if (!(this.l21_1 === other.l21_1))
+    return false;
+  return true;
+};
+function Role(name, ordinal, label) {
+  Enum.call(this, name, ordinal);
+  this.o21_1 = label;
+}
+function Pick(pokemon, species, giga, fast, maxType, maxDamage, bulk, weakness) {
+  this.p21_1 = pokemon;
+  this.q21_1 = species;
+  this.r21_1 = giga;
+  this.s21_1 = fast;
+  this.t21_1 = maxType;
+  this.u21_1 = maxDamage;
+  this.v21_1 = bulk;
+  this.w21_1 = weakness;
+}
+protoOf(Pick).g1m = function () {
+  return this.p21_1.g1m();
+};
+protoOf(Pick).x21 = function () {
+  return this.p21_1.u1l_1;
+};
+protoOf(Pick).toString = function () {
+  return 'Pick(pokemon=' + this.p21_1.toString() + ', species=' + this.q21_1.toString() + ', giga=' + this.r21_1 + ', fast=' + toString(this.s21_1) + ', maxType=' + this.t21_1 + ', maxDamage=' + this.u21_1 + ', bulk=' + this.v21_1 + ', weakness=' + this.w21_1 + ')';
+};
+protoOf(Pick).hashCode = function () {
+  var result = this.p21_1.hashCode();
+  result = imul(result, 31) + this.q21_1.hashCode() | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.r21_1) | 0;
+  result = imul(result, 31) + (this.s21_1 == null ? 0 : this.s21_1.hashCode()) | 0;
+  result = imul(result, 31) + (this.t21_1 == null ? 0 : getStringHashCode(this.t21_1)) | 0;
+  result = imul(result, 31) + getNumberHashCode(this.u21_1) | 0;
+  result = imul(result, 31) + getNumberHashCode(this.v21_1) | 0;
+  result = imul(result, 31) + getNumberHashCode(this.w21_1) | 0;
+  return result;
+};
+protoOf(Pick).equals = function (other) {
+  if (this === other)
+    return true;
+  if (!(other instanceof Pick))
+    return false;
+  if (!this.p21_1.equals(other.p21_1))
+    return false;
+  if (!this.q21_1.equals(other.q21_1))
+    return false;
+  if (!(this.r21_1 === other.r21_1))
+    return false;
+  if (!equals(this.s21_1, other.s21_1))
+    return false;
+  if (!(this.t21_1 == other.t21_1))
+    return false;
+  if (!equals(this.u21_1, other.u21_1))
+    return false;
+  if (!equals(this.v21_1, other.v21_1))
+    return false;
+  if (!equals(this.w21_1, other.w21_1))
+    return false;
+  return true;
+};
+function Advice(text, gain, cost) {
+  this.y21_1 = text;
+  this.z21_1 = gain;
+  this.a22_1 = cost;
+}
+protoOf(Advice).toString = function () {
+  return 'Advice(text=' + this.y21_1 + ', gain=' + this.z21_1 + ', cost=' + this.a22_1 + ')';
+};
+protoOf(Advice).hashCode = function () {
+  var result = getStringHashCode(this.y21_1);
+  result = imul(result, 31) + this.z21_1 | 0;
+  result = imul(result, 31) + getStringHashCode(this.a22_1) | 0;
+  return result;
+};
+protoOf(Advice).equals = function (other) {
+  if (this === other)
+    return true;
+  if (!(other instanceof Advice))
+    return false;
+  if (!(this.y21_1 === other.y21_1))
+    return false;
+  if (!(this.z21_1 === other.z21_1))
+    return false;
+  if (!(this.a22_1 === other.a22_1))
+    return false;
+  return true;
+};
+function Member(role, pick, advice) {
+  this.b22_1 = role;
+  this.c22_1 = pick;
+  this.d22_1 = advice;
+}
+protoOf(Member).toString = function () {
+  return 'Member(role=' + this.b22_1.toString() + ', pick=' + this.c22_1.toString() + ', advice=' + toString_0(this.d22_1) + ')';
+};
+protoOf(Member).hashCode = function () {
+  var result = this.b22_1.hashCode();
+  result = imul(result, 31) + this.c22_1.hashCode() | 0;
+  result = imul(result, 31) + hashCode(this.d22_1) | 0;
+  return result;
+};
+protoOf(Member).equals = function (other) {
+  if (this === other)
+    return true;
+  if (!(other instanceof Member))
+    return false;
+  if (!this.b22_1.equals(other.b22_1))
+    return false;
+  if (!this.c22_1.equals(other.c22_1))
+    return false;
+  if (!equals(this.d22_1, other.d22_1))
+    return false;
+  return true;
+};
+function Team(members, bench, unmarked) {
+  this.e22_1 = members;
+  this.f22_1 = bench;
+  this.g22_1 = unmarked;
+}
+protoOf(Team).toString = function () {
+  return 'Team(members=' + toString_0(this.e22_1) + ', bench=' + toString_0(this.f22_1) + ', unmarked=' + toString_0(this.g22_1) + ')';
+};
+protoOf(Team).hashCode = function () {
+  var result = hashCode(this.e22_1);
+  result = imul(result, 31) + hashCode(this.f22_1) | 0;
+  result = imul(result, 31) + hashCode(this.g22_1) | 0;
+  return result;
+};
+protoOf(Team).equals = function (other) {
+  if (this === other)
+    return true;
+  if (!(other instanceof Team))
+    return false;
+  if (!equals(this.e22_1, other.e22_1))
+    return false;
+  if (!equals(this.f22_1, other.f22_1))
+    return false;
+  if (!equals(this.g22_1, other.g22_1))
+    return false;
+  return true;
+};
+function weakness($this, boss, types) {
+  // Inline function 'kotlin.collections.maxOf' call
+  var iterator = $this.j22(boss).i();
+  if (!iterator.j())
+    throw NoSuchElementException_init_$Create$();
+  var t = iterator.k();
+  var maxValue = TypeChart_getInstance().n1j(t, types) * (boss.k21_1.h1f_1.t(t) ? 1.2 : 1.0);
+  while (iterator.j()) {
+    var t_0 = iterator.k();
+    var v = TypeChart_getInstance().n1j(t_0, types) * (boss.k21_1.h1f_1.t(t_0) ? 1.2 : 1.0);
+    // Inline function 'kotlin.comparisons.maxOf' call
+    var a = maxValue;
+    maxValue = Math.max(a, v);
+  }
+  return maxValue;
+}
+function MetaEntry(species, giga, type, percent, fast) {
+  this.k22_1 = species;
+  this.l22_1 = giga;
+  this.m22_1 = type;
+  this.n22_1 = percent;
+  this.o22_1 = fast;
+}
+protoOf(MetaEntry).toString = function () {
+  return 'MetaEntry(species=' + this.k22_1.toString() + ', giga=' + this.l22_1 + ', type=' + this.m22_1 + ', percent=' + this.n22_1 + ', fast=' + toString(this.o22_1) + ')';
+};
+protoOf(MetaEntry).hashCode = function () {
+  var result = this.k22_1.hashCode();
+  result = imul(result, 31) + getBooleanHashCode(this.l22_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.m22_1) | 0;
+  result = imul(result, 31) + this.n22_1 | 0;
+  result = imul(result, 31) + (this.o22_1 == null ? 0 : this.o22_1.hashCode()) | 0;
+  return result;
+};
+protoOf(MetaEntry).equals = function (other) {
+  if (this === other)
+    return true;
+  if (!(other instanceof MetaEntry))
+    return false;
+  if (!this.k22_1.equals(other.k22_1))
+    return false;
+  if (!(this.l22_1 === other.l22_1))
+    return false;
+  if (!(this.m22_1 === other.m22_1))
+    return false;
+  if (!(this.n22_1 === other.n22_1))
+    return false;
+  if (!equals(this.o22_1, other.o22_1))
+    return false;
+  return true;
+};
+function Companion_13() {
+  Companion_instance_15 = this;
+  this.p22_1 = listOf([250.0, 300.0, 350.0]);
+  this.q22_1 = listOf([350.0, 400.0, 450.0]);
+  this.r22_1 = listOf([0.0, 20.0, 40.0, 60.0]);
+  this.s22_1 = listOf([0, 8, 12, 16]);
+  this.t22_1 = 0.79;
+  this.u22_1 = 40.0;
+  this.v22_1 = setOf_0('eternatus_eternamax');
+}
+protoOf(Companion_13).w22 = function (n) {
+  // Inline function 'kotlin.text.reversed' call
+  var this_0 = n.toString();
+  var tmp$ret$0 = toString_0(reversed(isCharSequence(this_0) ? this_0 : THROW_CCE()));
+  // Inline function 'kotlin.text.reversed' call
+  var this_1 = joinToString(chunked(tmp$ret$0, 3), '.');
+  return toString_0(reversed(isCharSequence(this_1) ? this_1 : THROW_CCE()));
+};
+var Companion_instance_15;
+function Companion_getInstance_13() {
+  if (Companion_instance_15 == null)
+    new Companion_13();
+  return Companion_instance_15;
+}
 function sam$kotlin_Comparator$0_6(function_0) {
-  this.c22_1 = function_0;
+  this.x22_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_6).uc = function (a, b) {
-  return this.c22_1(a, b);
+  return this.x22_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_6).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_6).t2 = function () {
-  return this.c22_1;
+  return this.x22_1;
 };
 protoOf(sam$kotlin_Comparator$0_6).equals = function (other) {
   var tmp;
@@ -11180,16 +11449,16 @@ protoOf(sam$kotlin_Comparator$0_6).hashCode = function () {
   return hashCode(this.t2());
 };
 function sam$kotlin_Comparator$0_7(function_0) {
-  this.d22_1 = function_0;
+  this.y22_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_7).uc = function (a, b) {
-  return this.d22_1(a, b);
+  return this.y22_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_7).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_7).t2 = function () {
-  return this.d22_1;
+  return this.y22_1;
 };
 protoOf(sam$kotlin_Comparator$0_7).equals = function (other) {
   var tmp;
@@ -11209,6 +11478,36 @@ protoOf(sam$kotlin_Comparator$0_7).equals = function (other) {
 protoOf(sam$kotlin_Comparator$0_7).hashCode = function () {
   return hashCode(this.t2());
 };
+function sam$kotlin_Comparator$0_8(function_0) {
+  this.z22_1 = function_0;
+}
+protoOf(sam$kotlin_Comparator$0_8).uc = function (a, b) {
+  return this.z22_1(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_8).compare = function (a, b) {
+  return this.uc(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_8).t2 = function () {
+  return this.z22_1;
+};
+protoOf(sam$kotlin_Comparator$0_8).equals = function (other) {
+  var tmp;
+  if (!(other == null) ? isInterface(other, Comparator) : false) {
+    var tmp_0;
+    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
+      tmp_0 = equals(this.t2(), other.t2());
+    } else {
+      tmp_0 = false;
+    }
+    tmp = tmp_0;
+  } else {
+    tmp = false;
+  }
+  return tmp;
+};
+protoOf(sam$kotlin_Comparator$0_8).hashCode = function () {
+  return hashCode(this.t2());
+};
 function meta$dmg(atk, s, type, power) {
   return power * atk * (s.h1f_1.t(type) ? 1.2 : 1.0);
 }
@@ -11219,7 +11518,7 @@ function MaxCalc$meta$lambda(a, b) {
   return compareValues(tmp, tmp$ret$2);
 }
 function rate$hit($boss, species, atk, bossDef, type, power) {
-  var mult = TypeChart_getInstance().n1j(type, $boss.o20_1.h1f_1);
+  var mult = TypeChart_getInstance().n1j(type, $boss.k21_1.h1f_1);
   if (species.h1f_1.t(type))
     mult = mult * 1.2;
   // Inline function 'kotlin.math.floor' call
@@ -11240,32 +11539,32 @@ function MaxCalc$rate$lambda_0($boss, $species, $atk, $bossDef) {
   };
 }
 function MaxCalc$team$lambda(it) {
-  return it.y20_1;
+  return it.u21_1;
 }
 function MaxCalc$team$lambda_0(it) {
-  return it.z20_1;
+  return it.v21_1;
 }
 function MaxCalc$team$lambda_1(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.z20_1;
-  var tmp$ret$2 = a.z20_1;
+  var tmp = b.v21_1;
+  var tmp$ret$2 = a.v21_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function MaxCalc$team$lambda_2($attacker, $rest) {
   return function (a, b) {
     // Inline function 'kotlin.comparisons.compareValuesBy' call
     var tmp0_safe_receiver = $attacker;
-    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.y20_1;
-    var tmp = b.y20_1 / (tmp1_elvis_lhs == null ? 1.0 : tmp1_elvis_lhs);
+    var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.u21_1;
+    var tmp = b.u21_1 / (tmp1_elvis_lhs == null ? 1.0 : tmp1_elvis_lhs);
     var tmp2_safe_receiver = firstOrNull($rest);
-    var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.z20_1;
-    var tmp_0 = tmp + b.z20_1 / (tmp3_elvis_lhs == null ? 1.0 : tmp3_elvis_lhs);
+    var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.v21_1;
+    var tmp_0 = tmp + b.v21_1 / (tmp3_elvis_lhs == null ? 1.0 : tmp3_elvis_lhs);
     var tmp0_safe_receiver_0 = $attacker;
-    var tmp1_elvis_lhs_0 = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.y20_1;
-    var tmp_1 = a.y20_1 / (tmp1_elvis_lhs_0 == null ? 1.0 : tmp1_elvis_lhs_0);
+    var tmp1_elvis_lhs_0 = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.u21_1;
+    var tmp_1 = a.u21_1 / (tmp1_elvis_lhs_0 == null ? 1.0 : tmp1_elvis_lhs_0);
     var tmp2_safe_receiver_0 = firstOrNull($rest);
-    var tmp3_elvis_lhs_0 = tmp2_safe_receiver_0 == null ? null : tmp2_safe_receiver_0.z20_1;
-    var tmp$ret$2 = tmp_1 + a.z20_1 / (tmp3_elvis_lhs_0 == null ? 1.0 : tmp3_elvis_lhs_0);
+    var tmp3_elvis_lhs_0 = tmp2_safe_receiver_0 == null ? null : tmp2_safe_receiver_0.v21_1;
+    var tmp$ret$2 = tmp_1 + a.v21_1 / (tmp3_elvis_lhs_0 == null ? 1.0 : tmp3_elvis_lhs_0);
     return compareValues(tmp_0, tmp$ret$2);
   };
 }
@@ -11280,7 +11579,7 @@ function advice$stepCost(group, move, toLevel) {
   }
   var c = tmp;
   // Inline function 'kotlin.takeIf' call
-  var this_0 = c.w1y_1;
+  var this_0 = c.x1y_1;
   var tmp_0;
   if (this_0 > 1) {
     tmp_0 = this_0;
@@ -11297,7 +11596,7 @@ function advice$stepCost(group, move, toLevel) {
   }
   var tmp_2 = tmp_1;
   // Inline function 'kotlin.takeIf' call
-  var this_1 = c.x1y_1;
+  var this_1 = c.y1y_1;
   var tmp_3;
   if (this_1 > 0) {
     tmp_3 = this_1;
@@ -11314,7 +11613,7 @@ function advice$stepCost(group, move, toLevel) {
   }
   var tmp_5 = tmp_4;
   // Inline function 'kotlin.takeIf' call
-  var this_2 = c.v1y_1;
+  var this_2 = c.w1y_1;
   var tmp_6;
   if (this_2 > 0) {
     tmp_6 = this_2;
@@ -11327,7 +11626,7 @@ function advice$stepCost(group, move, toLevel) {
     tmp_7 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_7 = Companion_getInstance_13().a22(tmp5_safe_receiver) + ' Dyna-Partikel';
+    tmp_7 = Companion_getInstance_13().w22(tmp5_safe_receiver) + ' Dyna-Partikel';
   }
   return joinToString(listOfNotNull([tmp_2, tmp_5, tmp_7]), ', ');
 }
@@ -11336,37 +11635,37 @@ function advice$pct(new_0, old) {
 }
 function MaxCalc$advice$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.d21_1;
-  var tmp$ret$2 = a.d21_1;
+  var tmp = b.z21_1;
+  var tmp$ret$2 = a.z21_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function Role_ATTACKER_getInstance() {
-  static_init_8();
+  static_init_9();
   return Role_ATTACKER_instance;
 }
 function Role_TANK_getInstance() {
-  static_init_8();
+  static_init_9();
   return Role_TANK_instance;
 }
 function Role_HEALER_getInstance() {
-  static_init_8();
+  static_init_9();
   return Role_HEALER_instance;
 }
 function MaxCalc(data) {
   Companion_getInstance_13();
-  this.l21_1 = data;
-  this.m21_1 = this.l21_1.c1v();
+  this.h22_1 = data;
+  this.i22_1 = this.h22_1.c1v();
 }
-protoOf(MaxCalc).n21 = function (boss) {
+protoOf(MaxCalc).j22 = function (boss) {
   // Inline function 'kotlin.collections.mapNotNull' call
-  var tmp0 = plus_1(boss.o20_1.i1f_1, boss.o20_1.j1f_1);
+  var tmp0 = plus_1(boss.k21_1.i1f_1, boss.k21_1.j1f_1);
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.forEach' call
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = this.m21_1.c2(element);
+    var tmp0_safe_receiver = this.i22_1.c2(element);
     var tmp0_safe_receiver_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.d1k_1;
     if (tmp0_safe_receiver_0 == null)
       null;
@@ -11379,21 +11678,21 @@ protoOf(MaxCalc).n21 = function (boss) {
   var this_0 = distinct(destination);
   var tmp;
   if (this_0.q()) {
-    tmp = boss.o20_1.h1f_1;
+    tmp = boss.k21_1.h1f_1;
   } else {
     tmp = this_0;
   }
   return tmp;
 };
-protoOf(MaxCalc).e22 = function (level, giga) {
+protoOf(MaxCalc).a23 = function (level, giga) {
   var l = coerceIn(level, 1, 3);
-  return (giga ? Companion_getInstance_13().u21_1 : Companion_getInstance_13().t21_1).r(l - 1 | 0);
+  return (giga ? Companion_getInstance_13().q22_1 : Companion_getInstance_13().p22_1).r(l - 1 | 0);
 };
-protoOf(MaxCalc).f22 = function () {
+protoOf(MaxCalc).b23 = function () {
   var raw = ArrayList_init_$Create$_0();
   var fastOf = HashMap_init_$Create$();
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = this.l21_1.a1g_1;
+  var tmp0 = this.h22_1.a1g_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
@@ -11415,7 +11714,7 @@ protoOf(MaxCalc).f22 = function () {
     var _iterator__ex2g4s_1 = tmp0_0.i();
     while (_iterator__ex2g4s_1.j()) {
       var element_0 = _iterator__ex2g4s_1.k();
-      var tmp0_safe_receiver = this.m21_1.c2(element_0);
+      var tmp0_safe_receiver = this.i22_1.c2(element_0);
       if (tmp0_safe_receiver == null)
         null;
       else {
@@ -11432,7 +11731,7 @@ protoOf(MaxCalc).f22 = function () {
     var _iterator__ex2g4s_2 = tmp0_1.i();
     while (_iterator__ex2g4s_2.j()) {
       var element_1 = _iterator__ex2g4s_2.k();
-      var tmp0_safe_receiver_0 = this.m21_1.c2(element_1);
+      var tmp0_safe_receiver_0 = this.i22_1.c2(element_1);
       if (tmp0_safe_receiver_0 == null)
         null;
       else {
@@ -11465,7 +11764,7 @@ protoOf(MaxCalc).f22 = function () {
     var _iterator__ex2g4s_5 = list.i();
     while (_iterator__ex2g4s_5.j()) {
       var m = _iterator__ex2g4s_5.k();
-      raw.h(new Triple(s, false, to(m.d1k_1, meta$dmg(atk, s, m.d1k_1, Companion_getInstance_13().t21_1.r(2)))));
+      raw.h(new Triple(s, false, to(m.d1k_1, meta$dmg(atk, s, m.d1k_1, Companion_getInstance_13().p22_1.r(2)))));
       // Inline function 'kotlin.collections.set' call
       var key_0 = s.a1f_1 + '|' + m.d1k_1;
       fastOf.f2(key_0, m);
@@ -11477,7 +11776,7 @@ protoOf(MaxCalc).f22 = function () {
     } else {
       // Inline function 'kotlin.takeIf' call
       var tmp_1;
-      if (!(s.a1f_1 === 'eternatus')) {
+      if (s.l1x()) {
         tmp_1 = tmp0_safe_receiver_1;
       } else {
         tmp_1 = null;
@@ -11489,7 +11788,7 @@ protoOf(MaxCalc).f22 = function () {
       null;
     else {
       // Inline function 'kotlin.let' call
-      raw.h(new Triple(s, true, to(tmp1_safe_receiver, meta$dmg(atk, s, tmp1_safe_receiver, Companion_getInstance_13().u21_1.r(2)))));
+      raw.h(new Triple(s, true, to(tmp1_safe_receiver, meta$dmg(atk, s, tmp1_safe_receiver, Companion_getInstance_13().q22_1.r(2)))));
     }
   }
   // Inline function 'kotlin.collections.groupBy' call
@@ -11539,7 +11838,7 @@ protoOf(MaxCalc).f22 = function () {
     // Inline function 'kotlin.collections.sortedByDescending' call
     // Inline function 'kotlin.comparisons.compareByDescending' call
     var tmp_4 = MaxCalc$meta$lambda;
-    var tmp$ret$44 = new sam$kotlin_Comparator$0_5(tmp_4);
+    var tmp$ret$44 = new sam$kotlin_Comparator$0_6(tmp_4);
     // Inline function 'kotlin.collections.distinctBy' call
     var this_0 = sortedWith(list_1, tmp$ret$44);
     var set_0 = HashSet_init_$Create$();
@@ -11568,8 +11867,8 @@ protoOf(MaxCalc).f22 = function () {
   }
   return destination_4;
 };
-protoOf(MaxCalc).g22 = function (p, boss, level, attack, guard) {
-  var tmp0_elvis_lhs = this.l21_1.k1g().c2(p.o1l_1);
+protoOf(MaxCalc).c23 = function (p, boss, level, attack, guard) {
+  var tmp0_elvis_lhs = this.h22_1.k1g().c2(p.o1l_1);
   var tmp;
   if (tmp0_elvis_lhs == null) {
     return null;
@@ -11577,14 +11876,14 @@ protoOf(MaxCalc).g22 = function (p, boss, level, attack, guard) {
     tmp = tmp0_elvis_lhs;
   }
   var species = tmp;
-  var cpm = this.l21_1.t1g().c1h(level);
+  var cpm = this.h22_1.t1g().c1h(level);
   var atk = (species.e1f_1 + p.r1l_1 | 0) * cpm;
   var def = (species.f1f_1 + p.s1l_1 | 0) * cpm;
   // Inline function 'kotlin.math.floor' call
   var x = (species.g1f_1 + p.t1l_1 | 0) * cpm;
   var tmp$ret$0 = Math.floor(x);
   var hp = coerceAtLeast_0(tmp$ret$0, 10.0);
-  var bossDef = (boss.o20_1.f1f_1 + 15 | 0) * 0.79;
+  var bossDef = (boss.k21_1.f1f_1 + 15 | 0) * 0.79;
   // Inline function 'kotlin.collections.mapNotNull' call
   var tmp0 = species.i1f_1;
   // Inline function 'kotlin.collections.mapNotNullTo' call
@@ -11593,7 +11892,7 @@ protoOf(MaxCalc).g22 = function (p, boss, level, attack, guard) {
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = this.m21_1.c2(element);
+    var tmp0_safe_receiver = this.i22_1.c2(element);
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -11607,7 +11906,7 @@ protoOf(MaxCalc).g22 = function (p, boss, level, attack, guard) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
-    if (element_0.w1x() && element_0.k1k_1 > 0) {
+    if (element_0.x1x() && element_0.k1k_1 > 0) {
       destination_0.h(element_0);
     }
   }
@@ -11619,7 +11918,7 @@ protoOf(MaxCalc).g22 = function (p, boss, level, attack, guard) {
     tmp_0 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_0 = this.m21_1.c2(tmp1_safe_receiver);
+    tmp_0 = this.i22_1.c2(tmp1_safe_receiver);
   }
   var tmp2_safe_receiver = tmp_0;
   var tmp_1;
@@ -11628,7 +11927,7 @@ protoOf(MaxCalc).g22 = function (p, boss, level, attack, guard) {
   } else {
     // Inline function 'kotlin.takeIf' call
     var tmp_2;
-    if (tmp2_safe_receiver.w1x()) {
+    if (tmp2_safe_receiver.x1x()) {
       tmp_2 = tmp2_safe_receiver;
     } else {
       tmp_2 = null;
@@ -11674,7 +11973,7 @@ protoOf(MaxCalc).g22 = function (p, boss, level, attack, guard) {
     }
     fast = tmp_3;
     type = gmax;
-    damage = rate$hit(boss, species, atk, bossDef, gmax, this.e22(attack, true));
+    damage = rate$hit(boss, species, atk, bossDef, gmax, this.a23(attack, true));
   } else {
     var tmp_4;
     if (known == null) {
@@ -11692,21 +11991,21 @@ protoOf(MaxCalc).g22 = function (p, boss, level, attack, guard) {
       tmp_6 = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp_6 = rate$hit(boss, species, atk, bossDef, tmp6_safe_receiver.d1k_1, this.e22(attack, false));
+      tmp_6 = rate$hit(boss, species, atk, bossDef, tmp6_safe_receiver.d1k_1, this.a23(attack, false));
     }
     var tmp7_elvis_lhs = tmp_6;
     damage = tmp7_elvis_lhs == null ? 0.0 : tmp7_elvis_lhs;
   }
   var w = weakness(this, boss, species.h1f_1);
-  return new Pick(p, species, !(gmax == null), fast, type, damage, def * (hp + Companion_getInstance_13().v21_1.r(coerceIn(guard, 0, 3))) / w, w);
+  return new Pick(p, species, !(gmax == null), fast, type, damage, def * (hp + Companion_getInstance_13().r22_1.r(coerceIn(guard, 0, 3))) / w, w);
 };
-protoOf(MaxCalc).h22 = function (p, boss, level, attack, guard, $super) {
+protoOf(MaxCalc).d23 = function (p, boss, level, attack, guard, $super) {
   level = level === VOID ? p.u1l_1 : level;
   attack = attack === VOID ? p.a1m_1 : attack;
   guard = guard === VOID ? p.b1m_1 : guard;
-  return $super === VOID ? this.g22(p, boss, level, attack, guard) : $super.g22.call(this, p, boss, level, attack, guard);
+  return $super === VOID ? this.c23(p, boss, level, attack, guard) : $super.c23.call(this, p, boss, level, attack, guard);
 };
-protoOf(MaxCalc).i22 = function (saved, boss) {
+protoOf(MaxCalc).e23 = function (saved, boss) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -11724,7 +12023,7 @@ protoOf(MaxCalc).i22 = function (saved, boss) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
-    var tmp0_safe_receiver = this.h22(element_0, boss);
+    var tmp0_safe_receiver = this.d23(element_0, boss);
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -11748,7 +12047,7 @@ protoOf(MaxCalc).i22 = function (saved, boss) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_0 = MaxCalc$team$lambda_1;
-  var tmp$ret$14 = new sam$kotlin_Comparator$0_6(tmp_0);
+  var tmp$ret$14 = new sam$kotlin_Comparator$0_7(tmp_0);
   var rest = sortedWith(destination_1, tmp$ret$14);
   var defenders = take_0(rest, 2);
   var tmp_1;
@@ -11756,7 +12055,7 @@ protoOf(MaxCalc).i22 = function (saved, boss) {
     case 2:
       var a = defenders.r(0);
       var b = defenders.r(1);
-      var aTank = (a.t20_1.b1m_1 - a.t20_1.c1m_1 | 0) >= (b.t20_1.b1m_1 - b.t20_1.c1m_1 | 0);
+      var aTank = (a.p21_1.b1m_1 - a.p21_1.c1m_1 | 0) >= (b.p21_1.b1m_1 - b.p21_1.c1m_1 | 0);
       tmp_1 = aTank ? to(a, b) : to(b, a);
       break;
     case 1:
@@ -11774,7 +12073,7 @@ protoOf(MaxCalc).i22 = function (saved, boss) {
     tmp_2 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_2 = new Member(Role_ATTACKER_getInstance(), attacker, this.j22(attacker, Role_ATTACKER_getInstance(), boss));
+    tmp_2 = new Member(Role_ATTACKER_getInstance(), attacker, this.f23(attacker, Role_ATTACKER_getInstance(), boss));
   }
   var tmp_3 = tmp_2;
   var tmp_4;
@@ -11782,7 +12081,7 @@ protoOf(MaxCalc).i22 = function (saved, boss) {
     tmp_4 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_4 = new Member(Role_TANK_getInstance(), tank, this.j22(tank, Role_TANK_getInstance(), boss));
+    tmp_4 = new Member(Role_TANK_getInstance(), tank, this.f23(tank, Role_TANK_getInstance(), boss));
   }
   var tmp_5 = tmp_4;
   var tmp_6;
@@ -11790,7 +12089,7 @@ protoOf(MaxCalc).i22 = function (saved, boss) {
     tmp_6 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_6 = new Member(Role_HEALER_getInstance(), healer, this.j22(healer, Role_HEALER_getInstance(), boss));
+    tmp_6 = new Member(Role_HEALER_getInstance(), healer, this.f23(healer, Role_HEALER_getInstance(), boss));
   }
   var members = listOfNotNull([tmp_3, tmp_5, tmp_6]);
   // Inline function 'kotlin.collections.map' call
@@ -11799,7 +12098,7 @@ protoOf(MaxCalc).i22 = function (saved, boss) {
   var _iterator__ex2g4s_2 = members.i();
   while (_iterator__ex2g4s_2.j()) {
     var item = _iterator__ex2g4s_2.k();
-    var tmp$ret$23 = item.g21_1.t20_1.n1l_1;
+    var tmp$ret$23 = item.c22_1.p21_1.n1l_1;
     destination_2.h(tmp$ret$23);
   }
   var used = toSet(destination_2);
@@ -11809,14 +12108,14 @@ protoOf(MaxCalc).i22 = function (saved, boss) {
   var _iterator__ex2g4s_3 = picks.i();
   while (_iterator__ex2g4s_3.j()) {
     var element_2 = _iterator__ex2g4s_3.k();
-    if (!used.t(element_2.t20_1.n1l_1)) {
+    if (!used.t(element_2.p21_1.n1l_1)) {
       destination_3.h(element_2);
     }
   }
   var tmp_7 = destination_3;
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_8 = MaxCalc$team$lambda_2(attacker, rest);
-  var tmp$ret$27 = new sam$kotlin_Comparator$0_6(tmp_8);
+  var tmp$ret$27 = new sam$kotlin_Comparator$0_7(tmp_8);
   var bench = sortedWith(tmp_7, tmp$ret$27);
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
@@ -11824,31 +12123,31 @@ protoOf(MaxCalc).i22 = function (saved, boss) {
   var _iterator__ex2g4s_4 = saved.i();
   while (_iterator__ex2g4s_4.j()) {
     var element_3 = _iterator__ex2g4s_4.k();
-    if (element_3.z1l_1 === 0 && element_3.m1n(this.l21_1)) {
+    if (element_3.z1l_1 === 0 && element_3.m1n(this.h22_1)) {
       destination_4.h(element_3);
     }
   }
   var unmarked = destination_4;
   return new Team(members, bench, unmarked);
 };
-protoOf(MaxCalc).j22 = function (pick, role, boss) {
-  var p = pick.t20_1;
-  var tmp0_safe_receiver = pick.u20_1.q1f_1;
+protoOf(MaxCalc).f23 = function (pick, role, boss) {
+  var p = pick.p21_1;
+  var tmp0_safe_receiver = pick.q21_1.q1f_1;
   var tmp;
   if (tmp0_safe_receiver == null) {
     tmp = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp = this.l21_1.e1g_1.c2(tmp0_safe_receiver);
+    tmp = this.h22_1.e1g_1.c2(tmp0_safe_receiver);
   }
   var group = tmp;
   var out = ArrayList_init_$Create$_0();
   if (p.u1l_1 < 40.0) {
-    var tmp1_elvis_lhs = this.h22(p, boss, 40.0);
+    var tmp1_elvis_lhs = this.d23(p, boss, 40.0);
     var up = tmp1_elvis_lhs == null ? pick : tmp1_elvis_lhs;
-    var gain = role.equals(Role_ATTACKER_getInstance()) ? advice$pct(up.y20_1, pick.y20_1) : advice$pct(up.z20_1, pick.z20_1);
-    var cost = this.l21_1.h1i().l1i(p.u1l_1, 40.0, p.v1l_1);
-    var tmp_0 = Companion_getInstance_13().a22(cost.m1i_1) + ' Sternenstaub';
+    var gain = role.equals(Role_ATTACKER_getInstance()) ? advice$pct(up.u21_1, pick.u21_1) : advice$pct(up.v21_1, pick.v21_1);
+    var cost = this.h22_1.h1i().l1i(p.u1l_1, 40.0, p.v1l_1);
+    var tmp_0 = Companion_getInstance_13().w22(cost.m1i_1) + ' Sternenstaub';
     // Inline function 'kotlin.takeIf' call
     var this_0 = cost.n1i_1;
     var tmp_1;
@@ -11890,8 +12189,8 @@ protoOf(MaxCalc).j22 = function (pick, role, boss) {
     case 0:
       if (p.a1m_1 < 3) {
         var next = p.a1m_1 + 1 | 0;
-        var gain_0 = advice$pct(this.e22(next, pick.v20_1), this.e22(p.a1m_1, pick.v20_1));
-        var name = pick.v20_1 ? 'G-Max-Angriff' : 'Dyna-Angriff';
+        var gain_0 = advice$pct(this.a23(next, pick.r21_1), this.a23(p.a1m_1, pick.r21_1));
+        var name = pick.r21_1 ? 'G-Max-Angriff' : 'Dyna-Angriff';
         out.h(new Advice(name + ' auf Stufe ' + next + ': +' + gain_0 + ' % Schaden', gain_0, advice$stepCost(group, 0, next)));
       }
 
@@ -11899,9 +12198,9 @@ protoOf(MaxCalc).j22 = function (pick, role, boss) {
     case 1:
       if (p.b1m_1 < 3) {
         var next_0 = p.b1m_1 + 1 | 0;
-        var tmp5_elvis_lhs = this.h22(p, boss, VOID, VOID, next_0);
+        var tmp5_elvis_lhs = this.d23(p, boss, VOID, VOID, next_0);
         var up_0 = tmp5_elvis_lhs == null ? pick : tmp5_elvis_lhs;
-        var gain_1 = advice$pct(up_0.z20_1, pick.z20_1);
+        var gain_1 = advice$pct(up_0.v21_1, pick.v21_1);
         var text = p.b1m_1 === 0 ? 'Dyna-Schild freischalten' : 'Dyna-Schild auf Stufe ' + next_0;
         out.h(new Advice(text + ': +' + gain_1 + ' % aushalten', gain_1, advice$stepCost(group, 1, next_0)));
       }
@@ -11910,9 +12209,9 @@ protoOf(MaxCalc).j22 = function (pick, role, boss) {
     case 2:
       if (p.c1m_1 < 3) {
         var next_1 = p.c1m_1 + 1 | 0;
-        var now = Companion_getInstance_13().w21_1.r(p.c1m_1);
-        var text_0 = p.c1m_1 === 0 ? 'Dyna-Geist freischalten: heilt das Team um ' + Companion_getInstance_13().w21_1.r(1) + ' %' : 'Dyna-Geist auf Stufe ' + next_1 + ': heilt ' + Companion_getInstance_13().w21_1.r(next_1) + ' % statt ' + now + ' %';
-        var gain_2 = now === 0 ? 100 : advice$pct(Companion_getInstance_13().w21_1.r(next_1), now);
+        var now = Companion_getInstance_13().s22_1.r(p.c1m_1);
+        var text_0 = p.c1m_1 === 0 ? 'Dyna-Geist freischalten: heilt das Team um ' + Companion_getInstance_13().s22_1.r(1) + ' %' : 'Dyna-Geist auf Stufe ' + next_1 + ': heilt ' + Companion_getInstance_13().s22_1.r(next_1) + ' % statt ' + now + ' %';
+        var gain_2 = now === 0 ? 100 : advice$pct(Companion_getInstance_13().s22_1.r(next_1), now);
         out.h(new Advice(text_0, gain_2, advice$stepCost(group, 2, next_1)));
       }
 
@@ -11924,7 +12223,7 @@ protoOf(MaxCalc).j22 = function (pick, role, boss) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_6 = MaxCalc$advice$lambda;
-  var tmp$ret$11 = new sam$kotlin_Comparator$0_7(tmp_6);
+  var tmp$ret$11 = new sam$kotlin_Comparator$0_8(tmp_6);
   return sortedWith(out, tmp$ret$11);
 };
 function Companion_14() {
@@ -11944,23 +12243,23 @@ function $serializer_12() {
   tmp0_serialDesc.rt('giga', false);
   tmp0_serialDesc.rt('start', false);
   tmp0_serialDesc.rt('end', false);
-  this.k22_1 = tmp0_serialDesc;
+  this.g23_1 = tmp0_serialDesc;
 }
-protoOf($serializer_12).l22 = function (encoder, value) {
-  var tmp0_desc = this.k22_1;
+protoOf($serializer_12).h23 = function (encoder, value) {
+  var tmp0_desc = this.g23_1;
   var tmp1_output = encoder.kn(tmp0_desc);
-  tmp1_output.zo(tmp0_desc, 0, value.m22_1);
-  tmp1_output.zo(tmp0_desc, 1, value.n22_1);
-  tmp1_output.ro(tmp0_desc, 2, value.o22_1);
-  tmp1_output.zo(tmp0_desc, 3, value.p22_1);
-  tmp1_output.zo(tmp0_desc, 4, value.q22_1);
+  tmp1_output.zo(tmp0_desc, 0, value.i23_1);
+  tmp1_output.zo(tmp0_desc, 1, value.j23_1);
+  tmp1_output.ro(tmp0_desc, 2, value.k23_1);
+  tmp1_output.zo(tmp0_desc, 3, value.l23_1);
+  tmp1_output.zo(tmp0_desc, 4, value.m23_1);
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_12).tk = function (encoder, value) {
-  return this.l22(encoder, value instanceof Entry_0 ? value : THROW_CCE());
+  return this.h23(encoder, value instanceof Entry_0 ? value : THROW_CCE());
 };
 protoOf($serializer_12).uk = function (decoder) {
-  var tmp0_desc = this.k22_1;
+  var tmp0_desc = this.g23_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -12016,7 +12315,7 @@ protoOf($serializer_12).uk = function (decoder) {
   return Entry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, null);
 };
 protoOf($serializer_12).sk = function () {
-  return this.k22_1;
+  return this.g23_1;
 };
 protoOf($serializer_12).gu = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -12032,34 +12331,34 @@ function $serializer_getInstance_12() {
 }
 function Entry_init_$Init$(seen0, title, speciesId, giga, start, end, serializationConstructorMarker, $this) {
   if (!(31 === (31 & seen0))) {
-    throwMissingFieldException(seen0, 31, $serializer_getInstance_12().k22_1);
+    throwMissingFieldException(seen0, 31, $serializer_getInstance_12().g23_1);
   }
-  $this.m22_1 = title;
-  $this.n22_1 = speciesId;
-  $this.o22_1 = giga;
-  $this.p22_1 = start;
-  $this.q22_1 = end;
+  $this.i23_1 = title;
+  $this.j23_1 = speciesId;
+  $this.k23_1 = giga;
+  $this.l23_1 = start;
+  $this.m23_1 = end;
   return $this;
 }
 function Entry_init_$Create$(seen0, title, speciesId, giga, start, end, serializationConstructorMarker) {
   return Entry_init_$Init$(seen0, title, speciesId, giga, start, end, serializationConstructorMarker, objectCreate(protoOf(Entry_0)));
 }
 function Entry_0(title, speciesId, giga, start, end) {
-  this.m22_1 = title;
-  this.n22_1 = speciesId;
-  this.o22_1 = giga;
-  this.p22_1 = start;
-  this.q22_1 = end;
+  this.i23_1 = title;
+  this.j23_1 = speciesId;
+  this.k23_1 = giga;
+  this.l23_1 = start;
+  this.m23_1 = end;
 }
 protoOf(Entry_0).toString = function () {
-  return 'Entry(title=' + this.m22_1 + ', speciesId=' + this.n22_1 + ', giga=' + this.o22_1 + ', start=' + this.p22_1 + ', end=' + this.q22_1 + ')';
+  return 'Entry(title=' + this.i23_1 + ', speciesId=' + this.j23_1 + ', giga=' + this.k23_1 + ', start=' + this.l23_1 + ', end=' + this.m23_1 + ')';
 };
 protoOf(Entry_0).hashCode = function () {
-  var result = getStringHashCode(this.m22_1);
-  result = imul(result, 31) + getStringHashCode(this.n22_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.o22_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.p22_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.q22_1) | 0;
+  var result = getStringHashCode(this.i23_1);
+  result = imul(result, 31) + getStringHashCode(this.j23_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.k23_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.l23_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.m23_1) | 0;
   return result;
 };
 protoOf(Entry_0).equals = function (other) {
@@ -12067,31 +12366,31 @@ protoOf(Entry_0).equals = function (other) {
     return true;
   if (!(other instanceof Entry_0))
     return false;
-  if (!(this.m22_1 === other.m22_1))
+  if (!(this.i23_1 === other.i23_1))
     return false;
-  if (!(this.n22_1 === other.n22_1))
+  if (!(this.j23_1 === other.j23_1))
     return false;
-  if (!(this.o22_1 === other.o22_1))
+  if (!(this.k23_1 === other.k23_1))
     return false;
-  if (!(this.p22_1 === other.p22_1))
+  if (!(this.l23_1 === other.l23_1))
     return false;
-  if (!(this.q22_1 === other.q22_1))
+  if (!(this.m23_1 === other.m23_1))
     return false;
   return true;
 };
-function sam$kotlin_Comparator$0_8(function_0) {
-  this.r22_1 = function_0;
+function sam$kotlin_Comparator$0_9(function_0) {
+  this.n23_1 = function_0;
 }
-protoOf(sam$kotlin_Comparator$0_8).uc = function (a, b) {
-  return this.r22_1(a, b);
+protoOf(sam$kotlin_Comparator$0_9).uc = function (a, b) {
+  return this.n23_1(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_8).compare = function (a, b) {
+protoOf(sam$kotlin_Comparator$0_9).compare = function (a, b) {
   return this.uc(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_8).t2 = function () {
-  return this.r22_1;
+protoOf(sam$kotlin_Comparator$0_9).t2 = function () {
+  return this.n23_1;
 };
-protoOf(sam$kotlin_Comparator$0_8).equals = function (other) {
+protoOf(sam$kotlin_Comparator$0_9).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, Comparator) : false) {
     var tmp_0;
@@ -12106,7 +12405,7 @@ protoOf(sam$kotlin_Comparator$0_8).equals = function (other) {
   }
   return tmp;
 };
-protoOf(sam$kotlin_Comparator$0_8).hashCode = function () {
+protoOf(sam$kotlin_Comparator$0_9).hashCode = function () {
   return hashCode(this.t2());
 };
 function MaxEvents$json$lambda($this$Json) {
@@ -12117,24 +12416,24 @@ function parseEvents$s(o, k) {
   var tmp = o.hc(k);
   var tmp0_safe_receiver = tmp instanceof JsonPrimitive ? tmp : null;
   // Inline function 'kotlin.text.orEmpty' call
-  var tmp0_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.q14();
+  var tmp0_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.u14();
   return tmp0_elvis_lhs == null ? '' : tmp0_elvis_lhs;
 }
 function MaxEvents$parseEvents$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = a.p22_1;
-  var tmp$ret$2 = b.p22_1;
+  var tmp = a.l23_1;
+  var tmp$ret$2 = b.l23_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function MaxEvents() {
   MaxEvents_instance = this;
-  this.s22_1 = ListSerializer(Companion_instance_16.e1n());
+  this.o23_1 = ListSerializer(Companion_instance_16.e1n());
   var tmp = this;
-  tmp.t22_1 = Json(VOID, MaxEvents$json$lambda);
-  this.u22_1 = Regex_init_$Create$("(Dynamax|Gigantamax|Eternamax)\\s+([A-Z][\\w'\u2019.\\-]*(?:\\s+\\([^)]*\\))?)");
+  tmp.p23_1 = Json(VOID, MaxEvents$json$lambda);
+  this.q23_1 = Regex_init_$Create$("(Dynamax|Gigantamax|Eternamax)\\s+([A-Z][\\w'\u2019.\\-]*(?:\\s+\\([^)]*\\))?)");
 }
-protoOf(MaxEvents).v22 = function (list) {
-  return this.t22_1.g12(this.s22_1, list);
+protoOf(MaxEvents).r23 = function (list) {
+  return this.p23_1.g12(this.o23_1, list);
 };
 protoOf(MaxEvents).e1p = function (text) {
   var tmp;
@@ -12147,7 +12446,7 @@ protoOf(MaxEvents).e1p = function (text) {
     var tmp_0;
     try {
       // Inline function 'kotlin.Companion.success' call
-      var value = this_0.t22_1.h12(this_0.s22_1, text);
+      var value = this_0.p23_1.h12(this_0.o23_1, text);
       tmp_0 = _Result___init__impl__xyqfz8(value);
     } catch ($p) {
       var tmp_1;
@@ -12169,7 +12468,7 @@ protoOf(MaxEvents).e1p = function (text) {
   return tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
 };
 protoOf(MaxEvents).x1u = function (title, data) {
-  var tmp0_safe_receiver = this.u22_1.pb(title);
+  var tmp0_safe_receiver = this.q23_1.pb(title);
   if (tmp0_safe_receiver == null)
     null;
   else {
@@ -12215,7 +12514,7 @@ protoOf(MaxEvents).x1u = function (title, data) {
   }
   return tmp_2;
 };
-protoOf(MaxEvents).w22 = function (text, data, now) {
+protoOf(MaxEvents).s23 = function (text, data, now) {
   var tmp = Default_getInstance().i12(text);
   var tmp0_elvis_lhs = tmp instanceof JsonArray ? tmp : null;
   var tmp_0;
@@ -12311,7 +12610,7 @@ protoOf(MaxEvents).w22 = function (text, data, now) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var e = _iterator__ex2g4s_0.k();
-    var key_0 = to(e.n22_1, e.p22_1);
+    var key_0 = to(e.j23_1, e.l23_1);
     if (set.h(key_0)) {
       list.h(e);
     }
@@ -12319,7 +12618,7 @@ protoOf(MaxEvents).w22 = function (text, data, now) {
   // Inline function 'kotlin.collections.sortedBy' call
   // Inline function 'kotlin.comparisons.compareBy' call
   var tmp_7 = MaxEvents$parseEvents$lambda;
-  var tmp$ret$13 = new sam$kotlin_Comparator$0_8(tmp_7);
+  var tmp$ret$13 = new sam$kotlin_Comparator$0_9(tmp_7);
   return sortedWith(list, tmp$ret$13);
 };
 var MaxEvents_instance;
@@ -12354,7 +12653,7 @@ function index($this, data) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
-    var key = Companion_getInstance_16().x22(element_0.a1f_1);
+    var key = Companion_getInstance_16().t23(element_0.a1f_1);
     // Inline function 'kotlin.collections.getOrPut' call
     var value = destination_0.c2(key);
     var tmp;
@@ -12386,19 +12685,19 @@ function index($this, data) {
   $this.j1n_1 = to(data, map);
   return map;
 }
-function sam$kotlin_Comparator$0_9(function_0) {
-  this.y22_1 = function_0;
+function sam$kotlin_Comparator$0_10(function_0) {
+  this.u23_1 = function_0;
 }
-protoOf(sam$kotlin_Comparator$0_9).uc = function (a, b) {
-  return this.y22_1(a, b);
+protoOf(sam$kotlin_Comparator$0_10).uc = function (a, b) {
+  return this.u23_1(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_9).compare = function (a, b) {
+protoOf(sam$kotlin_Comparator$0_10).compare = function (a, b) {
   return this.uc(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_9).t2 = function () {
-  return this.y22_1;
+protoOf(sam$kotlin_Comparator$0_10).t2 = function () {
+  return this.u23_1;
 };
-protoOf(sam$kotlin_Comparator$0_9).equals = function (other) {
+protoOf(sam$kotlin_Comparator$0_10).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, Comparator) : false) {
     var tmp_0;
@@ -12413,13 +12712,13 @@ protoOf(sam$kotlin_Comparator$0_9).equals = function (other) {
   }
   return tmp;
 };
-protoOf(sam$kotlin_Comparator$0_9).hashCode = function () {
+protoOf(sam$kotlin_Comparator$0_10).hashCode = function () {
   return hashCode(this.t2());
 };
 function Mega$counters$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.d23_1.k23();
-  var tmp$ret$2 = a.d23_1.k23();
+  var tmp = b.z23_1.g24();
+  var tmp$ret$2 = a.z23_1.g24();
   return compareValues(tmp, tmp$ret$2);
 }
 function Mega() {
@@ -12432,8 +12731,8 @@ protoOf(Mega).k1n = function (data, speciesId) {
   var tmp0_elvis_lhs = index(this, data).c2(speciesId);
   return tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
 };
-protoOf(Mega).l23 = function (calc, data, saved, boss, weather) {
-  var normal = calc.o23(saved, boss, weather);
+protoOf(Mega).h24 = function (calc, data, saved, boss, weather) {
+  var normal = calc.k24(saved, boss, weather);
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -12458,7 +12757,7 @@ protoOf(Mega).l23 = function (calc, data, saved, boss, weather) {
     var _iterator__ex2g4s_1 = tmp0.i();
     while (_iterator__ex2g4s_1.j()) {
       var element_1 = _iterator__ex2g4s_1.k();
-      var tmp0_safe_receiver = calc.p23(element_1, element_0.g1m(), element_0.u1l_1, false, boss, weather, true);
+      var tmp0_safe_receiver = calc.l24(element_1, element_0.g1m(), element_0.u1l_1, false, boss, weather, true);
       var tmp;
       if (tmp0_safe_receiver == null) {
         tmp = null;
@@ -12485,7 +12784,7 @@ protoOf(Mega).l23 = function (calc, data, saved, boss, weather) {
   var _iterator__ex2g4s_2 = tmp0_0.i();
   while (_iterator__ex2g4s_2.j()) {
     var element_2 = _iterator__ex2g4s_2.k();
-    var key = element_2.f23_1;
+    var key = element_2.b24_1;
     // Inline function 'kotlin.collections.getOrPut' call
     var value = destination_2.c2(key);
     var tmp_0;
@@ -12517,10 +12816,10 @@ protoOf(Mega).l23 = function (calc, data, saved, boss, weather) {
         tmp$ret$23 = maxElem;
         break $l$block;
       }
-      var maxValue = maxElem.d23_1.k23();
+      var maxValue = maxElem.z23_1.g24();
       do {
         var e = iterator.k();
-        var v = e.d23_1.k23();
+        var v = e.z23_1.g24();
         if (compareTo(maxValue, v) < 0) {
           maxElem = e;
           maxValue = v;
@@ -12535,7 +12834,7 @@ protoOf(Mega).l23 = function (calc, data, saved, boss, weather) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_1 = Mega$counters$lambda;
-  var tmp$ret$27 = new sam$kotlin_Comparator$0_9(tmp_1);
+  var tmp$ret$27 = new sam$kotlin_Comparator$0_10(tmp_1);
   return sortedWith(destination_3, tmp$ret$27);
 };
 var Mega_instance;
@@ -12544,11 +12843,11 @@ function Mega_getInstance() {
     new Mega();
   return Mega_instance;
 }
-var static_init_called_9;
-function static_init_9() {
-  if (static_init_called_9)
+var static_init_called_10;
+function static_init_10() {
+  if (static_init_called_10)
     return Unit_instance;
-  static_init_called_9 = true;
+  static_init_called_10 = true;
   Own_HAVE_instance = new Own('HAVE', 0, '\u2713', 'Hast du');
   Own_FAMILY_instance = new Own('FAMILY', 1, '\u25D0', 'Familie da');
   Own_MISSING_instance = new Own('MISSING', 2, '\u2013', 'Fehlt');
@@ -12558,86 +12857,86 @@ var Own_FAMILY_instance;
 var Own_MISSING_instance;
 function Own(name, ordinal, icon, label) {
   Enum.call(this, name, ordinal);
-  this.s23_1 = icon;
-  this.t23_1 = label;
+  this.o24_1 = icon;
+  this.p24_1 = label;
 }
-function Row(place, species, shadow, score, moves, own, best, bestRank, bestPercent, evolveFrom) {
+function Row_0(place, species, shadow, score, moves, own, best, bestRank, bestPercent, evolveFrom) {
   best = best === VOID ? null : best;
   bestRank = bestRank === VOID ? null : bestRank;
   bestPercent = bestPercent === VOID ? null : bestPercent;
   evolveFrom = evolveFrom === VOID ? null : evolveFrom;
-  this.u23_1 = place;
-  this.v23_1 = species;
-  this.w23_1 = shadow;
-  this.x23_1 = score;
-  this.y23_1 = moves;
-  this.z23_1 = own;
-  this.a24_1 = best;
-  this.b24_1 = bestRank;
-  this.c24_1 = bestPercent;
-  this.d24_1 = evolveFrom;
+  this.q24_1 = place;
+  this.r24_1 = species;
+  this.s24_1 = shadow;
+  this.t24_1 = score;
+  this.u24_1 = moves;
+  this.v24_1 = own;
+  this.w24_1 = best;
+  this.x24_1 = bestRank;
+  this.y24_1 = bestPercent;
+  this.z24_1 = evolveFrom;
 }
-protoOf(Row).e24 = function () {
-  return this.v23_1.c1f_1 + (this.w23_1 ? ' (Crypto)' : '');
+protoOf(Row_0).a25 = function () {
+  return this.r24_1.c1f_1 + (this.s24_1 ? ' (Crypto)' : '');
 };
-protoOf(Row).toString = function () {
-  return 'Row(place=' + this.u23_1 + ', species=' + this.v23_1.toString() + ', shadow=' + this.w23_1 + ', score=' + this.x23_1 + ', moves=' + toString_0(this.y23_1) + ', own=' + this.z23_1.toString() + ', best=' + toString(this.a24_1) + ', bestRank=' + this.b24_1 + ', bestPercent=' + this.c24_1 + ', evolveFrom=' + toString(this.d24_1) + ')';
+protoOf(Row_0).toString = function () {
+  return 'Row(place=' + this.q24_1 + ', species=' + this.r24_1.toString() + ', shadow=' + this.s24_1 + ', score=' + this.t24_1 + ', moves=' + toString_0(this.u24_1) + ', own=' + this.v24_1.toString() + ', best=' + toString(this.w24_1) + ', bestRank=' + this.x24_1 + ', bestPercent=' + this.y24_1 + ', evolveFrom=' + toString(this.z24_1) + ')';
 };
-protoOf(Row).hashCode = function () {
-  var result = this.u23_1;
-  result = imul(result, 31) + this.v23_1.hashCode() | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.w23_1) | 0;
-  result = imul(result, 31) + getNumberHashCode(this.x23_1) | 0;
-  result = imul(result, 31) + hashCode(this.y23_1) | 0;
-  result = imul(result, 31) + this.z23_1.hashCode() | 0;
-  result = imul(result, 31) + (this.a24_1 == null ? 0 : this.a24_1.hashCode()) | 0;
-  result = imul(result, 31) + (this.b24_1 == null ? 0 : this.b24_1) | 0;
-  result = imul(result, 31) + (this.c24_1 == null ? 0 : getNumberHashCode(this.c24_1)) | 0;
-  result = imul(result, 31) + (this.d24_1 == null ? 0 : this.d24_1.hashCode()) | 0;
+protoOf(Row_0).hashCode = function () {
+  var result = this.q24_1;
+  result = imul(result, 31) + this.r24_1.hashCode() | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.s24_1) | 0;
+  result = imul(result, 31) + getNumberHashCode(this.t24_1) | 0;
+  result = imul(result, 31) + hashCode(this.u24_1) | 0;
+  result = imul(result, 31) + this.v24_1.hashCode() | 0;
+  result = imul(result, 31) + (this.w24_1 == null ? 0 : this.w24_1.hashCode()) | 0;
+  result = imul(result, 31) + (this.x24_1 == null ? 0 : this.x24_1) | 0;
+  result = imul(result, 31) + (this.y24_1 == null ? 0 : getNumberHashCode(this.y24_1)) | 0;
+  result = imul(result, 31) + (this.z24_1 == null ? 0 : this.z24_1.hashCode()) | 0;
   return result;
 };
-protoOf(Row).equals = function (other) {
+protoOf(Row_0).equals = function (other) {
   if (this === other)
     return true;
-  if (!(other instanceof Row))
+  if (!(other instanceof Row_0))
     return false;
-  if (!(this.u23_1 === other.u23_1))
+  if (!(this.q24_1 === other.q24_1))
     return false;
-  if (!this.v23_1.equals(other.v23_1))
+  if (!this.r24_1.equals(other.r24_1))
     return false;
-  if (!(this.w23_1 === other.w23_1))
+  if (!(this.s24_1 === other.s24_1))
     return false;
-  if (!equals(this.x23_1, other.x23_1))
+  if (!equals(this.t24_1, other.t24_1))
     return false;
-  if (!equals(this.y23_1, other.y23_1))
+  if (!equals(this.u24_1, other.u24_1))
     return false;
-  if (!this.z23_1.equals(other.z23_1))
+  if (!this.v24_1.equals(other.v24_1))
     return false;
-  if (!equals(this.a24_1, other.a24_1))
+  if (!equals(this.w24_1, other.w24_1))
     return false;
-  if (!(this.b24_1 == other.b24_1))
+  if (!(this.x24_1 == other.x24_1))
     return false;
-  if (!equals(this.c24_1, other.c24_1))
+  if (!equals(this.y24_1, other.y24_1))
     return false;
-  if (!equals(this.d24_1, other.d24_1))
+  if (!equals(this.z24_1, other.z24_1))
     return false;
   return true;
 };
 function Own_HAVE_getInstance() {
-  static_init_9();
+  static_init_10();
   return Own_HAVE_instance;
 }
 function Own_FAMILY_getInstance() {
-  static_init_9();
+  static_init_10();
   return Own_FAMILY_instance;
 }
 function Own_MISSING_getInstance() {
-  static_init_9();
+  static_init_10();
   return Own_MISSING_instance;
 }
 function MetaList() {
 }
-protoOf(MetaList).f24 = function (data, analyzer, saved, ranking, league, limit) {
+protoOf(MetaList).b25 = function (data, analyzer, saved, ranking, league, limit) {
   var top = take_0(ranking, limit);
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
@@ -12750,10 +13049,10 @@ protoOf(MetaList).f24 = function (data, analyzer, saved, ranking, league, limit)
           tmp_6 = null;
         }
         var tmp$ret$15 = tmp_6;
-        tmp_2 = new Row(tmp_3, species, shadow, item_1.s1i_1, moves, tmp_4, p_0, tmp_5, e_0.e1e_1.p1e_1, tmp$ret$15);
+        tmp_2 = new Row_0(tmp_3, species, shadow, item_1.s1i_1, moves, tmp_4, p_0, tmp_5, e_0.e1e_1.p1e_1, tmp$ret$15);
       } else {
         var own = families.t(analyzer.f1h(species.a1f_1)) ? Own_FAMILY_getInstance() : Own_MISSING_getInstance();
-        tmp_2 = new Row(tmp0 + 1 | 0, species, shadow, item_1.s1i_1, moves, own);
+        tmp_2 = new Row_0(tmp0 + 1 | 0, species, shadow, item_1.s1i_1, moves, own);
       }
       tmp$ret$11 = tmp_2;
     }
@@ -12867,21 +13166,21 @@ function Feed(items, eventNames, details, research, codes) {
   details = details === VOID ? emptyMap() : details;
   research = research === VOID ? emptyMap() : research;
   codes = codes === VOID ? emptyList() : codes;
-  this.g24_1 = items;
-  this.h24_1 = eventNames;
-  this.i24_1 = details;
-  this.j24_1 = research;
-  this.k24_1 = codes;
+  this.c25_1 = items;
+  this.d25_1 = eventNames;
+  this.e25_1 = details;
+  this.f25_1 = research;
+  this.g25_1 = codes;
 }
 protoOf(Feed).toString = function () {
-  return 'Feed(items=' + toString_0(this.g24_1) + ', eventNames=' + toString_0(this.h24_1) + ', details=' + toString_0(this.i24_1) + ', research=' + toString_0(this.j24_1) + ', codes=' + toString_0(this.k24_1) + ')';
+  return 'Feed(items=' + toString_0(this.c25_1) + ', eventNames=' + toString_0(this.d25_1) + ', details=' + toString_0(this.e25_1) + ', research=' + toString_0(this.f25_1) + ', codes=' + toString_0(this.g25_1) + ')';
 };
 protoOf(Feed).hashCode = function () {
-  var result = hashCode(this.g24_1);
-  result = imul(result, 31) + hashCode(this.h24_1) | 0;
-  result = imul(result, 31) + hashCode(this.i24_1) | 0;
-  result = imul(result, 31) + hashCode(this.j24_1) | 0;
-  result = imul(result, 31) + hashCode(this.k24_1) | 0;
+  var result = hashCode(this.c25_1);
+  result = imul(result, 31) + hashCode(this.d25_1) | 0;
+  result = imul(result, 31) + hashCode(this.e25_1) | 0;
+  result = imul(result, 31) + hashCode(this.f25_1) | 0;
+  result = imul(result, 31) + hashCode(this.g25_1) | 0;
   return result;
 };
 protoOf(Feed).equals = function (other) {
@@ -12889,15 +13188,15 @@ protoOf(Feed).equals = function (other) {
     return true;
   if (!(other instanceof Feed))
     return false;
-  if (!equals(this.g24_1, other.g24_1))
+  if (!equals(this.c25_1, other.c25_1))
     return false;
-  if (!equals(this.h24_1, other.h24_1))
+  if (!equals(this.d25_1, other.d25_1))
     return false;
-  if (!equals(this.i24_1, other.i24_1))
+  if (!equals(this.e25_1, other.e25_1))
     return false;
-  if (!equals(this.j24_1, other.j24_1))
+  if (!equals(this.f25_1, other.f25_1))
     return false;
-  if (!equals(this.k24_1, other.k24_1))
+  if (!equals(this.g25_1, other.g25_1))
     return false;
   return true;
 };
@@ -12998,25 +13297,25 @@ function englishNames($this, data) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_2 = News$englishNames$lambda;
-  var tmp$ret$30 = new sam$kotlin_Comparator$0_10(tmp_2);
+  var tmp$ret$30 = new sam$kotlin_Comparator$0_11(tmp_2);
   tmp.q1v_1 = sortedWith(destination_1, tmp$ret$30);
   $this.p1v_1 = data;
   return $this.q1v_1;
 }
 function Item_0(title, link, date, categories, titleDe) {
   titleDe = titleDe === VOID ? null : titleDe;
-  this.l24_1 = title;
-  this.m24_1 = link;
-  this.n24_1 = date;
-  this.o24_1 = categories;
-  this.p24_1 = titleDe;
+  this.h25_1 = title;
+  this.i25_1 = link;
+  this.j25_1 = date;
+  this.k25_1 = categories;
+  this.l25_1 = titleDe;
 }
-protoOf(Item_0).q24 = function () {
+protoOf(Item_0).m25 = function () {
   var tmp;
-  if (News_getInstance().t1v_1.ob(this.l24_1)) {
+  if (News_getInstance().t1v_1.ob(this.h25_1)) {
     tmp = true;
   } else {
-    var tmp0 = this.o24_1;
+    var tmp0 = this.k25_1;
     var tmp$ret$0;
     $l$block_0: {
       // Inline function 'kotlin.collections.any' call
@@ -13044,8 +13343,8 @@ protoOf(Item_0).q24 = function () {
   }
   return tmp;
 };
-protoOf(Item_0).r24 = function () {
-  var parts = split(this.n24_1, [' ']);
+protoOf(Item_0).n25 = function () {
+  var parts = split(this.j25_1, [' ']);
   if (parts.l() < 3)
     return '';
   // Inline function 'kotlin.takeIf' call
@@ -13075,14 +13374,14 @@ protoOf(Item_0).r24 = function () {
   return padStart(parts.r(1), 2, _Char___init__impl__6a9atx(48)) + '.' + padStart(month.toString(), 2, _Char___init__impl__6a9atx(48)) + '.';
 };
 protoOf(Item_0).toString = function () {
-  return 'Item(title=' + this.l24_1 + ', link=' + this.m24_1 + ', date=' + this.n24_1 + ', categories=' + toString_0(this.o24_1) + ', titleDe=' + this.p24_1 + ')';
+  return 'Item(title=' + this.h25_1 + ', link=' + this.i25_1 + ', date=' + this.j25_1 + ', categories=' + toString_0(this.k25_1) + ', titleDe=' + this.l25_1 + ')';
 };
 protoOf(Item_0).hashCode = function () {
-  var result = getStringHashCode(this.l24_1);
-  result = imul(result, 31) + getStringHashCode(this.m24_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.n24_1) | 0;
-  result = imul(result, 31) + hashCode(this.o24_1) | 0;
-  result = imul(result, 31) + (this.p24_1 == null ? 0 : getStringHashCode(this.p24_1)) | 0;
+  var result = getStringHashCode(this.h25_1);
+  result = imul(result, 31) + getStringHashCode(this.i25_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.j25_1) | 0;
+  result = imul(result, 31) + hashCode(this.k25_1) | 0;
+  result = imul(result, 31) + (this.l25_1 == null ? 0 : getStringHashCode(this.l25_1)) | 0;
   return result;
 };
 protoOf(Item_0).equals = function (other) {
@@ -13090,15 +13389,15 @@ protoOf(Item_0).equals = function (other) {
     return true;
   if (!(other instanceof Item_0))
     return false;
-  if (!(this.l24_1 === other.l24_1))
+  if (!(this.h25_1 === other.h25_1))
     return false;
-  if (!(this.m24_1 === other.m24_1))
+  if (!(this.i25_1 === other.i25_1))
     return false;
-  if (!(this.n24_1 === other.n24_1))
+  if (!(this.j25_1 === other.j25_1))
     return false;
-  if (!equals(this.o24_1, other.o24_1))
+  if (!equals(this.k25_1, other.k25_1))
     return false;
-  if (!(this.p24_1 == other.p24_1))
+  if (!(this.l25_1 == other.l25_1))
     return false;
   return true;
 };
@@ -13129,19 +13428,19 @@ protoOf(Hit_0).equals = function (other) {
     return false;
   return true;
 };
-function sam$kotlin_Comparator$0_10(function_0) {
-  this.s24_1 = function_0;
+function sam$kotlin_Comparator$0_11(function_0) {
+  this.o25_1 = function_0;
 }
-protoOf(sam$kotlin_Comparator$0_10).uc = function (a, b) {
-  return this.s24_1(a, b);
+protoOf(sam$kotlin_Comparator$0_11).uc = function (a, b) {
+  return this.o25_1(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_10).compare = function (a, b) {
+protoOf(sam$kotlin_Comparator$0_11).compare = function (a, b) {
   return this.uc(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_10).t2 = function () {
-  return this.s24_1;
+protoOf(sam$kotlin_Comparator$0_11).t2 = function () {
+  return this.o25_1;
 };
-protoOf(sam$kotlin_Comparator$0_10).equals = function (other) {
+protoOf(sam$kotlin_Comparator$0_11).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, Comparator) : false) {
     var tmp_0;
@@ -13156,7 +13455,7 @@ protoOf(sam$kotlin_Comparator$0_10).equals = function (other) {
   }
   return tmp;
 };
-protoOf(sam$kotlin_Comparator$0_10).hashCode = function () {
+protoOf(sam$kotlin_Comparator$0_11).hashCode = function () {
   return hashCode(this.t2());
 };
 function parseJson$s(o, k) {
@@ -13168,7 +13467,7 @@ function parseJson$s(o, k) {
   } else {
     // Inline function 'kotlin.takeIf' call
     var tmp_1;
-    if (tmp0_safe_receiver.p14()) {
+    if (tmp0_safe_receiver.t14()) {
       tmp_1 = tmp0_safe_receiver;
     } else {
       tmp_1 = null;
@@ -13176,7 +13475,7 @@ function parseJson$s(o, k) {
     tmp_0 = tmp_1;
   }
   var tmp1_safe_receiver = tmp_0;
-  return tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q14();
+  return tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u14();
 }
 function parseJson$strings(o, k) {
   var tmp = o.hc(k);
@@ -13191,7 +13490,7 @@ function parseJson$strings(o, k) {
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
     var tmp0_safe_receiver = element instanceof JsonPrimitive ? element : null;
-    var tmp0_safe_receiver_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.q14();
+    var tmp0_safe_receiver_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.u14();
     if (tmp0_safe_receiver_0 == null)
       null;
     else {
@@ -13212,14 +13511,14 @@ function hits$family($analyzer, id) {
   return tmp1_elvis_lhs == null ? id : tmp1_elvis_lhs;
 }
 function News$hits$$inlined$groupingBy$1($this, $analyzer) {
-  this.t24_1 = $this;
-  this.u24_1 = $analyzer;
+  this.p25_1 = $this;
+  this.q25_1 = $analyzer;
 }
 protoOf(News$hits$$inlined$groupingBy$1).j3 = function () {
-  return this.t24_1.i();
+  return this.p25_1.i();
 };
 protoOf(News$hits$$inlined$groupingBy$1).f1r = function (element) {
-  return hits$family(this.u24_1, element.o1l_1);
+  return hits$family(this.q25_1, element.o1l_1);
 };
 protoOf(News$hits$$inlined$groupingBy$1).k3 = function (element) {
   return this.f1r(element);
@@ -13239,7 +13538,7 @@ function News() {
   this.s1v_1 = listOf(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']);
   this.t1v_1 = Regex_init_$Create$_0('leak|datamin|rumou?r|spotted|teas|coming soon|upcoming|hint|could|might|possible|found in the code|unreleased|placeholder', RegexOption_IGNORE_CASE_getInstance());
 }
-protoOf(News).v24 = function (text) {
+protoOf(News).r25 = function (text) {
   // Inline function 'kotlin.runCatching' call
   var tmp;
   try {
@@ -13288,7 +13587,7 @@ protoOf(News).v24 = function (text) {
         while (_iterator__ex2g4s_0.j()) {
           var element_0 = _iterator__ex2g4s_0.k();
           var tmp0_safe_receiver = element_0 instanceof JsonPrimitive ? element_0 : null;
-          var tmp0_safe_receiver_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.q14();
+          var tmp0_safe_receiver_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.u14();
           if (tmp0_safe_receiver_0 == null)
             null;
           else {
@@ -13314,9 +13613,9 @@ protoOf(News).v24 = function (text) {
       var element_1 = _iterator__ex2g4s_1.k();
       var tmp_7;
       // Inline function 'kotlin.text.isNotEmpty' call
-      var this_0 = element_1.l24_1;
+      var this_0 = element_1.h25_1;
       if (charSequenceLength(this_0) > 0) {
-        tmp_7 = !this.r1v_1.ob(element_1.l24_1);
+        tmp_7 = !this.r1v_1.ob(element_1.h25_1);
       } else {
         tmp_7 = false;
       }
@@ -13342,7 +13641,7 @@ protoOf(News).v24 = function (text) {
       // Inline function 'kotlin.collections.component2' call
       var v = element_2.y();
       var tmp0_safe_receiver_2 = v instanceof JsonPrimitive ? v : null;
-      var tmp1_safe_receiver = tmp0_safe_receiver_2 == null ? null : tmp0_safe_receiver_2.q14();
+      var tmp1_safe_receiver = tmp0_safe_receiver_2 == null ? null : tmp0_safe_receiver_2.u14();
       var tmp_9;
       if (tmp1_safe_receiver == null) {
         tmp_9 = null;
@@ -13444,7 +13743,7 @@ protoOf(News).v24 = function (text) {
                 while (_iterator__ex2g4s_6.j()) {
                   var element_6 = _iterator__ex2g4s_6.k();
                   var tmp0_safe_receiver_4 = element_6 instanceof JsonPrimitive ? element_6 : null;
-                  var tmp0_safe_receiver_5 = tmp0_safe_receiver_4 == null ? null : tmp0_safe_receiver_4.q14();
+                  var tmp0_safe_receiver_5 = tmp0_safe_receiver_4 == null ? null : tmp0_safe_receiver_4.u14();
                   if (tmp0_safe_receiver_5 == null)
                     null;
                   else {
@@ -13505,7 +13804,7 @@ protoOf(News).v24 = function (text) {
             var mo = tmp_19;
             var tmp_20 = mo.hc('fast');
             var tmp1_safe_receiver_0 = tmp_20 instanceof JsonPrimitive ? tmp_20 : null;
-            var fast = (tmp1_safe_receiver_0 == null ? null : tmp1_safe_receiver_0.q14()) === 'true';
+            var fast = (tmp1_safe_receiver_0 == null ? null : tmp1_safe_receiver_0.u14()) === 'true';
             var tmp2_elvis_lhs = parseJson$s(mo, 'pokemon');
             var tmp_21;
             if (tmp2_elvis_lhs == null) {
@@ -13544,7 +13843,7 @@ protoOf(News).v24 = function (text) {
           tmp_25 = this_2;
         }
         var tmp$ret$80 = tmp_25;
-        var tmp_26 = tmp_24.w24(tmp$ret$80);
+        var tmp_26 = tmp_24.s25(tmp$ret$80);
         var tmp_27 = Research_getInstance();
         // Inline function 'kotlin.collections.ifEmpty' call
         var this_3 = parseJson$strings(o_0, 'ticketBonusesDe');
@@ -13555,7 +13854,7 @@ protoOf(News).v24 = function (text) {
           tmp_28 = this_3;
         }
         var tmp$ret$82 = tmp_28;
-        var tmp_29 = tmp_27.w24(tmp$ret$82);
+        var tmp_29 = tmp_27.s25(tmp$ret$82);
         // Inline function 'kotlin.text.orEmpty' call
         var tmp0_elvis_lhs_17 = parseJson$s(o_0, 'ticket');
         var tmp$ret$84 = tmp0_elvis_lhs_17 == null ? '' : tmp0_elvis_lhs_17;
@@ -13587,7 +13886,7 @@ protoOf(News).v24 = function (text) {
       // Inline function 'kotlin.collections.component2' call
       var v_1 = element_8.y();
       var tmp0_safe_receiver_9 = v_1 instanceof JsonPrimitive ? v_1 : null;
-      var tmp1_safe_receiver_1 = tmp0_safe_receiver_9 == null ? null : tmp0_safe_receiver_9.q14();
+      var tmp1_safe_receiver_1 = tmp0_safe_receiver_9 == null ? null : tmp0_safe_receiver_9.u14();
       var tmp_31;
       if (tmp1_safe_receiver_1 == null) {
         tmp_31 = null;
@@ -13624,7 +13923,7 @@ protoOf(News).v24 = function (text) {
   var this_4 = tmp;
   return _Result___get_isFailure__impl__jpiriv(this_4) ? null : _Result___get_value__impl__bjfvqg(this_4);
 };
-protoOf(News).x24 = function (link) {
+protoOf(News).t25 = function (link) {
   var tmp0_elvis_lhs = Regex_init_$Create$('^https://([^/]+)(/[^?#]*)?(\\?[^#]*)?').pb(link);
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -13742,7 +14041,7 @@ protoOf(News).u1v = function (items, data, analyzer, collection) {
     var tmp_0 = Regex_init_$Create$('[a-z]+');
     // Inline function 'kotlin.text.lowercase' call
     // Inline function 'kotlin.js.asDynamic' call
-    var tmp$ret$19 = item_0.l24_1.toLowerCase();
+    var tmp$ret$19 = item_0.h25_1.toLowerCase();
     var tmp_1 = tmp_0.rb(tmp$ret$19);
     var words = toSet_0(map(tmp_1, News$hits$lambda));
     // Inline function 'kotlin.collections.filterKeys' call
@@ -13790,11 +14089,11 @@ function News_getInstance() {
     new News();
   return News_instance;
 }
-var static_init_called_10;
-function static_init_10() {
-  if (static_init_called_10)
+var static_init_called_11;
+function static_init_11() {
+  if (static_init_called_11)
     return Unit_instance;
-  static_init_called_10 = true;
+  static_init_called_11 = true;
   Mode_PVP_instance = new Mode('PVP', 0);
   Mode_PVE_instance = new Mode('PVE', 1);
   Mode_CUSTOM_instance = new Mode('CUSTOM', 2);
@@ -13805,7 +14104,7 @@ var Mode_PVE_instance;
 var Mode_CUSTOM_instance;
 var Mode_AUTO_instance;
 function valueOf(value) {
-  static_init_10();
+  static_init_11();
   switch (value) {
     case 'PVP':
       return Mode_PVP_getInstance();
@@ -13820,11 +14119,11 @@ function valueOf(value) {
       break;
   }
 }
-var static_init_called_11;
-function static_init_11() {
-  if (static_init_called_11)
+var static_init_called_12;
+function static_init_12() {
+  if (static_init_called_12)
     return Unit_instance;
-  static_init_called_11 = true;
+  static_init_called_12 = true;
   Block_NAME_instance = new Block('NAME', 0, 'Name');
   Block_IV_instance = new Block('IV', 1, 'IV-%');
   Block_VALUES_instance = new Block('VALUES', 2, 'IV-Werte');
@@ -13843,11 +14142,11 @@ var Block_BOTH_instance;
 var Block_TYPE_instance;
 var Block_SHADOW_instance;
 function values_3() {
-  static_init_11();
+  static_init_12();
   return [Block_NAME_getInstance(), Block_IV_getInstance(), Block_VALUES_getInstance(), Block_STARS_getInstance(), Block_LEAGUE_getInstance(), Block_BOTH_getInstance(), Block_TYPE_getInstance(), Block_SHADOW_getInstance()];
 }
 function get_entries_3() {
-  static_init_11();
+  static_init_12();
   if ($ENTRIES_3 == null)
     $ENTRIES_3 = enumEntries(values_3());
   return $ENTRIES_3;
@@ -13855,26 +14154,26 @@ function get_entries_3() {
 var $ENTRIES_3;
 function Suggestion(text, hint, tag) {
   tag = tag === VOID ? '' : tag;
-  this.y24_1 = text;
-  this.z24_1 = hint;
-  this.a25_1 = tag;
+  this.u25_1 = text;
+  this.v25_1 = hint;
+  this.w25_1 = tag;
 }
-protoOf(Suggestion).b25 = function (text, hint, tag) {
+protoOf(Suggestion).x25 = function (text, hint, tag) {
   return new Suggestion(text, hint, tag);
 };
-protoOf(Suggestion).c25 = function (text, hint, tag, $super) {
-  text = text === VOID ? this.y24_1 : text;
-  hint = hint === VOID ? this.z24_1 : hint;
-  tag = tag === VOID ? this.a25_1 : tag;
-  return $super === VOID ? this.b25(text, hint, tag) : $super.b25.call(this, text, hint, tag);
+protoOf(Suggestion).y25 = function (text, hint, tag, $super) {
+  text = text === VOID ? this.u25_1 : text;
+  hint = hint === VOID ? this.v25_1 : hint;
+  tag = tag === VOID ? this.w25_1 : tag;
+  return $super === VOID ? this.x25(text, hint, tag) : $super.x25.call(this, text, hint, tag);
 };
 protoOf(Suggestion).toString = function () {
-  return 'Suggestion(text=' + this.y24_1 + ', hint=' + this.z24_1 + ', tag=' + this.a25_1 + ')';
+  return 'Suggestion(text=' + this.u25_1 + ', hint=' + this.v25_1 + ', tag=' + this.w25_1 + ')';
 };
 protoOf(Suggestion).hashCode = function () {
-  var result = getStringHashCode(this.y24_1);
-  result = imul(result, 31) + getStringHashCode(this.z24_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.a25_1) | 0;
+  var result = getStringHashCode(this.u25_1);
+  result = imul(result, 31) + getStringHashCode(this.v25_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.w25_1) | 0;
   return result;
 };
 protoOf(Suggestion).equals = function (other) {
@@ -13882,11 +14181,11 @@ protoOf(Suggestion).equals = function (other) {
     return true;
   if (!(other instanceof Suggestion))
     return false;
-  if (!(this.y24_1 === other.y24_1))
+  if (!(this.u25_1 === other.u25_1))
     return false;
-  if (!(this.z24_1 === other.z24_1))
+  if (!(this.v25_1 === other.v25_1))
     return false;
-  if (!(this.a25_1 === other.a25_1))
+  if (!(this.w25_1 === other.w25_1))
     return false;
   return true;
 };
@@ -13935,10 +14234,10 @@ function Mode(name, ordinal) {
 }
 function Block(name, ordinal, label) {
   Enum.call(this, name, ordinal);
-  this.f25_1 = label;
+  this.b26_1 = label;
 }
 function circled($this, n) {
-  return n === 0 ? '\u24EA' : $this.g25(n);
+  return n === 0 ? '\u24EA' : $this.c26(n);
 }
 function leagueLabel($this, league) {
   var tmp;
@@ -13961,47 +14260,17 @@ function leagueLabel($this, league) {
   }
   return tmp;
 }
-function sam$kotlin_Comparator$0_11(function_0) {
-  this.h25_1 = function_0;
-}
-protoOf(sam$kotlin_Comparator$0_11).uc = function (a, b) {
-  return this.h25_1(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_11).compare = function (a, b) {
-  return this.uc(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_11).t2 = function () {
-  return this.h25_1;
-};
-protoOf(sam$kotlin_Comparator$0_11).equals = function (other) {
-  var tmp;
-  if (!(other == null) ? isInterface(other, Comparator) : false) {
-    var tmp_0;
-    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
-      tmp_0 = equals(this.t2(), other.t2());
-    } else {
-      tmp_0 = false;
-    }
-    tmp = tmp_0;
-  } else {
-    tmp = false;
-  }
-  return tmp;
-};
-protoOf(sam$kotlin_Comparator$0_11).hashCode = function () {
-  return hashCode(this.t2());
-};
 function sam$kotlin_Comparator$0_12(function_0) {
-  this.i25_1 = function_0;
+  this.d26_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_12).uc = function (a, b) {
-  return this.i25_1(a, b);
+  return this.d26_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_12).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_12).t2 = function () {
-  return this.i25_1;
+  return this.d26_1;
 };
 protoOf(sam$kotlin_Comparator$0_12).equals = function (other) {
   var tmp;
@@ -14022,16 +14291,16 @@ protoOf(sam$kotlin_Comparator$0_12).hashCode = function () {
   return hashCode(this.t2());
 };
 function sam$kotlin_Comparator$0_13(function_0) {
-  this.j25_1 = function_0;
+  this.e26_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_13).uc = function (a, b) {
-  return this.j25_1(a, b);
+  return this.e26_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_13).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_13).t2 = function () {
-  return this.j25_1;
+  return this.e26_1;
 };
 protoOf(sam$kotlin_Comparator$0_13).equals = function (other) {
   var tmp;
@@ -14051,6 +14320,36 @@ protoOf(sam$kotlin_Comparator$0_13).equals = function (other) {
 protoOf(sam$kotlin_Comparator$0_13).hashCode = function () {
   return hashCode(this.t2());
 };
+function sam$kotlin_Comparator$0_14(function_0) {
+  this.f26_1 = function_0;
+}
+protoOf(sam$kotlin_Comparator$0_14).uc = function (a, b) {
+  return this.f26_1(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_14).compare = function (a, b) {
+  return this.uc(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_14).t2 = function () {
+  return this.f26_1;
+};
+protoOf(sam$kotlin_Comparator$0_14).equals = function (other) {
+  var tmp;
+  if (!(other == null) ? isInterface(other, Comparator) : false) {
+    var tmp_0;
+    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
+      tmp_0 = equals(this.t2(), other.t2());
+    } else {
+      tmp_0 = false;
+    }
+    tmp = tmp_0;
+  } else {
+    tmp = false;
+  }
+  return tmp;
+};
+protoOf(sam$kotlin_Comparator$0_14).hashCode = function () {
+  return hashCode(this.t2());
+};
 function Nickname$ordered$lambda(it) {
   var tmp0_elvis_lhs = it.g1e_1;
   return tmp0_elvis_lhs == null ? 2147483647 : tmp0_elvis_lhs;
@@ -14068,7 +14367,7 @@ function Nickname$custom$lambda(a, b) {
   return compareValues(tmp, tmp$ret$2);
 }
 function Nickname$custom$lambda_0(it) {
-  return Nickname_getInstance().k25(it.c1e_1) + Nickname_getInstance().g25(ensureNotNull(it.e1e_1).o1e_1);
+  return Nickname_getInstance().g26(it.c1e_1) + Nickname_getInstance().c26(ensureNotNull(it.e1e_1).o1e_1);
 }
 function Nickname$custom$lambda_1($name) {
   return function (it) {
@@ -14083,58 +14382,58 @@ function Nickname$both$lambda(a, b) {
 }
 function Nickname$suggestions$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp0_elvis_lhs = toIntOrNull(substringAfterLast_0(a.z24_1, ' '));
+  var tmp0_elvis_lhs = toIntOrNull(substringAfterLast_0(a.v25_1, ' '));
   var tmp = tmp0_elvis_lhs == null ? 2147483647 : tmp0_elvis_lhs;
-  var tmp0_elvis_lhs_0 = toIntOrNull(substringAfterLast_0(b.z24_1, ' '));
+  var tmp0_elvis_lhs_0 = toIntOrNull(substringAfterLast_0(b.v25_1, ' '));
   var tmp$ret$2 = tmp0_elvis_lhs_0 == null ? 2147483647 : tmp0_elvis_lhs_0;
   return compareValues(tmp, tmp$ret$2);
 }
 function Mode_PVP_getInstance() {
-  static_init_10();
+  static_init_11();
   return Mode_PVP_instance;
 }
 function Mode_PVE_getInstance() {
-  static_init_10();
+  static_init_11();
   return Mode_PVE_instance;
 }
 function Mode_CUSTOM_getInstance() {
-  static_init_10();
+  static_init_11();
   return Mode_CUSTOM_instance;
 }
 function Mode_AUTO_getInstance() {
-  static_init_10();
+  static_init_11();
   return Mode_AUTO_instance;
 }
 function Block_NAME_getInstance() {
-  static_init_11();
+  static_init_12();
   return Block_NAME_instance;
 }
 function Block_IV_getInstance() {
-  static_init_11();
+  static_init_12();
   return Block_IV_instance;
 }
 function Block_VALUES_getInstance() {
-  static_init_11();
+  static_init_12();
   return Block_VALUES_instance;
 }
 function Block_STARS_getInstance() {
-  static_init_11();
+  static_init_12();
   return Block_STARS_instance;
 }
 function Block_LEAGUE_getInstance() {
-  static_init_11();
+  static_init_12();
   return Block_LEAGUE_instance;
 }
 function Block_BOTH_getInstance() {
-  static_init_11();
+  static_init_12();
   return Block_BOTH_instance;
 }
 function Block_TYPE_getInstance() {
-  static_init_11();
+  static_init_12();
   return Block_TYPE_instance;
 }
 function Block_SHADOW_getInstance() {
-  static_init_11();
+  static_init_12();
   return Block_SHADOW_instance;
 }
 function Nickname() {
@@ -14149,7 +14448,7 @@ function Nickname() {
   this.s1h_1 = listOf([Block_NAME_getInstance(), Block_IV_getInstance(), Block_LEAGUE_getInstance()]);
   this.t1h_1 = 30;
 }
-protoOf(Nickname).l25 = function (opts) {
+protoOf(Nickname).h26 = function (opts) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -14190,7 +14489,7 @@ protoOf(Nickname).l25 = function (opts) {
   var tmp2_subject = tmp_0;
   return (tmp2_subject == null ? -1 : tmp2_subject.k2_1) === 1 ? 'PvP Hyper Liga' : 'PvP Super Liga';
 };
-protoOf(Nickname).k25 = function (league) {
+protoOf(Nickname).g26 = function (league) {
   var tmp;
   switch (league.k2_1) {
     case 0:
@@ -14211,7 +14510,7 @@ protoOf(Nickname).k25 = function (league) {
   }
   return tmp;
 };
-protoOf(Nickname).m25 = function (n) {
+protoOf(Nickname).i26 = function (n) {
   // Inline function 'kotlin.text.map' call
   var this_0 = n.toString();
   // Inline function 'kotlin.text.mapTo' call
@@ -14225,10 +14524,10 @@ protoOf(Nickname).m25 = function (n) {
   }
   return joinToString(destination, '');
 };
-protoOf(Nickname).g25 = function (n) {
-  return (1 <= n ? n <= 20 : false) ? toString_1(numberToChar((9312 + n | 0) - 1 | 0)) : (21 <= n ? n <= 35 : false) ? toString_1(numberToChar((12881 + n | 0) - 21 | 0)) : (36 <= n ? n <= 50 : false) ? toString_1(numberToChar((12977 + n | 0) - 36 | 0)) : this.m25(n);
+protoOf(Nickname).c26 = function (n) {
+  return (1 <= n ? n <= 20 : false) ? toString_1(numberToChar((9312 + n | 0) - 1 | 0)) : (21 <= n ? n <= 35 : false) ? toString_1(numberToChar((12881 + n | 0) - 21 | 0)) : (36 <= n ? n <= 50 : false) ? toString_1(numberToChar((12977 + n | 0) - 36 | 0)) : this.i26(n);
 };
-protoOf(Nickname).n25 = function (species, tail, space) {
+protoOf(Nickname).j26 = function (species, tail, space) {
   var names = distinct(listOf([species.c1f_1, species.d1f_1]));
   if (space) {
     var tmp$ret$0;
@@ -14276,7 +14575,7 @@ protoOf(Nickname).n25 = function (species, tail, space) {
   var this_0 = take(species.d1f_1, 12 - tail.length | 0);
   return toString_0(trimEnd_0(isCharSequence(this_0) ? this_0 : THROW_CCE())) + tail;
 };
-protoOf(Nickname).o25 = function (eval_0) {
+protoOf(Nickname).k26 = function (eval_0) {
   var tmp0_elvis_lhs = eval_0.e1e_1;
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -14285,12 +14584,12 @@ protoOf(Nickname).o25 = function (eval_0) {
     tmp = tmp0_elvis_lhs;
   }
   var pvp = tmp;
-  return this.n25(eval_0.d1e_1, this.k25(eval_0.c1e_1) + this.g25(pvp.o1e_1), true);
+  return this.j26(eval_0.d1e_1, this.g26(eval_0.c1e_1) + this.c26(pvp.o1e_1), true);
 };
-protoOf(Nickname).p25 = function (final, iv) {
-  return this.n25(final, this.m25(numberToInt(round(iv.d1l()))), false);
+protoOf(Nickname).l26 = function (final, iv) {
+  return this.j26(final, this.i26(numberToInt(round(iv.d1l()))), false);
 };
-protoOf(Nickname).q25 = function (evals) {
+protoOf(Nickname).m26 = function (evals) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -14365,7 +14664,7 @@ protoOf(Nickname).q25 = function (evals) {
   }
   return ordered(this, destination_2);
 };
-protoOf(Nickname).r25 = function (text) {
+protoOf(Nickname).n26 = function (text) {
   // Inline function 'kotlin.text.orEmpty' call
   var tmp$ret$0 = text == null ? '' : text;
   // Inline function 'kotlin.collections.mapNotNull' call
@@ -14402,13 +14701,13 @@ protoOf(Nickname).r25 = function (text) {
   }
   return destination;
 };
-protoOf(Nickname).s25 = function (blocks) {
+protoOf(Nickname).o26 = function (blocks) {
   return joinToString(blocks, ',', VOID, VOID, VOID, VOID, Nickname$storeScheme$lambda);
 };
-protoOf(Nickname).t25 = function (scheme, evals, iv, finals, variant, typeRank) {
+protoOf(Nickname).p26 = function (scheme, evals, iv, finals, variant, typeRank) {
   if (scheme.q())
     return null;
-  var opts = this.q25(evals);
+  var opts = this.m26(evals);
   var best = firstOrNull(opts);
   var usesLeague = scheme.t(Block_LEAGUE_getInstance()) || scheme.t(Block_BOTH_getInstance());
   var tmp;
@@ -14445,7 +14744,7 @@ protoOf(Nickname).t25 = function (scheme, evals, iv, finals, variant, typeRank) 
         tmp_2 = null;
         break;
       case 1:
-        tmp_2 = Nickname_getInstance().m25(numberToInt(round(iv.d1l())));
+        tmp_2 = Nickname_getInstance().i26(numberToInt(round(iv.d1l())));
         break;
       case 2:
         tmp_2 = circled(Nickname_getInstance(), iv.x1j_1) + circled(Nickname_getInstance(), iv.y1j_1) + circled(Nickname_getInstance(), iv.z1j_1);
@@ -14460,7 +14759,7 @@ protoOf(Nickname).t25 = function (scheme, evals, iv, finals, variant, typeRank) 
           tmp_3 = null;
         } else {
           // Inline function 'kotlin.let' call
-          tmp_3 = Nickname_getInstance().k25(best.c1e_1) + Nickname_getInstance().g25(ensureNotNull(best.e1e_1).o1e_1);
+          tmp_3 = Nickname_getInstance().g26(best.c1e_1) + Nickname_getInstance().c26(ensureNotNull(best.e1e_1).o1e_1);
         }
 
         // Inline function 'kotlin.text.orEmpty' call
@@ -14475,7 +14774,7 @@ protoOf(Nickname).t25 = function (scheme, evals, iv, finals, variant, typeRank) 
         // Inline function 'kotlin.comparisons.compareBy' call
 
         var tmp_4 = Nickname$custom$lambda;
-        var tmp$ret$7 = new sam$kotlin_Comparator$0_11(tmp_4);
+        var tmp$ret$7 = new sam$kotlin_Comparator$0_12(tmp_4);
         var tmp_5 = sortedWith(this_0, tmp$ret$7);
         tmp_2 = joinToString(tmp_5, '', VOID, VOID, VOID, VOID, Nickname$custom$lambda_0);
         break;
@@ -14489,7 +14788,7 @@ protoOf(Nickname).t25 = function (scheme, evals, iv, finals, variant, typeRank) 
           var type = tmp3_safe_receiver.m9();
           var rank = tmp3_safe_receiver.n9();
           var tmp0_elvis_lhs_0 = Companion_getInstance_16().r1g_1.c2(type);
-          tmp_6 = (tmp0_elvis_lhs_0 == null ? take(type, 2) : tmp0_elvis_lhs_0) + Nickname_getInstance().g25(rank);
+          tmp_6 = (tmp0_elvis_lhs_0 == null ? take(type, 2) : tmp0_elvis_lhs_0) + Nickname_getInstance().c26(rank);
         }
 
         // Inline function 'kotlin.text.orEmpty' call
@@ -14555,23 +14854,23 @@ protoOf(Nickname).t25 = function (scheme, evals, iv, finals, variant, typeRank) 
   }
   return tmp_9;
 };
-protoOf(Nickname).u25 = function (a, b) {
+protoOf(Nickname).q26 = function (a, b) {
   // Inline function 'kotlin.collections.sortedBy' call
   var this_0 = listOf([a, b]);
   // Inline function 'kotlin.comparisons.compareBy' call
   var tmp = Nickname$both$lambda;
-  var tmp$ret$1 = new sam$kotlin_Comparator$0_12(tmp);
+  var tmp$ret$1 = new sam$kotlin_Comparator$0_13(tmp);
   var _destruct__k2r9zo = sortedWith(this_0, tmp$ret$1);
   // Inline function 'kotlin.collections.component1' call
   var first = _destruct__k2r9zo.r(0);
   // Inline function 'kotlin.collections.component2' call
   var second = _destruct__k2r9zo.r(1);
-  var tail = this.k25(first.c1e_1) + this.g25(ensureNotNull(first.e1e_1).o1e_1) + this.k25(second.c1e_1) + this.g25(ensureNotNull(second.e1e_1).o1e_1);
-  return this.n25(first.d1e_1, tail, true);
+  var tail = this.g26(first.c1e_1) + this.c26(ensureNotNull(first.e1e_1).o1e_1) + this.g26(second.c1e_1) + this.c26(ensureNotNull(second.e1e_1).o1e_1);
+  return this.j26(first.d1e_1, tail, true);
 };
 protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, scheme, variant, metasKnown) {
-  var opts = this.q25(evals);
-  var pvpTag = this.l25(opts);
+  var opts = this.m26(evals);
+  var pvpTag = this.h26(opts);
   // Inline function 'kotlin.collections.mapNotNull' call
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -14579,7 +14878,7 @@ protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, 
   var _iterator__ex2g4s = opts.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = Nickname_getInstance().o25(element);
+    var tmp0_safe_receiver = Nickname_getInstance().k26(element);
     var tmp;
     if (tmp0_safe_receiver == null) {
       tmp = null;
@@ -14628,7 +14927,7 @@ protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, 
     tmp_1 = false;
   }
   if (tmp_1) {
-    tmp_0 = listOf_0(new Suggestion(this.u25(top.r(0), top.r(1)), 'Super und Hyper \xB7 beide in den Top 30', 'PvP alle'));
+    tmp_0 = listOf_0(new Suggestion(this.q26(top.r(0), top.r(1)), 'Super und Hyper \xB7 beide in den Top 30', 'PvP alle'));
   } else {
     tmp_0 = emptyList();
   }
@@ -14653,7 +14952,7 @@ protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, 
         var rank = tmp0_safe_receiver_1.n9();
         var tmp0_elvis_lhs = Companion_getInstance_16().r1g_1.c2(type);
         var code = tmp0_elvis_lhs == null ? take(type, 2) : tmp0_elvis_lhs;
-        var tmp_5 = Nickname_getInstance().n25(element_1, code + Nickname_getInstance().g25(rank), true);
+        var tmp_5 = Nickname_getInstance().j26(element_1, code + Nickname_getInstance().c26(rank), true);
         var tmp1_elvis_lhs = typeNames.c2(type);
         tmp_4 = new Suggestion(tmp_5, 'PvE \xB7 ' + (tmp1_elvis_lhs == null ? type : tmp1_elvis_lhs) + '-Angreifer Platz ' + rank, 'PVE');
       }
@@ -14668,7 +14967,7 @@ protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, 
     // Inline function 'kotlin.collections.sortedBy' call
     // Inline function 'kotlin.comparisons.compareBy' call
     var tmp_6 = Nickname$suggestions$lambda;
-    var tmp$ret$21 = new sam$kotlin_Comparator$0_13(tmp_6);
+    var tmp$ret$21 = new sam$kotlin_Comparator$0_14(tmp_6);
     tmp_3 = sortedWith(destination_0, tmp$ret$21);
   } else {
     tmp_3 = emptyList();
@@ -14682,7 +14981,7 @@ protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, 
     var _iterator__ex2g4s_2 = finals.i();
     while (_iterator__ex2g4s_2.j()) {
       var item = _iterator__ex2g4s_2.k();
-      var tmp$ret$24 = new Suggestion(Nickname_getInstance().p25(item, iv), 'PvE \xB7 ' + item.c1f_1 + ' \xB7 IV ' + percent + ' %', 'PVE');
+      var tmp$ret$24 = new Suggestion(Nickname_getInstance().l26(item, iv), 'PvE \xB7 ' + item.c1f_1 + ' \xB7 IV ' + percent + ' %', 'PVE');
       destination_1.h(tmp$ret$24);
     }
     tmp_7 = destination_1;
@@ -14734,7 +15033,7 @@ protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, 
       // Inline function 'kotlin.collections.isNotEmpty' call
 
       var tmp$ret$31 = !typed.q();
-      if (this.v25(relevant, iv, tmp$ret$31, metasKnown, forPvp.q())) {
+      if (this.r26(relevant, iv, tmp$ret$31, metasKnown, forPvp.q())) {
         // Inline function 'kotlin.collections.map' call
         var this_0 = take_0(pve, 1);
         // Inline function 'kotlin.collections.mapTo' call
@@ -14742,7 +15041,7 @@ protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, 
         var _iterator__ex2g4s_4 = this_0.i();
         while (_iterator__ex2g4s_4.j()) {
           var item_0 = _iterator__ex2g4s_4.k();
-          var tmp$ret$34 = item_0.c25(VOID, 'Automatisch ' + item_0.z24_1);
+          var tmp$ret$34 = item_0.y25(VOID, 'Automatisch ' + item_0.v25_1);
           destination_3.h(tmp$ret$34);
         }
         tmp_9 = plus_1(plus_1(destination_3, forPvp), drop_0(pve, 1));
@@ -14754,7 +15053,7 @@ protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, 
         var _iterator__ex2g4s_5 = this_1.i();
         while (_iterator__ex2g4s_5.j()) {
           var item_1 = _iterator__ex2g4s_5.k();
-          var tmp$ret$37 = item_1.c25(VOID, 'Automatisch PvP \xB7 ' + item_1.z24_1);
+          var tmp$ret$37 = item_1.y25(VOID, 'Automatisch PvP \xB7 ' + item_1.v25_1);
           destination_4.h(tmp$ret$37);
         }
         tmp_9 = plus_1(plus_1(destination_4, drop_0(forPvp, 1)), pve);
@@ -14779,7 +15078,7 @@ protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, 
       }
 
       var tmp$ret$38 = tmp_10;
-      var tmp1_safe_receiver = this.t25(tmp$ret$38, evals, iv, finals, variant, typeRank);
+      var tmp1_safe_receiver = this.p26(tmp$ret$38, evals, iv, finals, variant, typeRank);
       var tmp_11;
       if (tmp1_safe_receiver == null) {
         tmp_11 = null;
@@ -14824,14 +15123,14 @@ protoOf(Nickname).u1h = function (evals, iv, finals, mode, typeRank, typeNames, 
   var _iterator__ex2g4s_6 = ordered.i();
   while (_iterator__ex2g4s_6.j()) {
     var e = _iterator__ex2g4s_6.k();
-    var key = e.y24_1;
+    var key = e.u25_1;
     if (set.h(key)) {
       list.h(e);
     }
   }
   return list;
 };
-protoOf(Nickname).v25 = function (bestRank, iv, inTypeMeta, metasKnown, noPvp) {
+protoOf(Nickname).r26 = function (bestRank, iv, inTypeMeta, metasKnown, noPvp) {
   if (noPvp)
     return true;
   var rank = bestRank == null ? 2147483647 : bestRank;
@@ -14850,11 +15149,11 @@ function Nickname_getInstance() {
     new Nickname();
   return Nickname_instance;
 }
-var static_init_called_12;
-function static_init_12() {
-  if (static_init_called_12)
+var static_init_called_13;
+function static_init_13() {
+  if (static_init_called_13)
     return Unit_instance;
-  static_init_called_12 = true;
+  static_init_called_13 = true;
   Group_PVE_instance = new Group('PVE', 0, '\u2694', 'PvE: Raids & Dyna', '#PVE');
   var tmp = listOf(['PvP alle', 'PvP Super Liga', 'PvP Hyper Liga']);
   Group_PVP_instance = new Group('PVP', 1, '\uD83C\uDFC6', 'PvP', joinToString(tmp, ',', VOID, VOID, VOID, VOID, PageScan$Group$lambda));
@@ -14865,21 +15164,21 @@ function PageScan$Group$lambda(it) {
   return '#' + it;
 }
 function Page(scan, fast, charged, tags, variant) {
-  this.w25_1 = scan;
-  this.x25_1 = fast;
-  this.y25_1 = charged;
-  this.z25_1 = tags;
-  this.a26_1 = variant;
+  this.s26_1 = scan;
+  this.t26_1 = fast;
+  this.u26_1 = charged;
+  this.v26_1 = tags;
+  this.w26_1 = variant;
 }
 protoOf(Page).toString = function () {
-  return 'Page(scan=' + this.w25_1.toString() + ', fast=' + toString(this.x25_1) + ', charged=' + toString_0(this.y25_1) + ', tags=' + toString_0(this.z25_1) + ', variant=' + toString(this.a26_1) + ')';
+  return 'Page(scan=' + this.s26_1.toString() + ', fast=' + toString(this.t26_1) + ', charged=' + toString_0(this.u26_1) + ', tags=' + toString_0(this.v26_1) + ', variant=' + toString(this.w26_1) + ')';
 };
 protoOf(Page).hashCode = function () {
-  var result = this.w25_1.hashCode();
-  result = imul(result, 31) + (this.x25_1 == null ? 0 : this.x25_1.hashCode()) | 0;
-  result = imul(result, 31) + hashCode(this.y25_1) | 0;
-  result = imul(result, 31) + hashCode(this.z25_1) | 0;
-  result = imul(result, 31) + (this.a26_1 == null ? 0 : this.a26_1.hashCode()) | 0;
+  var result = this.s26_1.hashCode();
+  result = imul(result, 31) + (this.t26_1 == null ? 0 : this.t26_1.hashCode()) | 0;
+  result = imul(result, 31) + hashCode(this.u26_1) | 0;
+  result = imul(result, 31) + hashCode(this.v26_1) | 0;
+  result = imul(result, 31) + (this.w26_1 == null ? 0 : this.w26_1.hashCode()) | 0;
   return result;
 };
 protoOf(Page).equals = function (other) {
@@ -14887,15 +15186,15 @@ protoOf(Page).equals = function (other) {
     return true;
   if (!(other instanceof Page))
     return false;
-  if (!this.w25_1.equals(other.w25_1))
+  if (!this.s26_1.equals(other.s26_1))
     return false;
-  if (!equals(this.x25_1, other.x25_1))
+  if (!equals(this.t26_1, other.t26_1))
     return false;
-  if (!equals(this.y25_1, other.y25_1))
+  if (!equals(this.u26_1, other.u26_1))
     return false;
-  if (!equals(this.z25_1, other.z25_1))
+  if (!equals(this.v26_1, other.v26_1))
     return false;
-  if (!equals(this.a26_1, other.a26_1))
+  if (!equals(this.w26_1, other.w26_1))
     return false;
   return true;
 };
@@ -15024,17 +15323,17 @@ function move($this, raw, pool) {
   return tmp_0;
 }
 function Last(uid, species, time) {
-  this.b26_1 = uid;
-  this.c26_1 = species;
-  this.d26_1 = time;
+  this.x26_1 = uid;
+  this.y26_1 = species;
+  this.z26_1 = time;
 }
 protoOf(Last).toString = function () {
-  return 'Last(uid=' + this.b26_1.toString() + ', species=' + this.c26_1.toString() + ', time=' + this.d26_1 + ')';
+  return 'Last(uid=' + this.x26_1.toString() + ', species=' + this.y26_1.toString() + ', time=' + this.z26_1 + ')';
 };
 protoOf(Last).hashCode = function () {
-  var result = this.b26_1.hashCode();
-  result = imul(result, 31) + this.c26_1.hashCode() | 0;
-  result = imul(result, 31) + getNumberHashCode(this.d26_1) | 0;
+  var result = this.x26_1.hashCode();
+  result = imul(result, 31) + this.y26_1.hashCode() | 0;
+  result = imul(result, 31) + getNumberHashCode(this.z26_1) | 0;
   return result;
 };
 protoOf(Last).equals = function (other) {
@@ -15042,28 +15341,28 @@ protoOf(Last).equals = function (other) {
     return true;
   if (!(other instanceof Last))
     return false;
-  if (!equalsLong(this.b26_1, other.b26_1))
+  if (!equalsLong(this.x26_1, other.x26_1))
     return false;
-  if (!this.c26_1.equals(other.c26_1))
+  if (!this.y26_1.equals(other.y26_1))
     return false;
-  if (!equals(this.d26_1, other.d26_1))
+  if (!equals(this.z26_1, other.z26_1))
     return false;
   return true;
 };
 function Outcome(page, target, species, name) {
-  this.e26_1 = page;
-  this.f26_1 = target;
-  this.g26_1 = species;
-  this.h26_1 = name;
+  this.a27_1 = page;
+  this.b27_1 = target;
+  this.c27_1 = species;
+  this.d27_1 = name;
 }
 protoOf(Outcome).toString = function () {
-  return 'Outcome(page=' + toString(this.e26_1) + ', target=' + toString(this.f26_1) + ', species=' + toString(this.g26_1) + ', name=' + this.h26_1 + ')';
+  return 'Outcome(page=' + toString(this.a27_1) + ', target=' + toString(this.b27_1) + ', species=' + toString(this.c27_1) + ', name=' + this.d27_1 + ')';
 };
 protoOf(Outcome).hashCode = function () {
-  var result = this.e26_1 == null ? 0 : this.e26_1.hashCode();
-  result = imul(result, 31) + (this.f26_1 == null ? 0 : this.f26_1.hashCode()) | 0;
-  result = imul(result, 31) + (this.g26_1 == null ? 0 : this.g26_1.hashCode()) | 0;
-  result = imul(result, 31) + (this.h26_1 == null ? 0 : getStringHashCode(this.h26_1)) | 0;
+  var result = this.a27_1 == null ? 0 : this.a27_1.hashCode();
+  result = imul(result, 31) + (this.b27_1 == null ? 0 : this.b27_1.hashCode()) | 0;
+  result = imul(result, 31) + (this.c27_1 == null ? 0 : this.c27_1.hashCode()) | 0;
+  result = imul(result, 31) + (this.d27_1 == null ? 0 : getStringHashCode(this.d27_1)) | 0;
   return result;
 };
 protoOf(Outcome).equals = function (other) {
@@ -15071,13 +15370,13 @@ protoOf(Outcome).equals = function (other) {
     return true;
   if (!(other instanceof Outcome))
     return false;
-  if (!equals(this.e26_1, other.e26_1))
+  if (!equals(this.a27_1, other.a27_1))
     return false;
-  if (!equals(this.f26_1, other.f26_1))
+  if (!equals(this.b27_1, other.b27_1))
     return false;
-  if (!equals(this.g26_1, other.g26_1))
+  if (!equals(this.c27_1, other.c27_1))
     return false;
-  if (!(this.h26_1 == other.h26_1))
+  if (!(this.d27_1 == other.d27_1))
     return false;
   return true;
 };
@@ -15086,23 +15385,23 @@ function missingMoves($this, p) {
 }
 function Group(name, ordinal, icon, label, tagSearch) {
   Enum.call(this, name, ordinal);
-  this.k26_1 = icon;
-  this.l26_1 = label;
-  this.m26_1 = tagSearch;
+  this.g27_1 = icon;
+  this.h27_1 = label;
+  this.i27_1 = tagSearch;
 }
 function Batch(group, list) {
-  this.n26_1 = group;
-  this.o26_1 = list;
+  this.j27_1 = group;
+  this.k27_1 = list;
 }
-protoOf(Batch).p26 = function (data, tagged) {
-  return GameSearch_instance.b1z(data, this.o26_1, tagged ? this.n26_1.m26_1 : null);
+protoOf(Batch).l27 = function (data, tagged) {
+  return GameSearch_instance.c1z(data, this.k27_1, tagged ? this.j27_1.i27_1 : null);
 };
 protoOf(Batch).toString = function () {
-  return 'Batch(group=' + this.n26_1.toString() + ', list=' + toString_0(this.o26_1) + ')';
+  return 'Batch(group=' + this.j27_1.toString() + ', list=' + toString_0(this.k27_1) + ')';
 };
 protoOf(Batch).hashCode = function () {
-  var result = this.n26_1.hashCode();
-  result = imul(result, 31) + hashCode(this.o26_1) | 0;
+  var result = this.j27_1.hashCode();
+  result = imul(result, 31) + hashCode(this.k27_1) | 0;
   return result;
 };
 protoOf(Batch).equals = function (other) {
@@ -15110,25 +15409,25 @@ protoOf(Batch).equals = function (other) {
     return true;
   if (!(other instanceof Batch))
     return false;
-  if (!this.n26_1.equals(other.n26_1))
+  if (!this.j27_1.equals(other.j27_1))
     return false;
-  if (!equals(this.o26_1, other.o26_1))
+  if (!equals(this.k27_1, other.k27_1))
     return false;
   return true;
 };
-function sam$kotlin_Comparator$0_14(function_0) {
-  this.q26_1 = function_0;
+function sam$kotlin_Comparator$0_15(function_0) {
+  this.m27_1 = function_0;
 }
-protoOf(sam$kotlin_Comparator$0_14).uc = function (a, b) {
-  return this.q26_1(a, b);
+protoOf(sam$kotlin_Comparator$0_15).uc = function (a, b) {
+  return this.m27_1(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_14).compare = function (a, b) {
+protoOf(sam$kotlin_Comparator$0_15).compare = function (a, b) {
   return this.uc(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_14).t2 = function () {
-  return this.q26_1;
+protoOf(sam$kotlin_Comparator$0_15).t2 = function () {
+  return this.m27_1;
 };
-protoOf(sam$kotlin_Comparator$0_14).equals = function (other) {
+protoOf(sam$kotlin_Comparator$0_15).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, Comparator) : false) {
     var tmp_0;
@@ -15143,7 +15442,7 @@ protoOf(sam$kotlin_Comparator$0_14).equals = function (other) {
   }
   return tmp;
 };
-protoOf(sam$kotlin_Comparator$0_14).hashCode = function () {
+protoOf(sam$kotlin_Comparator$0_15).hashCode = function () {
   return hashCode(this.t2());
 };
 function PageScan$read$lambda(a, b) {
@@ -15166,23 +15465,23 @@ function PageScan$summary$lambda(it) {
   return it.c1k_1;
 }
 function Group_PVE_getInstance() {
-  static_init_12();
+  static_init_13();
   return Group_PVE_instance;
 }
 function Group_PVP_getInstance() {
-  static_init_12();
+  static_init_13();
   return Group_PVP_instance;
 }
 function PageScan() {
   PageScan_instance = this;
-  this.r26_1 = Regex_init_$Create$('^[\\d.,/\\s]+$');
-  this.s26_1 = setOf(['GEWICHT', 'GR\xD6SSE', 'GR\xD6BE', 'KP', 'POWER-UP', 'ENTWICKELN']);
-  this.t26_1 = 4.0;
-  this.u26_1 = 30;
-  this.v26_1 = 100;
+  this.n27_1 = Regex_init_$Create$('^[\\d.,/\\s]+$');
+  this.o27_1 = setOf(['GEWICHT', 'GR\xD6SSE', 'GR\xD6BE', 'KP', 'POWER-UP', 'ENTWICKELN']);
+  this.p27_1 = 4.0;
+  this.q27_1 = 30;
+  this.r27_1 = 100;
 }
-protoOf(PageScan).w26 = function (frame, data, species) {
-  var scan = ScanParser_getInstance().c27(frame);
+protoOf(PageScan).s27 = function (frame, data, species) {
+  var scan = ScanParser_getInstance().y27(frame);
   var lines = frame.d1r_1;
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
@@ -15259,7 +15558,7 @@ protoOf(PageScan).w26 = function (frame, data, species) {
     // Inline function 'kotlin.collections.sortedBy' call
     // Inline function 'kotlin.comparisons.compareBy' call
     var tmp_1 = PageScan$read$lambda;
-    var tmp$ret$19 = new sam$kotlin_Comparator$0_14(tmp_1);
+    var tmp$ret$19 = new sam$kotlin_Comparator$0_15(tmp_1);
     var _iterator__ex2g4s_2 = sortedWith(destination_1, tmp$ret$19).i();
     $l$loop: while (_iterator__ex2g4s_2.j()) {
       var l = _iterator__ex2g4s_2.k();
@@ -15390,7 +15689,7 @@ protoOf(PageScan).w26 = function (frame, data, species) {
         tmp_7 = false;
       }
       if (tmp_7) {
-        var tmp_8 = PageScan_getInstance().r26_1;
+        var tmp_8 = PageScan_getInstance().n27_1;
         // Inline function 'kotlin.text.trim' call
         var this_1 = element_7.t1q_1;
         var tmp$ret$39 = toString_0(trim(isCharSequence(this_1) ? this_1 : THROW_CCE()));
@@ -15399,7 +15698,7 @@ protoOf(PageScan).w26 = function (frame, data, species) {
         tmp_6 = false;
       }
       if (tmp_6) {
-        var tmp_9 = PageScan_getInstance().s26_1;
+        var tmp_9 = PageScan_getInstance().o27_1;
         // Inline function 'kotlin.text.trim' call
         var this_2 = element_7.t1q_1;
         // Inline function 'kotlin.text.uppercase' call
@@ -15458,7 +15757,7 @@ protoOf(PageScan).w26 = function (frame, data, species) {
   if (tmp$ret$47) {
     tmp_13 = true;
   } else {
-    tmp_13 = scan.l27_1;
+    tmp_13 = scan.h28_1;
   }
   if (tmp_13) {
     tmp_12 = Variant_SHADOW_getInstance();
@@ -15489,7 +15788,7 @@ protoOf(PageScan).w26 = function (frame, data, species) {
     if (tmp$ret$49) {
       tmp_12 = Variant_PURIFIED_getInstance();
     } else {
-      if (scan.k27_1) {
+      if (scan.g28_1) {
         tmp_12 = Variant_LUCKY_getInstance();
       } else {
         tmp_12 = null;
@@ -15499,7 +15798,7 @@ protoOf(PageScan).w26 = function (frame, data, species) {
   var variant = tmp_12;
   return new Page(scan, fast, charged, tags, variant);
 };
-protoOf(PageScan).o27 = function (page, species, saved, analyzer) {
+protoOf(PageScan).k28 = function (page, species, saved, analyzer) {
   var tmp;
   if (species == null) {
     return null;
@@ -15507,7 +15806,7 @@ protoOf(PageScan).o27 = function (page, species, saved, analyzer) {
     tmp = species;
   }
   var s = tmp;
-  var tmp1_elvis_lhs = page.w25_1.e27_1;
+  var tmp1_elvis_lhs = page.s26_1.a28_1;
   var tmp_0;
   if (tmp1_elvis_lhs == null) {
     return null;
@@ -15527,7 +15826,7 @@ protoOf(PageScan).o27 = function (page, species, saved, analyzer) {
     }
   }
   var pool = destination;
-  var tmp2_safe_receiver = page.w25_1.d27_1;
+  var tmp2_safe_receiver = page.s26_1.z27_1;
   var tmp_1;
   if (tmp2_safe_receiver == null) {
     tmp_1 = null;
@@ -15560,7 +15859,7 @@ protoOf(PageScan).o27 = function (page, species, saved, analyzer) {
   var candidates = tmp_2;
   if (candidates.l() === 1)
     return single(candidates);
-  var tmp3_safe_receiver = page.w25_1.f27_1;
+  var tmp3_safe_receiver = page.s26_1.b28_1;
   var tmp_3;
   if (tmp3_safe_receiver == null) {
     tmp_3 = null;
@@ -15589,12 +15888,12 @@ protoOf(PageScan).o27 = function (page, species, saved, analyzer) {
   }
   return tmp_4;
 };
-protoOf(PageScan).p27 = function (frame, data, analyzer, saved, resolve, last, time) {
-  var scan = ScanParser_getInstance().c27(frame);
-  var species = scan.q27() ? resolve(scan) : null;
+protoOf(PageScan).l28 = function (frame, data, analyzer, saved, resolve, last, time) {
+  var scan = ScanParser_getInstance().y27(frame);
+  var species = scan.m28() ? resolve(scan) : null;
   if (!(species == null)) {
-    var page = this.w26(frame, data, species);
-    var p = this.o27(page, species, saved, analyzer);
+    var page = this.s27(frame, data, species);
+    var p = this.k28(page, species, saved, analyzer);
     // Inline function 'kotlin.takeIf' call
     var tmp;
     if (!(p == null)) {
@@ -15611,7 +15910,7 @@ protoOf(PageScan).p27 = function (frame, data, analyzer, saved, resolve, last, t
   } else {
     // Inline function 'kotlin.takeIf' call
     var tmp_1;
-    var containsArg = time - last.d26_1;
+    var containsArg = time - last.z26_1;
     if (0.0 <= containsArg ? containsArg <= 4.0 : false) {
       tmp_1 = last;
     } else {
@@ -15623,18 +15922,18 @@ protoOf(PageScan).p27 = function (frame, data, analyzer, saved, resolve, last, t
   var tmp_2;
   if (tmp1_elvis_lhs == null) {
     var tmp3_elvis_lhs = species == null ? null : species.c1f_1;
-    return new Outcome(null, null, species, tmp3_elvis_lhs == null ? scan.f27_1 : tmp3_elvis_lhs);
+    return new Outcome(null, null, species, tmp3_elvis_lhs == null ? scan.b28_1 : tmp3_elvis_lhs);
   } else {
     tmp_2 = tmp1_elvis_lhs;
   }
   var l = tmp_2;
-  var page_0 = this.w26(frame, data, l.c26_1);
-  var s = l.c26_1;
+  var page_0 = this.s27(frame, data, l.y26_1);
+  var s = l.y26_1;
   var learnable = toSet(plus_1(plus_1(s.i1f_1, s.m1f_1), s.n1f_1));
   var tmp_3;
-  var tmp4_safe_receiver = page_0.x25_1;
+  var tmp4_safe_receiver = page_0.t26_1;
   if (contains_0(learnable, tmp4_safe_receiver == null ? null : tmp4_safe_receiver.b1k_1)) {
-    var tmp0 = page_0.y25_1;
+    var tmp0 = page_0.u26_1;
     var tmp$ret$4;
     $l$block_0: {
       // Inline function 'kotlin.collections.all' call
@@ -15669,7 +15968,7 @@ protoOf(PageScan).p27 = function (frame, data, analyzer, saved, resolve, last, t
     var _iterator__ex2g4s_0 = saved.i();
     while (_iterator__ex2g4s_0.j()) {
       var element_0 = _iterator__ex2g4s_0.k();
-      if (equalsLong(element_0.n1l_1, l.b26_1)) {
+      if (equalsLong(element_0.n1l_1, l.x26_1)) {
         tmp$ret$6 = element_0;
         break $l$block_1;
       }
@@ -15682,16 +15981,16 @@ protoOf(PageScan).p27 = function (frame, data, analyzer, saved, resolve, last, t
     tmp_5 = new Outcome(page_0, p_0, s, s.c1f_1);
   } else {
     var tmp6_elvis_lhs = species == null ? null : species.c1f_1;
-    tmp_5 = new Outcome(null, null, species, tmp6_elvis_lhs == null ? scan.f27_1 : tmp6_elvis_lhs);
+    tmp_5 = new Outcome(null, null, species, tmp6_elvis_lhs == null ? scan.b28_1 : tmp6_elvis_lhs);
   }
   return tmp_5;
 };
-protoOf(PageScan).r27 = function (p, page) {
+protoOf(PageScan).n28 = function (p, page) {
   var out = p;
-  if (!(page.x25_1 == null))
-    out = out.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, page.x25_1.b1k_1);
+  if (!(page.t26_1 == null))
+    out = out.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, page.t26_1.b1k_1);
   // Inline function 'kotlin.collections.map' call
-  var this_0 = page.y25_1;
+  var this_0 = page.u26_1;
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(this_0, 10));
   var _iterator__ex2g4s = this_0.i();
@@ -15712,10 +16011,10 @@ protoOf(PageScan).r27 = function (p, page) {
   if (tmp)
     out = out.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, ids);
   // Inline function 'kotlin.collections.isNotEmpty' call
-  if (!page.z25_1.q())
-    out = out.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, page.z25_1);
-  if (!(page.a26_1 == null) && p.v1l_1.equals(Variant_NORMAL_getInstance()))
-    out = out.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, page.a26_1);
+  if (!page.v26_1.q())
+    out = out.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, page.v26_1);
+  if (!(page.w26_1 == null) && p.v1l_1.equals(Variant_NORMAL_getInstance()))
+    out = out.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, page.w26_1);
   // Inline function 'kotlin.takeIf' call
   var this_1 = out;
   var tmp_0;
@@ -15726,11 +16025,11 @@ protoOf(PageScan).r27 = function (p, page) {
   }
   return tmp_0;
 };
-protoOf(PageScan).s27 = function (page) {
-  var tmp0_safe_receiver = page.x25_1;
+protoOf(PageScan).o28 = function (page) {
+  var tmp0_safe_receiver = page.t26_1;
   var tmp = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.c1k_1;
   // Inline function 'kotlin.takeIf' call
-  var this_0 = page.y25_1;
+  var this_0 = page.u26_1;
   var tmp_0;
   // Inline function 'kotlin.collections.isNotEmpty' call
   if (!this_0.q()) {
@@ -15747,7 +16046,7 @@ protoOf(PageScan).s27 = function (page) {
   }
   var tmp_2 = tmp_1;
   // Inline function 'kotlin.takeIf' call
-  var this_1 = page.z25_1;
+  var this_1 = page.v26_1;
   var tmp_3;
   // Inline function 'kotlin.collections.isNotEmpty' call
   if (!this_1.q()) {
@@ -15765,11 +16064,11 @@ protoOf(PageScan).s27 = function (page) {
     tmp_4 = '\uD83C\uDFF7 ' + tmp3_safe_receiver;
   }
   var tmp_5 = tmp_4;
-  var tmp4_subject = page.a26_1;
+  var tmp4_subject = page.w26_1;
   var tmp0 = tmp4_subject == null ? -1 : tmp4_subject.k2_1;
   return joinToString(listOfNotNull([tmp, tmp_2, tmp_5, tmp0 === 1 ? 'Crypto' : tmp0 === 2 ? 'Erl\xF6st' : tmp0 === 3 ? 'Gl\xFCcks' : null]), ' \xB7 ');
 };
-protoOf(PageScan).t27 = function (data, analyzer, saved, metas) {
+protoOf(PageScan).p28 = function (data, analyzer, saved, metas) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -15784,13 +16083,13 @@ protoOf(PageScan).t27 = function (data, analyzer, saved, metas) {
   var tmp;
   if (!(metas == null)) {
     // Inline function 'kotlin.collections.flatMap' call
-    var tmp0 = Upgrade_instance.y27(data, analyzer, saved, metas);
+    var tmp0 = Upgrade_instance.u28(data, analyzer, saved, metas);
     // Inline function 'kotlin.collections.flatMapTo' call
     var destination_0 = ArrayList_init_$Create$_0();
     var _iterator__ex2g4s_0 = tmp0.i();
     while (_iterator__ex2g4s_0.j()) {
       var element_0 = _iterator__ex2g4s_0.k();
-      var list = listOfNotNull([element_0.c28(), element_0.d28()]);
+      var list = listOfNotNull([element_0.y28(), element_0.z28()]);
       addAll(destination_0, list);
     }
     // Inline function 'kotlin.collections.map' call
@@ -15799,7 +16098,7 @@ protoOf(PageScan).t27 = function (data, analyzer, saved, metas) {
     var _iterator__ex2g4s_1 = destination_0.i();
     while (_iterator__ex2g4s_1.j()) {
       var item = _iterator__ex2g4s_1.k();
-      var tmp$ret$8 = item.e28_1.n1l_1;
+      var tmp$ret$8 = item.a29_1.n1l_1;
       destination_1.h(tmp$ret$8);
     }
     tmp = toSet(destination_1);
@@ -15810,7 +16109,7 @@ protoOf(PageScan).t27 = function (data, analyzer, saved, metas) {
     var _iterator__ex2g4s_2 = saved.i();
     while (_iterator__ex2g4s_2.j()) {
       var element_1 = _iterator__ex2g4s_2.k();
-      if (Upgrade_instance.x27(element_1) && element_1.g1m().d1l() >= 96.0) {
+      if (Upgrade_instance.t28(element_1) && element_1.g1m().d1l() >= 96.0) {
         destination_2.h(element_1);
       }
     }
@@ -15881,7 +16180,7 @@ protoOf(PageScan).t27 = function (data, analyzer, saved, metas) {
         tmp_2 = tmp0_elvis_lhs;
       }
       var s = tmp_2;
-      var tmp0_0 = Nickname_getInstance().q25(analyzer.k1h(s, element_3.g1m(), element_3.u1l_1, element_3.v1l_1));
+      var tmp0_0 = Nickname_getInstance().m26(analyzer.k1h(s, element_3.g1m(), element_3.u1l_1, element_3.v1l_1));
       var tmp$ret$24;
       $l$block_2: {
         // Inline function 'kotlin.collections.any' call
@@ -15927,11 +16226,11 @@ function PageScan_getInstance() {
     new PageScan();
   return PageScan_instance;
 }
-var static_init_called_13;
-function static_init_13() {
-  if (static_init_called_13)
+var static_init_called_14;
+function static_init_14() {
+  if (static_init_called_14)
     return Unit_instance;
-  static_init_called_13 = true;
+  static_init_called_14 = true;
   Action_SKIP_instance = new Action('SKIP', 0);
   Action_HOLD_instance = new Action('HOLD', 1);
   Action_READ_HELD_instance = new Action('READ_HELD', 2);
@@ -15945,13 +16244,13 @@ function Action(name, ordinal) {
   Enum.call(this, name, ordinal);
 }
 function Companion_15() {
-  this.m28_1 = 10.0;
-  this.n28_1 = 25.0;
-  this.o28_1 = 40;
-  this.p28_1 = 86;
-  this.q28_1 = 0.4;
+  this.i29_1 = 10.0;
+  this.j29_1 = 25.0;
+  this.k29_1 = 40;
+  this.l29_1 = 86;
+  this.m29_1 = 0.4;
 }
-protoOf(Companion_15).r28 = function (a, b) {
+protoOf(Companion_15).n29 = function (a, b) {
   if (!(a.length === b.length))
     return 1.7976931348623157E308;
   var s = new Long(0, 0);
@@ -15974,67 +16273,67 @@ function Companion_getInstance_15() {
   return Companion_instance_17;
 }
 function Action_SKIP_getInstance() {
-  static_init_13();
+  static_init_14();
   return Action_SKIP_instance;
 }
 function Action_HOLD_getInstance() {
-  static_init_13();
+  static_init_14();
   return Action_HOLD_instance;
 }
 function Action_READ_HELD_getInstance() {
-  static_init_13();
+  static_init_14();
   return Action_READ_HELD_instance;
 }
 function Action_READ_NOW_getInstance() {
-  static_init_13();
+  static_init_14();
   return Action_READ_NOW_instance;
 }
 function PageSettle(still, settle) {
   still = still === VOID ? 10.0 : still;
   settle = settle === VOID ? 25.0 : settle;
-  this.s28_1 = still;
-  this.t28_1 = settle;
-  this.u28_1 = null;
-  this.v28_1 = null;
-  this.w28_1 = null;
-  this.x28_1 = 1.7976931348623157E308;
+  this.o29_1 = still;
+  this.p29_1 = settle;
+  this.q29_1 = null;
+  this.r29_1 = null;
+  this.s29_1 = null;
+  this.t29_1 = 1.7976931348623157E308;
 }
-protoOf(PageSettle).y28 = function () {
-  return !(this.w28_1 == null);
+protoOf(PageSettle).u29 = function () {
+  return !(this.s29_1 == null);
 };
-protoOf(PageSettle).z28 = function (sig) {
-  var tmp0_safe_receiver = this.u28_1;
+protoOf(PageSettle).v29 = function (sig) {
+  var tmp0_safe_receiver = this.q29_1;
   var tmp;
   if (tmp0_safe_receiver == null) {
     tmp = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp = Companion_instance_17.r28(tmp0_safe_receiver, sig);
+    tmp = Companion_instance_17.n29(tmp0_safe_receiver, sig);
   }
   var tmp1_elvis_lhs = tmp;
   var d = tmp1_elvis_lhs == null ? 1.7976931348623157E308 : tmp1_elvis_lhs;
-  this.u28_1 = sig;
-  var tmp2_safe_receiver = this.v28_1;
+  this.q29_1 = sig;
+  var tmp2_safe_receiver = this.r29_1;
   var tmp_0;
   if (tmp2_safe_receiver == null) {
     tmp_0 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_0 = Companion_instance_17.r28(tmp2_safe_receiver, sig) >= this.s28_1;
+    tmp_0 = Companion_instance_17.n29(tmp2_safe_receiver, sig) >= this.o29_1;
   }
   var tmp3_elvis_lhs = tmp_0;
   var fresh = tmp3_elvis_lhs == null ? true : tmp3_elvis_lhs;
-  if (fresh && d < this.s28_1) {
-    this.v28_1 = sig;
-    this.w28_1 = null;
+  if (fresh && d < this.o29_1) {
+    this.r29_1 = sig;
+    this.s29_1 = null;
     return Action_READ_NOW_getInstance();
   }
-  if (fresh && d < this.t28_1 && (this.w28_1 == null || d <= this.x28_1)) {
-    this.w28_1 = sig;
-    this.x28_1 = d;
+  if (fresh && d < this.p29_1 && (this.s29_1 == null || d <= this.t29_1)) {
+    this.s29_1 = sig;
+    this.t29_1 = d;
     return Action_HOLD_getInstance();
   }
-  var tmp4_elvis_lhs = this.w28_1;
+  var tmp4_elvis_lhs = this.s29_1;
   var tmp_1;
   if (tmp4_elvis_lhs == null) {
     return Action_SKIP_getInstance();
@@ -16042,32 +16341,32 @@ protoOf(PageSettle).z28 = function (sig) {
     tmp_1 = tmp4_elvis_lhs;
   }
   var h = tmp_1;
-  this.v28_1 = h;
-  this.w28_1 = null;
-  this.x28_1 = 1.7976931348623157E308;
+  this.r29_1 = h;
+  this.s29_1 = null;
+  this.t29_1 = 1.7976931348623157E308;
   return Action_READ_HELD_getInstance();
 };
 function PveAttacker(species, shadow, iv, level, rating, assumedMoves, uid) {
   uid = uid === VOID ? null : uid;
-  this.z22_1 = species;
-  this.a23_1 = shadow;
-  this.b23_1 = iv;
-  this.c23_1 = level;
-  this.d23_1 = rating;
-  this.e23_1 = assumedMoves;
-  this.f23_1 = uid;
+  this.v23_1 = species;
+  this.w23_1 = shadow;
+  this.x23_1 = iv;
+  this.y23_1 = level;
+  this.z23_1 = rating;
+  this.a24_1 = assumedMoves;
+  this.b24_1 = uid;
 }
 protoOf(PveAttacker).toString = function () {
-  return 'PveAttacker(species=' + this.z22_1.toString() + ', shadow=' + this.a23_1 + ', iv=' + this.b23_1.toString() + ', level=' + this.c23_1 + ', rating=' + this.d23_1.toString() + ', assumedMoves=' + this.e23_1 + ', uid=' + toString(this.f23_1) + ')';
+  return 'PveAttacker(species=' + this.v23_1.toString() + ', shadow=' + this.w23_1 + ', iv=' + this.x23_1.toString() + ', level=' + this.y23_1 + ', rating=' + this.z23_1.toString() + ', assumedMoves=' + this.a24_1 + ', uid=' + toString(this.b24_1) + ')';
 };
 protoOf(PveAttacker).hashCode = function () {
-  var result = this.z22_1.hashCode();
-  result = imul(result, 31) + getBooleanHashCode(this.a23_1) | 0;
-  result = imul(result, 31) + this.b23_1.hashCode() | 0;
-  result = imul(result, 31) + getNumberHashCode(this.c23_1) | 0;
-  result = imul(result, 31) + this.d23_1.hashCode() | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.e23_1) | 0;
-  result = imul(result, 31) + (this.f23_1 == null ? 0 : this.f23_1.hashCode()) | 0;
+  var result = this.v23_1.hashCode();
+  result = imul(result, 31) + getBooleanHashCode(this.w23_1) | 0;
+  result = imul(result, 31) + this.x23_1.hashCode() | 0;
+  result = imul(result, 31) + getNumberHashCode(this.y23_1) | 0;
+  result = imul(result, 31) + this.z23_1.hashCode() | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.a24_1) | 0;
+  result = imul(result, 31) + (this.b24_1 == null ? 0 : this.b24_1.hashCode()) | 0;
   return result;
 };
 protoOf(PveAttacker).equals = function (other) {
@@ -16075,31 +16374,31 @@ protoOf(PveAttacker).equals = function (other) {
     return true;
   if (!(other instanceof PveAttacker))
     return false;
-  if (!this.z22_1.equals(other.z22_1))
+  if (!this.v23_1.equals(other.v23_1))
     return false;
-  if (!(this.a23_1 === other.a23_1))
+  if (!(this.w23_1 === other.w23_1))
     return false;
-  if (!this.b23_1.equals(other.b23_1))
+  if (!this.x23_1.equals(other.x23_1))
     return false;
-  if (!equals(this.c23_1, other.c23_1))
+  if (!equals(this.y23_1, other.y23_1))
     return false;
-  if (!this.d23_1.equals(other.d23_1))
+  if (!this.z23_1.equals(other.z23_1))
     return false;
-  if (!(this.e23_1 === other.e23_1))
+  if (!(this.a24_1 === other.a24_1))
     return false;
-  if (!equals(this.f23_1, other.f23_1))
+  if (!equals(this.b24_1, other.b24_1))
     return false;
   return true;
 };
 function candidates($this) {
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = $this.m23_1.a1g_1;
+  var tmp0 = $this.i24_1.a1g_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (!Companion_getInstance_13().z21_1.t(element.a1f_1)) {
+    if (!Companion_getInstance_13().v22_1.t(element.a1f_1)) {
       destination.h(element);
     }
   }
@@ -16132,7 +16431,7 @@ protoOf(Companion_16).s1g = function (species, shadow, metas) {
       var _iterator__ex2g4s_0 = list.i();
       while (_iterator__ex2g4s_0.j()) {
         var item = _iterator__ex2g4s_0.k();
-        if (item.z22_1.a1f_1 === species.a1f_1 && item.a23_1 === shadow) {
+        if (item.v23_1.a1f_1 === species.a1f_1 && item.w23_1 === shadow) {
           tmp$ret$8 = index;
           break $l$block;
         }
@@ -16176,7 +16475,7 @@ protoOf(Companion_16).s1g = function (species, shadow, metas) {
   }
   return tmp$ret$12;
 };
-protoOf(Companion_16).x22 = function (id) {
+protoOf(Companion_16).t23 = function (id) {
   return substringBefore(substringBefore(id, '_mega'), '_primal');
 };
 var Companion_instance_18;
@@ -16185,47 +16484,17 @@ function Companion_getInstance_16() {
     new Companion_16();
   return Companion_instance_18;
 }
-function sam$kotlin_Comparator$0_15(function_0) {
-  this.a29_1 = function_0;
-}
-protoOf(sam$kotlin_Comparator$0_15).uc = function (a, b) {
-  return this.a29_1(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_15).compare = function (a, b) {
-  return this.uc(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_15).t2 = function () {
-  return this.a29_1;
-};
-protoOf(sam$kotlin_Comparator$0_15).equals = function (other) {
-  var tmp;
-  if (!(other == null) ? isInterface(other, Comparator) : false) {
-    var tmp_0;
-    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
-      tmp_0 = equals(this.t2(), other.t2());
-    } else {
-      tmp_0 = false;
-    }
-    tmp = tmp_0;
-  } else {
-    tmp = false;
-  }
-  return tmp;
-};
-protoOf(sam$kotlin_Comparator$0_15).hashCode = function () {
-  return hashCode(this.t2());
-};
 function sam$kotlin_Comparator$0_16(function_0) {
-  this.b29_1 = function_0;
+  this.w29_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_16).uc = function (a, b) {
-  return this.b29_1(a, b);
+  return this.w29_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_16).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_16).t2 = function () {
-  return this.b29_1;
+  return this.w29_1;
 };
 protoOf(sam$kotlin_Comparator$0_16).equals = function (other) {
   var tmp;
@@ -16246,16 +16515,16 @@ protoOf(sam$kotlin_Comparator$0_16).hashCode = function () {
   return hashCode(this.t2());
 };
 function sam$kotlin_Comparator$0_17(function_0) {
-  this.c29_1 = function_0;
+  this.x29_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_17).uc = function (a, b) {
-  return this.c29_1(a, b);
+  return this.x29_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_17).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_17).t2 = function () {
-  return this.c29_1;
+  return this.x29_1;
 };
 protoOf(sam$kotlin_Comparator$0_17).equals = function (other) {
   var tmp;
@@ -16275,14 +16544,44 @@ protoOf(sam$kotlin_Comparator$0_17).equals = function (other) {
 protoOf(sam$kotlin_Comparator$0_17).hashCode = function () {
   return hashCode(this.t2());
 };
+function sam$kotlin_Comparator$0_18(function_0) {
+  this.y29_1 = function_0;
+}
+protoOf(sam$kotlin_Comparator$0_18).uc = function (a, b) {
+  return this.y29_1(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_18).compare = function (a, b) {
+  return this.uc(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_18).t2 = function () {
+  return this.y29_1;
+};
+protoOf(sam$kotlin_Comparator$0_18).equals = function (other) {
+  var tmp;
+  if (!(other == null) ? isInterface(other, Comparator) : false) {
+    var tmp_0;
+    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
+      tmp_0 = equals(this.t2(), other.t2());
+    } else {
+      tmp_0 = false;
+    }
+    tmp = tmp_0;
+  } else {
+    tmp = false;
+  }
+  return tmp;
+};
+protoOf(sam$kotlin_Comparator$0_18).hashCode = function () {
+  return hashCode(this.t2());
+};
 function moveOptions$allowed($regularOnly, $species, id) {
   return !$regularOnly || (!$species.m1f_1.t(id) && !$species.n1f_1.t(id));
 }
 function rate$damage($boss, $attacker, $weather, atk, bossDef, m) {
-  var mult = TypeChart_getInstance().n1j(m.d1k_1, $boss.d29_1.h1f_1);
+  var mult = TypeChart_getInstance().n1j(m.d1k_1, $boss.z29_1.h1f_1);
   if ($attacker.h1f_1.t(m.d1k_1))
     mult = mult * 1.2;
-  if ($weather.j29_1.t(m.d1k_1))
+  if ($weather.f2a_1.t(m.d1k_1))
     mult = mult * 1.2;
   // Inline function 'kotlin.math.floor' call
   var x = 0.5 * m.i1k_1 * atk / bossDef * mult;
@@ -16290,28 +16589,28 @@ function rate$damage($boss, $attacker, $weather, atk, bossDef, m) {
 }
 function PveCalc$counters$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.d23_1.k23();
-  var tmp$ret$2 = a.d23_1.k23();
+  var tmp = b.z23_1.g24();
+  var tmp$ret$2 = a.z23_1.g24();
   return compareValues(tmp, tmp$ret$2);
 }
 function PveCalc$topCounters$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.d23_1.k23();
-  var tmp$ret$2 = a.d23_1.k23();
+  var tmp = b.z23_1.g24();
+  var tmp$ret$2 = a.z23_1.g24();
   return compareValues(tmp, tmp$ret$2);
 }
 function PveCalc$typeMeta$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.d23_1.k23();
-  var tmp$ret$2 = a.d23_1.k23();
+  var tmp = b.z23_1.g24();
+  var tmp$ret$2 = a.z23_1.g24();
   return compareValues(tmp, tmp$ret$2);
 }
 function PveCalc(data) {
   Companion_getInstance_16();
-  this.m23_1 = data;
-  this.n23_1 = this.m23_1.c1v();
+  this.i24_1 = data;
+  this.j24_1 = this.i24_1.c1v();
 }
-protoOf(PveCalc).k29 = function (species, regularOnly) {
+protoOf(PveCalc).g2a = function (species, regularOnly) {
   // Inline function 'kotlin.collections.filter' call
   var tmp0 = species.i1f_1;
   // Inline function 'kotlin.collections.filterTo' call
@@ -16330,7 +16629,7 @@ protoOf(PveCalc).k29 = function (species, regularOnly) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
-    var tmp0_safe_receiver = this.n23_1.c2(element_0);
+    var tmp0_safe_receiver = this.j24_1.c2(element_0);
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -16344,7 +16643,7 @@ protoOf(PveCalc).k29 = function (species, regularOnly) {
   var _iterator__ex2g4s_1 = destination_0.i();
   while (_iterator__ex2g4s_1.j()) {
     var element_1 = _iterator__ex2g4s_1.k();
-    if (element_1.w1x() && element_1.j1k_1 > 0) {
+    if (element_1.x1x() && element_1.j1k_1 > 0) {
       destination_1.h(element_1);
     }
   }
@@ -16367,7 +16666,7 @@ protoOf(PveCalc).k29 = function (species, regularOnly) {
   var _iterator__ex2g4s_3 = destination_2.i();
   while (_iterator__ex2g4s_3.j()) {
     var element_3 = _iterator__ex2g4s_3.k();
-    var tmp0_safe_receiver_0 = this.n23_1.c2(element_3);
+    var tmp0_safe_receiver_0 = this.j24_1.c2(element_3);
     if (tmp0_safe_receiver_0 == null)
       null;
     else {
@@ -16381,23 +16680,23 @@ protoOf(PveCalc).k29 = function (species, regularOnly) {
   var _iterator__ex2g4s_4 = destination_3.i();
   while (_iterator__ex2g4s_4.j()) {
     var element_4 = _iterator__ex2g4s_4.k();
-    if (element_4.w1x() && element_4.j1k_1 < 0) {
+    if (element_4.x1x() && element_4.j1k_1 < 0) {
       destination_4.h(element_4);
     }
   }
   var charged = destination_4;
   return to(fast, charged);
 };
-protoOf(PveCalc).l29 = function (attacker, iv, level, shadow, fast, charged, boss, weather) {
-  var cpm = this.m23_1.t1g().c1h(level);
+protoOf(PveCalc).h2a = function (attacker, iv, level, shadow, fast, charged, boss, weather) {
+  var cpm = this.i24_1.t1g().c1h(level);
   var atk = (attacker.e1f_1 + iv.x1j_1 | 0) * cpm * (shadow ? 1.2 : 1.0);
   var def = (attacker.f1f_1 + iv.y1j_1 | 0) * cpm * (shadow ? 5.0 / 6.0 : 1.0);
   // Inline function 'kotlin.math.floor' call
   var x = (attacker.g1f_1 + iv.z1j_1 | 0) * cpm;
   var tmp$ret$0 = Math.floor(x);
   var hp = coerceAtLeast_0(tmp$ret$0, 10.0);
-  var bossDef = (boss.d29_1.f1f_1 + 15 | 0) * boss.m29();
-  var bossAtk = (boss.d29_1.e1f_1 + 15 | 0) * boss.m29();
+  var bossDef = (boss.z29_1.f1f_1 + 15 | 0) * boss.i2a();
+  var bossAtk = (boss.z29_1.e1f_1 + 15 | 0) * boss.i2a();
   var fastDmg = rate$damage(boss, attacker, weather, atk, bossDef, fast);
   var fastS = fast.k1k_1 / 1000.0;
   var chargedDmg = rate$damage(boss, attacker, weather, atk, bossDef, charged);
@@ -16410,14 +16709,14 @@ protoOf(PveCalc).l29 = function (attacker, iv, level, shadow, fast, charged, bos
   var a = fastDmg / fastS;
   var dps = Math.max(a, cycle);
   // Inline function 'kotlin.collections.mapNotNull' call
-  var tmp0 = plus_1(boss.d29_1.i1f_1, boss.d29_1.j1f_1);
+  var tmp0 = plus_1(boss.z29_1.i1f_1, boss.z29_1.j1f_1);
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.forEach' call
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = this.n23_1.c2(element);
+    var tmp0_safe_receiver = this.j24_1.c2(element);
     var tmp0_safe_receiver_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.d1k_1;
     if (tmp0_safe_receiver_0 == null)
       null;
@@ -16447,8 +16746,8 @@ protoOf(PveCalc).l29 = function (attacker, iv, level, shadow, fast, charged, bos
   var survive = hp / incoming;
   return new PveRating(fast, charged, dps, dps * survive);
 };
-protoOf(PveCalc).p23 = function (attacker, iv, level, shadow, boss, weather, regularOnly) {
-  var _destruct__k2r9zo = this.k29(attacker, regularOnly);
+protoOf(PveCalc).l24 = function (attacker, iv, level, shadow, boss, weather, regularOnly) {
+  var _destruct__k2r9zo = this.g2a(attacker, regularOnly);
   var fast = _destruct__k2r9zo.m9();
   var charged = _destruct__k2r9zo.n9();
   var best = null;
@@ -16458,14 +16757,14 @@ protoOf(PveCalc).p23 = function (attacker, iv, level, shadow, boss, weather, reg
     var _iterator__ex2g4s_0 = charged.i();
     while (_iterator__ex2g4s_0.j()) {
       var c = _iterator__ex2g4s_0.k();
-      var r = this.l29(attacker, iv, level, shadow, f, c, boss, weather);
-      if (best == null || r.k23() > best.k23())
+      var r = this.h2a(attacker, iv, level, shadow, f, c, boss, weather);
+      if (best == null || r.g24() > best.g24())
         best = r;
     }
   }
   return best;
 };
-protoOf(PveCalc).o23 = function (saved, boss, weather) {
+protoOf(PveCalc).k24 = function (saved, boss, weather) {
   // Inline function 'kotlin.collections.mapNotNull' call
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -16475,7 +16774,7 @@ protoOf(PveCalc).o23 = function (saved, boss, weather) {
     var element = _iterator__ex2g4s.k();
     var tmp$ret$4;
     $l$block_0: {
-      var tmp0_elvis_lhs = this.m23_1.k1g().c2(element.o1l_1);
+      var tmp0_elvis_lhs = this.i24_1.k1g().c2(element.o1l_1);
       var tmp;
       if (tmp0_elvis_lhs == null) {
         tmp$ret$4 = null;
@@ -16491,7 +16790,7 @@ protoOf(PveCalc).o23 = function (saved, boss, weather) {
         tmp_0 = null;
       } else {
         // Inline function 'kotlin.let' call
-        tmp_0 = this.n23_1.c2(tmp1_safe_receiver);
+        tmp_0 = this.j24_1.c2(tmp1_safe_receiver);
       }
       var tmp2_safe_receiver = tmp_0;
       var tmp_1;
@@ -16500,7 +16799,7 @@ protoOf(PveCalc).o23 = function (saved, boss, weather) {
       } else {
         // Inline function 'kotlin.takeIf' call
         var tmp_2;
-        if (tmp2_safe_receiver.w1x()) {
+        if (tmp2_safe_receiver.x1x()) {
           tmp_2 = tmp2_safe_receiver;
         } else {
           tmp_2 = null;
@@ -16514,7 +16813,7 @@ protoOf(PveCalc).o23 = function (saved, boss, weather) {
         tmp_3 = null;
       } else {
         // Inline function 'kotlin.let' call
-        tmp_3 = this.n23_1.c2(tmp3_safe_receiver);
+        tmp_3 = this.j24_1.c2(tmp3_safe_receiver);
       }
       var tmp4_safe_receiver = tmp_3;
       var tmp_4;
@@ -16523,7 +16822,7 @@ protoOf(PveCalc).o23 = function (saved, boss, weather) {
       } else {
         // Inline function 'kotlin.takeIf' call
         var tmp_5;
-        if (tmp4_safe_receiver.w1x()) {
+        if (tmp4_safe_receiver.x1x()) {
           tmp_5 = tmp4_safe_receiver;
         } else {
           tmp_5 = null;
@@ -16533,9 +16832,9 @@ protoOf(PveCalc).o23 = function (saved, boss, weather) {
       var charged = tmp_4;
       var tmp_6;
       if (!(fast == null) && !(charged == null)) {
-        tmp_6 = this.l29(species, element.g1m(), element.u1l_1, shadow, fast, charged, boss, weather);
+        tmp_6 = this.h2a(species, element.g1m(), element.u1l_1, shadow, fast, charged, boss, weather);
       } else {
-        tmp_6 = this.p23(species, element.g1m(), element.u1l_1, shadow, boss, weather, true);
+        tmp_6 = this.l24(species, element.g1m(), element.u1l_1, shadow, boss, weather, true);
       }
       var tmp5_elvis_lhs = tmp_6;
       var tmp_7;
@@ -16559,10 +16858,10 @@ protoOf(PveCalc).o23 = function (saved, boss, weather) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_8 = PveCalc$counters$lambda;
-  var tmp$ret$16 = new sam$kotlin_Comparator$0_15(tmp_8);
+  var tmp$ret$16 = new sam$kotlin_Comparator$0_16(tmp_8);
   return sortedWith(destination, tmp$ret$16);
 };
-protoOf(PveCalc).n29 = function (boss, weather, limit) {
+protoOf(PveCalc).j2a = function (boss, weather, limit) {
   // Inline function 'kotlin.collections.flatMap' call
   var tmp0 = candidates(this);
   // Inline function 'kotlin.collections.flatMapTo' call
@@ -16578,7 +16877,7 @@ protoOf(PveCalc).n29 = function (boss, weather, limit) {
     var _iterator__ex2g4s_0 = tmp0_0.i();
     while (_iterator__ex2g4s_0.j()) {
       var element_0 = _iterator__ex2g4s_0.k();
-      var tmp0_safe_receiver = this.p23(element, Companion_getInstance_16().o1g_1, 40.0, element_0, boss, weather, false);
+      var tmp0_safe_receiver = this.l24(element, Companion_getInstance_16().o1g_1, 40.0, element_0, boss, weather, false);
       var tmp;
       if (tmp0_safe_receiver == null) {
         tmp = null;
@@ -16600,12 +16899,12 @@ protoOf(PveCalc).n29 = function (boss, weather, limit) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_0 = PveCalc$topCounters$lambda;
-  var tmp$ret$13 = new sam$kotlin_Comparator$0_16(tmp_0);
+  var tmp$ret$13 = new sam$kotlin_Comparator$0_17(tmp_0);
   var tmp$ret$12 = sortedWith(destination, tmp$ret$13);
   return take_0(tmp$ret$12, limit);
 };
-protoOf(PveCalc).o29 = function (type, limit) {
-  var target = new RaidBoss(Companion_getInstance_16().q1g_1.m1x(VOID, VOID, VOID, VOID, VOID, VOID, VOID, listOf_0('none')), 5);
+protoOf(PveCalc).k2a = function (type, limit) {
+  var target = new RaidBoss(Companion_getInstance_16().q1g_1.n1x(VOID, VOID, VOID, VOID, VOID, VOID, VOID, listOf_0('none')), 5);
   // Inline function 'kotlin.collections.flatMap' call
   var tmp0 = candidates(this);
   // Inline function 'kotlin.collections.flatMapTo' call
@@ -16615,7 +16914,7 @@ protoOf(PveCalc).o29 = function (type, limit) {
     var element = _iterator__ex2g4s.k();
     var tmp$ret$2;
     $l$block: {
-      var _destruct__k2r9zo = this.k29(element, false);
+      var _destruct__k2r9zo = this.g2a(element, false);
       var fast = _destruct__k2r9zo.m9();
       var charged = _destruct__k2r9zo.n9();
       // Inline function 'kotlin.collections.filter' call
@@ -16663,7 +16962,7 @@ protoOf(PveCalc).o29 = function (type, limit) {
           var _iterator__ex2g4s_4 = c.i();
           while (_iterator__ex2g4s_4.j()) {
             var item_0 = _iterator__ex2g4s_4.k();
-            var tmp$ret$17 = this.l29(element, Companion_getInstance_16().o1g_1, 40.0, item, element_2, item_0, target, Weather_NONE_getInstance());
+            var tmp$ret$17 = this.h2a(element, Companion_getInstance_16().o1g_1, 40.0, item, element_2, item_0, target, Weather_NONE_getInstance());
             destination_4.h(tmp$ret$17);
           }
           var list = destination_4;
@@ -16680,10 +16979,10 @@ protoOf(PveCalc).o29 = function (type, limit) {
             tmp$ret$18 = maxElem;
             break $l$block_0;
           }
-          var maxValue = maxElem.k23();
+          var maxValue = maxElem.g24();
           do {
             var e = iterator.k();
-            var v = e.k23();
+            var v = e.g24();
             if (compareTo(maxValue, v) < 0) {
               maxElem = e;
               maxValue = v;
@@ -16704,43 +17003,43 @@ protoOf(PveCalc).o29 = function (type, limit) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp = PveCalc$typeMeta$lambda;
-  var tmp$ret$22 = new sam$kotlin_Comparator$0_17(tmp);
+  var tmp$ret$22 = new sam$kotlin_Comparator$0_18(tmp);
   var tmp$ret$21 = sortedWith(destination, tmp$ret$22);
   return take_0(tmp$ret$21, limit);
 };
-protoOf(PveCalc).p29 = function (limit) {
+protoOf(PveCalc).l2a = function (limit) {
   // Inline function 'kotlin.collections.associateWith' call
-  var this_0 = this.m23_1.c1g_1.d2();
+  var this_0 = this.i24_1.c1g_1.d2();
   var result = LinkedHashMap_init_$Create$_0(coerceAtLeast(mapCapacity(collectionSizeOrDefault(this_0, 10)), 16));
   // Inline function 'kotlin.collections.associateWithTo' call
   var _iterator__ex2g4s = this_0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp$ret$2 = this.o29(element, limit);
+    var tmp$ret$2 = this.k2a(element, limit);
     result.f2(element, tmp$ret$2);
   }
   return result;
 };
-protoOf(PveCalc).q29 = function (limit, $super) {
+protoOf(PveCalc).m2a = function (limit, $super) {
   limit = limit === VOID ? 50 : limit;
-  return $super === VOID ? this.p29(limit) : $super.p29.call(this, limit);
+  return $super === VOID ? this.l2a(limit) : $super.l2a.call(this, limit);
 };
 function RaidBoss(species, tier, shadow) {
   shadow = shadow === VOID ? false : shadow;
-  this.d29_1 = species;
-  this.e29_1 = tier;
-  this.f29_1 = shadow;
+  this.z29_1 = species;
+  this.a2a_1 = tier;
+  this.b2a_1 = shadow;
 }
-protoOf(RaidBoss).m29 = function () {
-  return this.e29_1 <= 1 ? 0.6 : this.e29_1 <= 3 ? 0.73 : 0.79;
+protoOf(RaidBoss).i2a = function () {
+  return this.a2a_1 <= 1 ? 0.6 : this.a2a_1 <= 3 ? 0.73 : 0.79;
 };
 protoOf(RaidBoss).toString = function () {
-  return 'RaidBoss(species=' + this.d29_1.toString() + ', tier=' + this.e29_1 + ', shadow=' + this.f29_1 + ')';
+  return 'RaidBoss(species=' + this.z29_1.toString() + ', tier=' + this.a2a_1 + ', shadow=' + this.b2a_1 + ')';
 };
 protoOf(RaidBoss).hashCode = function () {
-  var result = this.d29_1.hashCode();
-  result = imul(result, 31) + this.e29_1 | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.f29_1) | 0;
+  var result = this.z29_1.hashCode();
+  result = imul(result, 31) + this.a2a_1 | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.b2a_1) | 0;
   return result;
 };
 protoOf(RaidBoss).equals = function (other) {
@@ -16748,19 +17047,19 @@ protoOf(RaidBoss).equals = function (other) {
     return true;
   if (!(other instanceof RaidBoss))
     return false;
-  if (!this.d29_1.equals(other.d29_1))
+  if (!this.z29_1.equals(other.z29_1))
     return false;
-  if (!(this.e29_1 === other.e29_1))
+  if (!(this.a2a_1 === other.a2a_1))
     return false;
-  if (!(this.f29_1 === other.f29_1))
+  if (!(this.b2a_1 === other.b2a_1))
     return false;
   return true;
 };
-var static_init_called_14;
-function static_init_14() {
-  if (static_init_called_14)
+var static_init_called_15;
+function static_init_15() {
+  if (static_init_called_15)
     return Unit_instance;
-  static_init_called_14 = true;
+  static_init_called_15 = true;
   Weather_NONE_instance = new Weather('NONE', 0, 'Kein Wetter', emptyList());
   Weather_SUNNY_instance = new Weather('SUNNY', 1, 'Sonnig', listOf(['grass', 'ground', 'fire']));
   Weather_RAINY_instance = new Weather('RAINY', 2, 'Regen', listOf(['water', 'electric', 'bug']));
@@ -16779,11 +17078,11 @@ var Weather_WINDY_instance;
 var Weather_SNOW_instance;
 var Weather_FOG_instance;
 function values_4() {
-  static_init_14();
+  static_init_15();
   return [Weather_NONE_getInstance(), Weather_SUNNY_getInstance(), Weather_RAINY_getInstance(), Weather_PARTLY_CLOUDY_getInstance(), Weather_CLOUDY_getInstance(), Weather_WINDY_getInstance(), Weather_SNOW_getInstance(), Weather_FOG_getInstance()];
 }
 function valueOf_0(value) {
-  static_init_14();
+  static_init_15();
   switch (value) {
     case 'NONE':
       return Weather_NONE_getInstance();
@@ -16807,7 +17106,7 @@ function valueOf_0(value) {
   }
 }
 function get_entries_4() {
-  static_init_14();
+  static_init_15();
   if ($ENTRIES_4 == null)
     $ENTRIES_4 = enumEntries(values_4());
   return $ENTRIES_4;
@@ -16815,8 +17114,8 @@ function get_entries_4() {
 var $ENTRIES_4;
 function Weather(name, ordinal, label, types) {
   Enum.call(this, name, ordinal);
-  this.i29_1 = label;
-  this.j29_1 = types;
+  this.e2a_1 = label;
+  this.f2a_1 = types;
 }
 function Companion_17() {
 }
@@ -16834,22 +17133,22 @@ function $serializer_13() {
   tmp0_serialDesc.rt('tier', false);
   tmp0_serialDesc.rt('speciesId', false);
   tmp0_serialDesc.rt('shadow', false);
-  this.r29_1 = tmp0_serialDesc;
+  this.n2a_1 = tmp0_serialDesc;
 }
-protoOf($serializer_13).s29 = function (encoder, value) {
-  var tmp0_desc = this.r29_1;
+protoOf($serializer_13).o2a = function (encoder, value) {
+  var tmp0_desc = this.n2a_1;
   var tmp1_output = encoder.kn(tmp0_desc);
-  tmp1_output.zo(tmp0_desc, 0, value.t29_1);
-  tmp1_output.uo(tmp0_desc, 1, value.u29_1);
-  tmp1_output.dp(tmp0_desc, 2, StringSerializer_getInstance(), value.v29_1);
-  tmp1_output.ro(tmp0_desc, 3, value.w29_1);
+  tmp1_output.zo(tmp0_desc, 0, value.p2a_1);
+  tmp1_output.uo(tmp0_desc, 1, value.q2a_1);
+  tmp1_output.dp(tmp0_desc, 2, StringSerializer_getInstance(), value.r2a_1);
+  tmp1_output.ro(tmp0_desc, 3, value.s2a_1);
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_13).tk = function (encoder, value) {
-  return this.s29(encoder, value instanceof Entry_1 ? value : THROW_CCE());
+  return this.o2a(encoder, value instanceof Entry_1 ? value : THROW_CCE());
 };
 protoOf($serializer_13).uk = function (decoder) {
-  var tmp0_desc = this.r29_1;
+  var tmp0_desc = this.n2a_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -16898,7 +17197,7 @@ protoOf($serializer_13).uk = function (decoder) {
   return Entry_init_$Create$_0(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, null);
 };
 protoOf($serializer_13).sk = function () {
-  return this.r29_1;
+  return this.n2a_1;
 };
 protoOf($serializer_13).gu = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -16914,31 +17213,31 @@ function $serializer_getInstance_13() {
 }
 function Entry_init_$Init$_0(seen0, name, tier, speciesId, shadow, serializationConstructorMarker, $this) {
   if (!(15 === (15 & seen0))) {
-    throwMissingFieldException(seen0, 15, $serializer_getInstance_13().r29_1);
+    throwMissingFieldException(seen0, 15, $serializer_getInstance_13().n2a_1);
   }
-  $this.t29_1 = name;
-  $this.u29_1 = tier;
-  $this.v29_1 = speciesId;
-  $this.w29_1 = shadow;
+  $this.p2a_1 = name;
+  $this.q2a_1 = tier;
+  $this.r2a_1 = speciesId;
+  $this.s2a_1 = shadow;
   return $this;
 }
 function Entry_init_$Create$_0(seen0, name, tier, speciesId, shadow, serializationConstructorMarker) {
   return Entry_init_$Init$_0(seen0, name, tier, speciesId, shadow, serializationConstructorMarker, objectCreate(protoOf(Entry_1)));
 }
 function Entry_1(name, tier, speciesId, shadow) {
-  this.t29_1 = name;
-  this.u29_1 = tier;
-  this.v29_1 = speciesId;
-  this.w29_1 = shadow;
+  this.p2a_1 = name;
+  this.q2a_1 = tier;
+  this.r2a_1 = speciesId;
+  this.s2a_1 = shadow;
 }
 protoOf(Entry_1).toString = function () {
-  return 'Entry(name=' + this.t29_1 + ', tier=' + this.u29_1 + ', speciesId=' + this.v29_1 + ', shadow=' + this.w29_1 + ')';
+  return 'Entry(name=' + this.p2a_1 + ', tier=' + this.q2a_1 + ', speciesId=' + this.r2a_1 + ', shadow=' + this.s2a_1 + ')';
 };
 protoOf(Entry_1).hashCode = function () {
-  var result = getStringHashCode(this.t29_1);
-  result = imul(result, 31) + this.u29_1 | 0;
-  result = imul(result, 31) + (this.v29_1 == null ? 0 : getStringHashCode(this.v29_1)) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.w29_1) | 0;
+  var result = getStringHashCode(this.p2a_1);
+  result = imul(result, 31) + this.q2a_1 | 0;
+  result = imul(result, 31) + (this.r2a_1 == null ? 0 : getStringHashCode(this.r2a_1)) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.s2a_1) | 0;
   return result;
 };
 protoOf(Entry_1).equals = function (other) {
@@ -16946,13 +17245,13 @@ protoOf(Entry_1).equals = function (other) {
     return true;
   if (!(other instanceof Entry_1))
     return false;
-  if (!(this.t29_1 === other.t29_1))
+  if (!(this.p2a_1 === other.p2a_1))
     return false;
-  if (!(this.u29_1 === other.u29_1))
+  if (!(this.q2a_1 === other.q2a_1))
     return false;
-  if (!(this.v29_1 == other.v29_1))
+  if (!(this.r2a_1 == other.r2a_1))
     return false;
-  if (!(this.w29_1 === other.w29_1))
+  if (!(this.s2a_1 === other.s2a_1))
     return false;
   return true;
 };
@@ -16978,7 +17277,7 @@ function RaidList() {
   var tmp = this;
   tmp.r1w_1 = Json(VOID, RaidList$json$lambda);
 }
-protoOf(RaidList).x29 = function (list) {
+protoOf(RaidList).t2a = function (list) {
   return this.r1w_1.g12(this.q1w_1, list);
 };
 protoOf(RaidList).e1p = function (text) {
@@ -17013,7 +17312,7 @@ protoOf(RaidList).e1p = function (text) {
   var tmp0_elvis_lhs = tmp;
   return tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
 };
-protoOf(RaidList).y29 = function (text, data) {
+protoOf(RaidList).u2a = function (text, data) {
   // Inline function 'kotlin.let' call
   var it = Default_getInstance().i12(text);
   // Inline function 'kotlin.collections.mapNotNull' call
@@ -17037,7 +17336,7 @@ protoOf(RaidList).y29 = function (text, data) {
       var o = tmp;
       var tmp_0 = o.hc('name');
       var tmp1_safe_receiver = tmp_0 instanceof JsonPrimitive ? tmp_0 : null;
-      var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q14();
+      var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u14();
       var tmp_1;
       if (tmp2_elvis_lhs == null) {
         tmp$ret$6 = null;
@@ -17049,7 +17348,7 @@ protoOf(RaidList).y29 = function (text, data) {
       var tmp_2 = o.hc('tier');
       var tmp3_safe_receiver = tmp_2 instanceof JsonPrimitive ? tmp_2 : null;
       // Inline function 'kotlin.text.orEmpty' call
-      var tmp0_elvis_lhs_0 = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.q14();
+      var tmp0_elvis_lhs_0 = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.u14();
       var tierText = tmp0_elvis_lhs_0 == null ? '' : tmp0_elvis_lhs_0;
       var tmp_3;
       if (contains(tierText, 'Mega')) {
@@ -17182,26 +17481,26 @@ function RaidList_getInstance() {
   return RaidList_instance;
 }
 function PveRating(fast, charged, dps, tdo) {
-  this.g23_1 = fast;
-  this.h23_1 = charged;
-  this.i23_1 = dps;
-  this.j23_1 = tdo;
+  this.c24_1 = fast;
+  this.d24_1 = charged;
+  this.e24_1 = dps;
+  this.f24_1 = tdo;
 }
-protoOf(PveRating).k23 = function () {
+protoOf(PveRating).g24 = function () {
   // Inline function 'kotlin.math.pow' call
-  var this_0 = this.i23_1;
+  var this_0 = this.e24_1;
   // Inline function 'kotlin.math.pow' call
-  var this_1 = Math.pow(this_0, 3) * this.j23_1;
+  var this_1 = Math.pow(this_0, 3) * this.f24_1;
   return Math.pow(this_1, 0.25);
 };
 protoOf(PveRating).toString = function () {
-  return 'PveRating(fast=' + this.g23_1.toString() + ', charged=' + this.h23_1.toString() + ', dps=' + this.i23_1 + ', tdo=' + this.j23_1 + ')';
+  return 'PveRating(fast=' + this.c24_1.toString() + ', charged=' + this.d24_1.toString() + ', dps=' + this.e24_1 + ', tdo=' + this.f24_1 + ')';
 };
 protoOf(PveRating).hashCode = function () {
-  var result = this.g23_1.hashCode();
-  result = imul(result, 31) + this.h23_1.hashCode() | 0;
-  result = imul(result, 31) + getNumberHashCode(this.i23_1) | 0;
-  result = imul(result, 31) + getNumberHashCode(this.j23_1) | 0;
+  var result = this.c24_1.hashCode();
+  result = imul(result, 31) + this.d24_1.hashCode() | 0;
+  result = imul(result, 31) + getNumberHashCode(this.e24_1) | 0;
+  result = imul(result, 31) + getNumberHashCode(this.f24_1) | 0;
   return result;
 };
 protoOf(PveRating).equals = function (other) {
@@ -17209,53 +17508,53 @@ protoOf(PveRating).equals = function (other) {
     return true;
   if (!(other instanceof PveRating))
     return false;
-  if (!this.g23_1.equals(other.g23_1))
+  if (!this.c24_1.equals(other.c24_1))
     return false;
-  if (!this.h23_1.equals(other.h23_1))
+  if (!this.d24_1.equals(other.d24_1))
     return false;
-  if (!equals(this.i23_1, other.i23_1))
+  if (!equals(this.e24_1, other.e24_1))
     return false;
-  if (!equals(this.j23_1, other.j23_1))
+  if (!equals(this.f24_1, other.f24_1))
     return false;
   return true;
 };
 function Weather_NONE_getInstance() {
-  static_init_14();
+  static_init_15();
   return Weather_NONE_instance;
 }
 function Weather_SUNNY_getInstance() {
-  static_init_14();
+  static_init_15();
   return Weather_SUNNY_instance;
 }
 function Weather_RAINY_getInstance() {
-  static_init_14();
+  static_init_15();
   return Weather_RAINY_instance;
 }
 function Weather_PARTLY_CLOUDY_getInstance() {
-  static_init_14();
+  static_init_15();
   return Weather_PARTLY_CLOUDY_instance;
 }
 function Weather_CLOUDY_getInstance() {
-  static_init_14();
+  static_init_15();
   return Weather_CLOUDY_instance;
 }
 function Weather_WINDY_getInstance() {
-  static_init_14();
+  static_init_15();
   return Weather_WINDY_instance;
 }
 function Weather_SNOW_getInstance() {
-  static_init_14();
+  static_init_15();
   return Weather_SNOW_instance;
 }
 function Weather_FOG_getInstance() {
-  static_init_14();
+  static_init_15();
   return Weather_FOG_instance;
 }
-var static_init_called_15;
-function static_init_15() {
-  if (static_init_called_15)
+var static_init_called_16;
+function static_init_16() {
+  if (static_init_called_16)
     return Unit_instance;
-  static_init_called_15 = true;
+  static_init_called_16 = true;
   League_SUPER_instance = new League('SUPER', 0, 1500);
   League_HYPER_instance = new League('HYPER', 1, 2500);
   League_MASTER_instance = new League('MASTER', 2, 2147483647);
@@ -17270,7 +17569,7 @@ var League_HYPER_instance;
 var League_MASTER_instance;
 var League_LITTLE_instance;
 function Companion_18() {
-  this.z29_1 = 0.85;
+  this.v2a_1 = 0.85;
 }
 var Companion_instance_20;
 function League(name, ordinal, cpCap) {
@@ -17334,19 +17633,19 @@ function bestLevelIndex($this, base, iv, league, maxLevel) {
   }
   return best;
 }
-function sam$kotlin_Comparator$0_18(function_0) {
-  this.a2a_1 = function_0;
+function sam$kotlin_Comparator$0_19(function_0) {
+  this.w2a_1 = function_0;
 }
-protoOf(sam$kotlin_Comparator$0_18).uc = function (a, b) {
-  return this.a2a_1(a, b);
+protoOf(sam$kotlin_Comparator$0_19).uc = function (a, b) {
+  return this.w2a_1(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_18).compare = function (a, b) {
+protoOf(sam$kotlin_Comparator$0_19).compare = function (a, b) {
   return this.uc(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_18).t2 = function () {
-  return this.a2a_1;
+protoOf(sam$kotlin_Comparator$0_19).t2 = function () {
+  return this.w2a_1;
 };
-protoOf(sam$kotlin_Comparator$0_18).equals = function (other) {
+protoOf(sam$kotlin_Comparator$0_19).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, Comparator) : false) {
     var tmp_0;
@@ -17361,7 +17660,7 @@ protoOf(sam$kotlin_Comparator$0_18).equals = function (other) {
   }
   return tmp;
 };
-protoOf(sam$kotlin_Comparator$0_18).hashCode = function () {
+protoOf(sam$kotlin_Comparator$0_19).hashCode = function () {
   return hashCode(this.t2());
 };
 function PvpRanker$table$lambda($sp) {
@@ -17407,7 +17706,7 @@ protoOf(PvpRanker).u1f = function (base, league, maxLevel) {
         continue $l$loop;
       var cpm = this.t1f_1.v1g_1[li];
       levelIndex[i] = toByte(li);
-      sp[i] = Formulas_instance.b2a(base, iv, cpm);
+      sp[i] = Formulas_instance.x2a(base, iv, cpm);
       cp[i] = Formulas_instance.d1h(base, iv, cpm);
       valid.h(i);
     }
@@ -17415,9 +17714,9 @@ protoOf(PvpRanker).u1f = function (base, league, maxLevel) {
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp = PvpRanker$table$lambda(sp);
   // Inline function 'kotlin.comparisons.thenByDescending' call
-  var this_0 = new sam$kotlin_Comparator$0_18(tmp);
+  var this_0 = new sam$kotlin_Comparator$0_19(tmp);
   var tmp_0 = PvpRanker$table$lambda_0(this_0, cp);
-  var tmp$ret$1 = new sam$kotlin_Comparator$0_18(tmp_0);
+  var tmp$ret$1 = new sam$kotlin_Comparator$0_19(tmp_0);
   var sorted = sortedWith(valid, tmp$ret$1);
   var order = new Int16Array(sorted.l());
   // Inline function 'kotlin.collections.forEachIndexed' call
@@ -17440,12 +17739,12 @@ function result($this, i) {
   var iv = new Iv(i >> 8, i >> 4 & 15, i & 15);
   var level = 1.0 + $this.a1i_1[i] / 2.0;
   var cpm = $this.y1h_1.c1h(level);
-  var sp = Formulas_instance.b2a($this.x1h_1, iv, cpm);
+  var sp = Formulas_instance.x2a($this.x1h_1, iv, cpm);
   return new PvpResult(iv, level, Formulas_instance.d1h($this.x1h_1, iv, cpm), sp, rank, sp / $this.c1i_1 * 100.0);
 }
 function Companion_19() {
 }
-protoOf(Companion_19).c2a = function (iv) {
+protoOf(Companion_19).y2a = function (iv) {
   return (imul(iv.x1j_1, 256) + imul(iv.y1j_1, 16) | 0) + iv.z1j_1 | 0;
 };
 var Companion_instance_21;
@@ -17461,7 +17760,7 @@ function PvpTable(base, levels, ranks, levelIndex, order, topSp) {
   this.c1i_1 = topSp;
 }
 protoOf(PvpTable).d1i = function (iv) {
-  return result(this, Companion_instance_21.c2a(iv));
+  return result(this, Companion_instance_21.y2a(iv));
 };
 protoOf(PvpTable).f1i = function () {
   var tmp;
@@ -17474,28 +17773,28 @@ protoOf(PvpTable).f1i = function () {
   return tmp;
 };
 function League_SUPER_getInstance() {
-  static_init_15();
+  static_init_16();
   return League_SUPER_instance;
 }
 function League_HYPER_getInstance() {
-  static_init_15();
+  static_init_16();
   return League_HYPER_instance;
 }
 function League_MASTER_getInstance() {
-  static_init_15();
+  static_init_16();
   return League_MASTER_instance;
 }
 function League_LITTLE_getInstance() {
-  static_init_15();
+  static_init_16();
   return League_LITTLE_instance;
 }
 function Result(species, moves, missing) {
-  this.d2a_1 = species;
-  this.e2a_1 = moves;
-  this.f2a_1 = missing;
+  this.z2a_1 = species;
+  this.a2b_1 = moves;
+  this.b2b_1 = missing;
 }
 function str($this, $receiver, key) {
-  return get_jsonPrimitive(getValue($receiver, key)).q14();
+  return get_jsonPrimitive(getValue($receiver, key)).u14();
 }
 function strings($this, $receiver, key) {
   var tmp = $receiver.hc(key);
@@ -17510,7 +17809,7 @@ function strings($this, $receiver, key) {
     var _iterator__ex2g4s = tmp0_safe_receiver.i();
     while (_iterator__ex2g4s.j()) {
       var item = _iterator__ex2g4s.k();
-      var tmp$ret$2 = get_jsonPrimitive(item).q14();
+      var tmp$ret$2 = get_jsonPrimitive(item).u14();
       destination.h(tmp$ret$2);
     }
     tmp_0 = destination;
@@ -17562,7 +17861,7 @@ function PvpokeImport$merge$lambda_1($byId, $byDex) {
     var tmp_0;
     if (tmp2_elvis_lhs == null) {
       var tmp3_safe_receiver = $byDex.c2(to(fromDex, toDex));
-      tmp_0 = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.s1y(toId);
+      tmp_0 = tmp3_safe_receiver == null ? null : tmp3_safe_receiver.t1y(toId);
     } else {
       tmp_0 = tmp2_elvis_lhs;
     }
@@ -17577,9 +17876,9 @@ function PvpokeImport$merge$lambda_2($byId) {
 }
 function PvpokeImport() {
   PvpokeImport_instance = this;
-  this.g2a_1 = mapOf([to('Alolan', 'Alola'), to('Galarian', 'Galar'), to('Hisuian', 'Hisui'), to('Paldean', 'Paldea')]);
+  this.c2b_1 = mapOf([to('Alolan', 'Alola'), to('Galarian', 'Galar'), to('Hisuian', 'Hisui'), to('Paldean', 'Paldea')]);
 }
-protoOf(PvpokeImport).h2a = function (gamemasterText, baseName, moveName, evolution, displayName) {
+protoOf(PvpokeImport).d2b = function (gamemasterText, baseName, moveName, evolution, displayName) {
   var root = get_jsonObject(Default_getInstance().i12(gamemasterText));
   var missing = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.map' call
@@ -17685,7 +17984,7 @@ protoOf(PvpokeImport).h2a = function (gamemasterText, baseName, moveName, evolut
     if (charSequenceLength(form) === 0) {
       tmp_3 = base;
     } else {
-      var tmp2_safe_receiver = PvpokeImport_getInstance().g2a_1.c2(form);
+      var tmp2_safe_receiver = PvpokeImport_getInstance().c2b_1.c2(form);
       var tmp_4;
       if (tmp2_safe_receiver == null) {
         tmp_4 = null;
@@ -17778,7 +18077,7 @@ protoOf(PvpokeImport).h2a = function (gamemasterText, baseName, moveName, evolut
   var moves = destination_6;
   return new Result(species, moves, missing);
 };
-protoOf(PvpokeImport).i2a = function (base, gamemasterText) {
+protoOf(PvpokeImport).e2b = function (base, gamemasterText) {
   // Inline function 'kotlin.collections.associate' call
   var this_0 = base.a1g_1;
   var capacity = coerceAtLeast(mapCapacity(collectionSizeOrDefault(this_0, 10)), 16);
@@ -17834,7 +18133,7 @@ protoOf(PvpokeImport).i2a = function (base, gamemasterText) {
   var tmp_0 = PvpokeImport$merge$lambda(names);
   var tmp_1 = PvpokeImport$merge$lambda_0(moveNames);
   var tmp_2 = PvpokeImport$merge$lambda_1(byId, byDex);
-  var result = this.h2a(gamemasterText, tmp_0, tmp_1, tmp_2, PvpokeImport$merge$lambda_2(byId));
+  var result = this.d2b(gamemasterText, tmp_0, tmp_1, tmp_2, PvpokeImport$merge$lambda_2(byId));
   // Inline function 'kotlin.collections.associateBy' call
   var this_2 = base.b1g_1;
   var capacity_1 = coerceAtLeast(mapCapacity(collectionSizeOrDefault(this_2, 10)), 16);
@@ -17848,7 +18147,7 @@ protoOf(PvpokeImport).i2a = function (base, gamemasterText) {
   }
   var pve = destination_1;
   // Inline function 'kotlin.collections.map' call
-  var this_3 = result.e2a_1;
+  var this_3 = result.a2b_1;
   // Inline function 'kotlin.collections.mapTo' call
   var destination_2 = ArrayList_init_$Create$(collectionSizeOrDefault(this_3, 10));
   var _iterator__ex2g4s_4 = this_3.i();
@@ -17861,7 +18160,7 @@ protoOf(PvpokeImport).i2a = function (base, gamemasterText) {
     } else {
       // Inline function 'kotlin.takeIf' call
       var tmp_4;
-      if (tmp0_safe_receiver.w1x()) {
+      if (tmp0_safe_receiver.x1x()) {
         tmp_4 = tmp0_safe_receiver;
       } else {
         tmp_4 = null;
@@ -17874,7 +18173,7 @@ protoOf(PvpokeImport).i2a = function (base, gamemasterText) {
       tmp_5 = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp_5 = item.y1x(VOID, VOID, VOID, VOID, VOID, VOID, VOID, tmp1_safe_receiver.i1k_1, tmp1_safe_receiver.j1k_1, tmp1_safe_receiver.k1k_1);
+      tmp_5 = item.z1x(VOID, VOID, VOID, VOID, VOID, VOID, VOID, tmp1_safe_receiver.i1k_1, tmp1_safe_receiver.j1k_1, tmp1_safe_receiver.k1k_1);
     }
     var tmp2_elvis_lhs = tmp_5;
     var tmp$ret$16 = tmp2_elvis_lhs == null ? item : tmp2_elvis_lhs;
@@ -17882,7 +18181,7 @@ protoOf(PvpokeImport).i2a = function (base, gamemasterText) {
   }
   var moves = destination_2;
   // Inline function 'kotlin.collections.map' call
-  var this_4 = result.d2a_1;
+  var this_4 = result.z2a_1;
   // Inline function 'kotlin.collections.mapTo' call
   var destination_3 = ArrayList_init_$Create$(collectionSizeOrDefault(this_4, 10));
   var _iterator__ex2g4s_5 = this_4.i();
@@ -17894,14 +18193,14 @@ protoOf(PvpokeImport).i2a = function (base, gamemasterText) {
       tmp_6 = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp_6 = item_0.m1x(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, tmp0_safe_receiver_0.o1f_1, tmp0_safe_receiver_0.p1f_1, tmp0_safe_receiver_0.q1f_1);
+      tmp_6 = item_0.n1x(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, tmp0_safe_receiver_0.o1f_1, tmp0_safe_receiver_0.p1f_1, tmp0_safe_receiver_0.q1f_1);
     }
     var tmp1_elvis_lhs = tmp_6;
     var tmp$ret$23 = tmp1_elvis_lhs == null ? item_0 : tmp1_elvis_lhs;
     destination_3.h(tmp$ret$23);
   }
   var species = destination_3;
-  return base.t1x(VOID, VOID, VOID, VOID, VOID, species, moves);
+  return base.u1x(VOID, VOID, VOID, VOID, VOID, species, moves);
 };
 var PvpokeImport_instance;
 function PvpokeImport_getInstance() {
@@ -17910,17 +18209,17 @@ function PvpokeImport_getInstance() {
   return PvpokeImport_instance;
 }
 function Estimate(players, teamDps, secondsAlone) {
-  this.j2a_1 = players;
-  this.k2a_1 = teamDps;
-  this.l2a_1 = secondsAlone;
+  this.f2b_1 = players;
+  this.g2b_1 = teamDps;
+  this.h2b_1 = secondsAlone;
 }
 protoOf(Estimate).toString = function () {
-  return 'Estimate(players=' + this.j2a_1 + ', teamDps=' + this.k2a_1 + ', secondsAlone=' + this.l2a_1 + ')';
+  return 'Estimate(players=' + this.f2b_1 + ', teamDps=' + this.g2b_1 + ', secondsAlone=' + this.h2b_1 + ')';
 };
 protoOf(Estimate).hashCode = function () {
-  var result = this.j2a_1;
-  result = imul(result, 31) + getNumberHashCode(this.k2a_1) | 0;
-  result = imul(result, 31) + this.l2a_1 | 0;
+  var result = this.f2b_1;
+  result = imul(result, 31) + getNumberHashCode(this.g2b_1) | 0;
+  result = imul(result, 31) + this.h2b_1 | 0;
   return result;
 };
 protoOf(Estimate).equals = function (other) {
@@ -17928,25 +18227,25 @@ protoOf(Estimate).equals = function (other) {
     return true;
   if (!(other instanceof Estimate))
     return false;
-  if (!(this.j2a_1 === other.j2a_1))
+  if (!(this.f2b_1 === other.f2b_1))
     return false;
-  if (!equals(this.k2a_1, other.k2a_1))
+  if (!equals(this.g2b_1, other.g2b_1))
     return false;
-  if (!(this.l2a_1 === other.l2a_1))
+  if (!(this.h2b_1 === other.h2b_1))
     return false;
   return true;
 };
 function RaidPlan() {
-  this.m2a_1 = 0.7;
-  this.n2a_1 = 10;
+  this.i2b_1 = 0.7;
+  this.j2b_1 = 10;
 }
-protoOf(RaidPlan).o2a = function (boss) {
-  return boss.e29_1 <= 1 ? 600 : boss.e29_1 <= 3 ? 3600 : boss.e29_1 === 6 && boss.d29_1.k1f_1.t('legendary') ? 22500 : boss.e29_1 === 6 ? 9000 : 15000;
+protoOf(RaidPlan).k2b = function (boss) {
+  return boss.a2a_1 <= 1 ? 600 : boss.a2a_1 <= 3 ? 3600 : boss.a2a_1 === 6 && boss.z29_1.k1f_1.t('legendary') ? 22500 : boss.a2a_1 === 6 ? 9000 : 15000;
 };
-protoOf(RaidPlan).p2a = function (boss) {
-  return boss.e29_1 <= 3 ? 180 : 300;
+protoOf(RaidPlan).l2b = function (boss) {
+  return boss.a2a_1 <= 3 ? 180 : 300;
 };
-protoOf(RaidPlan).q2a = function (boss, team) {
+protoOf(RaidPlan).m2b = function (boss, team) {
   var six = take_0(team, 6);
   if (six.q())
     return null;
@@ -17956,11 +18255,11 @@ protoOf(RaidPlan).q2a = function (boss, team) {
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
     var tmp = sum;
-    sum = tmp + element.d23_1.i23_1;
+    sum = tmp + element.z23_1.e24_1;
   }
   var dps = sum / six.l();
-  var hp = this.o2a(boss);
-  var perPlayer = dps * (this.p2a(boss) - 10 | 0) * 0.7;
+  var hp = this.k2b(boss);
+  var perPlayer = dps * (this.l2b(boss) - 10 | 0) * 0.7;
   // Inline function 'kotlin.math.ceil' call
   var x = hp / perPlayer;
   var tmp$ret$2 = Math.ceil(x);
@@ -17972,19 +18271,19 @@ function RaidPlan_getInstance() {
   return RaidPlan_instance;
 }
 function Reward_0(species, shiny, cpMin, cpMax) {
-  this.r2a_1 = species;
-  this.s2a_1 = shiny;
-  this.t2a_1 = cpMin;
-  this.u2a_1 = cpMax;
+  this.n2b_1 = species;
+  this.o2b_1 = shiny;
+  this.p2b_1 = cpMin;
+  this.q2b_1 = cpMax;
 }
 protoOf(Reward_0).toString = function () {
-  return 'Reward(species=' + this.r2a_1.toString() + ', shiny=' + this.s2a_1 + ', cpMin=' + this.t2a_1 + ', cpMax=' + this.u2a_1 + ')';
+  return 'Reward(species=' + this.n2b_1.toString() + ', shiny=' + this.o2b_1 + ', cpMin=' + this.p2b_1 + ', cpMax=' + this.q2b_1 + ')';
 };
 protoOf(Reward_0).hashCode = function () {
-  var result = this.r2a_1.hashCode();
-  result = imul(result, 31) + getBooleanHashCode(this.s2a_1) | 0;
-  result = imul(result, 31) + this.t2a_1 | 0;
-  result = imul(result, 31) + this.u2a_1 | 0;
+  var result = this.n2b_1.hashCode();
+  result = imul(result, 31) + getBooleanHashCode(this.o2b_1) | 0;
+  result = imul(result, 31) + this.p2b_1 | 0;
+  result = imul(result, 31) + this.q2b_1 | 0;
   return result;
 };
 protoOf(Reward_0).equals = function (other) {
@@ -17992,34 +18291,34 @@ protoOf(Reward_0).equals = function (other) {
     return true;
   if (!(other instanceof Reward_0))
     return false;
-  if (!this.r2a_1.equals(other.r2a_1))
+  if (!this.n2b_1.equals(other.n2b_1))
     return false;
-  if (!(this.s2a_1 === other.s2a_1))
+  if (!(this.o2b_1 === other.o2b_1))
     return false;
-  if (!(this.t2a_1 === other.t2a_1))
+  if (!(this.p2b_1 === other.p2b_1))
     return false;
-  if (!(this.u2a_1 === other.u2a_1))
+  if (!(this.q2b_1 === other.q2b_1))
     return false;
   return true;
 };
 function Task(text, textDe, type, rewards) {
-  this.v2a_1 = text;
-  this.w2a_1 = textDe;
-  this.x2a_1 = type;
-  this.y2a_1 = rewards;
+  this.r2b_1 = text;
+  this.s2b_1 = textDe;
+  this.t2b_1 = type;
+  this.u2b_1 = rewards;
 }
 protoOf(Task).j1m = function () {
-  var tmp0_elvis_lhs = this.w2a_1;
-  return tmp0_elvis_lhs == null ? this.v2a_1 : tmp0_elvis_lhs;
+  var tmp0_elvis_lhs = this.s2b_1;
+  return tmp0_elvis_lhs == null ? this.r2b_1 : tmp0_elvis_lhs;
 };
 protoOf(Task).toString = function () {
-  return 'Task(text=' + this.v2a_1 + ', textDe=' + this.w2a_1 + ', type=' + this.x2a_1 + ', rewards=' + toString_0(this.y2a_1) + ')';
+  return 'Task(text=' + this.r2b_1 + ', textDe=' + this.s2b_1 + ', type=' + this.t2b_1 + ', rewards=' + toString_0(this.u2b_1) + ')';
 };
 protoOf(Task).hashCode = function () {
-  var result = getStringHashCode(this.v2a_1);
-  result = imul(result, 31) + (this.w2a_1 == null ? 0 : getStringHashCode(this.w2a_1)) | 0;
-  result = imul(result, 31) + getStringHashCode(this.x2a_1) | 0;
-  result = imul(result, 31) + hashCode(this.y2a_1) | 0;
+  var result = getStringHashCode(this.r2b_1);
+  result = imul(result, 31) + (this.s2b_1 == null ? 0 : getStringHashCode(this.s2b_1)) | 0;
+  result = imul(result, 31) + getStringHashCode(this.t2b_1) | 0;
+  result = imul(result, 31) + hashCode(this.u2b_1) | 0;
   return result;
 };
 protoOf(Task).equals = function (other) {
@@ -18027,29 +18326,29 @@ protoOf(Task).equals = function (other) {
     return true;
   if (!(other instanceof Task))
     return false;
-  if (!(this.v2a_1 === other.v2a_1))
+  if (!(this.r2b_1 === other.r2b_1))
     return false;
-  if (!(this.w2a_1 == other.w2a_1))
+  if (!(this.s2b_1 == other.s2b_1))
     return false;
-  if (!(this.x2a_1 === other.x2a_1))
+  if (!(this.t2b_1 === other.t2b_1))
     return false;
-  if (!equals(this.y2a_1, other.y2a_1))
+  if (!equals(this.u2b_1, other.u2b_1))
     return false;
   return true;
 };
-function sam$kotlin_Comparator$0_19(function_0) {
-  this.z2a_1 = function_0;
+function sam$kotlin_Comparator$0_20(function_0) {
+  this.v2b_1 = function_0;
 }
-protoOf(sam$kotlin_Comparator$0_19).uc = function (a, b) {
-  return this.z2a_1(a, b);
+protoOf(sam$kotlin_Comparator$0_20).uc = function (a, b) {
+  return this.v2b_1(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_19).compare = function (a, b) {
+protoOf(sam$kotlin_Comparator$0_20).compare = function (a, b) {
   return this.uc(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_19).t2 = function () {
-  return this.z2a_1;
+protoOf(sam$kotlin_Comparator$0_20).t2 = function () {
+  return this.v2b_1;
 };
-protoOf(sam$kotlin_Comparator$0_19).equals = function (other) {
+protoOf(sam$kotlin_Comparator$0_20).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, Comparator) : false) {
     var tmp_0;
@@ -18064,13 +18363,13 @@ protoOf(sam$kotlin_Comparator$0_19).equals = function (other) {
   }
   return tmp;
 };
-protoOf(sam$kotlin_Comparator$0_19).hashCode = function () {
+protoOf(sam$kotlin_Comparator$0_20).hashCode = function () {
   return hashCode(this.t2());
 };
 function parse$int(cp, k) {
   var tmp = cp == null ? null : cp.hc(k);
   var tmp1_safe_receiver = tmp instanceof JsonPrimitive ? tmp : null;
-  var tmp2_safe_receiver = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q14();
+  var tmp2_safe_receiver = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u14();
   var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : toIntOrNull(tmp2_safe_receiver);
   return tmp3_elvis_lhs == null ? 0 : tmp3_elvis_lhs;
 }
@@ -18096,14 +18395,14 @@ protoOf(Research).j1v = function (type) {
   var tmp0_elvis_lhs = this.a1n_1.c2(type);
   return tmp0_elvis_lhs == null ? 'Sonstige' : tmp0_elvis_lhs;
 };
-protoOf(Research).a2b = function (text) {
+protoOf(Research).w2b = function (text) {
   // Inline function 'kotlin.text.replace' call
   var tmp$ret$0 = Regex_init_$Create$('<[^>]*>').tb(text, '');
   // Inline function 'kotlin.text.trim' call
   var this_0 = replace(tmp$ret$0, '&amp;', '&');
   return toString_0(trim(isCharSequence(this_0) ? this_0 : THROW_CCE()));
 };
-protoOf(Research).b2b = function (text, data, translations) {
+protoOf(Research).x2b = function (text, data, translations) {
   // Inline function 'kotlin.runCatching' call
   var tmp;
   try {
@@ -18154,9 +18453,9 @@ protoOf(Research).b2b = function (text, data, translations) {
       var tmp_5 = o.hc('text');
       var tmp1_safe_receiver = tmp_5 instanceof JsonPrimitive ? tmp_5 : null;
       // Inline function 'kotlin.text.orEmpty' call
-      var tmp0_elvis_lhs_1 = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.q14();
+      var tmp0_elvis_lhs_1 = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u14();
       var tmp$ret$10 = tmp0_elvis_lhs_1 == null ? '' : tmp0_elvis_lhs_1;
-      var raw = tmp_4.a2b(tmp$ret$10);
+      var raw = tmp_4.w2b(tmp$ret$10);
       // Inline function 'kotlin.text.isEmpty' call
       if (charSequenceLength(raw) === 0) {
         tmp$ret$9 = null;
@@ -18165,7 +18464,7 @@ protoOf(Research).b2b = function (text, data, translations) {
       var tmp_6 = o.hc('type');
       var tmp2_safe_receiver = tmp_6 instanceof JsonPrimitive ? tmp_6 : null;
       // Inline function 'kotlin.text.orEmpty' call
-      var tmp0_elvis_lhs_2 = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.q14();
+      var tmp0_elvis_lhs_2 = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.u14();
       var type = tmp0_elvis_lhs_2 == null ? '' : tmp0_elvis_lhs_2;
       var tmp_7 = o.hc('rewards');
       // Inline function 'kotlin.collections.orEmpty' call
@@ -18191,7 +18490,7 @@ protoOf(Research).b2b = function (text, data, translations) {
           var ro = tmp_8;
           var tmp_9 = ro.hc('name');
           var tmp1_safe_receiver_0 = tmp_9 instanceof JsonPrimitive ? tmp_9 : null;
-          var tmp2_elvis_lhs = tmp1_safe_receiver_0 == null ? null : tmp1_safe_receiver_0.q14();
+          var tmp2_elvis_lhs = tmp1_safe_receiver_0 == null ? null : tmp1_safe_receiver_0.u14();
           var tmp_10;
           if (tmp2_elvis_lhs == null) {
             tmp$ret$18 = null;
@@ -18213,7 +18512,7 @@ protoOf(Research).b2b = function (text, data, translations) {
           var cp = tmp_12 instanceof JsonObject ? tmp_12 : null;
           var tmp_13 = ro.hc('canBeShiny');
           var tmp4_safe_receiver = tmp_13 instanceof JsonPrimitive ? tmp_13 : null;
-          tmp$ret$18 = new Reward_0(species, (tmp4_safe_receiver == null ? null : tmp4_safe_receiver.q14()) === 'true', parse$int(cp, 'min'), parse$int(cp, 'max'));
+          tmp$ret$18 = new Reward_0(species, (tmp4_safe_receiver == null ? null : tmp4_safe_receiver.u14()) === 'true', parse$int(cp, 'min'), parse$int(cp, 'max'));
         }
         var tmp0_safe_receiver = tmp$ret$18;
         if (tmp0_safe_receiver == null)
@@ -18268,7 +18567,7 @@ protoOf(Research).c1n = function (text) {
   }
   return accumulator;
 };
-protoOf(Research).w24 = function (list) {
+protoOf(Research).s25 = function (list) {
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(list, 10));
@@ -18280,14 +18579,14 @@ protoOf(Research).w24 = function (list) {
   }
   return destination;
 };
-protoOf(Research).c2b = function (tasks) {
+protoOf(Research).y2b = function (tasks) {
   // Inline function 'kotlin.collections.groupBy' call
   // Inline function 'kotlin.collections.groupByTo' call
   var destination = LinkedHashMap_init_$Create$();
   var _iterator__ex2g4s = tasks.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var key = Research_getInstance().j1v(element.x2a_1);
+    var key = Research_getInstance().j1v(element.t2b_1);
     // Inline function 'kotlin.collections.getOrPut' call
     var value = destination.c2(key);
     var tmp;
@@ -18305,7 +18604,7 @@ protoOf(Research).c2b = function (tasks) {
   var this_0 = toList(destination);
   // Inline function 'kotlin.comparisons.compareBy' call
   var tmp_0 = Research$grouped$lambda;
-  var tmp$ret$6 = new sam$kotlin_Comparator$0_19(tmp_0);
+  var tmp$ret$6 = new sam$kotlin_Comparator$0_20(tmp_0);
   return sortedWith(this_0, tmp$ret$6);
 };
 var Research_instance;
@@ -18324,7 +18623,7 @@ function Companion_20() {
   // Inline function 'kotlin.arrayOf' call
   // Inline function 'kotlin.js.unsafeCast' call
   // Inline function 'kotlin.js.asDynamic' call
-  tmp.d2b_1 = [null, null, lazy_0(tmp_0, ScanFrame$Companion$$childSerializers$_anonymous__papjsq)];
+  tmp.z2b_1 = [null, null, lazy_0(tmp_0, ScanFrame$Companion$$childSerializers$_anonymous__papjsq)];
 }
 var Companion_instance_22;
 function Companion_getInstance_19() {
@@ -18374,10 +18673,10 @@ function $serializer_14() {
   tmp0_serialDesc.rt('top', false);
   tmp0_serialDesc.rt('right', false);
   tmp0_serialDesc.rt('bottom', false);
-  this.e2b_1 = tmp0_serialDesc;
+  this.a2c_1 = tmp0_serialDesc;
 }
-protoOf($serializer_14).f2b = function (encoder, value) {
-  var tmp0_desc = this.e2b_1;
+protoOf($serializer_14).b2c = function (encoder, value) {
+  var tmp0_desc = this.a2c_1;
   var tmp1_output = encoder.kn(tmp0_desc);
   tmp1_output.zo(tmp0_desc, 0, value.t1q_1);
   tmp1_output.uo(tmp0_desc, 1, value.u1q_1);
@@ -18387,10 +18686,10 @@ protoOf($serializer_14).f2b = function (encoder, value) {
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_14).tk = function (encoder, value) {
-  return this.f2b(encoder, value instanceof TextLine ? value : THROW_CCE());
+  return this.b2c(encoder, value instanceof TextLine ? value : THROW_CCE());
 };
 protoOf($serializer_14).uk = function (decoder) {
-  var tmp0_desc = this.e2b_1;
+  var tmp0_desc = this.a2c_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -18446,7 +18745,7 @@ protoOf($serializer_14).uk = function (decoder) {
   return TextLine_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, tmp6_local2, tmp7_local3, tmp8_local4, null);
 };
 protoOf($serializer_14).sk = function () {
-  return this.e2b_1;
+  return this.a2c_1;
 };
 protoOf($serializer_14).gu = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -18462,7 +18761,7 @@ function $serializer_getInstance_14() {
 }
 function TextLine_init_$Init$(seen0, text, left, top, right, bottom, serializationConstructorMarker, $this) {
   if (!(31 === (31 & seen0))) {
-    throwMissingFieldException(seen0, 31, $serializer_getInstance_14().e2b_1);
+    throwMissingFieldException(seen0, 31, $serializer_getInstance_14().a2c_1);
   }
   $this.t1q_1 = text;
   $this.u1q_1 = left;
@@ -18484,13 +18783,13 @@ function TextLine(text, left, top, right, bottom) {
 protoOf(TextLine).a1r = function () {
   return (this.u1q_1 + this.w1q_1 | 0) / 2 | 0;
 };
-protoOf(TextLine).g2b = function () {
+protoOf(TextLine).c2c = function () {
   return (this.v1q_1 + this.x1q_1 | 0) / 2 | 0;
 };
 protoOf(TextLine).h1j = function () {
   return this.x1q_1 - this.v1q_1 | 0;
 };
-protoOf(TextLine).h2b = function (text, left, top, right, bottom) {
+protoOf(TextLine).d2c = function (text, left, top, right, bottom) {
   return new TextLine(text, left, top, right, bottom);
 };
 protoOf(TextLine).y1q = function (text, left, top, right, bottom, $super) {
@@ -18499,7 +18798,7 @@ protoOf(TextLine).y1q = function (text, left, top, right, bottom, $super) {
   top = top === VOID ? this.v1q_1 : top;
   right = right === VOID ? this.w1q_1 : right;
   bottom = bottom === VOID ? this.x1q_1 : bottom;
-  return $super === VOID ? this.h2b(text, left, top, right, bottom) : $super.h2b.call(this, text, left, top, right, bottom);
+  return $super === VOID ? this.d2c(text, left, top, right, bottom) : $super.d2c.call(this, text, left, top, right, bottom);
 };
 protoOf(TextLine).toString = function () {
   return 'TextLine(text=' + this.t1q_1 + ', left=' + this.u1q_1 + ', top=' + this.v1q_1 + ', right=' + this.w1q_1 + ', bottom=' + this.x1q_1 + ')';
@@ -18541,53 +18840,53 @@ function ScanResult(cp, hp, nickname, speciesName, candyFamily, powerUpDust, pow
   shadow = shadow === VOID ? false : shadow;
   typeText = typeText === VOID ? null : typeText;
   iv = iv === VOID ? null : iv;
-  this.d27_1 = cp;
-  this.e27_1 = hp;
-  this.f27_1 = nickname;
-  this.g27_1 = speciesName;
-  this.h27_1 = candyFamily;
-  this.i27_1 = powerUpDust;
-  this.j27_1 = powerUpCandy;
-  this.k27_1 = lucky;
-  this.l27_1 = shadow;
-  this.m27_1 = typeText;
-  this.n27_1 = iv;
+  this.z27_1 = cp;
+  this.a28_1 = hp;
+  this.b28_1 = nickname;
+  this.c28_1 = speciesName;
+  this.d28_1 = candyFamily;
+  this.e28_1 = powerUpDust;
+  this.f28_1 = powerUpCandy;
+  this.g28_1 = lucky;
+  this.h28_1 = shadow;
+  this.i28_1 = typeText;
+  this.j28_1 = iv;
 }
-protoOf(ScanResult).q27 = function () {
-  return !(this.e27_1 == null);
+protoOf(ScanResult).m28 = function () {
+  return !(this.a28_1 == null);
 };
-protoOf(ScanResult).i2b = function (cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv) {
+protoOf(ScanResult).e2c = function (cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv) {
   return new ScanResult(cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv);
 };
-protoOf(ScanResult).j2b = function (cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv, $super) {
-  cp = cp === VOID ? this.d27_1 : cp;
-  hp = hp === VOID ? this.e27_1 : hp;
-  nickname = nickname === VOID ? this.f27_1 : nickname;
-  speciesName = speciesName === VOID ? this.g27_1 : speciesName;
-  candyFamily = candyFamily === VOID ? this.h27_1 : candyFamily;
-  powerUpDust = powerUpDust === VOID ? this.i27_1 : powerUpDust;
-  powerUpCandy = powerUpCandy === VOID ? this.j27_1 : powerUpCandy;
-  lucky = lucky === VOID ? this.k27_1 : lucky;
-  shadow = shadow === VOID ? this.l27_1 : shadow;
-  typeText = typeText === VOID ? this.m27_1 : typeText;
-  iv = iv === VOID ? this.n27_1 : iv;
-  return $super === VOID ? this.i2b(cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv) : $super.i2b.call(this, cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv);
+protoOf(ScanResult).f2c = function (cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv, $super) {
+  cp = cp === VOID ? this.z27_1 : cp;
+  hp = hp === VOID ? this.a28_1 : hp;
+  nickname = nickname === VOID ? this.b28_1 : nickname;
+  speciesName = speciesName === VOID ? this.c28_1 : speciesName;
+  candyFamily = candyFamily === VOID ? this.d28_1 : candyFamily;
+  powerUpDust = powerUpDust === VOID ? this.e28_1 : powerUpDust;
+  powerUpCandy = powerUpCandy === VOID ? this.f28_1 : powerUpCandy;
+  lucky = lucky === VOID ? this.g28_1 : lucky;
+  shadow = shadow === VOID ? this.h28_1 : shadow;
+  typeText = typeText === VOID ? this.i28_1 : typeText;
+  iv = iv === VOID ? this.j28_1 : iv;
+  return $super === VOID ? this.e2c(cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv) : $super.e2c.call(this, cp, hp, nickname, speciesName, candyFamily, powerUpDust, powerUpCandy, lucky, shadow, typeText, iv);
 };
 protoOf(ScanResult).toString = function () {
-  return 'ScanResult(cp=' + this.d27_1 + ', hp=' + this.e27_1 + ', nickname=' + this.f27_1 + ', speciesName=' + this.g27_1 + ', candyFamily=' + this.h27_1 + ', powerUpDust=' + this.i27_1 + ', powerUpCandy=' + this.j27_1 + ', lucky=' + this.k27_1 + ', shadow=' + this.l27_1 + ', typeText=' + this.m27_1 + ', iv=' + toString(this.n27_1) + ')';
+  return 'ScanResult(cp=' + this.z27_1 + ', hp=' + this.a28_1 + ', nickname=' + this.b28_1 + ', speciesName=' + this.c28_1 + ', candyFamily=' + this.d28_1 + ', powerUpDust=' + this.e28_1 + ', powerUpCandy=' + this.f28_1 + ', lucky=' + this.g28_1 + ', shadow=' + this.h28_1 + ', typeText=' + this.i28_1 + ', iv=' + toString(this.j28_1) + ')';
 };
 protoOf(ScanResult).hashCode = function () {
-  var result = this.d27_1 == null ? 0 : this.d27_1;
-  result = imul(result, 31) + (this.e27_1 == null ? 0 : this.e27_1) | 0;
-  result = imul(result, 31) + (this.f27_1 == null ? 0 : getStringHashCode(this.f27_1)) | 0;
-  result = imul(result, 31) + (this.g27_1 == null ? 0 : getStringHashCode(this.g27_1)) | 0;
-  result = imul(result, 31) + (this.h27_1 == null ? 0 : getStringHashCode(this.h27_1)) | 0;
-  result = imul(result, 31) + (this.i27_1 == null ? 0 : this.i27_1) | 0;
-  result = imul(result, 31) + (this.j27_1 == null ? 0 : this.j27_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.k27_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.l27_1) | 0;
-  result = imul(result, 31) + (this.m27_1 == null ? 0 : getStringHashCode(this.m27_1)) | 0;
-  result = imul(result, 31) + (this.n27_1 == null ? 0 : this.n27_1.hashCode()) | 0;
+  var result = this.z27_1 == null ? 0 : this.z27_1;
+  result = imul(result, 31) + (this.a28_1 == null ? 0 : this.a28_1) | 0;
+  result = imul(result, 31) + (this.b28_1 == null ? 0 : getStringHashCode(this.b28_1)) | 0;
+  result = imul(result, 31) + (this.c28_1 == null ? 0 : getStringHashCode(this.c28_1)) | 0;
+  result = imul(result, 31) + (this.d28_1 == null ? 0 : getStringHashCode(this.d28_1)) | 0;
+  result = imul(result, 31) + (this.e28_1 == null ? 0 : this.e28_1) | 0;
+  result = imul(result, 31) + (this.f28_1 == null ? 0 : this.f28_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.g28_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.h28_1) | 0;
+  result = imul(result, 31) + (this.i28_1 == null ? 0 : getStringHashCode(this.i28_1)) | 0;
+  result = imul(result, 31) + (this.j28_1 == null ? 0 : this.j28_1.hashCode()) | 0;
   return result;
 };
 protoOf(ScanResult).equals = function (other) {
@@ -18595,27 +18894,27 @@ protoOf(ScanResult).equals = function (other) {
     return true;
   if (!(other instanceof ScanResult))
     return false;
-  if (!(this.d27_1 == other.d27_1))
+  if (!(this.z27_1 == other.z27_1))
     return false;
-  if (!(this.e27_1 == other.e27_1))
+  if (!(this.a28_1 == other.a28_1))
     return false;
-  if (!(this.f27_1 == other.f27_1))
+  if (!(this.b28_1 == other.b28_1))
     return false;
-  if (!(this.g27_1 == other.g27_1))
+  if (!(this.c28_1 == other.c28_1))
     return false;
-  if (!(this.h27_1 == other.h27_1))
+  if (!(this.d28_1 == other.d28_1))
     return false;
-  if (!(this.i27_1 == other.i27_1))
+  if (!(this.e28_1 == other.e28_1))
     return false;
-  if (!(this.j27_1 == other.j27_1))
+  if (!(this.f28_1 == other.f28_1))
     return false;
-  if (!(this.k27_1 === other.k27_1))
+  if (!(this.g28_1 === other.g28_1))
     return false;
-  if (!(this.l27_1 === other.l27_1))
+  if (!(this.h28_1 === other.h28_1))
     return false;
-  if (!(this.m27_1 == other.m27_1))
+  if (!(this.i28_1 == other.i28_1))
     return false;
-  if (!equals(this.n27_1, other.n27_1))
+  if (!equals(this.j28_1, other.j28_1))
     return false;
   return true;
 };
@@ -18652,7 +18951,7 @@ function typeLine($this, lines) {
         tmp_1 = false;
       }
       if (tmp_1) {
-        var tmp0 = ScanParser_getInstance().b27_1;
+        var tmp0 = ScanParser_getInstance().x27_1;
         // Inline function 'kotlin.collections.contains' call
         // Inline function 'kotlin.collections.containsKey' call
         var key = parts.r(0);
@@ -18661,7 +18960,7 @@ function typeLine($this, lines) {
         tmp_0 = false;
       }
       if (tmp_0) {
-        var tmp0_0 = ScanParser_getInstance().k2b(element.t1q_1);
+        var tmp0_0 = ScanParser_getInstance().g2c(element.t1q_1);
         var tmp$ret$12;
         $l$block_0: {
           // Inline function 'kotlin.collections.all' call
@@ -18713,7 +19012,7 @@ function number($this, text) {
   // Inline function 'kotlin.takeIf' call
   var this_0 = toString_0(trim(isCharSequence(text) ? text : THROW_CCE()));
   var tmp;
-  if (ScanParser_getInstance().a27_1.nb(this_0)) {
+  if (ScanParser_getInstance().w27_1.nb(this_0)) {
     tmp = this_0;
   } else {
     tmp = null;
@@ -18741,7 +19040,7 @@ function candyFamily($this, lines) {
   // Inline function 'kotlin.collections.sortedBy' call
   // Inline function 'kotlin.comparisons.compareBy' call
   var tmp = ScanParser$candyFamily$lambda;
-  var tmp$ret$7 = new sam$kotlin_Comparator$0_21(tmp);
+  var tmp$ret$7 = new sam$kotlin_Comparator$0_22(tmp);
   var labels = sortedWith(destination, tmp$ret$7);
   var _iterator__ex2g4s_0 = labels.i();
   while (_iterator__ex2g4s_0.j()) {
@@ -18812,47 +19111,17 @@ function candyFamily($this, lines) {
   }
   return null;
 }
-function sam$kotlin_Comparator$0_20(function_0) {
-  this.l2b_1 = function_0;
-}
-protoOf(sam$kotlin_Comparator$0_20).uc = function (a, b) {
-  return this.l2b_1(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_20).compare = function (a, b) {
-  return this.uc(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_20).t2 = function () {
-  return this.l2b_1;
-};
-protoOf(sam$kotlin_Comparator$0_20).equals = function (other) {
-  var tmp;
-  if (!(other == null) ? isInterface(other, Comparator) : false) {
-    var tmp_0;
-    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
-      tmp_0 = equals(this.t2(), other.t2());
-    } else {
-      tmp_0 = false;
-    }
-    tmp = tmp_0;
-  } else {
-    tmp = false;
-  }
-  return tmp;
-};
-protoOf(sam$kotlin_Comparator$0_20).hashCode = function () {
-  return hashCode(this.t2());
-};
 function sam$kotlin_Comparator$0_21(function_0) {
-  this.m2b_1 = function_0;
+  this.h2c_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_21).uc = function (a, b) {
-  return this.m2b_1(a, b);
+  return this.h2c_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_21).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_21).t2 = function () {
-  return this.m2b_1;
+  return this.h2c_1;
 };
 protoOf(sam$kotlin_Comparator$0_21).equals = function (other) {
   var tmp;
@@ -18872,6 +19141,36 @@ protoOf(sam$kotlin_Comparator$0_21).equals = function (other) {
 protoOf(sam$kotlin_Comparator$0_21).hashCode = function () {
   return hashCode(this.t2());
 };
+function sam$kotlin_Comparator$0_22(function_0) {
+  this.i2c_1 = function_0;
+}
+protoOf(sam$kotlin_Comparator$0_22).uc = function (a, b) {
+  return this.i2c_1(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_22).compare = function (a, b) {
+  return this.uc(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_22).t2 = function () {
+  return this.i2c_1;
+};
+protoOf(sam$kotlin_Comparator$0_22).equals = function (other) {
+  var tmp;
+  if (!(other == null) ? isInterface(other, Comparator) : false) {
+    var tmp_0;
+    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
+      tmp_0 = equals(this.t2(), other.t2());
+    } else {
+      tmp_0 = false;
+    }
+    tmp = tmp_0;
+  } else {
+    tmp = false;
+  }
+  return tmp;
+};
+protoOf(sam$kotlin_Comparator$0_22).hashCode = function () {
+  return hashCode(this.t2());
+};
 function ScanParser$parse$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
   var tmp = a.u1q_1;
@@ -18886,13 +19185,13 @@ function ScanParser$candyFamily$lambda(a, b) {
 }
 function ScanParser() {
   ScanParser_instance = this;
-  this.x26_1 = Regex_init_$Create$('^[wWvV][pP]\\s?(\\d{2,5})$');
-  this.y26_1 = Regex_init_$Create$_0('(\\d+)\\s*/\\s*(\\d+)\\s*KP', RegexOption_IGNORE_CASE_getInstance());
-  this.z26_1 = Regex_init_$Create$('Dieses\\s+(.+?)\\s+wurde');
-  this.a27_1 = Regex_init_$Create$('^\\d{1,3}(\\.\\d{3})*$');
-  this.b27_1 = mapOf([to('NORMAL', 'normal'), to('FEUER', 'fire'), to('WASSER', 'water'), to('PFLANZE', 'grass'), to('ELEKTRO', 'electric'), to('EIS', 'ice'), to('KAMPF', 'fighting'), to('GIFT', 'poison'), to('BODEN', 'ground'), to('FLUG', 'flying'), to('PSYCHO', 'psychic'), to('K\xC4FER', 'bug'), to('GESTEIN', 'rock'), to('GEIST', 'ghost'), to('DRACHE', 'dragon'), to('UNLICHT', 'dark'), to('STAHL', 'steel'), to('FEE', 'fairy')]);
+  this.t27_1 = Regex_init_$Create$('^[wWvV][pP]\\s?(\\d{2,5})$');
+  this.u27_1 = Regex_init_$Create$_0('(\\d+)\\s*/\\s*(\\d+)\\s*KP', RegexOption_IGNORE_CASE_getInstance());
+  this.v27_1 = Regex_init_$Create$('Dieses\\s+(.+?)\\s+wurde');
+  this.w27_1 = Regex_init_$Create$('^\\d{1,3}(\\.\\d{3})*$');
+  this.x27_1 = mapOf([to('NORMAL', 'normal'), to('FEUER', 'fire'), to('WASSER', 'water'), to('PFLANZE', 'grass'), to('ELEKTRO', 'electric'), to('EIS', 'ice'), to('KAMPF', 'fighting'), to('GIFT', 'poison'), to('BODEN', 'ground'), to('FLUG', 'flying'), to('PSYCHO', 'psychic'), to('K\xC4FER', 'bug'), to('GESTEIN', 'rock'), to('GEIST', 'ghost'), to('DRACHE', 'dragon'), to('UNLICHT', 'dark'), to('STAHL', 'steel'), to('FEE', 'fairy')]);
 }
-protoOf(ScanParser).n2b = function (frame, iv) {
+protoOf(ScanParser).j2c = function (frame, iv) {
   var lines = frame.d1r_1;
   var tmp$ret$0;
   $l$block: {
@@ -18900,7 +19199,7 @@ protoOf(ScanParser).n2b = function (frame, iv) {
     var _iterator__ex2g4s = lines.i();
     while (_iterator__ex2g4s.j()) {
       var element = _iterator__ex2g4s.k();
-      if (ScanParser_getInstance().y26_1.ob(element.t1q_1)) {
+      if (ScanParser_getInstance().u27_1.ob(element.t1q_1)) {
         tmp$ret$0 = element;
         break $l$block;
       }
@@ -18924,7 +19223,7 @@ protoOf(ScanParser).n2b = function (frame, iv) {
     var _iterator__ex2g4s_1 = destination.i();
     while (_iterator__ex2g4s_1.j()) {
       var element_1 = _iterator__ex2g4s_1.k();
-      var tmp = ScanParser_getInstance().x26_1;
+      var tmp = ScanParser_getInstance().t27_1;
       // Inline function 'kotlin.text.trim' call
       var this_0 = element_1.t1q_1;
       var tmp$ret$7 = toString_0(trim(isCharSequence(this_0) ? this_0 : THROW_CCE()));
@@ -19041,14 +19340,14 @@ protoOf(ScanParser).n2b = function (frame, iv) {
     var _iterator__ex2g4s_5 = lines.i();
     while (_iterator__ex2g4s_5.j()) {
       var element_5 = _iterator__ex2g4s_5.k();
-      if (element_5.u1q_1 > powerUp.w1q_1 && abs(element_5.g2b() - powerUp.g2b() | 0) < powerUp.h1j()) {
+      if (element_5.u1q_1 > powerUp.w1q_1 && abs(element_5.c2c() - powerUp.c2c() | 0) < powerUp.h1j()) {
         destination_1.h(element_5);
       }
     }
     // Inline function 'kotlin.collections.sortedBy' call
     // Inline function 'kotlin.comparisons.compareBy' call
     var tmp_4 = ScanParser$parse$lambda;
-    var tmp$ret$27 = new sam$kotlin_Comparator$0_20(tmp_4);
+    var tmp$ret$27 = new sam$kotlin_Comparator$0_21(tmp_4);
     // Inline function 'kotlin.collections.mapNotNull' call
     var tmp0 = sortedWith(destination_1, tmp$ret$27);
     // Inline function 'kotlin.collections.mapNotNullTo' call
@@ -19075,7 +19374,7 @@ protoOf(ScanParser).n2b = function (frame, iv) {
     tmp_5 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_5 = toIntOrNull(ensureNotNull(ScanParser_getInstance().y26_1.pb(hpLine.t1q_1)).sc().r(2));
+    tmp_5 = toIntOrNull(ensureNotNull(ScanParser_getInstance().u27_1.pb(hpLine.t1q_1)).sc().r(2));
   }
   var tmp3_hp = tmp_5;
   var tmp$ret$38;
@@ -19084,7 +19383,7 @@ protoOf(ScanParser).n2b = function (frame, iv) {
     var _iterator__ex2g4s_7 = lines.i();
     while (_iterator__ex2g4s_7.j()) {
       var element_7 = _iterator__ex2g4s_7.k();
-      var tmp0_safe_receiver_2 = ScanParser_getInstance().z26_1.pb(element_7.t1q_1);
+      var tmp0_safe_receiver_2 = ScanParser_getInstance().v27_1.pb(element_7.t1q_1);
       var tmp1_safe_receiver_1 = tmp0_safe_receiver_2 == null ? null : tmp0_safe_receiver_2.sc();
       var result_0 = tmp1_safe_receiver_1 == null ? null : tmp1_safe_receiver_1.r(1);
       if (!(result_0 == null)) {
@@ -19128,11 +19427,11 @@ protoOf(ScanParser).n2b = function (frame, iv) {
   var tmp9_typeText = typeLine(this, lines);
   return new ScanResult(cp, tmp3_hp, nickname, tmp4_speciesName, tmp5_candyFamily, tmp6_powerUpDust, tmp7_powerUpCandy, lucky, tmp8_shadow, tmp9_typeText, iv);
 };
-protoOf(ScanParser).c27 = function (frame, iv, $super) {
+protoOf(ScanParser).y27 = function (frame, iv, $super) {
   iv = iv === VOID ? null : iv;
-  return $super === VOID ? this.n2b(frame, iv) : $super.n2b.call(this, frame, iv);
+  return $super === VOID ? this.j2c(frame, iv) : $super.j2c.call(this, frame, iv);
 };
-protoOf(ScanParser).k2b = function (text) {
+protoOf(ScanParser).g2c = function (text) {
   // Inline function 'kotlin.collections.map' call
   var this_0 = split(text, ['/']);
   // Inline function 'kotlin.collections.mapTo' call
@@ -19164,7 +19463,7 @@ protoOf(ScanParser).k2b = function (text) {
   while (_iterator__ex2g4s_1.j()) {
     var item_0 = _iterator__ex2g4s_1.k();
     // Inline function 'kotlin.collections.filterKeys' call
-    var this_1 = ScanParser_getInstance().b27_1;
+    var this_1 = ScanParser_getInstance().x27_1;
     var result = LinkedHashMap_init_$Create$();
     // Inline function 'kotlin.collections.iterator' call
     var _iterator__ex2g4s_2 = this_1.w().i();
@@ -19187,13 +19486,13 @@ function ScanParser_getInstance() {
   return ScanParser_instance;
 }
 function pool($this, scan) {
-  var tmp0_safe_receiver = scan.g27_1;
+  var tmp0_safe_receiver = scan.c28_1;
   var tmp;
   if (tmp0_safe_receiver == null) {
     tmp = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp = $this.t2b(tmp0_safe_receiver);
+    tmp = $this.p2c(tmp0_safe_receiver);
   }
   var tmp1_safe_receiver = tmp;
   var tmp_0;
@@ -19217,13 +19516,13 @@ function pool($this, scan) {
     // Inline function 'kotlin.let' call
     return tmp2_safe_receiver;
   }
-  var tmp3_safe_receiver = scan.h27_1;
+  var tmp3_safe_receiver = scan.d28_1;
   var tmp_2;
   if (tmp3_safe_receiver == null) {
     tmp_2 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_2 = $this.t2b(tmp3_safe_receiver);
+    tmp_2 = $this.p2c(tmp3_safe_receiver);
   }
   // Inline function 'kotlin.collections.orEmpty' call
   var tmp0_elvis_lhs = tmp_2;
@@ -19238,7 +19537,7 @@ function pool($this, scan) {
     addAll(destination, list);
   }
   var family_0 = distinct(destination);
-  var nick = scan.f27_1;
+  var nick = scan.b28_1;
   var tmp_3;
   if (nick == null) {
     tmp_3 = null;
@@ -19272,7 +19571,7 @@ function pool($this, scan) {
     while (_iterator__ex2g4s_0.j()) {
       var element_0 = _iterator__ex2g4s_0.k();
       // Inline function 'kotlin.takeIf' call
-      var this_0 = $this.t2b(element_0);
+      var this_0 = $this.p2c(element_0);
       var tmp_4;
       // Inline function 'kotlin.collections.isNotEmpty' call
       if (!this_0.q()) {
@@ -19320,11 +19619,11 @@ function pool($this, scan) {
 function byTypes($this, pool, typeText) {
   if (typeText == null || pool.l() < 2)
     return pool;
-  var parts = ScanParser_getInstance().k2b(typeText);
+  var parts = ScanParser_getInstance().g2c(typeText);
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp = ScanResolver$byTypes$lambda(parts);
-  var tmp$ret$1 = new sam$kotlin_Comparator$0_22(tmp);
+  var tmp$ret$1 = new sam$kotlin_Comparator$0_23(tmp);
   return sortedWith(pool, tmp$ret$1);
 }
 function family($this, root) {
@@ -19333,7 +19632,7 @@ function family($this, root) {
   return out;
 }
 function solve($this, species, scan) {
-  var tmp0_elvis_lhs = scan.e27_1;
+  var tmp0_elvis_lhs = scan.a28_1;
   var tmp;
   if (tmp0_elvis_lhs == null) {
     return emptyList();
@@ -19341,10 +19640,10 @@ function solve($this, species, scan) {
     tmp = tmp0_elvis_lhs;
   }
   var hp = tmp;
-  if (scan.d27_1 == null && (scan.n27_1 == null || scan.i27_1 == null))
+  if (scan.z27_1 == null && (scan.j28_1 == null || scan.e28_1 == null))
     return emptyList();
-  var hits = $this.q2b_1.y1g(species.s1f(), scan.d27_1, hp, $this.o2b_1.t1g().w1g(1.0, $this.p2b_1), scan.n27_1);
-  var tmp1_elvis_lhs = scan.i27_1;
+  var hits = $this.m2c_1.y1g(species.s1f(), scan.z27_1, hp, $this.k2c_1.t1g().w1g(1.0, $this.l2c_1), scan.j28_1);
+  var tmp1_elvis_lhs = scan.e28_1;
   var tmp_0;
   if (tmp1_elvis_lhs == null) {
     return hits;
@@ -19365,7 +19664,7 @@ function solve($this, species, scan) {
   // Inline function 'kotlin.collections.ifEmpty' call
   var tmp_1;
   if (destination.q()) {
-    tmp_1 = !(scan.d27_1 == null) ? hits : emptyList();
+    tmp_1 = !(scan.z27_1 == null) ? hits : emptyList();
   } else {
     tmp_1 = destination;
   }
@@ -19373,7 +19672,7 @@ function solve($this, species, scan) {
 }
 function variantFor($this, level, dust) {
   var tmp;
-  if (level >= $this.o2b_1.h1i().w1o()) {
+  if (level >= $this.k2c_1.h1i().w1o()) {
     tmp = null;
   } else {
     var tmp0 = get_entries_0();
@@ -19383,7 +19682,7 @@ function variantFor($this, level, dust) {
       var _iterator__ex2g4s = tmp0.i();
       while (_iterator__ex2g4s.j()) {
         var element = _iterator__ex2g4s.k();
-        if ($this.o2b_1.h1i().l1i(level, level + 0.5, element).m1i_1 === dust) {
+        if ($this.k2c_1.h1i().l1i(level, level + 0.5, element).m1i_1 === dust) {
           tmp$ret$0 = element;
           break $l$block;
         }
@@ -19455,19 +19754,19 @@ function distance_1($this, a, b, limit) {
      while (!(i === last));
   return prev[b.length];
 }
-function sam$kotlin_Comparator$0_22(function_0) {
-  this.u2b_1 = function_0;
+function sam$kotlin_Comparator$0_23(function_0) {
+  this.q2c_1 = function_0;
 }
-protoOf(sam$kotlin_Comparator$0_22).uc = function (a, b) {
-  return this.u2b_1(a, b);
+protoOf(sam$kotlin_Comparator$0_23).uc = function (a, b) {
+  return this.q2c_1(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_22).compare = function (a, b) {
+protoOf(sam$kotlin_Comparator$0_23).compare = function (a, b) {
   return this.uc(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_22).t2 = function () {
-  return this.u2b_1;
+protoOf(sam$kotlin_Comparator$0_23).t2 = function () {
+  return this.q2c_1;
 };
-protoOf(sam$kotlin_Comparator$0_22).equals = function (other) {
+protoOf(sam$kotlin_Comparator$0_23).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, Comparator) : false) {
     var tmp_0;
@@ -19482,7 +19781,7 @@ protoOf(sam$kotlin_Comparator$0_22).equals = function (other) {
   }
   return tmp;
 };
-protoOf(sam$kotlin_Comparator$0_22).hashCode = function () {
+protoOf(sam$kotlin_Comparator$0_23).hashCode = function () {
   return hashCode(this.t2());
 };
 function byTypes$score(parts, s) {
@@ -19558,7 +19857,7 @@ function family$walk(out, this$0, s, depth) {
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver = this$0.o2b_1.k1g().c2(element.l1g_1);
+    var tmp0_safe_receiver = this$0.k2c_1.k1g().c2(element.l1g_1);
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -19575,12 +19874,12 @@ function family$walk(out, this$0, s, depth) {
 }
 function ScanResolver(data, maxLevel) {
   maxLevel = maxLevel === VOID ? 51.0 : maxLevel;
-  this.o2b_1 = data;
-  this.p2b_1 = maxLevel;
-  this.q2b_1 = new IvSolver(this.o2b_1.t1g());
+  this.k2c_1 = data;
+  this.l2c_1 = maxLevel;
+  this.m2c_1 = new IvSolver(this.k2c_1.t1g());
   var tmp = this;
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = this.o2b_1.a1g_1;
+  var tmp0 = this.k2c_1.a1g_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
@@ -19590,10 +19889,10 @@ function ScanResolver(data, maxLevel) {
       destination.h(element);
     }
   }
-  tmp.r2b_1 = destination;
+  tmp.n2c_1 = destination;
   var tmp_0 = this;
   // Inline function 'kotlin.collections.groupBy' call
-  var tmp0_0 = this.r2b_1;
+  var tmp0_0 = this.n2c_1;
   // Inline function 'kotlin.collections.groupByTo' call
   var destination_0 = LinkedHashMap_init_$Create$();
   var _iterator__ex2g4s_0 = tmp0_0.i();
@@ -19613,10 +19912,10 @@ function ScanResolver(data, maxLevel) {
     var list = tmp_1;
     list.h(element_0);
   }
-  tmp_0.s2b_1 = destination_0;
+  tmp_0.o2c_1 = destination_0;
 }
-protoOf(ScanResolver).v2b = function (scan) {
-  var pool_0 = byTypes(this, pool(this, scan), scan.m27_1);
+protoOf(ScanResolver).r2c = function (scan) {
+  var pool_0 = byTypes(this, pool(this, scan), scan.i28_1);
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(pool_0, 10));
@@ -19655,15 +19954,15 @@ protoOf(ScanResolver).v2b = function (scan) {
     destination_0.h(tmp$ret$8);
   }
   var level = singleOrNull(distinct(destination_0));
-  var fromDust = !(level == null) && !(scan.i27_1 == null) ? variantFor(this, level, scan.i27_1) : null;
-  var variant = scan.l27_1 ? Variant_SHADOW_getInstance() : scan.k27_1 ? Variant_LUCKY_getInstance() : fromDust;
+  var fromDust = !(level == null) && !(scan.e28_1 == null) ? variantFor(this, level, scan.e28_1) : null;
+  var variant = scan.h28_1 ? Variant_SHADOW_getInstance() : scan.g28_1 ? Variant_LUCKY_getInstance() : fromDust;
   return new Resolved(scan, species, candidates, variant == null ? Variant_NORMAL_getInstance() : variant, !(variant == null));
 };
-protoOf(ScanResolver).t2b = function (name) {
+protoOf(ScanResolver).p2c = function (name) {
   var key = normalize(this, name);
   if (key.length < 3)
     return emptyList();
-  var tmp0_safe_receiver = this.s2b_1.c2(key);
+  var tmp0_safe_receiver = this.o2c_1.c2(key);
   if (tmp0_safe_receiver == null)
     null;
   else {
@@ -19674,7 +19973,7 @@ protoOf(ScanResolver).t2b = function (name) {
   var b = key.length / 4 | 0;
   var limit = Math.min(2, b);
   // Inline function 'kotlin.collections.map' call
-  var this_0 = this.s2b_1.d2();
+  var this_0 = this.o2c_1.d2();
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(this_0, 10));
   var _iterator__ex2g4s = this_0.i();
@@ -19726,24 +20025,24 @@ protoOf(ScanResolver).t2b = function (name) {
     tmp = tmp1_elvis_lhs;
   }
   var best = tmp;
-  return getValue(this.s2b_1, best.k9_1);
+  return getValue(this.o2c_1, best.k9_1);
 };
 function Resolved(scan, species, candidates, variant, variantKnown) {
-  this.w2b_1 = scan;
-  this.x2b_1 = species;
-  this.y2b_1 = candidates;
-  this.z2b_1 = variant;
-  this.a2c_1 = variantKnown;
+  this.s2c_1 = scan;
+  this.t2c_1 = species;
+  this.u2c_1 = candidates;
+  this.v2c_1 = variant;
+  this.w2c_1 = variantKnown;
 }
 protoOf(Resolved).toString = function () {
-  return 'Resolved(scan=' + this.w2b_1.toString() + ', species=' + toString(this.x2b_1) + ', candidates=' + toString_0(this.y2b_1) + ', variant=' + this.z2b_1.toString() + ', variantKnown=' + this.a2c_1 + ')';
+  return 'Resolved(scan=' + this.s2c_1.toString() + ', species=' + toString(this.t2c_1) + ', candidates=' + toString_0(this.u2c_1) + ', variant=' + this.v2c_1.toString() + ', variantKnown=' + this.w2c_1 + ')';
 };
 protoOf(Resolved).hashCode = function () {
-  var result = this.w2b_1.hashCode();
-  result = imul(result, 31) + (this.x2b_1 == null ? 0 : this.x2b_1.hashCode()) | 0;
-  result = imul(result, 31) + hashCode(this.y2b_1) | 0;
-  result = imul(result, 31) + this.z2b_1.hashCode() | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.a2c_1) | 0;
+  var result = this.s2c_1.hashCode();
+  result = imul(result, 31) + (this.t2c_1 == null ? 0 : this.t2c_1.hashCode()) | 0;
+  result = imul(result, 31) + hashCode(this.u2c_1) | 0;
+  result = imul(result, 31) + this.v2c_1.hashCode() | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.w2c_1) | 0;
   return result;
 };
 protoOf(Resolved).equals = function (other) {
@@ -19751,64 +20050,64 @@ protoOf(Resolved).equals = function (other) {
     return true;
   if (!(other instanceof Resolved))
     return false;
-  if (!this.w2b_1.equals(other.w2b_1))
+  if (!this.s2c_1.equals(other.s2c_1))
     return false;
-  if (!equals(this.x2b_1, other.x2b_1))
+  if (!equals(this.t2c_1, other.t2c_1))
     return false;
-  if (!equals(this.y2b_1, other.y2b_1))
+  if (!equals(this.u2c_1, other.u2c_1))
     return false;
-  if (!this.z2b_1.equals(other.z2b_1))
+  if (!this.v2c_1.equals(other.v2c_1))
     return false;
-  if (!(this.a2c_1 === other.a2c_1))
+  if (!(this.w2c_1 === other.w2c_1))
     return false;
   return true;
 };
-var static_init_called_16;
-function static_init_16() {
-  if (static_init_called_16)
+var static_init_called_17;
+function static_init_17() {
+  if (static_init_called_17)
     return Unit_instance;
-  static_init_called_16 = true;
-  Kind_COLLECTION_instance = new Kind_2('COLLECTION', 0, _Char___init__impl__6a9atx(80));
-  Kind_TEAM_instance = new Kind_2('TEAM', 1, _Char___init__impl__6a9atx(84));
-  Kind_TRADE_instance = new Kind_2('TRADE', 2, _Char___init__impl__6a9atx(83));
+  static_init_called_17 = true;
+  Kind_COLLECTION_instance = new Kind_3('COLLECTION', 0, _Char___init__impl__6a9atx(80));
+  Kind_TEAM_instance = new Kind_3('TEAM', 1, _Char___init__impl__6a9atx(84));
+  Kind_TRADE_instance = new Kind_3('TRADE', 2, _Char___init__impl__6a9atx(83));
 }
 var Kind_COLLECTION_instance;
 var Kind_TEAM_instance;
 var Kind_TRADE_instance;
 function values_5() {
-  static_init_16();
+  static_init_17();
   return [Kind_COLLECTION_getInstance(), Kind_TEAM_getInstance(), Kind_TRADE_getInstance()];
 }
 function get_entries_5() {
-  static_init_16();
+  static_init_17();
   if ($ENTRIES_5 == null)
     $ENTRIES_5 = enumEntries(values_5());
   return $ENTRIES_5;
 }
 var $ENTRIES_5;
-function Kind_2(name, ordinal, code) {
+function Kind_3(name, ordinal, code) {
   Enum.call(this, name, ordinal);
-  this.d2c_1 = code;
+  this.z2c_1 = code;
 }
 function Payload(kind, pokemon, league, ownedDex, name) {
   league = league === VOID ? 0 : league;
   ownedDex = ownedDex === VOID ? emptySet() : ownedDex;
   name = name === VOID ? '' : name;
-  this.e2c_1 = kind;
-  this.f2c_1 = pokemon;
-  this.g2c_1 = league;
-  this.h2c_1 = ownedDex;
-  this.i2c_1 = name;
+  this.a2d_1 = kind;
+  this.b2d_1 = pokemon;
+  this.c2d_1 = league;
+  this.d2d_1 = ownedDex;
+  this.e2d_1 = name;
 }
 protoOf(Payload).toString = function () {
-  return 'Payload(kind=' + this.e2c_1.toString() + ', pokemon=' + toString_0(this.f2c_1) + ', league=' + this.g2c_1 + ', ownedDex=' + toString_0(this.h2c_1) + ', name=' + this.i2c_1 + ')';
+  return 'Payload(kind=' + this.a2d_1.toString() + ', pokemon=' + toString_0(this.b2d_1) + ', league=' + this.c2d_1 + ', ownedDex=' + toString_0(this.d2d_1) + ', name=' + this.e2d_1 + ')';
 };
 protoOf(Payload).hashCode = function () {
-  var result = this.e2c_1.hashCode();
-  result = imul(result, 31) + hashCode(this.f2c_1) | 0;
-  result = imul(result, 31) + this.g2c_1 | 0;
-  result = imul(result, 31) + hashCode(this.h2c_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.i2c_1) | 0;
+  var result = this.a2d_1.hashCode();
+  result = imul(result, 31) + hashCode(this.b2d_1) | 0;
+  result = imul(result, 31) + this.c2d_1 | 0;
+  result = imul(result, 31) + hashCode(this.d2d_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.e2d_1) | 0;
   return result;
 };
 protoOf(Payload).equals = function (other) {
@@ -19816,15 +20115,15 @@ protoOf(Payload).equals = function (other) {
     return true;
   if (!(other instanceof Payload))
     return false;
-  if (!this.e2c_1.equals(other.e2c_1))
+  if (!this.a2d_1.equals(other.a2d_1))
     return false;
-  if (!equals(this.f2c_1, other.f2c_1))
+  if (!equals(this.b2d_1, other.b2d_1))
     return false;
-  if (!(this.g2c_1 === other.g2c_1))
+  if (!(this.c2d_1 === other.c2d_1))
     return false;
-  if (!equals(this.h2c_1, other.h2c_1))
+  if (!equals(this.d2d_1, other.d2d_1))
     return false;
-  if (!(this.i2c_1 === other.i2c_1))
+  if (!(this.e2d_1 === other.e2d_1))
     return false;
   return true;
 };
@@ -19862,43 +20161,43 @@ function decode$str(b, i) {
   return s;
 }
 function Kind_COLLECTION_getInstance() {
-  static_init_16();
+  static_init_17();
   return Kind_COLLECTION_instance;
 }
 function Kind_TEAM_getInstance() {
-  static_init_16();
+  static_init_17();
   return Kind_TEAM_instance;
 }
 function Kind_TRADE_getInstance() {
-  static_init_16();
+  static_init_17();
   return Kind_TRADE_instance;
 }
 function ShareCode() {
-  this.j2c_1 = 'https://pimiva.github.io/pogo-iv/';
-  this.k2c_1 = 1;
-  this.l2c_1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
+  this.f2d_1 = 'https://pimiva.github.io/pogo-iv/';
+  this.g2d_1 = 1;
+  this.h2d_1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
 }
-protoOf(ShareCode).m2c = function (p) {
-  return 'https://pimiva.github.io/pogo-iv/#c=' + this.n2c(p);
+protoOf(ShareCode).i2d = function (p) {
+  return 'https://pimiva.github.io/pogo-iv/#c=' + this.j2d(p);
 };
-protoOf(ShareCode).t2b = function (text) {
+protoOf(ShareCode).p2c = function (text) {
   var tmp0_safe_receiver = Regex_init_$Create$('#c=([A-Za-z0-9_-]+)').pb(text);
   var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.sc();
   return tmp1_safe_receiver == null ? null : tmp1_safe_receiver.r(1);
 };
-protoOf(ShareCode).n2c = function (p) {
+protoOf(ShareCode).j2d = function (p) {
   var out = ArrayList_init_$Create$_0();
   encode$u8(out, 1);
   // Inline function 'kotlin.code' call
-  var this_0 = p.e2c_1.d2c_1;
+  var this_0 = p.a2d_1.z2c_1;
   var tmp$ret$0 = Char__toInt_impl_vasixd(this_0);
   encode$u8(out, tmp$ret$0);
-  encode$str(out, take(p.i2c_1, 40));
-  encode$u16(out, p.g2c_1);
-  var tmp0_elvis_lhs = maxOrNull(p.h2c_1);
+  encode$str(out, take(p.e2d_1, 40));
+  encode$u16(out, p.c2d_1);
+  var tmp0_elvis_lhs = maxOrNull(p.d2d_1);
   var maxDex = tmp0_elvis_lhs == null ? 0 : tmp0_elvis_lhs;
   var bits = new Int8Array(maxDex === 0 ? 0 : (maxDex / 8 | 0) + 1 | 0);
-  var _iterator__ex2g4s = p.h2c_1.i();
+  var _iterator__ex2g4s = p.d2d_1.i();
   while (_iterator__ex2g4s.j()) {
     var d = _iterator__ex2g4s.k();
     bits[d / 8 | 0] = toByte(bits[d / 8 | 0] | 1 << (d % 8 | 0));
@@ -19913,7 +20212,7 @@ protoOf(ShareCode).n2c = function (p) {
     out.h(element);
   }
   // Inline function 'kotlin.collections.map' call
-  var this_1 = p.f2c_1;
+  var this_1 = p.b2d_1;
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(this_1, 10));
   var _iterator__ex2g4s_0 = this_1.i();
@@ -19924,7 +20223,7 @@ protoOf(ShareCode).n2c = function (p) {
   }
   var species = distinct(destination);
   // Inline function 'kotlin.collections.flatMap' call
-  var tmp0 = p.f2c_1;
+  var tmp0 = p.b2d_1;
   // Inline function 'kotlin.collections.flatMapTo' call
   var destination_0 = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s_1 = tmp0.i();
@@ -19948,8 +20247,8 @@ protoOf(ShareCode).n2c = function (p) {
     var element_2 = _iterator__ex2g4s_3.k();
     encode$str(out, element_2);
   }
-  encode$u16(out, p.f2c_1.l());
-  var _iterator__ex2g4s_4 = p.f2c_1.i();
+  encode$u16(out, p.b2d_1.l());
+  var _iterator__ex2g4s_4 = p.b2d_1.i();
   while (_iterator__ex2g4s_4.j()) {
     var x = _iterator__ex2g4s_4.k();
     encode$u16(out, species.u(x.o1l_1));
@@ -19978,13 +20277,13 @@ protoOf(ShareCode).n2c = function (p) {
       encode$u16(out, moves.u(element_3));
     }
   }
-  return this.o2c(toByteArray(out));
+  return this.k2d(toByteArray(out));
 };
-protoOf(ShareCode).p2c = function (code, uidStart) {
+protoOf(ShareCode).l2d = function (code, uidStart) {
   // Inline function 'kotlin.runCatching' call
   var tmp;
   try {
-    var b = this.q2c(code);
+    var b = this.m2d(code);
     var i = {_v: 0};
     // Inline function 'kotlin.require' call
     // Inline function 'kotlin.require' call
@@ -20000,7 +20299,7 @@ protoOf(ShareCode).p2c = function (code, uidStart) {
       var _iterator__ex2g4s = tmp0.i();
       while (_iterator__ex2g4s.j()) {
         var element = _iterator__ex2g4s.k();
-        if (element.d2c_1 === kindCode) {
+        if (element.z2c_1 === kindCode) {
           tmp$ret$5 = element;
           break $l$block;
         }
@@ -20121,7 +20420,7 @@ protoOf(ShareCode).p2c = function (code, uidStart) {
   var this_0 = tmp;
   return _Result___get_isFailure__impl__jpiriv(this_0) ? null : _Result___get_value__impl__bjfvqg(this_0);
 };
-protoOf(ShareCode).o2c = function (bytes) {
+protoOf(ShareCode).k2d = function (bytes) {
   var sb = StringBuilder_init_$Create$();
   var i = 0;
   while (i < bytes.length) {
@@ -20149,7 +20448,7 @@ protoOf(ShareCode).o2c = function (bytes) {
   }
   return sb.toString();
 };
-protoOf(ShareCode).q2c = function (text) {
+protoOf(ShareCode).m2d = function (text) {
   var out = ArrayList_init_$Create$_0();
   var i = 0;
   while (i < text.length) {
@@ -20199,7 +20498,7 @@ function ShareCode_getInstance() {
 }
 function TradeMatch() {
 }
-protoOf(TradeMatch).r2c = function (data, p) {
+protoOf(TradeMatch).n2d = function (data, p) {
   var tmp0_elvis_lhs = data.k1g().c2(p.o1l_1);
   var tmp;
   if (tmp0_elvis_lhs == null) {
@@ -20210,7 +20509,7 @@ protoOf(TradeMatch).r2c = function (data, p) {
   var s = tmp;
   return !p.v1l_1.equals(Variant_SHADOW_getInstance()) && !s.k1f_1.t('untradeable');
 };
-protoOf(TradeMatch).s2c = function (data, cleanup, limit) {
+protoOf(TradeMatch).o2d = function (data, cleanup, limit) {
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(cleanup, 10));
@@ -20226,7 +20525,7 @@ protoOf(TradeMatch).s2c = function (data, cleanup, limit) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var element = _iterator__ex2g4s_0.k();
-    if (TradeMatch_instance.r2c(data, element)) {
+    if (TradeMatch_instance.n2d(data, element)) {
       destination_0.h(element);
     }
   }
@@ -20243,11 +20542,11 @@ protoOf(TradeMatch).s2c = function (data, cleanup, limit) {
   }
   return take_0(list, limit);
 };
-protoOf(TradeMatch).t2c = function (data, cleanup, limit, $super) {
+protoOf(TradeMatch).p2d = function (data, cleanup, limit, $super) {
   limit = limit === VOID ? 80 : limit;
-  return $super === VOID ? this.s2c(data, cleanup, limit) : $super.s2c.call(this, data, cleanup, limit);
+  return $super === VOID ? this.o2d(data, cleanup, limit) : $super.o2d.call(this, data, cleanup, limit);
 };
-protoOf(TradeMatch).u2c = function (data, list) {
+protoOf(TradeMatch).q2d = function (data, list) {
   // Inline function 'kotlin.collections.mapNotNull' call
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -20266,7 +20565,7 @@ protoOf(TradeMatch).u2c = function (data, list) {
   }
   return toSet(destination);
 };
-protoOf(TradeMatch).v2c = function (data, myOffers, friend) {
+protoOf(TradeMatch).r2d = function (data, myOffers, friend) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -20280,7 +20579,7 @@ protoOf(TradeMatch).v2c = function (data, myOffers, friend) {
       tmp = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp = !friend.h2c_1.t(tmp1_safe_receiver);
+      tmp = !friend.d2d_1.t(tmp1_safe_receiver);
     }
     if (tmp === true) {
       destination.h(element);
@@ -20288,10 +20587,10 @@ protoOf(TradeMatch).v2c = function (data, myOffers, friend) {
   }
   return destination;
 };
-protoOf(TradeMatch).w2c = function (data, mine, friend) {
-  var have = this.u2c(data, mine);
+protoOf(TradeMatch).s2d = function (data, mine, friend) {
+  var have = this.q2d(data, mine);
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = friend.f2c_1;
+  var tmp0 = friend.b2d_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
@@ -20316,17 +20615,17 @@ var TradeMatch_instance;
 function TradeMatch_getInstance() {
   return TradeMatch_instance;
 }
-var static_init_called_17;
-function static_init_17() {
-  if (static_init_called_17)
+var static_init_called_18;
+function static_init_18() {
+  if (static_init_called_18)
     return Unit_instance;
-  static_init_called_17 = true;
-  Kind_FEATURE_instance = new Kind_3('FEATURE', 0, 'Funktionen');
-  Kind_MINE_instance = new Kind_3('MINE', 1, 'Meine Pok\xE9mon');
-  Kind_RAID_instance_2 = new Kind_3('RAID', 2, 'Raids');
-  Kind_EVENT_instance_0 = new Kind_3('EVENT', 3, 'Events');
-  Kind_RESEARCH_instance_0 = new Kind_3('RESEARCH', 4, 'Forschung');
-  Kind_SPECIES_instance = new Kind_3('SPECIES', 5, 'Alle Pok\xE9mon');
+  static_init_called_18 = true;
+  Kind_FEATURE_instance = new Kind_4('FEATURE', 0, 'Funktionen');
+  Kind_MINE_instance = new Kind_4('MINE', 1, 'Meine Pok\xE9mon');
+  Kind_RAID_instance_2 = new Kind_4('RAID', 2, 'Raids');
+  Kind_EVENT_instance_0 = new Kind_4('EVENT', 3, 'Events');
+  Kind_RESEARCH_instance_0 = new Kind_4('RESEARCH', 4, 'Forschung');
+  Kind_SPECIES_instance = new Kind_4('SPECIES', 5, 'Alle Pok\xE9mon');
 }
 var Kind_FEATURE_instance;
 var Kind_MINE_instance;
@@ -20334,32 +20633,32 @@ var Kind_RAID_instance_2;
 var Kind_EVENT_instance_0;
 var Kind_RESEARCH_instance_0;
 var Kind_SPECIES_instance;
-function Kind_3(name, ordinal, label) {
+function Kind_4(name, ordinal, label) {
   Enum.call(this, name, ordinal);
-  this.z2c_1 = label;
+  this.v2d_1 = label;
 }
 function Hit_1(kind, title, sub, icon, target, species, score) {
   species = species === VOID ? null : species;
   score = score === VOID ? 0 : score;
-  this.a2d_1 = kind;
-  this.b2d_1 = title;
-  this.c2d_1 = sub;
-  this.d2d_1 = icon;
-  this.e2d_1 = target;
-  this.f2d_1 = species;
-  this.g2d_1 = score;
+  this.w2d_1 = kind;
+  this.x2d_1 = title;
+  this.y2d_1 = sub;
+  this.z2d_1 = icon;
+  this.a2e_1 = target;
+  this.b2e_1 = species;
+  this.c2e_1 = score;
 }
 protoOf(Hit_1).toString = function () {
-  return 'Hit(kind=' + this.a2d_1.toString() + ', title=' + this.b2d_1 + ', sub=' + this.c2d_1 + ', icon=' + this.d2d_1 + ', target=' + this.e2d_1 + ', species=' + toString(this.f2d_1) + ', score=' + this.g2d_1 + ')';
+  return 'Hit(kind=' + this.w2d_1.toString() + ', title=' + this.x2d_1 + ', sub=' + this.y2d_1 + ', icon=' + this.z2d_1 + ', target=' + this.a2e_1 + ', species=' + toString(this.b2e_1) + ', score=' + this.c2e_1 + ')';
 };
 protoOf(Hit_1).hashCode = function () {
-  var result = this.a2d_1.hashCode();
-  result = imul(result, 31) + getStringHashCode(this.b2d_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.c2d_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.d2d_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.e2d_1) | 0;
-  result = imul(result, 31) + (this.f2d_1 == null ? 0 : this.f2d_1.hashCode()) | 0;
-  result = imul(result, 31) + this.g2d_1 | 0;
+  var result = this.w2d_1.hashCode();
+  result = imul(result, 31) + getStringHashCode(this.x2d_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.y2d_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.z2d_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.a2e_1) | 0;
+  result = imul(result, 31) + (this.b2e_1 == null ? 0 : this.b2e_1.hashCode()) | 0;
+  result = imul(result, 31) + this.c2e_1 | 0;
   return result;
 };
 protoOf(Hit_1).equals = function (other) {
@@ -20367,44 +20666,44 @@ protoOf(Hit_1).equals = function (other) {
     return true;
   if (!(other instanceof Hit_1))
     return false;
-  if (!this.a2d_1.equals(other.a2d_1))
+  if (!this.w2d_1.equals(other.w2d_1))
     return false;
-  if (!(this.b2d_1 === other.b2d_1))
+  if (!(this.x2d_1 === other.x2d_1))
     return false;
-  if (!(this.c2d_1 === other.c2d_1))
+  if (!(this.y2d_1 === other.y2d_1))
     return false;
-  if (!(this.d2d_1 === other.d2d_1))
+  if (!(this.z2d_1 === other.z2d_1))
     return false;
-  if (!(this.e2d_1 === other.e2d_1))
+  if (!(this.a2e_1 === other.a2e_1))
     return false;
-  if (!equals(this.f2d_1, other.f2d_1))
+  if (!equals(this.b2e_1, other.b2e_1))
     return false;
-  if (!(this.g2d_1 === other.g2d_1))
+  if (!(this.c2e_1 === other.c2e_1))
     return false;
   return true;
 };
 function Feature(id, title, sub, icon, words, app, web) {
   app = app === VOID ? true : app;
   web = web === VOID ? true : web;
-  this.h2d_1 = id;
-  this.i2d_1 = title;
-  this.j2d_1 = sub;
-  this.k2d_1 = icon;
-  this.l2d_1 = words;
-  this.m2d_1 = app;
-  this.n2d_1 = web;
+  this.d2e_1 = id;
+  this.e2e_1 = title;
+  this.f2e_1 = sub;
+  this.g2e_1 = icon;
+  this.h2e_1 = words;
+  this.i2e_1 = app;
+  this.j2e_1 = web;
 }
 protoOf(Feature).toString = function () {
-  return 'Feature(id=' + this.h2d_1 + ', title=' + this.i2d_1 + ', sub=' + this.j2d_1 + ', icon=' + this.k2d_1 + ', words=' + toString_0(this.l2d_1) + ', app=' + this.m2d_1 + ', web=' + this.n2d_1 + ')';
+  return 'Feature(id=' + this.d2e_1 + ', title=' + this.e2e_1 + ', sub=' + this.f2e_1 + ', icon=' + this.g2e_1 + ', words=' + toString_0(this.h2e_1) + ', app=' + this.i2e_1 + ', web=' + this.j2e_1 + ')';
 };
 protoOf(Feature).hashCode = function () {
-  var result = getStringHashCode(this.h2d_1);
-  result = imul(result, 31) + getStringHashCode(this.i2d_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.j2d_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.k2d_1) | 0;
-  result = imul(result, 31) + hashCode(this.l2d_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.m2d_1) | 0;
-  result = imul(result, 31) + getBooleanHashCode(this.n2d_1) | 0;
+  var result = getStringHashCode(this.d2e_1);
+  result = imul(result, 31) + getStringHashCode(this.e2e_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.f2e_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.g2e_1) | 0;
+  result = imul(result, 31) + hashCode(this.h2e_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.i2e_1) | 0;
+  result = imul(result, 31) + getBooleanHashCode(this.j2e_1) | 0;
   return result;
 };
 protoOf(Feature).equals = function (other) {
@@ -20412,24 +20711,24 @@ protoOf(Feature).equals = function (other) {
     return true;
   if (!(other instanceof Feature))
     return false;
-  if (!(this.h2d_1 === other.h2d_1))
+  if (!(this.d2e_1 === other.d2e_1))
     return false;
-  if (!(this.i2d_1 === other.i2d_1))
+  if (!(this.e2e_1 === other.e2e_1))
     return false;
-  if (!(this.j2d_1 === other.j2d_1))
+  if (!(this.f2e_1 === other.f2e_1))
     return false;
-  if (!(this.k2d_1 === other.k2d_1))
+  if (!(this.g2e_1 === other.g2e_1))
     return false;
-  if (!equals(this.l2d_1, other.l2d_1))
+  if (!equals(this.h2e_1, other.h2e_1))
     return false;
-  if (!(this.m2d_1 === other.m2d_1))
+  if (!(this.i2e_1 === other.i2e_1))
     return false;
-  if (!(this.n2d_1 === other.n2d_1))
+  if (!(this.j2e_1 === other.j2e_1))
     return false;
   return true;
 };
 function matchScore($this, q, text) {
-  var t = $this.p2d(text);
+  var t = $this.l2e(text);
   var tmp;
   if (t === q) {
     tmp = 100;
@@ -20474,47 +20773,17 @@ function matchScore($this, q, text) {
   }
   return tmp;
 }
-function sam$kotlin_Comparator$0_23(function_0) {
-  this.q2d_1 = function_0;
-}
-protoOf(sam$kotlin_Comparator$0_23).uc = function (a, b) {
-  return this.q2d_1(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_23).compare = function (a, b) {
-  return this.uc(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_23).t2 = function () {
-  return this.q2d_1;
-};
-protoOf(sam$kotlin_Comparator$0_23).equals = function (other) {
-  var tmp;
-  if (!(other == null) ? isInterface(other, Comparator) : false) {
-    var tmp_0;
-    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
-      tmp_0 = equals(this.t2(), other.t2());
-    } else {
-      tmp_0 = false;
-    }
-    tmp = tmp_0;
-  } else {
-    tmp = false;
-  }
-  return tmp;
-};
-protoOf(sam$kotlin_Comparator$0_23).hashCode = function () {
-  return hashCode(this.t2());
-};
 function sam$kotlin_Comparator$0_24(function_0) {
-  this.r2d_1 = function_0;
+  this.m2e_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_24).uc = function (a, b) {
-  return this.r2d_1(a, b);
+  return this.m2e_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_24).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_24).t2 = function () {
-  return this.r2d_1;
+  return this.m2e_1;
 };
 protoOf(sam$kotlin_Comparator$0_24).equals = function (other) {
   var tmp;
@@ -20532,6 +20801,36 @@ protoOf(sam$kotlin_Comparator$0_24).equals = function (other) {
   return tmp;
 };
 protoOf(sam$kotlin_Comparator$0_24).hashCode = function () {
+  return hashCode(this.t2());
+};
+function sam$kotlin_Comparator$0_25(function_0) {
+  this.n2e_1 = function_0;
+}
+protoOf(sam$kotlin_Comparator$0_25).uc = function (a, b) {
+  return this.n2e_1(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_25).compare = function (a, b) {
+  return this.uc(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_25).t2 = function () {
+  return this.n2e_1;
+};
+protoOf(sam$kotlin_Comparator$0_25).equals = function (other) {
+  var tmp;
+  if (!(other == null) ? isInterface(other, Comparator) : false) {
+    var tmp_0;
+    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
+      tmp_0 = equals(this.t2(), other.t2());
+    } else {
+      tmp_0 = false;
+    }
+    tmp = tmp_0;
+  } else {
+    tmp = false;
+  }
+  return tmp;
+};
+protoOf(sam$kotlin_Comparator$0_25).hashCode = function () {
   return hashCode(this.t2());
 };
 function SmartSearch$run$lambda(a, b) {
@@ -20577,47 +20876,47 @@ function SmartSearch$run$lambda_5(a, b) {
 }
 function SmartSearch$grouped$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.g2d_1;
-  var tmp$ret$2 = a.g2d_1;
+  var tmp = b.c2e_1;
+  var tmp$ret$2 = a.c2e_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function SmartSearch$grouped$lambda_0(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
   var v = b.n9();
-  var tmp = first_0(v).g2d_1;
+  var tmp = first_0(v).c2e_1;
   var v_0 = a.n9();
-  var tmp$ret$2 = first_0(v_0).g2d_1;
+  var tmp$ret$2 = first_0(v_0).c2e_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function Kind_FEATURE_getInstance() {
-  static_init_17();
+  static_init_18();
   return Kind_FEATURE_instance;
 }
 function Kind_MINE_getInstance() {
-  static_init_17();
+  static_init_18();
   return Kind_MINE_instance;
 }
 function Kind_RAID_getInstance_2() {
-  static_init_17();
+  static_init_18();
   return Kind_RAID_instance_2;
 }
 function Kind_EVENT_getInstance_0() {
-  static_init_17();
+  static_init_18();
   return Kind_EVENT_instance_0;
 }
 function Kind_RESEARCH_getInstance_0() {
-  static_init_17();
+  static_init_18();
   return Kind_RESEARCH_instance_0;
 }
 function Kind_SPECIES_getInstance() {
-  static_init_17();
+  static_init_18();
   return Kind_SPECIES_instance;
 }
 function SmartSearch() {
   SmartSearch_instance = this;
-  this.o2d_1 = listOf([new Feature('start', 'Start', '\xDCbersicht', 'home', listOf(['start', 'home', '\xFCbersicht', 'men\xFC'])), new Feature('collection', 'Sammlung', 'Alle deine Pok\xE9mon', 'format_list_bulleted', listOf(['sammlung', 'pok\xE9mon', 'box', 'liste', 'meine'])), new Feature('traits', 'Merkmale einlesen', 'Crypto, Dyna, Gl\xFCcks, Mega', 'sell', listOf(['merkmale', 'crypto', 'dyna', 'dynamax', 'giga', 'gl\xFCcks', 'erl\xF6st', 'mega', 'einlesen'])), new Feature('moves', 'Attacken einlesen', 'Attacken & Markierungen', 'menu_book', listOf(['attacken', 'markierung', 'tag', 'moves'])), new Feature('upgrade', 'Was lohnt sich?', 'Raids, PvP, Dyna ausbauen', 'build', listOf(['lohnt', 'ausbau', 'leveln', 'staub', 'ratgeber', 'tipps'])), new Feature('evolve', 'Entwickeln', 'Was jetzt dran ist', 'hourglass_top', listOf(['entwickeln', 'entwicklung', 'community day'])), new Feature('clean', 'Aufr\xE4umen', 'Kann weg', 'cleaning_services', listOf(['aufr\xE4umen', 'kann weg', 'l\xF6schen', 'doppelte', 'tauschen'])), new Feature('trash', 'Papierkorb', 'Gel\xF6schtes wiederherstellen', 'delete', listOf(['papierkorb', 'gel\xF6scht', 'wiederherstellen'])), new Feature('teams', 'Teams (PvP)', 'Beste Teams aus deiner Sammlung', 'trophy', listOf(['teams', 'pvp', 'liga', 'kampfliga', 'superliga', 'hyperliga', 'meister'])), new Feature('meta', 'PvP-Meta', 'Wer gerade stark ist', 'trending_up', listOf(['meta', 'rangliste', 'pvpoke', 'stark'])), new Feature('raids', 'Raids \xB7 Arena', 'Konter aus deiner Sammlung', 'swords', listOf(['raid', 'arena', 'konter', 'boss'])), new Feature('dyna', 'Dynamax-K\xE4mpfe', 'Dein Dyna-Team', 'bolt', listOf(['dyna', 'dynamax', 'giga', 'max', 'kraftfeld'])), new Feature('typemeta', 'Typ-Meta', 'Beste Angreifer je Typ', 'bar_chart', listOf(['typ', 'typen', 'angreifer', 'meta'])), new Feature('raidevents', 'Raid-Events', 'Raids & Dynamax demn\xE4chst', 'event', listOf(['raid events', 'demn\xE4chst', 'bald'])), new Feature('catch', 'Fang-Check', '100er nach WP erkennen', 'sports_baseball', listOf(['fang', 'fangen', 'wp', '100er', 'hundo'])), new Feature('calc', 'IV-Rechner', 'Von Hand rechnen', 'calculate', listOf(['rechner', 'iv', 'rechnen', 'werte']), VOID, false), new Feature('video', 'Video einlesen', 'Bildschirmaufnahme auswerten', 'movie', listOf(['video', 'aufnahme', 'scannen', 'scan']), false), new Feature('days', 'Tage', 'Was gibt es wann?', 'event', listOf(['tage', 'heute', 'morgen', 'wann'])), new Feature('research', 'Forschung', 'Aktuelle Feldforschungen', 'science', listOf(['forschung', 'feldforschung', 'aufgabe', 'pok\xE9stop'])), new Feature('calendar', 'Kalender', 'Alle Events', 'calendar_month', listOf(['kalender', 'events', 'community day', 'rampenlicht'])), new Feature('codes', 'Codes', 'Promo-Codes einl\xF6sen', 'redeem', listOf(['codes', 'promo', 'einl\xF6sen', 'geschenk'])), new Feature('news', 'News', 'Ger\xFCchte & Neuigkeiten', 'newspaper', listOf(['news', 'neuigkeiten', 'ger\xFCchte'])), new Feature('guide', 'Einf\xFChrung', 'Schritt f\xFCr Schritt alles einscannen', 'school', listOf(['einf\xFChrung', 'hilfe', 'anleitung', 'tutorial'])), new Feature('profile', 'Mein Bereich', 'Profil, Einstellungen, Sichern', 'person', listOf(['profil', 'mein bereich', 'einstellungen', 'konto'])), new Feature('settings', 'Scan-Einstellungen', 'Automatik, Spitzname, Schnellspeichern', 'settings', listOf(['einstellungen', 'automatik', 'spitzname', 'name', 'schnellspeichern', 'scan']), VOID, false), new Feature('share', 'Teilen & Sichern', 'Export, Import, Link eines Freundes', 'share', listOf(['teilen', 'sichern', 'backup', 'export', 'import', 'freund', 'link']))]);
+  this.k2e_1 = listOf([new Feature('start', 'Start', '\xDCbersicht', 'home', listOf(['start', 'home', '\xFCbersicht', 'men\xFC'])), new Feature('collection', 'Sammlung', 'Alle deine Pok\xE9mon', 'format_list_bulleted', listOf(['sammlung', 'pok\xE9mon', 'box', 'liste', 'meine'])), new Feature('traits', 'Merkmale einlesen', 'Crypto, Dyna, Gl\xFCcks, Mega', 'sell', listOf(['merkmale', 'crypto', 'dyna', 'dynamax', 'giga', 'gl\xFCcks', 'erl\xF6st', 'mega', 'einlesen'])), new Feature('moves', 'Attacken einlesen', 'Attacken & Markierungen', 'menu_book', listOf(['attacken', 'markierung', 'tag', 'moves'])), new Feature('upgrade', 'Was lohnt sich?', 'Raids, PvP, Dyna ausbauen', 'build', listOf(['lohnt', 'ausbau', 'leveln', 'staub', 'ratgeber', 'tipps'])), new Feature('evolve', 'Entwickeln', 'Was jetzt dran ist', 'hourglass_top', listOf(['entwickeln', 'entwicklung', 'community day'])), new Feature('clean', 'Aufr\xE4umen', 'Kann weg', 'cleaning_services', listOf(['aufr\xE4umen', 'kann weg', 'l\xF6schen', 'doppelte', 'tauschen'])), new Feature('trash', 'Papierkorb', 'Gel\xF6schtes wiederherstellen', 'delete', listOf(['papierkorb', 'gel\xF6scht', 'wiederherstellen'])), new Feature('teams', 'Teams (PvP)', 'Beste Teams aus deiner Sammlung', 'trophy', listOf(['teams', 'pvp', 'liga', 'kampfliga', 'superliga', 'hyperliga', 'meister'])), new Feature('meta', 'PvP-Meta', 'Wer gerade stark ist', 'trending_up', listOf(['meta', 'rangliste', 'pvpoke', 'stark'])), new Feature('raids', 'Raids \xB7 Arena', 'Konter aus deiner Sammlung', 'swords', listOf(['raid', 'arena', 'konter', 'boss'])), new Feature('dyna', 'Dynamax-K\xE4mpfe', 'Dein Dyna-Team', 'bolt', listOf(['dyna', 'dynamax', 'giga', 'max', 'kraftfeld'])), new Feature('typemeta', 'Typ-Meta', 'Beste Angreifer je Typ', 'bar_chart', listOf(['typ', 'typen', 'angreifer', 'meta'])), new Feature('dynameta', 'Dyna-Meta', 'Beste Dyna-Angreifer je Typ', 'bolt', listOf(['dyna meta', 'dynamax meta', 'dyna angreifer'])), new Feature('forms', 'Legend\xE4re Formen & Gigadynamax', 'Was man f\xFCr besondere Formen braucht', 'auto_awesome', listOf(['formen', 'legend\xE4r', 'fusion', 'proto', 'urform', 'gigadynamax', 'giga', 'zacian', 'zamazenta', 'kyurem', 'necrozma', 'kyogre', 'groudon'])), new Feature('raidevents', 'Raid-Events', 'Raids & Dynamax demn\xE4chst', 'event', listOf(['raid events', 'demn\xE4chst', 'bald'])), new Feature('catch', 'Fang-Check', '100er nach WP erkennen', 'sports_baseball', listOf(['fang', 'fangen', 'wp', '100er', 'hundo'])), new Feature('calc', 'IV-Rechner', 'Von Hand rechnen', 'calculate', listOf(['rechner', 'iv', 'rechnen', 'werte']), VOID, false), new Feature('video', 'Video einlesen', 'Bildschirmaufnahme auswerten', 'movie', listOf(['video', 'aufnahme', 'scannen', 'scan']), false), new Feature('days', 'Tage', 'Was gibt es wann?', 'event', listOf(['tage', 'heute', 'morgen', 'wann'])), new Feature('research', 'Forschung', 'Aktuelle Feldforschungen', 'science', listOf(['forschung', 'feldforschung', 'aufgabe', 'pok\xE9stop'])), new Feature('calendar', 'Kalender', 'Alle Events', 'calendar_month', listOf(['kalender', 'events', 'community day', 'rampenlicht'])), new Feature('codes', 'Codes', 'Promo-Codes einl\xF6sen', 'redeem', listOf(['codes', 'promo', 'einl\xF6sen', 'geschenk'])), new Feature('news', 'News', 'Ger\xFCchte & Neuigkeiten', 'newspaper', listOf(['news', 'neuigkeiten', 'ger\xFCchte'])), new Feature('guide', 'Einf\xFChrung', 'Schritt f\xFCr Schritt alles einscannen', 'school', listOf(['einf\xFChrung', 'hilfe', 'anleitung', 'tutorial'])), new Feature('profile', 'Mein Bereich', 'Profil, Einstellungen, Sichern', 'person', listOf(['profil', 'mein bereich', 'einstellungen', 'konto'])), new Feature('settings', 'Scan-Einstellungen', 'Automatik, Spitzname, Schnellspeichern', 'settings', listOf(['einstellungen', 'automatik', 'spitzname', 'name', 'schnellspeichern', 'scan']), VOID, false), new Feature('share', 'Teilen & Sichern', 'Export, Import, Link eines Freundes', 'share', listOf(['teilen', 'sichern', 'backup', 'export', 'import', 'freund', 'link']))]);
 }
-protoOf(SmartSearch).p2d = function (s) {
+protoOf(SmartSearch).l2e = function (s) {
   // Inline function 'kotlin.text.lowercase' call
   // Inline function 'kotlin.js.asDynamic' call
   var tmp$ret$0 = s.toLowerCase();
@@ -20625,29 +20924,29 @@ protoOf(SmartSearch).p2d = function (s) {
   var this_0 = replace(replace_0(replace_0(replace_0(replace_0(replace_0(tmp$ret$0, _Char___init__impl__6a9atx(228), _Char___init__impl__6a9atx(97)), _Char___init__impl__6a9atx(246), _Char___init__impl__6a9atx(111)), _Char___init__impl__6a9atx(252), _Char___init__impl__6a9atx(117)), _Char___init__impl__6a9atx(223), _Char___init__impl__6a9atx(115)), _Char___init__impl__6a9atx(233), _Char___init__impl__6a9atx(101)), '-', ' ');
   return toString_0(trim(isCharSequence(this_0) ? this_0 : THROW_CCE()));
 };
-protoOf(SmartSearch).s2d = function (query, data, analyzer, saved, web, raids, events, research) {
-  var q = this.p2d(query);
+protoOf(SmartSearch).o2e = function (query, data, analyzer, saved, web, raids, events, research) {
+  var q = this.l2e(query);
   // Inline function 'kotlin.text.isEmpty' call
   if (charSequenceLength(q) === 0)
     return emptyList();
   var hits = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = this.o2d_1;
+  var tmp0 = this.k2e_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (web ? element.n2d_1 : element.m2d_1) {
+    if (web ? element.j2e_1 : element.i2e_1) {
       destination.h(element);
     }
   }
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var f = _iterator__ex2g4s_0.k();
-    var tmp0_0 = matchScore(this, q, f.i2d_1);
+    var tmp0_0 = matchScore(this, q, f.e2e_1);
     // Inline function 'kotlin.collections.maxOf' call
-    var iterator = f.l2d_1.i();
+    var iterator = f.h2e_1.i();
     if (!iterator.j())
       throw NoSuchElementException_init_$Create$();
     var it = iterator.k();
@@ -20663,7 +20962,7 @@ protoOf(SmartSearch).s2d = function (query, data, analyzer, saved, web, raids, e
     var b = maxValue - 5 | 0;
     var s = Math.max(tmp0_0, b);
     if (s > 0) {
-      hits.h(new Hit_1(Kind_FEATURE_getInstance(), f.i2d_1, f.j2d_1, f.k2d_1, f.h2d_1, VOID, s + 10 | 0));
+      hits.h(new Hit_1(Kind_FEATURE_getInstance(), f.e2e_1, f.f2e_1, f.g2e_1, f.d2e_1, VOID, s + 10 | 0));
     }
   }
   var number = toIntOrNull(removePrefix(q, '#'));
@@ -20769,9 +21068,9 @@ protoOf(SmartSearch).s2d = function (query, data, analyzer, saved, web, raids, e
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_2 = SmartSearch$run$lambda;
   // Inline function 'kotlin.comparisons.thenByDescending' call
-  var this_0 = new sam$kotlin_Comparator$0_23(tmp_2);
+  var this_0 = new sam$kotlin_Comparator$0_24(tmp_2);
   var tmp_3 = SmartSearch$run$lambda_0(this_0);
-  var tmp$ret$20 = new sam$kotlin_Comparator$0_23(tmp_3);
+  var tmp$ret$20 = new sam$kotlin_Comparator$0_24(tmp_3);
   var _iterator__ex2g4s_2 = take_0(sortedWith(mine, tmp$ret$20), 30).i();
   while (_iterator__ex2g4s_2.j()) {
     var _destruct__k2r9zo = _iterator__ex2g4s_2.k();
@@ -20882,7 +21181,7 @@ protoOf(SmartSearch).s2d = function (query, data, analyzer, saved, web, raids, e
     var this_1 = filter(tmp_11, SmartSearch$run$lambda_4);
     // Inline function 'kotlin.comparisons.compareByDescending' call
     var tmp_12 = SmartSearch$run$lambda_5;
-    var tmp$ret$31 = new sam$kotlin_Comparator$0_23(tmp_12);
+    var tmp$ret$31 = new sam$kotlin_Comparator$0_24(tmp_12);
     var tmp$ret$30 = sortedWith_0(this_1, tmp$ret$31);
     // Inline function 'kotlin.sequences.forEach' call
     var _iterator__ex2g4s_7 = take_1(tmp$ret$30, 8).i();
@@ -20895,14 +21194,14 @@ protoOf(SmartSearch).s2d = function (query, data, analyzer, saved, web, raids, e
   }
   return hits;
 };
-protoOf(SmartSearch).t2d = function (hits) {
+protoOf(SmartSearch).p2e = function (hits) {
   // Inline function 'kotlin.collections.groupBy' call
   // Inline function 'kotlin.collections.groupByTo' call
   var destination = LinkedHashMap_init_$Create$();
   var _iterator__ex2g4s = hits.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var key = element.a2d_1;
+    var key = element.w2d_1;
     // Inline function 'kotlin.collections.getOrPut' call
     var value = destination.c2(key);
     var tmp;
@@ -20930,7 +21229,7 @@ protoOf(SmartSearch).t2d = function (hits) {
     // Inline function 'kotlin.collections.sortedByDescending' call
     // Inline function 'kotlin.comparisons.compareByDescending' call
     var tmp_0 = SmartSearch$grouped$lambda;
-    var tmp$ret$12 = new sam$kotlin_Comparator$0_24(tmp_0);
+    var tmp$ret$12 = new sam$kotlin_Comparator$0_25(tmp_0);
     var tmp$ret$11 = sortedWith(v, tmp$ret$12);
     var tmp$ret$8 = to(k, tmp$ret$11);
     destination_0.h(tmp$ret$8);
@@ -20938,7 +21237,7 @@ protoOf(SmartSearch).t2d = function (hits) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_1 = SmartSearch$grouped$lambda_0;
-  var tmp$ret$14 = new sam$kotlin_Comparator$0_24(tmp_1);
+  var tmp$ret$14 = new sam$kotlin_Comparator$0_25(tmp_1);
   return sortedWith(destination_0, tmp$ret$14);
 };
 var SmartSearch_instance;
@@ -20948,15 +21247,15 @@ function SmartSearch_getInstance() {
   return SmartSearch_instance;
 }
 function Source_0(file, url) {
-  this.u2d_1 = file;
-  this.v2d_1 = url;
+  this.q2e_1 = file;
+  this.r2e_1 = url;
 }
 protoOf(Source_0).toString = function () {
-  return 'Source(file=' + this.u2d_1 + ', url=' + this.v2d_1 + ')';
+  return 'Source(file=' + this.q2e_1 + ', url=' + this.r2e_1 + ')';
 };
 protoOf(Source_0).hashCode = function () {
-  var result = getStringHashCode(this.u2d_1);
-  result = imul(result, 31) + getStringHashCode(this.v2d_1) | 0;
+  var result = getStringHashCode(this.q2e_1);
+  result = imul(result, 31) + getStringHashCode(this.r2e_1) | 0;
   return result;
 };
 protoOf(Source_0).equals = function (other) {
@@ -20964,25 +21263,25 @@ protoOf(Source_0).equals = function (other) {
     return true;
   if (!(other instanceof Source_0))
     return false;
-  if (!(this.u2d_1 === other.u2d_1))
+  if (!(this.q2e_1 === other.q2e_1))
     return false;
-  if (!(this.v2d_1 === other.v2d_1))
+  if (!(this.r2e_1 === other.r2e_1))
     return false;
   return true;
 };
 function SpriteNames() {
-  this.w2d_1 = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/';
-  this.x2d_1 = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/Addressable%20Assets/';
-  this.y2d_1 = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/';
+  this.s2e_1 = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/';
+  this.t2e_1 = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/Addressable%20Assets/';
+  this.u2e_1 = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/';
 }
-protoOf(SpriteNames).z2d = function (species) {
+protoOf(SpriteNames).v2e = function (species) {
   var dex = species.b1f_1;
   var padded = padStart(dex.toString(), 3, _Char___init__impl__6a9atx(48));
   // Inline function 'kotlin.collections.buildList' call
   // Inline function 'kotlin.collections.buildListInternal' call
   // Inline function 'kotlin.apply' call
   var this_0 = ArrayList_init_$Create$_0();
-  var tmp0_safe_receiver = SpriteNames_instance.a2e(species.a1f_1);
+  var tmp0_safe_receiver = SpriteNames_instance.w2e(species.a1f_1);
   if (tmp0_safe_receiver == null)
     null;
   else {
@@ -20995,7 +21294,7 @@ protoOf(SpriteNames).z2d = function (species) {
   this_0.h(new Source_0('home_' + dex + '.png', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/' + dex + '.png'));
   return this_0.r4();
 };
-protoOf(SpriteNames).a2e = function (id) {
+protoOf(SpriteNames).w2e = function (id) {
   var suffix = substringAfter_0(id, _Char___init__impl__6a9atx(95), '');
   // Inline function 'kotlin.text.isEmpty' call
   if (charSequenceLength(suffix) === 0)
@@ -21109,17 +21408,17 @@ protoOf(LevelTable).w1g = function (from, to) {
   return destination;
 };
 function BaseStats(atk, def, sta) {
-  this.b2e_1 = atk;
-  this.c2e_1 = def;
-  this.d2e_1 = sta;
+  this.x2e_1 = atk;
+  this.y2e_1 = def;
+  this.z2e_1 = sta;
 }
 protoOf(BaseStats).toString = function () {
-  return 'BaseStats(atk=' + this.b2e_1 + ', def=' + this.c2e_1 + ', sta=' + this.d2e_1 + ')';
+  return 'BaseStats(atk=' + this.x2e_1 + ', def=' + this.y2e_1 + ', sta=' + this.z2e_1 + ')';
 };
 protoOf(BaseStats).hashCode = function () {
-  var result = this.b2e_1;
-  result = imul(result, 31) + this.c2e_1 | 0;
-  result = imul(result, 31) + this.d2e_1 | 0;
+  var result = this.x2e_1;
+  result = imul(result, 31) + this.y2e_1 | 0;
+  result = imul(result, 31) + this.z2e_1 | 0;
   return result;
 };
 protoOf(BaseStats).equals = function (other) {
@@ -21127,20 +21426,20 @@ protoOf(BaseStats).equals = function (other) {
     return true;
   if (!(other instanceof BaseStats))
     return false;
-  if (!(this.b2e_1 === other.b2e_1))
+  if (!(this.x2e_1 === other.x2e_1))
     return false;
-  if (!(this.c2e_1 === other.c2e_1))
+  if (!(this.y2e_1 === other.y2e_1))
     return false;
-  if (!(this.d2e_1 === other.d2e_1))
+  if (!(this.z2e_1 === other.z2e_1))
     return false;
   return true;
 };
 function Formulas() {
 }
 protoOf(Formulas).d1h = function (base, iv, cpm) {
-  var a = base.b2e_1 + iv.x1j_1 | 0;
-  var d = base.c2e_1 + iv.y1j_1 | 0;
-  var s = base.d2e_1 + iv.z1j_1 | 0;
+  var a = base.x2e_1 + iv.x1j_1 | 0;
+  var d = base.y2e_1 + iv.y1j_1 | 0;
+  var s = base.z2e_1 + iv.z1j_1 | 0;
   // Inline function 'kotlin.math.sqrt' call
   var tmp = a * Math.sqrt(d);
   // Inline function 'kotlin.math.sqrt' call
@@ -21153,14 +21452,14 @@ protoOf(Formulas).d1h = function (base, iv, cpm) {
 };
 protoOf(Formulas).p1n = function (base, iv, cpm) {
   // Inline function 'kotlin.math.floor' call
-  var x = (base.d2e_1 + iv.z1j_1 | 0) * cpm;
+  var x = (base.z2e_1 + iv.z1j_1 | 0) * cpm;
   var tmp$ret$0 = Math.floor(x);
   // Inline function 'kotlin.math.max' call
   var b = numberToInt(tmp$ret$0);
   return Math.max(10, b);
 };
-protoOf(Formulas).b2a = function (base, iv, cpm) {
-  return (base.b2e_1 + iv.x1j_1 | 0) * cpm * (base.c2e_1 + iv.y1j_1 | 0) * cpm * this.p1n(base, iv, cpm);
+protoOf(Formulas).x2a = function (base, iv, cpm) {
+  return (base.x2e_1 + iv.x1j_1 | 0) * cpm * (base.y2e_1 + iv.y1j_1 | 0) * cpm * this.p1n(base, iv, cpm);
 };
 var Formulas_instance;
 function Formulas_getInstance() {
@@ -21169,19 +21468,19 @@ function Formulas_getInstance() {
 function TeamReport(league, candidates, metaNames, teams, publishedShare, anchor, anchorUsable) {
   anchor = anchor === VOID ? null : anchor;
   anchorUsable = anchorUsable === VOID ? true : anchorUsable;
-  this.e2e_1 = league;
-  this.f2e_1 = candidates;
-  this.g2e_1 = metaNames;
-  this.h2e_1 = teams;
-  this.i2e_1 = publishedShare;
-  this.j2e_1 = anchor;
-  this.k2e_1 = anchorUsable;
+  this.a2f_1 = league;
+  this.b2f_1 = candidates;
+  this.c2f_1 = metaNames;
+  this.d2f_1 = teams;
+  this.e2f_1 = publishedShare;
+  this.f2f_1 = anchor;
+  this.g2f_1 = anchorUsable;
 }
 function MetaFoe(name, species, entry, combatant) {
-  this.l2e_1 = name;
-  this.m2e_1 = species;
-  this.n2e_1 = entry;
-  this.o2e_1 = combatant;
+  this.h2f_1 = name;
+  this.i2f_1 = species;
+  this.j2f_1 = entry;
+  this.k2f_1 = combatant;
 }
 function lineup($this, trio) {
   var order = listOf([TeamRole_LEAD_getInstance(), TeamRole_SWITCH_getInstance(), TeamRole_CLOSER_getInstance()]);
@@ -21217,7 +21516,7 @@ function lineup($this, trio) {
         var _iterator__ex2g4s_0 = order.i();
         while (_iterator__ex2g4s_0.j()) {
           var element_0 = _iterator__ex2g4s_0.k();
-          if (element.v2e_1.h1y(element_0) == null) {
+          if (element.r2f_1.i1y(element_0) == null) {
             tmp$ret$2 = true;
             break $l$block_1;
           }
@@ -21257,7 +21556,7 @@ function lineup($this, trio) {
         inductionVariable = inductionVariable + 1 | 0;
         var tmp_1 = sum;
         var it = element_1;
-        sum = tmp_1 + ensureNotNull(trio.r(p.r(it)).v2e_1.h1y(order.r(it)));
+        sum = tmp_1 + ensureNotNull(trio.r(p.r(it)).r2f_1.i1y(order.r(it)));
       }
        while (!(element_1 === last));
     var maxValue = sum;
@@ -21274,7 +21573,7 @@ function lineup($this, trio) {
           inductionVariable_0 = inductionVariable_0 + 1 | 0;
           var tmp_2 = sum_0;
           var it_0 = element_2;
-          sum_0 = tmp_2 + ensureNotNull(trio.r(e.r(it_0)).v2e_1.h1y(order.r(it_0)));
+          sum_0 = tmp_2 + ensureNotNull(trio.r(e.r(it_0)).r2f_1.i1y(order.r(it_0)));
         }
          while (!(element_2 === last_0));
       var v = sum_0;
@@ -21298,7 +21597,7 @@ function lineup($this, trio) {
       inductionVariable_1 = inductionVariable_1 + 1 | 0;
       var tmp_3 = sum_1;
       var it_1 = element_3;
-      sum_1 = tmp_3 + ensureNotNull(trio.r(best.r(it_1)).v2e_1.h1y(order.r(it_1)));
+      sum_1 = tmp_3 + ensureNotNull(trio.r(best.r(it_1)).r2f_1.i1y(order.r(it_1)));
     }
      while (!(element_3 === last_1));
   var sum_2 = sum_1;
@@ -21319,7 +21618,7 @@ function lineup($this, trio) {
 }
 function sharedWeaknesses($this, members) {
   // Inline function 'kotlin.collections.map' call
-  var this_0 = $this.a2f_1.c1g_1.d2();
+  var this_0 = $this.w2f_1.c1g_1.d2();
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(this_0, 10));
   var _iterator__ex2g4s = this_0.i();
@@ -21342,7 +21641,7 @@ function sharedWeaknesses($this, members) {
       var _iterator__ex2g4s_0 = members.i();
       while (_iterator__ex2g4s_0.j()) {
         var element = _iterator__ex2g4s_0.k();
-        if (TypeChart_getInstance().n1j(item, element.q2e_1.h1f_1) > 1.0) {
+        if (TypeChart_getInstance().n1j(item, element.m2f_1.h1f_1) > 1.0) {
           count = count + 1 | 0;
           checkCountOverflow(count);
         }
@@ -21365,7 +21664,7 @@ function sharedWeaknesses($this, members) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_0 = TeamBuilder$sharedWeaknesses$lambda;
-  var tmp$ret$9 = new sam$kotlin_Comparator$0_26(tmp_0);
+  var tmp$ret$9 = new sam$kotlin_Comparator$0_27(tmp_0);
   return sortedWith(destination_0, tmp$ret$9);
 }
 function meta($this, league, size, list) {
@@ -21376,7 +21675,7 @@ function meta($this, league, size, list) {
     if (out.l() >= size)
       break $l$loop_2;
     var shadow = endsWith(entry.r1i_1, '_shadow');
-    var tmp0_elvis_lhs = $this.a2f_1.k1g().c2(removeSuffix(entry.r1i_1, '_shadow'));
+    var tmp0_elvis_lhs = $this.w2f_1.k1g().c2(removeSuffix(entry.r1i_1, '_shadow'));
     var tmp;
     if (tmp0_elvis_lhs == null) {
       continue $l$loop_2;
@@ -21384,7 +21683,7 @@ function meta($this, league, size, list) {
       tmp = tmp0_elvis_lhs;
     }
     var species = tmp;
-    var tmp1_elvis_lhs = $this.b2f_1.e1i(species, league);
+    var tmp1_elvis_lhs = $this.x2f_1.e1i(species, league);
     var tmp_0;
     if (tmp1_elvis_lhs == null) {
       continue $l$loop_2;
@@ -21408,7 +21707,7 @@ function candidate($this, o, league, index, exclude, minPercent, best, chosen, c
   chosen = chosen === VOID ? false : chosen;
   chosenUids = chosenUids === VOID ? HashSet_init_$Create$() : chosenUids;
   maxRank = maxRank === VOID ? 0 : maxRank;
-  var tmp0_elvis_lhs = $this.a2f_1.k1g().c2(o.d2f_1);
+  var tmp0_elvis_lhs = $this.w2f_1.k1g().c2(o.z2f_1);
   var tmp;
   if (tmp0_elvis_lhs == null) {
     return Unit_instance;
@@ -21416,12 +21715,12 @@ function candidate($this, o, league, index, exclude, minPercent, best, chosen, c
     tmp = tmp0_elvis_lhs;
   }
   var species = tmp;
-  var shadow = o.g2f_1.equals(Variant_SHADOW_getInstance());
+  var shadow = o.c2g_1.equals(Variant_SHADOW_getInstance());
   // Inline function 'kotlin.run' call
-  var _iterator__ex2g4s = $this.b2f_1.e1h(species, o.g2f_1).i();
+  var _iterator__ex2g4s = $this.x2f_1.e1h(species, o.c2g_1).i();
   $l$loop_6: while (_iterator__ex2g4s.j()) {
     var path = _iterator__ex2g4s.k();
-    var tmp0_elvis_lhs_0 = $this.b2f_1.w1h(path.h1h_1, o.e2f_1, league);
+    var tmp0_elvis_lhs_0 = $this.x2f_1.w1h(path.h1h_1, o.a2g_1, league);
     var tmp_0;
     if (tmp0_elvis_lhs_0 == null) {
       continue $l$loop_6;
@@ -21436,10 +21735,10 @@ function candidate($this, o, league, index, exclude, minPercent, best, chosen, c
     if (league.t1e(pvp.m1e_1))
       continue $l$loop_6;
     var tmp_1;
-    if (pvp.l1e_1 >= o.f2f_1) {
+    if (pvp.l1e_1 >= o.b2g_1) {
       tmp_1 = pvp.l1e_1;
     } else if (league.equals(League_MASTER_getInstance())) {
-      tmp_1 = o.f2f_1;
+      tmp_1 = o.b2g_1;
     } else {
       continue $l$loop_6;
     }
@@ -21453,7 +21752,7 @@ function candidate($this, o, league, index, exclude, minPercent, best, chosen, c
       tmp_2 = tmp2_elvis_lhs;
     }
     var rank = tmp_2;
-    var tmp3_elvis_lhs = combatant($this, path.h1h_1, o.e2f_1, level, shadow, rank.l9_1);
+    var tmp3_elvis_lhs = combatant($this, path.h1h_1, o.a2g_1, level, shadow, rank.l9_1);
     var tmp_3;
     if (tmp3_elvis_lhs == null) {
       continue $l$loop_6;
@@ -21461,19 +21760,19 @@ function candidate($this, o, league, index, exclude, minPercent, best, chosen, c
       tmp_3 = tmp3_elvis_lhs;
     }
     var combatant_0 = tmp_3;
-    var cost = $this.a2f_1.h1i().l1i(o.f2f_1, level, o.g2f_1).p1i(new Cost(VOID, path.i1h_1));
+    var cost = $this.w2f_1.h1i().l1i(o.b2g_1, level, o.c2g_1).p1i(new Cost(VOID, path.i1h_1));
     var candidate = new TeamCandidate(o, path.h1h_1, level, pvp.m1e_1, cost, rank.k9_1, rank.l9_1, combatant_0, pvp.o1e_1, pvp.p1e_1);
     if (!chosen && exclude(candidate))
       continue $l$loop_6;
     var key = path.h1h_1.a1f_1 + (shadow ? '_shadow' : '');
     var old = best.c2(key);
-    if (old == null || chosen || (pvp.n1e_1 > old.k9_1 && !chosenUids.t(old.l9_1.p2e_1.c2f_1))) {
+    if (old == null || chosen || (pvp.n1e_1 > old.k9_1 && !chosenUids.t(old.l9_1.l2f_1.y2f_1))) {
       // Inline function 'kotlin.collections.set' call
       var value = to(pvp.n1e_1, candidate);
       best.f2(key, value);
       if (chosen) {
         // Inline function 'kotlin.collections.plusAssign' call
-        var element = candidate.p2e_1.c2f_1;
+        var element = candidate.l2f_1.y2f_1;
         chosenUids.h(element);
       }
     }
@@ -21486,7 +21785,7 @@ function combatant($this, species, iv, level, shadow, entry) {
     tmp = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp = $this.a2f_1.c1v().c2(tmp0_safe_receiver);
+    tmp = $this.w2f_1.c1v().c2(tmp0_safe_receiver);
   }
   var tmp1_elvis_lhs = tmp;
   var tmp_0;
@@ -21504,7 +21803,7 @@ function combatant($this, species, iv, level, shadow, entry) {
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp0_safe_receiver_0 = $this.a2f_1.c1v().c2(element);
+    var tmp0_safe_receiver_0 = $this.w2f_1.c1v().c2(element);
     if (tmp0_safe_receiver_0 == null)
       null;
     else {
@@ -21525,52 +21824,22 @@ function combatant($this, species, iv, level, shadow, entry) {
   var charged = destination_0;
   if (charged.q())
     return null;
-  return new Combatant(species, iv, level, shadow, fast, charged, $this.a2f_1.t1g().c1h(level));
+  return new Combatant(species, iv, level, shadow, fast, charged, $this.w2f_1.t1g().c1h(level));
 }
 function rankKey($this, league) {
   return league.equals(League_MASTER_getInstance()) ? '10000' : league.s1e_1.toString();
 }
-function sam$kotlin_Comparator$0_25(function_0) {
-  this.h2f_1 = function_0;
-}
-protoOf(sam$kotlin_Comparator$0_25).uc = function (a, b) {
-  return this.h2f_1(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_25).compare = function (a, b) {
-  return this.uc(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_25).t2 = function () {
-  return this.h2f_1;
-};
-protoOf(sam$kotlin_Comparator$0_25).equals = function (other) {
-  var tmp;
-  if (!(other == null) ? isInterface(other, Comparator) : false) {
-    var tmp_0;
-    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
-      tmp_0 = equals(this.t2(), other.t2());
-    } else {
-      tmp_0 = false;
-    }
-    tmp = tmp_0;
-  } else {
-    tmp = false;
-  }
-  return tmp;
-};
-protoOf(sam$kotlin_Comparator$0_25).hashCode = function () {
-  return hashCode(this.t2());
-};
 function sam$kotlin_Comparator$0_26(function_0) {
-  this.i2f_1 = function_0;
+  this.d2g_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_26).uc = function (a, b) {
-  return this.i2f_1(a, b);
+  return this.d2g_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_26).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_26).t2 = function () {
-  return this.i2f_1;
+  return this.d2g_1;
 };
 protoOf(sam$kotlin_Comparator$0_26).equals = function (other) {
   var tmp;
@@ -21590,6 +21859,36 @@ protoOf(sam$kotlin_Comparator$0_26).equals = function (other) {
 protoOf(sam$kotlin_Comparator$0_26).hashCode = function () {
   return hashCode(this.t2());
 };
+function sam$kotlin_Comparator$0_27(function_0) {
+  this.e2g_1 = function_0;
+}
+protoOf(sam$kotlin_Comparator$0_27).uc = function (a, b) {
+  return this.e2g_1(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_27).compare = function (a, b) {
+  return this.uc(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_27).t2 = function () {
+  return this.e2g_1;
+};
+protoOf(sam$kotlin_Comparator$0_27).equals = function (other) {
+  var tmp;
+  if (!(other == null) ? isInterface(other, Comparator) : false) {
+    var tmp_0;
+    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
+      tmp_0 = equals(this.t2(), other.t2());
+    } else {
+      tmp_0 = false;
+    }
+    tmp = tmp_0;
+  } else {
+    tmp = false;
+  }
+  return tmp;
+};
+protoOf(sam$kotlin_Comparator$0_27).hashCode = function () {
+  return hashCode(this.t2());
+};
 function TeamBuilder$build$lambda(it) {
   return false;
 }
@@ -21604,8 +21903,8 @@ function TeamBuilder$build$lambda_1($progress) {
 }
 function TeamBuilder$build$lambda_2(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = a.u2e_1;
-  var tmp$ret$2 = b.u2e_1;
+  var tmp = a.q2f_1;
+  var tmp$ret$2 = b.q2f_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function TeamBuilder$build$lambda_3(a, b) {
@@ -21616,13 +21915,13 @@ function TeamBuilder$build$lambda_3(a, b) {
 }
 function TeamBuilder$build$lambda_4(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.k2f_1;
-  var tmp$ret$2 = a.k2f_1;
+  var tmp = b.g2g_1;
+  var tmp$ret$2 = a.g2g_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function TeamBuilder$lackingRule$lambda($families, this$0) {
   return function (c) {
-    return c.t2f() && $families.t(this$0.b2f_1.f1h(c.p2e_1.d2f_1));
+    return c.p2g() && $families.t(this$0.x2f_1.f1h(c.l2f_1.z2f_1));
   };
 }
 function TeamBuilder$sharedWeaknesses$lambda(a, b) {
@@ -21635,18 +21934,18 @@ function TeamBuilder$theoretical$lambda(it) {
   return Unit_instance;
 }
 function TeamBuilder(data, analyzer) {
-  this.a2f_1 = data;
-  this.b2f_1 = analyzer;
+  this.w2f_1 = data;
+  this.x2f_1 = analyzer;
 }
-protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress) {
+protoOf(TeamBuilder).q2g = function (owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress) {
   progress(0.0);
   var meta_0 = meta(this, league, metaSize, ranking);
   progress(0.1);
-  var all = this.v2f(owned, league, ranking, exclude, minPercent, anchor, maxRank, TeamBuilder$build$lambda_1(progress));
+  var all = this.r2g(owned, league, ranking, exclude, minPercent, anchor, maxRank, TeamBuilder$build$lambda_1(progress));
   // Inline function 'kotlin.collections.sortedBy' call
   // Inline function 'kotlin.comparisons.compareBy' call
   var tmp = TeamBuilder$build$lambda_2;
-  var tmp$ret$2 = new sam$kotlin_Comparator$0_25(tmp);
+  var tmp$ret$2 = new sam$kotlin_Comparator$0_26(tmp);
   var tmp$ret$1 = sortedWith(all, tmp$ret$2);
   var tmp_0 = take_0(tmp$ret$1, maxCandidates);
   // Inline function 'kotlin.collections.filter' call
@@ -21655,7 +21954,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
   var _iterator__ex2g4s = all.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (element.p2e_1.c2f_1.equals(anchor)) {
+    if (element.l2f_1.y2f_1.equals(anchor)) {
       destination.h(element);
     }
   }
@@ -21680,7 +21979,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
       var _iterator__ex2g4s_0 = candidates.i();
       while (_iterator__ex2g4s_0.j()) {
         var element_0 = _iterator__ex2g4s_0.k();
-        if (element_0.p2e_1.c2f_1.equals(anchor)) {
+        if (element_0.l2f_1.y2f_1.equals(anchor)) {
           tmp$ret$6 = true;
           break $l$block_0;
         }
@@ -21707,10 +22006,10 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
     while (tmp_3 < tmp_4) {
       var tmp_6 = tmp_3;
       var foe = meta_0.r(tmp_6);
-      var tmp0_elvis_lhs = item.v2e_1.m1y(foe.n2e_1.r1i_1);
+      var tmp0_elvis_lhs = item.r2f_1.n1y(foe.j2f_1.r1i_1);
       var tmp_7;
       if (tmp0_elvis_lhs == null) {
-        var tmp1_safe_receiver = foe.n2e_1.m1y(item.v2e_1.r1i_1);
+        var tmp1_safe_receiver = foe.j2f_1.n1y(item.r2f_1.r1i_1);
         var tmp_8;
         if (tmp1_safe_receiver == null) {
           tmp_8 = null;
@@ -21739,7 +22038,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
             inductionVariable = inductionVariable + 1 | 0;
             var tmp_10 = sum_0;
             var it = element_1;
-            sum_0 = tmp_10 + Battle_instance.v1k(item.w2e_1, foe.o2e_1, it);
+            sum_0 = tmp_10 + Battle_instance.v1k(item.s2f_1, foe.k2f_1, it);
           }
            while (!(element_1 === last));
         tmp_9 = sum_0 / 3.0;
@@ -21783,7 +22082,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
         sum_1 = tmp_16 + ratings.r(i)[it_0] * weights[it_0];
       }
        while (!(element_2 === last_0));
-    tmp_15.z2e_1 = sum_1 / weightSum;
+    tmp_15.v2f_1 = sum_1 / weightSum;
   }
   progress(0.9);
   var teams = ArrayList_init_$Create$_0();
@@ -21844,7 +22143,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_6 = members.i();
               while (_iterator__ex2g4s_6.j()) {
                 var item_4 = _iterator__ex2g4s_6.k();
-                var tmp$ret$32 = item_4.q2e_1.b1f_1;
+                var tmp$ret$32 = item_4.m2f_1.b1f_1;
                 destination_4.h(tmp$ret$32);
               }
               if (distinct(destination_4).l() < 3)
@@ -21855,7 +22154,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_7 = members.i();
               while (_iterator__ex2g4s_7.j()) {
                 var item_5 = _iterator__ex2g4s_7.k();
-                var tmp$ret$35 = item_5.p2e_1.c2f_1;
+                var tmp$ret$35 = item_5.l2f_1.y2f_1;
                 destination_5.h(tmp$ret$35);
               }
               if (distinct(destination_5).l() < 3)
@@ -21878,7 +22177,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
                   var _iterator__ex2g4s_8 = members.i();
                   while (_iterator__ex2g4s_8.j()) {
                     var element_3 = _iterator__ex2g4s_8.k();
-                    if (element_3.p2e_1.c2f_1.equals(anchor)) {
+                    if (element_3.l2f_1.y2f_1.equals(anchor)) {
                       tmp$ret$36 = false;
                       break $l$block_2;
                     }
@@ -21919,7 +22218,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
               // Inline function 'kotlin.collections.sortedByDescending' call
               // Inline function 'kotlin.comparisons.compareByDescending' call
               var tmp_19 = TeamBuilder$build$lambda_3;
-              var tmp$ret$42 = new sam$kotlin_Comparator$0_25(tmp_19);
+              var tmp$ret$42 = new sam$kotlin_Comparator$0_26(tmp_19);
               // Inline function 'kotlin.collections.map' call
               var this_1 = sortedWith(threats, tmp$ret$42);
               // Inline function 'kotlin.collections.mapTo' call
@@ -21938,7 +22237,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_11 = members.i();
               while (_iterator__ex2g4s_11.j()) {
                 var item_8 = _iterator__ex2g4s_11.k();
-                var tmp$ret$48 = item_8.v2e_1.s1i_1;
+                var tmp$ret$48 = item_8.r2f_1.s1i_1;
                 destination_8.h(tmp$ret$48);
               }
               var pvpoke = average(destination_8);
@@ -21976,7 +22275,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_14 = sortedThreats.i();
               while (_iterator__ex2g4s_14.j()) {
                 var item_10 = _iterator__ex2g4s_14.k();
-                var tmp$ret$56 = item_10.l2e_1;
+                var tmp$ret$56 = item_10.h2f_1;
                 destination_10.h(tmp$ret$56);
               }
               // Inline function 'kotlin.collections.map' call
@@ -21985,7 +22284,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_15 = weak.i();
               while (_iterator__ex2g4s_15.j()) {
                 var item_11 = _iterator__ex2g4s_15.k();
-                var tmp0_elvis_lhs_0 = this.a2f_1.c1g_1.c2(item_11.k9_1);
+                var tmp0_elvis_lhs_0 = this.w2f_1.c1g_1.c2(item_11.k9_1);
                 var tmp$ret$59 = tmp0_elvis_lhs_0 == null ? item_11.k9_1 : tmp0_elvis_lhs_0;
                 destination_11.h(tmp$ret$59);
               }
@@ -21995,7 +22294,7 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
               var _iterator__ex2g4s_16 = sortedThreats.i();
               while (_iterator__ex2g4s_16.j()) {
                 var item_12 = _iterator__ex2g4s_16.k();
-                var tmp$ret$62 = item_12.m2e_1;
+                var tmp$ret$62 = item_12.i2f_1;
                 destination_12.h(tmp$ret$62);
               }
               // Inline function 'kotlin.collections.map' call
@@ -22022,22 +22321,22 @@ protoOf(TeamBuilder).u2f = function (owned, league, ranking, metaSize, maxCandid
   var _iterator__ex2g4s_18 = meta_0.i();
   while (_iterator__ex2g4s_18.j()) {
     var item_14 = _iterator__ex2g4s_18.k();
-    var tmp$ret$68 = item_14.l2e_1;
+    var tmp$ret$68 = item_14.h2f_1;
     destination_14.h(tmp$ret$68);
   }
   var tmp_22 = destination_14;
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_23 = TeamBuilder$build$lambda_4;
-  var tmp$ret$70 = new sam$kotlin_Comparator$0_25(tmp_23);
+  var tmp$ret$70 = new sam$kotlin_Comparator$0_26(tmp_23);
   var tmp$ret$69 = sortedWith(teams, tmp$ret$70);
   return new TeamReport(league, candidates, tmp_22, take_0(tmp$ret$69, top), pairs === 0 ? 0.0 : published._v / pairs, anchor, anchorUsable);
 };
-protoOf(TeamBuilder).w2f = function (owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress, $super) {
+protoOf(TeamBuilder).s2g = function (owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress, $super) {
   var tmp;
   if (ranking === VOID) {
     // Inline function 'kotlin.collections.orEmpty' call
-    var tmp0_elvis_lhs = this.a2f_1.d1g_1.c2(rankKey(this, league));
+    var tmp0_elvis_lhs = this.w2f_1.d1g_1.c2(rankKey(this, league));
     tmp = tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
   } else {
     tmp = ranking;
@@ -22063,9 +22362,9 @@ protoOf(TeamBuilder).w2f = function (owned, league, ranking, metaSize, maxCandid
     tmp_1 = progress;
   }
   progress = tmp_1;
-  return $super === VOID ? this.u2f(owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress) : $super.u2f.call(this, owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress);
+  return $super === VOID ? this.q2g(owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress) : $super.q2g.call(this, owned, league, ranking, metaSize, maxCandidates, top, exclude, minPercent, maxRank, anchor, progress);
 };
-protoOf(TeamBuilder).x2f = function (saved, league) {
+protoOf(TeamBuilder).t2g = function (saved, league) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
@@ -22082,16 +22381,16 @@ protoOf(TeamBuilder).x2f = function (saved, league) {
   var _iterator__ex2g4s_0 = destination.i();
   while (_iterator__ex2g4s_0.j()) {
     var item = _iterator__ex2g4s_0.k();
-    var tmp$ret$5 = this.b2f_1.f1h(item.o1l_1);
+    var tmp$ret$5 = this.x2f_1.f1h(item.o1l_1);
     destination_0.h(tmp$ret$5);
   }
   return toSet(destination_0);
 };
-protoOf(TeamBuilder).y2f = function (saved, league) {
-  var families = this.x2f(saved, league);
+protoOf(TeamBuilder).u2g = function (saved, league) {
+  var families = this.t2g(saved, league);
   return TeamBuilder$lackingRule$lambda(families, this);
 };
-protoOf(TeamBuilder).v2f = function (owned, league, ranking, exclude, minPercent, anchor, maxRank, progress) {
+protoOf(TeamBuilder).r2g = function (owned, league, ranking, exclude, minPercent, anchor, maxRank, progress) {
   var index = HashMap_init_$Create$();
   // Inline function 'kotlin.collections.forEachIndexed' call
   var index_0 = 0;
@@ -22116,7 +22415,7 @@ protoOf(TeamBuilder).v2f = function (owned, league, ranking, exclude, minPercent
     var _unary__edvuaz_0 = index_1;
     index_1 = _unary__edvuaz_0 + 1 | 0;
     progress(checkIndexOverflow(_unary__edvuaz_0) / owned.l());
-    candidate(this, item_0, league, index, exclude, minPercent, best, item_0.c2f_1.equals(anchor), chosenUids, maxRank);
+    candidate(this, item_0, league, index, exclude, minPercent, best, item_0.y2f_1.equals(anchor), chosenUids, maxRank);
   }
   // Inline function 'kotlin.collections.map' call
   var this_0 = best.e2();
@@ -22130,7 +22429,7 @@ protoOf(TeamBuilder).v2f = function (owned, league, ranking, exclude, minPercent
   }
   return destination;
 };
-protoOf(TeamBuilder).z2f = function (league, ranking, size, top, progress) {
+protoOf(TeamBuilder).v2g = function (league, ranking, size, top, progress) {
   // Inline function 'kotlin.collections.mapIndexedNotNull' call
   var tmp0 = take_0(ranking, size);
   // Inline function 'kotlin.collections.mapIndexedNotNullTo' call
@@ -22146,7 +22445,7 @@ protoOf(TeamBuilder).z2f = function (league, ranking, size, top, progress) {
     var tmp$ret$5;
     $l$block_0: {
       var shadow = endsWith(item.r1i_1, '_shadow');
-      var tmp0_elvis_lhs = this.a2f_1.k1g().c2(removeSuffix(item.r1i_1, '_shadow'));
+      var tmp0_elvis_lhs = this.w2f_1.k1g().c2(removeSuffix(item.r1i_1, '_shadow'));
       var tmp;
       if (tmp0_elvis_lhs == null) {
         tmp$ret$5 = null;
@@ -22155,7 +22454,7 @@ protoOf(TeamBuilder).z2f = function (league, ranking, size, top, progress) {
         tmp = tmp0_elvis_lhs;
       }
       var species = tmp;
-      var tmp1_elvis_lhs = this.b2f_1.e1i(species, league);
+      var tmp1_elvis_lhs = this.x2f_1.e1i(species, league);
       var tmp_0;
       if (tmp1_elvis_lhs == null) {
         tmp$ret$5 = null;
@@ -22175,13 +22474,13 @@ protoOf(TeamBuilder).z2f = function (league, ranking, size, top, progress) {
     }
   }
   var owned = destination;
-  return this.w2f(owned, league, ranking, VOID, size, top, VOID, VOID, VOID, VOID, progress);
+  return this.s2g(owned, league, ranking, VOID, size, top, VOID, VOID, VOID, VOID, progress);
 };
-protoOf(TeamBuilder).a2g = function (league, ranking, size, top, progress, $super) {
+protoOf(TeamBuilder).w2g = function (league, ranking, size, top, progress, $super) {
   var tmp;
   if (ranking === VOID) {
     // Inline function 'kotlin.collections.orEmpty' call
-    var tmp0_elvis_lhs = this.a2f_1.d1g_1.c2(rankKey(this, league));
+    var tmp0_elvis_lhs = this.w2f_1.d1g_1.c2(rankKey(this, league));
     tmp = tmp0_elvis_lhs == null ? emptyList() : tmp0_elvis_lhs;
   } else {
     tmp = ranking;
@@ -22196,61 +22495,61 @@ protoOf(TeamBuilder).a2g = function (league, ranking, size, top, progress, $supe
     tmp_0 = progress;
   }
   progress = tmp_0;
-  return $super === VOID ? this.z2f(league, ranking, size, top, progress) : $super.z2f.call(this, league, ranking, size, top, progress);
+  return $super === VOID ? this.v2g(league, ranking, size, top, progress) : $super.v2g.call(this, league, ranking, size, top, progress);
 };
 function Team_0(members, score, coverage, pvpokeScore, threats, sharedWeaknesses, threatSpecies, sharedWeaknessTypes, roles, roleScore) {
   threatSpecies = threatSpecies === VOID ? emptyList() : threatSpecies;
   sharedWeaknessTypes = sharedWeaknessTypes === VOID ? emptyList() : sharedWeaknessTypes;
   roles = roles === VOID ? emptyList() : roles;
   roleScore = roleScore === VOID ? pvpokeScore : roleScore;
-  this.j2f_1 = members;
-  this.k2f_1 = score;
-  this.l2f_1 = coverage;
-  this.m2f_1 = pvpokeScore;
-  this.n2f_1 = threats;
-  this.o2f_1 = sharedWeaknesses;
-  this.p2f_1 = threatSpecies;
-  this.q2f_1 = sharedWeaknessTypes;
-  this.r2f_1 = roles;
-  this.s2f_1 = roleScore;
+  this.f2g_1 = members;
+  this.g2g_1 = score;
+  this.h2g_1 = coverage;
+  this.i2g_1 = pvpokeScore;
+  this.j2g_1 = threats;
+  this.k2g_1 = sharedWeaknesses;
+  this.l2g_1 = threatSpecies;
+  this.m2g_1 = sharedWeaknessTypes;
+  this.n2g_1 = roles;
+  this.o2g_1 = roleScore;
 }
-protoOf(Team_0).b2g = function () {
-  var tmp0 = this.j2f_1;
+protoOf(Team_0).x2g = function () {
+  var tmp0 = this.f2g_1;
   // Inline function 'kotlin.collections.fold' call
   var accumulator = new Cost();
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    accumulator = accumulator.p1i(element.t2e_1);
+    accumulator = accumulator.p1i(element.p2f_1);
   }
   return accumulator;
 };
 function TeamCandidate(owned, target, level, cp, cost, metaRank, entry, combatant, ivRank, ivPercent) {
   ivRank = ivRank === VOID ? 0 : ivRank;
   ivPercent = ivPercent === VOID ? 0.0 : ivPercent;
-  this.p2e_1 = owned;
-  this.q2e_1 = target;
-  this.r2e_1 = level;
-  this.s2e_1 = cp;
-  this.t2e_1 = cost;
-  this.u2e_1 = metaRank;
-  this.v2e_1 = entry;
-  this.w2e_1 = combatant;
-  this.x2e_1 = ivRank;
-  this.y2e_1 = ivPercent;
-  this.z2e_1 = 0.0;
+  this.l2f_1 = owned;
+  this.m2f_1 = target;
+  this.n2f_1 = level;
+  this.o2f_1 = cp;
+  this.p2f_1 = cost;
+  this.q2f_1 = metaRank;
+  this.r2f_1 = entry;
+  this.s2f_1 = combatant;
+  this.t2f_1 = ivRank;
+  this.u2f_1 = ivPercent;
+  this.v2f_1 = 0.0;
 }
-protoOf(TeamCandidate).c2g = function () {
-  return this.p2e_1.g2f_1.equals(Variant_SHADOW_getInstance());
+protoOf(TeamCandidate).y2g = function () {
+  return this.l2f_1.c2g_1.equals(Variant_SHADOW_getInstance());
 };
-protoOf(TeamCandidate).t2f = function () {
-  return this.t2e_1.n1i_1 > 0 || this.t2e_1.o1i_1 > 0;
+protoOf(TeamCandidate).p2g = function () {
+  return this.p2f_1.n1i_1 > 0 || this.p2f_1.o1i_1 > 0;
 };
-protoOf(TeamCandidate).d2g = function () {
-  var fast = this.w2e_1.s1j_1;
+protoOf(TeamCandidate).z2g = function () {
+  var fast = this.s2f_1.s1j_1;
   if (fast.g1k_1 <= 0)
     return null;
-  var tmp0 = this.w2e_1.t1j_1;
+  var tmp0 = this.s2f_1.t1j_1;
   var tmp$ret$0;
   $l$block_0: {
     // Inline function 'kotlin.collections.minByOrNull' call
@@ -22287,21 +22586,21 @@ protoOf(TeamCandidate).d2g = function () {
   return to(move, ((move.f1k_1 + fast.g1k_1 | 0) - 1 | 0) / fast.g1k_1 | 0);
 };
 function Owned(uid, speciesId, iv, level, variant) {
-  this.c2f_1 = uid;
-  this.d2f_1 = speciesId;
-  this.e2f_1 = iv;
-  this.f2f_1 = level;
-  this.g2f_1 = variant;
+  this.y2f_1 = uid;
+  this.z2f_1 = speciesId;
+  this.a2g_1 = iv;
+  this.b2g_1 = level;
+  this.c2g_1 = variant;
 }
 protoOf(Owned).toString = function () {
-  return 'Owned(uid=' + this.c2f_1.toString() + ', speciesId=' + this.d2f_1 + ', iv=' + this.e2f_1.toString() + ', level=' + this.f2f_1 + ', variant=' + this.g2f_1.toString() + ')';
+  return 'Owned(uid=' + this.y2f_1.toString() + ', speciesId=' + this.z2f_1 + ', iv=' + this.a2g_1.toString() + ', level=' + this.b2g_1 + ', variant=' + this.c2g_1.toString() + ')';
 };
 protoOf(Owned).hashCode = function () {
-  var result = this.c2f_1.hashCode();
-  result = imul(result, 31) + getStringHashCode(this.d2f_1) | 0;
-  result = imul(result, 31) + this.e2f_1.hashCode() | 0;
-  result = imul(result, 31) + getNumberHashCode(this.f2f_1) | 0;
-  result = imul(result, 31) + this.g2f_1.hashCode() | 0;
+  var result = this.y2f_1.hashCode();
+  result = imul(result, 31) + getStringHashCode(this.z2f_1) | 0;
+  result = imul(result, 31) + this.a2g_1.hashCode() | 0;
+  result = imul(result, 31) + getNumberHashCode(this.b2g_1) | 0;
+  result = imul(result, 31) + this.c2g_1.hashCode() | 0;
   return result;
 };
 protoOf(Owned).equals = function (other) {
@@ -22309,23 +22608,23 @@ protoOf(Owned).equals = function (other) {
     return true;
   if (!(other instanceof Owned))
     return false;
-  if (!equalsLong(this.c2f_1, other.c2f_1))
+  if (!equalsLong(this.y2f_1, other.y2f_1))
     return false;
-  if (!(this.d2f_1 === other.d2f_1))
+  if (!(this.z2f_1 === other.z2f_1))
     return false;
-  if (!this.e2f_1.equals(other.e2f_1))
+  if (!this.a2g_1.equals(other.a2g_1))
     return false;
-  if (!equals(this.f2f_1, other.f2f_1))
+  if (!equals(this.b2g_1, other.b2g_1))
     return false;
-  if (!this.g2f_1.equals(other.g2f_1))
+  if (!this.c2g_1.equals(other.c2g_1))
     return false;
   return true;
 };
-var static_init_called_18;
-function static_init_18() {
-  if (static_init_called_18)
+var static_init_called_19;
+function static_init_19() {
+  if (static_init_called_19)
     return Unit_instance;
-  static_init_called_18 = true;
+  static_init_called_19 = true;
   TeamRole_LEAD_instance = new TeamRole('LEAD', 0, 'Starter', 0);
   TeamRole_SWITCH_instance = new TeamRole('SWITCH', 1, 'Wechsler', 2);
   TeamRole_CLOSER_instance = new TeamRole('CLOSER', 2, 'Abschluss', 1);
@@ -22335,26 +22634,26 @@ var TeamRole_SWITCH_instance;
 var TeamRole_CLOSER_instance;
 function TeamRole(name, ordinal, label, pvpokeIndex) {
   Enum.call(this, name, ordinal);
-  this.k1y_1 = label;
-  this.l1y_1 = pvpokeIndex;
+  this.l1y_1 = label;
+  this.m1y_1 = pvpokeIndex;
 }
 function TeamRole_LEAD_getInstance() {
-  static_init_18();
+  static_init_19();
   return TeamRole_LEAD_instance;
 }
 function TeamRole_SWITCH_getInstance() {
-  static_init_18();
+  static_init_19();
   return TeamRole_SWITCH_instance;
 }
 function TeamRole_CLOSER_getInstance() {
-  static_init_18();
+  static_init_19();
   return TeamRole_CLOSER_instance;
 }
-var static_init_called_19;
-function static_init_19() {
-  if (static_init_called_19)
+var static_init_called_20;
+function static_init_20() {
+  if (static_init_called_20)
     return Unit_instance;
-  static_init_called_19 = true;
+  static_init_called_20 = true;
   Friendship_GOOD_instance = new Friendship('GOOD', 0, 'Freund', 1);
   Friendship_GREAT_instance = new Friendship('GREAT', 1, 'Guter Freund', 2);
   Friendship_ULTRA_instance = new Friendship('ULTRA', 2, 'Super-Freund', 3);
@@ -22367,11 +22666,11 @@ var Friendship_ULTRA_instance;
 var Friendship_BEST_instance;
 var Friendship_LUCKY_instance;
 function values_6() {
-  static_init_19();
+  static_init_20();
   return [Friendship_GOOD_getInstance(), Friendship_GREAT_getInstance(), Friendship_ULTRA_getInstance(), Friendship_BEST_getInstance(), Friendship_LUCKY_getInstance()];
 }
 function get_entries_6() {
-  static_init_19();
+  static_init_20();
   if ($ENTRIES_6 == null)
     $ENTRIES_6 = enumEntries(values_6());
   return $ENTRIES_6;
@@ -22379,25 +22678,25 @@ function get_entries_6() {
 var $ENTRIES_6;
 function Friendship(name, ordinal, label, floor) {
   Enum.call(this, name, ordinal);
-  this.g2g_1 = label;
-  this.h2g_1 = floor;
+  this.c2h_1 = label;
+  this.d2h_1 = floor;
 }
 function TradeOdds(betterIv, hundo, betterRank, league, currentRank) {
-  this.i2g_1 = betterIv;
-  this.j2g_1 = hundo;
-  this.k2g_1 = betterRank;
-  this.l2g_1 = league;
-  this.m2g_1 = currentRank;
+  this.e2h_1 = betterIv;
+  this.f2h_1 = hundo;
+  this.g2h_1 = betterRank;
+  this.h2h_1 = league;
+  this.i2h_1 = currentRank;
 }
 protoOf(TradeOdds).toString = function () {
-  return 'TradeOdds(betterIv=' + this.i2g_1 + ', hundo=' + this.j2g_1 + ', betterRank=' + this.k2g_1 + ', league=' + toString(this.l2g_1) + ', currentRank=' + this.m2g_1 + ')';
+  return 'TradeOdds(betterIv=' + this.e2h_1 + ', hundo=' + this.f2h_1 + ', betterRank=' + this.g2h_1 + ', league=' + toString(this.h2h_1) + ', currentRank=' + this.i2h_1 + ')';
 };
 protoOf(TradeOdds).hashCode = function () {
-  var result = getNumberHashCode(this.i2g_1);
-  result = imul(result, 31) + getNumberHashCode(this.j2g_1) | 0;
-  result = imul(result, 31) + (this.k2g_1 == null ? 0 : getNumberHashCode(this.k2g_1)) | 0;
-  result = imul(result, 31) + (this.l2g_1 == null ? 0 : this.l2g_1.hashCode()) | 0;
-  result = imul(result, 31) + (this.m2g_1 == null ? 0 : this.m2g_1) | 0;
+  var result = getNumberHashCode(this.e2h_1);
+  result = imul(result, 31) + getNumberHashCode(this.f2h_1) | 0;
+  result = imul(result, 31) + (this.g2h_1 == null ? 0 : getNumberHashCode(this.g2h_1)) | 0;
+  result = imul(result, 31) + (this.h2h_1 == null ? 0 : this.h2h_1.hashCode()) | 0;
+  result = imul(result, 31) + (this.i2h_1 == null ? 0 : this.i2h_1) | 0;
   return result;
 };
 protoOf(TradeOdds).equals = function (other) {
@@ -22405,42 +22704,42 @@ protoOf(TradeOdds).equals = function (other) {
     return true;
   if (!(other instanceof TradeOdds))
     return false;
-  if (!equals(this.i2g_1, other.i2g_1))
+  if (!equals(this.e2h_1, other.e2h_1))
     return false;
-  if (!equals(this.j2g_1, other.j2g_1))
+  if (!equals(this.f2h_1, other.f2h_1))
     return false;
-  if (!equals(this.k2g_1, other.k2g_1))
+  if (!equals(this.g2h_1, other.g2h_1))
     return false;
-  if (!equals(this.l2g_1, other.l2g_1))
+  if (!equals(this.h2h_1, other.h2h_1))
     return false;
-  if (!(this.m2g_1 == other.m2g_1))
+  if (!(this.i2h_1 == other.i2h_1))
     return false;
   return true;
 };
 function Friendship_GOOD_getInstance() {
-  static_init_19();
+  static_init_20();
   return Friendship_GOOD_instance;
 }
 function Friendship_GREAT_getInstance() {
-  static_init_19();
+  static_init_20();
   return Friendship_GREAT_instance;
 }
 function Friendship_ULTRA_getInstance() {
-  static_init_19();
+  static_init_20();
   return Friendship_ULTRA_instance;
 }
 function Friendship_BEST_getInstance() {
-  static_init_19();
+  static_init_20();
   return Friendship_BEST_instance;
 }
 function Friendship_LUCKY_getInstance() {
-  static_init_19();
+  static_init_20();
   return Friendship_LUCKY_instance;
 }
 function TradeCalc() {
 }
-protoOf(TradeCalc).n2g = function (analyzer, target, iv, f, league, currentRank) {
-  var range = numberRangeToNumber(f.h2g_1, 15);
+protoOf(TradeCalc).j2h = function (analyzer, target, iv, f, league, currentRank) {
+  var range = numberRangeToNumber(f.d2h_1, 15);
   // Inline function 'kotlin.let' call
   var it = count(range);
   var n = imul(imul(it, it), it);
@@ -22487,7 +22786,7 @@ protoOf(TradeCalc).n2g = function (analyzer, target, iv, f, league, currentRank)
      while (!(a === last));
   return new TradeOdds(better / n, hundo / n, !(league == null) && !(currentRank == null) ? rankBetter / n : null, league, currentRank);
 };
-protoOf(TradeCalc).o2g = function (iv) {
+protoOf(TradeCalc).k2h = function (iv) {
   // Inline function 'kotlin.comparisons.minOf' call
   var b = iv.x1j_1 + 2 | 0;
   var tmp = Math.min(15, b);
@@ -22499,7 +22798,7 @@ protoOf(TradeCalc).o2g = function (iv) {
   var tmp$ret$2 = Math.min(15, b_1);
   return new Iv(tmp, tmp_0, tmp$ret$2);
 };
-protoOf(TradeCalc).p2g = function (level) {
+protoOf(TradeCalc).l2h = function (level) {
   // Inline function 'kotlin.comparisons.maxOf' call
   return Math.max(level, 25.0);
 };
@@ -22521,20 +22820,20 @@ function $serializer_15() {
   var tmp0_serialDesc = new PluginGeneratedSerialDescriptor('pogo.core.TrashEntry', this, 2);
   tmp0_serialDesc.rt('pokemon', false);
   tmp0_serialDesc.rt('deletedAt', false);
-  this.q2g_1 = tmp0_serialDesc;
+  this.m2h_1 = tmp0_serialDesc;
 }
-protoOf($serializer_15).r2g = function (encoder, value) {
-  var tmp0_desc = this.q2g_1;
+protoOf($serializer_15).n2h = function (encoder, value) {
+  var tmp0_desc = this.m2h_1;
   var tmp1_output = encoder.kn(tmp0_desc);
-  tmp1_output.bp(tmp0_desc, 0, $serializer_getInstance(), value.s2g_1);
-  tmp1_output.vo(tmp0_desc, 1, value.t2g_1);
+  tmp1_output.bp(tmp0_desc, 0, $serializer_getInstance(), value.o2h_1);
+  tmp1_output.vo(tmp0_desc, 1, value.p2h_1);
   tmp1_output.ln(tmp0_desc);
 };
 protoOf($serializer_15).tk = function (encoder, value) {
-  return this.r2g(encoder, value instanceof TrashEntry ? value : THROW_CCE());
+  return this.n2h(encoder, value instanceof TrashEntry ? value : THROW_CCE());
 };
 protoOf($serializer_15).uk = function (decoder) {
-  var tmp0_desc = this.q2g_1;
+  var tmp0_desc = this.m2h_1;
   var tmp1_flag = true;
   var tmp2_index = 0;
   var tmp3_bitMask0 = 0;
@@ -22569,7 +22868,7 @@ protoOf($serializer_15).uk = function (decoder) {
   return TrashEntry_init_$Create$(tmp3_bitMask0, tmp4_local0, tmp5_local1, null);
 };
 protoOf($serializer_15).sk = function () {
-  return this.q2g_1;
+  return this.m2h_1;
 };
 protoOf($serializer_15).gu = function () {
   // Inline function 'kotlin.arrayOf' call
@@ -22585,25 +22884,25 @@ function $serializer_getInstance_15() {
 }
 function TrashEntry_init_$Init$(seen0, pokemon, deletedAt, serializationConstructorMarker, $this) {
   if (!(3 === (3 & seen0))) {
-    throwMissingFieldException(seen0, 3, $serializer_getInstance_15().q2g_1);
+    throwMissingFieldException(seen0, 3, $serializer_getInstance_15().m2h_1);
   }
-  $this.s2g_1 = pokemon;
-  $this.t2g_1 = deletedAt;
+  $this.o2h_1 = pokemon;
+  $this.p2h_1 = deletedAt;
   return $this;
 }
 function TrashEntry_init_$Create$(seen0, pokemon, deletedAt, serializationConstructorMarker) {
   return TrashEntry_init_$Init$(seen0, pokemon, deletedAt, serializationConstructorMarker, objectCreate(protoOf(TrashEntry)));
 }
 function TrashEntry(pokemon, deletedAt) {
-  this.s2g_1 = pokemon;
-  this.t2g_1 = deletedAt;
+  this.o2h_1 = pokemon;
+  this.p2h_1 = deletedAt;
 }
 protoOf(TrashEntry).toString = function () {
-  return 'TrashEntry(pokemon=' + this.s2g_1.toString() + ', deletedAt=' + this.t2g_1.toString() + ')';
+  return 'TrashEntry(pokemon=' + this.o2h_1.toString() + ', deletedAt=' + this.p2h_1.toString() + ')';
 };
 protoOf(TrashEntry).hashCode = function () {
-  var result = this.s2g_1.hashCode();
-  result = imul(result, 31) + this.t2g_1.hashCode() | 0;
+  var result = this.o2h_1.hashCode();
+  result = imul(result, 31) + this.p2h_1.hashCode() | 0;
   return result;
 };
 protoOf(TrashEntry).equals = function (other) {
@@ -22611,25 +22910,25 @@ protoOf(TrashEntry).equals = function (other) {
     return true;
   if (!(other instanceof TrashEntry))
     return false;
-  if (!this.s2g_1.equals(other.s2g_1))
+  if (!this.o2h_1.equals(other.o2h_1))
     return false;
-  if (!equalsLong(this.t2g_1, other.t2g_1))
+  if (!equalsLong(this.p2h_1, other.p2h_1))
     return false;
   return true;
 };
-function sam$kotlin_Comparator$0_27(function_0) {
-  this.u2g_1 = function_0;
+function sam$kotlin_Comparator$0_28(function_0) {
+  this.q2h_1 = function_0;
 }
-protoOf(sam$kotlin_Comparator$0_27).uc = function (a, b) {
-  return this.u2g_1(a, b);
+protoOf(sam$kotlin_Comparator$0_28).uc = function (a, b) {
+  return this.q2h_1(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_27).compare = function (a, b) {
+protoOf(sam$kotlin_Comparator$0_28).compare = function (a, b) {
   return this.uc(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_27).t2 = function () {
-  return this.u2g_1;
+protoOf(sam$kotlin_Comparator$0_28).t2 = function () {
+  return this.q2h_1;
 };
-protoOf(sam$kotlin_Comparator$0_27).equals = function (other) {
+protoOf(sam$kotlin_Comparator$0_28).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, Comparator) : false) {
     var tmp_0;
@@ -22644,7 +22943,7 @@ protoOf(sam$kotlin_Comparator$0_27).equals = function (other) {
   }
   return tmp;
 };
-protoOf(sam$kotlin_Comparator$0_27).hashCode = function () {
+protoOf(sam$kotlin_Comparator$0_28).hashCode = function () {
   return hashCode(this.t2());
 };
 function Trash$json$lambda($this$Json) {
@@ -22653,27 +22952,27 @@ function Trash$json$lambda($this$Json) {
 }
 function Trash$fresh$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.t2g_1;
-  var tmp$ret$2 = a.t2g_1;
+  var tmp = b.p2h_1;
+  var tmp$ret$2 = a.p2h_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function Trash() {
   Trash_instance = this;
-  this.v2g_1 = 7;
-  this.w2g_1 = new Long(604800000, 0);
+  this.r2h_1 = 7;
+  this.s2h_1 = new Long(604800000, 0);
   var tmp = this;
-  tmp.x2g_1 = Json(VOID, Trash$json$lambda);
-  this.y2g_1 = ListSerializer(Companion_instance_26.e1n());
+  tmp.t2h_1 = Json(VOID, Trash$json$lambda);
+  this.u2h_1 = ListSerializer(Companion_instance_26.e1n());
 }
-protoOf(Trash).z2g = function (entries) {
-  return this.x2g_1.g12(this.y2g_1, entries);
+protoOf(Trash).v2h = function (entries) {
+  return this.t2h_1.g12(this.u2h_1, entries);
 };
 protoOf(Trash).vi = function (text) {
   // Inline function 'kotlin.runCatching' call
   var tmp;
   try {
     // Inline function 'kotlin.Companion.success' call
-    var value = this.x2g_1.h12(this.y2g_1, text);
+    var value = this.t2h_1.h12(this.u2h_1, text);
     tmp = _Result___init__impl__xyqfz8(value);
   } catch ($p) {
     var tmp_0;
@@ -22699,25 +22998,25 @@ protoOf(Trash).vi = function (text) {
   }
   return tmp$ret$4;
 };
-protoOf(Trash).a2h = function (entries, now) {
+protoOf(Trash).w2h = function (entries, now) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = entries.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (compare(subtract(now, element.t2g_1), new Long(604800000, 0)) < 0) {
+    if (compare(subtract(now, element.p2h_1), new Long(604800000, 0)) < 0) {
       destination.h(element);
     }
   }
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp = Trash$fresh$lambda;
-  var tmp$ret$4 = new sam$kotlin_Comparator$0_27(tmp);
+  var tmp$ret$4 = new sam$kotlin_Comparator$0_28(tmp);
   return sortedWith(destination, tmp$ret$4);
 };
-protoOf(Trash).b2h = function (entry, now) {
-  var left = subtract(new Long(604800000, 0), subtract(now, entry.t2g_1));
+protoOf(Trash).x2h = function (entry, now) {
+  var left = subtract(new Long(604800000, 0), subtract(now, entry.p2h_1));
   // Inline function 'kotlin.Long.times' call
   var this_0 = new Long(24, 0);
   // Inline function 'kotlin.Long.times' call
@@ -22737,7 +23036,7 @@ protoOf(Trash).b2h = function (entry, now) {
   var tmp$ret$6 = multiply(this_6, fromInt(1000));
   return coerceAtLeast(convertToInt(divide(tmp, tmp$ret$6)), 1);
 };
-protoOf(Trash).c2h = function (entries, pokemon, now) {
+protoOf(Trash).y2h = function (entries, pokemon, now) {
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(pokemon, 10));
@@ -22755,11 +23054,11 @@ function Trash_getInstance() {
     new Trash();
   return Trash_instance;
 }
-var static_init_called_20;
-function static_init_20() {
-  if (static_init_called_20)
+var static_init_called_21;
+function static_init_21() {
+  if (static_init_called_21)
     return Unit_instance;
-  static_init_called_20 = true;
+  static_init_called_21 = true;
   Area_RAID_instance = new Area('RAID', 0, 'Raids', '\u2694');
   Area_PVP_instance = new Area('PVP', 1, 'PvP', '\uD83C\uDFC6');
   Area_MAX_instance = new Area('MAX', 2, 'Dyna', '\u26A1');
@@ -22768,11 +23067,11 @@ var Area_RAID_instance;
 var Area_PVP_instance;
 var Area_MAX_instance;
 function values_7() {
-  static_init_20();
+  static_init_21();
   return [Area_RAID_getInstance(), Area_PVP_getInstance(), Area_MAX_getInstance()];
 }
 function get_entries_7() {
-  static_init_20();
+  static_init_21();
   if ($ENTRIES_7 == null)
     $ENTRIES_7 = enumEntries(values_7());
   return $ENTRIES_7;
@@ -22780,15 +23079,15 @@ function get_entries_7() {
 var $ENTRIES_7;
 function Level(targetId, level) {
   Done.call(this);
-  this.d2h_1 = targetId;
-  this.e2h_1 = level;
+  this.z2h_1 = targetId;
+  this.a2i_1 = level;
 }
 protoOf(Level).toString = function () {
-  return 'Level(targetId=' + this.d2h_1 + ', level=' + this.e2h_1 + ')';
+  return 'Level(targetId=' + this.z2h_1 + ', level=' + this.a2i_1 + ')';
 };
 protoOf(Level).hashCode = function () {
-  var result = getStringHashCode(this.d2h_1);
-  result = imul(result, 31) + getNumberHashCode(this.e2h_1) | 0;
+  var result = getStringHashCode(this.z2h_1);
+  result = imul(result, 31) + getNumberHashCode(this.a2i_1) | 0;
   return result;
 };
 protoOf(Level).equals = function (other) {
@@ -22796,23 +23095,23 @@ protoOf(Level).equals = function (other) {
     return true;
   if (!(other instanceof Level))
     return false;
-  if (!(this.d2h_1 === other.d2h_1))
+  if (!(this.z2h_1 === other.z2h_1))
     return false;
-  if (!equals(this.e2h_1, other.e2h_1))
+  if (!equals(this.a2i_1, other.a2i_1))
     return false;
   return true;
 };
 function Moves(fast, charged) {
   Done.call(this);
-  this.f2h_1 = fast;
-  this.g2h_1 = charged;
+  this.b2i_1 = fast;
+  this.c2i_1 = charged;
 }
 protoOf(Moves).toString = function () {
-  return 'Moves(fast=' + this.f2h_1 + ', charged=' + toString_0(this.g2h_1) + ')';
+  return 'Moves(fast=' + this.b2i_1 + ', charged=' + toString_0(this.c2i_1) + ')';
 };
 protoOf(Moves).hashCode = function () {
-  var result = getStringHashCode(this.f2h_1);
-  result = imul(result, 31) + hashCode(this.g2h_1) | 0;
+  var result = getStringHashCode(this.b2i_1);
+  result = imul(result, 31) + hashCode(this.c2i_1) | 0;
   return result;
 };
 protoOf(Moves).equals = function (other) {
@@ -22820,47 +23119,47 @@ protoOf(Moves).equals = function (other) {
     return true;
   if (!(other instanceof Moves))
     return false;
-  if (!(this.f2h_1 === other.f2h_1))
+  if (!(this.b2i_1 === other.b2i_1))
     return false;
-  if (!equals(this.g2h_1, other.g2h_1))
+  if (!equals(this.c2i_1, other.c2i_1))
     return false;
   return true;
 };
 function MaxAttack(level) {
   Done.call(this);
-  this.h2h_1 = level;
+  this.d2i_1 = level;
 }
 protoOf(MaxAttack).toString = function () {
-  return 'MaxAttack(level=' + this.h2h_1 + ')';
+  return 'MaxAttack(level=' + this.d2i_1 + ')';
 };
 protoOf(MaxAttack).hashCode = function () {
-  return this.h2h_1;
+  return this.d2i_1;
 };
 protoOf(MaxAttack).equals = function (other) {
   if (this === other)
     return true;
   if (!(other instanceof MaxAttack))
     return false;
-  if (!(this.h2h_1 === other.h2h_1))
+  if (!(this.d2i_1 === other.d2i_1))
     return false;
   return true;
 };
-var static_init_called_21;
-function static_init_21() {
-  if (static_init_called_21)
+var static_init_called_22;
+function static_init_22() {
+  if (static_init_called_22)
     return Unit_instance;
-  static_init_called_21 = true;
+  static_init_called_22 = true;
   Mark_LATER_instance = new Mark('LATER', 0);
   Mark_IGNORE_instance = new Mark('IGNORE', 1);
 }
 var Mark_LATER_instance;
 var Mark_IGNORE_instance;
 function values_8() {
-  static_init_21();
+  static_init_22();
   return [Mark_LATER_getInstance(), Mark_IGNORE_getInstance()];
 }
 function get_entries_8() {
-  static_init_21();
+  static_init_22();
   if ($ENTRIES_8 == null)
     $ENTRIES_8 = enumEntries(values_8());
   return $ENTRIES_8;
@@ -22868,25 +23167,25 @@ function get_entries_8() {
 var $ENTRIES_8;
 function Area(name, ordinal, label, icon) {
   Enum.call(this, name, ordinal);
-  this.k2h_1 = label;
-  this.l2h_1 = icon;
+  this.g2i_1 = label;
+  this.h2i_1 = icon;
 }
 function Done() {
 }
 function Step_0(area, text, cost, done) {
-  this.m2h_1 = area;
-  this.n2h_1 = text;
-  this.o2h_1 = cost;
-  this.p2h_1 = done;
+  this.i2i_1 = area;
+  this.j2i_1 = text;
+  this.k2i_1 = cost;
+  this.l2i_1 = done;
 }
 protoOf(Step_0).toString = function () {
-  return 'Step(area=' + this.m2h_1.toString() + ', text=' + this.n2h_1 + ', cost=' + this.o2h_1 + ', done=' + toString_0(this.p2h_1) + ')';
+  return 'Step(area=' + this.i2i_1.toString() + ', text=' + this.j2i_1 + ', cost=' + this.k2i_1 + ', done=' + toString_0(this.l2i_1) + ')';
 };
 protoOf(Step_0).hashCode = function () {
-  var result = this.m2h_1.hashCode();
-  result = imul(result, 31) + getStringHashCode(this.n2h_1) | 0;
-  result = imul(result, 31) + getStringHashCode(this.o2h_1) | 0;
-  result = imul(result, 31) + hashCode(this.p2h_1) | 0;
+  var result = this.i2i_1.hashCode();
+  result = imul(result, 31) + getStringHashCode(this.j2i_1) | 0;
+  result = imul(result, 31) + getStringHashCode(this.k2i_1) | 0;
+  result = imul(result, 31) + hashCode(this.l2i_1) | 0;
   return result;
 };
 protoOf(Step_0).equals = function (other) {
@@ -22894,47 +23193,47 @@ protoOf(Step_0).equals = function (other) {
     return true;
   if (!(other instanceof Step_0))
     return false;
-  if (!this.m2h_1.equals(other.m2h_1))
+  if (!this.i2i_1.equals(other.i2i_1))
     return false;
-  if (!(this.n2h_1 === other.n2h_1))
+  if (!(this.j2i_1 === other.j2i_1))
     return false;
-  if (!(this.o2h_1 === other.o2h_1))
+  if (!(this.k2i_1 === other.k2i_1))
     return false;
-  if (!equals(this.p2h_1, other.p2h_1))
+  if (!equals(this.l2i_1, other.l2i_1))
     return false;
   return true;
 };
 function Plan(pokemon, species, why, steps, later, order) {
   later = later === VOID ? emptyList() : later;
-  this.q2h_1 = pokemon;
-  this.r2h_1 = species;
-  this.s2h_1 = why;
-  this.t2h_1 = steps;
-  this.u2h_1 = later;
-  this.v2h_1 = order;
+  this.m2i_1 = pokemon;
+  this.n2i_1 = species;
+  this.o2i_1 = why;
+  this.p2i_1 = steps;
+  this.q2i_1 = later;
+  this.r2i_1 = order;
 }
-protoOf(Plan).w2h = function (pokemon, species, why, steps, later, order) {
+protoOf(Plan).s2i = function (pokemon, species, why, steps, later, order) {
   return new Plan(pokemon, species, why, steps, later, order);
 };
-protoOf(Plan).x2h = function (pokemon, species, why, steps, later, order, $super) {
-  pokemon = pokemon === VOID ? this.q2h_1 : pokemon;
-  species = species === VOID ? this.r2h_1 : species;
-  why = why === VOID ? this.s2h_1 : why;
-  steps = steps === VOID ? this.t2h_1 : steps;
-  later = later === VOID ? this.u2h_1 : later;
-  order = order === VOID ? this.v2h_1 : order;
-  return $super === VOID ? this.w2h(pokemon, species, why, steps, later, order) : $super.w2h.call(this, pokemon, species, why, steps, later, order);
+protoOf(Plan).t2i = function (pokemon, species, why, steps, later, order, $super) {
+  pokemon = pokemon === VOID ? this.m2i_1 : pokemon;
+  species = species === VOID ? this.n2i_1 : species;
+  why = why === VOID ? this.o2i_1 : why;
+  steps = steps === VOID ? this.p2i_1 : steps;
+  later = later === VOID ? this.q2i_1 : later;
+  order = order === VOID ? this.r2i_1 : order;
+  return $super === VOID ? this.s2i(pokemon, species, why, steps, later, order) : $super.s2i.call(this, pokemon, species, why, steps, later, order);
 };
 protoOf(Plan).toString = function () {
-  return 'Plan(pokemon=' + this.q2h_1.toString() + ', species=' + this.r2h_1.toString() + ', why=' + toString_0(this.s2h_1) + ', steps=' + toString_0(this.t2h_1) + ', later=' + toString_0(this.u2h_1) + ', order=' + this.v2h_1 + ')';
+  return 'Plan(pokemon=' + this.m2i_1.toString() + ', species=' + this.n2i_1.toString() + ', why=' + toString_0(this.o2i_1) + ', steps=' + toString_0(this.p2i_1) + ', later=' + toString_0(this.q2i_1) + ', order=' + this.r2i_1 + ')';
 };
 protoOf(Plan).hashCode = function () {
-  var result = this.q2h_1.hashCode();
-  result = imul(result, 31) + this.r2h_1.hashCode() | 0;
-  result = imul(result, 31) + hashCode(this.s2h_1) | 0;
-  result = imul(result, 31) + hashCode(this.t2h_1) | 0;
-  result = imul(result, 31) + hashCode(this.u2h_1) | 0;
-  result = imul(result, 31) + this.v2h_1 | 0;
+  var result = this.m2i_1.hashCode();
+  result = imul(result, 31) + this.n2i_1.hashCode() | 0;
+  result = imul(result, 31) + hashCode(this.o2i_1) | 0;
+  result = imul(result, 31) + hashCode(this.p2i_1) | 0;
+  result = imul(result, 31) + hashCode(this.q2i_1) | 0;
+  result = imul(result, 31) + this.r2i_1 | 0;
   return result;
 };
 protoOf(Plan).equals = function (other) {
@@ -22942,17 +23241,17 @@ protoOf(Plan).equals = function (other) {
     return true;
   if (!(other instanceof Plan))
     return false;
-  if (!this.q2h_1.equals(other.q2h_1))
+  if (!this.m2i_1.equals(other.m2i_1))
     return false;
-  if (!this.r2h_1.equals(other.r2h_1))
+  if (!this.n2i_1.equals(other.n2i_1))
     return false;
-  if (!equals(this.s2h_1, other.s2h_1))
+  if (!equals(this.o2i_1, other.o2i_1))
     return false;
-  if (!equals(this.t2h_1, other.t2h_1))
+  if (!equals(this.p2i_1, other.p2i_1))
     return false;
-  if (!equals(this.u2h_1, other.u2h_1))
+  if (!equals(this.q2i_1, other.q2i_1))
     return false;
-  if (!(this.v2h_1 === other.v2h_1))
+  if (!(this.r2i_1 === other.r2i_1))
     return false;
   return true;
 };
@@ -22960,21 +23259,21 @@ function Mark(name, ordinal) {
   Enum.call(this, name, ordinal);
 }
 function RaidSpot(type, metaRank, ownRank, final, entry) {
-  this.y2h_1 = type;
-  this.z2h_1 = metaRank;
-  this.a2i_1 = ownRank;
-  this.b2i_1 = final;
-  this.c2i_1 = entry;
+  this.u2i_1 = type;
+  this.v2i_1 = metaRank;
+  this.w2i_1 = ownRank;
+  this.x2i_1 = final;
+  this.y2i_1 = entry;
 }
 protoOf(RaidSpot).toString = function () {
-  return 'RaidSpot(type=' + this.y2h_1 + ', metaRank=' + this.z2h_1 + ', ownRank=' + this.a2i_1 + ', final=' + this.b2i_1.toString() + ', entry=' + this.c2i_1.toString() + ')';
+  return 'RaidSpot(type=' + this.u2i_1 + ', metaRank=' + this.v2i_1 + ', ownRank=' + this.w2i_1 + ', final=' + this.x2i_1.toString() + ', entry=' + this.y2i_1.toString() + ')';
 };
 protoOf(RaidSpot).hashCode = function () {
-  var result = getStringHashCode(this.y2h_1);
-  result = imul(result, 31) + this.z2h_1 | 0;
-  result = imul(result, 31) + this.a2i_1 | 0;
-  result = imul(result, 31) + this.b2i_1.hashCode() | 0;
-  result = imul(result, 31) + this.c2i_1.hashCode() | 0;
+  var result = getStringHashCode(this.u2i_1);
+  result = imul(result, 31) + this.v2i_1 | 0;
+  result = imul(result, 31) + this.w2i_1 | 0;
+  result = imul(result, 31) + this.x2i_1.hashCode() | 0;
+  result = imul(result, 31) + this.y2i_1.hashCode() | 0;
   return result;
 };
 protoOf(RaidSpot).equals = function (other) {
@@ -22982,15 +23281,15 @@ protoOf(RaidSpot).equals = function (other) {
     return true;
   if (!(other instanceof RaidSpot))
     return false;
-  if (!(this.y2h_1 === other.y2h_1))
+  if (!(this.u2i_1 === other.u2i_1))
     return false;
-  if (!(this.z2h_1 === other.z2h_1))
+  if (!(this.v2i_1 === other.v2i_1))
     return false;
-  if (!(this.a2i_1 === other.a2i_1))
+  if (!(this.w2i_1 === other.w2i_1))
     return false;
-  if (!this.b2i_1.equals(other.b2i_1))
+  if (!this.x2i_1.equals(other.x2i_1))
     return false;
-  if (!this.c2i_1.equals(other.c2i_1))
+  if (!this.y2i_1.equals(other.y2i_1))
     return false;
   return true;
 };
@@ -23008,18 +23307,18 @@ function plan($this, data, analyzer, p, spot, metas) {
   var order = 2147483647;
   var moves = data.c1v();
   if (!(spot == null)) {
-    var tmp1_elvis_lhs = data.c1g_1.c2(spot.y2h_1);
-    var typeName = tmp1_elvis_lhs == null ? spot.y2h_1 : tmp1_elvis_lhs;
-    why.h(Area_RAID_getInstance().l2h_1 + ' Platz ' + spot.a2i_1 + ' deiner ' + typeName + '-Angreifer');
+    var tmp1_elvis_lhs = data.c1g_1.c2(spot.u2i_1);
+    var typeName = tmp1_elvis_lhs == null ? spot.u2i_1 : tmp1_elvis_lhs;
+    why.h(Area_RAID_getInstance().h2i_1 + ' Platz ' + spot.w2i_1 + ' deiner ' + typeName + '-Angreifer');
     var tmp0 = order;
     // Inline function 'kotlin.comparisons.minOf' call
-    var b = spot.a2i_1;
+    var b = spot.w2i_1;
     order = Math.min(tmp0, b);
-    steps.p($this.d2i(data, analyzer, p, species, spot.b2i_1, spot.c2i_1));
+    steps.p($this.z2i(data, analyzer, p, species, spot.x2i_1, spot.y2i_1));
   }
   if (!p.d1m_1) {
     // Inline function 'kotlin.collections.filter' call
-    var tmp0_0 = Nickname_getInstance().q25(analyzer.k1h(species, p.g1m(), p.u1l_1, p.v1l_1));
+    var tmp0_0 = Nickname_getInstance().m26(analyzer.k1h(species, p.g1m(), p.u1l_1, p.v1l_1));
     // Inline function 'kotlin.collections.filterTo' call
     var destination = ArrayList_init_$Create$_0();
     var _iterator__ex2g4s = tmp0_0.i();
@@ -23050,7 +23349,7 @@ function plan($this, data, analyzer, p, spot, metas) {
       // Inline function 'kotlin.let' call
       var res = ensureNotNull(tmp2_safe_receiver.e1e_1);
       var league = tmp2_safe_receiver.c1e_1.equals(League_SUPER_getInstance()) ? 'Super' : 'Hyper';
-      why.h(Area_PVP_getInstance().l2h_1 + ' ' + league + ' Rang ' + res.o1e_1 + ' (' + tmp2_safe_receiver.d1e_1.c1f_1 + ', Meta #' + tmp2_safe_receiver.g1e_1 + ')');
+      why.h(Area_PVP_getInstance().h2i_1 + ' ' + league + ' Rang ' + res.o1e_1 + ' (' + tmp2_safe_receiver.d1e_1.c1f_1 + ', Meta #' + tmp2_safe_receiver.g1e_1 + ')');
       var tmp0_1 = order;
       // Inline function 'kotlin.comparisons.minOf' call
       var b_0 = 10 + (res.o1e_1 / 10 | 0) | 0;
@@ -23074,7 +23373,7 @@ function plan($this, data, analyzer, p, spot, metas) {
         var what = tmp_2;
         var tmp_3 = Area_PVP_getInstance();
         var tmp_4 = league + '-Liga: ' + what;
-        var tmp_5 = Upgrade_instance.e2i(ensureNotNull(tmp2_safe_receiver.f1e_1));
+        var tmp_5 = Upgrade_instance.a2j(ensureNotNull(tmp2_safe_receiver.f1e_1));
         var tmp0_2 = res.l1e_1;
         // Inline function 'kotlin.comparisons.maxOf' call
         var b_1 = p.u1l_1;
@@ -23146,14 +23445,14 @@ function plan($this, data, analyzer, p, spot, metas) {
           steps.h(new Step_0(tmp_9, 'Attacken: ' + (tmp1_elvis_lhs_0 == null ? fast : tmp1_elvis_lhs_0) + tm(Upgrade_instance, tmp2_safe_receiver.d1e_1, fast) + ' \xB7 ' + names, '', new Moves(fast, charged)));
         }
         if (charged.l() >= 2 && p.x1l_1.l() < 2 && tmp2_safe_receiver.d1e_1.r1f_1 > 0) {
-          steps.h(new Step_0(Area_PVP_getInstance(), 'Zweite Lade-Attacke freischalten', Companion_getInstance_13().a22(tmp2_safe_receiver.d1e_1.r1f_1) + ' Sternenstaub, ' + Upgrade_instance.f2i(tmp2_safe_receiver.d1e_1.r1f_1) + ' Bonbons', new Moves(fast, charged)));
+          steps.h(new Step_0(Area_PVP_getInstance(), 'Zweite Lade-Attacke freischalten', Companion_getInstance_13().w22(tmp2_safe_receiver.d1e_1.r1f_1) + ' Sternenstaub, ' + Upgrade_instance.b2j(tmp2_safe_receiver.d1e_1.r1f_1) + ' Bonbons', new Moves(fast, charged)));
         }
       }
     }
   }
   if (p.z1l_1 > 0 && species.o1f_1) {
     var giga = p.z1l_1 === 2;
-    why.h(Area_MAX_getInstance().l2h_1 + ' ' + (giga ? 'Gigadynamax' : 'Dynamax'));
+    why.h(Area_MAX_getInstance().h2i_1 + ' ' + (giga ? 'Gigadynamax' : 'Dynamax'));
     // Inline function 'kotlin.comparisons.minOf' call
     var a = order;
     order = Math.min(a, 30);
@@ -23176,10 +23475,10 @@ function plan($this, data, analyzer, p, spot, metas) {
         while (_iterator__ex2g4s_2.j()) {
           var element_2 = _iterator__ex2g4s_2.k();
           var tmp_12;
-          var tmp_13 = element_2.p2h_1;
+          var tmp_13 = element_2.l2i_1;
           if (tmp_13 instanceof Level) {
-            var tmp_14 = element_2.p2h_1;
-            tmp_12 = (tmp_14 instanceof Level ? tmp_14 : THROW_CCE()).e2h_1 >= 40.0;
+            var tmp_14 = element_2.l2i_1;
+            tmp_12 = (tmp_14 instanceof Level ? tmp_14 : THROW_CCE()).a2i_1 >= 40.0;
           } else {
             tmp_12 = false;
           }
@@ -23195,7 +23494,7 @@ function plan($this, data, analyzer, p, spot, metas) {
       tmp_10 = false;
     }
     if (tmp_10) {
-      steps.h(new Step_0(Area_MAX_getInstance(), 'Auf Stufe ' + numberToInt(40.0) + ' leveln (mehr Schaden und Ausdauer)', $this.e2i(data.h1i().l1i(p.u1l_1, 40.0, p.v1l_1)), new Level(species.a1f_1, 40.0)));
+      steps.h(new Step_0(Area_MAX_getInstance(), 'Auf Stufe ' + numberToInt(40.0) + ' leveln (mehr Schaden und Ausdauer)', $this.a2j(data.h1i().l1i(p.u1l_1, 40.0, p.v1l_1)), new Level(species.a1f_1, 40.0)));
     }
     if (p.a1m_1 < 3) {
       var next = p.a1m_1 + 1 | 0;
@@ -23216,7 +23515,7 @@ function plan($this, data, analyzer, p, spot, metas) {
       } else {
         // Inline function 'kotlin.let' call
         // Inline function 'kotlin.takeIf' call
-        var this_2 = c.w1y_1;
+        var this_2 = c.x1y_1;
         var tmp_17;
         if (this_2 > 1) {
           tmp_17 = this_2;
@@ -23233,7 +23532,7 @@ function plan($this, data, analyzer, p, spot, metas) {
         }
         var tmp_19 = tmp_18;
         // Inline function 'kotlin.takeIf' call
-        var this_3 = c.x1y_1;
+        var this_3 = c.y1y_1;
         var tmp_20;
         if (this_3 > 0) {
           tmp_20 = this_3;
@@ -23250,7 +23549,7 @@ function plan($this, data, analyzer, p, spot, metas) {
         }
         var tmp_22 = tmp_21;
         // Inline function 'kotlin.takeIf' call
-        var this_4 = c.v1y_1;
+        var this_4 = c.w1y_1;
         var tmp_23;
         if (this_4 > 0) {
           tmp_23 = this_4;
@@ -23263,7 +23562,7 @@ function plan($this, data, analyzer, p, spot, metas) {
           tmp_24 = null;
         } else {
           // Inline function 'kotlin.let' call
-          tmp_24 = Companion_getInstance_13().a22(tmp2_safe_receiver_0) + ' Dyna-Partikel';
+          tmp_24 = Companion_getInstance_13().w22(tmp2_safe_receiver_0) + ' Dyna-Partikel';
         }
         tmp_16 = joinToString(listOfNotNull([tmp_19, tmp_22, tmp_24]), ', ');
       }
@@ -23279,27 +23578,27 @@ function plan($this, data, analyzer, p, spot, metas) {
 }
 function RaidRow(pokemon, species, final, type, now, potential, steps, later) {
   later = later === VOID ? emptyList() : later;
-  this.e28_1 = pokemon;
-  this.f28_1 = species;
-  this.g28_1 = final;
-  this.h28_1 = type;
-  this.i28_1 = now;
-  this.j28_1 = potential;
-  this.k28_1 = steps;
-  this.l28_1 = later;
+  this.a29_1 = pokemon;
+  this.b29_1 = species;
+  this.c29_1 = final;
+  this.d29_1 = type;
+  this.e29_1 = now;
+  this.f29_1 = potential;
+  this.g29_1 = steps;
+  this.h29_1 = later;
 }
 protoOf(RaidRow).toString = function () {
-  return 'RaidRow(pokemon=' + this.e28_1.toString() + ', species=' + this.f28_1.toString() + ', final=' + this.g28_1.toString() + ', type=' + this.h28_1 + ', now=' + this.i28_1 + ', potential=' + this.j28_1 + ', steps=' + toString_0(this.k28_1) + ', later=' + toString_0(this.l28_1) + ')';
+  return 'RaidRow(pokemon=' + this.a29_1.toString() + ', species=' + this.b29_1.toString() + ', final=' + this.c29_1.toString() + ', type=' + this.d29_1 + ', now=' + this.e29_1 + ', potential=' + this.f29_1 + ', steps=' + toString_0(this.g29_1) + ', later=' + toString_0(this.h29_1) + ')';
 };
 protoOf(RaidRow).hashCode = function () {
-  var result = this.e28_1.hashCode();
-  result = imul(result, 31) + this.f28_1.hashCode() | 0;
-  result = imul(result, 31) + this.g28_1.hashCode() | 0;
-  result = imul(result, 31) + getStringHashCode(this.h28_1) | 0;
-  result = imul(result, 31) + this.i28_1 | 0;
-  result = imul(result, 31) + this.j28_1 | 0;
-  result = imul(result, 31) + hashCode(this.k28_1) | 0;
-  result = imul(result, 31) + hashCode(this.l28_1) | 0;
+  var result = this.a29_1.hashCode();
+  result = imul(result, 31) + this.b29_1.hashCode() | 0;
+  result = imul(result, 31) + this.c29_1.hashCode() | 0;
+  result = imul(result, 31) + getStringHashCode(this.d29_1) | 0;
+  result = imul(result, 31) + this.e29_1 | 0;
+  result = imul(result, 31) + this.f29_1 | 0;
+  result = imul(result, 31) + hashCode(this.g29_1) | 0;
+  result = imul(result, 31) + hashCode(this.h29_1) | 0;
   return result;
 };
 protoOf(RaidRow).equals = function (other) {
@@ -23307,38 +23606,38 @@ protoOf(RaidRow).equals = function (other) {
     return true;
   if (!(other instanceof RaidRow))
     return false;
-  if (!this.e28_1.equals(other.e28_1))
+  if (!this.a29_1.equals(other.a29_1))
     return false;
-  if (!this.f28_1.equals(other.f28_1))
+  if (!this.b29_1.equals(other.b29_1))
     return false;
-  if (!this.g28_1.equals(other.g28_1))
+  if (!this.c29_1.equals(other.c29_1))
     return false;
-  if (!(this.h28_1 === other.h28_1))
+  if (!(this.d29_1 === other.d29_1))
     return false;
-  if (!(this.i28_1 === other.i28_1))
+  if (!(this.e29_1 === other.e29_1))
     return false;
-  if (!(this.j28_1 === other.j28_1))
+  if (!(this.f29_1 === other.f29_1))
     return false;
-  if (!equals(this.k28_1, other.k28_1))
+  if (!equals(this.g29_1, other.g29_1))
     return false;
-  if (!equals(this.l28_1, other.l28_1))
+  if (!equals(this.h29_1, other.h29_1))
     return false;
   return true;
 };
 function TypeRow(type, name, rows) {
-  this.z27_1 = type;
-  this.a28_1 = name;
-  this.b28_1 = rows;
+  this.v28_1 = type;
+  this.w28_1 = name;
+  this.x28_1 = rows;
 }
-protoOf(TypeRow).c28 = function () {
+protoOf(TypeRow).y28 = function () {
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = this.b28_1;
+  var tmp0 = this.x28_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (element.i28_1 > 0) {
+    if (element.e29_1 > 0) {
       destination.h(element);
     }
   }
@@ -23355,10 +23654,10 @@ protoOf(TypeRow).c28 = function () {
       tmp$ret$3 = maxElem;
       break $l$block_0;
     }
-    var maxValue = maxElem.i28_1;
+    var maxValue = maxElem.e29_1;
     do {
       var e = iterator.k();
-      var v = e.i28_1;
+      var v = e.e29_1;
       if (compareTo(maxValue, v) < 0) {
         maxElem = e;
         maxValue = v;
@@ -23369,13 +23668,13 @@ protoOf(TypeRow).c28 = function () {
   }
   return tmp$ret$3;
 };
-protoOf(TypeRow).d28 = function () {
-  var tmp0_safe_receiver = this.c28();
-  var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.i28_1;
+protoOf(TypeRow).z28 = function () {
+  var tmp0_safe_receiver = this.y28();
+  var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.e29_1;
   var top = tmp1_elvis_lhs == null ? 0 : tmp1_elvis_lhs;
   var tmp = Upgrade_instance;
   // Inline function 'kotlin.collections.filter' call
-  var tmp0 = this.b28_1;
+  var tmp0 = this.x28_1;
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = tmp0.i();
@@ -23383,8 +23682,8 @@ protoOf(TypeRow).d28 = function () {
     var element = _iterator__ex2g4s.k();
     var tmp_0;
     // Inline function 'kotlin.collections.isNotEmpty' call
-    if (!element.k28_1.q()) {
-      tmp_0 = element.j28_1 > (top + 2 | 0);
+    if (!element.g29_1.q()) {
+      tmp_0 = element.f29_1 > (top + 2 | 0);
     } else {
       tmp_0 = false;
     }
@@ -23392,29 +23691,29 @@ protoOf(TypeRow).d28 = function () {
       destination.h(element);
     }
   }
-  return tmp.g2i(destination);
+  return tmp.c2j(destination);
 };
-protoOf(TypeRow).h2i = function () {
-  var tmp0_safe_receiver = this.d28();
+protoOf(TypeRow).d2j = function () {
+  var tmp0_safe_receiver = this.z28();
   var tmp;
   if (tmp0_safe_receiver == null) {
     tmp = null;
   } else {
     // Inline function 'kotlin.let' call
-    var tmp0_safe_receiver_0 = this.c28();
-    var tmp1_elvis_lhs = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.i28_1;
-    tmp = tmp0_safe_receiver.j28_1 - (tmp1_elvis_lhs == null ? 0 : tmp1_elvis_lhs) | 0;
+    var tmp0_safe_receiver_0 = this.y28();
+    var tmp1_elvis_lhs = tmp0_safe_receiver_0 == null ? null : tmp0_safe_receiver_0.e29_1;
+    tmp = tmp0_safe_receiver.f29_1 - (tmp1_elvis_lhs == null ? 0 : tmp1_elvis_lhs) | 0;
   }
   var tmp1_elvis_lhs_0 = tmp;
   return tmp1_elvis_lhs_0 == null ? 0 : tmp1_elvis_lhs_0;
 };
 protoOf(TypeRow).toString = function () {
-  return 'TypeRow(type=' + this.z27_1 + ', name=' + this.a28_1 + ', rows=' + toString_0(this.b28_1) + ')';
+  return 'TypeRow(type=' + this.v28_1 + ', name=' + this.w28_1 + ', rows=' + toString_0(this.x28_1) + ')';
 };
 protoOf(TypeRow).hashCode = function () {
-  var result = getStringHashCode(this.z27_1);
-  result = imul(result, 31) + getStringHashCode(this.a28_1) | 0;
-  result = imul(result, 31) + hashCode(this.b28_1) | 0;
+  var result = getStringHashCode(this.v28_1);
+  result = imul(result, 31) + getStringHashCode(this.w28_1) | 0;
+  result = imul(result, 31) + hashCode(this.x28_1) | 0;
   return result;
 };
 protoOf(TypeRow).equals = function (other) {
@@ -23422,11 +23721,11 @@ protoOf(TypeRow).equals = function (other) {
     return true;
   if (!(other instanceof TypeRow))
     return false;
-  if (!(this.z27_1 === other.z27_1))
+  if (!(this.v28_1 === other.v28_1))
     return false;
-  if (!(this.a28_1 === other.a28_1))
+  if (!(this.w28_1 === other.w28_1))
     return false;
-  if (!equals(this.b28_1, other.b28_1))
+  if (!equals(this.x28_1, other.x28_1))
     return false;
   return true;
 };
@@ -23436,47 +23735,17 @@ function tm($this, species, move) {
 function level($this, l) {
   return l === round(l) ? numberToInt(l).toString() : replace_0(l.toString(), _Char___init__impl__6a9atx(46), _Char___init__impl__6a9atx(44));
 }
-function sam$kotlin_Comparator$0_28(function_0) {
-  this.i2i_1 = function_0;
-}
-protoOf(sam$kotlin_Comparator$0_28).uc = function (a, b) {
-  return this.i2i_1(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_28).compare = function (a, b) {
-  return this.uc(a, b);
-};
-protoOf(sam$kotlin_Comparator$0_28).t2 = function () {
-  return this.i2i_1;
-};
-protoOf(sam$kotlin_Comparator$0_28).equals = function (other) {
-  var tmp;
-  if (!(other == null) ? isInterface(other, Comparator) : false) {
-    var tmp_0;
-    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
-      tmp_0 = equals(this.t2(), other.t2());
-    } else {
-      tmp_0 = false;
-    }
-    tmp = tmp_0;
-  } else {
-    tmp = false;
-  }
-  return tmp;
-};
-protoOf(sam$kotlin_Comparator$0_28).hashCode = function () {
-  return hashCode(this.t2());
-};
 function sam$kotlin_Comparator$0_29(function_0) {
-  this.j2i_1 = function_0;
+  this.e2j_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_29).uc = function (a, b) {
-  return this.j2i_1(a, b);
+  return this.e2j_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_29).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_29).t2 = function () {
-  return this.j2i_1;
+  return this.e2j_1;
 };
 protoOf(sam$kotlin_Comparator$0_29).equals = function (other) {
   var tmp;
@@ -23497,16 +23766,16 @@ protoOf(sam$kotlin_Comparator$0_29).hashCode = function () {
   return hashCode(this.t2());
 };
 function sam$kotlin_Comparator$0_30(function_0) {
-  this.k2i_1 = function_0;
+  this.f2j_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_30).uc = function (a, b) {
-  return this.k2i_1(a, b);
+  return this.f2j_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_30).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_30).t2 = function () {
-  return this.k2i_1;
+  return this.f2j_1;
 };
 protoOf(sam$kotlin_Comparator$0_30).equals = function (other) {
   var tmp;
@@ -23527,16 +23796,16 @@ protoOf(sam$kotlin_Comparator$0_30).hashCode = function () {
   return hashCode(this.t2());
 };
 function sam$kotlin_Comparator$0_31(function_0) {
-  this.l2i_1 = function_0;
+  this.g2j_1 = function_0;
 }
 protoOf(sam$kotlin_Comparator$0_31).uc = function (a, b) {
-  return this.l2i_1(a, b);
+  return this.g2j_1(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_31).compare = function (a, b) {
   return this.uc(a, b);
 };
 protoOf(sam$kotlin_Comparator$0_31).t2 = function () {
-  return this.l2i_1;
+  return this.g2j_1;
 };
 protoOf(sam$kotlin_Comparator$0_31).equals = function (other) {
   var tmp;
@@ -23556,10 +23825,40 @@ protoOf(sam$kotlin_Comparator$0_31).equals = function (other) {
 protoOf(sam$kotlin_Comparator$0_31).hashCode = function () {
   return hashCode(this.t2());
 };
+function sam$kotlin_Comparator$0_32(function_0) {
+  this.h2j_1 = function_0;
+}
+protoOf(sam$kotlin_Comparator$0_32).uc = function (a, b) {
+  return this.h2j_1(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_32).compare = function (a, b) {
+  return this.uc(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_32).t2 = function () {
+  return this.h2j_1;
+};
+protoOf(sam$kotlin_Comparator$0_32).equals = function (other) {
+  var tmp;
+  if (!(other == null) ? isInterface(other, Comparator) : false) {
+    var tmp_0;
+    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
+      tmp_0 = equals(this.t2(), other.t2());
+    } else {
+      tmp_0 = false;
+    }
+    tmp = tmp_0;
+  } else {
+    tmp = false;
+  }
+  return tmp;
+};
+protoOf(sam$kotlin_Comparator$0_32).hashCode = function () {
+  return hashCode(this.t2());
+};
 function Upgrade$plans$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = a.v2h_1;
-  var tmp$ret$2 = b.v2h_1;
+  var tmp = a.r2i_1;
+  var tmp$ret$2 = b.r2i_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function Upgrade$plans$lambda_0($this) {
@@ -23570,8 +23869,8 @@ function Upgrade$plans$lambda_0($this) {
       tmp = previousCompare;
     } else {
       // Inline function 'kotlin.comparisons.compareValuesBy' call
-      var tmp_0 = b.q2h_1.g1m().d1l();
-      var tmp$ret$2 = a.q2h_1.g1m().d1l();
+      var tmp_0 = b.m2i_1.g1m().d1l();
+      var tmp$ret$2 = a.m2i_1.g1m().d1l();
       tmp = compareValues(tmp_0, tmp$ret$2);
     }
     return tmp;
@@ -23587,12 +23886,12 @@ function Upgrade$raidTeams$lambda_0(it) {
   return -it.ri_1.g1m().d1l();
 }
 function pickUpgrade$score(r) {
-  return r.j28_1 * (1 + Upgrade_instance.m2i(r.e28_1));
+  return r.f29_1 * (1 + Upgrade_instance.i2j(r.a29_1));
 }
 function Upgrade$pickUpgrade$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = a.e28_1.g1m().d1l();
-  var tmp$ret$2 = b.e28_1.g1m().d1l();
+  var tmp = a.a29_1.g1m().d1l();
+  var tmp$ret$2 = b.a29_1.g1m().d1l();
   return compareValues(tmp, tmp$ret$2);
 }
 function Upgrade$pickUpgrade$lambda_0($this) {
@@ -23615,31 +23914,31 @@ function raidOverview$pct(ref, score) {
 }
 function Upgrade$raidOverview$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.j28_1;
-  var tmp$ret$2 = a.j28_1;
+  var tmp = b.f29_1;
+  var tmp$ret$2 = a.f29_1;
   return compareValues(tmp, tmp$ret$2);
 }
 function Upgrade$raidOverview$lambda_0(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
   // Inline function 'kotlin.collections.maxOf' call
-  var iterator = b.b28_1.i();
+  var iterator = b.x28_1.i();
   if (!iterator.j())
     throw NoSuchElementException_init_$Create$();
-  var maxValue = iterator.k().j28_1;
+  var maxValue = iterator.k().f29_1;
   while (iterator.j()) {
-    var v = iterator.k().j28_1;
+    var v = iterator.k().f29_1;
     if (compareTo(maxValue, v) < 0) {
       maxValue = v;
     }
   }
   var tmp = maxValue;
   // Inline function 'kotlin.collections.maxOf' call
-  var iterator_0 = a.b28_1.i();
+  var iterator_0 = a.x28_1.i();
   if (!iterator_0.j())
     throw NoSuchElementException_init_$Create$();
-  var maxValue_0 = iterator_0.k().j28_1;
+  var maxValue_0 = iterator_0.k().f29_1;
   while (iterator_0.j()) {
-    var v_0 = iterator_0.k().j28_1;
+    var v_0 = iterator_0.k().f29_1;
     if (compareTo(maxValue_0, v_0) < 0) {
       maxValue_0 = v_0;
     }
@@ -23649,45 +23948,45 @@ function Upgrade$raidOverview$lambda_0(a, b) {
 }
 function Upgrade$topGains$lambda(a, b) {
   // Inline function 'kotlin.comparisons.compareValuesBy' call
-  var tmp = b.h2i();
-  var tmp$ret$2 = a.h2i();
+  var tmp = b.d2j();
+  var tmp$ret$2 = a.d2j();
   return compareValues(tmp, tmp$ret$2);
 }
 function Area_RAID_getInstance() {
-  static_init_20();
+  static_init_21();
   return Area_RAID_instance;
 }
 function Area_PVP_getInstance() {
-  static_init_20();
+  static_init_21();
   return Area_PVP_instance;
 }
 function Area_MAX_getInstance() {
-  static_init_20();
+  static_init_21();
   return Area_MAX_instance;
 }
 function Mark_LATER_getInstance() {
-  static_init_21();
+  static_init_22();
   return Mark_LATER_instance;
 }
 function Mark_IGNORE_getInstance() {
-  static_init_21();
+  static_init_22();
   return Mark_IGNORE_instance;
 }
 function Upgrade() {
-  this.u27_1 = 6;
-  this.v27_1 = 40.0;
-  this.w27_1 = 3;
+  this.q28_1 = 6;
+  this.r28_1 = 40.0;
+  this.s28_1 = 3;
 }
-protoOf(Upgrade).x27 = function (p) {
+protoOf(Upgrade).t28 = function (p) {
   return p.r1l_1 >= 12 && p.g1m().d1l() >= 75.0;
 };
-protoOf(Upgrade).n2i = function (data, analyzer, saved, metas, marks) {
+protoOf(Upgrade).j2j = function (data, analyzer, saved, metas, marks) {
   var tmp;
   if (metas == null) {
     tmp = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp = Upgrade_instance.o2i(data, analyzer, saved, metas);
+    tmp = Upgrade_instance.k2j(data, analyzer, saved, metas);
   }
   // Inline function 'kotlin.collections.orEmpty' call
   var tmp0_elvis_lhs = tmp;
@@ -23710,14 +24009,14 @@ protoOf(Upgrade).n2i = function (data, analyzer, saved, metas, marks) {
         tmp_0 = tmp0_elvis_lhs_0;
       }
       var plan_0 = tmp_0;
-      var _destruct__k2r9zo = Upgrade_instance.p2i(element, plan_0.t2h_1, marks);
+      var _destruct__k2r9zo = Upgrade_instance.l2j(element, plan_0.p2i_1, marks);
       var open = _destruct__k2r9zo.m9();
       var later = _destruct__k2r9zo.n9();
       if (open.q() && later.q()) {
         tmp$ret$7 = null;
         break $l$block_0;
       }
-      tmp$ret$7 = plan_0.x2h(VOID, VOID, VOID, open, later, open.q() ? plan_0.v2h_1 + 10000 | 0 : plan_0.v2h_1);
+      tmp$ret$7 = plan_0.t2i(VOID, VOID, VOID, open, later, open.q() ? plan_0.r2i_1 + 10000 | 0 : plan_0.r2i_1);
     }
     var tmp0_safe_receiver = tmp$ret$7;
     if (tmp0_safe_receiver == null)
@@ -23731,22 +24030,22 @@ protoOf(Upgrade).n2i = function (data, analyzer, saved, metas, marks) {
   // Inline function 'kotlin.comparisons.compareBy' call
   var tmp_2 = Upgrade$plans$lambda;
   // Inline function 'kotlin.comparisons.thenByDescending' call
-  var this_0 = new sam$kotlin_Comparator$0_28(tmp_2);
+  var this_0 = new sam$kotlin_Comparator$0_29(tmp_2);
   var tmp_3 = Upgrade$plans$lambda_0(this_0);
-  var tmp$ret$11 = new sam$kotlin_Comparator$0_28(tmp_3);
+  var tmp$ret$11 = new sam$kotlin_Comparator$0_29(tmp_3);
   return sortedWith(tmp_1, tmp$ret$11);
 };
-protoOf(Upgrade).q2i = function (p, s) {
-  return p.n1l_1.toString() + '|' + s.m2h_1.toString() + '|' + s.n2h_1;
+protoOf(Upgrade).m2j = function (p, s) {
+  return p.n1l_1.toString() + '|' + s.i2i_1.toString() + '|' + s.j2i_1;
 };
-protoOf(Upgrade).p2i = function (p, steps, marks) {
+protoOf(Upgrade).l2j = function (p, steps, marks) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = steps.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (marks.c2(Upgrade_instance.q2i(p, element)) == null) {
+    if (marks.c2(Upgrade_instance.m2j(p, element)) == null) {
       destination.h(element);
     }
   }
@@ -23757,18 +24056,18 @@ protoOf(Upgrade).p2i = function (p, steps, marks) {
   var _iterator__ex2g4s_0 = steps.i();
   while (_iterator__ex2g4s_0.j()) {
     var element_0 = _iterator__ex2g4s_0.k();
-    if (equals(marks.c2(Upgrade_instance.q2i(p, element_0)), Mark_LATER_getInstance())) {
+    if (equals(marks.c2(Upgrade_instance.m2j(p, element_0)), Mark_LATER_getInstance())) {
       destination_0.h(element_0);
     }
   }
   var later = destination_0;
   return to(open, later);
 };
-protoOf(Upgrade).r2i = function (marks) {
+protoOf(Upgrade).n2j = function (marks) {
   var tmp = marks.w();
   return joinToString(tmp, '\n', VOID, VOID, VOID, VOID, Upgrade$storeMarks$lambda);
 };
-protoOf(Upgrade).s2i = function (text) {
+protoOf(Upgrade).o2j = function (text) {
   // Inline function 'kotlin.text.orEmpty' call
   var tmp$ret$0 = text == null ? '' : text;
   // Inline function 'kotlin.collections.mapNotNull' call
@@ -23818,14 +24117,14 @@ protoOf(Upgrade).s2i = function (text) {
   }
   return toMap(destination);
 };
-protoOf(Upgrade).o2i = function (data, analyzer, saved, metas) {
+protoOf(Upgrade).k2j = function (data, analyzer, saved, metas) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = saved.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (Upgrade_instance.x27(element)) {
+    if (Upgrade_instance.t28(element)) {
       destination.h(element);
     }
   }
@@ -23968,7 +24267,7 @@ protoOf(Upgrade).o2i = function (data, analyzer, saved, metas) {
   }
   return out;
 };
-protoOf(Upgrade).d2i = function (data, analyzer, p, species, final, entry) {
+protoOf(Upgrade).z2i = function (data, analyzer, p, species, final, entry) {
   var steps = ArrayList_init_$Create$_0();
   if (!(final.a1f_1 === species.a1f_1)) {
     var tmp0 = analyzer.e1h(species, p.v1l_1);
@@ -23991,10 +24290,10 @@ protoOf(Upgrade).d2i = function (data, analyzer, p, species, final, entry) {
     steps.h(new Step_0(Area_RAID_getInstance(), 'Zu ' + final.c1f_1 + ' entwickeln', candy > 0 ? '' + candy + ' Bonbons' : '', new Level(final.a1f_1, p.u1l_1)));
   }
   if (p.u1l_1 < 40.0) {
-    steps.h(new Step_0(Area_RAID_getInstance(), 'Auf Stufe ' + numberToInt(40.0) + ' leveln', this.e2i(data.h1i().l1i(p.u1l_1, 40.0, p.v1l_1)), new Level(final.a1f_1, 40.0)));
+    steps.h(new Step_0(Area_RAID_getInstance(), 'Auf Stufe ' + numberToInt(40.0) + ' leveln', this.a2j(data.h1i().l1i(p.u1l_1, 40.0, p.v1l_1)), new Level(final.a1f_1, 40.0)));
   }
-  var fast = entry.d23_1.g23_1;
-  var charged = entry.d23_1.h23_1;
+  var fast = entry.z23_1.c24_1;
+  var charged = entry.z23_1.d24_1;
   var tmp;
   if (!(p.w1l_1 == null)) {
     // Inline function 'kotlin.collections.isNotEmpty' call
@@ -24010,11 +24309,11 @@ protoOf(Upgrade).d2i = function (data, analyzer, p, species, final, entry) {
   }
   return steps;
 };
-protoOf(Upgrade).m2i = function (p) {
+protoOf(Upgrade).i2j = function (p) {
   var sum = (p.r1l_1 + p.s1l_1 | 0) + p.t1l_1 | 0;
   return sum >= 45 ? 0.1 : sum >= 44 ? 0.07 : sum >= 43 ? 0.05 : 0.0;
 };
-protoOf(Upgrade).t2i = function (p) {
+protoOf(Upgrade).p2j = function (p) {
   switch ((p.r1l_1 + p.s1l_1 | 0) + p.t1l_1 | 0) {
     case 45:
       return ' \uD83D\uDCAF';
@@ -24026,7 +24325,7 @@ protoOf(Upgrade).t2i = function (p) {
       return '';
   }
 };
-protoOf(Upgrade).g2i = function (candidates) {
+protoOf(Upgrade).c2j = function (candidates) {
   var tmp$ret$0;
   $l$block: {
     // Inline function 'kotlin.collections.maxOfOrNull' call
@@ -24068,21 +24367,21 @@ protoOf(Upgrade).g2i = function (candidates) {
   // Inline function 'kotlin.comparisons.compareBy' call
   var tmp_1 = Upgrade$pickUpgrade$lambda;
   // Inline function 'kotlin.comparisons.thenBy' call
-  var this_0 = new sam$kotlin_Comparator$0_29(tmp_1);
+  var this_0 = new sam$kotlin_Comparator$0_30(tmp_1);
   var tmp_2 = Upgrade$pickUpgrade$lambda_0(this_0);
-  var tmp$ret$8 = new sam$kotlin_Comparator$0_29(tmp_2);
+  var tmp$ret$8 = new sam$kotlin_Comparator$0_30(tmp_2);
   return maxWith(tmp_0, tmp$ret$8);
 };
-protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
+protoOf(Upgrade).q2j = function (data, analyzer, saved, metas, marks) {
   var pve = new PveCalc(data);
-  var target = new RaidBoss(Companion_getInstance_16().q1g_1.m1x(VOID, VOID, VOID, VOID, VOID, VOID, VOID, listOf_0('none')), 5);
+  var target = new RaidBoss(Companion_getInstance_16().q1g_1.n1x(VOID, VOID, VOID, VOID, VOID, VOID, VOID, listOf_0('none')), 5);
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = saved.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (Upgrade_instance.x27(element)) {
+    if (Upgrade_instance.t28(element)) {
       destination.h(element);
     }
   }
@@ -24125,8 +24424,8 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
       // Inline function 'kotlin.collections.component2' call
       var meta = element_1.y();
       var tmp0_safe_receiver_1 = firstOrNull(meta);
-      var tmp1_safe_receiver = tmp0_safe_receiver_1 == null ? null : tmp0_safe_receiver_1.d23_1;
-      var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.k23();
+      var tmp1_safe_receiver = tmp0_safe_receiver_1 == null ? null : tmp0_safe_receiver_1.z23_1;
+      var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.g24();
       var tmp_0;
       if (tmp2_elvis_lhs == null) {
         tmp$ret$17 = null;
@@ -24168,7 +24467,7 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
                 var _iterator__ex2g4s_4 = meta.i();
                 while (_iterator__ex2g4s_4.j()) {
                   var element_4 = _iterator__ex2g4s_4.k();
-                  if (element_4.z22_1.a1f_1 === element_3.a1f_1 && element_4.a23_1 === shadow) {
+                  if (element_4.v23_1.a1f_1 === element_3.a1f_1 && element_4.w23_1 === shadow) {
                     tmp$ret$29 = element_4;
                     break $l$block_0;
                   }
@@ -24218,7 +24517,7 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
           } else {
             // Inline function 'kotlin.takeIf' call
             var tmp_6;
-            if (tmp2_safe_receiver.w1x()) {
+            if (tmp2_safe_receiver.x1x()) {
               tmp_6 = tmp2_safe_receiver;
             } else {
               tmp_6 = null;
@@ -24241,7 +24540,7 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
           } else {
             // Inline function 'kotlin.takeIf' call
             var tmp_9;
-            if (tmp4_safe_receiver.w1x()) {
+            if (tmp4_safe_receiver.x1x()) {
               tmp_9 = tmp4_safe_receiver;
             } else {
               tmp_9 = null;
@@ -24251,9 +24550,9 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
           var knownCharged = tmp_8;
           var tmp_10;
           if (!(knownFast == null) && !(knownCharged == null)) {
-            tmp_10 = pve.l29(s, p.g1m(), p.u1l_1, shadow, knownFast, knownCharged, target, Weather_NONE_getInstance());
+            tmp_10 = pve.h2a(s, p.g1m(), p.u1l_1, shadow, knownFast, knownCharged, target, Weather_NONE_getInstance());
           } else {
-            var _destruct__k2r9zo_0 = pve.k29(s, false);
+            var _destruct__k2r9zo_0 = pve.g2a(s, false);
             var fast = _destruct__k2r9zo_0.m9();
             var charged = _destruct__k2r9zo_0.n9();
             // Inline function 'kotlin.collections.filter' call
@@ -24288,7 +24587,7 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
               var _iterator__ex2g4s_8 = destination_5.i();
               while (_iterator__ex2g4s_8.j()) {
                 var item = _iterator__ex2g4s_8.k();
-                var tmp$ret$52 = pve.l29(s, p.g1m(), p.u1l_1, shadow, element_6, item, target, Weather_NONE_getInstance());
+                var tmp$ret$52 = pve.h2a(s, p.g1m(), p.u1l_1, shadow, element_6, item, target, Weather_NONE_getInstance());
                 destination_6.h(tmp$ret$52);
               }
               var list = destination_6;
@@ -24307,10 +24606,10 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
                 tmp$ret$53 = maxElem;
                 break $l$block_4;
               }
-              var maxValue = maxElem.k23();
+              var maxValue = maxElem.g24();
               do {
                 var e = iterator.k();
-                var v = e.k23();
+                var v = e.g24();
                 if (compareTo(maxValue, v) < 0) {
                   maxElem = e;
                   maxValue = v;
@@ -24326,8 +24625,8 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
           // Inline function 'kotlin.comparisons.maxOf' call
           var a = p.u1l_1;
           var tmp$ret$56 = Math.max(a, 40.0);
-          var potential = pve.l29(final, tmp_11, tmp$ret$56, shadow, entry.d23_1.g23_1, entry.d23_1.h23_1, target, Weather_NONE_getInstance());
-          var _destruct__k2r9zo_1 = Upgrade_instance.p2i(p, Upgrade_instance.d2i(data, analyzer, p, s, final, entry), marks);
+          var potential = pve.h2a(final, tmp_11, tmp$ret$56, shadow, entry.z23_1.c24_1, entry.z23_1.d24_1, target, Weather_NONE_getInstance());
+          var _destruct__k2r9zo_1 = Upgrade_instance.l2j(p, Upgrade_instance.z2i(data, analyzer, p, s, final, entry), marks);
           var open = _destruct__k2r9zo_1.m9();
           var later = _destruct__k2r9zo_1.n9();
           var tmp_12;
@@ -24335,10 +24634,10 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
             tmp_12 = null;
           } else {
             // Inline function 'kotlin.let' call
-            tmp_12 = raidOverview$pct(ref, nowRating.k23());
+            tmp_12 = raidOverview$pct(ref, nowRating.g24());
           }
           var tmp6_elvis_lhs = tmp_12;
-          tmp$ret$24 = new RaidRow(p, s, final, type, tmp6_elvis_lhs == null ? 0 : tmp6_elvis_lhs, raidOverview$pct(ref, potential.k23()), open, later);
+          tmp$ret$24 = new RaidRow(p, s, final, type, tmp6_elvis_lhs == null ? 0 : tmp6_elvis_lhs, raidOverview$pct(ref, potential.g24()), open, later);
         }
         var tmp0_safe_receiver_3 = tmp$ret$24;
         if (tmp0_safe_receiver_3 == null)
@@ -24351,7 +24650,7 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
       // Inline function 'kotlin.collections.sortedByDescending' call
       // Inline function 'kotlin.comparisons.compareByDescending' call
       var tmp_13 = Upgrade$raidOverview$lambda;
-      var tmp$ret$62 = new sam$kotlin_Comparator$0_30(tmp_13);
+      var tmp$ret$62 = new sam$kotlin_Comparator$0_31(tmp_13);
       var tmp$ret$61 = sortedWith(destination_2, tmp$ret$62);
       var rows = take_0(tmp$ret$61, 6);
       var tmp_14;
@@ -24374,53 +24673,53 @@ protoOf(Upgrade).u2i = function (data, analyzer, saved, metas, marks) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_15 = Upgrade$raidOverview$lambda_0;
-  var tmp$ret$66 = new sam$kotlin_Comparator$0_30(tmp_15);
+  var tmp$ret$66 = new sam$kotlin_Comparator$0_31(tmp_15);
   return sortedWith(destination_1, tmp$ret$66);
 };
-protoOf(Upgrade).y27 = function (data, analyzer, saved, metas, marks, $super) {
+protoOf(Upgrade).u28 = function (data, analyzer, saved, metas, marks, $super) {
   marks = marks === VOID ? emptyMap() : marks;
-  return $super === VOID ? this.u2i(data, analyzer, saved, metas, marks) : $super.u2i.call(this, data, analyzer, saved, metas, marks);
+  return $super === VOID ? this.q2j(data, analyzer, saved, metas, marks) : $super.q2j.call(this, data, analyzer, saved, metas, marks);
 };
-protoOf(Upgrade).v2i = function (overview, limit) {
+protoOf(Upgrade).r2j = function (overview, limit) {
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
   var destination = ArrayList_init_$Create$_0();
   var _iterator__ex2g4s = overview.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    if (element.h2i() > 0) {
+    if (element.d2j() > 0) {
       destination.h(element);
     }
   }
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp = Upgrade$topGains$lambda;
-  var tmp$ret$4 = new sam$kotlin_Comparator$0_31(tmp);
+  var tmp$ret$4 = new sam$kotlin_Comparator$0_32(tmp);
   var tmp$ret$3 = sortedWith(destination, tmp$ret$4);
   return take_0(tmp$ret$3, limit);
 };
-protoOf(Upgrade).f2i = function (dust) {
+protoOf(Upgrade).b2j = function (dust) {
   return dust <= 10000 ? 25 : dust / 1000 | 0;
 };
-protoOf(Upgrade).w2i = function (p, done, data) {
+protoOf(Upgrade).s2j = function (p, done, data) {
   var tmp;
   if (done instanceof Level) {
-    var tmp1_safe_receiver = data.k1g().c2(done.d2h_1);
+    var tmp1_safe_receiver = data.k1g().c2(done.z2h_1);
     var tmp_0;
     if (tmp1_safe_receiver == null) {
       tmp_0 = null;
     } else {
       // Inline function 'kotlin.let' call
-      tmp_0 = p.o1n(tmp1_safe_receiver, done.e2h_1, data.t1g());
+      tmp_0 = p.o1n(tmp1_safe_receiver, done.a2i_1, data.t1g());
     }
     var tmp2_elvis_lhs = tmp_0;
     tmp = tmp2_elvis_lhs == null ? p : tmp2_elvis_lhs;
   } else {
     if (done instanceof Moves) {
-      tmp = p.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, done.f2h_1, done.g2h_1);
+      tmp = p.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, done.b2i_1, done.c2i_1);
     } else {
       if (done instanceof MaxAttack) {
-        tmp = p.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, done.h2h_1);
+        tmp = p.q1n(VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, VOID, done.d2i_1);
       } else {
         noWhenBranchMatchedException();
       }
@@ -24428,7 +24727,7 @@ protoOf(Upgrade).w2i = function (p, done, data) {
   }
   return tmp;
 };
-protoOf(Upgrade).e2i = function (c) {
+protoOf(Upgrade).a2j = function (c) {
   // Inline function 'kotlin.takeIf' call
   var this_0 = c.m1i_1;
   var tmp;
@@ -24443,7 +24742,7 @@ protoOf(Upgrade).e2i = function (c) {
     tmp_0 = null;
   } else {
     // Inline function 'kotlin.let' call
-    tmp_0 = Companion_getInstance_13().a22(tmp0_safe_receiver) + ' Sternenstaub';
+    tmp_0 = Companion_getInstance_13().w22(tmp0_safe_receiver) + ' Sternenstaub';
   }
   var tmp_1 = tmp_0;
   // Inline function 'kotlin.takeIf' call
@@ -24610,6 +24909,7 @@ export {
   GblSchedule_getInstance as GblSchedule_getInstance22qv3d5jjn0nk,
   Guide_getInstance as Guide_getInstance1z2a4xj7mocek,
   Ico_getInstance as Ico_getInstance3iublt2neve9k,
+  LegendForms_getInstance as LegendForms_getInstance1pxs2n7mxgy4n,
   MaxEvents_getInstance as MaxEvents_getInstanceiosd4396blqi,
   Mega_getInstance as Mega_getInstance1egnpm37ksfmh,
   MetaList_instance as MetaList_instance3b3ers187o40w,
