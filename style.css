@@ -699,3 +699,8 @@ button.round .ic { width: 22px; height: 22px; margin: 0; }
 .giga { display: flex; flex-direction: column; align-items: center; text-align: center; min-width: 0; }
 .giga-name { font-size: .72rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
 .giga .small { font-size: .65rem; }
+.start-grid.p-rose { --pt: var(--rose); --pt-t: var(--rose-t); }
+/* „Heute entwickeln“ ganz oben auf der Startseite (15.11.2026) */
+.evolve-today { background: var(--butter); }
+.evolve-today .list-title .ic { color: var(--butter-t); }
+.evolve-today .list-row { padding: 6px 0; }
