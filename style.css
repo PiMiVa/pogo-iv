@@ -619,3 +619,77 @@ nav.bottom button.scan .icon {
 }
 nav.bottom button.scan.on .icon { background: linear-gradient(var(--ink), var(--ink)) padding-box, var(--glow) border-box; color: #fff; }
 nav.bottom button.scan svg { width: 26px; height: 26px; fill: none; }
+
+/* ===== Redesign 2 (14.11.2026): nur Icons statt Emojis, obere Leiste mit Profil + Suche,
+   Seitentitel, Profil, smarte Suche, Team-Halbkreis. Gleiche Bausteine wie in der App. ===== */
+:root { --mint: #ddf4e6; --mint-t: #2a8550; }
+
+/* Icons (Material Symbols aus dem Kern) im Text und als Element */
+.ic { display: inline-flex; width: 1.15em; height: 1.15em; vertical-align: -0.2em; flex: none; }
+.ic svg { width: 100%; height: 100%; fill: currentColor; }
+.ic.muted { color: var(--muted); }
+.ic.chev { color: var(--muted); width: 20px; height: 20px; }
+button .ic { margin-right: 2px; }
+nav.bottom svg { fill: currentColor; }
+nav.bottom button .icon svg { width: 24px; height: 24px; }
+
+/* Obere Leiste */
+.topbar { max-width: 640px; margin: 0 auto; display: flex; align-items: center; gap: 10px; padding: calc(env(safe-area-inset-top) + 10px) 14px 4px; }
+.avatar { width: 44px; height: 44px; flex: 0 0 44px; border-radius: 50%; background: var(--lilac); color: var(--lilac-t);
+  display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.15rem; cursor: pointer; }
+.avatar .ic { width: 24px; height: 24px; }
+.avatar.big { width: 64px; height: 64px; flex-basis: 64px; font-size: 1.7rem; cursor: default; }
+.avatar.big .ic { width: 34px; height: 34px; }
+.search-pill { flex: 1; min-width: 0; height: 44px; border-radius: 999px; background: var(--mist); display: flex; align-items: center; gap: 8px;
+  padding: 0 14px; color: var(--muted); cursor: pointer; font-size: .9rem; }
+.search-pill span:not(.ic) { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.search-pill .ic { width: 20px; height: 20px; }
+.search-pill.input { background: #fff; border: 1px solid var(--ink); cursor: text; }
+.search-pill.input input { border: 0; background: none; padding: 0; height: 100%; outline: none; color: var(--ink); flex: 1; min-width: 0; width: auto; }
+.search-head { display: flex; align-items: center; gap: 8px; margin: 10px 0 4px; }
+button.round { width: 44px; height: 44px; min-height: 0; padding: 0; border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; }
+button.round .ic { width: 22px; height: 22px; margin: 0; }
+
+/* Seitentitel */
+.page-title { margin: 6px 4px 8px; }
+.page-title h1 { font-size: 1.75rem; font-weight: 800; letter-spacing: -.6px; margin: 0; line-height: 1.15; }
+.page-title .sub { color: var(--muted); font-size: .85rem; }
+
+/* Listen mit Icon-Kreis (Suche, Profil) */
+.list { background: #fff; border-radius: 24px; padding: 6px; display: flex; flex-direction: column; }
+.list-row { display: flex; align-items: center; gap: 12px; padding: 10px; border-radius: 18px; cursor: pointer; }
+.list-row:hover { background: var(--card-3); }
+.list-title { font-weight: 600; font-size: .98rem; }
+.bubble { width: 38px; height: 38px; flex: 0 0 38px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.bubble .ic { width: 20px; height: 20px; }
+.bubble.sky { background: var(--sky); color: var(--sky-t); }
+
+/* Profil */
+.profile-name { display: inline-flex; align-items: center; gap: 6px; font-size: 1.4rem; font-weight: 800; cursor: pointer; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 10px; margin: 10px 0; }
+.stat-grid .stat { flex: none; }
+.stat-icon .ic { width: 18px; height: 18px; }
+.stat.lilac .stat-icon { color: var(--lilac-t); } .stat.butter .stat-icon { color: var(--butter-t); }
+.stat.lime .stat-icon { color: var(--lime-t); } .stat.rose .stat-icon { color: var(--rose-t); }
+.stat.sky { background: var(--sky); } .stat.sky .stat-label, .stat.sky .stat-icon { color: var(--sky-t); }
+
+/* Startseite: Icon im Pastell-Kreis */
+.start-icon .ic { width: 20px; height: 20px; color: var(--pt-t); }
+
+/* Team-Halbkreis (wie „750 Remaining“ der Vorlage) */
+.team-gauge { display: flex; align-items: center; gap: 14px; padding: 12px 14px 6px; border-bottom: 1px solid var(--line); }
+.team-gauge .gauge { position: relative; width: 128px; flex: none; }
+.team-gauge.big { flex-direction: column; padding-top: 16px; }
+.team-gauge.big .gauge { width: 72%; max-width: 280px; }
+.gauge-svg svg { width: 100%; display: block; }
+.gauge-center { position: absolute; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; line-height: 1.1; }
+.gauge-center b { font-size: 1.25rem; font-weight: 800; letter-spacing: -.5px; }
+.team-gauge.big .gauge-center b { font-size: 1.9rem; }
+.gauge-center .trophy { color: var(--butter-t); width: 16px; height: 16px; }
+.team-gauge.big .gauge-center .trophy { width: 22px; height: 22px; }
+.metrics { display: flex; flex-direction: column; gap: 6px; }
+.team-gauge.big .metrics { flex-direction: row; justify-content: space-evenly; width: 100%; padding: 8px 0 6px; }
+.metric { display: flex; align-items: center; gap: 6px; }
+.metric .ic { width: 20px; height: 20px; }
+.metric-label { font-size: .7rem; color: var(--muted); }
+.metric-value { font-size: .9rem; font-weight: 700; }
