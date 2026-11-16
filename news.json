@@ -1,6 +1,41 @@
 {
- "generated": "2026-11-16T02:52:50Z",
+ "generated": "2026-11-16T11:45:20Z",
  "news": [
+  {
+   "title": "Pokémon GO Dynamax Trails: What to Farm First – Priority Guide",
+   "titleDe": "Pokémon GO Dynamax-Pfade: Was man zuerst farmen sollte – Prioritäten-Leitfaden",
+   "link": "https://pokemongohub.net/post/meta/pokemon-go-dynamax-trails-what-to-farm-first-priority-guide/",
+   "date": "Mon, 16 Nov 2026 08:19:04 +0000",
+   "categories": [
+    "Meta",
+    "abra",
+    "beldum",
+    "chansey",
+    "darumaka",
+    "deino",
+    "Dynamax",
+    "dynamax tier list",
+    "dynamax trails",
+    "dynamax trails meta",
+    "dynamax trails tier list",
+    "eevee",
+    "max battles",
+    "omanyte",
+    "priority guide",
+    "rookidee"
+   ]
+  },
+  {
+   "title": "Dynamax Trails: Eternatus Returns",
+   "titleDe": "Dynamax-Pfade: Eternatus kehrt zurück",
+   "link": "https://pokemongohub.net/post/event/dynamax-trails-eternatus-returns/",
+   "date": "Mon, 16 Nov 2026 08:00:04 +0000",
+   "categories": [
+    "Events",
+    "dynamax trails",
+    "eternatus"
+   ]
+  },
   {
    "title": "This Week in Pokémon GO (November 16-22): Dynamax Trails, Eternatus, Pawniard Community Day",
    "titleDe": "Diese Woche in Pokémon GO (16.–22. November): Dynamax-Pfade, Eternatus, Community Day mit Zurrokex",
@@ -203,6 +238,30 @@
    ]
   },
   {
+   "title": "Pokémon Sleep: Recipe List",
+   "titleDe": "Pokémon Schlaf: Rezeptliste",
+   "link": "https://pokemongohub.net/post/sleep/pokemon-sleep-recipe-list/",
+   "date": "Wed, 11 Nov 2026 08:00:45 +0000",
+   "categories": [
+    "Pokémon Sleep",
+    "pokemon sleep",
+    "pokemon sleep curry",
+    "pokemon sleep curry ingredients",
+    "pokemon sleep curry recipes",
+    "pokemon sleep dessert",
+    "pokemon sleep dessert ingredients",
+    "pokemon sleep dessert recipe",
+    "pokemon sleep drink ingredients",
+    "pokemon sleep drink recipes",
+    "pokemon sleep drinks",
+    "pokemon sleep ingredients",
+    "pokemon sleep recipes",
+    "pokemon sleep salad",
+    "pokemon sleep salad ingredients",
+    "pokemon sleep salad recipes"
+   ]
+  },
+  {
    "title": "How to Beat Dynamax Registeel: Best Counters & Guide",
    "titleDe": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
    "link": "https://pokemongohub.net/post/news/how-to-beat-dynamax-registeel-best-counters-guide/",
@@ -391,57 +450,12 @@
     "go wild area",
     "max battle"
    ]
-  },
-  {
-   "title": "Dynamax Palkia: A New Meta Tank Against Fire and Water Attacks",
-   "titleDe": "Dynamax Palkia: Ein neuer Meta-Tank gegen Feuer- und Wasserangriffe",
-   "link": "https://pokemongohub.net/post/meta/dynamax-palkia-how-good-is-it-in-max-battles/",
-   "date": "Sun, 08 Nov 2026 07:14:30 +0000",
-   "categories": [
-    "Article",
-    "Meta",
-    "dynamax palkia",
-    "go wild area",
-    "max meta",
-    "meta",
-    "palkia"
-   ]
-  },
-  {
-   "title": "Dynamax Dialga: How Good Is It in Max Battles?",
-   "titleDe": "Dynamax Dialga: Wie gut ist es in max. Kämpfen?",
-   "link": "https://pokemongohub.net/post/meta/dynamax-dialga-meta-analysis-how-good-is-it-in-max-battles/",
-   "date": "Sun, 08 Nov 2026 07:05:17 +0000",
-   "categories": [
-    "Guides",
-    "Meta",
-    "Dialga",
-    "dynamax dialga",
-    "go wild area 2026",
-    "max meta",
-    "meta",
-    "wild area"
-   ]
-  },
-  {
-   "title": "Hisuian Goodra Meta Guide: Is It Worth Building?",
-   "titleDe": "Hisuian Goodra Meta Guide: Lohnt es sich zu bauen?",
-   "link": "https://pokemongohub.net/post/meta/hisuian-goodra-meta-guide-is-it-worth-building/",
-   "date": "Sat, 07 Nov 2026 16:57:12 +0000",
-   "categories": [
-    "Meta",
-    "hisuian goodra",
-    "hisuian goodra meta",
-    "hisuian goodra pvp",
-    "mexico wild area",
-    "Pokémon GO Wild Area: Sendai • Tohoku"
-   ]
   }
  ],
  "events": {
   "pokemon-go-wild-area-2026-global": "Pokémon GO Wild Area 2026: Global",
   "go-wild-area-gigantamax-machamp-power-up-timed-research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
-  "max-mondays-2026-11-16": "Max. Montag: Pokémon wird bekannt gegeben",
+  "max-mondays-2026-11-16": "[Abgesagt] Max-Montag",
   "gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic-cup": "Great League, Ultra League: Mega Edition und 2026 GO LAIC Cup | Twilight Trails",
   "raidhour20261118": "Cresselia- und Darkrai-Raid-Stunde",
   "pokemonspotlighthour2026-11-19": "Grookey, Scorbunny und Sobble Spotlight Hour",
@@ -1539,7 +1553,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1550,7 +1564,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1561,7 +1575,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1572,7 +1586,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1583,7 +1597,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1594,7 +1608,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1620,7 +1634,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1649,7 +1663,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1678,7 +1692,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -2211,6 +2225,8 @@
   }
  ],
  "translations": {
+  "Pokémon GO Dynamax Trails: What to Farm First – Priority Guide": "Pokémon GO Dynamax-Pfade: Was man zuerst farmen sollte – Prioritäten-Leitfaden",
+  "Dynamax Trails: Eternatus Returns": "Dynamax-Pfade: Eternatus kehrt zurück",
   "This Week in Pokémon GO (November 16-22): Dynamax Trails, Eternatus, Pawniard Community Day": "Diese Woche in Pokémon GO (16.–22. November): Dynamax-Pfade, Eternatus, Community Day mit Zurrokex",
   "GO Pass Dynamax Trails": "GO Pass-Dynamax-Pfade",
   "Best Wild Pokémon to Catch at GO Wild Area 2026: Global": "Die besten wilden Pokémon, die man bei GO Wild Area 2026: Global fangen kann",
@@ -2226,6 +2242,7 @@
   "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
   "What Pokémon Should I Use My Silver Bottle Cap On?": "Auf welches Pokémon sollte ich meinen silbernen Flaschenverschluss aufsetzen?",
   "Pokémon Sleep: Good Sleep Day (November 2026)": "Pokémon Schlaf: Tag des guten Schlafs (November 2026)",
+  "Pokémon Sleep: Recipe List": "Pokémon Schlaf: Rezeptliste",
   "How to Beat Dynamax Registeel: Best Counters & Guide": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
   "Pokémon News This Week: Pokopia Expansion Pass, Fender Guitars Collaboration, Vivillon Challenge and More!": "Pokémon-Nachrichten diese Woche: Pokopia-Erweiterungspass, Fender-Gitarren-Kollaboration, Vivillon-Herausforderung und mehr!",
   "Silver Bottle Cap Guide": "Leitfaden für silberne Flaschenverschlüsse",
@@ -2238,9 +2255,6 @@
   "This Week in Pokémon GO (November 9–15): GO Wild Area Global, Into the Wild and Minior Showers": "Diese Woche in Pokémon GO (9.-15. November): GO Wild Area Global, Into the Wild und Minior Duschen",
   "Eternatus in Pokémon GO: Still a Game Changer for Raids and Max Battles?": "Eternatus in Pokémon GO: Immer noch ein Gamechanger für Raids und Max-Kämpfe?",
   "Gigantamax Duraludon: Towering Above Most In The Current Meta": "Gigantamax Duraludon: Überragt die meisten im aktuellen Meta",
-  "Dynamax Palkia: A New Meta Tank Against Fire and Water Attacks": "Dynamax Palkia: Ein neuer Meta-Tank gegen Feuer- und Wasserangriffe",
-  "Dynamax Dialga: How Good Is It in Max Battles?": "Dynamax Dialga: Wie gut ist es in max. Kämpfen?",
-  "Hisuian Goodra Meta Guide: Is It Worth Building?": "Hisuian Goodra Meta Guide: Lohnt es sich zu bauen?",
   "Pokémon GO Wild Area 2026: Global": "Pokémon GO Wild Area 2026: Global",
   "Chance to get GO Safari Balls from PokéStops and Gyms": "Chance, GO-Safari-Bälle von PokéStops und Fitnessstudios zu erhalten",
   "Up to 3 free Raid Passes per day from Gyms": "Bis zu 3 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
@@ -2261,7 +2275,7 @@
   "Up to 6 Special Trades per day": "Bis zu 6 Sondertrades pro Tag",
   "1/2 Stardust cost for trades": "1/2 Sternenstaubkosten für Tauschgeschäfte",
   "GO Wild Area: Gigantamax Machamp Power Up! Timed Research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
-  "Max Monday: Pokémon to be announced": "Max. Montag: Pokémon wird bekannt gegeben",
+  "[Canceled] Max Monday": "[Abgesagt] Max-Montag",
   "Great League, Ultra League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails": "Great League, Ultra League: Mega Edition und 2026 GO LAIC Cup | Twilight Trails",
   "Cresselia and Darkrai Raid Hour": "Cresselia- und Darkrai-Raid-Stunde",
   "Grookey, Scorbunny, and Sobble Spotlight Hour": "Grookey, Scorbunny und Sobble Spotlight Hour",
