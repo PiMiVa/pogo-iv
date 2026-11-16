@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T22:59:07Z",
+ "generated": "2026-11-16T02:52:50Z",
  "news": [
   {
    "title": "This Week in Pokémon GO (November 16-22): Dynamax Trails, Eternatus, Pawniard Community Day",
@@ -113,6 +113,27 @@
     "adventure effect tier list",
     "adventure effects",
     "what adventure effect to use during wild area"
+   ]
+  },
+  {
+   "title": "Golurk Raid Guide",
+   "titleDe": "Golgantes-Raid-Guide",
+   "link": "https://pokemongohub.net/post/guide/golurk-raid-guide/",
+   "date": "Thu, 12 Nov 2026 00:26:43 +0000",
+   "categories": [
+    "Guides"
+   ]
+  },
+  {
+   "title": "Liepard Raid Guide",
+   "titleDe": "Leitfaden für den Angriff von Leoparden",
+   "link": "https://pokemongohub.net/post/guide/liepard-raid-guide/",
+   "date": "Thu, 12 Nov 2026 00:16:11 +0000",
+   "categories": [
+    "Guides",
+    "liepard",
+    "liepard counters",
+    "liepard raid"
    ]
   },
   {
@@ -415,30 +436,6 @@
     "mexico wild area",
     "Pokémon GO Wild Area: Sendai • Tohoku"
    ]
-  },
-  {
-   "title": "Free Gigantamax Machamp Timed Research Available This Weekend Only!",
-   "titleDe": "Kostenlose zeitlich begrenzte Gigantamax-Machamp-Forschung nur an diesem Wochenende verfügbar!",
-   "link": "https://pokemongohub.net/post/news/free-gigantamax-machamp-timed-research-available-this-weekend-only/",
-   "date": "Fri, 06 Nov 2026 05:09:29 +0000",
-   "categories": [
-    "News",
-    "Research",
-    "free timed research",
-    "gigantamax machamp",
-    "gigantamax machamp timed research",
-    "go wild area",
-    "wild area"
-   ]
-  },
-  {
-   "title": "Super Mega Clefable Raid Day",
-   "titleDe": "Super-Mega-Clefable-Raid-Tag",
-   "link": "https://pokemongohub.net/post/event/super-mega-clefable-raid-day/",
-   "date": "Thu, 05 Nov 2026 18:14:11 +0000",
-   "categories": [
-    "Events"
-   ]
   }
  ],
  "events": {
@@ -727,7 +724,7 @@
     }
    ],
    "ticket": "US$11.99",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Chance, GO-Safari-Bälle von PokéStops und Fitnessstudios zu erhalten",
     "Bis zu 3 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
@@ -758,7 +755,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -769,7 +766,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -780,7 +777,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -805,7 +802,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -831,7 +828,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -849,7 +846,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Power Spots werden häufiger aktualisiert",
     "Maximales Partikel-Sammellimit auf 2.400 erhöht",
@@ -898,7 +895,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Erhöhte Spawns",
     "1/4 Eischlupf-Abstand",
@@ -914,6 +911,56 @@
   "dynamax-trails-2026": {
    "v": 2,
    "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "Wild Encounters",
+       "pokemon": [
+        "Bulbasaur",
+        "Charmander",
+        "Squirtle",
+        "Caterpie",
+        "Pikachu",
+        "Growlithe",
+        "Abra",
+        "Machop",
+        "Gastly",
+        "Krabby",
+        "Hitmonlee",
+        "Hitmonchan",
+        "Rhyhorn",
+        "Chansey",
+        "Electabuzz",
+        "Magmar",
+        "Magikarp",
+        "Eevee",
+        "Omanyte",
+        "Kabuto",
+        "Hoothoot",
+        "Shuckle",
+        "Sneasel",
+        "Hitmontop",
+        "Ralts",
+        "Sableye",
+        "Wailmer",
+        "Trapinch",
+        "Feebas",
+        "Spheal",
+        "Beldum",
+        "Combee",
+        "Pidove",
+        "Roggenrola",
+        "Woobat",
+        "Drilbur",
+        "Excadrill",
+        "Cottonee",
+        "Darumaka",
+        "Trubbish"
+       ]
+      }
+     ]
+    },
     {
      "id": "max-battles",
      "groups": [
@@ -978,7 +1025,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
     "Es werden mehr Power Spots als üblich aktiv sein"
@@ -992,7 +1039,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1028,7 +1075,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1063,7 +1110,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1074,7 +1121,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1097,7 +1144,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1141,7 +1188,7 @@
    ],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Das Remote-Raid-Limit wurde von Freitag, 27. November, 17:00 Uhr auf Samstag, 28. November 2026, 20:00 Uhr PST auf 20 erhöht.",
     "Erhalte bis zu sechs kostenlose Raid-Pässe von drehenden Fitnessstudio-Fotodiscs",
@@ -1238,7 +1285,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Erhöhte Chance, Shiny Staryu und Shiny Elgyem zu begegnen",
     "Erhöhte Chance, Glückspokémon im Handel zu erhalten",
@@ -1255,7 +1302,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1278,7 +1325,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1318,7 +1365,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1353,7 +1400,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1364,7 +1411,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1375,7 +1422,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1401,7 +1448,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1415,7 +1462,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1426,7 +1473,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1437,7 +1484,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1448,7 +1495,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1459,7 +1506,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1470,7 +1517,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1481,7 +1528,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-15",
+   "fetched": "2026-11-16",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1640,6 +1687,10 @@
   }
  },
  "research": {
+  "Catch 8 Pokémon": "Fange 8 Pokémon",
+  "Power up Pokémon 8 times": "Verstärke Pokémon 8-mal",
+  "Explore 1 km": "Entdecken 1",
+  "Win a Max Battle": "Gewinne einen Max-Kampf",
   "Catch 2 mighty Pokémon": "Fange 2 mächtige Pokémon",
   "Catch 10 Steel-type Pokémon": "Fange 10 Pokémon vom Typ Stahl",
   "Catch 4 different species of Steel-type Pokémon": "Fange 4 verschiedene Arten von Pokémon vom Typ Stahl",
@@ -2168,6 +2219,8 @@
   "How to Beat Dynamax Latios: Best Counters & Guide": "So besiegt man Dynamax-Latios: Die besten Konter und ein Leitfaden",
   "How to Beat Dynamax Latias: Best Counters & Guide": "So besiegt man Dynamax-Latias: Die besten Konter und ein Leitfaden",
   "Which Adventure Effect Should I Use During Pokémon GO Wild Area: Global 2026?": "Welchen Abenteuer-Effekt sollte ich während der Pokémon GO Wildgebiete: Global 2026 verwenden?",
+  "Golurk Raid Guide": "Golgantes-Raid-Guide",
+  "Liepard Raid Guide": "Leitfaden für den Angriff von Leoparden",
   "How to beat Dynamax Regidrago: Complete Guide": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
   "Minior Showers: Leonid (November 2026)": "Kleine Duschen: Leonid (November 2026)",
   "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
@@ -2188,8 +2241,6 @@
   "Dynamax Palkia: A New Meta Tank Against Fire and Water Attacks": "Dynamax Palkia: Ein neuer Meta-Tank gegen Feuer- und Wasserangriffe",
   "Dynamax Dialga: How Good Is It in Max Battles?": "Dynamax Dialga: Wie gut ist es in max. Kämpfen?",
   "Hisuian Goodra Meta Guide: Is It Worth Building?": "Hisuian Goodra Meta Guide: Lohnt es sich zu bauen?",
-  "Free Gigantamax Machamp Timed Research Available This Weekend Only!": "Kostenlose zeitlich begrenzte Gigantamax-Machamp-Forschung nur an diesem Wochenende verfügbar!",
-  "Super Mega Clefable Raid Day": "Super-Mega-Clefable-Raid-Tag",
   "Pokémon GO Wild Area 2026: Global": "Pokémon GO Wild Area 2026: Global",
   "Chance to get GO Safari Balls from PokéStops and Gyms": "Chance, GO-Safari-Bälle von PokéStops und Fitnessstudios zu erhalten",
   "Up to 3 free Raid Passes per day from Gyms": "Bis zu 3 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
@@ -2304,6 +2355,10 @@
   "Max Particles Giveaway - Day 3": "Max.-Partikel-Geschenk – Tag 3",
   "Max Particles Giveaway - Day 2": "Max-Partikel-Geschenk – Tag 2",
   "Max Particles Giveaway - Day 1": "Max-Partikel-Geschenk – Tag 1",
+  "Catch 8 Pokémon": "Fange 8 Pokémon",
+  "Power up Pokémon 8 times": "Verstärke Pokémon 8-mal",
+  "Explore 1 km": "Entdecken 1",
+  "Win a Max Battle": "Gewinne einen Max-Kampf",
   "Catch 2 mighty Pokémon": "Fange 2 mächtige Pokémon",
   "Catch 10 Steel-type Pokémon": "Fange 10 Pokémon vom Typ Stahl",
   "Catch 4 different species of Steel-type Pokémon": "Fange 4 verschiedene Arten von Pokémon vom Typ Stahl",
