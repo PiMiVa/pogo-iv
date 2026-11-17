@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T22:20:22Z",
+ "generated": "2026-11-17T04:39:20Z",
  "news": [
   {
    "title": "Pokémon GO x Crocs Promo Codes!",
@@ -481,6 +481,7 @@
   "minior-showers-geminids-2026": "Kleine Duschen: Geminiden 2026",
   "raid-day-december-2026": "Raid-Tag",
   "hatch-day-december-2026": "Schraffurtag",
+  "duolingo-timed-research-2026": "Zeitlich begrenzte Forschungsstudie zu Pokémon GO und Duolingo",
   "january-communitydayclassic2027": "Klassischer Community Day im Januar",
   "super-mega-raid-day-january-2027": "Super-Mega-Raid-Tag",
   "pokemon-x-adidas-2026": "adidas × Pokémon Zeitgesteuerte Forschung",
@@ -736,7 +737,7 @@
     }
    ],
    "ticket": "US$11.99",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Chance, GO-Safari-Bälle von PokéStops und Fitnessstudios zu erhalten",
     "Bis zu 3 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
@@ -767,7 +768,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -778,7 +779,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -789,7 +790,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -814,7 +815,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -840,7 +841,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -858,7 +859,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Power Spots werden häufiger aktualisiert",
     "Maximales Partikel-Sammellimit auf 2.400 erhöht",
@@ -907,7 +908,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Erhöhte Spawns",
     "1/4 Eischlupf-Abstand",
@@ -965,10 +966,10 @@
         "Roggenrola",
         "Woobat",
         "Drilbur",
-        "Excadrill",
         "Cottonee",
         "Darumaka",
-        "Trubbish"
+        "Trubbish",
+        "Cryogonal"
        ]
       }
      ]
@@ -1015,10 +1016,10 @@
         "Roggenrola",
         "Woobat",
         "Drilbur",
-        "Excadrill",
         "Cottonee",
         "Darumaka",
-        "Trubbish"
+        "Trubbish",
+        "Cryogonal"
        ]
       },
       {
@@ -1037,7 +1038,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
     "Es werden mehr Power Spots als üblich aktiv sein"
@@ -1051,7 +1052,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1087,7 +1088,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1122,7 +1123,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1133,7 +1134,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1156,7 +1157,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1200,7 +1201,7 @@
    ],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Das Remote-Raid-Limit wurde von Freitag, 27. November, 17:00 Uhr auf Samstag, 28. November 2026, 20:00 Uhr PST auf 20 erhöht.",
     "Erhalte bis zu sechs kostenlose Raid-Pässe von drehenden Fitnessstudio-Fotodiscs",
@@ -1297,7 +1298,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Erhöhte Chance, Shiny Staryu und Shiny Elgyem zu begegnen",
     "Erhöhte Chance, Glückspokémon im Handel zu erhalten",
@@ -1314,7 +1315,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1337,7 +1338,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1377,7 +1378,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1412,7 +1413,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1423,7 +1424,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1434,7 +1435,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1460,7 +1461,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1474,7 +1475,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1485,7 +1486,33 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "duolingo-timed-research-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "research",
+     "groups": [
+      {
+       "title": "Timed Research",
+       "pokemon": [
+        "Pikachu",
+        "Meowth",
+        "Chatot",
+        "Lucario"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1496,7 +1523,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1507,7 +1534,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1518,7 +1545,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1529,7 +1556,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1857,6 +1884,7 @@
   "Minior Showers: Geminids 2026": "Kleine Duschen: Geminiden 2026",
   "Raid Day": "Raid-Tag",
   "Hatch Day": "Schraffurtag",
+  "Pokémon GO and Duolingo Timed Research": "Zeitlich begrenzte Forschungsstudie zu Pokémon GO und Duolingo",
   "January Community Day Classic": "Klassischer Community Day im Januar",
   "Super Mega Raid Day": "Super-Mega-Raid-Tag",
   "adidas × Pokémon Timed Research": "adidas × Pokémon Zeitgesteuerte Forschung",
