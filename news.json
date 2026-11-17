@@ -1,6 +1,33 @@
 {
- "generated": "2026-11-17T04:39:20Z",
+ "generated": "2026-11-17T14:40:37Z",
  "news": [
+  {
+   "title": "PvP Tips and Tricks: GBL LAIC Cup",
+   "titleDe": "PvP-Tipps und -Tricks: GBL-LAIC-Cup",
+   "link": "https://pokemongohub.net/post/meta/pvp-tips-and-tricks-gbl-laic-cup/",
+   "date": "Tue, 17 Nov 2026 13:28:46 +0000",
+   "categories": [
+    "Meta",
+    "Trainer Battles",
+    "laic",
+    "laic meta",
+    "laic pvp",
+    "Nifty or Thrifty",
+    "pvp meta"
+   ]
+  },
+  {
+   "title": "Pokémon GO × Duolingo: Duo’s Pokémon Party, Timed Research & Language Tag",
+   "titleDe": "Pokémon GO × Duolingo: Duos Pokémon-Party, zeitlich begrenzte Forschung und Sprach-Tag",
+   "link": "https://pokemongohub.net/post/event/pokemon-go-x-duolingo-duos-pokemon-party-timed-research-language-tag/",
+   "date": "Tue, 17 Nov 2026 06:11:34 +0000",
+   "categories": [
+    "Events",
+    "duolingo",
+    "language tag",
+    "timed research"
+   ]
+  },
   {
    "title": "Pokémon GO x Crocs Promo Codes!",
    "titleDe": "Pokémon GO x Crocs-Promo-Codes!",
@@ -412,46 +439,9 @@
     "into the wild 2026",
     "silver bottle cap"
    ]
-  },
-  {
-   "title": "This Week in Pokémon GO (November 9–15): GO Wild Area Global, Into the Wild and Minior Showers",
-   "titleDe": "Diese Woche in Pokémon GO (9.-15. November): GO Wild Area Global, Into the Wild und Minior Duschen",
-   "link": "https://pokemongohub.net/post/event/this-week-in-pokemon-go-november-9-15-go-wild-area-global-into-the-wild-and-minior-showers/",
-   "date": "Sun, 08 Nov 2026 11:23:51 +0000",
-   "categories": [
-    "Events",
-    "News",
-    "dynamax regidrago hour",
-    "dynamax registeel hour",
-    "This Week in Pokémon GO"
-   ]
-  },
-  {
-   "title": "Eternatus in Pokémon GO: Still a Game Changer for Raids and Max Battles?",
-   "titleDe": "Eternatus in Pokémon GO: Immer noch ein Gamechanger für Raids und Max-Kämpfe?",
-   "link": "https://pokemongohub.net/post/meta/eternatus-pve/",
-   "date": "Sun, 08 Nov 2026 08:56:57 +0000",
-   "categories": [
-    "Meta",
-    "best dragon type pokemon go",
-    "dragon",
-    "dragon type pokemon",
-    "dragon types",
-    "dynamax cannon",
-    "eternatus",
-    "eternatus in pve",
-    "eternatus in raids",
-    "eternatus meta",
-    "legendary pokemon",
-    "mega rayquaza",
-    "poison type pokemon",
-    "pve guide",
-    "pve meta"
-   ]
   }
  ],
  "events": {
-  "pokemon-go-wild-area-2026-global": "Pokémon GO Wild Area 2026: Global",
   "go-wild-area-gigantamax-machamp-power-up-timed-research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
   "max-mondays-2026-11-16": "[Abgesagt] Max-Montag",
   "gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic-cup": "Great League, Ultra League: Mega Edition und 2026 GO LAIC Cup | Twilight Trails",
@@ -498,269 +488,6 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "details": {
-  "pokemon-go-wild-area-2026-global": {
-   "v": 2,
-   "sections": [
-    {
-     "id": "spawns",
-     "groups": [
-      {
-       "title": "Solid as Steel Hour",
-       "pokemon": [
-        "Alolan Sandshrew",
-        "Alolan Diglett",
-        "Magnemite",
-        "Shellder",
-        "Onix",
-        "Porygon",
-        "Shuckle",
-        "Skarmory",
-        "Nosepass",
-        "Aron",
-        "Beldum",
-        "Piplup",
-        "Shieldon",
-        "Bronzor",
-        "Lucario",
-        "Drilbur",
-        "Ferroseed",
-        "Klink",
-        "Galarian Stunfisk",
-        "Durant",
-        "Rookidee",
-        "Tinkatink"
-       ]
-      },
-      {
-       "title": "Daring as Dragons Hour",
-       "pokemon": [
-        "Charmander",
-        "Magikarp",
-        "Dratini",
-        "Gligar",
-        "Trapinch",
-        "Swablu",
-        "Barboach",
-        "Bagon",
-        "Gible",
-        "Tynamo",
-        "Axew",
-        "Heatmor",
-        "Deino",
-        "Skrelp",
-        "Tyrunt",
-        "Amaura",
-        "Goomy",
-        "Noibat",
-        "Turtonator",
-        "Jangmo-o",
-        "Sizzlipede",
-        "Frigibax"
-       ]
-      },
-      {
-       "title": "Mighty Pokémon: Saturday, November 14",
-       "pokemon": [
-        "Alolan Exeggutor",
-        "Scizor",
-        "Flygon",
-        "Walrein",
-        "Metagross",
-        "Empoleon",
-        "Magnezone",
-        "Conkeldurr",
-        "Haxorus"
-       ]
-      },
-      {
-       "title": "Mighty Pokémon: Sunday, November 15",
-       "pokemon": [
-        "Azumarill",
-        "Kingdra",
-        "Aggron",
-        "Ferrothorn",
-        "Hydreigon",
-        "Goodra",
-        "Noivern",
-        "Tinkaton",
-        "Clodsire"
-       ]
-      },
-      {
-       "title": "Incense Encounters",
-       "pokemon": [
-        "Alolan Exeggutor",
-        "Azumarill",
-        "Scizor",
-        "Kingdra",
-        "Aggron",
-        "Flygon",
-        "Empoleon",
-        "Magnezone",
-        "Conkeldurr",
-        "Hydreigon"
-       ]
-      },
-      {
-       "title": "Ticket Holder Incense Encounters",
-       "pokemon": [
-        "Unown W",
-        "Unown I",
-        "Unown L",
-        "Unown D",
-        "Latias",
-        "Latios"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "eggs",
-     "groups": [
-      {
-       "title": "10 km Eggs",
-       "pokemon": [
-        "Honedge",
-        "Klefki",
-        "Drampa",
-        "Duraludon"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "Three-Star Raids",
-       "pokemon": [
-        "Modern Jacket Machamp"
-       ]
-      },
-      {
-       "title": "Five-Star Raids: Saturday, November 14",
-       "pokemon": [
-        "Zekrom",
-        "Kyurem (White)"
-       ]
-      },
-      {
-       "title": "Five-Star Raids: Sunday, November 15",
-       "pokemon": [
-        "Reshiram",
-        "Kyurem (Black)"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "max-battles",
-     "groups": [
-      {
-       "title": "Six-Star Max Battles",
-       "pokemon": [
-        "Gigantamax Duraludon"
-       ]
-      },
-      {
-       "title": "Saturday, November 14",
-       "pokemon": [
-        "Dialga"
-       ]
-      },
-      {
-       "title": "Sunday, November 15",
-       "pokemon": [
-        "Palkia"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [
-    "Chance to get GO Safari Balls from PokéStops and Gyms",
-    "Up to 3 free Raid Passes per day from Gyms",
-    "Daily Max Particle collection limit increased to 1,600",
-    "3 GO Snapshot surprise encounters per day",
-    "Party Play lasts for 8 hours",
-    "Chance to encounter mighty Pokémon on Routes"
-   ],
-   "ticketBonuses": [
-    "Increased chance to encounter Shiny Pokémon*",
-    "Daily Max Particle collection limit increased to 3,200",
-    "Increased Max Particles from Power Spots and exploration**",
-    "Up to 6 free Raid Passes per day from Gyms",
-    "GO Safari Balls instead of Premier Balls for raids and Max Battles***",
-    "2× Candy for catching Pokémon",
-    "2× Incense duration",
-    "Increased chance of 10 km Eggs from PokéStops and Gyms",
-    "6 GO Snapshot surprise encounters per day",
-    "Lure Modules last for 2 hours",
-    "Up to 6 Special Trades per day",
-    "1/2 Stardust cost for trades"
-   ],
-   "moves": [
-    {
-     "pokemon": "Modern Jacket Machamp",
-     "move": "Karate Chop",
-     "fast": true
-    },
-    {
-     "pokemon": "Flygon",
-     "move": "Earth Power",
-     "fast": false
-    },
-    {
-     "pokemon": "Metagross",
-     "move": "Meteor Mash",
-     "fast": false
-    },
-    {
-     "pokemon": "Magnezone",
-     "move": "Magnet Bomb",
-     "fast": false
-    },
-    {
-     "pokemon": "Haxorus",
-     "move": "Breaking Swipe",
-     "fast": false
-    },
-    {
-     "pokemon": "Hydreigon",
-     "move": "Brutal Swing",
-     "fast": false
-    },
-    {
-     "pokemon": "Tinkaton",
-     "move": "Gigaton Hammer",
-     "fast": false
-    }
-   ],
-   "ticket": "US$11.99",
-   "fetched": "2026-11-17",
-   "bonusesDe": [
-    "Chance, GO-Safari-Bälle von PokéStops und Fitnessstudios zu erhalten",
-    "Bis zu 3 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
-    "Tägliches maximales Partikel-Sammellimit auf 1.600 erhöht",
-    "3 GO Snapshot Überraschungsbegegnungen pro Tag",
-    "Party-Spiel dauert 8 Stunden",
-    "Chance, mächtige Pokémon auf Routen zu treffen"
-   ],
-   "ticketBonusesDe": [
-    "Erhöhte Chance, glänzenden Pokémon zu begegnen *",
-    "Tägliches maximales Partikel-Sammellimit auf 3.200 erhöht",
-    "Erhöhte max. Partikel von Kraftpunkten und Erkundung**",
-    "Bis zu 6 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
-    "GO-Safari-Bälle anstelle von Premier-Bällen für Raids und Max-Kämpfe * **",
-    "2× Süßigkeiten zum Fangen von Pokémon",
-    "2× Räucherstäbchendauer",
-    "Erhöhte Chance auf 10-km-Eier von PokéStops und Arenen",
-    "6 GO-Snapshot-Überraschungsbegegnungen pro Tag",
-    "Lure-Module halten 2 Stunden an",
-    "Bis zu 6 Sondertrades pro Tag",
-    "1/2 Sternenstaubkosten für Tauschgeschäfte"
-   ]
-  },
   "go-wild-area-gigantamax-machamp-power-up-timed-research": {
    "v": 2,
    "sections": [],
@@ -1567,7 +1294,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1578,7 +1305,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1589,7 +1316,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1600,7 +1327,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1611,7 +1338,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1622,7 +1349,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1633,7 +1360,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1659,7 +1386,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1688,7 +1415,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1717,7 +1444,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-16",
+   "fetched": "2026-11-17",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1730,18 +1457,6 @@
   "Power up Pokémon 8 times": "Verstärke Pokémon 8-mal",
   "Explore 1 km": "Entdecken 1",
   "Win a Max Battle": "Gewinne einen Max-Kampf",
-  "Catch 2 mighty Pokémon": "Fange 2 mächtige Pokémon",
-  "Catch 10 Steel-type Pokémon": "Fange 10 Pokémon vom Typ Stahl",
-  "Catch 4 different species of Steel-type Pokémon": "Fange 4 verschiedene Arten von Pokémon vom Typ Stahl",
-  "Use a Steel-type Charged Attack in a battle": "Verwende in einem Kampf eine Attacke vom Typ Stahl",
-  "Win 2 Max Battles": "Gewinne 2 Max-Kämpfe",
-  "Hatch an Egg": "Ein Ei ausbrüten",
-  "Power up Steel-type Pokémon 5 times": "Verbessere 5 Mal Pokémon vom Typ Stahl",
-  "Catch 10 Dragon-type Pokémon": "Fange 10 Pokémon vom Typ Drache",
-  "Catch 4 different species of Dragon-type Pokémon": "Fange 4 verschiedene Arten von Pokémon des Typs Drache",
-  "Use a Dragon-type Charged Attack in a battle": "Verwende in einem Kampf eine Volltreffer-Attacke vom Typ Drache",
-  "Win 2 raids": "Gewinne 2 Raids",
-  "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -1761,6 +1476,7 @@
   "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
   "Win 5 raids": "Gewinne 5 Raids",
   "Explore 2 km": "2 km erkunden",
+  "Hatch an Egg": "Ein Ei ausbrüten",
   "Hatch 2 Eggs": "Schlüpfe 2 Eier",
   "Spin 3 PokéStops or Gyms": "Drehe 3 PokéStops oder Fitnessstudios",
   "Spin 5 PokéStops": "Drehe 5 PokéStops",
@@ -1778,6 +1494,8 @@
  },
  "codes": [],
  "translations": {
+  "PvP Tips and Tricks: GBL LAIC Cup": "PvP-Tipps und -Tricks: GBL-LAIC-Cup",
+  "Pokémon GO × Duolingo: Duo’s Pokémon Party, Timed Research & Language Tag": "Pokémon GO × Duolingo: Duos Pokémon-Party, zeitlich begrenzte Forschung und Sprach-Tag",
   "Pokémon GO x Crocs Promo Codes!": "Pokémon GO x Crocs-Promo-Codes!",
   "Pokémon GO Dynamax Trails: What to Farm First – Priority Guide": "Pokémon GO Dynamax-Pfade: Was man zuerst farmen sollte – Prioritäten-Leitfaden",
   "Dynamax Trails: Eternatus Returns": "Dynamax-Pfade: Eternatus kehrt zurück",
@@ -1806,27 +1524,6 @@
   "Pokémon Sleep: Dream Shard Week Vol.3 Event": "Pokémon-Schlaf: Traumscherbenwoche Vol.3-Event",
   "GO Pass: Into the Wild": "GO-Pass: In die Wildnis",
   "Pokémon GO Into the Wild (2026)": "Pokémon gehen in die Wildnis (2026)",
-  "This Week in Pokémon GO (November 9–15): GO Wild Area Global, Into the Wild and Minior Showers": "Diese Woche in Pokémon GO (9.-15. November): GO Wild Area Global, Into the Wild und Minior Duschen",
-  "Eternatus in Pokémon GO: Still a Game Changer for Raids and Max Battles?": "Eternatus in Pokémon GO: Immer noch ein Gamechanger für Raids und Max-Kämpfe?",
-  "Pokémon GO Wild Area 2026: Global": "Pokémon GO Wild Area 2026: Global",
-  "Chance to get GO Safari Balls from PokéStops and Gyms": "Chance, GO-Safari-Bälle von PokéStops und Fitnessstudios zu erhalten",
-  "Up to 3 free Raid Passes per day from Gyms": "Bis zu 3 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
-  "Daily Max Particle collection limit increased to 1,600": "Tägliches maximales Partikel-Sammellimit auf 1.600 erhöht",
-  "3 GO Snapshot surprise encounters per day": "3 GO Snapshot Überraschungsbegegnungen pro Tag",
-  "Party Play lasts for 8 hours": "Party-Spiel dauert 8 Stunden",
-  "Chance to encounter mighty Pokémon on Routes": "Chance, mächtige Pokémon auf Routen zu treffen",
-  "Increased chance to encounter Shiny Pokémon*": "Erhöhte Chance, glänzenden Pokémon zu begegnen *",
-  "Daily Max Particle collection limit increased to 3,200": "Tägliches maximales Partikel-Sammellimit auf 3.200 erhöht",
-  "Increased Max Particles from Power Spots and exploration**": "Erhöhte max. Partikel von Kraftpunkten und Erkundung**",
-  "Up to 6 free Raid Passes per day from Gyms": "Bis zu 6 kostenlose Raid-Pässe pro Tag aus Fitnessstudios",
-  "GO Safari Balls instead of Premier Balls for raids and Max Battles***": "GO-Safari-Bälle anstelle von Premier-Bällen für Raids und Max-Kämpfe * **",
-  "2× Candy for catching Pokémon": "2× Süßigkeiten zum Fangen von Pokémon",
-  "2× Incense duration": "2× Räucherstäbchendauer",
-  "Increased chance of 10 km Eggs from PokéStops and Gyms": "Erhöhte Chance auf 10-km-Eier von PokéStops und Arenen",
-  "6 GO Snapshot surprise encounters per day": "6 GO-Snapshot-Überraschungsbegegnungen pro Tag",
-  "Lure Modules last for 2 hours": "Lure-Module halten 2 Stunden an",
-  "Up to 6 Special Trades per day": "Bis zu 6 Sondertrades pro Tag",
-  "1/2 Stardust cost for trades": "1/2 Sternenstaubkosten für Tauschgeschäfte",
   "GO Wild Area: Gigantamax Machamp Power Up! Timed Research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
   "[Canceled] Max Monday": "[Abgesagt] Max-Montag",
   "Great League, Ultra League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails": "Great League, Ultra League: Mega Edition und 2026 GO LAIC Cup | Twilight Trails",
@@ -1900,18 +1597,6 @@
   "Power up Pokémon 8 times": "Verstärke Pokémon 8-mal",
   "Explore 1 km": "Entdecken 1",
   "Win a Max Battle": "Gewinne einen Max-Kampf",
-  "Catch 2 mighty Pokémon": "Fange 2 mächtige Pokémon",
-  "Catch 10 Steel-type Pokémon": "Fange 10 Pokémon vom Typ Stahl",
-  "Catch 4 different species of Steel-type Pokémon": "Fange 4 verschiedene Arten von Pokémon vom Typ Stahl",
-  "Use a Steel-type Charged Attack in a battle": "Verwende in einem Kampf eine Attacke vom Typ Stahl",
-  "Win 2 Max Battles": "Gewinne 2 Max-Kämpfe",
-  "Hatch an Egg": "Ein Ei ausbrüten",
-  "Power up Steel-type Pokémon 5 times": "Verbessere 5 Mal Pokémon vom Typ Stahl",
-  "Catch 10 Dragon-type Pokémon": "Fange 10 Pokémon vom Typ Drache",
-  "Catch 4 different species of Dragon-type Pokémon": "Fange 4 verschiedene Arten von Pokémon des Typs Drache",
-  "Use a Dragon-type Charged Attack in a battle": "Verwende in einem Kampf eine Volltreffer-Attacke vom Typ Drache",
-  "Win 2 raids": "Gewinne 2 Raids",
-  "Power up Dragon-type Pokémon 5 times": "Stärke Drachen-Pokémon 5 Mal",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -1931,6 +1616,7 @@
   "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
   "Win 5 raids": "Gewinne 5 Raids",
   "Explore 2 km": "2 km erkunden",
+  "Hatch an Egg": "Ein Ei ausbrüten",
   "Hatch 2 Eggs": "Schlüpfe 2 Eier",
   "Spin 3 PokéStops or Gyms": "Drehe 3 PokéStops oder Fitnessstudios",
   "Spin 5 PokéStops": "Drehe 5 PokéStops",
