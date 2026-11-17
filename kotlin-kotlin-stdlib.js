@@ -112,23 +112,23 @@ initMetadataForClass(AbstractCollection, 'AbstractCollection', VOID, VOID, [Coll
 initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [Collection, MutableIterable]);
 initMetadataForClass(IteratorImpl, 'IteratorImpl');
 initMetadataForClass(ListIteratorImpl, 'ListIteratorImpl', VOID, IteratorImpl);
-initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [KtList, MutableIterable, Collection]);
+initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [Collection, KtList, MutableIterable]);
 initMetadataForClass(AbstractMap, 'AbstractMap', VOID, VOID, [KtMap]);
 initMetadataForClass(AbstractMutableMap, 'AbstractMutableMap', VOID, AbstractMap, [KtMutableMap]);
-initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [KtSet, MutableIterable, Collection]);
+initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [KtSet, Collection, MutableIterable]);
 initMetadataForCompanion(Companion_2);
 initMetadataForInterface(RandomAccess, 'RandomAccess');
-initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [KtList, MutableIterable, Collection, RandomAccess]);
+initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [Collection, KtList, MutableIterable, RandomAccess]);
 initMetadataForClass(HashMap, 'HashMap', HashMap_init_$Create$, AbstractMutableMap, [KtMutableMap]);
-initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [KtSet, MutableIterable, Collection]);
+initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
 initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [Collection, MutableIterable]);
-initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [KtSet, MutableIterable, Collection]);
+initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
 initMetadataForClass(HashMapEntrySet, 'HashMapEntrySet', VOID, HashMapEntrySetBase);
 initMetadataForClass(HashMapKeysDefault$iterator$1);
 initMetadataForClass(HashMapKeysDefault, 'HashMapKeysDefault', VOID, AbstractMutableSet);
 initMetadataForClass(HashMapValuesDefault$iterator$1);
 initMetadataForClass(HashMapValuesDefault, 'HashMapValuesDefault', VOID, AbstractMutableCollection);
-initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [KtSet, MutableIterable, Collection]);
+initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
 initMetadataForCompanion(Companion_3);
 initMetadataForClass(Itr, 'Itr');
 initMetadataForClass(KeysItr, 'KeysItr', VOID, Itr);
@@ -174,7 +174,7 @@ initMetadataForInterface(InternalMap, 'InternalMap');
 initMetadataForClass(InternalHashMap, 'InternalHashMap', InternalHashMap_init_$Create$, VOID, [InternalMap]);
 initMetadataForObject(EmptyHolder, 'EmptyHolder');
 initMetadataForClass(LinkedHashMap, 'LinkedHashMap', LinkedHashMap_init_$Create$, HashMap, [KtMutableMap]);
-initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [KtSet, MutableIterable, Collection]);
+initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [KtSet, Collection, MutableIterable]);
 initMetadataForInterface(Continuation, 'Continuation');
 initMetadataForClass(InterceptedCoroutine, 'InterceptedCoroutine', VOID, VOID, [Continuation]);
 initMetadataForClass(CoroutineImpl, 'CoroutineImpl', VOID, InterceptedCoroutine, [Continuation]);
@@ -944,9 +944,6 @@ function zip(_this__u8e3s4, other) {
   }
   return list;
 }
-function withIndex_0(_this__u8e3s4) {
-  return new IndexingIterable(withIndex$lambda_0(_this__u8e3s4));
-}
 function drop(_this__u8e3s4, n) {
   // Inline function 'kotlin.require' call
   if (!(n >= 0)) {
@@ -1001,6 +998,9 @@ function drop(_this__u8e3s4, n) {
 }
 function distinct(_this__u8e3s4) {
   return toList_0(toMutableSet(_this__u8e3s4));
+}
+function withIndex_0(_this__u8e3s4) {
+  return new IndexingIterable(withIndex$lambda_0(_this__u8e3s4));
 }
 function singleOrNull(_this__u8e3s4) {
   return _this__u8e3s4.l() === 1 ? _this__u8e3s4.r(0) : null;
@@ -1163,6 +1163,18 @@ function contains_5(_this__u8e3s4, element) {
     return _this__u8e3s4.t(element);
   return indexOf_5(_this__u8e3s4, element) >= 0;
 }
+function maxOrNull(_this__u8e3s4) {
+  var iterator = _this__u8e3s4.i();
+  if (!iterator.j())
+    return null;
+  var max = iterator.k();
+  while (iterator.j()) {
+    var e = iterator.k();
+    if (compareTo(max, e) < 0)
+      max = e;
+  }
+  return max;
+}
 function firstOrNull_0(_this__u8e3s4) {
   if (isInterface(_this__u8e3s4, KtList)) {
     if (_this__u8e3s4.q())
@@ -1186,18 +1198,6 @@ function max(_this__u8e3s4) {
     // Inline function 'kotlin.comparisons.maxOf' call
     var a = max;
     max = Math.max(a, e);
-  }
-  return max;
-}
-function maxOrNull(_this__u8e3s4) {
-  var iterator = _this__u8e3s4.i();
-  if (!iterator.j())
-    return null;
-  var max = iterator.k();
-  while (iterator.j()) {
-    var e = iterator.k();
-    if (compareTo(max, e) < 0)
-      max = e;
   }
   return max;
 }
@@ -1439,6 +1439,21 @@ function plus_2(_this__u8e3s4, element) {
   result.h(element);
   return result;
 }
+function plus_3(_this__u8e3s4, elements) {
+  var tmp0_safe_receiver = collectionSizeOrNull(elements);
+  var tmp;
+  if (tmp0_safe_receiver == null) {
+    tmp = null;
+  } else {
+    // Inline function 'kotlin.let' call
+    tmp = _this__u8e3s4.l() + tmp0_safe_receiver | 0;
+  }
+  var tmp1_elvis_lhs = tmp;
+  var result = LinkedHashSet_init_$Create$_1(mapCapacity(tmp1_elvis_lhs == null ? imul_0(_this__u8e3s4.l(), 2) : tmp1_elvis_lhs));
+  result.p(_this__u8e3s4);
+  addAll(result, elements);
+  return result;
+}
 function minus_1(_this__u8e3s4, elements) {
   var other = convertToListIfNotCollection(elements);
   if (other.q())
@@ -1457,21 +1472,6 @@ function minus_1(_this__u8e3s4, elements) {
   }
   var result = LinkedHashSet_init_$Create$_0(_this__u8e3s4);
   result.k1(other);
-  return result;
-}
-function plus_3(_this__u8e3s4, elements) {
-  var tmp0_safe_receiver = collectionSizeOrNull(elements);
-  var tmp;
-  if (tmp0_safe_receiver == null) {
-    tmp = null;
-  } else {
-    // Inline function 'kotlin.let' call
-    tmp = _this__u8e3s4.l() + tmp0_safe_receiver | 0;
-  }
-  var tmp1_elvis_lhs = tmp;
-  var result = LinkedHashSet_init_$Create$_1(mapCapacity(tmp1_elvis_lhs == null ? imul_0(_this__u8e3s4.l(), 2) : tmp1_elvis_lhs));
-  result.p(_this__u8e3s4);
-  addAll(result, elements);
   return result;
 }
 function take_1(_this__u8e3s4, n) {
@@ -13521,6 +13521,9 @@ protoOf(Triple).equals = function (other) {
     return false;
   return true;
 };
+function toList_3(_this__u8e3s4) {
+  return listOf_0([_this__u8e3s4.k9_1, _this__u8e3s4.l9_1]);
+}
 function Companion_16() {
   Companion_instance_16 = this;
   this.yc_1 = new Uuid(new Long(0, 0), new Long(0, 0));
@@ -14949,6 +14952,7 @@ export {
   Exception as Exceptiondt2hlxn7j7vw,
   IllegalArgumentException as IllegalArgumentException2asla15b5jaob,
   Long as Long2qws0ah9gnpki,
+  Pair as Paire9pteg33gng7,
   Result as Result3t1vadv16kmzk,
   RuntimeException as RuntimeException1r3t0zl97011n,
   THROW_CCE as THROW_CCE2g6jy02ryeudk,
@@ -14976,6 +14980,7 @@ export {
   lazy_0 as lazy2hsh8ze7j6ikd,
   noWhenBranchMatchedException as noWhenBranchMatchedException2a6r7ubxgky5j,
   plus_4 as plus17rl43at52ays,
+  toList_3 as toList2vkrbx8s6dfjs,
   toString_0 as toString30pk9tzaqopn,
   to as to2cs3ny02qtbcb,
 };
