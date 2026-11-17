@@ -4,7 +4,7 @@ import {
   VOID3gxj6tk5isa35 as VOID,
   initMetadataForClassbxx6q50dy2s7 as initMetadataForClass,
   toString30pk9tzaqopn as toString,
-} from './kotlin-kotlin-stdlib.js?v=1794915751800';
+} from './kotlin-kotlin-stdlib.js?v=1794916536903';
 //region block: imports
 //endregion
 //region block: pre-declaration
@@ -37,10 +37,10 @@ protoOf(atomicfu$TraceBase).atomicfu$Trace$append$4 = function (event1, event2, 
 function AtomicRef(value) {
   this.kotlinx$atomicfu$value = value;
 }
-protoOf(AtomicRef).b2n = function (_set____db54di) {
+protoOf(AtomicRef).i2n = function (_set____db54di) {
   this.kotlinx$atomicfu$value = _set____db54di;
 };
-protoOf(AtomicRef).c2n = function () {
+protoOf(AtomicRef).j2n = function () {
   return this.kotlinx$atomicfu$value;
 };
 protoOf(AtomicRef).atomicfu$compareAndSet = function (expect, update) {
@@ -63,10 +63,10 @@ function atomic$ref$1(initial) {
 function AtomicBoolean(value) {
   this.kotlinx$atomicfu$value = value;
 }
-protoOf(AtomicBoolean).d2n = function (_set____db54di) {
+protoOf(AtomicBoolean).k2n = function (_set____db54di) {
   this.kotlinx$atomicfu$value = _set____db54di;
 };
-protoOf(AtomicBoolean).c2n = function () {
+protoOf(AtomicBoolean).j2n = function () {
   return this.kotlinx$atomicfu$value;
 };
 protoOf(AtomicBoolean).atomicfu$compareAndSet = function (expect, update) {
@@ -89,10 +89,10 @@ function atomic$boolean$1(initial) {
 function AtomicInt(value) {
   this.kotlinx$atomicfu$value = value;
 }
-protoOf(AtomicInt).e2n = function (_set____db54di) {
+protoOf(AtomicInt).l2n = function (_set____db54di) {
   this.kotlinx$atomicfu$value = _set____db54di;
 };
-protoOf(AtomicInt).c2n = function () {
+protoOf(AtomicInt).j2n = function () {
   return this.kotlinx$atomicfu$value;
 };
 protoOf(AtomicInt).atomicfu$compareAndSet = function (expect, update) {
