@@ -9028,15 +9028,6 @@ function IndexingIterable(iteratorFactory) {
 protoOf(IndexingIterable).i = function () {
   return new IndexingIterator(this.de_1());
 };
-function flatten(_this__u8e3s4) {
-  var result = ArrayList_init_$Create$();
-  var _iterator__ex2g4s = _this__u8e3s4.i();
-  while (_iterator__ex2g4s.j()) {
-    var element = _iterator__ex2g4s.k();
-    addAll(result, element);
-  }
-  return result;
-}
 function collectionSizeOrNull(_this__u8e3s4) {
   var tmp;
   if (isInterface(_this__u8e3s4, Collection)) {
@@ -9045,6 +9036,15 @@ function collectionSizeOrNull(_this__u8e3s4) {
     tmp = null;
   }
   return tmp;
+}
+function flatten(_this__u8e3s4) {
+  var result = ArrayList_init_$Create$();
+  var _iterator__ex2g4s = _this__u8e3s4.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    addAll(result, element);
+  }
+  return result;
 }
 function IndexingIterator(iterator) {
   this.ee_1 = iterator;
@@ -10503,15 +10503,15 @@ function padStart(_this__u8e3s4, length, padChar) {
   padChar = padChar === VOID ? _Char___init__impl__6a9atx(32) : padChar;
   return toString_1(padStart_0(isCharSequence(_this__u8e3s4) ? _this__u8e3s4 : THROW_CCE(), length, padChar));
 }
-function substringBefore(_this__u8e3s4, delimiter, missingDelimiterValue) {
-  missingDelimiterValue = missingDelimiterValue === VOID ? _this__u8e3s4 : missingDelimiterValue;
-  var index = indexOf_8(_this__u8e3s4, delimiter);
-  return index === -1 ? missingDelimiterValue : substring(_this__u8e3s4, 0, index);
-}
 function substringAfter(_this__u8e3s4, delimiter, missingDelimiterValue) {
   missingDelimiterValue = missingDelimiterValue === VOID ? _this__u8e3s4 : missingDelimiterValue;
   var index = indexOf_8(_this__u8e3s4, delimiter);
   return index === -1 ? missingDelimiterValue : substring(_this__u8e3s4, index + 1 | 0, _this__u8e3s4.length);
+}
+function substringBefore(_this__u8e3s4, delimiter, missingDelimiterValue) {
+  missingDelimiterValue = missingDelimiterValue === VOID ? _this__u8e3s4 : missingDelimiterValue;
+  var index = indexOf_8(_this__u8e3s4, delimiter);
+  return index === -1 ? missingDelimiterValue : substring(_this__u8e3s4, 0, index);
 }
 function substringAfter_0(_this__u8e3s4, delimiter, missingDelimiterValue) {
   missingDelimiterValue = missingDelimiterValue === VOID ? _this__u8e3s4 : missingDelimiterValue;
