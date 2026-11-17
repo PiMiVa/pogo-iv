@@ -704,3 +704,13 @@ button.round .ic { width: 22px; height: 22px; margin: 0; }
 .evolve-today { background: var(--butter); }
 .evolve-today .list-title .ic { color: var(--butter-t); }
 .evolve-today .list-row { padding: 6px 0; }
+
+/* Meta voll ausgeschrieben, gruener Name = hast du (Wunsch des Besitzers 17.11.2026) */
+.meta-row .grow .small { white-space: normal; overflow: visible; }
+.name.have, .meta-name.have, .giga-name.have { color: var(--good); }
+.meta-name { font-weight: 700; }
+.giga-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 12px; }
+.giga { flex-direction: row; align-items: center; text-align: left; gap: 8px; }
+.giga > div:last-child { min-width: 0; }
+.giga-name { font-size: .85rem; font-weight: 700; white-space: normal; overflow: visible; }
+.giga .small { font-size: .72rem; }

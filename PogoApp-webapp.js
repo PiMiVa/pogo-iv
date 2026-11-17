@@ -139,7 +139,7 @@ import {
   coerceIn1xblvmyr0tby6 as coerceIn,
   until1jbpn0z3f8lbg as until,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1794749365031';
+} from './kotlin-kotlin-stdlib.js?v=1794907774788';
 import {
   Variant_NORMAL_getInstance23fgbcbkjs7l7 as Variant_NORMAL_getInstance,
   Cleanup_instance32xjuxulytgi8 as Cleanup_instance,
@@ -254,7 +254,7 @@ import {
   PageSettle21idp888bmz3 as PageSettle,
   Last3mxaoe9u97sp1 as Last,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1794749365031';
+} from './PogoApp-core.js?v=1794907774788';
 import {
   launch1c91vkjzdi9sd as launch,
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
@@ -263,9 +263,9 @@ import {
   MainScope1gi1r4abhrtmm as MainScope,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1794749365031';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794749365031';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794749365031';
+} from './kotlinx-coroutines-core.js?v=1794907774788';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794907774788';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794907774788';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -8701,7 +8701,7 @@ function TeamView$metaPanel$lambda$lambda_2($filter, $draw) {
 }
 function TeamView$metaPanel$lambda$lambda$lambda($r) {
   return function ($this$add) {
-    add_0($this$add, 'div', '', $r.d25()).style.fontWeight = '600';
+    add_0($this$add, 'div', $r.y24_1.equals(Own_HAVE_getInstance()) ? 'meta-name have' : 'meta-name', $r.d25());
     add_0($this$add, 'div', 'small', joinToString($r.x24_1, ' \xB7 '));
     switch ($r.y24_1.k2_1) {
       case 0:
@@ -13666,9 +13666,9 @@ function RaidView$attackerRow$lambda$lambda($uid) {
     return Unit_instance;
   };
 }
-function RaidView$attackerRow$lambda$lambda$lambda($a, $mine) {
+function RaidView$attackerRow$lambda$lambda$lambda($mine, $a) {
   return function ($this$add) {
-    add_0($this$add, 'span', 'name grow', $a.y23_1.c1f_1 + ($a.z23_1 ? ' (Crypto)' : ''));
+    add_0($this$add, 'span', !$mine && owned(RaidView_getInstance(), $a) ? 'name grow have' : 'name grow', $a.y23_1.c1f_1 + ($a.z23_1 ? ' (Crypto)' : ''));
     var tmp;
     if ($mine) {
       ivTriple($this$add, $a.a24_1);
@@ -13696,7 +13696,7 @@ function RaidView$attackerRow$lambda$lambda$lambda_0($a) {
 }
 function RaidView$attackerRow$lambda$lambda_0($a, $best, $mine) {
   return function ($this$add) {
-    add_0($this$add, 'div', 'line', VOID, RaidView$attackerRow$lambda$lambda$lambda($a, $mine));
+    add_0($this$add, 'div', 'line', VOID, RaidView$attackerRow$lambda$lambda$lambda($mine, $a));
     moveRow($this$add, $a.y23_1, listOf_0([$a.c24_1.f24_1.b1k_1, $a.c24_1.g24_1.b1k_1]));
     scoreBar($this$add, $a.c24_1.j24() / $best, 'var(--accent)');
     var tmp;
@@ -13791,8 +13791,8 @@ function maxMeta$mine(saved, e) {
 }
 function RaidView$maxMeta$lambda$lambda$lambda($e, $families, $saved) {
   return function ($this$add) {
-    add_0($this$add, 'div', '', $e.n22_1.c1f_1 + ($e.o22_1 ? ' (G-Max)' : '')).style.fontWeight = '600';
     var have = maxMeta$mine($saved, $e);
+    add_0($this$add, 'div', have ? 'meta-name have' : 'meta-name', $e.n22_1.c1f_1 + ($e.o22_1 ? ' (G-Max)' : ''));
     var fam = !have && $families.t(Store_getInstance().r2y().f1h($e.n22_1.a1f_1));
     var tmp;
     if ($e.o22_1) {
@@ -20245,10 +20245,9 @@ function MetaView$forms$lambda($r) {
     return Unit_instance;
   };
 }
-function MetaView$forms$lambda$lambda$lambda_0($s, $have, $fam) {
+function MetaView$forms$lambda$lambda$lambda$lambda($have, $s, $fam) {
   return function ($this$add) {
-    sprite($this$add, $s, 44);
-    add_0($this$add, 'div', 'giga-name', $s.c1f_1);
+    add_0($this$add, 'div', $have ? 'giga-name have' : 'giga-name', $s.c1f_1);
     var tmp = $have ? 'small good' : 'small';
     var tmp_0 = $have ? '[i:check] ' : $fam ? '[i:contrast] ' : '';
     var tmp0 = Store_getInstance().b2x().c1g_1;
@@ -20262,6 +20261,13 @@ function MetaView$forms$lambda$lambda$lambda_0($s, $have, $fam) {
       var tmp0_elvis_lhs_0 = $s.p1f_1;
       tmp_1.color = typeColor(tmp0_elvis_lhs_0 == null ? '' : tmp0_elvis_lhs_0);
     }
+    return Unit_instance;
+  };
+}
+function MetaView$forms$lambda$lambda$lambda_0($s, $have, $fam) {
+  return function ($this$add) {
+    sprite($this$add, $s, 40);
+    add_0($this$add, 'div', VOID, VOID, MetaView$forms$lambda$lambda$lambda$lambda($have, $s, $fam));
     return Unit_instance;
   };
 }
