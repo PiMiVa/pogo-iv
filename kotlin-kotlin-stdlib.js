@@ -109,26 +109,26 @@ initMetadataForObject(Letter, 'Letter');
 initMetadataForInterface(Comparator, 'Comparator');
 initMetadataForObject(Unit, 'Unit');
 initMetadataForClass(AbstractCollection, 'AbstractCollection', VOID, VOID, [Collection]);
-initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [Collection, MutableIterable]);
+initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [MutableIterable, Collection]);
 initMetadataForClass(IteratorImpl, 'IteratorImpl');
 initMetadataForClass(ListIteratorImpl, 'ListIteratorImpl', VOID, IteratorImpl);
-initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [Collection, MutableIterable, KtList]);
+initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [MutableIterable, KtList, Collection]);
 initMetadataForClass(AbstractMap, 'AbstractMap', VOID, VOID, [KtMap]);
 initMetadataForClass(AbstractMutableMap, 'AbstractMutableMap', VOID, AbstractMap, [KtMutableMap]);
-initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [KtSet, Collection, MutableIterable]);
+initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [MutableIterable, KtSet, Collection]);
 initMetadataForCompanion(Companion_2);
 initMetadataForInterface(RandomAccess, 'RandomAccess');
-initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [Collection, MutableIterable, KtList, RandomAccess]);
+initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [MutableIterable, KtList, Collection, RandomAccess]);
 initMetadataForClass(HashMap, 'HashMap', HashMap_init_$Create$, AbstractMutableMap, [KtMutableMap]);
-initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
-initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [Collection, MutableIterable]);
-initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
+initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [MutableIterable, KtSet, Collection]);
+initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [MutableIterable, Collection]);
+initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [MutableIterable, KtSet, Collection]);
 initMetadataForClass(HashMapEntrySet, 'HashMapEntrySet', VOID, HashMapEntrySetBase);
 initMetadataForClass(HashMapKeysDefault$iterator$1);
 initMetadataForClass(HashMapKeysDefault, 'HashMapKeysDefault', VOID, AbstractMutableSet);
 initMetadataForClass(HashMapValuesDefault$iterator$1);
 initMetadataForClass(HashMapValuesDefault, 'HashMapValuesDefault', VOID, AbstractMutableCollection);
-initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
+initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [MutableIterable, KtSet, Collection]);
 initMetadataForCompanion(Companion_3);
 initMetadataForClass(Itr, 'Itr');
 initMetadataForClass(KeysItr, 'KeysItr', VOID, Itr);
@@ -141,7 +141,7 @@ function containsAllEntries(m) {
     // Inline function 'kotlin.collections.all' call
     var tmp;
     if (isInterface(m, Collection)) {
-      tmp = m.q();
+      tmp = m.r();
     } else {
       tmp = false;
     }
@@ -174,7 +174,7 @@ initMetadataForInterface(InternalMap, 'InternalMap');
 initMetadataForClass(InternalHashMap, 'InternalHashMap', InternalHashMap_init_$Create$, VOID, [InternalMap]);
 initMetadataForObject(EmptyHolder, 'EmptyHolder');
 initMetadataForClass(LinkedHashMap, 'LinkedHashMap', LinkedHashMap_init_$Create$, HashMap, [KtMutableMap]);
-initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [KtSet, Collection, MutableIterable]);
+initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [MutableIterable, KtSet, Collection]);
 initMetadataForInterface(Continuation, 'Continuation');
 initMetadataForClass(InterceptedCoroutine, 'InterceptedCoroutine', VOID, VOID, [Continuation]);
 initMetadataForClass(CoroutineImpl, 'CoroutineImpl', VOID, InterceptedCoroutine, [Continuation]);
@@ -762,6 +762,31 @@ function minOrNull(_this__u8e3s4) {
   }
   return min;
 }
+function toList_0(_this__u8e3s4) {
+  if (isInterface(_this__u8e3s4, Collection)) {
+    var tmp;
+    switch (_this__u8e3s4.l()) {
+      case 0:
+        tmp = emptyList();
+        break;
+      case 1:
+        var tmp_0;
+        if (isInterface(_this__u8e3s4, KtList)) {
+          tmp_0 = _this__u8e3s4.q(0);
+        } else {
+          tmp_0 = _this__u8e3s4.i().k();
+        }
+
+        tmp = listOf(tmp_0);
+        break;
+      default:
+        tmp = toMutableList(_this__u8e3s4);
+        break;
+    }
+    return tmp;
+  }
+  return optimizeReadOnlyList(toMutableList_0(_this__u8e3s4));
+}
 function take(_this__u8e3s4, n) {
   // Inline function 'kotlin.require' call
   if (!(n >= 0)) {
@@ -789,9 +814,9 @@ function take(_this__u8e3s4, n) {
   return optimizeReadOnlyList(list);
 }
 function first(_this__u8e3s4) {
-  if (_this__u8e3s4.q())
+  if (_this__u8e3s4.r())
     throw NoSuchElementException_init_$Create$_0('List is empty.');
-  return _this__u8e3s4.r(0);
+  return _this__u8e3s4.q(0);
 }
 function sorted(_this__u8e3s4) {
   if (isInterface(_this__u8e3s4, Collection)) {
@@ -805,7 +830,7 @@ function sorted(_this__u8e3s4) {
     return asList(this_0);
   }
   // Inline function 'kotlin.apply' call
-  var this_1 = toMutableList(_this__u8e3s4);
+  var this_1 = toMutableList_0(_this__u8e3s4);
   sort_0(this_1);
   return this_1;
 }
@@ -831,7 +856,7 @@ function toSet_0(_this__u8e3s4) {
       case 1:
         var tmp_0;
         if (isInterface(_this__u8e3s4, KtList)) {
-          tmp_0 = _this__u8e3s4.r(0);
+          tmp_0 = _this__u8e3s4.q(0);
         } else {
           tmp_0 = _this__u8e3s4.i().k();
         }
@@ -846,31 +871,6 @@ function toSet_0(_this__u8e3s4) {
   }
   return optimizeReadOnlySet(toCollection_0(_this__u8e3s4, LinkedHashSet_init_$Create$()));
 }
-function toList_0(_this__u8e3s4) {
-  if (isInterface(_this__u8e3s4, Collection)) {
-    var tmp;
-    switch (_this__u8e3s4.l()) {
-      case 0:
-        tmp = emptyList();
-        break;
-      case 1:
-        var tmp_0;
-        if (isInterface(_this__u8e3s4, KtList)) {
-          tmp_0 = _this__u8e3s4.r(0);
-        } else {
-          tmp_0 = _this__u8e3s4.i().k();
-        }
-
-        tmp = listOf(tmp_0);
-        break;
-      default:
-        tmp = toMutableList_0(_this__u8e3s4);
-        break;
-    }
-    return tmp;
-  }
-  return optimizeReadOnlyList(toMutableList(_this__u8e3s4));
-}
 function sortedWith(_this__u8e3s4, comparator) {
   if (isInterface(_this__u8e3s4, Collection)) {
     if (_this__u8e3s4.l() <= 1)
@@ -883,12 +883,12 @@ function sortedWith(_this__u8e3s4, comparator) {
     return asList(this_0);
   }
   // Inline function 'kotlin.apply' call
-  var this_1 = toMutableList(_this__u8e3s4);
+  var this_1 = toMutableList_0(_this__u8e3s4);
   sortWith_0(this_1, comparator);
   return this_1;
 }
 function firstOrNull(_this__u8e3s4) {
-  return _this__u8e3s4.q() ? null : _this__u8e3s4.r(0);
+  return _this__u8e3s4.r() ? null : _this__u8e3s4.q(0);
 }
 function minus(_this__u8e3s4, element) {
   var result = ArrayList_init_$Create$_0(collectionSizeOrDefault(_this__u8e3s4, 10));
@@ -911,9 +911,9 @@ function minus(_this__u8e3s4, element) {
   return result;
 }
 function last(_this__u8e3s4) {
-  if (_this__u8e3s4.q())
+  if (_this__u8e3s4.r())
     throw NoSuchElementException_init_$Create$_0('List is empty.');
-  return _this__u8e3s4.r(get_lastIndex_3(_this__u8e3s4));
+  return _this__u8e3s4.q(get_lastIndex_3(_this__u8e3s4));
 }
 function toMutableSet(_this__u8e3s4) {
   var tmp;
@@ -925,7 +925,7 @@ function toMutableSet(_this__u8e3s4) {
   return tmp;
 }
 function getOrNull_0(_this__u8e3s4, index) {
-  return (0 <= index ? index < _this__u8e3s4.l() : false) ? _this__u8e3s4.r(index) : null;
+  return (0 <= index ? index < _this__u8e3s4.l() : false) ? _this__u8e3s4.q(index) : null;
 }
 function zip(_this__u8e3s4, other) {
   // Inline function 'kotlin.collections.zip' call
@@ -968,7 +968,7 @@ function drop(_this__u8e3s4, n) {
           do {
             var index = inductionVariable;
             inductionVariable = inductionVariable + 1 | 0;
-            list.h(_this__u8e3s4.r(index));
+            list.h(_this__u8e3s4.q(index));
           }
            while (inductionVariable < last);
       } else {
@@ -1003,7 +1003,7 @@ function withIndex_0(_this__u8e3s4) {
   return new IndexingIterable(withIndex$lambda_0(_this__u8e3s4));
 }
 function singleOrNull(_this__u8e3s4) {
-  return _this__u8e3s4.l() === 1 ? _this__u8e3s4.r(0) : null;
+  return _this__u8e3s4.l() === 1 ? _this__u8e3s4.q(0) : null;
 }
 function toCollection_0(_this__u8e3s4, destination) {
   var _iterator__ex2g4s = _this__u8e3s4.i();
@@ -1012,6 +1012,14 @@ function toCollection_0(_this__u8e3s4, destination) {
     destination.h(item);
   }
   return destination;
+}
+function toMutableList(_this__u8e3s4) {
+  return ArrayList_init_$Create$_1(_this__u8e3s4);
+}
+function toMutableList_0(_this__u8e3s4) {
+  if (isInterface(_this__u8e3s4, Collection))
+    return toMutableList(_this__u8e3s4);
+  return toCollection_0(_this__u8e3s4, ArrayList_init_$Create$());
 }
 function first_0(_this__u8e3s4) {
   if (isInterface(_this__u8e3s4, KtList))
@@ -1022,14 +1030,6 @@ function first_0(_this__u8e3s4) {
       throw NoSuchElementException_init_$Create$_0('Collection is empty.');
     return iterator.k();
   }
-}
-function toMutableList(_this__u8e3s4) {
-  if (isInterface(_this__u8e3s4, Collection))
-    return toMutableList_0(_this__u8e3s4);
-  return toCollection_0(_this__u8e3s4, ArrayList_init_$Create$());
-}
-function toMutableList_0(_this__u8e3s4) {
-  return ArrayList_init_$Create$_1(_this__u8e3s4);
 }
 function last_0(_this__u8e3s4) {
   if (isInterface(_this__u8e3s4, KtList))
@@ -1067,7 +1067,7 @@ function single_1(_this__u8e3s4) {
     case 0:
       throw NoSuchElementException_init_$Create$_0('List is empty.');
     case 1:
-      tmp = _this__u8e3s4.r(0);
+      tmp = _this__u8e3s4.q(0);
       break;
     default:
       throw IllegalArgumentException_init_$Create$_0('List has more than one element.');
@@ -1177,10 +1177,10 @@ function maxOrNull(_this__u8e3s4) {
 }
 function firstOrNull_0(_this__u8e3s4) {
   if (isInterface(_this__u8e3s4, KtList)) {
-    if (_this__u8e3s4.q())
+    if (_this__u8e3s4.r())
       return null;
     else
-      return _this__u8e3s4.r(0);
+      return _this__u8e3s4.q(0);
   } else {
     var iterator = _this__u8e3s4.i();
     if (!iterator.j())
@@ -1228,7 +1228,7 @@ function indexOf_5(_this__u8e3s4, element) {
   return -1;
 }
 function lastOrNull(_this__u8e3s4) {
-  return _this__u8e3s4.q() ? null : _this__u8e3s4.r(_this__u8e3s4.l() - 1 | 0);
+  return _this__u8e3s4.r() ? null : _this__u8e3s4.q(_this__u8e3s4.l() - 1 | 0);
 }
 function withIndex$lambda_0($this_withIndex) {
   return function () {
@@ -1456,7 +1456,7 @@ function plus_3(_this__u8e3s4, elements) {
 }
 function minus_1(_this__u8e3s4, elements) {
   var other = convertToListIfNotCollection(elements);
-  if (other.q())
+  if (other.r())
     return toSet_0(_this__u8e3s4);
   if (isInterface(other, KtSet)) {
     // Inline function 'kotlin.collections.filterNotTo' call
@@ -3890,7 +3890,7 @@ protoOf(IteratorImpl).k = function () {
   var _unary__edvuaz = this.p3_1;
   this.p3_1 = _unary__edvuaz + 1 | 0;
   tmp.q3_1 = _unary__edvuaz;
-  return this.r3_1.r(this.q3_1);
+  return this.r3_1.q(this.q3_1);
 };
 protoOf(IteratorImpl).o3 = function () {
   // Inline function 'kotlin.check' call
@@ -3917,7 +3917,7 @@ protoOf(ListIteratorImpl).a4 = function () {
   var tmp = this;
   this.p3_1 = this.p3_1 - 1 | 0;
   tmp.q3_1 = this.p3_1;
-  return this.x3_1.r(this.q3_1);
+  return this.x3_1.q(this.q3_1);
 };
 function AbstractMutableList() {
   AbstractMutableCollection.call(this);
@@ -4135,7 +4135,7 @@ protoOf(ArrayList).s4 = function (minCapacity) {
 protoOf(ArrayList).l = function () {
   return this.n_1.length;
 };
-protoOf(ArrayList).r = function (index) {
+protoOf(ArrayList).q = function (index) {
   return this.n_1[rangeCheck(this, index)];
 };
 protoOf(ArrayList).l3 = function (index, element) {
@@ -4161,7 +4161,7 @@ protoOf(ArrayList).b4 = function (index, element) {
 };
 protoOf(ArrayList).p = function (elements) {
   this.n3();
-  if (elements.q())
+  if (elements.r())
     return false;
   var offset = increaseLength(this, elements.l());
   // Inline function 'kotlin.collections.forEachIndexed' call
@@ -4439,7 +4439,7 @@ function HashMapKeys(backing) {
 protoOf(HashMapKeys).l = function () {
   return this.b5_1.l();
 };
-protoOf(HashMapKeys).q = function () {
+protoOf(HashMapKeys).r = function () {
   return this.b5_1.l() === 0;
 };
 protoOf(HashMapKeys).t = function (element) {
@@ -4467,7 +4467,7 @@ function HashMapValues(backing) {
 protoOf(HashMapValues).l = function () {
   return this.f5_1.l();
 };
-protoOf(HashMapValues).q = function () {
+protoOf(HashMapValues).r = function () {
   return this.f5_1.l() === 0;
 };
 protoOf(HashMapValues).g5 = function (element) {
@@ -4509,7 +4509,7 @@ function HashMapEntrySetBase(backing) {
 protoOf(HashMapEntrySetBase).l = function () {
   return this.l5_1.l();
 };
-protoOf(HashMapEntrySetBase).q = function () {
+protoOf(HashMapEntrySetBase).r = function () {
   return this.l5_1.l() === 0;
 };
 protoOf(HashMapEntrySetBase).n5 = function (element) {
@@ -4678,7 +4678,7 @@ protoOf(HashSet).i2 = function () {
 protoOf(HashSet).t = function (element) {
   return this.g1_1.a5(element);
 };
-protoOf(HashSet).q = function () {
+protoOf(HashSet).r = function () {
   return this.g1_1.l() === 0;
 };
 protoOf(HashSet).i = function () {
@@ -4976,7 +4976,7 @@ function putEntry($this, entry) {
   return false;
 }
 function putAllEntries($this, from) {
-  if (from.q())
+  if (from.r())
     return false;
   ensureExtraCapacity($this, from.l());
   var it = from.i();
@@ -7008,7 +7008,7 @@ function substituteGroupRefs(match, replacement) {
         var groupIndex = toInt(substring(replacement, index, endIndex_0));
         if (groupIndex >= groups.l())
           throw IndexOutOfBoundsException_init_$Create$_0('Group with index ' + groupIndex + ' does not exist');
-        var tmp2_safe_receiver = groups.r(groupIndex);
+        var tmp2_safe_receiver = groups.q(groupIndex);
         var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.fc_1;
         result.l7(tmp3_elvis_lhs == null ? '' : tmp3_elvis_lhs);
         index = endIndex_0;
@@ -7070,7 +7070,7 @@ function toFlags$lambda(it) {
 }
 function findNext$o$groups$o$iterator$lambda(this$0) {
   return function (it) {
-    return this$0.r(it);
+    return this$0.q(it);
   };
 }
 function hasOwnPrototypeProperty($this, o, name) {
@@ -7105,7 +7105,7 @@ protoOf(findNext$1$groups$1).i = function () {
   var tmp = asSequence(get_indices_1(this));
   return map(tmp, findNext$o$groups$o$iterator$lambda(this)).i();
 };
-protoOf(findNext$1$groups$1).r = function (index) {
+protoOf(findNext$1$groups$1).q = function (index) {
   // Inline function 'kotlin.js.get' call
   // Inline function 'kotlin.js.asDynamic' call
   var tmp0_safe_receiver = this.ic_1[index];
@@ -7146,7 +7146,7 @@ function findNext$1$groupValues$1($match) {
 protoOf(findNext$1$groupValues$1).l = function () {
   return this.rc_1.length;
 };
-protoOf(findNext$1$groupValues$1).r = function (index) {
+protoOf(findNext$1$groupValues$1).q = function (index) {
   // Inline function 'kotlin.js.get' call
   // Inline function 'kotlin.js.asDynamic' call
   var tmp0_elvis_lhs = this.rc_1[index];
@@ -7182,7 +7182,7 @@ protoOf(findNext$1).sc = function () {
   return ensureNotNull(this.mc_1);
 };
 protoOf(findNext$1).k = function () {
-  return findNext(this.pc_1, this.qc_1, this.nc_1.q() ? advanceToNextCharacter(this, this.nc_1.zb()) : this.nc_1.ac() + 1 | 0, this.pc_1);
+  return findNext(this.pc_1, this.qc_1, this.nc_1.r() ? advanceToNextCharacter(this, this.nc_1.zb()) : this.nc_1.ac() + 1 | 0, this.pc_1);
 };
 function RegexOption_IGNORE_CASE_getInstance() {
   static_init();
@@ -7990,7 +7990,7 @@ protoOf(AbstractCollection).t = function (element) {
     // Inline function 'kotlin.collections.any' call
     var tmp;
     if (isInterface(this, Collection)) {
-      tmp = this.q();
+      tmp = this.r();
     } else {
       tmp = false;
     }
@@ -8016,7 +8016,7 @@ protoOf(AbstractCollection).z1 = function (elements) {
     // Inline function 'kotlin.collections.all' call
     var tmp;
     if (isInterface(elements, Collection)) {
-      tmp = elements.q();
+      tmp = elements.r();
     } else {
       tmp = false;
     }
@@ -8036,7 +8036,7 @@ protoOf(AbstractCollection).z1 = function (elements) {
   }
   return tmp$ret$0;
 };
-protoOf(AbstractCollection).q = function () {
+protoOf(AbstractCollection).r = function () {
   return this.l() === 0;
 };
 protoOf(AbstractCollection).toString = function () {
@@ -8057,7 +8057,7 @@ protoOf(IteratorImpl_0).k = function () {
     throw NoSuchElementException_init_$Create$();
   var _unary__edvuaz = this.cd_1;
   this.cd_1 = _unary__edvuaz + 1 | 0;
-  return this.dd_1.r(_unary__edvuaz);
+  return this.dd_1.q(_unary__edvuaz);
 };
 function ListIteratorImpl_0($outer, index) {
   this.gd_1 = $outer;
@@ -8072,7 +8072,7 @@ protoOf(ListIteratorImpl_0).a4 = function () {
   if (!this.z3())
     throw NoSuchElementException_init_$Create$();
   this.cd_1 = this.cd_1 - 1 | 0;
-  return this.gd_1.r(this.cd_1);
+  return this.gd_1.q(this.cd_1);
 };
 function Companion_5() {
   this.d3_1 = 2147483639;
@@ -8281,7 +8281,7 @@ protoOf(AbstractMap).b2 = function (value) {
     // Inline function 'kotlin.collections.any' call
     var tmp;
     if (isInterface(tmp0, Collection)) {
-      tmp = tmp0.q();
+      tmp = tmp0.r();
     } else {
       tmp = false;
     }
@@ -8336,7 +8336,7 @@ protoOf(AbstractMap).equals = function (other) {
     // Inline function 'kotlin.collections.all' call
     var tmp;
     if (isInterface(tmp0, Collection)) {
-      tmp = tmp0.q();
+      tmp = tmp0.r();
     } else {
       tmp = false;
     }
@@ -8363,7 +8363,7 @@ protoOf(AbstractMap).c2 = function (key) {
 protoOf(AbstractMap).hashCode = function () {
   return hashCode_0(this.w());
 };
-protoOf(AbstractMap).q = function () {
+protoOf(AbstractMap).r = function () {
   return this.l() === 0;
 };
 protoOf(AbstractMap).l = function () {
@@ -8516,7 +8516,7 @@ function Companion_getInstance_8() {
 protoOf(ArrayDeque).l = function () {
   return this.od_1;
 };
-protoOf(ArrayDeque).q = function () {
+protoOf(ArrayDeque).r = function () {
   return this.od_1 === 0;
 };
 protoOf(ArrayDeque).rd = function (element) {
@@ -8536,7 +8536,7 @@ protoOf(ArrayDeque).sd = function (element) {
   this.od_1 = this.od_1 + 1 | 0;
 };
 protoOf(ArrayDeque).td = function () {
-  if (this.q())
+  if (this.r())
     throw NoSuchElementException_init_$Create$_0('ArrayDeque is empty.');
   registerModification_0(this);
   // Inline function 'kotlin.collections.ArrayDeque.internalGet' call
@@ -8548,10 +8548,10 @@ protoOf(ArrayDeque).td = function () {
   return element;
 };
 protoOf(ArrayDeque).ud = function () {
-  return this.q() ? null : this.td();
+  return this.r() ? null : this.td();
 };
 protoOf(ArrayDeque).vd = function () {
-  if (this.q())
+  if (this.r())
     throw NoSuchElementException_init_$Create$_0('ArrayDeque is empty.');
   registerModification_0(this);
   // Inline function 'kotlin.collections.ArrayDeque.internalIndex' call
@@ -8637,7 +8637,7 @@ protoOf(ArrayDeque).b4 = function (index, element) {
   this.od_1 = this.od_1 + 1 | 0;
 };
 protoOf(ArrayDeque).p = function (elements) {
-  if (elements.q())
+  if (elements.r())
     return false;
   registerModification_0(this);
   ensureCapacity_0(this, this.od_1 + elements.l() | 0);
@@ -8647,7 +8647,7 @@ protoOf(ArrayDeque).p = function (elements) {
   copyCollectionElements(this, tmp$ret$0, elements);
   return true;
 };
-protoOf(ArrayDeque).r = function (index) {
+protoOf(ArrayDeque).q = function (index) {
   Companion_instance_5.q4(index, this.od_1);
   // Inline function 'kotlin.collections.ArrayDeque.internalIndex' call
   // Inline function 'kotlin.collections.ArrayDeque.internalGet' call
@@ -8683,7 +8683,7 @@ protoOf(ArrayDeque).u = function (element) {
   } else {
     var tmp;
     // Inline function 'kotlin.collections.isNotEmpty' call
-    if (!this.q()) {
+    if (!this.r()) {
       tmp = this.md_1 >= tail;
     } else {
       tmp = false;
@@ -8798,7 +8798,7 @@ protoOf(ArrayDeque).wd = function (array) {
     arrayCopy(tmp0, dest, 0, startIndex, tail);
   } else {
     // Inline function 'kotlin.collections.isNotEmpty' call
-    if (!this.q()) {
+    if (!this.r()) {
       var tmp0_0 = this.nd_1;
       var tmp6 = this.md_1;
       // Inline function 'kotlin.collections.copyInto' call
@@ -8834,7 +8834,7 @@ function throwIndexOverflow() {
   throw ArithmeticException_init_$Create$_0('Index overflow has happened.');
 }
 function collectionToArrayCommonImpl(collection) {
-  if (collection.q()) {
+  if (collection.r()) {
     // Inline function 'kotlin.emptyArray' call
     return [];
   }
@@ -8888,7 +8888,7 @@ function optimizeReadOnlyList(_this__u8e3s4) {
     case 0:
       return emptyList();
     case 1:
-      return listOf(_this__u8e3s4.r(0));
+      return listOf(_this__u8e3s4.q(0));
     default:
       return _this__u8e3s4;
   }
@@ -8912,7 +8912,7 @@ function EmptyList() {
 protoOf(EmptyList).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, KtList) : false) {
-    tmp = other.q();
+    tmp = other.r();
   } else {
     tmp = false;
   }
@@ -8927,7 +8927,7 @@ protoOf(EmptyList).toString = function () {
 protoOf(EmptyList).l = function () {
   return 0;
 };
-protoOf(EmptyList).q = function () {
+protoOf(EmptyList).r = function () {
   return true;
 };
 protoOf(EmptyList).yd = function (element) {
@@ -8945,12 +8945,12 @@ protoOf(EmptyList).t = function (element) {
   return this.yd(tmp);
 };
 protoOf(EmptyList).zd = function (elements) {
-  return elements.q();
+  return elements.r();
 };
 protoOf(EmptyList).z1 = function (elements) {
   return this.zd(elements);
 };
-protoOf(EmptyList).r = function (index) {
+protoOf(EmptyList).q = function (index) {
   throw IndexOutOfBoundsException_init_$Create$_0("Empty list doesn't contain element at index " + index + '.');
 };
 protoOf(EmptyList).ae = function (element) {
@@ -9096,7 +9096,7 @@ function toMap(_this__u8e3s4) {
       case 1:
         var tmp_0;
         if (isInterface(_this__u8e3s4, KtList)) {
-          tmp_0 = _this__u8e3s4.r(0);
+          tmp_0 = _this__u8e3s4.q(0);
         } else {
           tmp_0 = _this__u8e3s4.i().k();
         }
@@ -9120,7 +9120,7 @@ function minus_2(_this__u8e3s4, key) {
 }
 function plus_5(_this__u8e3s4, pair) {
   var tmp;
-  if (_this__u8e3s4.q()) {
+  if (_this__u8e3s4.r()) {
     tmp = mapOf(pair);
   } else {
     // Inline function 'kotlin.apply' call
@@ -9132,7 +9132,7 @@ function plus_5(_this__u8e3s4, pair) {
 }
 function plus_6(_this__u8e3s4, pairs) {
   var tmp;
-  if (_this__u8e3s4.q()) {
+  if (_this__u8e3s4.r()) {
     tmp = toMap(pairs);
   } else {
     // Inline function 'kotlin.apply' call
@@ -9149,7 +9149,7 @@ function EmptyMap() {
 protoOf(EmptyMap).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, KtMap) : false) {
-    tmp = other.q();
+    tmp = other.r();
   } else {
     tmp = false;
   }
@@ -9164,7 +9164,7 @@ protoOf(EmptyMap).toString = function () {
 protoOf(EmptyMap).l = function () {
   return 0;
 };
-protoOf(EmptyMap).q = function () {
+protoOf(EmptyMap).r = function () {
   return true;
 };
 protoOf(EmptyMap).ie = function (key) {
@@ -9277,7 +9277,7 @@ function filterInPlace(_this__u8e3s4, predicate, predicateResultToRemove) {
     $l$loop: do {
       var readIndex = inductionVariable;
       inductionVariable = inductionVariable + 1 | 0;
-      var element = _this__u8e3s4.r(readIndex);
+      var element = _this__u8e3s4.q(readIndex);
       if (predicate(element) === predicateResultToRemove)
         continue $l$loop;
       if (!(writeIndex === readIndex)) {
@@ -9313,7 +9313,7 @@ function filterInPlace_0(_this__u8e3s4, predicate, predicateResultToRemove) {
   return result;
 }
 function removeFirstOrNull(_this__u8e3s4) {
-  return _this__u8e3s4.q() ? null : _this__u8e3s4.t3(0);
+  return _this__u8e3s4.r() ? null : _this__u8e3s4.t3(0);
 }
 function addAll(_this__u8e3s4, elements) {
   if (isInterface(elements, Collection))
@@ -9331,7 +9331,7 @@ function addAll(_this__u8e3s4, elements) {
 }
 function removeLast(_this__u8e3s4) {
   var tmp;
-  if (_this__u8e3s4.q()) {
+  if (_this__u8e3s4.r()) {
     throw NoSuchElementException_init_$Create$_0('List is empty.');
   } else {
     tmp = _this__u8e3s4.t3(get_lastIndex_3(_this__u8e3s4));
@@ -9506,7 +9506,7 @@ function EmptySet() {
 protoOf(EmptySet).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, KtSet) : false) {
-    tmp = other.q();
+    tmp = other.r();
   } else {
     tmp = false;
   }
@@ -9521,7 +9521,7 @@ protoOf(EmptySet).toString = function () {
 protoOf(EmptySet).l = function () {
   return 0;
 };
-protoOf(EmptySet).q = function () {
+protoOf(EmptySet).r = function () {
   return true;
 };
 protoOf(EmptySet).yd = function (element) {
@@ -9539,7 +9539,7 @@ protoOf(EmptySet).t = function (element) {
   return this.yd(tmp);
 };
 protoOf(EmptySet).zd = function (elements) {
-  return elements.q();
+  return elements.r();
 };
 protoOf(EmptySet).z1 = function (elements) {
   return this.zd(elements);
@@ -9879,7 +9879,7 @@ function EnumEntriesList(entries) {
 protoOf(EnumEntriesList).l = function () {
   return this.tf_1.length;
 };
-protoOf(EnumEntriesList).r = function (index) {
+protoOf(EnumEntriesList).q = function (index) {
   Companion_instance_5.q4(index, this.tf_1.length);
   return this.tf_1[index];
 };
@@ -9955,20 +9955,20 @@ protoOf(IntRange).wf = function (value) {
 protoOf(IntRange).e1 = function (value) {
   return this.wf(typeof value === 'number' ? value : THROW_CCE());
 };
-protoOf(IntRange).q = function () {
+protoOf(IntRange).r = function () {
   return this.b1_1 > this.c1_1;
 };
 protoOf(IntRange).equals = function (other) {
   var tmp;
   if (other instanceof IntRange) {
-    tmp = this.q() && other.q() || (this.b1_1 === other.b1_1 && this.c1_1 === other.c1_1);
+    tmp = this.r() && other.r() || (this.b1_1 === other.b1_1 && this.c1_1 === other.c1_1);
   } else {
     tmp = false;
   }
   return tmp;
 };
 protoOf(IntRange).hashCode = function () {
-  return this.q() ? -1 : imul_0(31, this.b1_1) + this.c1_1 | 0;
+  return this.r() ? -1 : imul_0(31, this.b1_1) + this.c1_1 | 0;
 };
 protoOf(IntRange).toString = function () {
   return '' + this.b1_1 + '..' + this.c1_1;
@@ -10015,20 +10015,20 @@ function IntProgression(start, endInclusive, step) {
 protoOf(IntProgression).i = function () {
   return new IntProgressionIterator(this.b1_1, this.c1_1, this.d1_1);
 };
-protoOf(IntProgression).q = function () {
+protoOf(IntProgression).r = function () {
   return this.d1_1 > 0 ? this.b1_1 > this.c1_1 : this.b1_1 < this.c1_1;
 };
 protoOf(IntProgression).equals = function (other) {
   var tmp;
   if (other instanceof IntProgression) {
-    tmp = this.q() && other.q() || (this.b1_1 === other.b1_1 && this.c1_1 === other.c1_1 && this.d1_1 === other.d1_1);
+    tmp = this.r() && other.r() || (this.b1_1 === other.b1_1 && this.c1_1 === other.c1_1 && this.d1_1 === other.d1_1);
   } else {
     tmp = false;
   }
   return tmp;
 };
 protoOf(IntProgression).hashCode = function () {
-  return this.q() ? -1 : imul_0(31, imul_0(31, this.b1_1) + this.c1_1 | 0) + this.d1_1 | 0;
+  return this.r() ? -1 : imul_0(31, imul_0(31, this.b1_1) + this.c1_1 | 0) + this.d1_1 | 0;
 };
 protoOf(IntProgression).toString = function () {
   return this.d1_1 > 0 ? '' + this.b1_1 + '..' + this.c1_1 + ' step ' + this.d1_1 : '' + this.b1_1 + ' downTo ' + this.c1_1 + ' step ' + (-this.d1_1 | 0);
@@ -13787,7 +13787,7 @@ protoOf(UByteArray).kj = function (element) {
 protoOf(UByteArray).t = function (element) {
   return UByteArray__contains_impl_njh19q_0(this, element);
 };
-protoOf(UByteArray).q = function () {
+protoOf(UByteArray).r = function () {
   return UByteArray__isEmpty_impl_nbfqsa(this.jj_1);
 };
 protoOf(UByteArray).toString = function () {
@@ -13949,7 +13949,7 @@ protoOf(UIntArray).vj = function (element) {
 protoOf(UIntArray).t = function (element) {
   return UIntArray__contains_impl_b16rzj_0(this, element);
 };
-protoOf(UIntArray).q = function () {
+protoOf(UIntArray).r = function () {
   return UIntArray__isEmpty_impl_vd8j4n(this.uj_1);
 };
 protoOf(UIntArray).toString = function () {
@@ -14112,7 +14112,7 @@ protoOf(ULongArray).gk = function (element) {
 protoOf(ULongArray).t = function (element) {
   return ULongArray__contains_impl_v9bgai_0(this, element);
 };
-protoOf(ULongArray).q = function () {
+protoOf(ULongArray).r = function () {
   return ULongArray__isEmpty_impl_c3yngu(this.fk_1);
 };
 protoOf(ULongArray).toString = function () {
@@ -14277,7 +14277,7 @@ protoOf(UShortArray).rk = function (element) {
 protoOf(UShortArray).t = function (element) {
   return UShortArray__contains_impl_vo7k3g_0(this, element);
 };
-protoOf(UShortArray).q = function () {
+protoOf(UShortArray).r = function () {
   return UShortArray__isEmpty_impl_cdd9l0(this.qk_1);
 };
 protoOf(UShortArray).toString = function () {
@@ -14763,7 +14763,7 @@ export {
   toList_0 as toList3jhuyej2anx2q,
   toList as toList383f556t1dixk,
   toMap as toMap1vec9topfei08,
-  toMutableList_0 as toMutableList20rdgwi7d3cwi,
+  toMutableList as toMutableList20rdgwi7d3cwi,
   toMutableSet as toMutableSetjdpdbr9jsqq8,
   toSet_0 as toSet2orjxp16sotqu,
   toSet as toSet1glep2u1u9tcb,

@@ -49,7 +49,7 @@ import {
   serializer1q7c5q67ysppr as serializer_3,
   NamedValueDecoderzk26ztf92xbq as NamedValueDecoder,
   getContextualDescriptor2n1gf3b895yb8 as getContextualDescriptor,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794920466592';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794924014110';
 import {
   protoOf180f3jzyo7rfj as protoOf,
   initMetadataForObject1cxne3s9w65el as initMetadataForObject,
@@ -186,7 +186,7 @@ import {
   substringiqarkczpya5m as substring,
   StringBuilder_init_$Create$yggnhbmai7wr as StringBuilder_init_$Create$_0,
   HashMap_init_$Create$m2z141lj3xfu as HashMap_init_$Create$,
-} from './kotlin-kotlin-stdlib.js?v=1794920466592';
+} from './kotlin-kotlin-stdlib.js?v=1794924014110';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -474,8 +474,8 @@ protoOf(JsonArray).hashCode = function () {
 protoOf(JsonArray).toString = function () {
   return joinToString(this.n14_1, ',', '[', ']');
 };
-protoOf(JsonArray).q = function () {
-  return this.n14_1.q();
+protoOf(JsonArray).r = function () {
+  return this.n14_1.r();
 };
 protoOf(JsonArray).o14 = function (element) {
   return this.n14_1.t(element);
@@ -494,8 +494,8 @@ protoOf(JsonArray).p14 = function (elements) {
 protoOf(JsonArray).z1 = function (elements) {
   return this.p14(elements);
 };
-protoOf(JsonArray).r = function (index) {
-  return this.n14_1.r(index);
+protoOf(JsonArray).q = function (index) {
+  return this.n14_1.q(index);
 };
 protoOf(JsonArray).q14 = function (element) {
   return this.n14_1.u(element);
@@ -552,8 +552,8 @@ protoOf(JsonObject).toString = function () {
   var tmp = this.r14_1.w();
   return joinToString(tmp, ',', '{', '}', VOID, VOID, JsonObject$toString$lambda);
 };
-protoOf(JsonObject).q = function () {
-  return this.r14_1.q();
+protoOf(JsonObject).r = function () {
+  return this.r14_1.r();
 };
 protoOf(JsonObject).s14 = function (key) {
   return this.r14_1.a2(key);
@@ -1499,7 +1499,7 @@ function ignoreUnknownKeys(_this__u8e3s4, json) {
       // Inline function 'kotlin.collections.any' call
       var tmp_0;
       if (isInterface(tmp0, Collection)) {
-        tmp_0 = tmp0.q();
+        tmp_0 = tmp0.r();
       } else {
         tmp_0 = false;
       }
@@ -1648,7 +1648,7 @@ function buildDeserializationNamesMap(_this__u8e3s4, json) {
      while (inductionVariable < last);
   // Inline function 'kotlin.collections.ifEmpty' call
   var tmp_1;
-  if (builder.q()) {
+  if (builder.r()) {
     tmp_1 = emptyMap();
   } else {
     tmp_1 = builder;
@@ -4326,7 +4326,7 @@ protoOf(JsonTreeListDecoder).f10 = function (descriptor, index) {
   return index.toString();
 };
 protoOf(JsonTreeListDecoder).d1b = function (tag) {
-  return this.h1c_1.r(toInt(tag));
+  return this.h1c_1.q(toInt(tag));
 };
 protoOf(JsonTreeListDecoder).bo = function (descriptor) {
   while (this.j1c_1 < (this.i1c_1 - 1 | 0)) {
@@ -4367,7 +4367,7 @@ protoOf(JsonTreeMapDecoder).y = function () {
 };
 protoOf(JsonTreeMapDecoder).f10 = function (descriptor, index) {
   var i = index / 2 | 0;
-  return this.c1d_1.r(i);
+  return this.c1d_1.q(i);
 };
 protoOf(JsonTreeMapDecoder).bo = function (descriptor) {
   while (this.e1d_1 < (this.d1d_1 - 1 | 0)) {
