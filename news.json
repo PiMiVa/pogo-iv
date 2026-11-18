@@ -1,6 +1,44 @@
 {
- "generated": "2026-11-18T04:34:24Z",
+ "generated": "2026-11-18T14:18:29Z",
  "news": [
+  {
+   "title": "Grookey, Scorbunny and Sobble Spotlight Hour: Last Minute Guide",
+   "titleDe": "Spotlight-Stunde mit Chimpep, Hopplo und Memmeon: Last-Minute-Leitfaden",
+   "link": "https://pokemongohub.net/post/event/gen-8-starters-spotlight-hour/",
+   "date": "Wed, 18 Nov 2026 12:24:00 +0000",
+   "categories": [
+    "Events",
+    "gen 8 starters",
+    "grookey",
+    "november 2026 spotlight hour",
+    "november spotlight hour",
+    "scorbunny",
+    "sobble"
+   ]
+  },
+  {
+   "title": "Eternatus in Pokémon GO: Still a Game Changer for Raids and Max Battles?",
+   "titleDe": "Eternatus in Pokémon GO: Immer noch ein Gamechanger für Raids und Max-Kämpfe?",
+   "link": "https://pokemongohub.net/post/meta/eternatus-pve/",
+   "date": "Wed, 18 Nov 2026 06:00:57 +0000",
+   "categories": [
+    "Meta",
+    "best dragon type pokemon go",
+    "dragon",
+    "dragon type pokemon",
+    "dragon types",
+    "dynamax cannon",
+    "eternatus",
+    "eternatus in pve",
+    "eternatus in raids",
+    "eternatus meta",
+    "legendary pokemon",
+    "mega rayquaza",
+    "poison type pokemon",
+    "pve guide",
+    "pve meta"
+   ]
+  },
   {
    "title": "TCG Pocket Promo Pack C Series Vol.1: Mega Mewtwo Y ex, Exclusive Cards & Missions",
    "titleDe": "TCG Pocket Promo-Pack C-Serie Vol.1: Mega-Mewtu Y ex, exklusive Karten & Missionen",
@@ -411,33 +449,6 @@
     "dynamax meta",
     "dynamax regidrago",
     "into the wild 2026"
-   ]
-  },
-  {
-   "title": "Pokémon Sleep: Dream Shard Week Vol.3 Event",
-   "titleDe": "Pokémon-Schlaf: Traumscherbenwoche Vol.3-Event",
-   "link": "https://pokemongohub.net/post/sleep/pokemon-sleep-dream-shard-week-vol-3-event/",
-   "date": "Mon, 09 Nov 2026 08:19:35 +0000",
-   "categories": [
-    "Pokémon Sleep",
-    "dream shard week",
-    "dream shard week vol 3",
-    "drean shard",
-    "pokemon sleep"
-   ]
-  },
-  {
-   "title": "GO Pass: Into the Wild",
-   "titleDe": "GO-Pass: In die Wildnis",
-   "link": "https://pokemongohub.net/post/guide/go-pass-into-the-wild/",
-   "date": "Mon, 09 Nov 2026 06:36:25 +0000",
-   "categories": [
-    "Guides",
-    "go pass",
-    "go pass delux",
-    "go pass into the wild",
-    "go pass milestone bonus",
-    "go pass rewards"
    ]
   }
  ],
@@ -1305,7 +1316,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-18",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1316,7 +1327,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-18",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1327,7 +1338,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-18",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1338,7 +1349,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-18",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1349,7 +1360,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-18",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1360,7 +1371,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-18",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1386,7 +1397,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-18",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1415,7 +1426,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-18",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1444,7 +1455,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-17",
+   "fetched": "2026-11-18",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1494,6 +1505,8 @@
  },
  "codes": [],
  "translations": {
+  "Grookey, Scorbunny and Sobble Spotlight Hour: Last Minute Guide": "Spotlight-Stunde mit Chimpep, Hopplo und Memmeon: Last-Minute-Leitfaden",
+  "Eternatus in Pokémon GO: Still a Game Changer for Raids and Max Battles?": "Eternatus in Pokémon GO: Immer noch ein Gamechanger für Raids und Max-Kämpfe?",
   "TCG Pocket Promo Pack C Series Vol.1: Mega Mewtwo Y ex, Exclusive Cards & Missions": "TCG Pocket Promo-Pack C-Serie Vol.1: Mega-Mewtu Y ex, exklusive Karten & Missionen",
   "PvP Tips and Tricks: GBL LAIC Cup": "PvP-Tipps und -Tricks: GBL-LAIC-Cup",
   "Pokémon GO × Duolingo: Duo’s Pokémon Party, Timed Research & Language Tag": "Pokémon GO × Duolingo: Duos Pokémon-Party, zeitlich begrenzte Forschung und Sprach-Tag",
@@ -1522,8 +1535,6 @@
   "Pokémon GO Web Store: Black Friday Sale PokéCoin Bonus": "Pokémon GO Web Store: Black Friday Sale PokéCoin-Bonus",
   "Save the Dates for Next Season’s Community Days and Events!": "Merken Sie sich die Termine für die Community-Tage und -Events der nächsten Saison vor!",
   "Into the Wild 2026 PvE Guide: What to Build, What to Skip": "Into the Wild 2026 PvE-Leitfaden: Was zu bauen ist, was zu überspringen ist",
-  "Pokémon Sleep: Dream Shard Week Vol.3 Event": "Pokémon-Schlaf: Traumscherbenwoche Vol.3-Event",
-  "GO Pass: Into the Wild": "GO-Pass: In die Wildnis",
   "GO Wild Area: Gigantamax Machamp Power Up! Timed Research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
   "[Canceled] Max Monday": "[Abgesagt] Max-Montag",
   "Great League, Ultra League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails": "Great League, Ultra League: Mega Edition und 2026 GO LAIC Cup | Twilight Trails",
