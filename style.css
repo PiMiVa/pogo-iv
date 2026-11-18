@@ -759,3 +759,46 @@ button.chip.copy {
   border-radius: 14px; line-height: 1.35;
 }
 section.card { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+
+/* Animation „So funktioniert das Einlesen“ (18.11.2026), 7 s Schleife wie in der Android-App */
+.demo-wrap { display: flex; flex-direction: column; align-items: center; gap: 10px; margin: 8px 0; }
+.scan-demo { width: 170px; height: auto; }
+.demo-captions { position: relative; min-height: 3.2em; width: 100%; text-align: center; font-weight: 600; font-size: .9rem; }
+.demo-cap { position: absolute; inset: 0; opacity: 0; animation: demo-cap 7s infinite; }
+.demo-cap-1 { animation-delay: 1.75s; } .demo-cap-2 { animation-delay: 3.5s; } .demo-cap-3 { animation-delay: 5.25s; }
+@keyframes demo-cap { 0%, 24% { opacity: 1; } 25%, 100% { opacity: 0; } }
+.demo-bar { transform-box: fill-box; transform-origin: left; animation: demo-fill 7s infinite; }
+@keyframes demo-fill { 0%, 10% { transform: scaleX(0); } 40%, 100% { transform: scaleX(1); } }
+.demo-bar-b { transform-box: fill-box; transform-origin: left; animation: demo-fill-b 7s infinite; }
+@keyframes demo-fill-b { 0%, 76% { transform: scaleX(0); } 96%, 100% { transform: scaleX(1); } }
+.demo-card-a { animation: demo-out 7s infinite; }
+@keyframes demo-out { 0%, 62% { transform: translateX(0); } 75%, 100% { transform: translateX(-172px); } }
+.demo-card-b { animation: demo-in 7s infinite; }
+@keyframes demo-in { 0%, 62% { transform: translateX(172px); } 75%, 100% { transform: translateX(0); } }
+.demo-result { opacity: 0; animation: demo-res 7s infinite; }
+@keyframes demo-res { 0%, 41% { opacity: 0; } 43%, 64% { opacity: 1; } 66%, 100% { opacity: 0; } }
+.demo-finger { opacity: 0; animation: demo-finger 7s infinite; }
+@keyframes demo-finger { 0%, 59% { opacity: 0; transform: translateX(0); } 61% { opacity: 1; transform: translateX(0); } 76% { opacity: 1; transform: translateX(-100px); } 78%, 100% { opacity: 0; transform: translateX(-100px); } }
+@media (prefers-reduced-motion: reduce) { .demo-bar, .demo-bar-b, .demo-card-a, .demo-card-b, .demo-result, .demo-finger, .demo-cap { animation: none; } .demo-cap-0, .demo-result { opacity: 1; } .demo-card-b { display: none; } }
+
+/* Suchbefehl mit QR-Code (18.11.2026) */
+.search-row { display: flex; gap: 6px; align-items: flex-start; margin: 6px 0; }
+.search-row > button.chip.copy { flex: 1 1 auto; min-width: 0; margin: 0; }
+.search-row > button.qr-chip { flex: none; margin: 0; }
+.qr-dialog { text-align: center; }
+.qr-box { width: min(300px, 80vw); margin: 10px auto; background: #fff; border-radius: 12px; padding: 6px; }
+.qr-box svg { width: 100%; height: auto; display: block; }
+.qr-text { word-break: break-all; }
+
+/* Ausbauplan „lohnt sich für …“ mit Warten (18.11.2026) */
+.intent-pick { gap: 8px; align-items: center; margin: 6px 0 2px; }
+.intent-alt { gap: 8px; align-items: center; margin: 0 0 6px 36px; }
+.small.muted { color: var(--muted); font-style: italic; }
+/* Animation „Merkmale einlesen“: Kachel-Liste scrollt, Haken erscheinen */
+.demo-scroll { animation: demo-scroll 7s infinite linear; }
+@keyframes demo-scroll { 0%, 14% { transform: translateY(0); } 85%, 100% { transform: translateY(-225px); } }
+.demo-tick { opacity: 0; }
+
+.demo-swipe { opacity: 0; animation: demo-swipe 1.75s infinite; }
+@keyframes demo-swipe { 0% { opacity: 0; transform: translateY(0); } 15% { opacity: 1; } 85% { opacity: 1; transform: translateY(-110px); } 100% { opacity: 0; transform: translateY(-110px); } }
+@media (prefers-reduced-motion: reduce) { .demo-scroll, .demo-tick, .demo-swipe { animation: none; } .demo-tick { opacity: 1; } }
