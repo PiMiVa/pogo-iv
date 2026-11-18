@@ -802,3 +802,7 @@ section.card { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
 .demo-swipe { opacity: 0; animation: demo-swipe 1.75s infinite; }
 @keyframes demo-swipe { 0% { opacity: 0; transform: translateY(0); } 15% { opacity: 1; } 85% { opacity: 1; transform: translateY(-110px); } 100% { opacity: 0; transform: translateY(-110px); } }
 @media (prefers-reduced-motion: reduce) { .demo-scroll, .demo-tick, .demo-swipe { animation: none; } .demo-tick { opacity: 1; } }
+/* Offene Zuordnungen (18.11.2026) */
+.open-find { border-top: 1px solid var(--line); padding-top: 8px; margin-top: 8px; }
+.open-cand { padding-left: 10px; align-items: center; gap: 8px; }
+.small.good { color: var(--good, #2e9e5b); }
