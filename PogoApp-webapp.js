@@ -146,7 +146,7 @@ import {
   coerceIn1xblvmyr0tby6 as coerceIn,
   until1jbpn0z3f8lbg as until,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1794959004932';
+} from './kotlin-kotlin-stdlib.js?v=1794960239128';
 import {
   Variant_NORMAL_getInstance23fgbcbkjs7l7 as Variant_NORMAL_getInstance,
   RaidSort_instance2g1xqbi1mb9o as RaidSort_instance,
@@ -285,7 +285,7 @@ import {
   PageSettle21idp888bmz3 as PageSettle,
   Last3mxaoe9u97sp1 as Last,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1794959004932';
+} from './PogoApp-core.js?v=1794960239128';
 import {
   launch1c91vkjzdi9sd as launch,
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
@@ -294,9 +294,9 @@ import {
   MainScope1gi1r4abhrtmm as MainScope,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1794959004932';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794959004932';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794959004932';
+} from './kotlinx-coroutines-core.js?v=1794960239128';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1794960239128';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1794960239128';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -11371,7 +11371,12 @@ function TeamView$megaEnergyCard$lambda$lambda_0($options) {
       var state = tmp;
       var tmp_0 = o.z27_1.c1f_1 + ' \xB7 ' + state;
       var tmp_1 = o.b28_1 === true;
-      chip($this$add, tmp_0, tmp_1, TeamView$megaEnergyCard$lambda$lambda$lambda_0(o, $this$add));
+      // Inline function 'kotlin.also' call
+      var this_0 = chip($this$add, tmp_0, tmp_1, TeamView$megaEnergyCard$lambda$lambda$lambda_0(o, $this$add));
+      this_0.style.display = 'inline-flex';
+      this_0.style.alignItems = 'center';
+      this_0.style.setProperty('gap', '6px');
+      this_0.insertBefore(sprite(this_0, o.z27_1, 26), this_0.firstChild);
     }
     return Unit_instance;
   };
