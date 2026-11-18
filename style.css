@@ -811,3 +811,16 @@ section.card { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
 /* Eingetragene Attacken (gescannt/gewählt) vs. Vorschlag (18.11.2026) */
 .move.known { box-shadow: inset 0 0 0 1.5px var(--good); }
 .move.assumed { box-shadow: inset 0 0 0 1px #b0b0b8; }
+.tile.evolve-orange { box-shadow: inset 0 0 0 2px var(--warn, #E08A00); }
+.tile.pvp-ready { box-shadow: inset 0 0 0 2.5px #8fd6a8; }
+.tile.pvp-done { box-shadow: inset 0 0 0 2.5px #1e7a45; }
+/* Ausbauplan neu (18.11.2026): Karten wie Team-Mitglieder, orange = wartet auf Event */
+.focus-card { display: flex; gap: 10px; align-items: center; background: var(--card, #fff); border-radius: 18px; padding: 10px 12px; margin: 6px 0; cursor: pointer; }
+.focus-card.wait { box-shadow: inset 0 0 0 2px #E08A00; }
+.focus-card.wait .small.warn { color: #B86E00; }
+.plan-tiles .stat-value b { font-size: 1.05rem; }
+.plan-tiles .stat { min-width: 0; }
+.focus-card .pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+section.card.fold { padding: 10px 12px; }
+.tile.evolve-ok { box-shadow: inset 0 0 0 2px var(--good, #2e9e5b); }
+.tile.plan-now { box-shadow: inset 0 0 0 2.5px var(--accent, #7b6cf0); }
