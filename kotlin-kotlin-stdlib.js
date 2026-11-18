@@ -112,23 +112,23 @@ initMetadataForClass(AbstractCollection, 'AbstractCollection', VOID, VOID, [Coll
 initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [Collection, MutableIterable]);
 initMetadataForClass(IteratorImpl, 'IteratorImpl');
 initMetadataForClass(ListIteratorImpl, 'ListIteratorImpl', VOID, IteratorImpl);
-initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [KtList, Collection, MutableIterable]);
+initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [Collection, KtList, MutableIterable]);
 initMetadataForClass(AbstractMap, 'AbstractMap', VOID, VOID, [KtMap]);
 initMetadataForClass(AbstractMutableMap, 'AbstractMutableMap', VOID, AbstractMap, [KtMutableMap]);
-initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [KtSet, Collection, MutableIterable]);
+initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [Collection, KtSet, MutableIterable]);
 initMetadataForCompanion(Companion_2);
 initMetadataForInterface(RandomAccess, 'RandomAccess');
-initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [KtList, Collection, MutableIterable, RandomAccess]);
+initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [Collection, KtList, MutableIterable, RandomAccess]);
 initMetadataForClass(HashMap, 'HashMap', HashMap_init_$Create$, AbstractMutableMap, [KtMutableMap]);
-initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
+initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [Collection, KtSet, MutableIterable]);
 initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [Collection, MutableIterable]);
-initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
+initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [Collection, KtSet, MutableIterable]);
 initMetadataForClass(HashMapEntrySet, 'HashMapEntrySet', VOID, HashMapEntrySetBase);
 initMetadataForClass(HashMapKeysDefault$iterator$1);
 initMetadataForClass(HashMapKeysDefault, 'HashMapKeysDefault', VOID, AbstractMutableSet);
 initMetadataForClass(HashMapValuesDefault$iterator$1);
 initMetadataForClass(HashMapValuesDefault, 'HashMapValuesDefault', VOID, AbstractMutableCollection);
-initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [KtSet, Collection, MutableIterable]);
+initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [Collection, KtSet, MutableIterable]);
 initMetadataForCompanion(Companion_3);
 initMetadataForClass(Itr, 'Itr');
 initMetadataForClass(KeysItr, 'KeysItr', VOID, Itr);
@@ -174,7 +174,7 @@ initMetadataForInterface(InternalMap, 'InternalMap');
 initMetadataForClass(InternalHashMap, 'InternalHashMap', InternalHashMap_init_$Create$, VOID, [InternalMap]);
 initMetadataForObject(EmptyHolder, 'EmptyHolder');
 initMetadataForClass(LinkedHashMap, 'LinkedHashMap', LinkedHashMap_init_$Create$, HashMap, [KtMutableMap]);
-initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [KtSet, Collection, MutableIterable]);
+initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [Collection, KtSet, MutableIterable]);
 initMetadataForInterface(Continuation, 'Continuation');
 initMetadataForClass(InterceptedCoroutine, 'InterceptedCoroutine', VOID, VOID, [Continuation]);
 initMetadataForClass(CoroutineImpl, 'CoroutineImpl', VOID, InterceptedCoroutine, [Continuation]);
@@ -1010,6 +1010,10 @@ function withIndex_0(_this__u8e3s4) {
 function singleOrNull(_this__u8e3s4) {
   return _this__u8e3s4.l() === 1 ? _this__u8e3s4.q(0) : null;
 }
+function asSequence(_this__u8e3s4) {
+  // Inline function 'kotlin.sequences.Sequence' call
+  return new asSequence$$inlined$Sequence$1(_this__u8e3s4);
+}
 function toCollection_0(_this__u8e3s4, destination) {
   var _iterator__ex2g4s = _this__u8e3s4.i();
   while (_iterator__ex2g4s.j()) {
@@ -1075,10 +1079,6 @@ function single_0(_this__u8e3s4) {
       throw IllegalArgumentException_init_$Create$_0('Collection has more than one element.');
     return single;
   }
-}
-function asSequence(_this__u8e3s4) {
-  // Inline function 'kotlin.sequences.Sequence' call
-  return new asSequence$$inlined$Sequence$1(_this__u8e3s4);
 }
 function single_1(_this__u8e3s4) {
   var tmp;
@@ -1328,10 +1328,6 @@ function contains_6(_this__u8e3s4, value) {
 function toIntExactOrNull(_this__u8e3s4) {
   return (compare(new Long(-2147483648, -1), _this__u8e3s4) <= 0 ? compare(_this__u8e3s4, new Long(2147483647, 0)) <= 0 : false) ? convertToInt(_this__u8e3s4) : null;
 }
-function asIterable(_this__u8e3s4) {
-  // Inline function 'kotlin.collections.Iterable' call
-  return new asIterable$$inlined$Iterable$1(_this__u8e3s4);
-}
 function take_0(_this__u8e3s4, n) {
   // Inline function 'kotlin.require' call
   if (!(n >= 0)) {
@@ -1352,6 +1348,10 @@ function take_0(_this__u8e3s4, n) {
 }
 function map(_this__u8e3s4, transform) {
   return new TransformingSequence(_this__u8e3s4, transform);
+}
+function asIterable(_this__u8e3s4) {
+  // Inline function 'kotlin.collections.Iterable' call
+  return new asIterable$$inlined$Iterable$1(_this__u8e3s4);
 }
 function filter(_this__u8e3s4, predicate) {
   return new FilteringSequence(_this__u8e3s4, true, predicate);
@@ -6786,7 +6786,7 @@ function initMatchesEntirePattern($this) {
   if (tmp0_elvis_lhs == null) {
     // Inline function 'kotlin.run' call
     var tmp_0;
-    if (startsWith_2($this.cb_1, _Char___init__impl__6a9atx(94)) && endsWith_1($this.cb_1, _Char___init__impl__6a9atx(36))) {
+    if (startsWith_1($this.cb_1, _Char___init__impl__6a9atx(94)) && endsWith_0($this.cb_1, _Char___init__impl__6a9atx(36))) {
       tmp_0 = $this.eb_1;
     } else {
       return new RegExp('^' + trimEnd(trimStart($this.cb_1, charArrayOf([_Char___init__impl__6a9atx(94)])), charArrayOf([_Char___init__impl__6a9atx(36)])) + '$', toFlags($this.db_1, 'gu'));
@@ -6942,24 +6942,6 @@ function RegexOption(name, ordinal, value) {
   Enum.call(this, name, ordinal);
   this.ec_1 = value;
 }
-function MatchGroup(value) {
-  this.fc_1 = value;
-}
-protoOf(MatchGroup).toString = function () {
-  return 'MatchGroup(value=' + this.fc_1 + ')';
-};
-protoOf(MatchGroup).hashCode = function () {
-  return getStringHashCode(this.fc_1);
-};
-protoOf(MatchGroup).equals = function (other) {
-  if (this === other)
-    return true;
-  if (!(other instanceof MatchGroup))
-    return false;
-  if (!(this.fc_1 === other.fc_1))
-    return false;
-  return true;
-};
 function toFlags(_this__u8e3s4, prepend) {
   return joinToString_0(_this__u8e3s4, '', prepend, VOID, VOID, VOID, toFlags$lambda);
 }
@@ -6995,21 +6977,21 @@ function substituteGroupRefs(match, replacement) {
         if (endIndex === replacement.length || !(charCodeAt(replacement, endIndex) === _Char___init__impl__6a9atx(125)))
           throw IllegalArgumentException_init_$Create$_0("Named capturing group reference is missing trailing '}'");
         var groupName = substring(replacement, index, endIndex);
-        var tmp0_safe_receiver = get_1(match.gc(), groupName);
-        var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.fc_1;
+        var tmp0_safe_receiver = get_1(match.fc(), groupName);
+        var tmp1_elvis_lhs = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.gc_1;
         result.l7(tmp1_elvis_lhs == null ? '' : tmp1_elvis_lhs);
         index = endIndex + 1 | 0;
       } else {
         var containsArg = charCodeAt(replacement, index);
         if (!(_Char___init__impl__6a9atx(48) <= containsArg ? containsArg <= _Char___init__impl__6a9atx(57) : false))
           throw IllegalArgumentException_init_$Create$_0('Invalid capturing group reference');
-        var groups = match.gc();
+        var groups = match.fc();
         var endIndex_0 = readGroupIndex(replacement, index, groups.l());
         var groupIndex = toInt(substring(replacement, index, endIndex_0));
         if (groupIndex >= groups.l())
           throw IndexOutOfBoundsException_init_$Create$_0('Group with index ' + groupIndex + ' does not exist');
         var tmp2_safe_receiver = groups.q(groupIndex);
-        var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.fc_1;
+        var tmp3_elvis_lhs = tmp2_safe_receiver == null ? null : tmp2_safe_receiver.gc_1;
         result.l7(tmp3_elvis_lhs == null ? '' : tmp3_elvis_lhs);
         index = endIndex_0;
       }
@@ -7019,6 +7001,24 @@ function substituteGroupRefs(match, replacement) {
   }
   return result.toString();
 }
+function MatchGroup(value) {
+  this.gc_1 = value;
+}
+protoOf(MatchGroup).toString = function () {
+  return 'MatchGroup(value=' + this.gc_1 + ')';
+};
+protoOf(MatchGroup).hashCode = function () {
+  return getStringHashCode(this.gc_1);
+};
+protoOf(MatchGroup).equals = function (other) {
+  if (this === other)
+    return true;
+  if (!(other instanceof MatchGroup))
+    return false;
+  if (!(this.gc_1 === other.gc_1))
+    return false;
+  return true;
+};
 function readGroupName(_this__u8e3s4, startIndex) {
   var index = startIndex;
   $l$loop: while (index < _this__u8e3s4.length) {
@@ -7171,7 +7171,7 @@ protoOf(findNext$1).y = function () {
   var tmp$ret$0 = this.oc_1[0];
   return ensureNotNull(tmp$ret$0);
 };
-protoOf(findNext$1).gc = function () {
+protoOf(findNext$1).fc = function () {
   return this.lc_1;
 };
 protoOf(findNext$1).sc = function () {
@@ -10439,7 +10439,7 @@ function numberFormatError(input) {
   throw NumberFormatException_init_$Create$_0("Invalid number format: '" + input + "'");
 }
 function removePrefix(_this__u8e3s4, prefix) {
-  if (startsWith_1(_this__u8e3s4, prefix)) {
+  if (startsWith_2(_this__u8e3s4, prefix)) {
     return substring_0(_this__u8e3s4, charSequenceLength(prefix));
   }
   return _this__u8e3s4;
@@ -10494,7 +10494,7 @@ function isBlank(_this__u8e3s4) {
   return tmp$ret$0;
 }
 function removeSuffix(_this__u8e3s4, suffix) {
-  if (endsWith_0(_this__u8e3s4, suffix)) {
+  if (endsWith_1(_this__u8e3s4, suffix)) {
     return substring(_this__u8e3s4, 0, _this__u8e3s4.length - charSequenceLength(suffix) | 0);
   }
   return _this__u8e3s4;
@@ -10541,10 +10541,52 @@ function trimStart(_this__u8e3s4, chars) {
   }
   return toString_1(tmp$ret$1);
 }
+function startsWith_1(_this__u8e3s4, char, ignoreCase) {
+  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
+  return charSequenceLength(_this__u8e3s4) > 0 && equals_1(charSequenceGet(_this__u8e3s4, 0), char, ignoreCase);
+}
+function endsWith_0(_this__u8e3s4, char, ignoreCase) {
+  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
+  return charSequenceLength(_this__u8e3s4) > 0 && equals_1(charSequenceGet(_this__u8e3s4, get_lastIndex_4(_this__u8e3s4)), char, ignoreCase);
+}
+function trimEnd(_this__u8e3s4, chars) {
+  // Inline function 'kotlin.text.trimEnd' call
+  var tmp0 = isCharSequence(_this__u8e3s4) ? _this__u8e3s4 : THROW_CCE();
+  var tmp$ret$1;
+  $l$block: {
+    // Inline function 'kotlin.text.trimEnd' call
+    var inductionVariable = charSequenceLength(tmp0) - 1 | 0;
+    if (0 <= inductionVariable)
+      do {
+        var index = inductionVariable;
+        inductionVariable = inductionVariable + -1 | 0;
+        var it = charSequenceGet(tmp0, index);
+        if (!contains_4(chars, it)) {
+          tmp$ret$1 = charSequenceSubSequence(tmp0, 0, index + 1 | 0);
+          break $l$block;
+        }
+      }
+       while (0 <= inductionVariable);
+    tmp$ret$1 = '';
+  }
+  return toString_1(tmp$ret$1);
+}
+function contains_9(_this__u8e3s4, char, ignoreCase) {
+  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
+  return indexOf_8(_this__u8e3s4, char, VOID, ignoreCase) >= 0;
+}
+function requireNonNegativeLimit(limit) {
+  // Inline function 'kotlin.require' call
+  if (!(limit >= 0)) {
+    var message = 'Limit must be non-negative, but was ' + limit;
+    throw IllegalArgumentException_init_$Create$_0(toString_1(message));
+  }
+  return Unit_instance;
+}
 function get_lastIndex_4(_this__u8e3s4) {
   return charSequenceLength(_this__u8e3s4) - 1 | 0;
 }
-function startsWith_1(_this__u8e3s4, prefix, ignoreCase) {
+function startsWith_2(_this__u8e3s4, prefix, ignoreCase) {
   ignoreCase = ignoreCase === VOID ? false : ignoreCase;
   var tmp;
   var tmp_0;
@@ -10681,7 +10723,7 @@ function rangesDelimitedBy(_this__u8e3s4, delimiters, startIndex, ignoreCase, li
 function substring_1(_this__u8e3s4, range) {
   return toString_1(charSequenceSubSequence(_this__u8e3s4, range.zb(), range.ac() + 1 | 0));
 }
-function endsWith_0(_this__u8e3s4, suffix, ignoreCase) {
+function endsWith_1(_this__u8e3s4, suffix, ignoreCase) {
   ignoreCase = ignoreCase === VOID ? false : ignoreCase;
   var tmp;
   var tmp_0;
@@ -10757,14 +10799,6 @@ function regionMatchesImpl(_this__u8e3s4, thisOffset, other, otherOffset, length
     }
      while (inductionVariable < length);
   return true;
-}
-function requireNonNegativeLimit(limit) {
-  // Inline function 'kotlin.require' call
-  if (!(limit >= 0)) {
-    var message = 'Limit must be non-negative, but was ' + limit;
-    throw IllegalArgumentException_init_$Create$_0(toString_1(message));
-  }
-  return Unit_instance;
 }
 function calcNext_1($this) {
   if ($this.dg_1 < 0) {
@@ -10963,40 +10997,6 @@ function lastIndexOf(_this__u8e3s4, string, startIndex, ignoreCase) {
     tmp = _this__u8e3s4.lastIndexOf(string, startIndex);
   }
   return tmp;
-}
-function startsWith_2(_this__u8e3s4, char, ignoreCase) {
-  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
-  return charSequenceLength(_this__u8e3s4) > 0 && equals_1(charSequenceGet(_this__u8e3s4, 0), char, ignoreCase);
-}
-function endsWith_1(_this__u8e3s4, char, ignoreCase) {
-  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
-  return charSequenceLength(_this__u8e3s4) > 0 && equals_1(charSequenceGet(_this__u8e3s4, get_lastIndex_4(_this__u8e3s4)), char, ignoreCase);
-}
-function trimEnd(_this__u8e3s4, chars) {
-  // Inline function 'kotlin.text.trimEnd' call
-  var tmp0 = isCharSequence(_this__u8e3s4) ? _this__u8e3s4 : THROW_CCE();
-  var tmp$ret$1;
-  $l$block: {
-    // Inline function 'kotlin.text.trimEnd' call
-    var inductionVariable = charSequenceLength(tmp0) - 1 | 0;
-    if (0 <= inductionVariable)
-      do {
-        var index = inductionVariable;
-        inductionVariable = inductionVariable + -1 | 0;
-        var it = charSequenceGet(tmp0, index);
-        if (!contains_4(chars, it)) {
-          tmp$ret$1 = charSequenceSubSequence(tmp0, 0, index + 1 | 0);
-          break $l$block;
-        }
-      }
-       while (0 <= inductionVariable);
-    tmp$ret$1 = '';
-  }
-  return toString_1(tmp$ret$1);
-}
-function contains_9(_this__u8e3s4, char, ignoreCase) {
-  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
-  return indexOf_8(_this__u8e3s4, char, VOID, ignoreCase) >= 0;
 }
 function substringBefore_0(_this__u8e3s4, delimiter, missingDelimiterValue) {
   missingDelimiterValue = missingDelimiterValue === VOID ? _this__u8e3s4 : missingDelimiterValue;
@@ -14752,6 +14752,7 @@ export {
   single_1 as singleo93pzdgfc557,
   sortedWith as sortedWith2csnbbb21k0lg,
   sorted as sorted354mfsiv4s7x5,
+  sort_0 as sort15ai02l4kxbfa,
   sum as sum30gqr1hfydrbh,
   take as take3onnpy6q7ctcz,
   toBooleanArray as toBooleanArray2u3qw7fjwsmuh,
@@ -14791,6 +14792,7 @@ export {
   CoroutineImpl as CoroutineImpl2sn3kjnwmfr10,
   startCoroutine as startCoroutine327fwvtqvedik,
   enumEntries as enumEntries20mr21zbe3az4,
+  getProgressionLastElement as getProgressionLastElement2w30kdy2w5nkt,
   throwUninitializedPropertyAccessException as throwUninitializedPropertyAccessException14fok093f3k3t,
   get_ONE as get_ONEazvfdh9ju3d4,
   add as add85si75olwt6n,
