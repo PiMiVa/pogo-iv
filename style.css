@@ -742,3 +742,12 @@ input[type=checkbox], input[type=radio] { width: auto; min-width: 0; flex: none;
 .intro-dots span.on { width: 9px; height: 9px; background: var(--ink); }
 .small.center { text-align: center; }
 .dialog.intro .row { justify-content: flex-end; flex-wrap: wrap; }
+
+/* Was lohnt sich? (Kalender → Tage, 18.11.2026) */
+.worth-tier { font-size: 11px; font-weight: 700; color: #fff; border-radius: 999px; padding: 1px 8px; margin-left: 6px; }
+.worth-tier.tier-top { background: #2E9E5B; }
+.worth-tier.tier-gut { background: #7B6CF0; }
+.worth-tier.tier-okay { background: #E08A00; }
+.worth-tile .worth-tier { margin-left: 0; font-size: 10px; padding: 0 6px; display: inline-flex; align-items: center; gap: 2px; white-space: nowrap; }
+.worth-tile .worth-tier svg { width: 11px; height: 11px; fill: currentColor; }
+.worth-tile .small { font-size: 10px; }
