@@ -109,19 +109,19 @@ initMetadataForObject(Letter, 'Letter');
 initMetadataForInterface(Comparator, 'Comparator');
 initMetadataForObject(Unit, 'Unit');
 initMetadataForClass(AbstractCollection, 'AbstractCollection', VOID, VOID, [Collection]);
-initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [Collection, MutableIterable]);
+initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [MutableIterable, Collection]);
 initMetadataForClass(IteratorImpl, 'IteratorImpl');
 initMetadataForClass(ListIteratorImpl, 'ListIteratorImpl', VOID, IteratorImpl);
-initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [KtList, Collection, MutableIterable]);
+initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [Collection, KtList, MutableIterable]);
 initMetadataForClass(AbstractMap, 'AbstractMap', VOID, VOID, [KtMap]);
 initMetadataForClass(AbstractMutableMap, 'AbstractMutableMap', VOID, AbstractMap, [KtMutableMap]);
 initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [Collection, MutableIterable, KtSet]);
 initMetadataForCompanion(Companion_2);
 initMetadataForInterface(RandomAccess, 'RandomAccess');
-initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [KtList, Collection, MutableIterable, RandomAccess]);
+initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [Collection, KtList, MutableIterable, RandomAccess]);
 initMetadataForClass(HashMap, 'HashMap', HashMap_init_$Create$, AbstractMutableMap, [KtMutableMap]);
 initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [Collection, MutableIterable, KtSet]);
-initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [Collection, MutableIterable]);
+initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [MutableIterable, Collection]);
 initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [Collection, MutableIterable, KtSet]);
 initMetadataForClass(HashMapEntrySet, 'HashMapEntrySet', VOID, HashMapEntrySetBase);
 initMetadataForClass(HashMapKeysDefault$iterator$1);
@@ -1141,6 +1141,9 @@ function maxWith(_this__u8e3s4, comparator) {
   }
   return max;
 }
+function lastOrNull(_this__u8e3s4) {
+  return _this__u8e3s4.r() ? null : _this__u8e3s4.q(_this__u8e3s4.l() - 1 | 0);
+}
 function average(_this__u8e3s4) {
   var sum = 0.0;
   var count = 0;
@@ -1152,6 +1155,18 @@ function average(_this__u8e3s4) {
     checkCountOverflow(count);
   }
   return count === 0 ? NaN : sum / count;
+}
+function maxWithOrNull(_this__u8e3s4, comparator) {
+  var iterator = _this__u8e3s4.i();
+  if (!iterator.j())
+    return null;
+  var max = iterator.k();
+  while (iterator.j()) {
+    var e = iterator.k();
+    if (comparator.compare(max, e) < 0)
+      max = e;
+  }
+  return max;
 }
 function minWithOrNull(_this__u8e3s4, comparator) {
   var iterator = _this__u8e3s4.i();
@@ -1203,18 +1218,6 @@ function max(_this__u8e3s4) {
   }
   return max;
 }
-function maxWithOrNull(_this__u8e3s4, comparator) {
-  var iterator = _this__u8e3s4.i();
-  if (!iterator.j())
-    return null;
-  var max = iterator.k();
-  while (iterator.j()) {
-    var e = iterator.k();
-    if (comparator.compare(max, e) < 0)
-      max = e;
-  }
-  return max;
-}
 function toByteArray(_this__u8e3s4) {
   var result = new Int8Array(_this__u8e3s4.l());
   var index = 0;
@@ -1226,9 +1229,6 @@ function toByteArray(_this__u8e3s4) {
     result[_unary__edvuaz] = element;
   }
   return result;
-}
-function lastOrNull(_this__u8e3s4) {
-  return _this__u8e3s4.r() ? null : _this__u8e3s4.q(_this__u8e3s4.l() - 1 | 0);
 }
 function withIndex$lambda_0($this_withIndex) {
   return function () {
@@ -3421,6 +3421,9 @@ function decodeVarLenBase64(base64, fromBase64, resultLength) {
   }
   return result;
 }
+function isDigitImpl(_this__u8e3s4) {
+  return digitToIntImpl(_this__u8e3s4) >= 0;
+}
 function digitToIntImpl(_this__u8e3s4) {
   // Inline function 'kotlin.code' call
   var ch = Char__toInt_impl_vasixd(_this__u8e3s4);
@@ -3456,9 +3459,6 @@ function Digit_getInstance() {
   if (Digit_instance == null)
     new Digit();
   return Digit_instance;
-}
-function isDigitImpl(_this__u8e3s4) {
-  return digitToIntImpl(_this__u8e3s4) >= 0;
 }
 function isLetterImpl(_this__u8e3s4) {
   return !(getLetterType(_this__u8e3s4) === 0);
@@ -6014,6 +6014,21 @@ function lazy(mode, initializer) {
 function lazy_0(initializer) {
   return new UnsafeLazyImpl(initializer);
 }
+function round(x) {
+  if (!(x % 0.5 === 0.0)) {
+    return Math.round(x);
+  }
+  // Inline function 'kotlin.math.floor' call
+  var floor = Math.floor(x);
+  var tmp;
+  if (floor % 2 === 0.0) {
+    tmp = floor;
+  } else {
+    // Inline function 'kotlin.math.ceil' call
+    tmp = Math.ceil(x);
+  }
+  return tmp;
+}
 function get_sign(_this__u8e3s4) {
   return convertToInt(bitwiseOr(shiftRight(_this__u8e3s4, 63), shiftRightUnsigned(negate(_this__u8e3s4), 63)));
 }
@@ -6048,21 +6063,6 @@ function roundToLong(_this__u8e3s4) {
 }
 function abs_1(n) {
   return n < 0 ? -n | 0 : n;
-}
-function round(x) {
-  if (!(x % 0.5 === 0.0)) {
-    return Math.round(x);
-  }
-  // Inline function 'kotlin.math.floor' call
-  var floor = Math.floor(x);
-  var tmp;
-  if (floor % 2 === 0.0) {
-    tmp = floor;
-  } else {
-    // Inline function 'kotlin.math.ceil' call
-    tmp = Math.ceil(x);
-  }
-  return tmp;
 }
 function KClass() {
 }
@@ -6677,9 +6677,6 @@ function isLowSurrogate(_this__u8e3s4) {
 function isHighSurrogate(_this__u8e3s4) {
   return _Char___init__impl__6a9atx(55296) <= _this__u8e3s4 ? _this__u8e3s4 <= _Char___init__impl__6a9atx(56319) : false;
 }
-function isWhitespace(_this__u8e3s4) {
-  return isWhitespaceImpl(_this__u8e3s4);
-}
 function isDigit(_this__u8e3s4) {
   if (_Char___init__impl__6a9atx(48) <= _this__u8e3s4 ? _this__u8e3s4 <= _Char___init__impl__6a9atx(57) : false) {
     return true;
@@ -6688,6 +6685,9 @@ function isDigit(_this__u8e3s4) {
     return false;
   }
   return isDigitImpl(_this__u8e3s4);
+}
+function isWhitespace(_this__u8e3s4) {
+  return isWhitespaceImpl(_this__u8e3s4);
 }
 function isLetter(_this__u8e3s4) {
   if ((_Char___init__impl__6a9atx(97) <= _this__u8e3s4 ? _this__u8e3s4 <= _Char___init__impl__6a9atx(122) : false) || (_Char___init__impl__6a9atx(65) <= _this__u8e3s4 ? _this__u8e3s4 <= _Char___init__impl__6a9atx(90) : false)) {
@@ -10840,7 +10840,7 @@ function calcNext_1($this) {
 function DelimitedRangesSequence$iterator$1(this$0) {
   this.gg_1 = this$0;
   this.bg_1 = -1;
-  this.cg_1 = coerceIn_0(this$0.ig_1, 0, charSequenceLength(this$0.hg_1));
+  this.cg_1 = coerceIn_1(this$0.ig_1, 0, charSequenceLength(this$0.hg_1));
   this.dg_1 = this.cg_1;
   this.eg_1 = null;
   this.fg_1 = 0;
@@ -14870,8 +14870,8 @@ export {
   coerceAtLeast_1 as coerceAtLeastklytehohcpeq,
   coerceAtLeast as coerceAtLeast2bkz8m9ik7hep,
   coerceAtMost as coerceAtMost322komnqp70ag,
-  coerceIn_1 as coerceIn1xblvmyr0tby6,
-  coerceIn_0 as coerceIn10f36k81le1mm,
+  coerceIn_0 as coerceIn1xblvmyr0tby6,
+  coerceIn_1 as coerceIn10f36k81le1mm,
   coerceIn as coerceIn302bduskdb54x,
   contains_6 as contains2c50nlxg7en7o,
   step as step18s9qzr5xwxat,
