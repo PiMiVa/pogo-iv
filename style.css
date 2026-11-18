@@ -806,3 +806,8 @@ section.card { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
 .open-find { border-top: 1px solid var(--line); padding-top: 8px; margin-top: 8px; }
 .open-cand { padding-left: 10px; align-items: center; gap: 8px; }
 .small.good { color: var(--good, #2e9e5b); }
+.catch-range { display: grid; grid-template-columns: max-content max-content; column-gap: 8px; font-size: .8rem; margin-top: 2px; }
+.catch-range b { font-weight: 600; white-space: nowrap; }
+/* Eingetragene Attacken (gescannt/gewählt) vs. Vorschlag (18.11.2026) */
+.move.known { box-shadow: inset 0 0 0 1.5px var(--good); }
+.move.assumed { box-shadow: inset 0 0 0 1px #b0b0b8; }
