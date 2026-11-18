@@ -220,7 +220,7 @@ import {
   abs22kdeprm0tm5i as abs_0,
   count2ctzg572d5xrz as count,
   substringBefore3n7kj60w69hju as substringBefore_0,
-} from './kotlin-kotlin-stdlib.js?v=1795043235010';
+} from './kotlin-kotlin-stdlib.js?v=1795045416766';
 import {
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
   JsonObjectee06ihoeeiqj as JsonObject,
@@ -233,7 +233,7 @@ import {
   get_jsonArray18sglwhl4pclz as get_jsonArray,
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795043235010';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795045416766';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -252,7 +252,7 @@ import {
   ListSerializer1hxuk9dx5n9du as ListSerializer,
   SerializableWithd2dap36updxd as SerializableWith,
   LinkedHashSetSerializer3ncla559t2lx7 as LinkedHashSetSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795043235010';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795045416766';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -33781,135 +33781,176 @@ protoOf(Upgrade).c2y = function (data, analyzer, saved, metas, marks, planned) {
             }
           }
           var knownCharged = destination_5;
-          var tmp_6;
-          var tmp_7;
-          if (!(knownFast == null)) {
-            // Inline function 'kotlin.collections.isNotEmpty' call
-            tmp_7 = !knownCharged.r();
-          } else {
-            tmp_7 = false;
-          }
-          if (tmp_7) {
-            // Inline function 'kotlin.collections.filter' call
-            // Inline function 'kotlin.collections.filterTo' call
-            var destination_6 = ArrayList_init_$Create$_0();
-            var _iterator__ex2g4s_7 = knownCharged.i();
-            while (_iterator__ex2g4s_7.j()) {
-              var element_7 = _iterator__ex2g4s_7.k();
-              if (element_7.q1k_1 === type) {
-                destination_6.h(element_7);
-              }
+          var forms = plus_1(listOf_0(s), shadow ? emptyList() : Mega_getInstance().u27(data, p));
+          // Inline function 'kotlin.collections.mapNotNull' call
+          // Inline function 'kotlin.collections.mapNotNullTo' call
+          var destination_6 = ArrayList_init_$Create$_0();
+          // Inline function 'kotlin.collections.forEach' call
+          var _iterator__ex2g4s_7 = forms.i();
+          while (_iterator__ex2g4s_7.j()) {
+            var element_7 = _iterator__ex2g4s_7.k();
+            var tmp_6;
+            var tmp_7;
+            if (!(knownFast == null)) {
+              // Inline function 'kotlin.collections.isNotEmpty' call
+              tmp_7 = !knownCharged.r();
+            } else {
+              tmp_7 = false;
             }
-            // Inline function 'kotlin.collections.map' call
-            // Inline function 'kotlin.collections.mapTo' call
-            var destination_7 = ArrayList_init_$Create$(collectionSizeOrDefault(destination_6, 10));
-            var _iterator__ex2g4s_8 = destination_6.i();
-            while (_iterator__ex2g4s_8.j()) {
-              var item = _iterator__ex2g4s_8.k();
-              var tmp$ret$59 = pve.v2l(s, p.j1n(), p.t1m_1, shadow, knownFast, item, target, Weather_NONE_getInstance());
-              destination_7.h(tmp$ret$59);
-            }
-            var tmp$ret$60;
-            $l$block_5: {
-              // Inline function 'kotlin.collections.maxByOrNull' call
-              var iterator_0 = destination_7.i();
-              if (!iterator_0.j()) {
-                tmp$ret$60 = null;
-                break $l$block_5;
-              }
-              var maxElem_0 = iterator_0.k();
-              if (!iterator_0.j()) {
-                tmp$ret$60 = maxElem_0;
-                break $l$block_5;
-              }
-              var maxValue_0 = maxElem_0.n1z();
-              do {
-                var e_0 = iterator_0.k();
-                var v_0 = e_0.n1z();
-                if (compareTo(maxValue_0, v_0) < 0) {
-                  maxElem_0 = e_0;
-                  maxValue_0 = v_0;
-                }
-              }
-               while (iterator_0.j());
-              tmp$ret$60 = maxElem_0;
-            }
-            tmp_6 = tmp$ret$60;
-          } else {
-            var _destruct__k2r9zo_0 = pve.u2l(s, false);
-            var fast = _destruct__k2r9zo_0.m9();
-            var charged = _destruct__k2r9zo_0.n9();
-            // Inline function 'kotlin.collections.filter' call
-            // Inline function 'kotlin.collections.filterTo' call
-            var destination_8 = ArrayList_init_$Create$_0();
-            var _iterator__ex2g4s_9 = fast.i();
-            while (_iterator__ex2g4s_9.j()) {
-              var element_8 = _iterator__ex2g4s_9.k();
-              if (element_8.q1k_1 === type) {
-                destination_8.h(element_8);
-              }
-            }
-            // Inline function 'kotlin.collections.flatMap' call
-            // Inline function 'kotlin.collections.flatMapTo' call
-            var destination_9 = ArrayList_init_$Create$_0();
-            var _iterator__ex2g4s_10 = destination_8.i();
-            while (_iterator__ex2g4s_10.j()) {
-              var element_9 = _iterator__ex2g4s_10.k();
+            if (tmp_7) {
               // Inline function 'kotlin.collections.filter' call
               // Inline function 'kotlin.collections.filterTo' call
-              var destination_10 = ArrayList_init_$Create$_0();
-              var _iterator__ex2g4s_11 = charged.i();
-              while (_iterator__ex2g4s_11.j()) {
-                var element_10 = _iterator__ex2g4s_11.k();
-                if (element_10.q1k_1 === type) {
-                  destination_10.h(element_10);
+              var destination_7 = ArrayList_init_$Create$_0();
+              var _iterator__ex2g4s_8 = knownCharged.i();
+              while (_iterator__ex2g4s_8.j()) {
+                var element_8 = _iterator__ex2g4s_8.k();
+                if (element_8.q1k_1 === type) {
+                  destination_7.h(element_8);
                 }
               }
               // Inline function 'kotlin.collections.map' call
               // Inline function 'kotlin.collections.mapTo' call
-              var destination_11 = ArrayList_init_$Create$(collectionSizeOrDefault(destination_10, 10));
-              var _iterator__ex2g4s_12 = destination_10.i();
-              while (_iterator__ex2g4s_12.j()) {
-                var item_0 = _iterator__ex2g4s_12.k();
-                var tmp$ret$74 = pve.v2l(s, p.j1n(), p.t1m_1, shadow, element_9, item_0, target, Weather_NONE_getInstance());
-                destination_11.h(tmp$ret$74);
+              var destination_8 = ArrayList_init_$Create$(collectionSizeOrDefault(destination_7, 10));
+              var _iterator__ex2g4s_9 = destination_7.i();
+              while (_iterator__ex2g4s_9.j()) {
+                var item = _iterator__ex2g4s_9.k();
+                var tmp$ret$64 = pve.v2l(element_7, p.j1n(), p.t1m_1, shadow, knownFast, item, target, Weather_NONE_getInstance());
+                destination_8.h(tmp$ret$64);
               }
-              var list = destination_11;
-              addAll(destination_9, list);
-            }
-            var tmp$ret$75;
-            $l$block_7: {
-              // Inline function 'kotlin.collections.maxByOrNull' call
-              var iterator_1 = destination_9.i();
-              if (!iterator_1.j()) {
-                tmp$ret$75 = null;
-                break $l$block_7;
+              var tmp$ret$65;
+              $l$block_5: {
+                // Inline function 'kotlin.collections.maxByOrNull' call
+                var iterator_0 = destination_8.i();
+                if (!iterator_0.j()) {
+                  tmp$ret$65 = null;
+                  break $l$block_5;
+                }
+                var maxElem_0 = iterator_0.k();
+                if (!iterator_0.j()) {
+                  tmp$ret$65 = maxElem_0;
+                  break $l$block_5;
+                }
+                var maxValue_0 = maxElem_0.n1z();
+                do {
+                  var e_0 = iterator_0.k();
+                  var v_0 = e_0.n1z();
+                  if (compareTo(maxValue_0, v_0) < 0) {
+                    maxElem_0 = e_0;
+                    maxValue_0 = v_0;
+                  }
+                }
+                 while (iterator_0.j());
+                tmp$ret$65 = maxElem_0;
               }
-              var maxElem_1 = iterator_1.k();
-              if (!iterator_1.j()) {
-                tmp$ret$75 = maxElem_1;
-                break $l$block_7;
-              }
-              var maxValue_1 = maxElem_1.n1z();
-              do {
-                var e_1 = iterator_1.k();
-                var v_1 = e_1.n1z();
-                if (compareTo(maxValue_1, v_1) < 0) {
-                  maxElem_1 = e_1;
-                  maxValue_1 = v_1;
+              tmp_6 = tmp$ret$65;
+            } else {
+              var _destruct__k2r9zo_0 = pve.u2l(element_7, false);
+              var fast = _destruct__k2r9zo_0.m9();
+              var charged = _destruct__k2r9zo_0.n9();
+              // Inline function 'kotlin.collections.filter' call
+              // Inline function 'kotlin.collections.filterTo' call
+              var destination_9 = ArrayList_init_$Create$_0();
+              var _iterator__ex2g4s_10 = fast.i();
+              while (_iterator__ex2g4s_10.j()) {
+                var element_9 = _iterator__ex2g4s_10.k();
+                if (element_9.q1k_1 === type) {
+                  destination_9.h(element_9);
                 }
               }
-               while (iterator_1.j());
-              tmp$ret$75 = maxElem_1;
+              // Inline function 'kotlin.collections.flatMap' call
+              // Inline function 'kotlin.collections.flatMapTo' call
+              var destination_10 = ArrayList_init_$Create$_0();
+              var _iterator__ex2g4s_11 = destination_9.i();
+              while (_iterator__ex2g4s_11.j()) {
+                var element_10 = _iterator__ex2g4s_11.k();
+                // Inline function 'kotlin.collections.filter' call
+                // Inline function 'kotlin.collections.filterTo' call
+                var destination_11 = ArrayList_init_$Create$_0();
+                var _iterator__ex2g4s_12 = charged.i();
+                while (_iterator__ex2g4s_12.j()) {
+                  var element_11 = _iterator__ex2g4s_12.k();
+                  if (element_11.q1k_1 === type) {
+                    destination_11.h(element_11);
+                  }
+                }
+                // Inline function 'kotlin.collections.map' call
+                // Inline function 'kotlin.collections.mapTo' call
+                var destination_12 = ArrayList_init_$Create$(collectionSizeOrDefault(destination_11, 10));
+                var _iterator__ex2g4s_13 = destination_11.i();
+                while (_iterator__ex2g4s_13.j()) {
+                  var item_0 = _iterator__ex2g4s_13.k();
+                  var tmp$ret$79 = pve.v2l(element_7, p.j1n(), p.t1m_1, shadow, element_10, item_0, target, Weather_NONE_getInstance());
+                  destination_12.h(tmp$ret$79);
+                }
+                var list = destination_12;
+                addAll(destination_10, list);
+              }
+              var tmp$ret$80;
+              $l$block_7: {
+                // Inline function 'kotlin.collections.maxByOrNull' call
+                var iterator_1 = destination_10.i();
+                if (!iterator_1.j()) {
+                  tmp$ret$80 = null;
+                  break $l$block_7;
+                }
+                var maxElem_1 = iterator_1.k();
+                if (!iterator_1.j()) {
+                  tmp$ret$80 = maxElem_1;
+                  break $l$block_7;
+                }
+                var maxValue_1 = maxElem_1.n1z();
+                do {
+                  var e_1 = iterator_1.k();
+                  var v_1 = e_1.n1z();
+                  if (compareTo(maxValue_1, v_1) < 0) {
+                    maxElem_1 = e_1;
+                    maxValue_1 = v_1;
+                  }
+                }
+                 while (iterator_1.j());
+                tmp$ret$80 = maxElem_1;
+              }
+              tmp_6 = tmp$ret$80;
             }
-            tmp_6 = tmp$ret$75;
+            var tmp0_safe_receiver_5 = tmp_6;
+            if (tmp0_safe_receiver_5 == null)
+              null;
+            else {
+              // Inline function 'kotlin.let' call
+              destination_6.h(tmp0_safe_receiver_5);
+            }
           }
-          var nowRating = tmp_6;
+          var tmp$ret$85;
+          $l$block_9: {
+            // Inline function 'kotlin.collections.maxByOrNull' call
+            var iterator_2 = destination_6.i();
+            if (!iterator_2.j()) {
+              tmp$ret$85 = null;
+              break $l$block_9;
+            }
+            var maxElem_2 = iterator_2.k();
+            if (!iterator_2.j()) {
+              tmp$ret$85 = maxElem_2;
+              break $l$block_9;
+            }
+            var maxValue_2 = maxElem_2.n1z();
+            do {
+              var e_2 = iterator_2.k();
+              var v_2 = e_2.n1z();
+              if (compareTo(maxValue_2, v_2) < 0) {
+                maxElem_2 = e_2;
+                maxValue_2 = v_2;
+              }
+            }
+             while (iterator_2.j());
+            tmp$ret$85 = maxElem_2;
+          }
+          var nowRating = tmp$ret$85;
           var tmp_8 = p.j1n();
           // Inline function 'kotlin.comparisons.maxOf' call
           var a = p.t1m_1;
-          var tmp$ret$78 = Math.max(a, 40.0);
-          var potential = pve.v2l(final, tmp_8, tmp$ret$78, shadow, entry.l2b_1.q2b_1, entry.l2b_1.r2b_1, target, Weather_NONE_getInstance());
+          var tmp$ret$88 = Math.max(a, 40.0);
+          var potential = pve.v2l(final, tmp_8, tmp$ret$88, shadow, entry.l2b_1.q2b_1, entry.l2b_1.r2b_1, target, Weather_NONE_getInstance());
           var _destruct__k2r9zo_1 = Upgrade_instance.u2x(p, Upgrade_instance.t2w(data, analyzer, p, s, final, entry), marks);
           var open = _destruct__k2r9zo_1.m9();
           var later = _destruct__k2r9zo_1.n9();
@@ -33923,12 +33964,12 @@ protoOf(Upgrade).c2y = function (data, analyzer, saved, metas, marks, planned) {
           var tmp4_elvis_lhs = tmp_9;
           tmp$ret$24 = new RaidRow(p, s, final, type, tmp4_elvis_lhs == null ? 0 : tmp4_elvis_lhs, raidOverview$pct(ref, potential.n1z()), open, later, entry, ref);
         }
-        var tmp0_safe_receiver_5 = tmp$ret$24;
-        if (tmp0_safe_receiver_5 == null)
+        var tmp0_safe_receiver_6 = tmp$ret$24;
+        if (tmp0_safe_receiver_6 == null)
           null;
         else {
           // Inline function 'kotlin.let' call
-          destination_2.h(tmp0_safe_receiver_5);
+          destination_2.h(tmp0_safe_receiver_6);
         }
       }
       var rows = destination_2;
@@ -33941,29 +33982,29 @@ protoOf(Upgrade).c2y = function (data, analyzer, saved, metas, marks, planned) {
       }
       tmp$ret$17 = tmp_10;
     }
-    var tmp0_safe_receiver_6 = tmp$ret$17;
-    if (tmp0_safe_receiver_6 == null)
+    var tmp0_safe_receiver_7 = tmp$ret$17;
+    if (tmp0_safe_receiver_7 == null)
       null;
     else {
       // Inline function 'kotlin.let' call
-      destination_1.h(tmp0_safe_receiver_6);
+      destination_1.h(tmp0_safe_receiver_7);
     }
   }
   var all = destination_1;
   var direction = this.d2y(all, saved);
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
-  var destination_12 = ArrayList_init_$Create$(collectionSizeOrDefault(all, 10));
-  var _iterator__ex2g4s_13 = all.i();
-  while (_iterator__ex2g4s_13.j()) {
-    var item_1 = _iterator__ex2g4s_13.k();
+  var destination_13 = ArrayList_init_$Create$(collectionSizeOrDefault(all, 10));
+  var _iterator__ex2g4s_14 = all.i();
+  while (_iterator__ex2g4s_14.j()) {
+    var item_1 = _iterator__ex2g4s_14.k();
     // Inline function 'kotlin.collections.map' call
     var this_0 = item_1.h2k_1;
     // Inline function 'kotlin.collections.mapTo' call
-    var destination_13 = ArrayList_init_$Create$(collectionSizeOrDefault(this_0, 10));
-    var _iterator__ex2g4s_14 = this_0.i();
-    while (_iterator__ex2g4s_14.j()) {
-      var item_2 = _iterator__ex2g4s_14.k();
+    var destination_14 = ArrayList_init_$Create$(collectionSizeOrDefault(this_0, 10));
+    var _iterator__ex2g4s_15 = this_0.i();
+    while (_iterator__ex2g4s_15.j()) {
+      var item_2 = _iterator__ex2g4s_15.k();
       var dir = direction.c2(item_2.k2k_1.m1m_1);
       var tmp_11;
       if (!(item_2.k2k_1.v1m_1 == null)) {
@@ -33989,25 +34030,25 @@ protoOf(Upgrade).c2y = function (data, analyzer, saved, metas, marks, planned) {
         var tmp5_elvis_lhs = data.q1g_1.c2(dir);
         tmp_12 = item_2.a2x(VOID, VOID, VOID, VOID, VOID, VOID, tmp_13, tmp_14, VOID, VOID, tmp5_elvis_lhs == null ? dir : tmp5_elvis_lhs);
       }
-      var tmp$ret$90 = tmp_12;
-      destination_13.h(tmp$ret$90);
+      var tmp$ret$100 = tmp_12;
+      destination_14.h(tmp$ret$100);
     }
-    var tmp_15 = destination_13;
+    var tmp_15 = destination_14;
     // Inline function 'kotlin.comparisons.compareBy' call
     var tmp_16 = Upgrade$raidOverview$lambda;
     // Inline function 'kotlin.comparisons.thenByDescending' call
     var this_1 = new sam$kotlin_Comparator$0_41(tmp_16);
     var tmp_17 = Upgrade$raidOverview$lambda_0(this_1);
-    var tmp$ret$93 = new sam$kotlin_Comparator$0_41(tmp_17);
-    var rows_0 = take_0(sortedWith(tmp_15, tmp$ret$93), 6);
-    var tmp$ret$87 = item_1.h2x(VOID, VOID, rows_0);
-    destination_12.h(tmp$ret$87);
+    var tmp$ret$103 = new sam$kotlin_Comparator$0_41(tmp_17);
+    var rows_0 = take_0(sortedWith(tmp_15, tmp$ret$103), 6);
+    var tmp$ret$97 = item_1.h2x(VOID, VOID, rows_0);
+    destination_13.h(tmp$ret$97);
   }
   // Inline function 'kotlin.collections.sortedByDescending' call
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp_18 = Upgrade$raidOverview$lambda_1;
-  var tmp$ret$95 = new sam$kotlin_Comparator$0_41(tmp_18);
-  return sortedWith(destination_12, tmp$ret$95);
+  var tmp$ret$105 = new sam$kotlin_Comparator$0_41(tmp_18);
+  return sortedWith(destination_13, tmp$ret$105);
 };
 protoOf(Upgrade).e2k = function (data, analyzer, saved, metas, marks, planned, $super) {
   marks = marks === VOID ? emptyMap() : marks;
