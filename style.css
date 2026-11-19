@@ -863,3 +863,4 @@ button.big-scan .icon svg { width: 22px; height: 22px; fill: #fff; }
 input.rocket-search { width: 100%; border-radius: 999px; margin: 4px 0; }
 .rocket-card .quote { font-style: italic; font-size: 13px; }
 .rocket-pick { background: var(--mist); border-radius: 14px; padding: 8px 10px; margin: 6px 0; }
+.cand-actions { display: flex; flex-direction: column; gap: 4px; align-items: flex-end; }

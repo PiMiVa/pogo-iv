@@ -112,23 +112,23 @@ initMetadataForClass(AbstractCollection, 'AbstractCollection', VOID, VOID, [Coll
 initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [Collection, MutableIterable]);
 initMetadataForClass(IteratorImpl, 'IteratorImpl');
 initMetadataForClass(ListIteratorImpl, 'ListIteratorImpl', VOID, IteratorImpl);
-initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [MutableIterable, KtList, Collection]);
+initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [Collection, MutableIterable, KtList]);
 initMetadataForClass(AbstractMap, 'AbstractMap', VOID, VOID, [KtMap]);
 initMetadataForClass(AbstractMutableMap, 'AbstractMutableMap', VOID, AbstractMap, [KtMutableMap]);
-initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [MutableIterable, KtSet, Collection]);
+initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [Collection, MutableIterable, KtSet]);
 initMetadataForCompanion(Companion_2);
 initMetadataForInterface(RandomAccess, 'RandomAccess');
-initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [MutableIterable, KtList, Collection, RandomAccess]);
+initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [Collection, MutableIterable, KtList, RandomAccess]);
 initMetadataForClass(HashMap, 'HashMap', HashMap_init_$Create$, AbstractMutableMap, [KtMutableMap]);
-initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [MutableIterable, KtSet, Collection]);
+initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [Collection, MutableIterable, KtSet]);
 initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [Collection, MutableIterable]);
-initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [MutableIterable, KtSet, Collection]);
+initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [Collection, MutableIterable, KtSet]);
 initMetadataForClass(HashMapEntrySet, 'HashMapEntrySet', VOID, HashMapEntrySetBase);
 initMetadataForClass(HashMapKeysDefault$iterator$1);
 initMetadataForClass(HashMapKeysDefault, 'HashMapKeysDefault', VOID, AbstractMutableSet);
 initMetadataForClass(HashMapValuesDefault$iterator$1);
 initMetadataForClass(HashMapValuesDefault, 'HashMapValuesDefault', VOID, AbstractMutableCollection);
-initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [MutableIterable, KtSet, Collection]);
+initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [Collection, MutableIterable, KtSet]);
 initMetadataForCompanion(Companion_3);
 initMetadataForClass(Itr, 'Itr');
 initMetadataForClass(KeysItr, 'KeysItr', VOID, Itr);
@@ -174,7 +174,7 @@ initMetadataForInterface(InternalMap, 'InternalMap');
 initMetadataForClass(InternalHashMap, 'InternalHashMap', InternalHashMap_init_$Create$, VOID, [InternalMap]);
 initMetadataForObject(EmptyHolder, 'EmptyHolder');
 initMetadataForClass(LinkedHashMap, 'LinkedHashMap', LinkedHashMap_init_$Create$, HashMap, [KtMutableMap]);
-initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [MutableIterable, KtSet, Collection]);
+initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [Collection, MutableIterable, KtSet]);
 initMetadataForInterface(Continuation, 'Continuation');
 initMetadataForClass(InterceptedCoroutine, 'InterceptedCoroutine', VOID, VOID, [Continuation]);
 initMetadataForClass(CoroutineImpl, 'CoroutineImpl', VOID, InterceptedCoroutine, [Continuation]);
@@ -3879,6 +3879,14 @@ protoOf(AbstractMutableCollection).k1 = function (elements) {
   var tmp = isInterface(this, MutableIterable) ? this : THROW_CCE();
   return removeAll_0(tmp, AbstractMutableCollection$removeAll$lambda(elements));
 };
+protoOf(AbstractMutableCollection).i2 = function () {
+  this.n3();
+  var iterator = this.i();
+  while (iterator.j()) {
+    iterator.k();
+    iterator.o3();
+  }
+};
 protoOf(AbstractMutableCollection).toJSON = function () {
   return this.toArray();
 };
@@ -4010,6 +4018,9 @@ protoOf(AbstractMutableMap).e2 = function () {
     tmp = tmp0_elvis_lhs;
   }
   return tmp;
+};
+protoOf(AbstractMutableMap).i2 = function () {
+  this.w().i2();
 };
 protoOf(AbstractMutableMap).g2 = function (key) {
   this.n3();
@@ -4454,6 +4465,9 @@ protoOf(HashMapKeys).r = function () {
 protoOf(HashMapKeys).t = function (element) {
   return this.b5_1.a5(element);
 };
+protoOf(HashMapKeys).i2 = function () {
+  return this.b5_1.i2();
+};
 protoOf(HashMapKeys).h = function (element) {
   throw UnsupportedOperationException_init_$Create$();
 };
@@ -4529,6 +4543,9 @@ protoOf(HashMapEntrySetBase).t = function (element) {
     return false;
   return this.n5((!(element == null) ? isInterface(element, Entry) : false) ? element : THROW_CCE());
 };
+protoOf(HashMapEntrySetBase).i2 = function () {
+  return this.l5_1.i2();
+};
 protoOf(HashMapEntrySetBase).o5 = function (element) {
   throw UnsupportedOperationException_init_$Create$();
 };
@@ -4573,6 +4590,9 @@ protoOf(HashMapKeysDefault).v5 = function (element) {
 };
 protoOf(HashMapKeysDefault).h = function (element) {
   return this.v5(element);
+};
+protoOf(HashMapKeysDefault).i2 = function () {
+  return this.u5_1.i2();
 };
 protoOf(HashMapKeysDefault).a5 = function (element) {
   return this.u5_1.a2(element);
