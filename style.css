@@ -884,3 +884,30 @@ button.gear-btn .icon svg { width: 24px; height: 24px; fill: var(--ink, #15151A)
 .side-preview .good { color: #6EE08A; }
 .side-preview .over { color: #AAAAB2; }
 span.muted { color: #9a9aa2; }
+
+/* Pokémon-Karte kompakt (19.11.2026): Urteil, Tags „In deiner Sammlung“, Eigenschaften als Zeilen. */
+.verdict { display: inline-flex; gap: 6px; align-items: center; border-radius: 999px; padding: 6px 12px; margin: 8px 0 4px; background: var(--mist); color: var(--ink); cursor: pointer; }
+.verdict.yes { background: var(--lime); color: var(--lime-t); }
+.verdict.maybe { background: var(--butter); color: var(--butter-t); }
+.verdict .verdict-icon svg { width: 18px; height: 18px; }
+.verdict-title { font-weight: 800; font-size: .9rem; }
+.verdict .small { color: var(--ink); opacity: .75; }
+.need-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
+.need-tag { background: var(--mist); color: var(--ink); border-radius: 999px; padding: 5px 10px; font-size: .8rem; font-weight: 600; cursor: pointer; }
+.need-tag.best { background: var(--lime); color: var(--lime-t); }
+.traits { background: var(--mist); border-radius: 16px; padding: 2px 12px; margin: 4px 0 8px; }
+.trait-row { display: flex; align-items: center; gap: 6px; padding: 10px 0; cursor: pointer; }
+.trait-row + .trait-row, .trait-body + .trait-row { border-top: 1px solid var(--line); }
+.trait-body { padding-bottom: 10px; }
+
+/* Start (19.11.2026): Sammlung + Kampfliga gleich breit, Events breit darunter mit „Lohnt sich heute“. */
+.stat-row > .stat { flex: 1 1 0; min-width: 0; }
+.stat-note { font-size: .75rem; font-weight: 700; color: var(--rose-t); }
+.stat.events-wide { flex-direction: row; gap: 12px; margin-top: 10px; cursor: pointer; }
+.events-left { flex: 0 0 86px; display: flex; flex-direction: column; gap: 3px; }
+.events-right { flex: 1; min-width: 0; border-left: 1px solid rgba(85,112,0,.25); padding-left: 12px; display: flex; flex-direction: column; gap: 6px; }
+.events-mons { display: flex; gap: 4px; }
+.events-mon { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 1px; }
+.events-name { font-size: .65rem; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink); }
+.events-src { font-size: .6rem; font-weight: 700; color: var(--lime-t); background: rgba(255,255,255,.8); border-radius: 999px; padding: 0 6px; }
+.events-more { flex: 1 1 0; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem; color: var(--lime-t); height: 40px; }
