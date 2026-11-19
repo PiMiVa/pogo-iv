@@ -49,7 +49,7 @@ import {
   serializer1q7c5q67ysppr as serializer_3,
   NamedValueDecoderzk26ztf92xbq as NamedValueDecoder,
   getContextualDescriptor2n1gf3b895yb8 as getContextualDescriptor,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795079650898';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795083659822';
 import {
   protoOf180f3jzyo7rfj as protoOf,
   initMetadataForObject1cxne3s9w65el as initMetadataForObject,
@@ -74,6 +74,7 @@ import {
   KtMap140uvy3s5zad8 as KtMap,
   toDouble1kn912gjoizjp as toDouble,
   toDoubleOrNullkxwozihadygj as toDoubleOrNull,
+  IllegalStateException_init_$Create$38ax6c90susjc as IllegalStateException_init_$Create$,
   NumberFormatException_init_$Create$18mw0iwc7e1dn as NumberFormatException_init_$Create$,
   numberRangeToNumber25vse2rgp6rs8 as numberRangeToNumber,
   ClosedRangehokgr73im9z3 as ClosedRange,
@@ -91,7 +92,6 @@ import {
   Companion_getInstance11ies3wlxhmd7 as Companion_getInstance,
   _ULong___get_data__impl__fggpzbbo8lz7f8fnfy as _ULong___get_data__impl__fggpzb,
   toBooleanStrictOrNull2j0md398tkvbj as toBooleanStrictOrNull,
-  IllegalStateException_init_$Create$38ax6c90susjc as IllegalStateException_init_$Create$,
   KProperty1ca4yb4wlo496 as KProperty1,
   getPropertyCallableRef3hckxc0xueiaj as getPropertyCallableRef,
   constructCallableReference23y65rf941mch as constructCallableReference,
@@ -186,7 +186,7 @@ import {
   substringiqarkczpya5m as substring,
   StringBuilder_init_$Create$yggnhbmai7wr as StringBuilder_init_$Create$_0,
   HashMap_init_$Create$m2z141lj3xfu as HashMap_init_$Create$,
-} from './kotlin-kotlin-stdlib.js?v=1795079650898';
+} from './kotlin-kotlin-stdlib.js?v=1795083659822';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -635,6 +635,17 @@ function get_jsonArray(_this__u8e3s4) {
 function get_doubleOrNull(_this__u8e3s4) {
   _init_properties_JsonElement_kt__7cbdc2();
   return toDoubleOrNull(_this__u8e3s4.d15());
+}
+function get_boolean(_this__u8e3s4) {
+  _init_properties_JsonElement_kt__7cbdc2();
+  var tmp0_elvis_lhs = toBooleanStrictOrNull_0(_this__u8e3s4.d15());
+  var tmp;
+  if (tmp0_elvis_lhs == null) {
+    throw IllegalStateException_init_$Create$(_this__u8e3s4.toString() + ' does not represent a Boolean');
+  } else {
+    tmp = tmp0_elvis_lhs;
+  }
+  return tmp;
 }
 function get_int(_this__u8e3s4) {
   _init_properties_JsonElement_kt__7cbdc2();
@@ -5415,6 +5426,7 @@ export {
   JsonObject as JsonObjectee06ihoeeiqj,
   JsonPrimitive as JsonPrimitive3ttzjh2ft5dnx,
   Json_0 as Jsonsmkyu9xjl7fv,
+  get_boolean as get_boolean37ml8jnzy6rg3,
   get_double as get_double1785hcxaminy4,
   get_doubleOrNull as get_doubleOrNull2fo14gjg922um,
   get_int as get_int2y6jf75ftml0w,
