@@ -224,7 +224,7 @@ import {
   abs22kdeprm0tm5i as abs_0,
   count2ctzg572d5xrz as count,
   substringBefore3n7kj60w69hju as substringBefore_0,
-} from './kotlin-kotlin-stdlib.js?v=1795092880616';
+} from './kotlin-kotlin-stdlib.js?v=1795098394391';
 import {
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
   JsonObjectee06ihoeeiqj as JsonObject,
@@ -238,7 +238,7 @@ import {
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
   get_boolean37ml8jnzy6rg3 as get_boolean,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795092880616';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795098394391';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -257,7 +257,7 @@ import {
   ListSerializer1hxuk9dx5n9du as ListSerializer,
   SerializableWithd2dap36updxd as SerializableWith,
   LinkedHashSetSerializer3ncla559t2lx7 as LinkedHashSetSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795092880616';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795098394391';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -37509,7 +37509,7 @@ protoOf(UpgradeFocus).n33 = function (data, bosses) {
   }
   return toSet(destination);
 };
-protoOf(UpgradeFocus).o33 = function (data, analyzer, saved, overview, plans, marks, planned, events, hotTypes, stardust, maxHotTypes) {
+protoOf(UpgradeFocus).o33 = function (data, analyzer, saved, overview, plans, marks, planned, events, hotTypes, stardust, maxHotTypes, maxShare) {
   var tmp;
   if (stardust == null) {
     tmp = null;
@@ -37524,7 +37524,24 @@ protoOf(UpgradeFocus).o33 = function (data, analyzer, saved, overview, plans, ma
     tmp = tmp_0;
   }
   var budget = tmp;
-  var left = {_v: budget == null ? 2147483647 : budget};
+  var tmp_1;
+  if (budget == null) {
+    tmp_1 = null;
+  } else {
+    // Inline function 'kotlin.let' call
+    tmp_1 = imul(budget, coerceIn(maxShare, 0, 100)) / 100 | 0;
+  }
+  var tmp2_elvis_lhs = tmp_1;
+  var maxPart = tmp2_elvis_lhs == null ? 0 : tmp2_elvis_lhs;
+  var tmp_2;
+  if (budget == null) {
+    tmp_2 = null;
+  } else {
+    // Inline function 'kotlin.let' call
+    tmp_2 = budget - maxPart | 0;
+  }
+  var tmp4_elvis_lhs = tmp_2;
+  var left = {_v: tmp4_elvis_lhs == null ? 2147483647 : tmp4_elvis_lhs};
   var raid = ArrayList_init_$Create$_0();
   var teams = ArrayList_init_$Create$_0();
   var later = ArrayList_init_$Create$_0();
@@ -37539,28 +37556,28 @@ protoOf(UpgradeFocus).o33 = function (data, analyzer, saved, overview, plans, ma
   var _iterator__ex2g4s = tmp0.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp$ret$7;
+    var tmp$ret$11;
     $l$block_0: {
       var tmp0_elvis_lhs = element.y2m();
-      var tmp_1;
+      var tmp_3;
       if (tmp0_elvis_lhs == null) {
-        tmp$ret$7 = null;
+        tmp$ret$11 = null;
         break $l$block_0;
       } else {
-        tmp_1 = tmp0_elvis_lhs;
+        tmp_3 = tmp0_elvis_lhs;
       }
-      var u = tmp_1;
+      var u = tmp_3;
       var tmp1_safe_receiver = element.x2m();
-      var tmp2_elvis_lhs = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.d2n_1;
-      var gain = u.e2n_1 - (tmp2_elvis_lhs == null ? 0 : tmp2_elvis_lhs) | 0;
+      var tmp2_elvis_lhs_0 = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.d2n_1;
+      var gain = u.e2n_1 - (tmp2_elvis_lhs_0 == null ? 0 : tmp2_elvis_lhs_0) | 0;
       if (gain < 5) {
-        tmp$ret$7 = null;
+        tmp$ret$11 = null;
         break $l$block_0;
       }
       var reason = (hotTypes.t(element.u2m_1) ? 'bald im Raid gefragt \xB7 ' : '') + (element.x2m() == null ? 'dein erster ' + element.v2m_1 + '-Angreifer' : 'wird dein bester');
-      tmp$ret$7 = new Triple(element, u, reason);
+      tmp$ret$11 = new Triple(element, u, reason);
     }
-    var tmp0_safe_receiver = tmp$ret$7;
+    var tmp0_safe_receiver = tmp$ret$11;
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -37568,14 +37585,14 @@ protoOf(UpgradeFocus).o33 = function (data, analyzer, saved, overview, plans, ma
       destination.h(tmp0_safe_receiver);
     }
   }
-  var tmp_2 = destination;
+  var tmp_4 = destination;
   // Inline function 'kotlin.comparisons.compareByDescending' call
-  var tmp_3 = UpgradeFocus$of$lambda(hotTypes);
+  var tmp_5 = UpgradeFocus$of$lambda(hotTypes);
   // Inline function 'kotlin.comparisons.thenByDescending' call
-  var this_0 = new sam$kotlin_Comparator$0_45(tmp_3);
-  var tmp_4 = UpgradeFocus$of$lambda_0(this_0, data);
-  var tmp$ret$11 = new sam$kotlin_Comparator$0_45(tmp_4);
-  var candidates = sortedWith(tmp_2, tmp$ret$11);
+  var this_0 = new sam$kotlin_Comparator$0_45(tmp_5);
+  var tmp_6 = UpgradeFocus$of$lambda_0(this_0, data);
+  var tmp$ret$15 = new sam$kotlin_Comparator$0_45(tmp_6);
+  var candidates = sortedWith(tmp_4, tmp$ret$15);
   var _iterator__ex2g4s_0 = candidates.i();
   $l$loop_2: while (_iterator__ex2g4s_0.j()) {
     var _destruct__k2r9zo = _iterator__ex2g4s_0.k();
@@ -37613,64 +37630,67 @@ protoOf(UpgradeFocus).o33 = function (data, analyzer, saved, overview, plans, ma
       var r = _iterator__ex2g4s_2.k();
       if (r.f2n_1.r() || !(r.j2n_1 == null) || used.t(r.z2m_1.y1m_1))
         continue $l$loop_4;
-      var tmp_5;
-      var tmp$ret$13;
+      var tmp_7;
+      var tmp$ret$17;
       $l$block_2: {
         // Inline function 'kotlin.collections.any' call
-        var tmp_6;
+        var tmp_8;
         if (isInterface(teams, Collection)) {
-          tmp_6 = teams.r();
+          tmp_8 = teams.r();
         } else {
-          tmp_6 = false;
+          tmp_8 = false;
         }
-        if (tmp_6) {
-          tmp$ret$13 = false;
+        if (tmp_8) {
+          tmp$ret$17 = false;
           break $l$block_2;
         }
         var _iterator__ex2g4s_3 = teams.i();
         while (_iterator__ex2g4s_3.j()) {
           var element_0 = _iterator__ex2g4s_3.k();
           if (equalsLong(element_0.f32_1.y1m_1, r.z2m_1.y1m_1)) {
-            tmp$ret$13 = true;
+            tmp$ret$17 = true;
             break $l$block_2;
           }
         }
-        tmp$ret$13 = false;
+        tmp$ret$17 = false;
       }
-      if (tmp$ret$13) {
-        tmp_5 = true;
+      if (tmp$ret$17) {
+        tmp_7 = true;
       } else {
-        var tmp$ret$15;
+        var tmp$ret$19;
         $l$block_4: {
           // Inline function 'kotlin.collections.any' call
-          var tmp_7;
+          var tmp_9;
           if (isInterface(noBudget, Collection)) {
-            tmp_7 = noBudget.r();
+            tmp_9 = noBudget.r();
           } else {
-            tmp_7 = false;
+            tmp_9 = false;
           }
-          if (tmp_7) {
-            tmp$ret$15 = false;
+          if (tmp_9) {
+            tmp$ret$19 = false;
             break $l$block_4;
           }
           var _iterator__ex2g4s_4 = noBudget.i();
           while (_iterator__ex2g4s_4.j()) {
             var element_1 = _iterator__ex2g4s_4.k();
             if (equalsLong(element_1.f32_1.y1m_1, r.z2m_1.y1m_1)) {
-              tmp$ret$15 = true;
+              tmp$ret$19 = true;
               break $l$block_4;
             }
           }
-          tmp$ret$15 = false;
+          tmp$ret$19 = false;
         }
-        tmp_5 = tmp$ret$15;
+        tmp_7 = tmp$ret$19;
       }
-      if (tmp_5)
+      if (tmp_7)
         continue $l$loop_4;
       teams.h(of$item_0(data, analyzer, events, t_0, r, 'f\xFCr ein ' + t_0.v2m_1 + '-Team'));
     }
   }
   var dyna = DynaPlan_instance.o1x(data, saved, marks, maxHotTypes);
+  if (!(budget == null)) {
+    left._v = left._v + maxPart | 0;
+  }
   var max = ArrayList_init_$Create$_0();
   var maxMore = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.mapNotNull' call
@@ -37707,114 +37727,144 @@ protoOf(UpgradeFocus).o33 = function (data, analyzer, saved, overview, plans, ma
     max.h(it_0);
     left._v = left._v - it_0.q32_1.l1j_1 | 0;
   }
+  if (!(budget == null) && maxShare > 0) {
+    // Inline function 'kotlin.collections.filter' call
+    // Inline function 'kotlin.collections.filterTo' call
+    var destination_1 = ArrayList_init_$Create$_0();
+    var _iterator__ex2g4s_6 = noBudget.i();
+    while (_iterator__ex2g4s_6.j()) {
+      var element_3 = _iterator__ex2g4s_6.k();
+      if (element_3.e32_1.equals(Area_RAID_getInstance())) {
+        destination_1.h(element_3);
+      }
+    }
+    var _iterator__ex2g4s_7 = destination_1.i();
+    $l$loop_8: while (_iterator__ex2g4s_7.j()) {
+      var it_1 = _iterator__ex2g4s_7.k();
+      if (raid.l() >= 5 || used.t(it_1.f32_1.y1m_1))
+        continue $l$loop_8;
+      var tmp5_elvis_lhs = of$fit(left, it_1);
+      var tmp_10;
+      if (tmp5_elvis_lhs == null) {
+        continue $l$loop_8;
+      } else {
+        tmp_10 = tmp5_elvis_lhs;
+      }
+      var fitted_0 = tmp_10;
+      noBudget.n3(it_1);
+      raid.h(fitted_0);
+      used.h(it_1.f32_1.y1m_1);
+      left._v = left._v - fitted_0.v32().l1j_1 | 0;
+    }
+  }
   later.p(dyna.e1w_1);
   // Inline function 'kotlin.collections.orEmpty' call
-  var _iterator__ex2g4s_6 = (overview == null ? emptyList() : overview).i();
-  while (_iterator__ex2g4s_6.j()) {
-    var t_1 = _iterator__ex2g4s_6.k();
-    var _iterator__ex2g4s_7 = t_1.w2m_1.i();
-    while (_iterator__ex2g4s_7.j()) {
-      var r_0 = _iterator__ex2g4s_7.k();
-      var tmp_8;
-      var tmp_9;
+  var _iterator__ex2g4s_8 = (overview == null ? emptyList() : overview).i();
+  while (_iterator__ex2g4s_8.j()) {
+    var t_1 = _iterator__ex2g4s_8.k();
+    var _iterator__ex2g4s_9 = t_1.w2m_1.i();
+    while (_iterator__ex2g4s_9.j()) {
+      var r_0 = _iterator__ex2g4s_9.k();
+      var tmp_11;
+      var tmp_12;
       // Inline function 'kotlin.collections.isNotEmpty' call
       if (!r_0.g2n_1.r()) {
-        tmp_9 = r_0.f2n_1.r();
+        tmp_12 = r_0.f2n_1.r();
       } else {
-        tmp_9 = false;
+        tmp_12 = false;
       }
-      if (tmp_9) {
-        var tmp$ret$26;
+      if (tmp_12) {
+        var tmp$ret$33;
         $l$block_6: {
           // Inline function 'kotlin.collections.none' call
-          var tmp_10;
+          var tmp_13;
           if (isInterface(later, Collection)) {
-            tmp_10 = later.r();
+            tmp_13 = later.r();
           } else {
-            tmp_10 = false;
+            tmp_13 = false;
           }
-          if (tmp_10) {
-            tmp$ret$26 = true;
+          if (tmp_13) {
+            tmp$ret$33 = true;
             break $l$block_6;
           }
-          var _iterator__ex2g4s_8 = later.i();
-          while (_iterator__ex2g4s_8.j()) {
-            var element_3 = _iterator__ex2g4s_8.k();
-            if (equalsLong(element_3.f32_1.y1m_1, r_0.z2m_1.y1m_1)) {
-              tmp$ret$26 = false;
+          var _iterator__ex2g4s_10 = later.i();
+          while (_iterator__ex2g4s_10.j()) {
+            var element_4 = _iterator__ex2g4s_10.k();
+            if (equalsLong(element_4.f32_1.y1m_1, r_0.z2m_1.y1m_1)) {
+              tmp$ret$33 = false;
               break $l$block_6;
             }
           }
-          tmp$ret$26 = true;
+          tmp$ret$33 = true;
         }
-        tmp_8 = tmp$ret$26;
+        tmp_11 = tmp$ret$33;
       } else {
-        tmp_8 = false;
+        tmp_11 = false;
       }
-      if (tmp_8) {
+      if (tmp_11) {
         later.h(of$item_0(data, analyzer, events, t_1, r_0, 'zur\xFCckgestellt'));
       }
     }
   }
-  var tmp_11;
+  var tmp_14;
   if (overview == null) {
-    tmp_11 = emptyList();
+    tmp_14 = emptyList();
   } else {
     // Inline function 'kotlin.collections.mapNotNull' call
     // Inline function 'kotlin.collections.mapNotNullTo' call
-    var destination_1 = ArrayList_init_$Create$_0();
+    var destination_2 = ArrayList_init_$Create$_0();
     // Inline function 'kotlin.collections.forEach' call
-    var _iterator__ex2g4s_9 = planned.i();
-    while (_iterator__ex2g4s_9.j()) {
-      var element_4 = _iterator__ex2g4s_9.k();
-      var roles = Upgrade_instance.w31(overview, element_4);
-      var tmp_12;
+    var _iterator__ex2g4s_11 = planned.i();
+    while (_iterator__ex2g4s_11.j()) {
+      var element_5 = _iterator__ex2g4s_11.k();
+      var roles = Upgrade_instance.w31(overview, element_5);
+      var tmp_15;
       var tmp0_safe_receiver_1 = firstOrNull(roles);
       if ((tmp0_safe_receiver_1 == null ? null : tmp0_safe_receiver_1.d31()) === true) {
-        tmp_12 = null;
+        tmp_15 = null;
       } else {
         var tmp1_elvis_lhs = Upgrade_instance.x31(roles, data);
-        tmp_12 = to(element_4, tmp1_elvis_lhs == null ? 'Kein Gewinn in deinen Raid-Typen.' : tmp1_elvis_lhs);
+        tmp_15 = to(element_5, tmp1_elvis_lhs == null ? 'Kein Gewinn in deinen Raid-Typen.' : tmp1_elvis_lhs);
       }
-      var tmp0_safe_receiver_2 = tmp_12;
+      var tmp0_safe_receiver_2 = tmp_15;
       if (tmp0_safe_receiver_2 == null)
         null;
       else {
         // Inline function 'kotlin.let' call
-        destination_1.h(tmp0_safe_receiver_2);
+        destination_2.h(tmp0_safe_receiver_2);
       }
     }
-    tmp_11 = destination_1;
+    tmp_14 = destination_2;
   }
-  var noGain = tmp_11;
+  var noGain = tmp_14;
   // Inline function 'kotlin.collections.filter' call
   // Inline function 'kotlin.collections.filterTo' call
-  var destination_2 = ArrayList_init_$Create$_0();
-  var _iterator__ex2g4s_10 = raid.i();
-  while (_iterator__ex2g4s_10.j()) {
-    var element_5 = _iterator__ex2g4s_10.k();
-    if (element_5.p32_1 == null) {
-      destination_2.h(element_5);
+  var destination_3 = ArrayList_init_$Create$_0();
+  var _iterator__ex2g4s_12 = raid.i();
+  while (_iterator__ex2g4s_12.j()) {
+    var element_6 = _iterator__ex2g4s_12.k();
+    if (element_6.p32_1 == null) {
+      destination_3.h(element_6);
     }
   }
   // Inline function 'kotlin.collections.sumOf' call
   var sum = 0;
-  var _iterator__ex2g4s_11 = destination_2.i();
-  while (_iterator__ex2g4s_11.j()) {
-    var element_6 = _iterator__ex2g4s_11.k();
-    var tmp_13 = sum;
-    sum = tmp_13 + element_6.v32().l1j_1 | 0;
+  var _iterator__ex2g4s_13 = destination_3.i();
+  while (_iterator__ex2g4s_13.j()) {
+    var element_7 = _iterator__ex2g4s_13.k();
+    var tmp_16 = sum;
+    sum = tmp_16 + element_7.v32().l1j_1 | 0;
   }
-  var tmp_14 = sum;
+  var tmp_17 = sum;
   // Inline function 'kotlin.collections.sumOf' call
   var sum_0 = 0;
-  var _iterator__ex2g4s_12 = max.i();
-  while (_iterator__ex2g4s_12.j()) {
-    var element_7 = _iterator__ex2g4s_12.k();
-    var tmp_15 = sum_0;
-    sum_0 = tmp_15 + element_7.q32_1.l1j_1 | 0;
+  var _iterator__ex2g4s_14 = max.i();
+  while (_iterator__ex2g4s_14.j()) {
+    var element_8 = _iterator__ex2g4s_14.k();
+    var tmp_18 = sum_0;
+    sum_0 = tmp_18 + element_8.q32_1.l1j_1 | 0;
   }
-  var needed = tmp_14 + sum_0 | 0;
+  var needed = tmp_17 + sum_0 | 0;
   return new Result_2(raid, max, teams, noGain, later, noBudget, budget, needed, dyna, maxMore);
 };
 protoOf(UpgradeFocus).l33 = function (stages) {
