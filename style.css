@@ -860,3 +860,6 @@ button.big-scan .icon svg { width: 22px; height: 22px; fill: #fff; }
 .focus-card .pills > * { white-space: normal; max-width: 100%; }
 .small.good { color: var(--good); font-weight: 600; }
 .foe { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 56px; text-align: center; }
+input.rocket-search { width: 100%; border-radius: 999px; margin: 4px 0; }
+.rocket-card .quote { font-style: italic; font-size: 13px; }
+.rocket-pick { background: var(--mist); border-radius: 14px; padding: 8px 10px; margin: 6px 0; }
