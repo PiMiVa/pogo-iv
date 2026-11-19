@@ -109,26 +109,26 @@ initMetadataForObject(Letter, 'Letter');
 initMetadataForInterface(Comparator, 'Comparator');
 initMetadataForObject(Unit, 'Unit');
 initMetadataForClass(AbstractCollection, 'AbstractCollection', VOID, VOID, [Collection]);
-initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [Collection, MutableIterable]);
+initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [MutableIterable, Collection]);
 initMetadataForClass(IteratorImpl, 'IteratorImpl');
 initMetadataForClass(ListIteratorImpl, 'ListIteratorImpl', VOID, IteratorImpl);
-initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [MutableIterable, Collection, KtList]);
+initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [MutableIterable, KtList, Collection]);
 initMetadataForClass(AbstractMap, 'AbstractMap', VOID, VOID, [KtMap]);
 initMetadataForClass(AbstractMutableMap, 'AbstractMutableMap', VOID, AbstractMap, [KtMutableMap]);
-initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [MutableIterable, Collection, KtSet]);
+initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [KtSet, MutableIterable, Collection]);
 initMetadataForCompanion(Companion_2);
 initMetadataForInterface(RandomAccess, 'RandomAccess');
-initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [MutableIterable, Collection, KtList, RandomAccess]);
+initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [MutableIterable, KtList, Collection, RandomAccess]);
 initMetadataForClass(HashMap, 'HashMap', HashMap_init_$Create$, AbstractMutableMap, [KtMutableMap]);
-initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [MutableIterable, Collection, KtSet]);
-initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [Collection, MutableIterable]);
-initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [MutableIterable, Collection, KtSet]);
+initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [KtSet, MutableIterable, Collection]);
+initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [MutableIterable, Collection]);
+initMetadataForClass(HashMapEntrySetBase, 'HashMapEntrySetBase', VOID, AbstractMutableSet, [KtSet, MutableIterable, Collection]);
 initMetadataForClass(HashMapEntrySet, 'HashMapEntrySet', VOID, HashMapEntrySetBase);
 initMetadataForClass(HashMapKeysDefault$iterator$1);
 initMetadataForClass(HashMapKeysDefault, 'HashMapKeysDefault', VOID, AbstractMutableSet);
 initMetadataForClass(HashMapValuesDefault$iterator$1);
 initMetadataForClass(HashMapValuesDefault, 'HashMapValuesDefault', VOID, AbstractMutableCollection);
-initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [MutableIterable, Collection, KtSet]);
+initMetadataForClass(HashSet, 'HashSet', HashSet_init_$Create$, AbstractMutableSet, [KtSet, MutableIterable, Collection]);
 initMetadataForCompanion(Companion_3);
 initMetadataForClass(Itr, 'Itr');
 initMetadataForClass(KeysItr, 'KeysItr', VOID, Itr);
@@ -174,7 +174,7 @@ initMetadataForInterface(InternalMap, 'InternalMap');
 initMetadataForClass(InternalHashMap, 'InternalHashMap', InternalHashMap_init_$Create$, VOID, [InternalMap]);
 initMetadataForObject(EmptyHolder, 'EmptyHolder');
 initMetadataForClass(LinkedHashMap, 'LinkedHashMap', LinkedHashMap_init_$Create$, HashMap, [KtMutableMap]);
-initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [MutableIterable, Collection, KtSet]);
+initMetadataForClass(LinkedHashSet, 'LinkedHashSet', LinkedHashSet_init_$Create$, HashSet, [KtSet, MutableIterable, Collection]);
 initMetadataForInterface(Continuation, 'Continuation');
 initMetadataForClass(InterceptedCoroutine, 'InterceptedCoroutine', VOID, VOID, [Continuation]);
 initMetadataForClass(CoroutineImpl, 'CoroutineImpl', VOID, InterceptedCoroutine, [Continuation]);
@@ -10666,16 +10666,6 @@ function toIntOrNull_0(_this__u8e3s4, radix) {
 function numberFormatError(input) {
   throw NumberFormatException_init_$Create$_0("Invalid number format: '" + input + "'");
 }
-function contains_8(_this__u8e3s4, other, ignoreCase) {
-  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
-  var tmp;
-  if (typeof other === 'string') {
-    tmp = indexOf_6(_this__u8e3s4, other, VOID, ignoreCase) >= 0;
-  } else {
-    tmp = indexOf_7(_this__u8e3s4, other, 0, charSequenceLength(_this__u8e3s4), ignoreCase) >= 0;
-  }
-  return tmp;
-}
 function split(_this__u8e3s4, delimiters, ignoreCase, limit) {
   ignoreCase = ignoreCase === VOID ? false : ignoreCase;
   limit = limit === VOID ? 0 : limit;
@@ -10697,6 +10687,16 @@ function split(_this__u8e3s4, delimiters, ignoreCase, limit) {
     destination.h(tmp$ret$3);
   }
   return destination;
+}
+function contains_8(_this__u8e3s4, other, ignoreCase) {
+  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
+  var tmp;
+  if (typeof other === 'string') {
+    tmp = indexOf_6(_this__u8e3s4, other, VOID, ignoreCase) >= 0;
+  } else {
+    tmp = indexOf_7(_this__u8e3s4, other, 0, charSequenceLength(_this__u8e3s4), ignoreCase) >= 0;
+  }
+  return tmp;
 }
 function isBlank(_this__u8e3s4) {
   var tmp$ret$0;
@@ -10808,6 +10808,45 @@ function requireNonNegativeLimit(limit) {
 function get_lastIndex_4(_this__u8e3s4) {
   return charSequenceLength(_this__u8e3s4) - 1 | 0;
 }
+function split_0(_this__u8e3s4, delimiter, ignoreCase, limit) {
+  requireNonNegativeLimit(limit);
+  var currentOffset = 0;
+  var nextIndex = indexOf_6(_this__u8e3s4, delimiter, currentOffset, ignoreCase);
+  if (nextIndex === -1 || limit === 1) {
+    return listOf(toString_1(_this__u8e3s4));
+  }
+  var isLimited = limit > 0;
+  var result = ArrayList_init_$Create$_0(isLimited ? coerceAtMost(limit, 10) : 10);
+  $l$loop: do {
+    var tmp2 = currentOffset;
+    // Inline function 'kotlin.text.substring' call
+    var endIndex = nextIndex;
+    var tmp$ret$0 = toString_1(charSequenceSubSequence(_this__u8e3s4, tmp2, endIndex));
+    result.h(tmp$ret$0);
+    currentOffset = nextIndex + delimiter.length | 0;
+    if (isLimited && result.l() === (limit - 1 | 0))
+      break $l$loop;
+    nextIndex = indexOf_6(_this__u8e3s4, delimiter, currentOffset, ignoreCase);
+  }
+   while (!(nextIndex === -1));
+  var tmp2_0 = currentOffset;
+  // Inline function 'kotlin.text.substring' call
+  var endIndex_0 = charSequenceLength(_this__u8e3s4);
+  var tmp$ret$1 = toString_1(charSequenceSubSequence(_this__u8e3s4, tmp2_0, endIndex_0));
+  result.h(tmp$ret$1);
+  return result;
+}
+function rangesDelimitedBy(_this__u8e3s4, delimiters, startIndex, ignoreCase, limit) {
+  startIndex = startIndex === VOID ? 0 : startIndex;
+  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
+  limit = limit === VOID ? 0 : limit;
+  requireNonNegativeLimit(limit);
+  var delimitersList = asList(delimiters);
+  return new DelimitedRangesSequence(_this__u8e3s4, startIndex, limit, rangesDelimitedBy$lambda(delimitersList, ignoreCase));
+}
+function substring_1(_this__u8e3s4, range) {
+  return toString_1(charSequenceSubSequence(_this__u8e3s4, range.ac(), range.bc() + 1 | 0));
+}
 function indexOf_6(_this__u8e3s4, string, startIndex, ignoreCase) {
   startIndex = startIndex === VOID ? 0 : startIndex;
   ignoreCase = ignoreCase === VOID ? false : ignoreCase;
@@ -10886,45 +10925,6 @@ function trim(_this__u8e3s4) {
   }
   return charSequenceSubSequence(_this__u8e3s4, startIndex, endIndex + 1 | 0);
 }
-function split_0(_this__u8e3s4, delimiter, ignoreCase, limit) {
-  requireNonNegativeLimit(limit);
-  var currentOffset = 0;
-  var nextIndex = indexOf_6(_this__u8e3s4, delimiter, currentOffset, ignoreCase);
-  if (nextIndex === -1 || limit === 1) {
-    return listOf(toString_1(_this__u8e3s4));
-  }
-  var isLimited = limit > 0;
-  var result = ArrayList_init_$Create$_0(isLimited ? coerceAtMost(limit, 10) : 10);
-  $l$loop: do {
-    var tmp2 = currentOffset;
-    // Inline function 'kotlin.text.substring' call
-    var endIndex = nextIndex;
-    var tmp$ret$0 = toString_1(charSequenceSubSequence(_this__u8e3s4, tmp2, endIndex));
-    result.h(tmp$ret$0);
-    currentOffset = nextIndex + delimiter.length | 0;
-    if (isLimited && result.l() === (limit - 1 | 0))
-      break $l$loop;
-    nextIndex = indexOf_6(_this__u8e3s4, delimiter, currentOffset, ignoreCase);
-  }
-   while (!(nextIndex === -1));
-  var tmp2_0 = currentOffset;
-  // Inline function 'kotlin.text.substring' call
-  var endIndex_0 = charSequenceLength(_this__u8e3s4);
-  var tmp$ret$1 = toString_1(charSequenceSubSequence(_this__u8e3s4, tmp2_0, endIndex_0));
-  result.h(tmp$ret$1);
-  return result;
-}
-function rangesDelimitedBy(_this__u8e3s4, delimiters, startIndex, ignoreCase, limit) {
-  startIndex = startIndex === VOID ? 0 : startIndex;
-  ignoreCase = ignoreCase === VOID ? false : ignoreCase;
-  limit = limit === VOID ? 0 : limit;
-  requireNonNegativeLimit(limit);
-  var delimitersList = asList(delimiters);
-  return new DelimitedRangesSequence(_this__u8e3s4, startIndex, limit, rangesDelimitedBy$lambda(delimitersList, ignoreCase));
-}
-function substring_1(_this__u8e3s4, range) {
-  return toString_1(charSequenceSubSequence(_this__u8e3s4, range.ac(), range.bc() + 1 | 0));
-}
 function endsWith_1(_this__u8e3s4, suffix, ignoreCase) {
   ignoreCase = ignoreCase === VOID ? false : ignoreCase;
   var tmp;
@@ -10986,21 +10986,6 @@ function indexOf_8(_this__u8e3s4, char, startIndex, ignoreCase) {
     tmp = _this__u8e3s4.indexOf(str, startIndex);
   }
   return tmp;
-}
-function regionMatchesImpl(_this__u8e3s4, thisOffset, other, otherOffset, length, ignoreCase) {
-  if (otherOffset < 0 || thisOffset < 0 || thisOffset > (charSequenceLength(_this__u8e3s4) - length | 0) || otherOffset > (charSequenceLength(other) - length | 0)) {
-    return false;
-  }
-  var inductionVariable = 0;
-  if (inductionVariable < length)
-    do {
-      var index = inductionVariable;
-      inductionVariable = inductionVariable + 1 | 0;
-      if (!equals_1(charSequenceGet(_this__u8e3s4, thisOffset + index | 0), charSequenceGet(other, otherOffset + index | 0), ignoreCase))
-        return false;
-    }
-     while (inductionVariable < length);
-  return true;
 }
 function calcNext_1($this) {
   if ($this.og_1 < 0) {
@@ -11135,6 +11120,21 @@ function findAnyOf(_this__u8e3s4, strings, startIndex, ignoreCase, last) {
        while (!(index_1 === last_1));
   }
   return null;
+}
+function regionMatchesImpl(_this__u8e3s4, thisOffset, other, otherOffset, length, ignoreCase) {
+  if (otherOffset < 0 || thisOffset < 0 || thisOffset > (charSequenceLength(_this__u8e3s4) - length | 0) || otherOffset > (charSequenceLength(other) - length | 0)) {
+    return false;
+  }
+  var inductionVariable = 0;
+  if (inductionVariable < length)
+    do {
+      var index = inductionVariable;
+      inductionVariable = inductionVariable + 1 | 0;
+      if (!equals_1(charSequenceGet(_this__u8e3s4, thisOffset + index | 0), charSequenceGet(other, otherOffset + index | 0), ignoreCase))
+        return false;
+    }
+     while (inductionVariable < length);
+  return true;
 }
 function indexOfAny(_this__u8e3s4, chars, startIndex, ignoreCase) {
   startIndex = startIndex === VOID ? 0 : startIndex;
