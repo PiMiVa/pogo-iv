@@ -972,3 +972,17 @@ input.meta-search { width: 100%; box-sizing: border-box; border-radius: 999px; p
 .detail-nav button.off { opacity: .35; pointer-events: none; }
 /* Feste Raid-Rollen (19.11.2026): Hinweis zweites Exemplar */
 .prep-hint { background: #fff; border-radius: 18px; padding: 12px 14px; margin: 0 0 12px; font-weight: 600; font-size: .95rem; }
+/* pokemongo-raku.com-Regeln (20.11.2026): Mega-Boost, Schild-Tipps, Stufen-Tabelle */
+.boost-line { color: var(--muted, #6b6b75); font-style: normal; }
+.prep-strength .icon-line { display: flex; gap: 10px; align-items: flex-start; line-height: 1.35; }
+.prep-strength .icon-line .icon { flex: none; opacity: .65; margin-top: 1px; }
+.prep-sep { height: 1px; background: var(--mist, #efeff3); margin: 2px 0; }
+.prep-grid .grid-head, .prep-shield .grid-head { cursor: pointer; }
+.grid-note { color: var(--muted, #6b6b75); }
+table.level-grid { width: 100%; border-collapse: separate; border-spacing: 4px; }
+table.level-grid th { font-size: 12px; font-weight: 500; color: var(--muted, #6b6b75); text-align: center; }
+table.level-grid th:first-child, table.level-grid td.lvl { text-align: left; }
+table.level-grid td.lvl { font-weight: 600; white-space: nowrap; }
+table.level-grid td.cell { background: var(--mist, #efeff3); border-radius: 10px; text-align: center; padding: 7px 0; font-size: 15px; }
+table.level-grid td.cell.up { background: rgba(46, 158, 91, .14); color: var(--good, #2e9e5b); font-weight: 700; }
+table.level-grid td.cell.now { box-shadow: inset 0 0 0 1.5px var(--ink, #111114); font-weight: 700; }
