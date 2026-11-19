@@ -970,3 +970,5 @@ input.meta-search { width: 100%; box-sizing: border-box; border-radius: 999px; p
 .detail-nav { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
 .detail-nav .grow { flex: 1; text-align: center; }
 .detail-nav button.off { opacity: .35; pointer-events: none; }
+/* Feste Raid-Rollen (19.11.2026): Hinweis zweites Exemplar */
+.prep-hint { background: #fff; border-radius: 18px; padding: 12px 14px; margin: 0 0 12px; font-weight: 600; font-size: .95rem; }
