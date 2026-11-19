@@ -49,7 +49,7 @@ import {
   serializer1q7c5q67ysppr as serializer_3,
   NamedValueDecoderzk26ztf92xbq as NamedValueDecoder,
   getContextualDescriptor2n1gf3b895yb8 as getContextualDescriptor,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795106375194';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795108305884';
 import {
   protoOf180f3jzyo7rfj as protoOf,
   initMetadataForObject1cxne3s9w65el as initMetadataForObject,
@@ -186,7 +186,7 @@ import {
   substringiqarkczpya5m as substring,
   StringBuilder_init_$Create$yggnhbmai7wr as StringBuilder_init_$Create$_0,
   HashMap_init_$Create$m2z141lj3xfu as HashMap_init_$Create$,
-} from './kotlin-kotlin-stdlib.js?v=1795106375194';
+} from './kotlin-kotlin-stdlib.js?v=1795108305884';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -474,8 +474,8 @@ protoOf(JsonArray).hashCode = function () {
 protoOf(JsonArray).toString = function () {
   return joinToString(this.h15_1, ',', '[', ']');
 };
-protoOf(JsonArray).r = function () {
-  return this.h15_1.r();
+protoOf(JsonArray).q = function () {
+  return this.h15_1.q();
 };
 protoOf(JsonArray).i15 = function (element) {
   return this.h15_1.t(element);
@@ -494,8 +494,8 @@ protoOf(JsonArray).j15 = function (elements) {
 protoOf(JsonArray).b2 = function (elements) {
   return this.j15(elements);
 };
-protoOf(JsonArray).q = function (index) {
-  return this.h15_1.q(index);
+protoOf(JsonArray).r = function (index) {
+  return this.h15_1.r(index);
 };
 protoOf(JsonArray).k15 = function (element) {
   return this.h15_1.u(element);
@@ -552,8 +552,8 @@ protoOf(JsonObject).toString = function () {
   var tmp = this.l15_1.y();
   return joinToString(tmp, ',', '{', '}', VOID, VOID, JsonObject$toString$lambda);
 };
-protoOf(JsonObject).r = function () {
-  return this.l15_1.r();
+protoOf(JsonObject).q = function () {
+  return this.l15_1.q();
 };
 protoOf(JsonObject).m15 = function (key) {
   return this.l15_1.c2(key);
@@ -583,17 +583,6 @@ protoOf(JsonObject).g2 = function () {
 protoOf(JsonObject).y = function () {
   return this.l15_1.y();
 };
-function get_jsonObject(_this__u8e3s4) {
-  _init_properties_JsonElement_kt__7cbdc2();
-  var tmp0_elvis_lhs = _this__u8e3s4 instanceof JsonObject ? _this__u8e3s4 : null;
-  var tmp;
-  if (tmp0_elvis_lhs == null) {
-    error(_this__u8e3s4, 'JsonObject');
-  } else {
-    tmp = tmp0_elvis_lhs;
-  }
-  return tmp;
-}
 function Companion_2() {
 }
 var Companion_instance_2;
@@ -606,6 +595,17 @@ function JsonPrimitive() {
 protoOf(JsonPrimitive).toString = function () {
   return this.o15();
 };
+function get_jsonObject(_this__u8e3s4) {
+  _init_properties_JsonElement_kt__7cbdc2();
+  var tmp0_elvis_lhs = _this__u8e3s4 instanceof JsonObject ? _this__u8e3s4 : null;
+  var tmp;
+  if (tmp0_elvis_lhs == null) {
+    error(_this__u8e3s4, 'JsonObject');
+  } else {
+    tmp = tmp0_elvis_lhs;
+  }
+  return tmp;
+}
 function get_jsonPrimitive(_this__u8e3s4) {
   _init_properties_JsonElement_kt__7cbdc2();
   var tmp0_elvis_lhs = _this__u8e3s4 instanceof JsonPrimitive ? _this__u8e3s4 : null;
@@ -1510,7 +1510,7 @@ function ignoreUnknownKeys(_this__u8e3s4, json) {
       // Inline function 'kotlin.collections.any' call
       var tmp_0;
       if (isInterface(tmp0, Collection)) {
-        tmp_0 = tmp0.r();
+        tmp_0 = tmp0.q();
       } else {
         tmp_0 = false;
       }
@@ -1659,7 +1659,7 @@ function buildDeserializationNamesMap(_this__u8e3s4, json) {
      while (inductionVariable < last);
   // Inline function 'kotlin.collections.ifEmpty' call
   var tmp_1;
-  if (builder.r()) {
+  if (builder.q()) {
     tmp_1 = emptyMap();
   } else {
     tmp_1 = builder;
@@ -4337,7 +4337,7 @@ protoOf(JsonTreeListDecoder).z10 = function (descriptor, index) {
   return index.toString();
 };
 protoOf(JsonTreeListDecoder).x1b = function (tag) {
-  return this.b1d_1.q(toInt(tag));
+  return this.b1d_1.r(toInt(tag));
 };
 protoOf(JsonTreeListDecoder).mo = function (descriptor) {
   while (this.d1d_1 < (this.c1d_1 - 1 | 0)) {
@@ -4378,7 +4378,7 @@ protoOf(JsonTreeMapDecoder).a1 = function () {
 };
 protoOf(JsonTreeMapDecoder).z10 = function (descriptor, index) {
   var i = index / 2 | 0;
-  return this.w1d_1.q(i);
+  return this.w1d_1.r(i);
 };
 protoOf(JsonTreeMapDecoder).mo = function (descriptor) {
   while (this.y1d_1 < (this.x1d_1 - 1 | 0)) {

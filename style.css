@@ -911,3 +911,28 @@ span.muted { color: #9a9aa2; }
 .events-name { font-size: .65rem; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink); }
 .events-src { font-size: .6rem; font-weight: 700; color: var(--lime-t); background: rgba(255,255,255,.8); border-radius: 999px; padding: 0 6px; }
 .events-more { flex: 1 1 0; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem; color: var(--lime-t); height: 40px; }
+
+/* Raid · Dynamax · Super-Mega (19.11.2026): Boss vorbereiten */
+.prep-card { background: #DDEFFD; }
+.prep-kinds { display: flex; gap: 6px; }
+.prep-kinds button { flex: 1 1 0; border-radius: 999px; padding: 8px 4px; }
+button.wide { width: 100%; margin: 6px 0; }
+.boss-row { display: flex; gap: 6px; overflow-x: auto; padding: 4px 0; }
+.boss-pick { flex: none; width: 84px; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 6px; border-radius: 16px; background: #fff; border: 2px solid transparent; cursor: pointer; }
+.boss-pick b { font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.boss-pick.on { background: #DDEFFD; border-color: #111114; }
+.prep-metrics { display: flex; gap: 8px; margin: 6px 0; }
+.prep-metric { flex: 1 1 0; background: #fff; border-radius: 12px; padding: 8px; }
+.prep-metric b { font-size: 20px; }
+.prep-metric.up { background: #E6F5A8; }
+.prep-team { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
+.prep-mon { width: 56px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.prep-mon .small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.prep-step { background: #fff; border-radius: 12px; padding: 8px; margin: 6px 0; display: flex; flex-direction: column; gap: 4px; }
+.prep-step .line { display: flex; align-items: center; gap: 8px; }
+.prep-step .grow { flex: 1; min-width: 0; }
+.prep-step b.good, .small.good { color: #2E9E5B; }
+input.meta-search { width: 100%; box-sizing: border-box; border-radius: 999px; padding: 10px 16px; margin: 6px 0; }
+.detail-nav { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
+.detail-nav .grow { flex: 1; text-align: center; }
+.detail-nav button.off { opacity: .35; pointer-events: none; }
