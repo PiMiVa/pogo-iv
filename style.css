@@ -857,3 +857,4 @@ button.big-scan .icon svg { width: 22px; height: 22px; fill: #fff; }
 .focus-card .grow { min-width: 0; }
 .focus-card .pills { display: flex; flex-wrap: wrap; gap: 6px; }
 .focus-card .pills > * { white-space: normal; max-width: 100%; }
+.small.good { color: var(--good); font-weight: 600; }
