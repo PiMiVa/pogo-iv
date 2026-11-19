@@ -864,3 +864,23 @@ input.rocket-search { width: 100%; border-radius: 999px; margin: 4px 0; }
 .rocket-card .quote { font-style: italic; font-size: 13px; }
 .rocket-pick { background: var(--mist); border-radius: 14px; padding: 8px 10px; margin: 6px 0; }
 .cand-actions { display: flex; flex-direction: column; gap: 4px; align-items: flex-end; }
+
+/* Zahnrad Scan-Anzeige (19.11.2026) */
+.scan-row { display: flex; gap: 8px; align-items: stretch; margin-bottom: 10px; }
+.scan-row button.big-scan { flex: 1; margin-bottom: 0; }
+button.gear-btn { flex: none; width: 52px; min-height: 44px; border: none; border-radius: 18px; background: #fff; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+button.gear-btn .icon svg { width: 24px; height: 24px; fill: var(--ink, #15151A); }
+.card .row button.gear-btn { background: #efeff3; }
+.scan-limits .limit-row { display: flex; align-items: center; gap: 6px; padding: 4px 0; }
+.scan-limits .limit-val { min-width: 76px; text-align: center; font-weight: 600; }
+.scan-limits .step-btn { width: 34px; height: 34px; border-radius: 50%; border: none; background: #efeff3; font-size: 18px; cursor: pointer; padding: 0; }
+.scan-limits .step-btn[disabled] { opacity: .35; cursor: default; }
+.scan-limits .help-btn { width: 30px; height: 30px; border-radius: 50%; border: none; background: #efeff3; cursor: pointer; padding: 0; display: flex; align-items: center; justify-content: center; }
+.scan-limits .help-btn .icon svg { width: 18px; height: 18px; fill: var(--ink, #15151A); }
+.scan-limits .help-btn.on { background: var(--ink, #15151A); }
+.scan-limits .help-btn.on .icon svg { fill: #fff; }
+.scan-limits .limit-help { margin: 2px 0 8px; }
+.side-preview { display: inline-block; background: rgba(17,17,20,.92); border-radius: 16px; padding: 8px 12px; margin-bottom: 4px; font-weight: 700; font-size: 14px; }
+.side-preview .good { color: #6EE08A; }
+.side-preview .over { color: #AAAAB2; }
+span.muted { color: #9a9aa2; }
