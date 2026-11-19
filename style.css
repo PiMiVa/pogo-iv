@@ -986,3 +986,6 @@ table.level-grid td.lvl { font-weight: 600; white-space: nowrap; }
 table.level-grid td.cell { background: var(--mist, #efeff3); border-radius: 10px; text-align: center; padding: 7px 0; font-size: 15px; }
 table.level-grid td.cell.up { background: rgba(46, 158, 91, .14); color: var(--good, #2e9e5b); font-weight: 700; }
 table.level-grid td.cell.now { box-shadow: inset 0 0 0 1.5px var(--ink, #111114); font-weight: 700; }
+/* Bild/Name antippen öffnet die Pokémon-Karte (20.11.2026) */
+.card-link { cursor: pointer; }
+.dialog.card-window { max-height: 90vh; overflow-y: auto; }
