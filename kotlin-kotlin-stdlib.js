@@ -112,13 +112,13 @@ initMetadataForClass(AbstractCollection, 'AbstractCollection', VOID, VOID, [Coll
 initMetadataForClass(AbstractMutableCollection, 'AbstractMutableCollection', VOID, AbstractCollection, [Collection, MutableIterable]);
 initMetadataForClass(IteratorImpl, 'IteratorImpl');
 initMetadataForClass(ListIteratorImpl, 'ListIteratorImpl', VOID, IteratorImpl);
-initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [Collection, KtList, MutableIterable]);
+initMetadataForClass(AbstractMutableList, 'AbstractMutableList', VOID, AbstractMutableCollection, [Collection, MutableIterable, KtList]);
 initMetadataForClass(AbstractMap, 'AbstractMap', VOID, VOID, [KtMap]);
 initMetadataForClass(AbstractMutableMap, 'AbstractMutableMap', VOID, AbstractMap, [KtMutableMap]);
 initMetadataForClass(AbstractMutableSet, 'AbstractMutableSet', VOID, AbstractMutableCollection, [Collection, KtSet, MutableIterable]);
 initMetadataForCompanion(Companion_2);
 initMetadataForInterface(RandomAccess, 'RandomAccess');
-initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [Collection, KtList, MutableIterable, RandomAccess]);
+initMetadataForClass(ArrayList, 'ArrayList', ArrayList_init_$Create$, AbstractMutableList, [Collection, MutableIterable, KtList, RandomAccess]);
 initMetadataForClass(HashMap, 'HashMap', HashMap_init_$Create$, AbstractMutableMap, [KtMutableMap]);
 initMetadataForClass(HashMapKeys, 'HashMapKeys', VOID, AbstractMutableSet, [Collection, KtSet, MutableIterable]);
 initMetadataForClass(HashMapValues, 'HashMapValues', VOID, AbstractMutableCollection, [Collection, MutableIterable]);
@@ -15108,6 +15108,7 @@ export {
   coerceIn_1 as coerceIn10f36k81le1mm,
   coerceIn as coerceIn302bduskdb54x,
   contains_6 as contains2c50nlxg7en7o,
+  downTo as downTo39qhfeycepm1j,
   step as step18s9qzr5xwxat,
   until as until1jbpn0z3f8lbg,
   getKClassFromExpression as getKClassFromExpression348iqjl4fnx2f,
@@ -15118,6 +15119,7 @@ export {
   map as mapsbvh18eqox7a,
   sortedWith_0 as sortedWith249tsu0292gn1,
   take_0 as take2rh6pen3z50h7,
+  toList_2 as toListx6x8nvfmvvht,
   toSet_1 as toSet2morh2kqexfa2,
   chunked as chunked1r6ubl9km7ic5,
   contains_8 as contains3ue2qo8xhmpf1,
