@@ -1044,3 +1044,7 @@ button.outline { background: transparent; border: 1px solid var(--line, #DDD); c
 .clean-label { font-weight: 600; margin-top: 6px; }
 .clean-clash { color: #D32F2F; font-size: 13px; margin-top: 4px; }
 .clean-rare { margin: 6px 0 8px; display: flex; flex-direction: column; gap: 4px; }
+/* Boss vorbereiten: „aus X – entwickeln“ zweizeilig wie in der App, kleiner Knopf „Entwickelt“, Schritt-Knöpfe umbrechen (App: FlowRow). */
+.prep-mon .small.warn { white-space: normal; }
+.prep-mon button.chip { font-size: 12px; padding: 5px 10px; margin-top: 4px; }
+.prep-step .chips { flex-wrap: wrap; overflow-x: visible; }
