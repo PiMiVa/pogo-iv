@@ -1,6 +1,29 @@
 {
- "generated": "2026-11-20T13:12:36Z",
+ "generated": "2026-11-20T21:18:22Z",
  "news": [
+  {
+   "title": "Pokémon GO December 2026 Community Day: All featured Pokémon, Bonuses & Exclusive Moves",
+   "titleDe": "Pokémon GO Community Day im Dezember 2026: Alle vorgestellten Pokémon, Boni und exklusiven Attacken",
+   "link": "https://pokemongohub.net/post/event/pokemon-go-december-2026-community-day/",
+   "date": "Fri, 20 Nov 2026 17:55:06 +0000",
+   "categories": [
+    "Events",
+    "News",
+    "december 2026",
+    "december 2026 community day"
+   ]
+  },
+  {
+   "title": "ANA Launches Blue Pokémon Jet for Pokémon’s 30th Anniversary",
+   "titleDe": "ANA führt anlässlich des 30. Jubiläums von Pokémon den Blue Pokémon Jet ein",
+   "link": "https://pokemongohub.net/post/event/ana-launches-blue-pokemon-jet-for-pokemons-30th-anniversary/",
+   "date": "Fri, 20 Nov 2026 13:24:46 +0000",
+   "categories": [
+    "Events",
+    "ana blue jet",
+    "blue jet"
+   ]
+  },
   {
    "title": "Eternatus Eternamax Battle Day (November 2026)",
    "titleDe": "Eternatus-Eternamax-Kampftag (November 2026)",
@@ -422,39 +445,14 @@
     "News",
     "sotrage increase"
    ]
-  },
-  {
-   "title": "What Pokémon Should I Use My Silver Bottle Cap On?",
-   "titleDe": "Auf welches Pokémon sollte ich meinen silbernen Flaschenverschluss aufsetzen?",
-   "link": "https://pokemongohub.net/post/article/opinion/what-pokemon-should-i-use-my-silver-bottle-cap-on/",
-   "date": "Wed, 11 Nov 2026 10:30:19 +0000",
-   "categories": [
-    "Opinion",
-    "silver bottle cap",
-    "what to use silver bottle cap on"
-   ]
-  },
-  {
-   "title": "Pokémon Sleep: Good Sleep Day (November 2026)",
-   "titleDe": "Pokémon Schlaf: Tag des guten Schlafs (November 2026)",
-   "link": "https://pokemongohub.net/post/sleep/pokemon-sleep-good-sleep-day-november-2026/",
-   "date": "Wed, 11 Nov 2026 08:20:59 +0000",
-   "categories": [
-    "Pokémon Sleep",
-    "good sleep day",
-    "mew good sleep day",
-    "mew pokemon sleep",
-    "november 2026",
-    "pokemon sleep"
-   ]
   }
  ],
  "events": {
-  "raidhour20261118": "Cresselia- und Darkrai-Raid-Stunde",
   "pokemonspotlighthour2026-11-19": "Grookey, Scorbunny und Sobble Spotlight Hour",
   "minior-showers-leonids-2026": "Kleine Duschen: Leoniden 2026",
   "eternamax-eternatus-max-battles-2026": "Eternamax Eternatus Returns",
   "november-communityday2026": "Pawniard Community Day",
+  "pokemon-latin-america-international-championships-2027-timed-research-twitch-drops": "Twitch Drops für die Pokémon Latin America International Championships 2027",
   "dynamax-trails-2026": "Dynamax Trails",
   "max-mondays-2026-11-23": "Dynamax Espurr während Max. Montag",
   "cresselia-darkrai-in-5-star-raid-battles-november-2026": "Cresselia und Darkrai in 5-Sterne-Raid-Kämpfen",
@@ -493,17 +491,6 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "details": {
-  "raidhour20261118": {
-   "v": 2,
-   "sections": [],
-   "bonuses": [],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-20",
-   "bonusesDe": [],
-   "ticketBonusesDe": []
-  },
   "pokemonspotlighthour2026-11-19": {
    "v": 2,
    "sections": [
@@ -629,6 +616,17 @@
     "Ein zusätzlicher Spezialhandel kann für maximal zwei für den Tag getätigt werden *",
     "Für getätigte Trades wird 50 % weniger Sternenstaub benötigt *"
    ],
+   "ticketBonusesDe": []
+  },
+  "pokemon-latin-america-international-championships-2027-timed-research-twitch-drops": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-20",
+   "bonusesDe": [],
    "ticketBonusesDe": []
   },
   "dynamax-trails-2026": {
@@ -1477,6 +1475,8 @@
  },
  "codes": [],
  "translations": {
+  "Pokémon GO December 2026 Community Day: All featured Pokémon, Bonuses & Exclusive Moves": "Pokémon GO Community Day im Dezember 2026: Alle vorgestellten Pokémon, Boni und exklusiven Attacken",
+  "ANA Launches Blue Pokémon Jet for Pokémon’s 30th Anniversary": "ANA führt anlässlich des 30. Jubiläums von Pokémon den Blue Pokémon Jet ein",
   "Eternatus Eternamax Battle Day (November 2026)": "Eternatus-Eternamax-Kampftag (November 2026)",
   "Pawniard Community Day (November 2026)": "Community Day für Pawniard (November 2026)",
   "How to Beat Eternamax Eternatus: Best Counters and Guide": "So besiegt man Eternamax Eternatus: Die besten Konter und ein Leitfaden",
@@ -1505,9 +1505,6 @@
   "How to beat Dynamax Regidrago: Complete Guide": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
   "Minior Showers: Leonid (November 2026)": "Kleine Duschen: Leonid (November 2026)",
   "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
-  "What Pokémon Should I Use My Silver Bottle Cap On?": "Auf welches Pokémon sollte ich meinen silbernen Flaschenverschluss aufsetzen?",
-  "Pokémon Sleep: Good Sleep Day (November 2026)": "Pokémon Schlaf: Tag des guten Schlafs (November 2026)",
-  "Cresselia and Darkrai Raid Hour": "Cresselia- und Darkrai-Raid-Stunde",
   "Grookey, Scorbunny, and Sobble Spotlight Hour": "Grookey, Scorbunny und Sobble Spotlight Hour",
   "Minior Showers: Leonids 2026": "Kleine Duschen: Leoniden 2026",
   "Increased Stardust for catching Minior": "Erhöhter Sternenstaub zum Fangen von Minior",
@@ -1525,6 +1522,7 @@
   "2x Chance for Trainers level 31 and up to receive Candy XL from catching Pokémon": "2x Chance auf Ausbilder Level 31 und höher, Candy XL durch das Fangen von Pokémon zu erhalten",
   "One additional Special Trade can be made for a maximum of two for the day*": "Ein zusätzlicher Spezialhandel kann für maximal zwei für den Tag getätigt werden *",
   "Trades made will require 50% less Stardust*": "Für getätigte Trades wird 50 % weniger Sternenstaub benötigt *",
+  "Twitch Drops for 2027 Pokémon Latin America International Championships": "Twitch Drops für die Pokémon Latin America International Championships 2027",
   "Dynamax Trails": "Dynamax Trails",
   "Chance to receive Max Particles when catching event-themed Pokémon in the wild or after Max Battles": "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
   "More Power Spots than usual will be active": "Es werden mehr Power Spots als üblich aktiv sein",
