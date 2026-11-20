@@ -1043,3 +1043,4 @@ button.outline { background: transparent; border: 1px solid var(--line, #DDD); c
 .clean-warn > b { display: block; margin-bottom: 2px; }
 .clean-label { font-weight: 600; margin-top: 6px; }
 .clean-clash { color: #D32F2F; font-size: 13px; margin-top: 4px; }
+.clean-rare { margin: 6px 0 8px; display: flex; flex-direction: column; gap: 4px; }
