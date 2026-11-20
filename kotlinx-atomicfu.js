@@ -4,7 +4,7 @@ import {
   VOID3gxj6tk5isa35 as VOID,
   initMetadataForClassbxx6q50dy2s7 as initMetadataForClass,
   toString30pk9tzaqopn as toString,
-} from './kotlin-kotlin-stdlib.js?v=1795168298729';
+} from './kotlin-kotlin-stdlib.js?v=1795169060276';
 //region block: imports
 //endregion
 //region block: pre-declaration

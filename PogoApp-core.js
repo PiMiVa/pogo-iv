@@ -228,7 +228,7 @@ import {
   abs22kdeprm0tm5i as abs_0,
   count2ctzg572d5xrz as count,
   substringBefore3n7kj60w69hju as substringBefore_0,
-} from './kotlin-kotlin-stdlib.js?v=1795168298729';
+} from './kotlin-kotlin-stdlib.js?v=1795169060276';
 import {
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
   JsonObjectee06ihoeeiqj as JsonObject,
@@ -242,7 +242,7 @@ import {
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
   get_boolean37ml8jnzy6rg3 as get_boolean,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795168298729';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795169060276';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -261,7 +261,7 @@ import {
   ListSerializer1hxuk9dx5n9du as ListSerializer,
   SerializableWithd2dap36updxd as SerializableWith,
   LinkedHashSetSerializer3ncla559t2lx7 as LinkedHashSetSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795168298729';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795169060276';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -4850,14 +4850,18 @@ protoOf(Cleanup).a1y = function (list, family, bestRank, keepTags, keep) {
   while (_iterator__ex2g4s_5.j()) {
     var element_4 = _iterator__ex2g4s_5.k();
     var tmp$ret$36;
-    $l$block_4: {
+    $l$block_5: {
       if (keep(element_4)) {
         tmp$ret$36 = null;
-        break $l$block_4;
+        break $l$block_5;
+      }
+      if (element_4.u1q().e1x() >= 90.0) {
+        tmp$ret$36 = null;
+        break $l$block_5;
       }
       if (extras.t(element_4.r1o_1)) {
         tmp$ret$36 = new Item(element_4, 'Doppelt (gleiche Art und IV)');
-        break $l$block_4;
+        break $l$block_5;
       }
       var rank = bestRank(element_4);
       var tmp_0;
@@ -4866,7 +4870,7 @@ protoOf(Cleanup).a1y = function (list, family, bestRank, keepTags, keep) {
       } else {
         var tmp0 = element_4.j1p_1;
         var tmp$ret$37;
-        $l$block_6: {
+        $l$block_7: {
           // Inline function 'kotlin.collections.any' call
           var tmp_1;
           if (isInterface(tmp0, Collection)) {
@@ -4876,7 +4880,7 @@ protoOf(Cleanup).a1y = function (list, family, bestRank, keepTags, keep) {
           }
           if (tmp_1) {
             tmp$ret$37 = false;
-            break $l$block_6;
+            break $l$block_7;
           }
           var _iterator__ex2g4s_6 = tmp0.i();
           while (_iterator__ex2g4s_6.j()) {
@@ -4887,7 +4891,7 @@ protoOf(Cleanup).a1y = function (list, family, bestRank, keepTags, keep) {
             var tmp$ret$40 = toString_0(trim(isCharSequence(element_5) ? element_5 : THROW_CCE())).toLowerCase();
             if (keepLower.t(tmp$ret$40)) {
               tmp$ret$37 = true;
-              break $l$block_6;
+              break $l$block_7;
             }
           }
           tmp$ret$37 = false;
