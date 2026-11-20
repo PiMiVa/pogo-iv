@@ -1048,3 +1048,5 @@ button.outline { background: transparent; border: 1px solid var(--line, #DDD); c
 .prep-mon .small.warn { white-space: normal; }
 .prep-mon button.chip { font-size: 12px; padding: 5px 10px; margin-top: 4px; }
 .prep-step .chips { flex-wrap: wrap; overflow-x: visible; }
+/* „Warum?“ am Urteil der Karte: zeigt, dass Antippen den Grund öffnet (wie App). */
+.verdict .verdict-why { font-weight: 400; font-size: 13px; opacity: .7; }
