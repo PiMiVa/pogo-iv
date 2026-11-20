@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-20T03:32:33Z",
+ "generated": "2026-11-20T13:12:36Z",
  "news": [
+  {
+   "title": "Eternatus Eternamax Battle Day (November 2026)",
+   "titleDe": "Eternatus-Eternamax-Kampftag (November 2026)",
+   "link": "https://pokemongohub.net/post/event/eternatus-eternamax-battle-day-november-2026/",
+   "date": "Fri, 20 Nov 2026 08:55:10 +0000",
+   "categories": [
+    "Events",
+    "eternamax eternatus",
+    "eternatus",
+    "eternatus max battle day"
+   ]
+  },
+  {
+   "title": "Pawniard Community Day (November 2026)",
+   "titleDe": "Community Day für Pawniard (November 2026)",
+   "link": "https://pokemongohub.net/post/event/pawniard-community-day-november-2026/",
+   "date": "Fri, 20 Nov 2026 08:00:07 +0000",
+   "categories": [
+    "Events",
+    "community day",
+    "kingambit",
+    "kingambit community day",
+    "kowtow cleave",
+    "pawniard",
+    "pawniard community day"
+   ]
+  },
+  {
+   "title": "How to Beat Eternamax Eternatus: Best Counters and Guide",
+   "titleDe": "So besiegt man Eternamax Eternatus: Die besten Konter und ein Leitfaden",
+   "link": "https://pokemongohub.net/post/guide/how-to-beat-eternamax-eternatus-best-counters-guide/",
+   "date": "Fri, 20 Nov 2026 08:00:05 +0000",
+   "categories": [
+    "Featured",
+    "Guides",
+    "eternamax",
+    "eternamax eternatus",
+    "eternatus",
+    "eternatus counters",
+    "eternatus guide",
+    "eternatus max battle guide",
+    "max battle",
+    "raid guide"
+   ]
+  },
   {
    "title": "Pawniard Community Day: Is Kowtow Cleave Kingambit Worth It?",
    "titleDe": "Community Day mit Pawniard: Ist Kowtow Cleave Kingambit es wert?",
@@ -16,6 +61,24 @@
     "meta",
     "pawniard community day",
     "PvE"
+   ]
+  },
+  {
+   "title": "A PvP Analysis on Kowtwo Cleave Kingambit (November Community Day)",
+   "titleDe": "Eine PvP-Analyse zu Kowtwo-Spalt-Kingambit (Community Day im November)",
+   "link": "https://pokemongohub.net/post/pvp/a-pvp-analysis-on-kowtwo-cleave-kingambit-november-community-day/",
+   "date": "Thu, 19 Nov 2026 10:46:08 +0000",
+   "categories": [
+    "Meta",
+    "Trainer Battles",
+    "kingambit",
+    "kingambit community day",
+    "kingambit kowtow cleave",
+    "kingambit meta",
+    "kingambit pvp",
+    "kowtow cleave",
+    "November Community Day",
+    "under the lights"
    ]
   },
   {
@@ -384,89 +447,9 @@
     "november 2026",
     "pokemon sleep"
    ]
-  },
-  {
-   "title": "Pokémon Sleep: Recipe List",
-   "titleDe": "Pokémon Schlaf: Rezeptliste",
-   "link": "https://pokemongohub.net/post/sleep/pokemon-sleep-recipe-list/",
-   "date": "Wed, 11 Nov 2026 08:00:45 +0000",
-   "categories": [
-    "Pokémon Sleep",
-    "pokemon sleep",
-    "pokemon sleep curry",
-    "pokemon sleep curry ingredients",
-    "pokemon sleep curry recipes",
-    "pokemon sleep dessert",
-    "pokemon sleep dessert ingredients",
-    "pokemon sleep dessert recipe",
-    "pokemon sleep drink ingredients",
-    "pokemon sleep drink recipes",
-    "pokemon sleep drinks",
-    "pokemon sleep ingredients",
-    "pokemon sleep recipes",
-    "pokemon sleep salad",
-    "pokemon sleep salad ingredients",
-    "pokemon sleep salad recipes"
-   ]
-  },
-  {
-   "title": "How to Beat Dynamax Registeel: Best Counters & Guide",
-   "titleDe": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
-   "link": "https://pokemongohub.net/post/news/how-to-beat-dynamax-registeel-best-counters-guide/",
-   "date": "Wed, 11 Nov 2026 05:00:59 +0000",
-   "categories": [
-    "News",
-    "Counters",
-    "Dynamax",
-    "dynamax registeel",
-    "dynamax registeel counters",
-    "dynamax registeel guide",
-    "max monday",
-    "raid guide",
-    "registeel"
-   ]
-  },
-  {
-   "title": "Pokémon News This Week: Pokopia Expansion Pass, Fender Guitars Collaboration, Vivillon Challenge and More!",
-   "titleDe": "Pokémon-Nachrichten diese Woche: Pokopia-Erweiterungspass, Fender-Gitarren-Kollaboration, Vivillon-Herausforderung und mehr!",
-   "link": "https://pokemongohub.net/post/news/pokemon-news-this-week-pokopia-expansion-pass-fender-guitars-collaboration-vivillon-challenge-and-more/",
-   "date": "Tue, 10 Nov 2026 11:02:31 +0000",
-   "categories": [
-    "News",
-    "dazzling decorations",
-    "fender",
-    "fender guitar",
-    "pokemon news",
-    "pokemon news this week",
-    "pokopia",
-    "pokopia dazzling decorations",
-    "pokopia expansion",
-    "spewpa",
-    "Vivillon",
-    "vivillon challenge"
-   ]
-  },
-  {
-   "title": "Silver Bottle Cap Guide",
-   "titleDe": "Leitfaden für silberne Flaschenverschlüsse",
-   "link": "https://pokemongohub.net/post/guide/silver-bottle-cap/",
-   "date": "Tue, 10 Nov 2026 08:37:19 +0000",
-   "categories": [
-    "Article",
-    "Guides",
-    "Tips and Tricks",
-    "how to get silver bottle cap",
-    "how to use silver bottle cap",
-    "pokemon go",
-    "silver bottle cap",
-    "silver bottle cap search string",
-    "what is silver bottle cap"
-   ]
   }
  ],
  "events": {
-  "go-wild-area-gigantamax-machamp-power-up-timed-research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
-  "max-mondays-2026-11-16": "[Abgesagt] Max-Montag",
   "raidhour20261118": "Cresselia- und Darkrai-Raid-Stunde",
   "pokemonspotlighthour2026-11-19": "Grookey, Scorbunny und Sobble Spotlight Hour",
   "minior-showers-leonids-2026": "Kleine Duschen: Leoniden 2026",
@@ -510,28 +493,6 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "details": {
-  "go-wild-area-gigantamax-machamp-power-up-timed-research": {
-   "v": 2,
-   "sections": [],
-   "bonuses": [],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-20",
-   "bonusesDe": [],
-   "ticketBonusesDe": []
-  },
-  "max-mondays-2026-11-16": {
-   "v": 2,
-   "sections": [],
-   "bonuses": [],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-20",
-   "bonusesDe": [],
-   "ticketBonusesDe": []
-  },
   "raidhour20261118": {
    "v": 2,
    "sections": [],
@@ -1327,7 +1288,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-19",
+   "fetched": "2026-11-20",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1338,7 +1299,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-19",
+   "fetched": "2026-11-20",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1349,7 +1310,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-19",
+   "fetched": "2026-11-20",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1360,7 +1321,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-19",
+   "fetched": "2026-11-20",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1371,7 +1332,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-19",
+   "fetched": "2026-11-20",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1382,7 +1343,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-19",
+   "fetched": "2026-11-20",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1408,7 +1369,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-19",
+   "fetched": "2026-11-20",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1437,7 +1398,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-19",
+   "fetched": "2026-11-20",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1466,7 +1427,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-19",
+   "fetched": "2026-11-20",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1516,7 +1477,11 @@
  },
  "codes": [],
  "translations": {
+  "Eternatus Eternamax Battle Day (November 2026)": "Eternatus-Eternamax-Kampftag (November 2026)",
+  "Pawniard Community Day (November 2026)": "Community Day für Pawniard (November 2026)",
+  "How to Beat Eternamax Eternatus: Best Counters and Guide": "So besiegt man Eternamax Eternatus: Die besten Konter und ein Leitfaden",
   "Pawniard Community Day: Is Kowtow Cleave Kingambit Worth It?": "Community Day mit Pawniard: Ist Kowtow Cleave Kingambit es wert?",
+  "A PvP Analysis on Kowtwo Cleave Kingambit (November Community Day)": "Eine PvP-Analyse zu Kowtwo-Spalt-Kingambit (Community Day im November)",
   "Pokémon News This Week: Pokémon Happy Meals, Shiny Xerneas, Play! Prizes and More": "Pokémon-News dieser Woche: Pokémon Happy Meals, Shiny Xerneas, Play!-Preise und mehr",
   "Hisuian Goodra and Magnet Bomb Magnezone… Any Use in PvP?": "Hisui-Goodra und Magnetbombe-Magnezone … Sind sie im PvP nützlich?",
   "Grookey, Scorbunny and Sobble Spotlight Hour: Last Minute Guide": "Spotlight-Stunde mit Chimpep, Hopplo und Memmeon: Last-Minute-Leitfaden",
@@ -1542,12 +1507,6 @@
   "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
   "What Pokémon Should I Use My Silver Bottle Cap On?": "Auf welches Pokémon sollte ich meinen silbernen Flaschenverschluss aufsetzen?",
   "Pokémon Sleep: Good Sleep Day (November 2026)": "Pokémon Schlaf: Tag des guten Schlafs (November 2026)",
-  "Pokémon Sleep: Recipe List": "Pokémon Schlaf: Rezeptliste",
-  "How to Beat Dynamax Registeel: Best Counters & Guide": "Wie man Dynamax Registeel besiegt: Beste Zähler & Anleitung",
-  "Pokémon News This Week: Pokopia Expansion Pass, Fender Guitars Collaboration, Vivillon Challenge and More!": "Pokémon-Nachrichten diese Woche: Pokopia-Erweiterungspass, Fender-Gitarren-Kollaboration, Vivillon-Herausforderung und mehr!",
-  "Silver Bottle Cap Guide": "Leitfaden für silberne Flaschenverschlüsse",
-  "GO Wild Area: Gigantamax Machamp Power Up! Timed Research": "GO Wild Area: Gigantamax Machamp Power-Up! Zeitgesteuerte Forschung",
-  "[Canceled] Max Monday": "[Abgesagt] Max-Montag",
   "Cresselia and Darkrai Raid Hour": "Cresselia- und Darkrai-Raid-Stunde",
   "Grookey, Scorbunny, and Sobble Spotlight Hour": "Grookey, Scorbunny und Sobble Spotlight Hour",
   "Minior Showers: Leonids 2026": "Kleine Duschen: Leoniden 2026",
