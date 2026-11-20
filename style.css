@@ -1050,3 +1050,7 @@ button.outline { background: transparent; border: 1px solid var(--line, #DDD); c
 .prep-step .chips { flex-wrap: wrap; overflow-x: visible; }
 /* „Warum?“ am Urteil der Karte: zeigt, dass Antippen den Grund öffnet (wie App). */
 .verdict .verdict-why { font-weight: 400; font-size: 13px; opacity: .7; }
+/* Leitfaden: Tags im Spiel vergeben (wie App TagHere). */
+.tag-howto { background: var(--mist); border-radius: 16px; padding: 10px 12px; margin: 6px 0; }
+.tag-howto ol { margin: 4px 0 0; padding-left: 20px; }
+.tag-group { margin: 10px 0 4px; display: flex; flex-direction: column; gap: 4px; }
