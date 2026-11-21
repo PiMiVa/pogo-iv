@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-21T02:32:29Z",
+ "generated": "2026-11-21T11:25:53Z",
  "news": [
+  {
+   "title": "Eternatus Eternamax Battle Day (November 2026)",
+   "titleDe": "Eternatus-Eternamax-Kampftag (November 2026)",
+   "link": "https://pokemongohub.net/post/event/eternatus-eternamax-battle-day-november-2026/",
+   "date": "Sat, 21 Nov 2026 07:00:10 +0000",
+   "categories": [
+    "Events",
+    "eternamax eternatus",
+    "eternatus",
+    "eternatus max battle day"
+   ]
+  },
+  {
+   "title": "Pawniard Community Day (November 2026)",
+   "titleDe": "Community Day für Pawniard (November 2026)",
+   "link": "https://pokemongohub.net/post/event/pawniard-community-day-november-2026/",
+   "date": "Sat, 21 Nov 2026 07:00:07 +0000",
+   "categories": [
+    "Events",
+    "community day",
+    "kingambit",
+    "kingambit community day",
+    "kowtow cleave",
+    "pawniard",
+    "pawniard community day"
+   ]
+  },
+  {
+   "title": "How to Beat Eternamax Eternatus: Best Counters and Guide",
+   "titleDe": "So besiegt man Eternamax Eternatus: Die besten Konter und ein Leitfaden",
+   "link": "https://pokemongohub.net/post/guide/how-to-beat-eternamax-eternatus-best-counters-guide/",
+   "date": "Sat, 21 Nov 2026 07:00:05 +0000",
+   "categories": [
+    "Featured",
+    "Guides",
+    "eternamax",
+    "eternamax eternatus",
+    "eternatus",
+    "eternatus counters",
+    "eternatus guide",
+    "eternatus max battle guide",
+    "max battle",
+    "raid guide"
+   ]
+  },
   {
    "title": "Pokémon GO December 2026 Community Day: All featured Pokémon, Bonuses & Exclusive Moves",
    "titleDe": "Pokémon GO Community Day im Dezember 2026: Alle vorgestellten Pokémon, Boni und exklusiven Attacken",
@@ -22,51 +67,6 @@
     "Events",
     "ana blue jet",
     "blue jet"
-   ]
-  },
-  {
-   "title": "Eternatus Eternamax Battle Day (November 2026)",
-   "titleDe": "Eternatus-Eternamax-Kampftag (November 2026)",
-   "link": "https://pokemongohub.net/post/event/eternatus-eternamax-battle-day-november-2026/",
-   "date": "Fri, 20 Nov 2026 08:55:10 +0000",
-   "categories": [
-    "Events",
-    "eternamax eternatus",
-    "eternatus",
-    "eternatus max battle day"
-   ]
-  },
-  {
-   "title": "Pawniard Community Day (November 2026)",
-   "titleDe": "Community Day für Pawniard (November 2026)",
-   "link": "https://pokemongohub.net/post/event/pawniard-community-day-november-2026/",
-   "date": "Fri, 20 Nov 2026 08:00:07 +0000",
-   "categories": [
-    "Events",
-    "community day",
-    "kingambit",
-    "kingambit community day",
-    "kowtow cleave",
-    "pawniard",
-    "pawniard community day"
-   ]
-  },
-  {
-   "title": "How to Beat Eternamax Eternatus: Best Counters and Guide",
-   "titleDe": "So besiegt man Eternamax Eternatus: Die besten Konter und ein Leitfaden",
-   "link": "https://pokemongohub.net/post/guide/how-to-beat-eternamax-eternatus-best-counters-guide/",
-   "date": "Fri, 20 Nov 2026 08:00:05 +0000",
-   "categories": [
-    "Featured",
-    "Guides",
-    "eternamax",
-    "eternamax eternatus",
-    "eternatus",
-    "eternatus counters",
-    "eternatus guide",
-    "eternatus max battle guide",
-    "max battle",
-    "raid guide"
    ]
   },
   {
@@ -1403,7 +1403,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-20",
+   "fetched": "2026-11-21",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1414,7 +1414,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-20",
+   "fetched": "2026-11-21",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1425,7 +1425,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-20",
+   "fetched": "2026-11-21",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1436,7 +1436,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-20",
+   "fetched": "2026-11-21",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1462,7 +1462,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-20",
+   "fetched": "2026-11-21",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1491,7 +1491,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-20",
+   "fetched": "2026-11-21",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1520,7 +1520,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-20",
+   "fetched": "2026-11-21",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1570,11 +1570,11 @@
  },
  "codes": [],
  "translations": {
-  "Pokémon GO December 2026 Community Day: All featured Pokémon, Bonuses & Exclusive Moves": "Pokémon GO Community Day im Dezember 2026: Alle vorgestellten Pokémon, Boni und exklusiven Attacken",
-  "ANA Launches Blue Pokémon Jet for Pokémon’s 30th Anniversary": "ANA führt anlässlich des 30. Jubiläums von Pokémon den Blue Pokémon Jet ein",
   "Eternatus Eternamax Battle Day (November 2026)": "Eternatus-Eternamax-Kampftag (November 2026)",
   "Pawniard Community Day (November 2026)": "Community Day für Pawniard (November 2026)",
   "How to Beat Eternamax Eternatus: Best Counters and Guide": "So besiegt man Eternamax Eternatus: Die besten Konter und ein Leitfaden",
+  "Pokémon GO December 2026 Community Day: All featured Pokémon, Bonuses & Exclusive Moves": "Pokémon GO Community Day im Dezember 2026: Alle vorgestellten Pokémon, Boni und exklusiven Attacken",
+  "ANA Launches Blue Pokémon Jet for Pokémon’s 30th Anniversary": "ANA führt anlässlich des 30. Jubiläums von Pokémon den Blue Pokémon Jet ein",
   "Pawniard Community Day: Is Kowtow Cleave Kingambit Worth It?": "Community Day mit Pawniard: Ist Kowtow Cleave Kingambit es wert?",
   "A PvP Analysis on Kowtwo Cleave Kingambit (November Community Day)": "Eine PvP-Analyse zu Kowtwo-Spalt-Kingambit (Community Day im November)",
   "Pokémon News This Week: Pokémon Happy Meals, Shiny Xerneas, Play! Prizes and More": "Pokémon-News dieser Woche: Pokémon Happy Meals, Shiny Xerneas, Play!-Preise und mehr",
