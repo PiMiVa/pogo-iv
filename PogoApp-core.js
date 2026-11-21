@@ -232,7 +232,7 @@ import {
   count2ctzg572d5xrz as count,
   substringBefore3n7kj60w69hju as substringBefore_0,
   coerceIn1xblvmyr0tby6 as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1795225192262';
+} from './kotlin-kotlin-stdlib.js?v=1795278861392';
 import {
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
   JsonObjectee06ihoeeiqj as JsonObject,
@@ -246,7 +246,7 @@ import {
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
   get_boolean37ml8jnzy6rg3 as get_boolean,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795225192262';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795278861392';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -265,7 +265,7 @@ import {
   ListSerializer1hxuk9dx5n9du as ListSerializer,
   SerializableWithd2dap36updxd as SerializableWith,
   LinkedHashSetSerializer3ncla559t2lx7 as LinkedHashSetSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795225192262';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795278861392';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -18863,7 +18863,7 @@ protoOf(sam$kotlin_Comparator$0_10).hashCode = function () {
   return hashCode(this.v2());
 };
 function rawSteps$pvp(pvpTags, prefix, suffix, id, title, text, target) {
-  return new Step_0(id, title, text, prefix + (pvpTags == null ? '0Angriff,1Angriff&3Verteidigung,4Verteidigung&3KP,4KP' : pvpTags) + suffix, target, VOID, VOID, VOID, VOID, !(pvpTags == null) ? 'Mit deinen PvP-Tags:' : null);
+  return new Step_0(id, title, text, prefix + (pvpTags == null ? '0Angriffs-Wert,1Angriffs-Wert&3Verteidigungs-Wert,4Verteidigungs-Wert&3KP,4KP' : pvpTags) + suffix, target, VOID, VOID, VOID, VOID, !(pvpTags == null) ? 'Mit deinen PvP-Tags:' : null);
 }
 function rawSteps$tagStep($tagged, id, title, what, target) {
   // Inline function 'kotlin.takeIf' call
@@ -18903,7 +18903,7 @@ function Part_DAILY_getInstance() {
 }
 function Guide() {
   Guide_instance = this;
-  this.p2j_1 = '0Angriff,1Angriff&3Verteidigung,4Verteidigung&3KP,4KP';
+  this.p2j_1 = '0Angriffs-Wert,1Angriffs-Wert&3Verteidigungs-Wert,4Verteidigungs-Wert&3KP,4KP';
   this.q2j_1 = listOf(['names', 'scan_mode', 'video', 'pvp', 'pvp_shadow', 'purified', 'tag_pvp', 'teams', 'legendary', 'hundos', 'pve_shadow', 'dynamax', 'giga', 'mega', 'dyna_moves', 'second', 'moves', 'tag_pve', 'rest_tag', 'cleanup', 'upgrade', 'bossprep', 'daily', 'daily_web']);
   this.r2j_1 = setOf_0(['legendary', 'hundos', 'pve_shadow', 'dynamax', 'giga', 'mega', 'dyna_moves', 'moves', 'second', 'tag_pve', 'rest_tag', 'cleanup', 'upgrade', 'bossprep']);
   this.s2j_1 = setOf_0(['daily', 'daily_web']);
