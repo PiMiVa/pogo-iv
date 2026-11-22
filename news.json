@@ -1,6 +1,51 @@
 {
- "generated": "2026-11-22T08:11:35Z",
+ "generated": "2026-11-22T16:26:59Z",
  "news": [
+  {
+   "title": "This Week in Pokémon GO (November 23-29): Mega Clefable, Deoxys Raids, and Noibat Spotlight Hour",
+   "titleDe": "Diese Woche in Pokémon GO (23.–29. November): Mega-Pippi, Deoxys-Raids und Noibat-Spotlight-Stunde",
+   "link": "https://pokemongohub.net/post/news/this-week-in-pokemon-go-november-23-29-2026/",
+   "date": "Sun, 22 Nov 2026 13:09:33 +0000",
+   "categories": [
+    "Events",
+    "News",
+    "deoxys raid hour",
+    "dynamax espurr max monday",
+    "noibat spotlight hour",
+    "november 2026",
+    "This Week in Pokémon GO"
+   ]
+  },
+  {
+   "title": "Dynamax Espurr Max Monday: Event Guide",
+   "titleDe": "Dynamax-Purrloin-Max-Montag: Event-Leitfaden",
+   "link": "https://pokemongohub.net/post/event/dynamax-espurr-max-monday-event-guide/",
+   "date": "Sun, 22 Nov 2026 09:50:55 +0000",
+   "categories": [
+    "Events",
+    "dynamax espurr",
+    "dynamax espurr counters",
+    "dynamax espurr guide",
+    "dynamax espurr max monday raid guide",
+    "espurr",
+    "max monday",
+    "meowstic"
+   ]
+  },
+  {
+   "title": "A (Spending) Guide For Eternatus – The Most Expensive Pokémon In Pokémon GO",
+   "titleDe": "Ein (Ausgaben-)Leitfaden für Eternatus – das teuerste Pokémon in Pokémon GO",
+   "link": "https://pokemongohub.net/post/article/a-spending-guide-for-eternatus-the-most-expensive-pokemon-in-pokemon-go/",
+   "date": "Sun, 22 Nov 2026 09:42:39 +0000",
+   "categories": [
+    "Article",
+    "eternamax eternatus",
+    "eternatus",
+    "Expensive",
+    "is eternatus worth it",
+    "Worth it"
+   ]
+  },
   {
    "title": "Eternatus Eternamax Battle Day (November 2026)",
    "titleDe": "Eternatus-Eternamax-Kampftag (November 2026)",
@@ -404,52 +449,9 @@
     "liepard counters",
     "liepard raid"
    ]
-  },
-  {
-   "title": "How to beat Dynamax Regidrago: Complete Guide",
-   "titleDe": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
-   "link": "https://pokemongohub.net/post/guide/how-to-beat-dynamax-regidrago-complete-guide/",
-   "date": "Wed, 11 Nov 2026 18:42:33 +0000",
-   "categories": [
-    "Guides",
-    "dynamax regidrago",
-    "dynamax regidrago counters",
-    "dynamax regidrago guide",
-    "raid guide",
-    "regidrago",
-    "regidrago counters",
-    "regidrago max battle guide"
-   ]
-  },
-  {
-   "title": "Minior Showers: Leonid (November 2026)",
-   "titleDe": "Kleine Duschen: Leonid (November 2026)",
-   "link": "https://pokemongohub.net/post/event/minior-showers-leonid-november-2026/",
-   "date": "Wed, 11 Nov 2026 17:21:16 +0000",
-   "categories": [
-    "Events",
-    "leonid",
-    "leonid meteor shower",
-    "minior shower",
-    "november 2026 minior",
-    "yellow core",
-    "yellow core minior"
-   ]
-  },
-  {
-   "title": "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026",
-   "titleDe": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
-   "link": "https://pokemongohub.net/post/news/pokemon-storage-and-item-bag-increased-ahead-of-pokemon-go-wild-area-global-2026/",
-   "date": "Wed, 11 Nov 2026 11:21:42 +0000",
-   "categories": [
-    "News",
-    "sotrage increase"
-   ]
   }
  ],
  "events": {
-  "pokemonspotlighthour2026-11-19": "Grookey, Scorbunny und Sobble Spotlight Hour",
-  "minior-showers-leonids-2026": "Kleine Duschen: Leoniden 2026",
   "eternamax-eternatus-max-battles-2026": "Eternamax Eternatus Returns",
   "november-communityday2026": "Pawniard Community Day",
   "pokemon-latin-america-international-championships-2027-timed-research-twitch-drops": "Twitch Drops für die Pokémon Latin America International Championships 2027",
@@ -491,60 +493,6 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "details": {
-  "pokemonspotlighthour2026-11-19": {
-   "v": 2,
-   "sections": [
-    {
-     "id": "spawns",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Grookey",
-        "Scorbunny",
-        "Sobble"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-22",
-   "bonusesDe": [],
-   "ticketBonusesDe": []
-  },
-  "minior-showers-leonids-2026": {
-   "v": 2,
-   "sections": [
-    {
-     "id": "spawns",
-     "groups": [
-      {
-       "title": "Wild Encounters",
-       "pokemon": [
-        "Minior (Meteor Form)"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [
-    "Increased Stardust for catching Minior",
-    "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day"
-   ],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-22",
-   "bonusesDe": [
-    "Erhöhter Sternenstaub zum Fangen von Minior",
-    "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
-   ],
-   "ticketBonusesDe": []
-  },
   "eternamax-eternatus-max-battles-2026": {
    "v": 2,
    "sections": [],
@@ -1533,6 +1481,9 @@
   "Power up Pokémon 8 times": "Verstärke Pokémon 8-mal",
   "Explore 1 km": "Entdecken 1",
   "Win a Max Battle": "Gewinne einen Max-Kampf",
+  "Catch 3 Pawniard": "Fange 3 Pawniard",
+  "Catch 5 Pokemon while in a Party": "Fange 5 Pokémon, während du in einer Gruppe bist",
+  "Catch 50 Pokemon": "Fange 50 Pokémon",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -1570,6 +1521,9 @@
  },
  "codes": [],
  "translations": {
+  "This Week in Pokémon GO (November 23-29): Mega Clefable, Deoxys Raids, and Noibat Spotlight Hour": "Diese Woche in Pokémon GO (23.–29. November): Mega-Pippi, Deoxys-Raids und Noibat-Spotlight-Stunde",
+  "Dynamax Espurr Max Monday: Event Guide": "Dynamax-Purrloin-Max-Montag: Event-Leitfaden",
+  "A (Spending) Guide For Eternatus – The Most Expensive Pokémon In Pokémon GO": "Ein (Ausgaben-)Leitfaden für Eternatus – das teuerste Pokémon in Pokémon GO",
   "Eternatus Eternamax Battle Day (November 2026)": "Eternatus-Eternamax-Kampftag (November 2026)",
   "Pawniard Community Day (November 2026)": "Community Day für Pawniard (November 2026)",
   "How to Beat Eternamax Eternatus: Best Counters and Guide": "So besiegt man Eternamax Eternatus: Die besten Konter und ein Leitfaden",
@@ -1597,13 +1551,6 @@
   "Which Adventure Effect Should I Use During Pokémon GO Wild Area: Global 2026?": "Welchen Abenteuer-Effekt sollte ich während der Pokémon GO Wildgebiete: Global 2026 verwenden?",
   "Golurk Raid Guide": "Golgantes-Raid-Guide",
   "Liepard Raid Guide": "Leitfaden für den Angriff von Leoparden",
-  "How to beat Dynamax Regidrago: Complete Guide": "Wie man Dynamax Regidrago besiegt: Komplette Anleitung",
-  "Minior Showers: Leonid (November 2026)": "Kleine Duschen: Leonid (November 2026)",
-  "Pokémon Storage and Item Bag Increased Ahead of Pokémon GO Wild Area Global: 2026": "Pokémon-Lager und Item-Tasche erhöht vor Pokémon GO Wild Area Global: 2026",
-  "Grookey, Scorbunny, and Sobble Spotlight Hour": "Grookey, Scorbunny und Sobble Spotlight Hour",
-  "Minior Showers: Leonids 2026": "Kleine Duschen: Leoniden 2026",
-  "Increased Stardust for catching Minior": "Erhöhter Sternenstaub zum Fangen von Minior",
-  "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day": "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen",
   "Eternamax Eternatus Returns": "Eternamax Eternatus Returns",
   "Power Spots will refresh more frequently": "Power Spots werden häufiger aktualisiert",
   "Max Particle collection limit increased to 2,400": "Maximales Partikel-Sammellimit auf 2.400 erhöht",
@@ -1657,6 +1604,8 @@
   "3-hour Incense**": "3-Stunden-Räucherstäbchen**",
   "Up to two Special Trades can be made per day*": "Pro Tag können bis zu zwei Sondergeschäfte getätigt werden*",
   "Minior Showers: Geminids 2026": "Kleine Duschen: Geminiden 2026",
+  "Increased Stardust for catching Minior": "Erhöhter Sternenstaub zum Fangen von Minior",
+  "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day": "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen",
   "Raid Day": "Raid-Tag",
   "Hatch Day": "Schraffurtag",
   "Pokémon GO and Duolingo Timed Research": "Zeitlich begrenzte Forschungsstudie zu Pokémon GO und Duolingo",
@@ -1675,6 +1624,9 @@
   "Power up Pokémon 8 times": "Verstärke Pokémon 8-mal",
   "Explore 1 km": "Entdecken 1",
   "Win a Max Battle": "Gewinne einen Max-Kampf",
+  "Catch 3 Pawniard": "Fange 3 Pawniard",
+  "Catch 5 Pokemon while in a Party": "Fange 5 Pokémon, während du in einer Gruppe bist",
+  "Catch 50 Pokemon": "Fange 50 Pokémon",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
