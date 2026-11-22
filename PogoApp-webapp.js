@@ -163,7 +163,7 @@ import {
   intercepted2ogpsikxxj4u0 as intercepted,
   returnIfSuspended39bw7wdvakhp8 as returnIfSuspended,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1795360368286';
+} from './kotlin-kotlin-stdlib.js?v=1795362369039';
 import {
   EventCalendar_getInstance2addlkwwxhqyo as EventCalendar_getInstance,
   BossPrep_getInstance2ppy5rq40xilu as BossPrep_getInstance,
@@ -358,7 +358,7 @@ import {
   PageSettle21idp888bmz3 as PageSettle,
   Last3mxaoe9u97sp1 as Last,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1795360368286';
+} from './PogoApp-core.js?v=1795362369039';
 import {
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
   delayp0o4nsccwai as delay,
@@ -367,9 +367,9 @@ import {
   MainScope1gi1r4abhrtmm as MainScope,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1795360368286';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795360368286';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795360368286';
+} from './kotlinx-coroutines-core.js?v=1795362369039';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795362369039';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795362369039';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -2879,6 +2879,22 @@ function cardNav($this, host) {
   else {
     card.addEventListener('touchend', CollectionView$cardNav$lambda_1(sx, sy, i));
   }
+}
+function swiped($this, dx, dy) {
+  var tmp;
+  // Inline function 'kotlin.math.abs' call
+  var tmp_0 = Math.abs(dx);
+  // Inline function 'kotlin.comparisons.maxOf' call
+  var b = window.innerWidth * 0.3;
+  if (tmp_0 > Math.max(110.0, b)) {
+    // Inline function 'kotlin.math.abs' call
+    var tmp_1 = Math.abs(dx);
+    // Inline function 'kotlin.math.abs' call
+    tmp = tmp_1 > 2 * Math.abs(dy);
+  } else {
+    tmp = false;
+  }
+  return tmp;
 }
 function stepDetail($this, d) {
   var tmp = $this.g42_1;
@@ -7341,17 +7357,7 @@ function CollectionView$showDetail$lambda_1($sx, $sy) {
     var dx = t.clientX - $sx._v;
     var dy = t.clientY - $sy._v;
     var tmp_0;
-    var tmp_1;
-    // Inline function 'kotlin.math.abs' call
-    if (Math.abs(dx) > 60) {
-      // Inline function 'kotlin.math.abs' call
-      var tmp_2 = Math.abs(dx);
-      // Inline function 'kotlin.math.abs' call
-      tmp_1 = tmp_2 > 1.5 * Math.abs(dy);
-    } else {
-      tmp_1 = false;
-    }
-    if (tmp_1) {
+    if (swiped(CollectionView_getInstance(), dx, dy)) {
       stepDetail(CollectionView_getInstance(), dx < 0 ? 1 : -1);
       tmp_0 = Unit_instance;
     }
@@ -7492,17 +7498,7 @@ function CollectionView$cardNav$lambda_1($sx, $sy, $i) {
     var dx = t.clientX - $sx._v;
     var dy = t.clientY - $sy._v;
     var tmp_0;
-    var tmp_1;
-    // Inline function 'kotlin.math.abs' call
-    if (Math.abs(dx) > 60) {
-      // Inline function 'kotlin.math.abs' call
-      var tmp_2 = Math.abs(dx);
-      // Inline function 'kotlin.math.abs' call
-      tmp_1 = tmp_2 > 1.5 * Math.abs(dy);
-    } else {
-      tmp_1 = false;
-    }
-    if (tmp_1) {
+    if (swiped(CollectionView_getInstance(), dx, dy)) {
       cardNav$go($i, dx < 0 ? 1 : -1);
       tmp_0 = Unit_instance;
     }
