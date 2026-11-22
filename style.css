@@ -1054,3 +1054,5 @@ button.outline { background: transparent; border: 1px solid var(--line, #DDD); c
 .tag-howto { background: var(--mist); border-radius: 16px; padding: 10px 12px; margin: 6px 0; }
 .tag-howto ol { margin: 4px 0 0; padding-left: 20px; }
 .tag-group { margin: 10px 0 4px; display: flex; flex-direction: column; gap: 4px; }
+/* Tag heißt wie ein Suchwort des Spiels (22.11.2026) */
+.tag-clash { color: #C62828; font-weight: 600; margin-top: 4px; }
