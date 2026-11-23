@@ -952,6 +952,15 @@ button.wide { width: 100%; margin: 6px 0; }
 .prep-mon.wide { width: 100px; }
 .prep-mon b { font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
 .prep-mon .small { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.prep-mon { width: 76px; gap: 2px; }
+.prep-mon.wide { width: 100px; }
+.prep-sprite { position: relative; }
+.prep-up { position: absolute; top: 0; right: -2px; width: 18px; height: 18px; border-radius: 50%; background: #C8770F; color: #fff; display: inline-flex; align-items: center; justify-content: center; }
+.prep-up .ic { width: 13px; height: 13px; }
+.prep-form { font-size: 10px; font-weight: 700; color: #5546D6; background: #ECE9FF; border-radius: 999px; padding: 0 6px; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.prep-evolve { background: rgba(200,119,15,.14); border-radius: 16px; padding: 10px; display: flex; flex-direction: column; gap: 6px; margin: 4px 0 8px; }
+.prep-evolve-row { background: #fff; border-radius: 12px; padding: 6px 8px; }
+.prep-evolve-row button.chip { margin: 0; }
 .prep-step { background: #fff; border-radius: 18px; padding: 12px; margin: 8px 0; display: flex; flex-direction: column; gap: 8px; font-size: .95rem; }
 .prep-step .line { display: flex; align-items: center; gap: 10px; }
 .prep-step .grow { flex: 1; min-width: 0; }
@@ -1093,6 +1102,9 @@ button.outline { background: transparent; border: 1px solid var(--line, #DDD); c
 .group-pill.pve { background: #2e9e5b; color: #fff; }
 .group-pill.send { background: #c62828; color: #fff; }
 .group-pill.keep { background: #e4e4ea; color: var(--ink, #111114); }
+.group-pill.trade { background: #2F7FD1; color: #fff; }
+.sort-group.trade { background: #DCEEFB; }
+.chip.trade-chip { background: #DCEEFB; color: #1E5A85; border-color: transparent; }
 .rules { display: flex; flex-direction: column; gap: 8px; margin: 8px 0; }
 .rules > summary { cursor: pointer; font-weight: 600; color: var(--accent, #7b6cf0); }
 .rule { background: var(--mist); border-radius: 14px; padding: 8px 10px; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
@@ -1243,3 +1255,23 @@ button.choice.compact .choice-text { flex: 1; }
 .team-actions button.act, .member-actions button.act { width: 100%; }
 .start-tile.new { background: #fff; }
 .start-tile.new .small { color: var(--danger); font-weight: 700; }
+/* Suchknopf in der Pokémon-Karte (22.11.2026) */
+.iv-line { gap: 12px; align-items: center; }
+.search-copy { flex: none; width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid #DDDDE3; background: #fff; color: #15151A; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+.search-copy .ic { width: 21px; height: 21px; }
+/* PvP-Team: Sofort-Attacke allein oben, Lade-Attacken darunter gleich breit (22.11.2026) */
+.moves.split { display: grid; grid-template-columns: 1fr 1fr; }
+.moves.split .move.fast { grid-column: 1 / -1; justify-self: start; }
+.moves.split .move { min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+/* Kopfzeile und Startseite, 22.11.2026 abends (wie die App) */
+.quick-scan { width: 44px; height: 44px; flex: 0 0 44px; min-height: 0; padding: 0; border: none; border-radius: 50%; background: var(--ink, #15151A); color: #fff; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+.quick-scan .ic { width: 21px; height: 21px; }
+.page-title .title-line { display: flex; align-items: center; gap: 10px; }
+.page-title .title-line button.help-mark { width: 32px; height: 32px; flex: 0 0 32px; min-height: 0; padding: 0; border-radius: 50%; border: 2px solid #7B6CF0; background: transparent; color: #5546D6; font-size: 17px; font-weight: 900; cursor: pointer; line-height: 1;; box-shadow: none !important; border: 2px solid #7B6CF0 !important; background: transparent !important; width: 32px !important; height: 32px !important; }
+.scan-row button.scan-set { flex: 0 0 60px; min-height: 0; padding: 0; border-radius: 20px; border: 1.5px solid #DDDDE3; background: #fff; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; color: #2373B8; }
+.scan-row button.scan-set svg { width: 26px; height: 26px; fill: currentColor; }
+.guide-row { margin-bottom: 8px; }
+.guide-row.done { margin-top: 14px; }
+.guide-prog { display: block; height: 5px; border-radius: 3px; background: #ECEBF2; margin-top: 4px; overflow: hidden; }
+.guide-prog span { display: block; height: 100%; background: #2E9E5B; }
+.open-ic.p-mint { background: #DDF4E6; color: #2A8550; }
