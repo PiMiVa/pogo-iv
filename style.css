@@ -1323,3 +1323,6 @@ button.choice.compact .choice-text { flex: 1; }
 .sim-sum.ok { background: #DDF4E6; color: #1e6b3f; }
 /* Umschalter oben in der Sammlung (Verschicken, Entwickeln): darf umbrechen. */
 .seg.top-switch button { white-space: normal; }
+/* Runder Knopf „+“ (von Hand hinzufügen) unten rechts in der Sammlung, 24.11.2026. */
+.fab-plus { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: calc(env(safe-area-inset-bottom) + 84px); z-index: 6; width: 58px; height: 58px; border-radius: 50%; border: 0; background: var(--violet); color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(17, 17, 20, .25); cursor: pointer; padding: 0; min-height: 0; }
+.fab-plus .ic { width: 30px; height: 30px; }
