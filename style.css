@@ -1321,3 +1321,5 @@ button.choice.compact .choice-text { flex: 1; }
 .sim-bar i { position: absolute; inset: 0 auto 0 0; border-radius: 8px; display: block; }
 .sim-sum { background: rgba(200,119,15,.14); color: #7A4706; border-radius: 14px; padding: 10px; font-weight: 600; }
 .sim-sum.ok { background: #DDF4E6; color: #1e6b3f; }
+/* Umschalter oben in der Sammlung (Verschicken, Entwickeln): darf umbrechen. */
+.seg.top-switch button { white-space: normal; }
