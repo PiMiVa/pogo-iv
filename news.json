@@ -1,6 +1,22 @@
 {
- "generated": "2026-11-23T14:57:23Z",
+ "generated": "2026-11-24T02:22:33Z",
  "news": [
+  {
+   "title": "Twilight Wishes: Your Go-To PvE Guide",
+   "titleDe": "Dämmerungswünsche: Dein PvE-Leitfaden",
+   "link": "https://pokemongohub.net/post/meta/twilight-wishes-your-go-to-pve-guide/",
+   "date": "Mon, 23 Nov 2026 18:11:20 +0000",
+   "categories": [
+    "Meta",
+    "lycanroc",
+    "Mega Evolution",
+    "meta",
+    "PvE",
+    "twilight wishes",
+    "twilight wishes meta",
+    "twilight wishes pve"
+   ]
+  },
   {
    "title": "Super Mega Clefable Raid Guide",
    "titleDe": "Raid-Anleitung für Super-Mega-Flamara",
@@ -443,22 +459,9 @@
     "latias",
     "raid guide"
    ]
-  },
-  {
-   "title": "Which Adventure Effect Should I Use During Pokémon GO Wild Area: Global 2026?",
-   "titleDe": "Welchen Abenteuer-Effekt sollte ich während der Pokémon GO Wildgebiete: Global 2026 verwenden?",
-   "link": "https://pokemongohub.net/post/guide/which-adventure-effect-should-i-use-during-pokemon-go-wild-area-global-2026/",
-   "date": "Thu, 12 Nov 2026 10:23:19 +0000",
-   "categories": [
-    "Guides",
-    "adventure effect tier list",
-    "adventure effects",
-    "what adventure effect to use during wild area"
-   ]
   }
  ],
  "events": {
-  "pokemon-latin-america-international-championships-2027-timed-research-twitch-drops": "Twitch Drops für die Pokémon Latin America International Championships 2027",
   "dynamax-trails-2026": "Dynamax Trails",
   "max-mondays-2026-11-23": "Dynamax Espurr während Max. Montag",
   "cresselia-darkrai-in-5-star-raid-battles-november-2026": "Cresselia und Darkrai in 5-Sterne-Raid-Kämpfen",
@@ -497,17 +500,6 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "details": {
-  "pokemon-latin-america-international-championships-2027-timed-research-twitch-drops": {
-   "v": 2,
-   "sections": [],
-   "bonuses": [],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-23",
-   "bonusesDe": [],
-   "ticketBonusesDe": []
-  },
   "dynamax-trails-2026": {
    "v": 2,
    "sections": [
@@ -625,7 +617,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [
     "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
     "Es werden mehr Power Spots als üblich aktiv sein"
@@ -639,7 +631,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -675,7 +667,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -710,7 +702,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -721,7 +713,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -744,7 +736,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -788,7 +780,7 @@
    ],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [
     "Das Remote-Raid-Limit wurde von Freitag, 27. November, 17:00 Uhr auf Samstag, 28. November 2026, 20:00 Uhr PST auf 20 erhöht.",
     "Erhalte bis zu sechs kostenlose Raid-Pässe von drehenden Fitnessstudio-Fotodiscs",
@@ -812,7 +804,10 @@
        "title": "",
        "pokemon": [
         "Clefairy",
+        "Jigglypuff",
         "Staryu",
+        "Chimecho",
+        "Munna",
         "Elgyem",
         "Rockruff"
        ]
@@ -825,15 +820,26 @@
       {
        "title": "One-Star Raids",
        "pokemon": [
-        "Pikachu wearing a sun crown",
-        "Pikachu wearing a moon crown"
+        "Sun Crown Pikachu",
+        "Moon Crown Pikachu"
        ]
       },
       {
        "title": "Three-Star Raids",
        "pokemon": [
-        "Espeon wearing a sun scarf",
-        "Umbreon wearing a moon scarf"
+        "Day Scarf Espeon",
+        "Night Scarf Umbreon"
+       ]
+      },
+      {
+       "title": "Five-Star Raids",
+       "pokemon": [
+        "Cresselia",
+        "Darkrai",
+        "Deoxys (Normal)",
+        "Deoxys (Defense)",
+        "Deoxys (Attack)",
+        "Deoxys (Speed)"
        ]
       },
       {
@@ -848,28 +854,15 @@
      ]
     },
     {
-     "id": "research",
+     "id": "shiny",
      "groups": [
       {
-       "title": "Field Research Task Rewards",
+       "title": "Increased Shiny Chances",
        "pokemon": [
         "Staryu",
-        "Elgyem"
-       ]
-      },
-      {
-       "title": "November 24 at 10:00 a.m. to November 26 at 10:00 a.m. local time",
-       "pokemon": [
-        "Applin",
-        "Maschiff"
-       ]
-      },
-      {
-       "title": "November 26 at 10:00 a.m. to November 30 at 8:00 p.m. local time",
-       "pokemon": [
-        "Gengar wearing a Spooky Festival costume",
-        "Drifblim wearing a Halloween Mischief costume",
-        "Bramblin"
+        "Starmie",
+        "Elgyem",
+        "Beheeyem"
        ]
       }
      ]
@@ -885,7 +878,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [
     "Erhöhte Chance, Shiny Staryu und Shiny Elgyem zu begegnen",
     "Erhöhte Chance, Glückspokémon im Handel zu erhalten",
@@ -902,7 +895,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -925,7 +918,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -965,7 +958,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1000,7 +993,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1011,7 +1004,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1106,7 +1099,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [
     "Erhöhte Spawns",
     "2x EP für das Fangen von Pokémon",
@@ -1143,7 +1136,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1157,7 +1150,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1168,7 +1161,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1194,7 +1187,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1205,7 +1198,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1216,7 +1209,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1227,7 +1220,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1238,7 +1231,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1249,7 +1242,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1260,7 +1253,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1271,7 +1264,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1282,7 +1275,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1293,7 +1286,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1304,7 +1297,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1315,7 +1308,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -1341,7 +1334,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1408,9 +1401,12 @@
   }
  },
  "research": {
+  "Catch 10 Pokémon": "Fange 10 Pokémon",
+  "Explore 1 km": "Entdecken 1",
+  "Hatch an Egg": "Ein Ei ausbrüten",
+  "Use a Lure Module at a PokéStop": "Verwende ein Lockmodul an einem PokéStop",
   "Catch 8 Pokémon": "Fange 8 Pokémon",
   "Power up Pokémon 8 times": "Verstärke Pokémon 8-mal",
-  "Explore 1 km": "Entdecken 1",
   "Win a Max Battle": "Gewinne einen Max-Kampf",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
@@ -1431,7 +1427,6 @@
   "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
   "Win 5 raids": "Gewinne 5 Raids",
   "Explore 2 km": "2 km erkunden",
-  "Hatch an Egg": "Ein Ei ausbrüten",
   "Hatch 2 Eggs": "Schlüpfe 2 Eier",
   "Spin 3 PokéStops or Gyms": "Drehe 3 PokéStops oder Fitnessstudios",
   "Spin 5 PokéStops": "Drehe 5 PokéStops",
@@ -1449,6 +1444,7 @@
  },
  "codes": [],
  "translations": {
+  "Twilight Wishes: Your Go-To PvE Guide": "Dämmerungswünsche: Dein PvE-Leitfaden",
   "Super Mega Clefable Raid Guide": "Raid-Anleitung für Super-Mega-Flamara",
   "This Week in Pokémon GO (November 23-29): Mega Clefable, Deoxys Raids, and Noibat Spotlight Hour": "Diese Woche in Pokémon GO (23.–29. November): Mega-Pippi, Deoxys-Raids und Noibat-Spotlight-Stunde",
   "Dynamax Espurr Max Monday: Event Guide": "Dynamax-Purrloin-Max-Montag: Event-Leitfaden",
@@ -1478,8 +1474,6 @@
   "GO Wild Area 2026 Global: Which Pokémon Are Worth Investing In?": "GO Wild Area 2026 Global: In welche Pokémon lohnt es sich zu investieren?",
   "How to Beat Dynamax Latios: Best Counters & Guide": "So besiegt man Dynamax-Latios: Die besten Konter und ein Leitfaden",
   "How to Beat Dynamax Latias: Best Counters & Guide": "So besiegt man Dynamax-Latias: Die besten Konter und ein Leitfaden",
-  "Which Adventure Effect Should I Use During Pokémon GO Wild Area: Global 2026?": "Welchen Abenteuer-Effekt sollte ich während der Pokémon GO Wildgebiete: Global 2026 verwenden?",
-  "Twitch Drops for 2027 Pokémon Latin America International Championships": "Twitch Drops für die Pokémon Latin America International Championships 2027",
   "Dynamax Trails": "Dynamax Trails",
   "Chance to receive Max Particles when catching event-themed Pokémon in the wild or after Max Battles": "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
   "More Power Spots than usual will be active": "Es werden mehr Power Spots als üblich aktiv sein",
@@ -1540,9 +1534,12 @@
   "Minior Showers: Eta Aquariids 2027": "Kleine Duschen: Eta Aquariids 2027",
   "Minior Showers: Southern Delta Aquariids 2027": "Kleine Duschen: Southern Delta Aquariids 2027",
   "Minior Showers: Perseids 2027": "Kleine Duschen: Perseiden 2027",
+  "Catch 10 Pokémon": "Fange 10 Pokémon",
+  "Explore 1 km": "Entdecken 1",
+  "Hatch an Egg": "Ein Ei ausbrüten",
+  "Use a Lure Module at a PokéStop": "Verwende ein Lockmodul an einem PokéStop",
   "Catch 8 Pokémon": "Fange 8 Pokémon",
   "Power up Pokémon 8 times": "Verstärke Pokémon 8-mal",
-  "Explore 1 km": "Entdecken 1",
   "Win a Max Battle": "Gewinne einen Max-Kampf",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
@@ -1563,7 +1560,6 @@
   "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
   "Win 5 raids": "Gewinne 5 Raids",
   "Explore 2 km": "2 km erkunden",
-  "Hatch an Egg": "Ein Ei ausbrüten",
   "Hatch 2 Eggs": "Schlüpfe 2 Eier",
   "Spin 3 PokéStops or Gyms": "Drehe 3 PokéStops oder Fitnessstudios",
   "Spin 5 PokéStops": "Drehe 5 PokéStops",
