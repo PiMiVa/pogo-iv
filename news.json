@@ -1,6 +1,462 @@
 {
- "generated": "2026-11-24T02:22:33Z",
+ "generated": "2026-11-24T12:20:22Z",
+ "maxHp": [
+  {
+   "post": "post165065",
+   "name": "ニャスパー",
+   "dex": 677,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 2,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post126084",
+   "name": "ケーシィ",
+   "dex": 63,
+   "giga": false,
+   "hp": 1700,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post99777",
+   "name": "フリージオ",
+   "dex": 615,
+   "giga": false,
+   "hp": 10000,
+   "guess": false,
+   "tier": 3,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post121223",
+   "name": "ムゲンダイナ",
+   "dex": 890,
+   "giga": false,
+   "hp": 60000,
+   "guess": true,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post117510",
+   "name": "インテレオン",
+   "dex": 818,
+   "giga": true,
+   "hp": 60000,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post108493",
+   "name": "ラッキー",
+   "dex": 113,
+   "giga": false,
+   "hp": 10000,
+   "guess": false,
+   "tier": 3,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post127554",
+   "name": "ジュラルドン",
+   "dex": 884,
+   "giga": false,
+   "hp": 11000,
+   "guess": false,
+   "tier": 4,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post98649",
+   "name": "ストリンダー",
+   "dex": 849,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 4,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post162600",
+   "name": "パルキア",
+   "dex": 484,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 5,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post162591",
+   "name": "ディアルガ",
+   "dex": 483,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 5,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post164351",
+   "name": "ジュラルドン",
+   "dex": 884,
+   "giga": true,
+   "hp": null,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post117799",
+   "name": "ラティオス",
+   "dex": 381,
+   "giga": false,
+   "hp": 11000,
+   "guess": false,
+   "tier": 5,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post117790",
+   "name": "ラティアス",
+   "dex": 380,
+   "giga": false,
+   "hp": 11000,
+   "guess": false,
+   "tier": 5,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post164744",
+   "name": "レジドラゴ",
+   "dex": 895,
+   "giga": false,
+   "hp": 40000,
+   "guess": false,
+   "tier": 5,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post154396",
+   "name": "レジスチル",
+   "dex": 379,
+   "giga": false,
+   "hp": 20000,
+   "guess": false,
+   "tier": 5,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post99801",
+   "name": "ワンリキー",
+   "dex": 66,
+   "giga": false,
+   "hp": 5000,
+   "guess": false,
+   "tier": 2,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post129299",
+   "name": "ラルトス",
+   "dex": 280,
+   "giga": false,
+   "hp": 1700,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post98056",
+   "name": "ゲンガー",
+   "dex": 94,
+   "giga": true,
+   "hp": 60000,
+   "guess": false,
+   "tier": 6,
+   "cpm": 0.85,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post114652",
+   "name": "ヤミラミ",
+   "dex": 302,
+   "giga": false,
+   "hp": 10000,
+   "guess": false,
+   "tier": 3,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post163995",
+   "name": "ユクシー",
+   "dex": 480,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post164171",
+   "name": "アグノム",
+   "dex": 482,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post164161",
+   "name": "エムリット",
+   "dex": 481,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post161825",
+   "name": "ニューラ",
+   "dex": 215,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 2,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post114663",
+   "name": "ココガラ",
+   "dex": 821,
+   "giga": false,
+   "hp": 1700,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post117491",
+   "name": "エースバーン",
+   "dex": 815,
+   "giga": true,
+   "hp": 60000,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post117754",
+   "name": "ミブリム",
+   "dex": 856,
+   "giga": false,
+   "hp": 1700,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post129691",
+   "name": "マーイーカ",
+   "dex": 686,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post163007",
+   "name": "ヤクデ",
+   "dex": 850,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post105173",
+   "name": "フリーザー",
+   "dex": 144,
+   "giga": false,
+   "hp": 17500,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post96276",
+   "name": "メッソン",
+   "dex": 816,
+   "giga": false,
+   "hp": 1700,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post105319",
+   "name": "サンダー",
+   "dex": 145,
+   "giga": false,
+   "hp": 13000,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post105325",
+   "name": "ファイヤー",
+   "dex": 146,
+   "giga": false,
+   "hp": 20000,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post161531",
+   "name": "サイホーン",
+   "dex": 111,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post129705",
+   "name": "イーブイ",
+   "dex": 133,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 2,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post159705",
+   "name": "カポエラー",
+   "dex": 237,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 3,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post159676",
+   "name": "ブーバー",
+   "dex": 126,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 3,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post159691",
+   "name": "コイキング",
+   "dex": 129,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post95581",
+   "name": "ダンバル",
+   "dex": 374,
+   "giga": false,
+   "hp": 10000,
+   "guess": false,
+   "tier": 3,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post117445",
+   "name": "ゴリランダー",
+   "dex": 812,
+   "giga": true,
+   "hp": 60000,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post157691",
+   "name": "ヒンバス",
+   "dex": 349,
+   "giga": false,
+   "hp": null,
+   "guess": false,
+   "tier": 2,
+   "cpm": null,
+   "checked": "2026-11-24"
+  }
+ ],
  "news": [
+  {
+   "title": "Pokémon GO Twilight Wishes (2026)",
+   "titleDe": "Pokémon GO – Dämmerungswünsche (2026)",
+   "link": "https://pokemongohub.net/post/event/twilight-wishes-2026/",
+   "date": "Tue, 24 Nov 2026 08:55:29 +0000",
+   "categories": [
+    "Events",
+    "lucky friends",
+    "moon scarf umbreon",
+    "sun scarf espeon",
+    "twilight trails",
+    "twilight wishes"
+   ]
+  },
   {
    "title": "Twilight Wishes: Your Go-To PvE Guide",
    "titleDe": "Dämmerungswünsche: Dein PvE-Leitfaden",
@@ -441,22 +897,6 @@
     "dynamax latios guide",
     "latios",
     "max battle",
-    "raid guide"
-   ]
-  },
-  {
-   "title": "How to Beat Dynamax Latias: Best Counters & Guide",
-   "titleDe": "So besiegt man Dynamax-Latias: Die besten Konter und ein Leitfaden",
-   "link": "https://pokemongohub.net/post/guide/how-to-beat-dynamax-latias-best-counters-guide/",
-   "date": "Fri, 13 Nov 2026 05:00:37 +0000",
-   "categories": [
-    "Guides",
-    "battle guide",
-    "Dynamax",
-    "dynamax latias",
-    "dynamax latias counters",
-    "dynamax latias guide",
-    "latias",
     "raid guide"
    ]
   }
@@ -1363,7 +1803,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1392,7 +1832,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-23",
+   "fetched": "2026-11-24",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -1444,6 +1884,7 @@
  },
  "codes": [],
  "translations": {
+  "Pokémon GO Twilight Wishes (2026)": "Pokémon GO – Dämmerungswünsche (2026)",
   "Twilight Wishes: Your Go-To PvE Guide": "Dämmerungswünsche: Dein PvE-Leitfaden",
   "Super Mega Clefable Raid Guide": "Raid-Anleitung für Super-Mega-Flamara",
   "This Week in Pokémon GO (November 23-29): Mega Clefable, Deoxys Raids, and Noibat Spotlight Hour": "Diese Woche in Pokémon GO (23.–29. November): Mega-Pippi, Deoxys-Raids und Noibat-Spotlight-Stunde",
@@ -1473,7 +1914,6 @@
   "GO Wild Area 2026: Global": "GO-Wildnisgebiet 2026: Global",
   "GO Wild Area 2026 Global: Which Pokémon Are Worth Investing In?": "GO Wild Area 2026 Global: In welche Pokémon lohnt es sich zu investieren?",
   "How to Beat Dynamax Latios: Best Counters & Guide": "So besiegt man Dynamax-Latios: Die besten Konter und ein Leitfaden",
-  "How to Beat Dynamax Latias: Best Counters & Guide": "So besiegt man Dynamax-Latias: Die besten Konter und ein Leitfaden",
   "Dynamax Trails": "Dynamax Trails",
   "Chance to receive Max Particles when catching event-themed Pokémon in the wild or after Max Battles": "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
   "More Power Spots than usual will be active": "Es werden mehr Power Spots als üblich aktiv sein",
