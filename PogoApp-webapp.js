@@ -167,7 +167,7 @@ import {
   intercepted2ogpsikxxj4u0 as intercepted,
   returnIfSuspended39bw7wdvakhp8 as returnIfSuspended,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1795526852940';
+} from './kotlin-kotlin-stdlib.js?v=1795553750990';
 import {
   EventCalendar_getInstance2addlkwwxhqyo as EventCalendar_getInstance,
   BossPrep_getInstance2ppy5rq40xilu as BossPrep_getInstance,
@@ -371,7 +371,7 @@ import {
   PageSettle21idp888bmz3 as PageSettle,
   Last3mxaoe9u97sp1 as Last,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1795526852940';
+} from './PogoApp-core.js?v=1795553750990';
 import {
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
   delayp0o4nsccwai as delay,
@@ -380,9 +380,9 @@ import {
   MainScope1gi1r4abhrtmm as MainScope,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1795526852940';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795526852940';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795526852940';
+} from './kotlinx-coroutines-core.js?v=1795553750990';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795553750990';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795553750990';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -2215,6 +2215,10 @@ function findRow($this, host, key, e, at, species, options, effect, onPick, onDr
   keptHint = keptHint === VOID ? null : keptHint;
   var expanded = $this.w48_1 === key;
   add_0(host, 'div', 'open-find', VOID, CollectionView$findRow$lambda(expanded, key, options, effect, keptHint, species, at, e, onPick, onDrop));
+}
+function _get_pageTagged__52ahgw($this) {
+  var tmp0_elvis_lhs = $this.c49_1;
+  return tmp0_elvis_lhs == null ? Store_getInstance().a44_1 : tmp0_elvis_lhs;
 }
 function pageCard($this, host) {
   add_0(host, 'section', 'card', VOID, CollectionView$pageCard$lambda);
@@ -6063,7 +6067,7 @@ function CollectionView$pageCard$lambda($this$add) {
     if (b.f33_1.q())
       continue $l$loop;
     button($this$add, '[i:visibility] Welche? In der Sammlung zeigen', 'flat', CollectionView$pageCard$lambda$lambda(b));
-    searchChip($this$add, b.g33(Store_getInstance().l45(), CollectionView_getInstance().c49_1, Store_getInstance().s43_1));
+    searchChip($this$add, b.g33(Store_getInstance().l45(), _get_pageTagged__52ahgw(CollectionView_getInstance()), Store_getInstance().s43_1));
   }
   add_0($this$add, 'div', 'title', '[i:bolt] Dynas: Attacken & Dyna-Stufen (alle)');
   searchChip($this$add, MyTags_getInstance().i2m('dynamax', Store_getInstance().s43_1));
@@ -6096,7 +6100,7 @@ function CollectionView$pageCard$lambda($this$add) {
     tmp$ret$6 = false;
   }
   if (tmp$ret$6) {
-    var tmp_6 = CollectionView_getInstance().c49_1 ? '[i:check_box] Nur mit Tag (PVE / PvP \u2026)' : '[i:check_box_outline_blank] Nur mit Tag (PVE / PvP \u2026)';
+    var tmp_6 = _get_pageTagged__52ahgw(CollectionView_getInstance()) ? '[i:check_box] Nur mit Tag (PVE / PvP \u2026)' : '[i:check_box_outline_blank] Nur mit Tag (PVE / PvP \u2026)';
     button($this$add, tmp_6, 'chip', CollectionView$pageCard$lambda$lambda_0);
   }
   add_0($this$add, 'div', 'row', VOID, CollectionView$pageCard$lambda$lambda_1);
@@ -6203,7 +6207,7 @@ function CollectionView$pageCard$lambda$lambda($b) {
   };
 }
 function CollectionView$pageCard$lambda$lambda_0() {
-  CollectionView_getInstance().c49_1 = !CollectionView_getInstance().c49_1;
+  CollectionView_getInstance().c49_1 = !_get_pageTagged__52ahgw(CollectionView_getInstance());
   App_getInstance().c46();
   return Unit_instance;
 }
@@ -9822,7 +9826,7 @@ function CollectionView() {
   this.z48_1 = '';
   this.a49_1 = null;
   this.b49_1 = null;
-  this.c49_1 = true;
+  this.c49_1 = null;
   this.d49_1 = null;
   this.e49_1 = 0;
   this.f49_1 = '';
