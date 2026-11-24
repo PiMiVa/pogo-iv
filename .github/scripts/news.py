@@ -149,6 +149,83 @@ def codes(page):
     return out[:30]
 
 
+RAKU = "https://pokemongo-raku.com/postcategory/max_battle"
+NAMES_JA = "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_species_names.csv"
+MAX_BOSS_PAGES = 40  # hoechstens so viele Boss-Seiten pro Lauf (danach nur noch neue und woechentlich)
+KATAKANA = re.compile(r"[ァ-ヺー]+")
+
+
+def max_hp(old_list):
+    """
+    Lebenspunkte der Dyna-Bosse (Wunsch des Besitzers 24.11.2026) von pokemongo-raku.com: die Kategorie „Max Battle“
+    listet je Boss eine Seite („ダイマックスサンダー対策“), dort steht „HPは「13,000」“. Japanische Namen über die
+    PokeAPI-Namensliste zur Pokedex-Nummer. Neue Seiten kommen dazu, bekannte werden hoechstens alle 7 Tage neu gelesen,
+    ohne HP taeglich (der Boss kann spaeter ergaenzt werden).
+    """
+    dex_of = {}
+    for line in get(NAMES_JA).splitlines()[1:]:
+        parts = line.split(",")
+        if len(parts) >= 3 and parts[1] in ("1", "11") and parts[0].isdigit():
+            dex_of.setdefault(parts[2].strip(), int(parts[0]))
+    posts = []
+    for page in range(1, 15):
+        url = RAKU if page == 1 else RAKU + "/page/%d" % page
+        try:
+            html = get(url)
+        except Exception:
+            break
+        found = re.findall(r'href="https://pokemongo-raku.com/(post\d+)"><div class="post-list-inner">(?:(?!post-list-link).){0,2000}?alt="([^"]*)"', html, re.S)
+        if not found:
+            break
+        posts += found
+        time.sleep(1)
+    by_post = {e.get("post"): e for e in old_list if e.get("post")}
+    now = datetime.now(timezone.utc)
+    today = now.strftime("%Y-%m-%d")
+    week = (now - timedelta(days=7)).strftime("%Y-%m-%d")
+    budget = [MAX_BOSS_PAGES]
+    out = []
+    seen = set()
+    for post, alt in posts:
+        if post in seen:
+            continue
+        seen.add(post)
+        giga = alt.startswith("キョダイマックス")
+        rest = alt[len("キョダイマックス"):] if giga else alt[len("ダイマックス"):] if alt.startswith("ダイマックス") else alt
+        m = KATAKANA.match(rest)
+        if not m or ("対策" not in alt and "マックスバトル" not in alt):
+            continue
+        # Laengster bekannter Name am Anfang („ラティオスマックスバトル“ → „ラティオス“).
+        run = m.group(0)
+        name = next((run[:k] for k in range(len(run), 1, -1) if run[:k] in dex_of), None)
+        if name is None:
+            continue
+        dex = dex_of[name]
+        e = by_post.get(post) or {}
+        fresh = e.get("checked", "") >= (week if e.get("hp") else today)
+        if not fresh and budget[0] > 0:
+            budget[0] -= 1
+            try:
+                text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", get("https://pokemongo-raku.com/" + post)))
+                hp = re.search(r"HPは「([\d,]+)」(.{0,20})", text)
+                tier = re.search(r"星(\d)", text)
+                cpm = re.search(r"CPM[^「]{0,20}「([\d.]+)」", text)
+                e = {
+                    "post": post, "name": name, "dex": dex, "giga": giga,
+                    "hp": int(hp.group(1).replace(",", "")) if hp else None,
+                    "guess": bool(hp and "想定" in hp.group(2)),
+                    "tier": int(tier.group(1)) if tier else None,
+                    "cpm": float(cpm.group(1)) if cpm else None,
+                    "checked": today,
+                }
+                time.sleep(1)
+            except Exception:
+                pass
+        if e:
+            out.append(e)
+    return out
+
+
 def main():
     try:
         old = json.load(open(OUT, encoding="utf-8"))
@@ -246,8 +323,15 @@ def main():
     except Exception:
         research = old.get("research", {})
 
+    # Dyna-Boss-Lebenspunkte; bei einem Fehler bleibt die alte Liste.
+    try:
+        bosses = max_hp(old.get("maxHp", [])) or old.get("maxHp", [])
+    except Exception:
+        bosses = old.get("maxHp", [])
+
     result = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "maxHp": bosses,
         "news": news,
         "events": events,
         "details": new_details,

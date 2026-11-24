@@ -169,11 +169,13 @@ button:disabled { opacity: .45; cursor: default; }
 /* IV-Balken */
 .ivbars { display: flex; flex-direction: column; gap: 3px; }
 .ivbar { display: flex; align-items: center; gap: 6px; }
-.ivbar .lbl { width: 26px; font-size: .62rem; font-weight: 800; color: var(--muted); }
+.ivbar .lbl { width: 26px; flex-shrink: 0; white-space: nowrap; font-size: .62rem; font-weight: 800; color: var(--muted); }
 .ivbar .track { flex: 0 1 130px; height: 6px; border-radius: 3px; background: var(--card-2); overflow: hidden; }
 .ivbar .fill { display: block; height: 100%; border-radius: 3px; background: #f29b38; }
 .ivbar .fill.full { background: #e5534b; }
-.ivbar .val { font-size: .75rem; font-weight: 800; }
+.ivbar .val { font-size: .75rem; font-weight: 800; flex-shrink: 0; min-width: 16px; white-space: nowrap; }
+/* Schmale Handys (Rückmeldung 24.11.2026): Balken nicht so weit zusammendrücken, dass die Beschriftung umbricht. */
+.iv-line .ivbars { flex: 1 1 auto; min-width: 108px; }
 
 /* Kosten */
 .costs { display: flex; flex-wrap: wrap; gap: 6px; }
