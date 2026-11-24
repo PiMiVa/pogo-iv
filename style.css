@@ -1326,3 +1326,10 @@ button.choice.compact .choice-text { flex: 1; }
 /* Runder Knopf „+“ (von Hand hinzufügen) unten rechts in der Sammlung, 24.11.2026. */
 .fab-plus { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: calc(env(safe-area-inset-bottom) + 84px); z-index: 6; width: 58px; height: 58px; border-radius: 50%; border: 0; background: var(--violet); color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(17, 17, 20, .25); cursor: pointer; padding: 0; min-height: 0; }
 .fab-plus .ic { width: 30px; height: 30px; }
+/* Karte: „Verschicken“ und die besseren zum Antippen (24.11.2026). */
+.verdict.send { background: #FDE3EA; color: #C0395F; cursor: default; }
+.better-row { display: flex; width: 100%; gap: 10px; align-items: center; text-align: left; background: var(--mist); border: 0; border-radius: 16px; padding: 8px 10px; margin-top: 6px; color: var(--ink); cursor: pointer; min-height: 0; }
+.better-row .grow { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.better-row b { font-size: .9rem; }
+.better-row small { color: var(--muted); font-size: .78rem; line-height: 1.35; }
+.better-row .better-arrow { color: var(--violet); }

@@ -235,7 +235,7 @@ import {
   minus3k3m1sk1cdx2b as minus_2,
   substringBefore3n7kj60w69hju as substringBefore_0,
   coerceIn1xblvmyr0tby6 as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1795525630842';
+} from './kotlin-kotlin-stdlib.js?v=1795526852940';
 import {
   JsonPrimitive3ttzjh2ft5dnx as JsonPrimitive,
   JsonObjectee06ihoeeiqj as JsonObject,
@@ -250,7 +250,7 @@ import {
   get_doubleOrNull2fo14gjg922um as get_doubleOrNull,
   get_int2y6jf75ftml0w as get_int,
   get_boolean37ml8jnzy6rg3 as get_boolean,
-} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795525630842';
+} from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795526852940';
 import {
   createSimpleEnumSerializer2guioz11kk1m0 as createSimpleEnumSerializer,
   StringSerializer_getInstance1p9zda6r6kb23 as StringSerializer_getInstance,
@@ -269,7 +269,7 @@ import {
   ListSerializer1hxuk9dx5n9du as ListSerializer,
   SerializableWithd2dap36updxd as SerializableWith,
   LinkedHashSetSerializer3ncla559t2lx7 as LinkedHashSetSerializer,
-} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795525630842';
+} from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795526852940';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -691,10 +691,12 @@ initMetadataForClass(Item_3, 'Item');
 initMetadataForClass(Result_6, 'Result');
 initMetadataForClass(sam$kotlin_Comparator$0_52, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForObject(UpgradeFocus, 'UpgradeFocus');
-initMetadataForClass(Best, 'Best');
+initMetadataForClass(Row_3, 'Row');
+initMetadataForClass(Better, 'Better');
+initMetadataForClass(sam$kotlin_Comparator$0_53, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForObject(WorseSend, 'WorseSend');
 initMetadataForClass(Region, 'Region');
-initMetadataForClass(sam$kotlin_Comparator$0_53, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
+initMetadataForClass(sam$kotlin_Comparator$0_54, 'sam$kotlin_Comparator$0', VOID, VOID, [Comparator, FunctionAdapter]);
 initMetadataForObject(WpReader, 'WpReader');
 //endregion
 function LeagueEval(league, target, pvp, cost, metaRank, metaScore, moveset) {
@@ -49471,28 +49473,26 @@ var UpgradeFocus_instance;
 function UpgradeFocus_getInstance() {
   return UpgradeFocus_instance;
 }
-function Best(target, league, rank, percent, metaRank) {
+function Row_3(target, league, mine, theirs) {
   this.u3p_1 = target;
   this.v3p_1 = league;
-  this.w3p_1 = rank;
-  this.x3p_1 = percent;
-  this.y3p_1 = metaRank;
+  this.w3p_1 = mine;
+  this.x3p_1 = theirs;
 }
-protoOf(Best).toString = function () {
-  return 'Best(target=' + this.u3p_1.toString() + ', league=' + this.v3p_1.toString() + ', rank=' + this.w3p_1 + ', percent=' + this.x3p_1 + ', metaRank=' + this.y3p_1 + ')';
+protoOf(Row_3).toString = function () {
+  return 'Row(target=' + this.u3p_1.toString() + ', league=' + this.v3p_1.toString() + ', mine=' + this.w3p_1 + ', theirs=' + this.x3p_1 + ')';
 };
-protoOf(Best).hashCode = function () {
+protoOf(Row_3).hashCode = function () {
   var result = this.u3p_1.hashCode();
   result = imul(result, 31) + this.v3p_1.hashCode() | 0;
   result = imul(result, 31) + this.w3p_1 | 0;
-  result = imul(result, 31) + getNumberHashCode(this.x3p_1) | 0;
-  result = imul(result, 31) + (this.y3p_1 == null ? 0 : this.y3p_1) | 0;
+  result = imul(result, 31) + this.x3p_1 | 0;
   return result;
 };
-protoOf(Best).equals = function (other) {
+protoOf(Row_3).equals = function (other) {
   if (this === other)
     return true;
-  if (!(other instanceof Best))
+  if (!(other instanceof Row_3))
     return false;
   if (!this.u3p_1.equals(other.u3p_1))
     return false;
@@ -49500,37 +49500,99 @@ protoOf(Best).equals = function (other) {
     return false;
   if (!(this.w3p_1 === other.w3p_1))
     return false;
-  if (!equals(this.x3p_1, other.x3p_1))
-    return false;
-  if (!(this.y3p_1 == other.y3p_1))
+  if (!(this.x3p_1 === other.x3p_1))
     return false;
   return true;
 };
-function WorseSend$perLeague$lambda(it) {
-  var tmp0_elvis_lhs = it.a1f_1;
-  return tmp0_elvis_lhs == null ? 2147483647 : tmp0_elvis_lhs;
+function Better(pokemon, rows) {
+  this.y3p_1 = pokemon;
+  this.z3p_1 = rows;
 }
-function WorseSend$perLeague$lambda_0(it) {
-  return -ensureNotNull(it.y1e_1).j1f_1;
+protoOf(Better).toString = function () {
+  return 'Better(pokemon=' + this.y3p_1.toString() + ', rows=' + toString_0(this.z3p_1) + ')';
+};
+protoOf(Better).hashCode = function () {
+  var result = this.y3p_1.hashCode();
+  result = imul(result, 31) + hashCode(this.z3p_1) | 0;
+  return result;
+};
+protoOf(Better).equals = function (other) {
+  if (this === other)
+    return true;
+  if (!(other instanceof Better))
+    return false;
+  if (!this.y3p_1.equals(other.y3p_1))
+    return false;
+  if (!equals(this.z3p_1, other.z3p_1))
+    return false;
+  return true;
+};
+function sam$kotlin_Comparator$0_53(function_0) {
+  this.a3q_1 = function_0;
 }
-function WorseSend$overall$lambda(it) {
-  var tmp0_elvis_lhs = it.y3p_1;
-  return tmp0_elvis_lhs == null ? 2147483647 : tmp0_elvis_lhs;
+protoOf(sam$kotlin_Comparator$0_53).vc = function (a, b) {
+  return this.a3q_1(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_53).compare = function (a, b) {
+  return this.vc(a, b);
+};
+protoOf(sam$kotlin_Comparator$0_53).v2 = function () {
+  return this.a3q_1;
+};
+protoOf(sam$kotlin_Comparator$0_53).equals = function (other) {
+  var tmp;
+  if (!(other == null) ? isInterface(other, Comparator) : false) {
+    var tmp_0;
+    if (!(other == null) ? isInterface(other, FunctionAdapter) : false) {
+      tmp_0 = equals(this.v2(), other.v2());
+    } else {
+      tmp_0 = false;
+    }
+    tmp = tmp_0;
+  } else {
+    tmp = false;
+  }
+  return tmp;
+};
+protoOf(sam$kotlin_Comparator$0_53).hashCode = function () {
+  return hashCode(this.v2());
+};
+function betterMap$options($evals, p) {
+  // Inline function 'kotlin.collections.filter' call
+  var tmp0 = $evals(p);
+  // Inline function 'kotlin.collections.filterTo' call
+  var destination = ArrayList_init_$Create$_0();
+  var _iterator__ex2g4s = tmp0.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    if (!(element.y1e_1 == null) && !(element.z1e_1 == null) && !element.d1f()) {
+      destination.h(element);
+    }
+  }
+  return destination;
 }
-function WorseSend$overall$lambda_0(it) {
-  return -it.x3p_1;
+function betterMap$key(p, e) {
+  return new Triple(e.x1e_1.u1f_1, e.w1e_1, p.c1p_1.equals(Variant_SHADOW_getInstance()));
 }
-function items$key(p, b) {
-  return new Triple(b.u3p_1.u1f_1, b.v3p_1, p.c1p_1.equals(Variant_SHADOW_getInstance()));
-}
-function WorseSend$items$lambda(it) {
+function WorseSend$betterMap$lambda(it) {
   return it.m9_1;
 }
-function WorseSend$items$lambda_0(it) {
+function WorseSend$betterMap$lambda_0(it) {
   return -it.l9_1.b1p_1;
 }
-function WorseSend$items$lambda_1(it) {
+function WorseSend$betterMap$lambda_1(it) {
   return it.l9_1.u1o_1;
+}
+function WorseSend$betterMap$lambda_2(a, b) {
+  // Inline function 'kotlin.comparisons.compareValuesBy' call
+  var tmp = ensureNotNull(a.y1e_1).i1f_1;
+  var tmp$ret$2 = ensureNotNull(b.y1e_1).i1f_1;
+  return compareValues(tmp, tmp$ret$2);
+}
+function WorseSend$betterFor$lambda($keep) {
+  return function (it) {
+    return $keep(it);
+  };
 }
 function WorseSend$raidGuard$lambda($metas, $data, $analyzer) {
   return function (p) {
@@ -49579,62 +49641,11 @@ function WorseSend$raidGuard$lambda($metas, $data, $analyzer) {
   };
 }
 function WorseSend() {
-  this.z3p_1 = 'Verglichen wird nur, was dasselbe beste Ziel hat (Entwicklung und Liga). Das beste Exemplar je Ziel bleibt, ebenso jedes, das f\xFCr irgendeine Entwicklung in einer Liga dein bestes ist. Behalten werden auch: starke Raid-Angreifer, IV ab 90 %, selten, Crypto, Erl\xF6st, Gl\xFCck, Dyna, Tags zum Ausschlie\xDFen und das IV-beste der Familie.';
-  this.a3q_1 = 'Dieselben Regeln wie beim Scannen neuer Pok\xE9mon. Behalten werden: IV ab 90 %, PvP-Rang bis 300, Dyna, Crypto, Erl\xF6st, Gl\xFCck, eingetragene Attacken und je Familie das beste Exemplar.';
+  this.b3q_1 = 'Verschicken';
+  this.c3q_1 = 'Du hast f\xFCr jede Entwicklung schon ein besseres:';
+  this.d3q_1 = 'Weg kann nur, wof\xFCr du bei jeder Entwicklung und in jeder Liga schon ein besseres hast (unabh\xE4ngig von der Meta). Behalten werden auch: starke Raid-Angreifer, IV ab 90 %, selten, Crypto, Erl\xF6st, Gl\xFCck, Dyna, Tags zum Ausschlie\xDFen und das IV-beste der Familie.';
+  this.e3q_1 = 'Dieselben Regeln wie beim Scannen neuer Pok\xE9mon. Behalten werden: IV ab 90 %, PvP-Rang bis 300, Dyna, Crypto, Erl\xF6st, Gl\xFCck, eingetragene Attacken und je Familie das beste Exemplar.';
 }
-protoOf(WorseSend).b3q = function (evals) {
-  // Inline function 'kotlin.collections.filter' call
-  // Inline function 'kotlin.collections.filterTo' call
-  var destination = ArrayList_init_$Create$_0();
-  var _iterator__ex2g4s = evals.i();
-  while (_iterator__ex2g4s.j()) {
-    var element = _iterator__ex2g4s.k();
-    if (!(element.y1e_1 == null) && !(element.z1e_1 == null) && !element.d1f()) {
-      destination.h(element);
-    }
-  }
-  // Inline function 'kotlin.collections.groupBy' call
-  // Inline function 'kotlin.collections.groupByTo' call
-  var destination_0 = LinkedHashMap_init_$Create$();
-  var _iterator__ex2g4s_0 = destination.i();
-  while (_iterator__ex2g4s_0.j()) {
-    var element_0 = _iterator__ex2g4s_0.k();
-    var key = element_0.w1e_1;
-    // Inline function 'kotlin.collections.getOrPut' call
-    var value = destination_0.e2(key);
-    var tmp;
-    if (value == null) {
-      var answer = ArrayList_init_$Create$_0();
-      destination_0.h2(key, answer);
-      tmp = answer;
-    } else {
-      tmp = value;
-    }
-    var list = tmp;
-    list.h(element_0);
-  }
-  // Inline function 'kotlin.collections.map' call
-  // Inline function 'kotlin.collections.mapTo' call
-  var destination_1 = ArrayList_init_$Create$(destination_0.l());
-  // Inline function 'kotlin.collections.iterator' call
-  var _iterator__ex2g4s_1 = destination_0.y().i();
-  while (_iterator__ex2g4s_1.j()) {
-    var item = _iterator__ex2g4s_1.k();
-    // Inline function 'kotlin.collections.component1' call
-    var league = item.z();
-    // Inline function 'kotlin.collections.component2' call
-    var rows = item.a1();
-    var tmp_0 = WorseSend$perLeague$lambda;
-    var r = minWith(rows, compareBy([tmp_0, WorseSend$perLeague$lambda_0]));
-    var tmp$ret$11 = new Best(r.x1e_1, league, ensureNotNull(r.y1e_1).i1f_1, r.y1e_1.j1f_1, r.a1f_1);
-    destination_1.h(tmp$ret$11);
-  }
-  return destination_1;
-};
-protoOf(WorseSend).c3q = function (bests) {
-  var tmp = WorseSend$overall$lambda;
-  return minWithOrNull(bests, compareBy([tmp, WorseSend$overall$lambda_0]));
-};
 protoOf(WorseSend).t3m = function (l) {
   var tmp;
   switch (l.m2_1) {
@@ -49656,7 +49667,7 @@ protoOf(WorseSend).t3m = function (l) {
   }
   return tmp;
 };
-protoOf(WorseSend).d3q = function (data, list, family, evals, keepTags, keep, raid) {
+protoOf(WorseSend).f3q = function (list, family, evals, keepTags, keep, raid) {
   // Inline function 'kotlin.collections.map' call
   // Inline function 'kotlin.collections.mapTo' call
   var destination = ArrayList_init_$Create$(collectionSizeOrDefault(keepTags, 10));
@@ -49678,74 +49689,56 @@ protoOf(WorseSend).d3q = function (data, list, family, evals, keepTags, keep, ra
   while (_iterator__ex2g4s_0.j()) {
     var element = _iterator__ex2g4s_0.k();
     // Inline function 'kotlin.collections.plusAssign' call
-    var pair = to(element.u1o_1, WorseSend_instance.b3q(evals(element)));
+    var pair = to(element.u1o_1, betterMap$options(evals, element));
     destination_0.h2(pair.l9_1, pair.m9_1);
   }
-  var bests = destination_0;
-  var tmp = WorseSend$items$lambda;
-  var tmp_0 = WorseSend$items$lambda_0;
-  var order = compareBy([tmp, tmp_0, WorseSend$items$lambda_1]);
+  var opts = destination_0;
+  var tmp = WorseSend$betterMap$lambda;
+  var tmp_0 = WorseSend$betterMap$lambda_0;
+  var order = compareBy([tmp, tmp_0, WorseSend$betterMap$lambda_1]);
   var leader = HashMap_init_$Create$();
   var _iterator__ex2g4s_1 = list.i();
   while (_iterator__ex2g4s_1.j()) {
     var p = _iterator__ex2g4s_1.k();
-    var _iterator__ex2g4s_2 = getValue(bests, p.u1o_1).i();
+    var _iterator__ex2g4s_2 = getValue(opts, p.u1o_1).i();
     while (_iterator__ex2g4s_2.j()) {
-      var b = _iterator__ex2g4s_2.k();
-      var k = items$key(p, b);
+      var e = _iterator__ex2g4s_2.k();
+      var k = betterMap$key(p, e);
       var cur = leader.e2(k);
-      if (cur == null || order.compare(to(p, b.w3p_1), cur) < 0) {
+      if (cur == null || order.compare(to(p, ensureNotNull(e.y1e_1).i1f_1), cur) < 0) {
         // Inline function 'kotlin.collections.set' call
-        var value = to(p, b.w3p_1);
+        var value = to(p, ensureNotNull(e.y1e_1).i1f_1);
         leader.h2(k, value);
       }
     }
   }
-  var anyLeader = HashMap_init_$Create$();
-  var _iterator__ex2g4s_3 = list.i();
-  while (_iterator__ex2g4s_3.j()) {
-    var p_0 = _iterator__ex2g4s_3.k();
-    var _iterator__ex2g4s_4 = evals(p_0).i();
-    $l$loop: while (_iterator__ex2g4s_4.j()) {
-      var e = _iterator__ex2g4s_4.k();
-      if (e.y1e_1 == null || e.z1e_1 == null || e.d1f() || e.a1f_1 == null)
-        continue $l$loop;
-      var k_0 = new Triple(e.x1e_1.u1f_1, e.w1e_1, p_0.c1p_1.equals(Variant_SHADOW_getInstance()));
-      var cur_0 = anyLeader.e2(k_0);
-      if (cur_0 == null || order.compare(to(p_0, e.y1e_1.i1f_1), cur_0) < 0) {
-        // Inline function 'kotlin.collections.set' call
-        var value_0 = to(p_0, e.y1e_1.i1f_1);
-        anyLeader.h2(k_0, value_0);
-      }
-    }
-  }
   // Inline function 'kotlin.collections.map' call
-  var this_0 = anyLeader.g2();
+  var this_0 = leader.g2();
   // Inline function 'kotlin.collections.mapTo' call
   var destination_1 = ArrayList_init_$Create$(collectionSizeOrDefault(this_0, 10));
-  var _iterator__ex2g4s_5 = this_0.i();
-  while (_iterator__ex2g4s_5.j()) {
-    var item_0 = _iterator__ex2g4s_5.k();
-    var tmp$ret$14 = item_0.l9_1.u1o_1;
-    destination_1.h(tmp$ret$14);
+  var _iterator__ex2g4s_3 = this_0.i();
+  while (_iterator__ex2g4s_3.j()) {
+    var item_0 = _iterator__ex2g4s_3.k();
+    var tmp$ret$13 = item_0.l9_1.u1o_1;
+    destination_1.h(tmp$ret$13);
   }
-  var metaBest = toHashSet(destination_1);
+  var bestSomewhere = toHashSet(destination_1);
   // Inline function 'kotlin.collections.groupBy' call
   // Inline function 'kotlin.collections.groupByTo' call
   var destination_2 = LinkedHashMap_init_$Create$();
-  var _iterator__ex2g4s_6 = list.i();
-  while (_iterator__ex2g4s_6.j()) {
-    var element_0 = _iterator__ex2g4s_6.k();
+  var _iterator__ex2g4s_4 = list.i();
+  while (_iterator__ex2g4s_4.j()) {
+    var element_0 = _iterator__ex2g4s_4.k();
     var key = family(element_0.v1o_1);
     // Inline function 'kotlin.collections.getOrPut' call
-    var value_1 = destination_2.e2(key);
+    var value_0 = destination_2.e2(key);
     var tmp_1;
-    if (value_1 == null) {
+    if (value_0 == null) {
       var answer = ArrayList_init_$Create$_0();
       destination_2.h2(key, answer);
       tmp_1 = answer;
     } else {
-      tmp_1 = value_1;
+      tmp_1 = value_0;
     }
     var list_0 = tmp_1;
     list_0.h(element_0);
@@ -49755,20 +49748,20 @@ protoOf(WorseSend).d3q = function (data, list, family, evals, keepTags, keep, ra
   // Inline function 'kotlin.collections.mapNotNullTo' call
   var destination_3 = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.forEach' call
-  var _iterator__ex2g4s_7 = tmp0.i();
-  while (_iterator__ex2g4s_7.j()) {
-    var element_1 = _iterator__ex2g4s_7.k();
-    var tmp$ret$25;
+  var _iterator__ex2g4s_5 = tmp0.i();
+  while (_iterator__ex2g4s_5.j()) {
+    var element_1 = _iterator__ex2g4s_5.k();
+    var tmp$ret$24;
     $l$block_0: {
       // Inline function 'kotlin.collections.maxByOrNull' call
       var iterator = element_1.i();
       if (!iterator.j()) {
-        tmp$ret$25 = null;
+        tmp$ret$24 = null;
         break $l$block_0;
       }
       var maxElem = iterator.k();
       if (!iterator.j()) {
-        tmp$ret$25 = maxElem;
+        tmp$ret$24 = maxElem;
         break $l$block_0;
       }
       var maxValue = maxElem.y1q().n1x();
@@ -49781,9 +49774,9 @@ protoOf(WorseSend).d3q = function (data, list, family, evals, keepTags, keep, ra
         }
       }
        while (iterator.j());
-      tmp$ret$25 = maxElem;
+      tmp$ret$24 = maxElem;
     }
-    var tmp0_safe_receiver = tmp$ret$25;
+    var tmp0_safe_receiver = tmp$ret$24;
     var tmp0_safe_receiver_0 = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.u1o_1;
     if (tmp0_safe_receiver_0 == null)
       null;
@@ -49793,128 +49786,304 @@ protoOf(WorseSend).d3q = function (data, list, family, evals, keepTags, keep, ra
     }
   }
   var bestIv = toHashSet(destination_3);
+  var out = LinkedHashMap_init_$Create$();
+  var _iterator__ex2g4s_6 = list.i();
+  $l$loop_3: while (_iterator__ex2g4s_6.j()) {
+    var p_0 = _iterator__ex2g4s_6.k();
+    if (keep(p_0) || !p_0.c1p_1.equals(Variant_NORMAL_getInstance()) || p_0.g1p_1 > 0 || p_0.y1q().n1x() >= 90.0 || bestIv.v(p_0.u1o_1))
+      continue $l$loop_3;
+    var tmp0_0 = p_0.m1p_1;
+    var tmp$ret$29;
+    $l$block_2: {
+      // Inline function 'kotlin.collections.any' call
+      var tmp_2;
+      if (isInterface(tmp0_0, Collection)) {
+        tmp_2 = tmp0_0.q();
+      } else {
+        tmp_2 = false;
+      }
+      if (tmp_2) {
+        tmp$ret$29 = false;
+        break $l$block_2;
+      }
+      var _iterator__ex2g4s_7 = tmp0_0.i();
+      while (_iterator__ex2g4s_7.j()) {
+        var element_2 = _iterator__ex2g4s_7.k();
+        // Inline function 'kotlin.text.trim' call
+        // Inline function 'kotlin.text.lowercase' call
+        // Inline function 'kotlin.js.asDynamic' call
+        var tmp$ret$32 = toString_0(trim(isCharSequence(element_2) ? element_2 : THROW_CCE())).toLowerCase();
+        if (keepLower.v(tmp$ret$32)) {
+          tmp$ret$29 = true;
+          break $l$block_2;
+        }
+      }
+      tmp$ret$29 = false;
+    }
+    if (tmp$ret$29)
+      continue $l$loop_3;
+    if (raid(p_0) || bestSomewhere.v(p_0.u1o_1))
+      continue $l$loop_3;
+    // Inline function 'kotlin.collections.sortedBy' call
+    var this_1 = getValue(opts, p_0.u1o_1);
+    // Inline function 'kotlin.comparisons.compareBy' call
+    var tmp_3 = WorseSend$betterMap$lambda_2;
+    var tmp$ret$35 = new sam$kotlin_Comparator$0_53(tmp_3);
+    var mine = sortedWith(this_1, tmp$ret$35);
+    if (mine.q())
+      continue $l$loop_3;
+    // Inline function 'kotlin.collections.mapNotNull' call
+    // Inline function 'kotlin.collections.mapNotNullTo' call
+    var destination_4 = ArrayList_init_$Create$_0();
+    // Inline function 'kotlin.collections.forEach' call
+    var _iterator__ex2g4s_8 = mine.i();
+    while (_iterator__ex2g4s_8.j()) {
+      var element_3 = _iterator__ex2g4s_8.k();
+      var tmp0_safe_receiver_1 = leader.e2(betterMap$key(p_0, element_3));
+      var tmp_4;
+      if (tmp0_safe_receiver_1 == null) {
+        tmp_4 = null;
+      } else {
+        // Inline function 'kotlin.let' call
+        var q = tmp0_safe_receiver_1.n9();
+        var r = tmp0_safe_receiver_1.o9();
+        tmp_4 = to(q, new Row_3(element_3.x1e_1, element_3.w1e_1, ensureNotNull(element_3.y1e_1).i1f_1, r));
+      }
+      var tmp0_safe_receiver_2 = tmp_4;
+      if (tmp0_safe_receiver_2 == null)
+        null;
+      else {
+        // Inline function 'kotlin.let' call
+        destination_4.h(tmp0_safe_receiver_2);
+      }
+    }
+    var rows = destination_4;
+    var tmp_5;
+    if (!(p_0.d1p_1 == null)) {
+      var tmp$ret$45;
+      $l$block_4: {
+        // Inline function 'kotlin.collections.any' call
+        var tmp_6;
+        if (isInterface(rows, Collection)) {
+          tmp_6 = rows.q();
+        } else {
+          tmp_6 = false;
+        }
+        if (tmp_6) {
+          tmp$ret$45 = false;
+          break $l$block_4;
+        }
+        var _iterator__ex2g4s_9 = rows.i();
+        while (_iterator__ex2g4s_9.j()) {
+          var element_4 = _iterator__ex2g4s_9.k();
+          var q_0 = element_4.n9();
+          if (!(q_0.d1p_1 == p_0.d1p_1) || !equals(toSet(q_0.e1p_1), toSet(p_0.e1p_1))) {
+            tmp$ret$45 = true;
+            break $l$block_4;
+          }
+        }
+        tmp$ret$45 = false;
+      }
+      tmp_5 = tmp$ret$45;
+    } else {
+      tmp_5 = false;
+    }
+    if (tmp_5)
+      continue $l$loop_3;
+    var tmp2 = p_0.u1o_1;
+    // Inline function 'kotlin.collections.groupBy' call
+    // Inline function 'kotlin.collections.groupByTo' call
+    var destination_5 = LinkedHashMap_init_$Create$();
+    var _iterator__ex2g4s_10 = rows.i();
+    while (_iterator__ex2g4s_10.j()) {
+      var element_5 = _iterator__ex2g4s_10.k();
+      var key_0 = element_5.l9_1.u1o_1;
+      // Inline function 'kotlin.collections.getOrPut' call
+      var value_1 = destination_5.e2(key_0);
+      var tmp_7;
+      if (value_1 == null) {
+        var answer_0 = ArrayList_init_$Create$_0();
+        destination_5.h2(key_0, answer_0);
+        tmp_7 = answer_0;
+      } else {
+        tmp_7 = value_1;
+      }
+      var list_1 = tmp_7;
+      list_1.h(element_5);
+    }
+    // Inline function 'kotlin.collections.map' call
+    var this_2 = destination_5.g2();
+    // Inline function 'kotlin.collections.mapTo' call
+    var destination_6 = ArrayList_init_$Create$(collectionSizeOrDefault(this_2, 10));
+    var _iterator__ex2g4s_11 = this_2.i();
+    while (_iterator__ex2g4s_11.j()) {
+      var item_1 = _iterator__ex2g4s_11.k();
+      var tmp_8 = first_0(item_1).l9_1;
+      // Inline function 'kotlin.collections.map' call
+      // Inline function 'kotlin.collections.mapTo' call
+      var destination_7 = ArrayList_init_$Create$(collectionSizeOrDefault(item_1, 10));
+      var _iterator__ex2g4s_12 = item_1.i();
+      while (_iterator__ex2g4s_12.j()) {
+        var item_2 = _iterator__ex2g4s_12.k();
+        var tmp$ret$58 = item_2.m9_1;
+        destination_7.h(tmp$ret$58);
+      }
+      var tmp$ret$55 = new Better(tmp_8, destination_7);
+      destination_6.h(tmp$ret$55);
+    }
+    // Inline function 'kotlin.collections.set' call
+    out.h2(tmp2, destination_6);
+  }
+  return out;
+};
+protoOf(WorseSend).g3q = function (data, list, family, evals, keepTags, keep, raid) {
+  var map = this.f3q(list, family, evals, keepTags, keep, raid);
   // Inline function 'kotlin.collections.mapNotNull' call
   // Inline function 'kotlin.collections.mapNotNullTo' call
-  var destination_4 = ArrayList_init_$Create$_0();
+  var destination = ArrayList_init_$Create$_0();
   // Inline function 'kotlin.collections.forEach' call
-  var _iterator__ex2g4s_8 = list.i();
-  while (_iterator__ex2g4s_8.j()) {
-    var element_2 = _iterator__ex2g4s_8.k();
-    var tmp$ret$34;
-    $l$block_11: {
-      if (keep(element_2) || !element_2.c1p_1.equals(Variant_NORMAL_getInstance()) || element_2.g1p_1 > 0 || element_2.y1q().n1x() >= 90.0 || bestIv.v(element_2.u1o_1)) {
-        tmp$ret$34 = null;
-        break $l$block_11;
-      }
-      var tmp0_0 = element_2.m1p_1;
-      var tmp$ret$35;
-      $l$block_3: {
-        // Inline function 'kotlin.collections.any' call
-        var tmp_2;
-        if (isInterface(tmp0_0, Collection)) {
-          tmp_2 = tmp0_0.q();
-        } else {
-          tmp_2 = false;
-        }
-        if (tmp_2) {
-          tmp$ret$35 = false;
-          break $l$block_3;
-        }
-        var _iterator__ex2g4s_9 = tmp0_0.i();
-        while (_iterator__ex2g4s_9.j()) {
-          var element_3 = _iterator__ex2g4s_9.k();
-          // Inline function 'kotlin.text.trim' call
-          // Inline function 'kotlin.text.lowercase' call
-          // Inline function 'kotlin.js.asDynamic' call
-          var tmp$ret$38 = toString_0(trim(isCharSequence(element_3) ? element_3 : THROW_CCE())).toLowerCase();
-          if (keepLower.v(tmp$ret$38)) {
-            tmp$ret$35 = true;
-            break $l$block_3;
-          }
-        }
-        tmp$ret$35 = false;
-      }
-      if (tmp$ret$35) {
-        tmp$ret$34 = null;
-        break $l$block_11;
-      }
-      if (raid(element_2)) {
-        tmp$ret$34 = null;
-        break $l$block_11;
-      }
-      var mine = getValue(bests, element_2.u1o_1);
-      var tmp_3;
-      if (metaBest.v(element_2.u1o_1)) {
-        tmp_3 = true;
+  var _iterator__ex2g4s = list.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    var tmp$ret$4;
+    $l$block_1: {
+      var tmp0_safe_receiver = map.e2(element.u1o_1);
+      var tmp;
+      if (tmp0_safe_receiver == null) {
+        tmp = null;
       } else {
-        var tmp$ret$40;
-        $l$block_7: {
-          // Inline function 'kotlin.collections.any' call
-          var tmp_4;
-          if (isInterface(mine, Collection)) {
-            tmp_4 = mine.q();
-          } else {
-            tmp_4 = false;
+        // Inline function 'kotlin.collections.flatMap' call
+        // Inline function 'kotlin.collections.flatMapTo' call
+        var destination_0 = ArrayList_init_$Create$_0();
+        var _iterator__ex2g4s_0 = tmp0_safe_receiver.i();
+        while (_iterator__ex2g4s_0.j()) {
+          var element_0 = _iterator__ex2g4s_0.k();
+          var list_0 = element_0.z3p_1;
+          addAll(destination_0, list_0);
+        }
+        tmp = destination_0;
+      }
+      var tmp1_safe_receiver = tmp;
+      var tmp_0;
+      if (tmp1_safe_receiver == null) {
+        tmp_0 = null;
+      } else {
+        var tmp$ret$8;
+        $l$block_0: {
+          // Inline function 'kotlin.collections.minByOrNull' call
+          var iterator = tmp1_safe_receiver.i();
+          if (!iterator.j()) {
+            tmp$ret$8 = null;
+            break $l$block_0;
           }
-          if (tmp_4) {
-            tmp$ret$40 = false;
-            break $l$block_7;
+          var minElem = iterator.k();
+          if (!iterator.j()) {
+            tmp$ret$8 = minElem;
+            break $l$block_0;
           }
-          var _iterator__ex2g4s_10 = mine.i();
-          while (_iterator__ex2g4s_10.j()) {
-            var element_4 = _iterator__ex2g4s_10.k();
-            var tmp0_safe_receiver_1 = leader.e2(items$key(element_2, element_4));
-            var tmp1_safe_receiver = tmp0_safe_receiver_1 == null ? null : tmp0_safe_receiver_1.l9_1;
-            if (equals(tmp1_safe_receiver == null ? null : tmp1_safe_receiver.u1o_1, element_2.u1o_1)) {
-              tmp$ret$40 = true;
-              break $l$block_7;
+          var minValue = minElem.w3p_1;
+          do {
+            var e = iterator.k();
+            var v = e.w3p_1;
+            if (compareTo(minValue, v) > 0) {
+              minElem = e;
+              minValue = v;
             }
           }
-          tmp$ret$40 = false;
+           while (iterator.j());
+          tmp$ret$8 = minElem;
         }
-        tmp_3 = tmp$ret$40;
+        tmp_0 = tmp$ret$8;
       }
-      if (tmp_3) {
-        tmp$ret$34 = null;
-        break $l$block_11;
-      }
-      var tmp0_elvis_lhs = WorseSend_instance.c3q(mine);
-      var tmp_5;
-      if (tmp0_elvis_lhs == null) {
-        tmp$ret$34 = null;
-        break $l$block_11;
+      var tmp2_elvis_lhs = tmp_0;
+      var tmp_1;
+      if (tmp2_elvis_lhs == null) {
+        tmp$ret$4 = null;
+        break $l$block_1;
       } else {
-        tmp_5 = tmp0_elvis_lhs;
+        tmp_1 = tmp2_elvis_lhs;
       }
-      var o = tmp_5;
-      var tmp1_elvis_lhs = leader.e2(items$key(element_2, o));
-      var tmp_6;
-      if (tmp1_elvis_lhs == null) {
-        tmp$ret$34 = null;
-        break $l$block_11;
-      } else {
-        tmp_6 = tmp1_elvis_lhs;
-      }
-      var _destruct__k2r9zo = tmp_6;
-      var better = _destruct__k2r9zo.n9();
-      var betterRank = _destruct__k2r9zo.o9();
-      if (!(element_2.d1p_1 == null) && (!(better.d1p_1 == element_2.d1p_1) || !equals(toSet(better.e1p_1), toSet(element_2.e1p_1)))) {
-        tmp$ret$34 = null;
-        break $l$block_11;
-      }
-      tmp$ret$34 = new Item(element_2, o.u3p_1.w1f_1 + ' ' + WorseSend_instance.t3m(o.v3p_1) + ': Rang ' + o.w3p_1 + ', besser: Rang ' + betterRank);
+      var best = tmp_1;
+      tmp$ret$4 = new Item(element, best.u3p_1.w1f_1 + ' ' + WorseSend_instance.t3m(best.v3p_1) + ': Rang ' + best.w3p_1 + ', besser: Rang ' + best.x3p_1);
     }
-    var tmp0_safe_receiver_2 = tmp$ret$34;
-    if (tmp0_safe_receiver_2 == null)
+    var tmp0_safe_receiver_0 = tmp$ret$4;
+    if (tmp0_safe_receiver_0 == null)
       null;
     else {
       // Inline function 'kotlin.let' call
-      destination_4.h(tmp0_safe_receiver_2);
+      destination.h(tmp0_safe_receiver_0);
     }
   }
-  return destination_4;
+  return destination;
 };
-protoOf(WorseSend).e3q = function (data, analyzer, metas) {
+protoOf(WorseSend).h3q = function (p, all, family, evals, keepTags, keep, raid) {
+  var f = family(p.v1o_1);
+  // Inline function 'kotlin.collections.filter' call
+  // Inline function 'kotlin.collections.filterTo' call
+  var destination = ArrayList_init_$Create$_0();
+  var _iterator__ex2g4s = all.i();
+  while (_iterator__ex2g4s.j()) {
+    var element = _iterator__ex2g4s.k();
+    if (family(element.v1o_1) === f) {
+      destination.h(element);
+    }
+  }
+  // Inline function 'kotlin.let' call
+  var tmp;
+  var tmp$ret$5;
+  $l$block_0: {
+    // Inline function 'kotlin.collections.any' call
+    var tmp_0;
+    if (isInterface(destination, Collection)) {
+      tmp_0 = destination.q();
+    } else {
+      tmp_0 = false;
+    }
+    if (tmp_0) {
+      tmp$ret$5 = false;
+      break $l$block_0;
+    }
+    var _iterator__ex2g4s_0 = destination.i();
+    while (_iterator__ex2g4s_0.j()) {
+      var element_0 = _iterator__ex2g4s_0.k();
+      if (equalsLong(element_0.u1o_1, p.u1o_1)) {
+        tmp$ret$5 = true;
+        break $l$block_0;
+      }
+    }
+    tmp$ret$5 = false;
+  }
+  if (tmp$ret$5) {
+    tmp = destination;
+  } else {
+    tmp = plus_2(destination, p);
+  }
+  var fam = tmp;
+  return this.f3q(fam, family, evals, keepTags, WorseSend$betterFor$lambda(keep), raid).e2(p.u1o_1);
+};
+protoOf(WorseSend).i3q = function (r) {
+  var tmp;
+  switch (r.v3p_1.m2_1) {
+    case 0:
+      tmp = 'Super';
+      break;
+    case 1:
+      tmp = 'Hyper';
+      break;
+    case 2:
+      tmp = 'Meister';
+      break;
+    case 3:
+      tmp = 'Sonder';
+      break;
+    default:
+      noWhenBranchMatchedException();
+      break;
+  }
+  var l = tmp;
+  return r.u3p_1.w1f_1 + ' ' + l + ' Rang ' + r.x3p_1 + ' (dieses ' + r.w3p_1 + ')';
+};
+protoOf(WorseSend).j3q = function (data, analyzer, metas) {
   return WorseSend$raidGuard$lambda(metas, data, analyzer);
 };
 var WorseSend_instance;
@@ -49922,19 +50091,19 @@ function WorseSend_getInstance() {
   return WorseSend_instance;
 }
 function Region(x, y, width, height) {
-  this.f3q_1 = x;
-  this.g3q_1 = y;
-  this.h3q_1 = width;
-  this.i3q_1 = height;
+  this.k3q_1 = x;
+  this.l3q_1 = y;
+  this.m3q_1 = width;
+  this.n3q_1 = height;
 }
 protoOf(Region).toString = function () {
-  return 'Region(x=' + this.f3q_1 + ', y=' + this.g3q_1 + ', width=' + this.h3q_1 + ', height=' + this.i3q_1 + ')';
+  return 'Region(x=' + this.k3q_1 + ', y=' + this.l3q_1 + ', width=' + this.m3q_1 + ', height=' + this.n3q_1 + ')';
 };
 protoOf(Region).hashCode = function () {
-  var result = this.f3q_1;
-  result = imul(result, 31) + this.g3q_1 | 0;
-  result = imul(result, 31) + this.h3q_1 | 0;
-  result = imul(result, 31) + this.i3q_1 | 0;
+  var result = this.k3q_1;
+  result = imul(result, 31) + this.l3q_1 | 0;
+  result = imul(result, 31) + this.m3q_1 | 0;
+  result = imul(result, 31) + this.n3q_1 | 0;
   return result;
 };
 protoOf(Region).equals = function (other) {
@@ -49942,29 +50111,29 @@ protoOf(Region).equals = function (other) {
     return true;
   if (!(other instanceof Region))
     return false;
-  if (!(this.f3q_1 === other.f3q_1))
+  if (!(this.k3q_1 === other.k3q_1))
     return false;
-  if (!(this.g3q_1 === other.g3q_1))
+  if (!(this.l3q_1 === other.l3q_1))
     return false;
-  if (!(this.h3q_1 === other.h3q_1))
+  if (!(this.m3q_1 === other.m3q_1))
     return false;
-  if (!(this.i3q_1 === other.i3q_1))
+  if (!(this.n3q_1 === other.n3q_1))
     return false;
   return true;
 };
-function sam$kotlin_Comparator$0_53(function_0) {
-  this.j3q_1 = function_0;
+function sam$kotlin_Comparator$0_54(function_0) {
+  this.o3q_1 = function_0;
 }
-protoOf(sam$kotlin_Comparator$0_53).vc = function (a, b) {
-  return this.j3q_1(a, b);
+protoOf(sam$kotlin_Comparator$0_54).vc = function (a, b) {
+  return this.o3q_1(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_53).compare = function (a, b) {
+protoOf(sam$kotlin_Comparator$0_54).compare = function (a, b) {
   return this.vc(a, b);
 };
-protoOf(sam$kotlin_Comparator$0_53).v2 = function () {
-  return this.j3q_1;
+protoOf(sam$kotlin_Comparator$0_54).v2 = function () {
+  return this.o3q_1;
 };
-protoOf(sam$kotlin_Comparator$0_53).equals = function (other) {
+protoOf(sam$kotlin_Comparator$0_54).equals = function (other) {
   var tmp;
   if (!(other == null) ? isInterface(other, Comparator) : false) {
     var tmp_0;
@@ -49979,7 +50148,7 @@ protoOf(sam$kotlin_Comparator$0_53).equals = function (other) {
   }
   return tmp;
 };
-protoOf(sam$kotlin_Comparator$0_53).hashCode = function () {
+protoOf(sam$kotlin_Comparator$0_54).hashCode = function () {
   return hashCode(this.v2());
 };
 function WpReader$parse$lambda(a, b) {
@@ -49990,21 +50159,21 @@ function WpReader$parse$lambda(a, b) {
 }
 function WpReader() {
   WpReader_instance = this;
-  this.k3q_1 = 0.2;
-  this.l3q_1 = 0.8;
-  this.m3q_1 = 0.04;
-  this.n3q_1 = 0.098;
-  this.o3q_1 = 215;
-  this.p3q_1 = 30;
-  this.q3q_1 = 20;
-  this.r3q_1 = Regex_init_$Create$('(?:^|[^\\d])(\\d{2,5})(?![\\d.,])');
+  this.p3q_1 = 0.2;
+  this.q3q_1 = 0.8;
+  this.r3q_1 = 0.04;
+  this.s3q_1 = 0.098;
+  this.t3q_1 = 215;
+  this.u3q_1 = 30;
+  this.v3q_1 = 20;
+  this.w3q_1 = Regex_init_$Create$('(?:^|[^\\d])(\\d{2,5})(?![\\d.,])');
 }
-protoOf(WpReader).s3q = function (width, height) {
+protoOf(WpReader).x3q = function (width, height) {
   var x = numberToInt(width * 0.2);
   var y = numberToInt(height * 0.04);
   return new Region(x, y, numberToInt(width * 0.8) - x | 0, numberToInt(height * 0.098) - y | 0);
 };
-protoOf(WpReader).t3q = function (rgb) {
+protoOf(WpReader).y3q = function (rgb) {
   var r = rgb >> 16 & 255;
   var g = rgb >> 8 & 255;
   var b = rgb & 255;
@@ -50020,25 +50189,25 @@ protoOf(WpReader).t3q = function (rgb) {
   var neutral = coerceIn_0(1 - ((hi - lo | 0) - 20 | 0) / 30, 0.0, 1.0);
   return bright * neutral;
 };
-protoOf(WpReader).u3q = function (px, r) {
+protoOf(WpReader).z3q = function (px, r) {
   var tmp = 0;
-  var tmp_0 = imul(r.h3q_1, r.i3q_1);
+  var tmp_0 = imul(r.m3q_1, r.n3q_1);
   var tmp_1 = new Int32Array(tmp_0);
   while (tmp < tmp_0) {
     var tmp_2 = tmp;
-    var x = r.f3q_1 + (tmp_2 % r.h3q_1 | 0) | 0;
-    var y = r.g3q_1 + (tmp_2 / r.h3q_1 | 0) | 0;
-    var k = x < px.a1k() && y < px.g1k() ? WpReader_getInstance().t3q(px.b1k(x, y)) : 0.0;
+    var x = r.k3q_1 + (tmp_2 % r.m3q_1 | 0) | 0;
+    var y = r.l3q_1 + (tmp_2 / r.m3q_1 | 0) | 0;
+    var k = x < px.a1k() && y < px.g1k() ? WpReader_getInstance().y3q(px.b1k(x, y)) : 0.0;
     var v = numberToInt(255 * (1 - k));
     tmp_1[tmp_2] = -16777216 | v << 16 | v << 8 | v;
     tmp = tmp + 1 | 0;
   }
   return tmp_1;
 };
-protoOf(WpReader).v3q = function (argb) {
+protoOf(WpReader).a3r = function (argb) {
   return (argb & 255) < 128;
 };
-protoOf(WpReader).w3q = function (mask) {
+protoOf(WpReader).b3r = function (mask) {
   // Inline function 'kotlin.collections.count' call
   var count = 0;
   var inductionVariable = 0;
@@ -50046,19 +50215,19 @@ protoOf(WpReader).w3q = function (mask) {
   while (inductionVariable < last) {
     var element = mask[inductionVariable];
     inductionVariable = inductionVariable + 1 | 0;
-    if (WpReader_getInstance().v3q(element)) {
+    if (WpReader_getInstance().a3r(element)) {
       count = count + 1 | 0;
     }
   }
   var n = count;
   return n >= (mask.length / 400 | 0) && n <= (mask.length / 3 | 0);
 };
-protoOf(WpReader).x3q = function (frame) {
+protoOf(WpReader).c3r = function (frame) {
   // Inline function 'kotlin.collections.sortedByDescending' call
   var this_0 = frame.y25_1;
   // Inline function 'kotlin.comparisons.compareByDescending' call
   var tmp = WpReader$parse$lambda;
-  var tmp$ret$1 = new sam$kotlin_Comparator$0_53(tmp);
+  var tmp$ret$1 = new sam$kotlin_Comparator$0_54(tmp);
   var tmp0 = sortedWith(this_0, tmp$ret$1);
   var tmp$ret$2;
   $l$block: {
@@ -50066,7 +50235,7 @@ protoOf(WpReader).x3q = function (frame) {
     var _iterator__ex2g4s = tmp0.i();
     while (_iterator__ex2g4s.j()) {
       var element = _iterator__ex2g4s.k();
-      var tmp0_safe_receiver = WpReader_getInstance().r3q_1.qb(replace_0(element.o25_1, ' ', ''));
+      var tmp0_safe_receiver = WpReader_getInstance().w3q_1.qb(replace_0(element.o25_1, ' ', ''));
       var tmp1_safe_receiver = tmp0_safe_receiver == null ? null : tmp0_safe_receiver.tc();
       var tmp2_safe_receiver = tmp1_safe_receiver == null ? null : tmp1_safe_receiver.r(1);
       var tmp3_safe_receiver = tmp2_safe_receiver == null ? null : toIntOrNull(tmp2_safe_receiver);
@@ -50093,9 +50262,9 @@ protoOf(WpReader).x3q = function (frame) {
   }
   return tmp$ret$2;
 };
-protoOf(WpReader).y3q = function (frame, cp) {
-  var r = this.s3q(frame.w25_1, frame.x25_1);
-  return frame.h3b(VOID, VOID, plus_2(frame.y25_1, new TextLine('WP' + cp, r.f3q_1, r.g3q_1, r.f3q_1 + r.h3q_1 | 0, r.g3q_1 + r.i3q_1 | 0)));
+protoOf(WpReader).d3r = function (frame, cp) {
+  var r = this.x3q(frame.w25_1, frame.x25_1);
+  return frame.h3b(VOID, VOID, plus_2(frame.y25_1, new TextLine('WP' + cp, r.k3q_1, r.l3q_1, r.k3q_1 + r.m3q_1 | 0, r.l3q_1 + r.n3q_1 | 0)));
 };
 var WpReader_instance;
 function WpReader_getInstance() {
