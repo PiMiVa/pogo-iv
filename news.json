@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T12:45:34Z",
+ "generated": "2026-11-24T23:09:34Z",
  "maxHp": [
   {
    "post": "post165065",
@@ -880,9 +880,208 @@
    "tier": 6,
    "cpm": null,
    "checked": "2026-11-24"
+  },
+  {
+   "post": "post97255",
+   "name": "ゴース",
+   "dex": 92,
+   "giga": false,
+   "hp": 1700,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post127851",
+   "name": "アマカジ",
+   "dex": 761,
+   "giga": false,
+   "hp": 1700,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post111240",
+   "name": "スイクン",
+   "dex": 245,
+   "giga": false,
+   "hp": 11000,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post111224",
+   "name": "エンテイ",
+   "dex": 244,
+   "giga": false,
+   "hp": 11000,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post110226",
+   "name": "ライコウ",
+   "dex": 243,
+   "giga": false,
+   "hp": 11000,
+   "guess": false,
+   "tier": null,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post105570",
+   "name": "キングラー",
+   "dex": 99,
+   "giga": true,
+   "hp": 60000,
+   "guess": false,
+   "tier": 6,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post111252",
+   "name": "カイリキー",
+   "dex": 68,
+   "giga": true,
+   "hp": 60000,
+   "guess": false,
+   "tier": 6,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post122495",
+   "name": "バタフリー",
+   "dex": 12,
+   "giga": true,
+   "hp": 60000,
+   "guess": false,
+   "tier": 6,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post99710",
+   "name": "ラプラス",
+   "dex": 131,
+   "giga": true,
+   "hp": 60000,
+   "guess": false,
+   "tier": 6,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post94922",
+   "name": "ウールー",
+   "dex": 831,
+   "giga": false,
+   "hp": 5000,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post96257",
+   "name": "サルノリ",
+   "dex": 810,
+   "giga": false,
+   "hp": 1700,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post111858",
+   "name": "ナゲツケサル",
+   "dex": 766,
+   "giga": false,
+   "hp": 10000,
+   "guess": false,
+   "tier": 3,
+   "cpm": null,
+   "checked": "2026-11-24"
+  },
+  {
+   "post": "post99814",
+   "name": "クラブ",
+   "dex": 98,
+   "giga": false,
+   "hp": 1700,
+   "guess": false,
+   "tier": 1,
+   "cpm": null,
+   "checked": "2026-11-24"
   }
  ],
  "news": [
+  {
+   "title": "Pokémon GO December 2026 GO Pass: Kyurem, Deluxe Rewards, and Milestone Bonuses",
+   "titleDe": "Pokémon GO GO-Pass für Dezember 2026: Kyurem, Deluxe-Belohnungen und Meilenstein-Boni",
+   "link": "https://pokemongohub.net/post/guide/pokemon-go-december-2026-go-pass/",
+   "date": "Tue, 24 Nov 2026 20:55:53 +0000",
+   "categories": [
+    "Guides",
+    "News",
+    "december 2026",
+    "december 2026 go pass",
+    "go pass",
+    "timed incubator"
+   ]
+  },
+  {
+   "title": "Paid Gifts are Coming to Pokémon GO",
+   "titleDe": "Bezahlte Geschenke kommen zu Pokémon GO",
+   "link": "https://pokemongohub.net/post/news/paid-gifts-are-coming-to-pokemon-go/",
+   "date": "Tue, 24 Nov 2026 19:09:22 +0000",
+   "categories": [
+    "News",
+    "paid gifts",
+    "pokemon go gift"
+   ]
+  },
+  {
+   "title": "Pokémon GO Daydream Destinations Season Guide",
+   "titleDe": "Saison-Guide für Pokémon GO: Traumziele",
+   "link": "https://pokemongohub.net/post/guide/daydream-destinations-season/",
+   "date": "Tue, 24 Nov 2026 13:55:38 +0000",
+   "categories": [
+    "Events",
+    "Guides",
+    "daydream destinations",
+    "daydream destinations season",
+    "december 2026",
+    "february 2027",
+    "january 2027",
+    "pokemon go daydream destinations"
+   ]
+  },
+  {
+   "title": "GO Battle League Daydream Destinations Update",
+   "titleDe": "Update zu den Traumziel-Destinationen der GO Kampf-Liga",
+   "link": "https://pokemongohub.net/post/guide/gbl-daydream-destinations-update/",
+   "date": "Tue, 24 Nov 2026 13:54:39 +0000",
+   "categories": [
+    "Events",
+    "Guides",
+    "daydream destinations",
+    "daydream destinations pvp",
+    "gbl",
+    "go battle league",
+    "pvp"
+   ]
+  },
   {
    "title": "Pokémon GO Twilight Wishes (2026)",
    "titleDe": "Pokémon GO – Dämmerungswünsche (2026)",
@@ -1282,63 +1481,6 @@
     "dynamax trails",
     "eternatus"
    ]
-  },
-  {
-   "title": "Best Wild Pokémon to Catch at GO Wild Area 2026: Global",
-   "titleDe": "Die besten wilden Pokémon, die man bei GO Wild Area 2026: Global fangen kann",
-   "link": "https://pokemongohub.net/post/meta/go-wild-area-2026-global-wild-spawns-pve-tier-list/",
-   "date": "Sat, 14 Nov 2026 06:00:35 +0000",
-   "categories": [
-    "Meta",
-    "dragon meta",
-    "go wild area 2026",
-    "go wild area meta",
-    "steel meta"
-   ]
-  },
-  {
-   "title": "GO Wild Area 2026: Global",
-   "titleDe": "GO-Wildnisgebiet 2026: Global",
-   "link": "https://pokemongohub.net/post/event/wild-area-2026-global/",
-   "date": "Sat, 14 Nov 2026 05:00:00 +0000",
-   "categories": [
-    "Events",
-    "go wild area"
-   ]
-  },
-  {
-   "title": "GO Wild Area 2026 Global: Which Pokémon Are Worth Investing In?",
-   "titleDe": "GO Wild Area 2026 Global: In welche Pokémon lohnt es sich zu investieren?",
-   "link": "https://pokemongohub.net/post/meta/go-wild-area-2026-global-pve-analysis-for-raids-eggs-and-max-battles/",
-   "date": "Fri, 13 Nov 2026 08:47:50 +0000",
-   "categories": [
-    "Meta",
-    "black kyurem",
-    "dynamax dialga",
-    "dynamax palkia",
-    "gigantamax duraludon",
-    "go wild area 2026",
-    "go wild area meta",
-    "white kyurem",
-    "wild area meta"
-   ]
-  },
-  {
-   "title": "How to Beat Dynamax Latios: Best Counters & Guide",
-   "titleDe": "So besiegt man Dynamax-Latios: Die besten Konter und ein Leitfaden",
-   "link": "https://pokemongohub.net/post/guide/how-to-beat-dynamax-latios-best-counters-guide/",
-   "date": "Fri, 13 Nov 2026 05:00:51 +0000",
-   "categories": [
-    "Guides",
-    "battle guide",
-    "Dynamax",
-    "dynamax latios",
-    "dynamax latios counters",
-    "dynamax latios guide",
-    "latios",
-    "max battle",
-    "raid guide"
-   ]
   }
  ],
  "events": {
@@ -1346,7 +1488,6 @@
   "max-mondays-2026-11-23": "Dynamax Espurr während Max. Montag",
   "cresselia-darkrai-in-5-star-raid-battles-november-2026": "Cresselia und Darkrai in 5-Sterne-Raid-Kämpfen",
   "mega-banette-in-mega-raids-november-2026": "Mega-Banette in Mega-Raubzügen",
-  "gbl-twilight-trails_ultra-league_master-league-mega-edition_2026-go-laic-cup": "Ultra League, Master League: Mega Edition und 2026 GO LAIC Cup | Twilight Trails",
   "raidhour20261125": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) Raid-Stunde",
   "pokemonspotlighthour2026-11-26": "Noibat Spotlight Hour",
   "clefable-super-mega-raid-day-2026": "Clefable-Super-Mega-Raid-Tag",
@@ -1354,27 +1495,70 @@
   "max-mondays-2026-11-30": "Dynamax Cryogonal während max. Montag",
   "season-24-twilight-trails": "Twilight Trails",
   "go-pass-november-2026": "GO Pass: November",
-  "gbl-twilight-trails_master-league_mega-catch-cup-great-league-edition": "Master League und Mega Catch Cup: Great League Edition | Twilight Trails",
   "shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026": "Schatten-Tornadus (Inkarnierte Form) in Schatten-Raubzügen",
   "deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-november-2026": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) in 5-Sterne-Raid-Kämpfen",
   "mega-metagross-in-mega-raids-november-2026": "Mega-Metagross in Mega-Raubzügen",
+  "raidhour20261202": "Regidrago-Raid-Stunde",
+  "pokemonspotlighthour2026-12-03": "Spotlight-Stunde für Smettbo",
   "max-battle-day-december-2026": "Max. Kampftag",
+  "tropical-paradise-2026": "TROPICAL&#x0A;&#x0A;PARADISE",
+  "max-mondays-2026-12-07": "Dynamax-Deino am Max-Montag",
+  "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1": "Super-Liga: Mega-Edition, Ultra-Liga: Mega-Edition und Master-Liga: Mega-Edition | Traumziele",
+  "mega-slowbro-in-mega-raids-december-2026": "Mega-Slowbro in Mega-Raids",
+  "regidrago-in-5-star-raid-battles-december-2026": "Regidrago in 5-Sterne-Raids",
+  "raidhour20261209": "Unangekündigte Raid-Stunde",
+  "pokemonspotlighthour2026-12-10": "Starly-Spotlight-Stunde",
   "december-communityday2026": "Community-Tag im Dezember 2026",
+  "unannounced-event-december-2026": "Unangekündigtes Ereignis",
+  "max-mondays-2026-12-14": "Dynamax-Evoli am Max-Montag",
+  "gbl-daydream-destinations_great-league-mega-edition_mountain-cup-great-league-edition": "Große Liga: Mega-Edition und Berg-Cup: Große-Liga-Edition | Traumziele",
+  "mega-gengar-in-mega-raids-december-2026": "Mega-Gengar in Mega-Raids",
+  "unannounced-pokemon-in-5-star-raid-battles-december-2026": "Nicht angekündigte Pokémon in 5-Sterne-Raid-Kämpfen",
+  "raidhour20261216": "Ho-Oh-Raid-Stunde",
   "minior-showers-geminids-2026": "Kleine Duschen: Geminiden 2026",
+  "pokemonspotlighthour2026-12-17": "Spotlight-Stunde für Bergmickie",
   "raid-day-december-2026": "Raid-Tag",
+  "max-mondays-2026-12-21": "Dynamax-Alola-Sandan am Max-Montag",
+  "gbl-daydream-destinations_ultra-league-mega-edition_holiday-cup-great-league-edition": "Ultra-Liga: Mega-Edition und Feiertags-Cup: Super-Liga-Edition | Traumziele",
+  "ho-oh-in-5-star-raid-battles-december-2026": "Ho-Oh in 5-Sterne-Raids",
+  "mega-skarmory-in-mega-raids-december-2026": "Mega-Skarmory in Mega-Raubzügen",
+  "raidhour20261223": "Lugia-Raid-Stunde",
+  "pokemonspotlighthour2026-12-24": "Delibird-Spotlight-Stunde",
   "hatch-day-december-2026": "Schraffurtag",
+  "winter-holiday-2026": "Winterrurlaub",
+  "max-mondays-2026-12-28": "Dynamax-Karpador am Max-Montag",
+  "gbl-daydream-destinations_master-league-mega-edition_holiday-cup-great-league-edition": "Meisterliga: Mega-Edition und Feiertags-Cup: Superliga-Edition | Traumziele",
+  "lugia-in-5-star-raid-battles-december-2026": "Lugia in 5-Sterne-Raid-Kämpfen",
+  "mega-glalie-in-mega-raids-december-2026": "Mega-Firnontor in Mega-Raubzügen",
+  "raidhour20261230": "Raid-Stunde mit Tornupto (Therian-Form), Voltolos (Therian-Form) und Demeteros (Therian-Form)",
+  "pokemonspotlighthour2026-12-31": "Spotlight-Stunde mit Plusle und Minun",
   "duolingo-timed-research-2026": "Zeitlich begrenzte Forschungsstudie zu Pokémon GO und Duolingo",
   "january-communitydayclassic2027": "Klassischer Community Day im Januar",
+  "new-years-2027": "Neujahr 2027",
+  "go-pass-december-2026": "GO Pass: Dezember",
+  "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2": "Super-Liga: Mega-Edition, Ultra-Liga: Mega-Edition und Master-Liga: Mega-Edition | Traumziele",
+  "shadow-dialga-in-shadow-raids-december-2026": "Schatten-Dialga bei Schatten-Raubzügen",
+  "mega-falinks-in-mega-raids-december-2026": "Mega-Falinks in Mega-Raubzügen",
+  "tornadus-thundurus-landorus-therian-formes-in-5-star-raid-battles-december-2026": "Tornupto, Boreos und Demeteros (Inkara-Formen) in 5-Sterne-Raids",
   "super-mega-raid-day-january-2027": "Super-Mega-Raid-Tag",
+  "gbl-daydream-destinations_great-league-mega-edition_fighting-cup-great-league-edition": "Super-Liga: Mega-Edition und Kampf-Cup: Super-Liga-Edition | Traumziele",
   "pokemon-x-adidas-2026": "adidas × Pokémon Zeitgesteuerte Forschung",
   "january-communityday2027": "Community Day im Januar",
+  "gbl-daydream-destinations_ultra-league-mega-edition_jungle-cup-great-league-edition": "Ultra-Liga: Mega-Edition und Dschungel-Cup: Super-Liga-Edition | Traumziele",
   "max-battle-day-january-2027": "Max. Kampftag",
+  "gbl-daydream-destinations_master-league-mega-edition_master-league": "Master League: Mega Edition und Master League | Traumziele",
   "super-mega-raid-day-january-30-2027": "Super-Mega-Raid-Tag",
+  "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3": "Super-Liga: Mega-Edition, Ultra-Liga: Mega-Edition und Master-Liga: Mega-Edition | Traumziele",
   "february-communityday2027": "Community-Tag im Februar",
+  "gbl-daydream-destinations_great-league-mega-edition_master-league": "Große Liga: Mega-Edition und Meisterliga | Traumziele",
   "raid-day-february-2027": "Raid-Tag",
+  "gbl-daydream-destinations_ultra-league-mega-edition_love-cup-great-league-edition_2027-go-euic-cup": "Ultra-Liga: Mega-Edition, Love-Cup: Super-Liga-Edition und 2027 GO EUIC Cup | Traumziele",
   "pokemon-go-tour-alola-kaohsiung-2027": "Pokémon GO Tour: Alola - Kaohsiung 2027",
   "pokemon-go-tour-alola-los-angeles-2027": "Pokémon GO Tour: Alola - Los Angeles 2027",
+  "gbl-daydream-destinations_master-league-mega-edition_mega-catch-cup-great-league-edition_2027-go-euic-cup": "Meister-Liga: Mega-Edition, Mega-Fang-Cup: Große-Liga-Edition und 2027 GO EUIC Cup | Tagtraum-Ziele",
   "pokemon-go-tour-alola-global-2027": "Pokémon GO Tour: Alola - Global 2027",
+  "season-25-daydream-destinations": "Traumhafte Reiseziele",
+  "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition_mega-catch-cup-great-league-edition": "Superliga: Mega-Edition, Ultra-Liga: Mega-Edition, Master-Liga: Mega-Edition und Mega-Fang-Cup: Superliga-Edition | Tagtraumziele",
   "minior-showers-eta-aquariids-2027": "Kleine Duschen: Eta Aquariids 2027",
   "minior-showers-southern-delta-aquariids-2027": "Kleine Duschen: Southern Delta Aquariids 2027",
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
@@ -1877,9 +2061,168 @@
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
+  "raidhour20261202": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "pokemonspotlighthour2026-12-03": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Wimpod"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
   "max-battle-day-december-2026": {
    "v": 2,
    "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "tropical-paradise-2026": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "max-mondays-2026-12-07": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "mega-slowbro-in-mega-raids-december-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Mega Slowbro"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Slowbro",
+        "Mega Slowbro"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "regidrago-in-5-star-raid-battles-december-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Regidrago"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Regidrago"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "raidhour20261209": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "pokemonspotlighthour2026-12-10": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Starly"
+       ]
+      }
+     ]
+    }
+   ],
    "bonuses": [],
    "ticketBonuses": [],
    "moves": [],
@@ -1994,6 +2337,85 @@
    ],
    "ticketBonusesDe": []
   },
+  "unannounced-event-december-2026": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "max-mondays-2026-12-14": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "mega-gengar-in-mega-raids-december-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Mega Gengar"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Gengar",
+        "Mega Gengar"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "unannounced-pokemon-in-5-star-raid-battles-december-2026": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "raidhour20261216": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
   "minior-showers-geminids-2026": {
    "v": 2,
    "sections": [
@@ -2023,6 +2445,29 @@
    ],
    "ticketBonusesDe": []
   },
+  "pokemonspotlighthour2026-12-17": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Bergmite"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
   "raid-day-december-2026": {
    "v": 2,
    "sections": [],
@@ -2034,9 +2479,249 @@
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
+  "max-mondays-2026-12-21": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "ho-oh-in-5-star-raid-battles-december-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Ho-Oh"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Ho-Oh"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "mega-skarmory-in-mega-raids-december-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Mega Skarmory"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Skarmory",
+        "Mega Skarmory"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "raidhour20261223": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "pokemonspotlighthour2026-12-24": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Delibird"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
   "hatch-day-december-2026": {
    "v": 2,
    "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "winter-holiday-2026": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "max-mondays-2026-12-28": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "lugia-in-5-star-raid-battles-december-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Lugia"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Lugia"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "mega-glalie-in-mega-raids-december-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Mega Glalie"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Glalie",
+        "Mega Glalie"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "raidhour20261230": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "pokemonspotlighthour2026-12-31": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "spawns",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Plusle",
+        "Minun"
+       ]
+      }
+     ]
+    }
+   ],
    "bonuses": [],
    "ticketBonuses": [],
    "moves": [],
@@ -2074,6 +2759,124 @@
   "january-communitydayclassic2027": {
    "v": 2,
    "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "new-years-2027": {
+   "v": 2,
+   "sections": [],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "shadow-dialga-in-shadow-raids-december-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "Appearing in 5-Star Shadow Raids",
+       "pokemon": [
+        "Dialga"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Dialga"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "mega-falinks-in-mega-raids-december-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Mega Falinks"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Falinks",
+        "Mega Falinks"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [],
+   "ticketBonuses": [],
+   "moves": [],
+   "ticket": "",
+   "fetched": "2026-11-24",
+   "bonusesDe": [],
+   "ticketBonusesDe": []
+  },
+  "tornadus-thundurus-landorus-therian-formes-in-5-star-raid-battles-december-2026": {
+   "v": 2,
+   "sections": [
+    {
+     "id": "raids",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Tornadus (Therian)",
+        "Thundurus (Therian)",
+        "Landorus (Therian)"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Tornadus (Therian)",
+        "Thundurus (Therian)",
+        "Landorus (Therian)"
+       ]
+      }
+     ]
+    }
+   ],
    "bonuses": [],
    "ticketBonuses": [],
    "moves": [],
@@ -2324,6 +3127,10 @@
  },
  "codes": [],
  "translations": {
+  "Pokémon GO December 2026 GO Pass: Kyurem, Deluxe Rewards, and Milestone Bonuses": "Pokémon GO GO-Pass für Dezember 2026: Kyurem, Deluxe-Belohnungen und Meilenstein-Boni",
+  "Paid Gifts are Coming to Pokémon GO": "Bezahlte Geschenke kommen zu Pokémon GO",
+  "Pokémon GO Daydream Destinations Season Guide": "Saison-Guide für Pokémon GO: Traumziele",
+  "GO Battle League Daydream Destinations Update": "Update zu den Traumziel-Destinationen der GO Kampf-Liga",
   "Pokémon GO Twilight Wishes (2026)": "Pokémon GO – Dämmerungswünsche (2026)",
   "Twilight Wishes: Your Go-To PvE Guide": "Dämmerungswünsche: Dein PvE-Leitfaden",
   "Super Mega Clefable Raid Guide": "Raid-Anleitung für Super-Mega-Flamara",
@@ -2350,17 +3157,12 @@
   "Dynamax Trails: Eternatus Returns": "Dynamax-Pfade: Eternatus kehrt zurück",
   "This Week in Pokémon GO (November 16-22): Dynamax Trails, Eternatus, Pawniard Community Day": "Diese Woche in Pokémon GO (16.–22. November): Dynamax-Pfade, Eternatus, Community Day mit Zurrokex",
   "GO Pass Dynamax Trails": "GO Pass-Dynamax-Pfade",
-  "Best Wild Pokémon to Catch at GO Wild Area 2026: Global": "Die besten wilden Pokémon, die man bei GO Wild Area 2026: Global fangen kann",
-  "GO Wild Area 2026: Global": "GO-Wildnisgebiet 2026: Global",
-  "GO Wild Area 2026 Global: Which Pokémon Are Worth Investing In?": "GO Wild Area 2026 Global: In welche Pokémon lohnt es sich zu investieren?",
-  "How to Beat Dynamax Latios: Best Counters & Guide": "So besiegt man Dynamax-Latios: Die besten Konter und ein Leitfaden",
   "Dynamax Trails": "Dynamax Trails",
   "Chance to receive Max Particles when catching event-themed Pokémon in the wild or after Max Battles": "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
   "More Power Spots than usual will be active": "Es werden mehr Power Spots als üblich aktiv sein",
   "Dynamax Espurr during Max Monday": "Dynamax Espurr während Max. Montag",
   "Cresselia and Darkrai in 5-star Raid Battles": "Cresselia und Darkrai in 5-Sterne-Raid-Kämpfen",
   "Mega Banette in Mega Raids": "Mega-Banette in Mega-Raubzügen",
-  "Ultra League, Master League: Mega Edition, and 2026 GO LAIC Cup | Twilight Trails": "Ultra League, Master League: Mega Edition und 2026 GO LAIC Cup | Twilight Trails",
   "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) Raid-Stunde",
   "Noibat Spotlight Hour": "Noibat Spotlight Hour",
   "Clefable Super Mega Raid Day": "Clefable-Super-Mega-Raid-Tag",
@@ -2381,11 +3183,19 @@
   "Dynamax Cryogonal during Max Monday": "Dynamax Cryogonal während max. Montag",
   "Twilight Trails": "Twilight Trails",
   "GO Pass: November": "GO Pass: November",
-  "Master League and Mega Catch Cup: Great League Edition | Twilight Trails": "Master League und Mega Catch Cup: Great League Edition | Twilight Trails",
   "Shadow Tornadus (Incarnate Forme) in Shadow Raids": "Schatten-Tornadus (Inkarnierte Form) in Schatten-Raubzügen",
   "Deoxys (Normal, Defense, Attack, and Speed Formes) in 5-star Raid Battles": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) in 5-Sterne-Raid-Kämpfen",
   "Mega Metagross in Mega Raids": "Mega-Metagross in Mega-Raubzügen",
+  "Regidrago Raid Hour": "Regidrago-Raid-Stunde",
+  "Wimpod Spotlight Hour": "Spotlight-Stunde für Smettbo",
   "Max Battle Day": "Max. Kampftag",
+  "Tropical Paradise": "TROPICAL&#x0A;&#x0A;PARADISE",
+  "Dynamax Deino during Max Monday": "Dynamax-Deino am Max-Montag",
+  "Great League: Mega Edition, Ultra League: Mega Edition, and Master League: Mega Edition | Daydream Destinations": "Super-Liga: Mega-Edition, Ultra-Liga: Mega-Edition und Master-Liga: Mega-Edition | Traumziele",
+  "Mega Slowbro in Mega Raids": "Mega-Slowbro in Mega-Raids",
+  "Regidrago in 5-star Raid Battles": "Regidrago in 5-Sterne-Raids",
+  "Unannounced Raid Hour": "Unangekündigte Raid-Stunde",
+  "Starly Spotlight Hour": "Starly-Spotlight-Stunde",
   "December Community Day 2026": "Community-Tag im Dezember 2026",
   "Increased Spawns": "Erhöhte Spawns",
   "2x XP for catching Pokémon": "2x EP für das Fangen von Pokémon",
@@ -2397,20 +3207,53 @@
   "1-hour Lures*": "1-stündige Köder*",
   "Up to two Special Trades can be made per day*": "Pro Tag können bis zu zwei Sondergeschäfte getätigt werden*",
   "Trades made will require 50% less Stardust*": "Für getätigte Trades wird 50 % weniger Sternenstaub benötigt *",
+  "Unannounced Event": "Unangekündigtes Ereignis",
+  "Dynamax Eevee during Max Monday": "Dynamax-Evoli am Max-Montag",
+  "Great League: Mega Edition and Mountain Cup: Great League Edition | Daydream Destinations": "Große Liga: Mega-Edition und Berg-Cup: Große-Liga-Edition | Traumziele",
+  "Mega Gengar in Mega Raids": "Mega-Gengar in Mega-Raids",
+  "Unannounced Pokémon in 5-star Raid Battles": "Nicht angekündigte Pokémon in 5-Sterne-Raid-Kämpfen",
+  "Ho-Oh Raid Hour": "Ho-Oh-Raid-Stunde",
   "Minior Showers: Geminids 2026": "Kleine Duschen: Geminiden 2026",
   "Increased Stardust for catching Minior": "Erhöhter Sternenstaub zum Fangen von Minior",
   "Increased chance to encounter Minior from 5:00 p.m. to 9:00 p.m. local time each day": "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen",
+  "Bergmite Spotlight Hour": "Spotlight-Stunde für Bergmickie",
   "Raid Day": "Raid-Tag",
+  "Dynamax Alolan Sandshrew during Max Monday": "Dynamax-Alola-Sandan am Max-Montag",
+  "Ultra League: Mega Edition and Holiday Cup: Great League Edition | Daydream Destinations": "Ultra-Liga: Mega-Edition und Feiertags-Cup: Super-Liga-Edition | Traumziele",
+  "Ho-Oh in 5-star Raid Battles": "Ho-Oh in 5-Sterne-Raids",
+  "Mega Skarmory in Mega Raids": "Mega-Skarmory in Mega-Raubzügen",
+  "Lugia Raid Hour": "Lugia-Raid-Stunde",
+  "Delibird Spotlight Hour": "Delibird-Spotlight-Stunde",
   "Hatch Day": "Schraffurtag",
+  "Winter Holiday 2026": "Winterrurlaub",
+  "Dynamax Magikarp during Max Monday": "Dynamax-Karpador am Max-Montag",
+  "Master League: Mega Edition and Holiday Cup: Great League Edition | Daydream Destinations": "Meisterliga: Mega-Edition und Feiertags-Cup: Superliga-Edition | Traumziele",
+  "Lugia in 5-star Raid Battles": "Lugia in 5-Sterne-Raid-Kämpfen",
+  "Mega Glalie in Mega Raids": "Mega-Firnontor in Mega-Raubzügen",
+  "Tornadus (Therian Forme), Thundurus (Therian Forme), and Landorus (Therian Forme) Raid Hour": "Raid-Stunde mit Tornupto (Therian-Form), Voltolos (Therian-Form) und Demeteros (Therian-Form)",
+  "Plusle and Minun Spotlight Hour": "Spotlight-Stunde mit Plusle und Minun",
   "Pokémon GO and Duolingo Timed Research": "Zeitlich begrenzte Forschungsstudie zu Pokémon GO und Duolingo",
   "January Community Day Classic": "Klassischer Community Day im Januar",
+  "New Year's 2027": "Neujahr 2027",
+  "GO Pass: December": "GO Pass: Dezember",
+  "Shadow Dialga in Shadow Raids": "Schatten-Dialga bei Schatten-Raubzügen",
+  "Mega Falinks in Mega Raids": "Mega-Falinks in Mega-Raubzügen",
+  "Tornadus, Thundurus, and Landorus (Therian Formes) in 5-star Raid Battles": "Tornupto, Boreos und Demeteros (Inkara-Formen) in 5-Sterne-Raids",
   "Super Mega Raid Day": "Super-Mega-Raid-Tag",
+  "Great League: Mega Edition and Fighting Cup: Great League Edition | Daydream Destinations": "Super-Liga: Mega-Edition und Kampf-Cup: Super-Liga-Edition | Traumziele",
   "adidas × Pokémon Timed Research": "adidas × Pokémon Zeitgesteuerte Forschung",
   "January Community Day": "Community Day im Januar",
+  "Ultra League: Mega Edition and Jungle Cup: Great League Edition | Daydream Destinations": "Ultra-Liga: Mega-Edition und Dschungel-Cup: Super-Liga-Edition | Traumziele",
+  "Master League: Mega Edition and Master League | Daydream Destinations": "Master League: Mega Edition und Master League | Traumziele",
   "February Community Day": "Community-Tag im Februar",
+  "Great League: Mega Edition and Master League | Daydream Destinations": "Große Liga: Mega-Edition und Meisterliga | Traumziele",
+  "Ultra League: Mega Edition, Love Cup: Great League Edition, and 2027 GO EUIC Cup | Daydream Destinations": "Ultra-Liga: Mega-Edition, Love-Cup: Super-Liga-Edition und 2027 GO EUIC Cup | Traumziele",
   "Pokémon GO Tour: Alola - Kaohsiung 2027": "Pokémon GO Tour: Alola - Kaohsiung 2027",
   "Pokémon GO Tour: Alola - Los Angeles 2027": "Pokémon GO Tour: Alola - Los Angeles 2027",
+  "Master League: Mega Edition, Mega Catch Cup: Great League Edition, and 2027 GO EUIC Cup | Daydream Destinations": "Meister-Liga: Mega-Edition, Mega-Fang-Cup: Große-Liga-Edition und 2027 GO EUIC Cup | Tagtraum-Ziele",
   "Pokémon GO Tour: Alola - Global 2027": "Pokémon GO Tour: Alola - Global 2027",
+  "Daydream Destinations": "Traumhafte Reiseziele",
+  "Great League: Mega Edition, Ultra League: Mega Edition, Master League: Mega Edition, and Mega Catch Cup: Great League Edition | Daydream Destinations": "Superliga: Mega-Edition, Ultra-Liga: Mega-Edition, Master-Liga: Mega-Edition und Mega-Fang-Cup: Superliga-Edition | Tagtraumziele",
   "Minior Showers: Eta Aquariids 2027": "Kleine Duschen: Eta Aquariids 2027",
   "Minior Showers: Southern Delta Aquariids 2027": "Kleine Duschen: Southern Delta Aquariids 2027",
   "Minior Showers: Perseids 2027": "Kleine Duschen: Perseiden 2027",
