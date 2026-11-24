@@ -1275,3 +1275,47 @@ button.choice.compact .choice-text { flex: 1; }
 .guide-prog { display: block; height: 5px; border-radius: 3px; background: #ECEBF2; margin-top: 4px; overflow: hidden; }
 .guide-prog span { display: block; height: 100%; background: #2E9E5B; }
 .open-ic.p-mint { background: #DDF4E6; color: #2A8550; }
+/* Raids: Attacken anpassen / passen schon (24.11.2026) */
+.move.change { background: rgba(200,119,15,.18); color: #7A4706; }
+.move-ok { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 50%; background: #2E9E5B; color: #fff; }
+.move-ok .ic { width: 16px; height: 16px; }
+.keep-moves { background: #fff; border-radius: 16px; padding: 8px 12px; gap: 10px; align-items: center; }
+.keep-moves .seg { width: 130px; flex: none; }
+/* Stufen wählen mit WP (23.11.2026) */
+.level-pick { display: flex; flex-direction: column; gap: 5px; margin: 4px 0 6px; }
+.lv-row { display: flex; align-items: center; gap: 8px; text-align: left; background: #fff; border: 1px solid #DDDDE3; border-radius: 12px; padding: 7px 10px; font: inherit; color: #15151A; cursor: pointer; min-height: 0; }
+.lv-row .grow { display: flex; flex-direction: column; font-size: .85rem; }
+.lv-row.on { background: #ECE9FF; border: 2px solid #7B6CF0; padding: 6px 9px; }
+.lv-row.on b { color: #5546D6; }
+.lv-rec { font-size: .72rem; font-weight: 700; color: #2E9E5B; }
+.lv-wp { white-space: nowrap; }
+/* Gelesene Liste zum Prüfen (23.11.2026) */
+.read-list { background: #fff; border-radius: 14px; padding: 2px 10px; display: flex; flex-direction: column; margin: 4px 0 8px; }
+.read-row { display: flex; align-items: center; gap: 8px; background: none; border: none; border-bottom: 1px solid #ECEBF2; padding: 7px 0; text-align: left; font: inherit; color: #15151A; cursor: pointer; min-height: 0; }
+.read-row:last-child { border-bottom: none; }
+.read-row.gone .grow { text-decoration: line-through; color: #5E5D6B; }
+/* Kreuz in Suchfeldern (23.11.2026) */
+.x-wrap { position: relative; display: block; flex: 1; min-width: 0; }
+.search-pill .x-wrap { display: flex; align-items: center; height: 100%; }
+.x-wrap > input { width: 100%; padding-right: 40px; box-sizing: border-box; }
+.search-x { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; min-height: 0; padding: 0; border: 0; border-radius: 50%; background: #ECEBF2; color: #5E5D6B; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+.search-x svg { width: 16px; height: 16px; fill: currentColor; }
+/* Von Hand neben Erweitern (23.11.2026) */
+.fab-row { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: calc(env(safe-area-inset-bottom) + 84px); z-index: 6; display: flex; gap: 8px; align-items: center; }
+.fab-row .fab-expand { position: static; }
+.fab-manual { display: flex; align-items: center; gap: 6px; background: #fff; color: #15151A; border: 0; border-radius: 999px; padding: 12px 16px; font-weight: 700; font-size: .95rem; box-shadow: 0 4px 14px rgba(17, 17, 20, .25); min-height: 0; cursor: pointer; }
+.fab-manual .ic { width: 20px; height: 20px; }
+.manual-rest { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+/* Raid-Simulation (24.11.2026) */
+.sim { display: flex; flex-direction: column; gap: 8px; }
+.sim-boss { background: #fff; border-radius: 16px; padding: 10px; gap: 10px; }
+.sim-slots { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; }
+.sim-slot { display: flex; flex-direction: column; align-items: center; background: #fff; border: 1px solid transparent; border-radius: 12px; padding: 5px 2px; font: inherit; font-size: 9.5px; font-weight: 700; min-height: 0; min-width: 0; cursor: pointer; }
+.sim-slot span { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sim-slot.on { background: #ECE9FF; border: 2px solid #7B6CF0; }
+.sim-row { display: grid; grid-template-columns: 72px 1fr 96px; gap: 8px; align-items: center; font-size: .8rem; }
+.sim-row.on .sim-who { font-weight: 800; }
+.sim-bar { height: 16px; border-radius: 8px; background: #ECEBF2; position: relative; overflow: hidden; display: block; }
+.sim-bar i { position: absolute; inset: 0 auto 0 0; border-radius: 8px; display: block; }
+.sim-sum { background: rgba(200,119,15,.14); color: #7A4706; border-radius: 14px; padding: 10px; font-weight: 600; }
+.sim-sum.ok { background: #DDF4E6; color: #1e6b3f; }
