@@ -1422,3 +1422,6 @@ main.setup h2 { font-size: 1.2rem; margin: 4px 0 0; text-wrap: balance; }
 .mini .mapline { position: absolute; inset: 0; background: linear-gradient(160deg, #dff3e6 0 55%, #ddeffd 55%); }
 .mini .ball { position: absolute; bottom: 12px; left: 50%; width: 26px; height: 26px; margin-left: -13px; border-radius: 50%; background: linear-gradient(#e5383b 0 46%, var(--ink) 46% 54%, #fff 54%); border: 2px solid var(--ink); animation: fpulse 1.2s infinite; }
 @media (prefers-reduced-motion: reduce) { .fframe { animation: none; position: static; opacity: 1; padding: 10px 16px; } .fdemo { height: auto; display: flex; flex-direction: column; } .mini .scroll, .mini .swipe, .mini .rec, .mini .ball, .mini .tabs b.on { animation: none; } }
+
+/* Kumpel-Aufgaben beim Entwickeln (25.11.2026): orange wie „Wartet auf Event“, wie in der App (Pogo.warn). */
+.task-note { color: #B86E00; font-weight: 600; }
