@@ -1356,3 +1356,5 @@ button.choice.compact .choice-text { flex: 1; }
 .mega-first { color: #b35f00; font-weight: 600; font-size: 12px; }
 .mega-step { display: flex; gap: 8px; align-items: flex-start; font-size: 13px; line-height: 1.4; }
 .mega-num { width: 22px; height: 22px; border-radius: 50%; background: var(--rose-t); color: #fff; font-weight: 800; font-size: 11px; display: grid; place-items: center; flex: none; }
+.catch-card .catch-delete { color: #c62828; align-self: flex-start; }
+.catch-card .catch-delete-q { color: #c62828; font-weight: 600; }
