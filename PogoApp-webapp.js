@@ -168,7 +168,7 @@ import {
   intercepted2ogpsikxxj4u0 as intercepted,
   returnIfSuspended39bw7wdvakhp8 as returnIfSuspended,
   coerceIn10f36k81le1mm as coerceIn_0,
-} from './kotlin-kotlin-stdlib.js?v=1795595721961';
+} from './kotlin-kotlin-stdlib.js?v=1795597156080';
 import {
   EventCalendar_getInstance2addlkwwxhqyo as EventCalendar_getInstance,
   BossPrep_getInstance2ppy5rq40xilu as BossPrep_getInstance,
@@ -374,7 +374,7 @@ import {
   PageSettle21idp888bmz3 as PageSettle,
   Last3mxaoe9u97sp1 as Last,
   SpriteNames_instance3ncolbopaa4q9 as SpriteNames_instance,
-} from './PogoApp-core.js?v=1795595721961';
+} from './PogoApp-core.js?v=1795597156080';
 import {
   CoroutineScopefcb5f5dwqcas as CoroutineScope,
   delayp0o4nsccwai as delay,
@@ -383,9 +383,9 @@ import {
   MainScope1gi1r4abhrtmm as MainScope,
   withTimeoutOrNull2oszfz61ga8oq as withTimeoutOrNull,
   CancellableContinuationImpl1cx201opicavg as CancellableContinuationImpl,
-} from './kotlinx-coroutines-core.js?v=1795595721961';
-import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795595721961';
-import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795595721961';
+} from './kotlinx-coroutines-core.js?v=1795597156080';
+import { Default_getInstancevb13yk0g3h3e as Default_getInstance } from './kotlinx-serialization-kotlinx-serialization-json.js?v=1795597156080';
+import { ListSerializer1hxuk9dx5n9du as ListSerializer } from './kotlinx-serialization-kotlinx-serialization-core.js?v=1795597156080';
 //region block: imports
 var imul = Math.imul;
 //endregion
@@ -16182,6 +16182,26 @@ function TeamView$refresh$slambda$lambda(step, fraction) {
   }
   return Unit_instance;
 }
+function _set_formatKey__pg9yot($this, v) {
+  $this.g4h_1 = v;
+  // Inline function 'kotlin.runCatching' call
+  var tmp;
+  try {
+    localStorage.setItem('pogo.teamFormat', v);
+    // Inline function 'kotlin.Companion.success' call
+    tmp = _Result___init__impl__xyqfz8(Unit_instance);
+  } catch ($p) {
+    var tmp_0;
+    if ($p instanceof Error) {
+      var e = $p;
+      // Inline function 'kotlin.Companion.failure' call
+      tmp_0 = _Result___init__impl__xyqfz8(createFailure(e));
+    } else {
+      throw $p;
+    }
+    tmp = tmp_0;
+  }
+}
 function anchorCard($this, host) {
   add_0(host, 'section', 'card', VOID, TeamView$anchorCard$lambda);
 }
@@ -17193,7 +17213,7 @@ function TeamView$leaguePicker$lambda(a, b) {
 }
 function TeamView$leaguePicker$lambda$choices$lambda($f, $close) {
   return function () {
-    TeamView_getInstance().g4h_1 = $f.z();
+    _set_formatKey__pg9yot(TeamView_getInstance(), $f.z());
     $close();
     App_getInstance().q48();
     return Unit_instance;
@@ -18358,7 +18378,7 @@ function TeamView$customCupCard$lambda$lambda$lambda_0($cup) {
 function TeamView$customCupCard$lambda$lambda$lambda_1($cup) {
   return function () {
     Store_getInstance().v4x($cup.e27_1);
-    TeamView_getInstance().g4h_1 = first(Companion_getInstance_1().j2k_1).z();
+    _set_formatKey__pg9yot(TeamView_getInstance(), first(Companion_getInstance_1().j2k_1).z());
     App_getInstance().q48();
     return Unit_instance;
   };
@@ -18528,7 +18548,7 @@ function TeamView$cupEditor$lambda$lambda_0($title, $start, $cp, $allTypes, $typ
     }
     var cup = new CustomCup(id, tmp_1, tmp_2, destination_0);
     Store_getInstance().w4x(cup);
-    TeamView_getInstance().g4h_1 = cup.i27().z();
+    _set_formatKey__pg9yot(TeamView_getInstance(), cup.i27().z());
     $overlay.remove();
     App_getInstance().q48();
     return Unit_instance;
@@ -19525,15 +19545,12 @@ function TeamView$refresh$slambda_0($quiet, resultContinuation) {
 }
 function TeamView() {
   TeamView_instance = this;
-  this.g4h_1 = '';
-  this.h4h_1 = false;
   var tmp = this;
   // Inline function 'kotlin.runCatching' call
   var tmp_0;
   try {
-    var tmp0_safe_receiver = localStorage.getItem('pogo.minPvp');
     // Inline function 'kotlin.Companion.success' call
-    var value = tmp0_safe_receiver == null ? null : toIntOrNull(tmp0_safe_receiver);
+    var value = localStorage.getItem('pogo.teamFormat');
     tmp_0 = _Result___init__impl__xyqfz8(value);
   } catch ($p) {
     var tmp_1;
@@ -19549,13 +19566,15 @@ function TeamView() {
   // Inline function 'kotlin.Result.getOrNull' call
   var this_0 = tmp_0;
   var tmp0_elvis_lhs = _Result___get_isFailure__impl__jpiriv(this_0) ? null : _Result___get_value__impl__bjfvqg(this_0);
-  tmp.i4h_1 = tmp0_elvis_lhs == null ? 95 : tmp0_elvis_lhs;
+  tmp.g4h_1 = tmp0_elvis_lhs == null ? '' : tmp0_elvis_lhs;
+  this.h4h_1 = false;
   var tmp_2 = this;
   // Inline function 'kotlin.runCatching' call
   var tmp_3;
   try {
+    var tmp0_safe_receiver = localStorage.getItem('pogo.minPvp');
     // Inline function 'kotlin.Companion.success' call
-    var value_0 = EventWait_instance.h1z(localStorage.getItem('pogo.eventWait'));
+    var value_0 = tmp0_safe_receiver == null ? null : toIntOrNull(tmp0_safe_receiver);
     tmp_3 = _Result___init__impl__xyqfz8(value_0);
   } catch ($p_0) {
     var tmp_4;
@@ -19568,25 +19587,16 @@ function TeamView() {
     }
     tmp_3 = tmp_4;
   }
-  var tmp0 = tmp_3;
-  var tmp2 = emptySet();
-  var tmp$ret$9;
-  $l$block: {
-    // Inline function 'kotlin.getOrDefault' call
-    if (_Result___get_isFailure__impl__jpiriv(tmp0)) {
-      tmp$ret$9 = tmp2;
-      break $l$block;
-    }
-    tmp$ret$9 = _Result___get_value__impl__bjfvqg(tmp0);
-  }
-  tmp_2.j4h_1 = tmp$ret$9;
+  // Inline function 'kotlin.Result.getOrNull' call
+  var this_1 = tmp_3;
+  var tmp0_elvis_lhs_0 = _Result___get_isFailure__impl__jpiriv(this_1) ? null : _Result___get_value__impl__bjfvqg(this_1);
+  tmp_2.i4h_1 = tmp0_elvis_lhs_0 == null ? 95 : tmp0_elvis_lhs_0;
   var tmp_5 = this;
   // Inline function 'kotlin.runCatching' call
   var tmp_6;
   try {
-    var tmp0_safe_receiver_0 = localStorage.getItem('pogo.maxRank');
     // Inline function 'kotlin.Companion.success' call
-    var value_1 = tmp0_safe_receiver_0 == null ? null : toIntOrNull(tmp0_safe_receiver_0);
+    var value_1 = EventWait_instance.h1z(localStorage.getItem('pogo.eventWait'));
     tmp_6 = _Result___init__impl__xyqfz8(value_1);
   } catch ($p_1) {
     var tmp_7;
@@ -19599,16 +19609,25 @@ function TeamView() {
     }
     tmp_6 = tmp_7;
   }
-  // Inline function 'kotlin.Result.getOrNull' call
-  var this_1 = tmp_6;
-  var tmp0_elvis_lhs_0 = _Result___get_isFailure__impl__jpiriv(this_1) ? null : _Result___get_value__impl__bjfvqg(this_1);
-  tmp_5.k4h_1 = tmp0_elvis_lhs_0 == null ? 0 : tmp0_elvis_lhs_0;
+  var tmp0 = tmp_6;
+  var tmp2 = emptySet();
+  var tmp$ret$14;
+  $l$block: {
+    // Inline function 'kotlin.getOrDefault' call
+    if (_Result___get_isFailure__impl__jpiriv(tmp0)) {
+      tmp$ret$14 = tmp2;
+      break $l$block;
+    }
+    tmp$ret$14 = _Result___get_value__impl__bjfvqg(tmp0);
+  }
+  tmp_5.j4h_1 = tmp$ret$14;
   var tmp_8 = this;
   // Inline function 'kotlin.runCatching' call
   var tmp_9;
   try {
+    var tmp0_safe_receiver_0 = localStorage.getItem('pogo.maxRank');
     // Inline function 'kotlin.Companion.success' call
-    var value_2 = MegaPvp_getInstance().u2v(localStorage.getItem('pogo.megaEnergy'));
+    var value_2 = tmp0_safe_receiver_0 == null ? null : toIntOrNull(tmp0_safe_receiver_0);
     tmp_9 = _Result___init__impl__xyqfz8(value_2);
   } catch ($p_2) {
     var tmp_10;
@@ -19621,19 +19640,41 @@ function TeamView() {
     }
     tmp_9 = tmp_10;
   }
-  var tmp0_0 = tmp_9;
+  // Inline function 'kotlin.Result.getOrNull' call
+  var this_2 = tmp_9;
+  var tmp0_elvis_lhs_1 = _Result___get_isFailure__impl__jpiriv(this_2) ? null : _Result___get_value__impl__bjfvqg(this_2);
+  tmp_8.k4h_1 = tmp0_elvis_lhs_1 == null ? 0 : tmp0_elvis_lhs_1;
+  var tmp_11 = this;
+  // Inline function 'kotlin.runCatching' call
+  var tmp_12;
+  try {
+    // Inline function 'kotlin.Companion.success' call
+    var value_3 = MegaPvp_getInstance().u2v(localStorage.getItem('pogo.megaEnergy'));
+    tmp_12 = _Result___init__impl__xyqfz8(value_3);
+  } catch ($p_3) {
+    var tmp_13;
+    if ($p_3 instanceof Error) {
+      var e_3 = $p_3;
+      // Inline function 'kotlin.Companion.failure' call
+      tmp_13 = _Result___init__impl__xyqfz8(createFailure(e_3));
+    } else {
+      throw $p_3;
+    }
+    tmp_12 = tmp_13;
+  }
+  var tmp0_0 = tmp_12;
   var tmp2_0 = emptyMap();
-  var tmp$ret$19;
+  var tmp$ret$24;
   $l$block_0: {
     // Inline function 'kotlin.getOrDefault' call
     if (_Result___get_isFailure__impl__jpiriv(tmp0_0)) {
-      tmp$ret$19 = tmp2_0;
+      tmp$ret$24 = tmp2_0;
       break $l$block_0;
     }
-    tmp$ret$19 = _Result___get_value__impl__bjfvqg(tmp0_0);
+    tmp$ret$24 = _Result___get_value__impl__bjfvqg(tmp0_0);
   }
   // Inline function 'kotlin.let' call
-  var m = tmp$ret$19;
+  var m = tmp$ret$24;
   // Inline function 'kotlin.collections.filter' call
   var tmp0_1 = CollectionView_getInstance().e4b_1;
   // Inline function 'kotlin.collections.filterTo' call
@@ -19641,15 +19682,15 @@ function TeamView() {
   var _iterator__ex2g4s = tmp0_1.i();
   while (_iterator__ex2g4s.j()) {
     var element = _iterator__ex2g4s.k();
-    var tmp_11;
+    var tmp_14;
     if (Intentions_getInstance().y2q(element)) {
       // Inline function 'kotlin.collections.contains' call
       // Inline function 'kotlin.collections.containsKey' call
-      tmp_11 = !(isInterface(m, KtMap) ? m : THROW_CCE()).c2(element);
+      tmp_14 = !(isInterface(m, KtMap) ? m : THROW_CCE()).c2(element);
     } else {
-      tmp_11 = false;
+      tmp_14 = false;
     }
-    if (tmp_11) {
+    if (tmp_14) {
       destination.h(element);
     }
   }
@@ -19661,36 +19702,36 @@ function TeamView() {
     var element_0 = _iterator__ex2g4s_0.k();
     result.h2(element_0, true);
   }
-  tmp_8.l4h_1 = plus_3(m, result);
-  var tmp_12 = this;
+  tmp_11.l4h_1 = plus_3(m, result);
+  var tmp_15 = this;
   // Inline function 'kotlin.runCatching' call
-  var tmp_13;
+  var tmp_16;
   try {
     // Inline function 'kotlin.Companion.success' call
-    var value_3 = localStorage.getItem('pogo.frustrationOk') === '1';
-    tmp_13 = _Result___init__impl__xyqfz8(value_3);
-  } catch ($p_3) {
-    var tmp_14;
-    if ($p_3 instanceof Error) {
-      var e_3 = $p_3;
+    var value_4 = localStorage.getItem('pogo.frustrationOk') === '1';
+    tmp_16 = _Result___init__impl__xyqfz8(value_4);
+  } catch ($p_4) {
+    var tmp_17;
+    if ($p_4 instanceof Error) {
+      var e_4 = $p_4;
       // Inline function 'kotlin.Companion.failure' call
-      tmp_14 = _Result___init__impl__xyqfz8(createFailure(e_3));
+      tmp_17 = _Result___init__impl__xyqfz8(createFailure(e_4));
     } else {
-      throw $p_3;
+      throw $p_4;
     }
-    tmp_13 = tmp_14;
+    tmp_16 = tmp_17;
   }
-  var tmp0_2 = tmp_13;
-  var tmp$ret$34;
+  var tmp0_2 = tmp_16;
+  var tmp$ret$39;
   $l$block_1: {
     // Inline function 'kotlin.getOrDefault' call
     if (_Result___get_isFailure__impl__jpiriv(tmp0_2)) {
-      tmp$ret$34 = false;
+      tmp$ret$39 = false;
       break $l$block_1;
     }
-    tmp$ret$34 = _Result___get_value__impl__bjfvqg(tmp0_2);
+    tmp$ret$39 = _Result___get_value__impl__bjfvqg(tmp0_2);
   }
-  tmp_12.m4h_1 = tmp$ret$34;
+  tmp_15.m4h_1 = tmp$ret$39;
   this.n4h_1 = false;
   this.o4h_1 = false;
   this.p4h_1 = false;
@@ -19706,8 +19747,8 @@ function TeamView() {
   this.z4h_1 = null;
   this.a4i_1 = '';
   this.b4i_1 = null;
-  var tmp_15 = this;
-  tmp_15.c4i_1 = TeamView$refreshSaveHook$lambda;
+  var tmp_18 = this;
+  tmp_18.c4i_1 = TeamView$refreshSaveHook$lambda;
   this.d4i_1 = HashSet_init_$Create$();
   this.e4i_1 = false;
   this.f4i_1 = HashSet_init_$Create$();
