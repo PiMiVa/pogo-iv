@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T07:25:39Z",
+ "generated": "2026-11-25T17:26:33Z",
  "gbl": [
   {
    "name": "Master League and Mega Catch Cup: Great League Edition",
@@ -1119,6 +1119,33 @@
  ],
  "news": [
   {
+   "title": "Pokémon GO December 2026 Events, Raids & Spotlight Hours",
+   "titleDe": "Pokémon GO – Events, Raids und Spotlight-Stunden im Dezember 2026",
+   "link": "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/",
+   "date": "Wed, 25 Nov 2026 16:55:17 +0000",
+   "categories": [
+    "Events",
+    "december 2026",
+    "december 2026 events",
+    "december 2026 raids",
+    "december 2026 spotlight hours"
+   ]
+  },
+  {
+   "title": "Noibat Spotlight Hour: Last Minute Guide (November 2026)",
+   "titleDe": "Noibat-Spotlight-Stunde: Last-Minute-Leitfaden (November 2026)",
+   "link": "https://pokemongohub.net/post/tips-and-tricks/noibat-spotlight-hour-last-minute-guide-november-2026/",
+   "date": "Wed, 25 Nov 2026 10:48:36 +0000",
+   "categories": [
+    "Tips and Tricks",
+    "2x catch candy",
+    "noibat spotlight hour",
+    "noivern",
+    "november 2026 spotlight hour",
+    "Shiny Noibat"
+   ]
+  },
+  {
    "title": "Daydream Destinations: Choose Your Path Timed Research Dates",
    "titleDe": "Tagtraum-Reiseziele: Wähle deinen Weg – Termine für die zeitlich begrenzte Forschung",
    "link": "https://pokemongohub.net/post/research/daydream-destinations-choose-your-path-timed-research/",
@@ -1545,40 +1572,9 @@
     "priority guide",
     "rookidee"
    ]
-  },
-  {
-   "title": "Dynamax Trails: Eternatus Returns",
-   "titleDe": "Dynamax-Pfade: Eternatus kehrt zurück",
-   "link": "https://pokemongohub.net/post/event/dynamax-trails-eternatus-returns/",
-   "date": "Mon, 16 Nov 2026 08:00:04 +0000",
-   "categories": [
-    "Events",
-    "dynamax trails",
-    "eternatus"
-   ]
-  },
-  {
-   "title": "This Week in Pokémon GO (November 16-22): Dynamax Trails, Eternatus, Pawniard Community Day",
-   "titleDe": "Diese Woche in Pokémon GO (16.–22. November): Dynamax-Pfade, Eternatus, Community Day mit Zurrokex",
-   "link": "https://pokemongohub.net/post/event/this-week-in-pokemon-go-november-16-22-dynamax-trails-eternatus-pawniard-community-day/",
-   "date": "Sun, 15 Nov 2026 20:02:04 +0000",
-   "categories": [
-    "Events",
-    "cresselia raid hour",
-    "darkrai raid hour",
-    "eternatus",
-    "galar first partner pokemon spotlight hour",
-    "galar starter spotlight hour",
-    "grookey spotlight hour",
-    "scorbunny spotlight hour",
-    "sobble spotlight hour",
-    "This Week in Pokémon GO"
-   ]
   }
  ],
  "events": {
-  "dynamax-trails-2026": "Dynamax Trails",
-  "max-mondays-2026-11-23": "Dynamax Espurr während Max. Montag",
   "cresselia-darkrai-in-5-star-raid-battles-november-2026": "Cresselia und Darkrai in 5-Sterne-Raid-Kämpfen",
   "mega-banette-in-mega-raids-november-2026": "Mega-Banette in Mega-Raubzügen",
   "raidhour20261125": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) Raid-Stunde",
@@ -1661,141 +1657,6 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "details": {
-  "dynamax-trails-2026": {
-   "v": 2,
-   "sections": [
-    {
-     "id": "spawns",
-     "groups": [
-      {
-       "title": "Wild Encounters",
-       "pokemon": [
-        "Bulbasaur",
-        "Charmander",
-        "Squirtle",
-        "Caterpie",
-        "Pikachu",
-        "Growlithe",
-        "Abra",
-        "Machop",
-        "Gastly",
-        "Krabby",
-        "Hitmonlee",
-        "Hitmonchan",
-        "Rhyhorn",
-        "Chansey",
-        "Electabuzz",
-        "Magmar",
-        "Magikarp",
-        "Eevee",
-        "Omanyte",
-        "Kabuto",
-        "Hoothoot",
-        "Shuckle",
-        "Sneasel",
-        "Hitmontop",
-        "Ralts",
-        "Sableye",
-        "Wailmer",
-        "Trapinch",
-        "Feebas",
-        "Spheal",
-        "Beldum",
-        "Combee",
-        "Pidove",
-        "Roggenrola",
-        "Woobat",
-        "Drilbur",
-        "Cottonee",
-        "Darumaka",
-        "Trubbish",
-        "Cryogonal"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "max-battles",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Bulbasaur",
-        "Charmander",
-        "Squirtle",
-        "Caterpie",
-        "Pikachu",
-        "Growlithe",
-        "Abra",
-        "Machop",
-        "Gastly",
-        "Krabby",
-        "Hitmonlee",
-        "Hitmonchan",
-        "Rhyhorn",
-        "Chansey",
-        "Electabuzz",
-        "Magmar",
-        "Magikarp",
-        "Eevee",
-        "Omanyte",
-        "Kabuto",
-        "Hoothoot",
-        "Shuckle",
-        "Sneasel",
-        "Hitmontop",
-        "Ralts",
-        "Sableye",
-        "Wailmer",
-        "Trapinch",
-        "Feebas",
-        "Spheal",
-        "Beldum",
-        "Combee",
-        "Pidove",
-        "Roggenrola",
-        "Woobat",
-        "Drilbur",
-        "Cottonee",
-        "Darumaka",
-        "Trubbish",
-        "Cryogonal"
-       ]
-      },
-      {
-       "title": "Eternatus Returns",
-       "pokemon": [
-        "Eternamax Eternatus"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [
-    "Chance to receive Max Particles when catching event-themed Pokémon in the wild or after Max Battles",
-    "More Power Spots than usual will be active"
-   ],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-25",
-   "bonusesDe": [
-    "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
-    "Es werden mehr Power Spots als üblich aktiv sein"
-   ],
-   "ticketBonusesDe": []
-  },
-  "max-mondays-2026-11-23": {
-   "v": 2,
-   "sections": [],
-   "bonuses": [],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-25",
-   "bonusesDe": [],
-   "ticketBonusesDe": []
-  },
   "cresselia-darkrai-in-5-star-raid-battles-november-2026": {
    "v": 2,
    "sections": [
@@ -3121,7 +2982,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-24",
+   "fetched": "2026-11-25",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3132,7 +2993,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-24",
+   "fetched": "2026-11-25",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3158,7 +3019,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-24",
+   "fetched": "2026-11-25",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3187,7 +3048,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-24",
+   "fetched": "2026-11-25",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3216,7 +3077,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-24",
+   "fetched": "2026-11-25",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3229,9 +3090,6 @@
   "Explore 1 km": "Entdecken 1",
   "Hatch an Egg": "Ein Ei ausbrüten",
   "Use a Lure Module at a PokéStop": "Verwende ein Lockmodul an einem PokéStop",
-  "Catch 8 Pokémon": "Fange 8 Pokémon",
-  "Power up Pokémon 8 times": "Verstärke Pokémon 8-mal",
-  "Win a Max Battle": "Gewinne einen Max-Kampf",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -3268,6 +3126,8 @@
  },
  "codes": [],
  "translations": {
+  "Pokémon GO December 2026 Events, Raids & Spotlight Hours": "Pokémon GO – Events, Raids und Spotlight-Stunden im Dezember 2026",
+  "Noibat Spotlight Hour: Last Minute Guide (November 2026)": "Noibat-Spotlight-Stunde: Last-Minute-Leitfaden (November 2026)",
   "Daydream Destinations: Choose Your Path Timed Research Dates": "Tagtraum-Reiseziele: Wähle deinen Weg – Termine für die zeitlich begrenzte Forschung",
   "Pokémon GO December 2026 GO Pass: Kyurem, Deluxe Rewards, and Milestone Bonuses": "Pokémon GO GO-Pass für Dezember 2026: Kyurem, Deluxe-Belohnungen und Meilenstein-Boni",
   "Paid Gifts are Coming to Pokémon GO": "Bezahlte Geschenke kommen zu Pokémon GO",
@@ -3296,12 +3156,6 @@
   "Pokémon GO × Duolingo: Duo’s Pokémon Party, Timed Research & Language Tag": "Pokémon GO × Duolingo: Duos Pokémon-Party, zeitlich begrenzte Forschung und Sprach-Tag",
   "Pokémon GO x Crocs Promo Codes!": "Pokémon GO x Crocs-Promo-Codes!",
   "Pokémon GO Dynamax Trails: What to Farm First – Priority Guide": "Pokémon GO Dynamax-Pfade: Was man zuerst farmen sollte – Prioritäten-Leitfaden",
-  "Dynamax Trails: Eternatus Returns": "Dynamax-Pfade: Eternatus kehrt zurück",
-  "This Week in Pokémon GO (November 16-22): Dynamax Trails, Eternatus, Pawniard Community Day": "Diese Woche in Pokémon GO (16.–22. November): Dynamax-Pfade, Eternatus, Community Day mit Zurrokex",
-  "Dynamax Trails": "Dynamax Trails",
-  "Chance to receive Max Particles when catching event-themed Pokémon in the wild or after Max Battles": "Chance auf max. Partikel beim Fangen von Event-Pokémon in der Wildnis oder nach max. Kämpfen",
-  "More Power Spots than usual will be active": "Es werden mehr Power Spots als üblich aktiv sein",
-  "Dynamax Espurr during Max Monday": "Dynamax Espurr während Max. Montag",
   "Cresselia and Darkrai in 5-star Raid Battles": "Cresselia und Darkrai in 5-Sterne-Raid-Kämpfen",
   "Mega Banette in Mega Raids": "Mega-Banette in Mega-Raubzügen",
   "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) Raid-Stunde",
@@ -3406,9 +3260,6 @@
   "Explore 1 km": "Entdecken 1",
   "Hatch an Egg": "Ein Ei ausbrüten",
   "Use a Lure Module at a PokéStop": "Verwende ein Lockmodul an einem PokéStop",
-  "Catch 8 Pokémon": "Fange 8 Pokémon",
-  "Power up Pokémon 8 times": "Verstärke Pokémon 8-mal",
-  "Win a Max Battle": "Gewinne einen Max-Kampf",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
