@@ -1333,3 +1333,26 @@ button.choice.compact .choice-text { flex: 1; }
 .better-row b { font-size: .9rem; }
 .better-row small { color: var(--muted); font-size: .78rem; line-height: 1.35; }
 .better-row .better-arrow { color: var(--violet); }
+
+/* Fang-Cup (25.11.2026): Hinweis im PvP-Reiter, Einführung in drei Schritten, Liste zum Bestätigen */
+.catch-card { display: flex; flex-direction: column; gap: 8px; }
+.catch-card.warn { background: var(--sun); color: var(--on-sun); }
+.catch-card.warn .small { color: var(--on-sun); }
+.catch-card.ok { background: #dff3e6; color: #1e6b3f; }
+.catch-card.ok .small { color: #1e6b3f; }
+.catch-step { display: flex; gap: 10px; align-items: flex-start; margin: 6px 0; }
+.catch-step .grow { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.catch-num { width: 26px; height: 26px; border-radius: 50%; background: var(--violet); color: #fff; font-weight: 800; font-size: 13px; display: grid; place-items: center; flex: none; }
+.catch-list { background: var(--mist); border-radius: 14px; padding: 4px 10px; margin: 6px 0; }
+.catch-row { display: flex; gap: 8px; align-items: center; padding: 6px 0; font-size: 13px; cursor: pointer; }
+.catch-row + .catch-row { border-top: 1px solid var(--line); }
+.catch-row.gone .grow { text-decoration: line-through; color: var(--muted); }
+
+/* Mega im Team (25.11.2026): vorher im Spiel Mega-entwickeln */
+.mega-banner { background: var(--rose); color: var(--rose-t); border-radius: 18px; padding: 10px 12px; margin: 8px 0; font-size: 13px; line-height: 1.4; }
+.mega-banner b { display: block; font-size: 15px; margin-bottom: 2px; }
+.mega-badge { background: var(--rose-t); color: #fff; border-radius: 999px; font-size: 11px; font-weight: 800; padding: 1px 8px; flex: none; }
+.mega-todo { color: #c62828; font-weight: 700; font-size: 12px; margin-top: 2px; }
+.mega-first { color: #b35f00; font-weight: 600; font-size: 12px; }
+.mega-step { display: flex; gap: 8px; align-items: flex-start; font-size: 13px; line-height: 1.4; }
+.mega-num { width: 22px; height: 22px; border-radius: 50%; background: var(--rose-t); color: #fff; font-weight: 800; font-size: 11px; display: grid; place-items: center; flex: none; }

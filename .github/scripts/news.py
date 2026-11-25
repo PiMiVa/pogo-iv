@@ -226,6 +226,58 @@ def max_hp(old_list):
     return out
 
 
+MAX_GBL_PAGES = 6  # hoechstens so viele Liga-Seiten pro Lauf (nur fuer Fang-Cups, je Woche einmal)
+CATCH = re.compile(r"caught (?:between|from) ([A-Z][a-z]+ \d{1,2}, \d{4}).{0,60}? (?:and|to|until) ([A-Z][a-z]+ \d{1,2}, \d{4})", re.S)
+
+
+def day(text):
+    try:
+        return datetime.strptime(text, "%B %d, %Y").strftime("%Y-%m-%d")
+    except Exception:
+        return None
+
+
+def gbl(events, old_list):
+    """
+    Liga-Wochen der GO Kampfliga (Rueckmeldung 25.11.2026): LeekDuck/ScrapedDuck nahmen die laufende Woche mit dem
+    Mega-Fang-Cup aus ihrer Liste. Darum merkt sich der Job jede Woche, bis sie vorbei ist. Bei Fang-Cups (Catch Cup)
+    liest er einmal den Fang-Zeitraum von der LeekDuck-Seite ("caught between September 8, 2026 ... and December 1, 2026").
+    """
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
+    weeks = {}
+    for w in old_list or []:
+        if (w.get("end") or "") > now and w.get("start"):
+            weeks[w["start"][:19]] = w
+    for e in events:
+        if e.get("eventType") != "go-battle-league" or not e.get("start") or not e.get("end"):
+            continue
+        k = e["start"][:19]
+        prev = weeks.get(k, {})
+        w = {"name": e.get("name") or "", "start": e["start"], "end": e["end"], "link": e.get("link") or prev.get("link", "")}
+        for f in ("catchFrom", "catchTo"):
+            if prev.get(f):
+                w[f] = prev[f]
+        weeks[k] = w
+    pages = [MAX_GBL_PAGES]
+    for w in weeks.values():
+        if "catch" not in w["name"].lower() or w.get("catchFrom") or w.get("noWindow") or pages[0] <= 0:
+            continue
+        if not (w.get("link") or "").startswith("https://leekduck.com/"):
+            continue
+        pages[0] -= 1
+        try:
+            text = re.sub(r"\s+", " ", clean(get(w["link"])))
+            m = CATCH.search(text)
+            if m and day(m.group(1)) and day(m.group(2)):
+                w["catchFrom"], w["catchTo"] = day(m.group(1)), day(m.group(2))
+            else:
+                w["noWindow"] = True
+            time.sleep(1)
+        except Exception:
+            pass
+    return sorted(weeks.values(), key=lambda w: w["start"])
+
+
 def main():
     try:
         old = json.load(open(OUT, encoding="utf-8"))
@@ -275,7 +327,8 @@ def main():
     pages = [MAX_PAGES]
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     cutoff = (datetime.now(timezone.utc) - timedelta(days=2)).strftime("%Y-%m-%dT%H:%M")
-    for e in json.loads(get(EVENTS)):
+    all_events = json.loads(get(EVENTS))
+    for e in all_events:
         end = e.get("end") or ""
         if end and end < cutoff:
             continue
@@ -329,8 +382,15 @@ def main():
     except Exception:
         bosses = old.get("maxHp", [])
 
+    # Liga-Wochen merken (auch wenn LeekDuck die laufende aus der Liste nimmt); bei einem Fehler bleibt die alte Liste.
+    try:
+        weeks = gbl(all_events, old.get("gbl", []))
+    except Exception:
+        weeks = old.get("gbl", [])
+
     result = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "gbl": weeks,
         "maxHp": bosses,
         "news": news,
         "events": events,
