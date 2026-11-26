@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T01:53:57Z",
+ "generated": "2026-11-26T11:07:07Z",
  "gbl": [
   {
    "name": "Master League and Mega Catch Cup: Great League Edition",
@@ -1119,6 +1119,20 @@
  ],
  "news": [
   {
+   "title": "Pokémon Champions Celebration Brings Eight Legendary Raid Bosses to Pokémon GO",
+   "titleDe": null,
+   "link": "https://pokemongohub.net/post/event/pokemon-champions-celebration-2026/",
+   "date": "Thu, 26 Nov 2026 05:19:04 +0000",
+   "categories": [
+    "Events",
+    "Garchomp",
+    "pokemon champions",
+    "pokemon champions celebration event",
+    "Raichu",
+    "rillaboom"
+   ]
+  },
+  {
    "title": "Gigantamax Inteleon Max Battle Day: Shiny Debut & Bonuses",
    "titleDe": "Gigadynamax-Inteleon-Max-Kampftag: Shiny-Debüt & Boni",
    "link": "https://pokemongohub.net/post/event/gigantamax-inteleon-max-battle-day-december-2026/",
@@ -1179,6 +1193,19 @@
     "noivern",
     "november 2026 spotlight hour",
     "Shiny Noibat"
+   ]
+  },
+  {
+   "title": "Pokémon Sleep: Super Skill Week Vol. 4",
+   "titleDe": null,
+   "link": "https://pokemongohub.net/post/sleep/pokemon-sleep-super-skill-week-vol-4/",
+   "date": "Wed, 25 Nov 2026 08:00:43 +0000",
+   "categories": [
+    "Pokémon Sleep",
+    "hisuian arcanine",
+    "hisuian growlithe",
+    "pokemon sleep",
+    "super skills week"
    ]
   },
   {
@@ -1529,36 +1556,6 @@
     "pve guide",
     "pve meta"
    ]
-  },
-  {
-   "title": "TCG Pocket Promo Pack C Series Vol.1: Mega Mewtwo Y ex, Exclusive Cards & Missions",
-   "titleDe": "TCG Pocket Promo-Pack C-Serie Vol.1: Mega-Mewtu Y ex, exklusive Karten & Missionen",
-   "link": "https://pokemongohub.net/post/tcg-pocket/tcg-pocket-promo-pack-c-series-vol-1-mega-mewtwo-y-ex-exclusive-cards-missions/",
-   "date": "Tue, 17 Nov 2026 19:19:43 +0000",
-   "categories": [
-    "Pokémon TCG Pocket",
-    "ex cards pokemon tcg pocket",
-    "mega evolution pokemon tcg pcoket",
-    "mega mewtwo x",
-    "mega mewtwo y",
-    "mega mewtwo y ex tcg pocket",
-    "pokemon tcg pocket promo cards"
-   ]
-  },
-  {
-   "title": "PvP Tips and Tricks: GBL LAIC Cup",
-   "titleDe": "PvP-Tipps und -Tricks: GBL-LAIC-Cup",
-   "link": "https://pokemongohub.net/post/meta/pvp-tips-and-tricks-gbl-laic-cup/",
-   "date": "Tue, 17 Nov 2026 13:28:46 +0000",
-   "categories": [
-    "Meta",
-    "Trainer Battles",
-    "laic",
-    "laic meta",
-    "laic pvp",
-    "Nifty or Thrifty",
-    "pvp meta"
-   ]
   }
  ],
  "events": {
@@ -1576,7 +1573,6 @@
   "mega-metagross-in-mega-raids-november-2026": "Mega-Metagross in Mega-Raubzügen",
   "raidhour20261202": "Regidrago-Raid-Stunde",
   "pokemonspotlighthour2026-12-03": "Spotlight-Stunde für Smettbo",
-  "max-battle-day-december-2026": "Max. Kampftag",
   "tropical-paradise-2026": "TROPICAL&#x0A;&#x0A;PARADISE",
   "max-mondays-2026-12-07": "Dynamax-Deino am Max-Montag",
   "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1": "Super-Liga: Mega-Edition, Ultra-Liga: Mega-Edition und Master-Liga: Mega-Edition | Traumziele",
@@ -2040,16 +2036,52 @@
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
-  "max-battle-day-december-2026": {
+  "gigantamax-inteleon-max-battle-day-2026": {
    "v": 2,
-   "sections": [],
-   "bonuses": [],
-   "ticketBonuses": [],
+   "sections": [
+    {
+     "id": "shiny",
+     "groups": [
+      {
+       "title": "",
+       "pokemon": [
+        "Gigantamax Inteleon"
+       ]
+      }
+     ]
+    }
+   ],
+   "bonuses": [
+    "Max Particle collection limit increased to 1,600",
+    "All Power Spots will host Gigantamax Battles",
+    "Power Spots will refresh more frequently",
+    "Additional Power Spots will be active",
+    "8× Max Particles from Power Spots",
+    "Up to three Special Trades for the day",
+    "From December 4 at 4:00 p.m. to December 5 at 8:00 p.m. PST (GMT −8), the daily Remote Raid limit will increase from 10 to 20",
+    "2× Max Particles from exploring*",
+    "1/4 Adventuring distance to receive Max Particles**"
+   ],
+   "ticketBonuses": [
+    "2× XP from Max Battles"
+   ],
    "moves": [],
    "ticket": "",
    "fetched": "2026-11-26",
-   "bonusesDe": [],
-   "ticketBonusesDe": []
+   "bonusesDe": [
+    "Max Particle collection limit increased to 1,600",
+    "All Power Spots will host Gigantamax Battles",
+    "Power Spots will refresh more frequently",
+    "Additional Power Spots will be active",
+    "8× Max Particles from Power Spots",
+    "Up to three Special Trades for the day",
+    "From December 4 at 4:00 p.m. to December 5 at 8:00 p.m. PST (GMT −8), the daily Remote Raid limit will increase from 10 to 20",
+    "2× Max Particles from exploring*",
+    "1/4 Adventuring distance to receive Max Particles**"
+   ],
+   "ticketBonusesDe": [
+    "2× XP from Max Battles"
+   ]
   },
   "tropical-paradise-2026": {
    "v": 2,
@@ -2656,7 +2688,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2691,7 +2723,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2702,7 +2734,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2725,7 +2757,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2736,7 +2768,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2747,7 +2779,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2758,7 +2790,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2792,7 +2824,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2827,7 +2859,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2838,7 +2870,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2862,7 +2894,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2888,7 +2920,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2899,7 +2931,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2910,7 +2942,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2944,7 +2976,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2979,7 +3011,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3017,7 +3049,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3028,7 +3060,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3039,7 +3071,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3050,7 +3082,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3061,7 +3093,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3072,7 +3104,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3083,7 +3115,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3094,7 +3126,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3105,7 +3137,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3116,7 +3148,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3127,7 +3159,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3138,7 +3170,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3149,7 +3181,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3321,8 +3353,6 @@
   "Hisuian Goodra and Magnet Bomb Magnezone… Any Use in PvP?": "Hisui-Goodra und Magnetbombe-Magnezone … Sind sie im PvP nützlich?",
   "Grookey, Scorbunny and Sobble Spotlight Hour: Last Minute Guide": "Spotlight-Stunde mit Chimpep, Hopplo und Memmeon: Last-Minute-Leitfaden",
   "Eternatus in Pokémon GO: Still a Game Changer for Raids and Max Battles?": "Eternatus in Pokémon GO: Immer noch ein Gamechanger für Raids und Max-Kämpfe?",
-  "TCG Pocket Promo Pack C Series Vol.1: Mega Mewtwo Y ex, Exclusive Cards & Missions": "TCG Pocket Promo-Pack C-Serie Vol.1: Mega-Mewtu Y ex, exklusive Karten & Missionen",
-  "PvP Tips and Tricks: GBL LAIC Cup": "PvP-Tipps und -Tricks: GBL-LAIC-Cup",
   "Cresselia and Darkrai in 5-star Raid Battles": "Cresselia und Darkrai in 5-Sterne-Raid-Kämpfen",
   "Mega Banette in Mega Raids": "Mega-Banette in Mega-Raubzügen",
   "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) Raid-Stunde",
@@ -3350,7 +3380,6 @@
   "Mega Metagross in Mega Raids": "Mega-Metagross in Mega-Raubzügen",
   "Regidrago Raid Hour": "Regidrago-Raid-Stunde",
   "Wimpod Spotlight Hour": "Spotlight-Stunde für Smettbo",
-  "Max Battle Day": "Max. Kampftag",
   "Tropical Paradise": "TROPICAL&#x0A;&#x0A;PARADISE",
   "2× Raid XP": "2× Raid-EP",
   "5× Mega Energy for exploring with Slowpoke, Slowbro, or Slowking as your buddy after Mega Evolving Slowbro at least once": "5× Mega-Energie für das Erkunden mit Quaputzi, Quapohl oder Laschoking als deinem Buddy, nachdem du Quapohl mindestens einmal zu einem Mega-Pokémon entwickelt hast",
@@ -3415,6 +3444,7 @@
   "January Community Day": "Community Day im Januar",
   "Choose Your Path: Daydream Destinations (January 12, 2027)": "Wähle deinen Weg: Traumziele (12. Januar 2027)",
   "Ultra League: Mega Edition and Jungle Cup: Great League Edition | Daydream Destinations": "Ultra-Liga: Mega-Edition und Dschungel-Cup: Super-Liga-Edition | Traumziele",
+  "Max Battle Day": "Max. Kampftag",
   "Master League: Mega Edition and Master League | Daydream Destinations": "Master League: Mega Edition und Master League | Traumziele",
   "Choose Your Path: Daydream Destinations (January 26, 2027)": "Wähle deinen Weg: Traumziele (26. Januar 2027)",
   "February Community Day": "Community-Tag im Februar",
