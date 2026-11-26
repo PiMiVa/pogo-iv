@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T11:07:07Z",
+ "generated": "2026-11-26T20:18:17Z",
  "gbl": [
   {
    "name": "Master League and Mega Catch Cup: Great League Edition",
@@ -1119,8 +1119,25 @@
  ],
  "news": [
   {
+   "title": "Is Mega Clefable any good for Pokémon GO Raids?",
+   "titleDe": "Ist Mega-Pippi gut für Pokémon-GO-Raubzüge geeignet?",
+   "link": "https://pokemongohub.net/post/meta/is-mega-clefable-any-good-for-pokemon-go-raids/",
+   "date": "Thu, 26 Nov 2026 13:18:36 +0000",
+   "categories": [
+    "Meta",
+    "Clefable",
+    "fairy types",
+    "mega clefable",
+    "mega clefable analysis",
+    "mega clefable meta",
+    "mega clefable pve",
+    "Mega Evolution",
+    "moonblast"
+   ]
+  },
+  {
    "title": "Pokémon Champions Celebration Brings Eight Legendary Raid Bosses to Pokémon GO",
-   "titleDe": null,
+   "titleDe": "Die Pokémon-Champions-Feier bringt acht legendäre Raid-Bosse zu Pokémon GO",
    "link": "https://pokemongohub.net/post/event/pokemon-champions-celebration-2026/",
    "date": "Thu, 26 Nov 2026 05:19:04 +0000",
    "categories": [
@@ -1197,7 +1214,7 @@
   },
   {
    "title": "Pokémon Sleep: Super Skill Week Vol. 4",
-   "titleDe": null,
+   "titleDe": "Pokémon Schlaf: Super-Fähigkeiten-Woche – Ausgabe 4",
    "link": "https://pokemongohub.net/post/sleep/pokemon-sleep-super-skill-week-vol-4/",
    "date": "Wed, 25 Nov 2026 08:00:43 +0000",
    "categories": [
@@ -1533,34 +1550,9 @@
     "scorbunny",
     "sobble"
    ]
-  },
-  {
-   "title": "Eternatus in Pokémon GO: Still a Game Changer for Raids and Max Battles?",
-   "titleDe": "Eternatus in Pokémon GO: Immer noch ein Gamechanger für Raids und Max-Kämpfe?",
-   "link": "https://pokemongohub.net/post/meta/eternatus-pve/",
-   "date": "Wed, 18 Nov 2026 06:00:57 +0000",
-   "categories": [
-    "Meta",
-    "best dragon type pokemon go",
-    "dragon",
-    "dragon type pokemon",
-    "dragon types",
-    "dynamax cannon",
-    "eternatus",
-    "eternatus in pve",
-    "eternatus in raids",
-    "eternatus meta",
-    "legendary pokemon",
-    "mega rayquaza",
-    "poison type pokemon",
-    "pve guide",
-    "pve meta"
-   ]
   }
  ],
  "events": {
-  "cresselia-darkrai-in-5-star-raid-battles-november-2026": "Cresselia und Darkrai in 5-Sterne-Raid-Kämpfen",
-  "mega-banette-in-mega-raids-november-2026": "Mega-Banette in Mega-Raubzügen",
   "raidhour20261125": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) Raid-Stunde",
   "pokemonspotlighthour2026-11-26": "Noibat Spotlight Hour",
   "clefable-super-mega-raid-day-2026": "Clefable-Super-Mega-Raid-Tag",
@@ -1573,6 +1565,7 @@
   "mega-metagross-in-mega-raids-november-2026": "Mega-Metagross in Mega-Raubzügen",
   "raidhour20261202": "Regidrago-Raid-Stunde",
   "pokemonspotlighthour2026-12-03": "Spotlight-Stunde für Smettbo",
+  "gigantamax-inteleon-max-battle-day-2026": "Gigadynamax-Intelleon-Max-Kampftag",
   "tropical-paradise-2026": "TROPICAL&#x0A;&#x0A;PARADISE",
   "max-mondays-2026-12-07": "Dynamax-Deino am Max-Montag",
   "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1": "Super-Liga: Mega-Edition, Ultra-Liga: Mega-Edition und Master-Liga: Mega-Edition | Traumziele",
@@ -1640,77 +1633,6 @@
   "minior-showers-perseids-2027": "Kleine Duschen: Perseiden 2027"
  },
  "details": {
-  "cresselia-darkrai-in-5-star-raid-battles-november-2026": {
-   "v": 2,
-   "sections": [
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Cresselia",
-        "Darkrai"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "shiny",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Cresselia",
-        "Darkrai"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-26",
-   "bonusesDe": [],
-   "ticketBonusesDe": []
-  },
-  "mega-banette-in-mega-raids-november-2026": {
-   "v": 2,
-   "sections": [
-    {
-     "id": "raids",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Mega Banette"
-       ]
-      }
-     ]
-    },
-    {
-     "id": "shiny",
-     "groups": [
-      {
-       "title": "",
-       "pokemon": [
-        "Banette",
-        "Mega Banette"
-       ]
-      }
-     ]
-    }
-   ],
-   "bonuses": [],
-   "ticketBonuses": [],
-   "moves": [],
-   "ticket": "",
-   "fetched": "2026-11-26",
-   "bonusesDe": [],
-   "ticketBonusesDe": []
-  },
   "raidhour20261125": {
    "v": 2,
    "sections": [],
@@ -2069,18 +1991,18 @@
    "ticket": "",
    "fetched": "2026-11-26",
    "bonusesDe": [
-    "Max Particle collection limit increased to 1,600",
-    "All Power Spots will host Gigantamax Battles",
-    "Power Spots will refresh more frequently",
-    "Additional Power Spots will be active",
-    "8× Max Particles from Power Spots",
-    "Up to three Special Trades for the day",
-    "From December 4 at 4:00 p.m. to December 5 at 8:00 p.m. PST (GMT −8), the daily Remote Raid limit will increase from 10 to 20",
-    "2× Max Particles from exploring*",
-    "1/4 Adventuring distance to receive Max Particles**"
+    "Maximales Partikelsammellimit auf 1.600 erhöht",
+    "An allen Power-Spots finden Gigadynamax-Kämpfe statt",
+    "Kraftorte werden häufiger aktualisiert",
+    "Zusätzliche Power Spots werden aktiv sein",
+    "8× max. Partikel von Power-Spots",
+    "Bis zu drei Sonder-Trades pro Tag",
+    "Vom 4. Dezember um 16:00 Uhr bis zum 5. Dezember um 20:00 Uhr PST (GMT −8) wird das tägliche Limit für Remote-Raids von 10 auf 20 erhöht.",
+    "2× max. Partikel aus der Erkundung*",
+    "1/4 der Abenteuerstrecke, um die maximale Anzahl an Partikeln zu erhalten**"
    ],
    "ticketBonusesDe": [
-    "2× XP from Max Battles"
+    "2× EP aus Max.-Kämpfen"
    ]
   },
   "tropical-paradise-2026": {
@@ -3192,7 +3114,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3218,7 +3140,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3247,7 +3169,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3276,7 +3198,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-25",
+   "fetched": "2026-11-26",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3289,6 +3211,8 @@
   "Explore 1 km": "Entdecken 1",
   "Hatch an Egg": "Ein Ei ausbrüten",
   "Use a Lure Module at a PokéStop": "Verwende ein Lockmodul an einem PokéStop",
+  "Use an Incense": "Verwende ein Räucherstäbchen",
+  "Win a raid": "Gewinne einen Raid",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -3304,7 +3228,6 @@
   "Make 3 Great Throws in a row": "Mache 3 große Würfe in Folge",
   "Make 5 Great Curveball Throws in a row": "Mache 5 großartige Curveball-Würfe in Folge",
   "Make 5 Nice Throws": "Mache 5 schöne Überwürfe",
-  "Win a raid": "Gewinne einen Raid",
   "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
   "Win 5 raids": "Gewinne 5 Raids",
   "Explore 2 km": "2 km erkunden",
@@ -3325,11 +3248,14 @@
  },
  "codes": [],
  "translations": {
+  "Is Mega Clefable any good for Pokémon GO Raids?": "Ist Mega-Pippi gut für Pokémon-GO-Raubzüge geeignet?",
+  "Pokémon Champions Celebration Brings Eight Legendary Raid Bosses to Pokémon GO": "Die Pokémon-Champions-Feier bringt acht legendäre Raid-Bosse zu Pokémon GO",
   "Gigantamax Inteleon Max Battle Day: Shiny Debut & Bonuses": "Gigadynamax-Inteleon-Max-Kampftag: Shiny-Debüt & Boni",
   "Pokémon TCG Pocket: Winter Holidays Themed Promo Card Event": "Pokémon-Sammelkartenspiel-Pocket: Promo-Karten-Event zum Thema Winterferien",
   "Tropical Paradise Brings Pyukumuku and Super Max Mega Slowbro to Pokémon GO": "Tropisches Paradies bringt Pyukumuku und Super-Max-Mega-Sleimok in Pokémon GO",
   "Pokémon GO December 2026 Events, Raids & Spotlight Hours": "Pokémon GO – Events, Raids und Spotlight-Stunden im Dezember 2026",
   "Noibat Spotlight Hour: Last Minute Guide (November 2026)": "Noibat-Spotlight-Stunde: Last-Minute-Leitfaden (November 2026)",
+  "Pokémon Sleep: Super Skill Week Vol. 4": "Pokémon Schlaf: Super-Fähigkeiten-Woche – Ausgabe 4",
   "Daydream Destinations: Choose Your Path Timed Research Dates": "Tagtraum-Reiseziele: Wähle deinen Weg – Termine für die zeitlich begrenzte Forschung",
   "Pokémon GO December 2026 GO Pass: Kyurem, Deluxe Rewards, and Milestone Bonuses": "Pokémon GO GO-Pass für Dezember 2026: Kyurem, Deluxe-Belohnungen und Meilenstein-Boni",
   "Paid Gifts are Coming to Pokémon GO": "Bezahlte Geschenke kommen zu Pokémon GO",
@@ -3352,9 +3278,6 @@
   "Pokémon News This Week: Pokémon Happy Meals, Shiny Xerneas, Play! Prizes and More": "Pokémon-News dieser Woche: Pokémon Happy Meals, Shiny Xerneas, Play!-Preise und mehr",
   "Hisuian Goodra and Magnet Bomb Magnezone… Any Use in PvP?": "Hisui-Goodra und Magnetbombe-Magnezone … Sind sie im PvP nützlich?",
   "Grookey, Scorbunny and Sobble Spotlight Hour: Last Minute Guide": "Spotlight-Stunde mit Chimpep, Hopplo und Memmeon: Last-Minute-Leitfaden",
-  "Eternatus in Pokémon GO: Still a Game Changer for Raids and Max Battles?": "Eternatus in Pokémon GO: Immer noch ein Gamechanger für Raids und Max-Kämpfe?",
-  "Cresselia and Darkrai in 5-star Raid Battles": "Cresselia und Darkrai in 5-Sterne-Raid-Kämpfen",
-  "Mega Banette in Mega Raids": "Mega-Banette in Mega-Raubzügen",
   "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) Raid-Stunde",
   "Noibat Spotlight Hour": "Noibat Spotlight Hour",
   "Clefable Super Mega Raid Day": "Clefable-Super-Mega-Raid-Tag",
@@ -3380,6 +3303,17 @@
   "Mega Metagross in Mega Raids": "Mega-Metagross in Mega-Raubzügen",
   "Regidrago Raid Hour": "Regidrago-Raid-Stunde",
   "Wimpod Spotlight Hour": "Spotlight-Stunde für Smettbo",
+  "Gigantamax Inteleon Max Battle Day": "Gigadynamax-Intelleon-Max-Kampftag",
+  "Max Particle collection limit increased to 1,600": "Maximales Partikelsammellimit auf 1.600 erhöht",
+  "All Power Spots will host Gigantamax Battles": "An allen Power-Spots finden Gigadynamax-Kämpfe statt",
+  "Power Spots will refresh more frequently": "Kraftorte werden häufiger aktualisiert",
+  "Additional Power Spots will be active": "Zusätzliche Power Spots werden aktiv sein",
+  "8× Max Particles from Power Spots": "8× max. Partikel von Power-Spots",
+  "Up to three Special Trades for the day": "Bis zu drei Sonder-Trades pro Tag",
+  "From December 4 at 4:00 p.m. to December 5 at 8:00 p.m. PST (GMT −8), the daily Remote Raid limit will increase from 10 to 20": "Vom 4. Dezember um 16:00 Uhr bis zum 5. Dezember um 20:00 Uhr PST (GMT −8) wird das tägliche Limit für Remote-Raids von 10 auf 20 erhöht.",
+  "2× Max Particles from exploring*": "2× max. Partikel aus der Erkundung*",
+  "1/4 Adventuring distance to receive Max Particles**": "1/4 der Abenteuerstrecke, um die maximale Anzahl an Partikeln zu erhalten**",
+  "2× XP from Max Battles": "2× EP aus Max.-Kämpfen",
   "Tropical Paradise": "TROPICAL&#x0A;&#x0A;PARADISE",
   "2× Raid XP": "2× Raid-EP",
   "5× Mega Energy for exploring with Slowpoke, Slowbro, or Slowking as your buddy after Mega Evolving Slowbro at least once": "5× Mega-Energie für das Erkunden mit Quaputzi, Quapohl oder Laschoking als deinem Buddy, nachdem du Quapohl mindestens einmal zu einem Mega-Pokémon entwickelt hast",
@@ -3464,6 +3398,8 @@
   "Explore 1 km": "Entdecken 1",
   "Hatch an Egg": "Ein Ei ausbrüten",
   "Use a Lure Module at a PokéStop": "Verwende ein Lockmodul an einem PokéStop",
+  "Use an Incense": "Verwende ein Räucherstäbchen",
+  "Win a raid": "Gewinne einen Raid",
   "Catch 7 Pokémon": "Fange 7 Pokémon",
   "Catch a Dragon-type Pokémon": "Fange ein Drachen-Pokémon",
   "Catch 7 different species of Pokémon": "Fange 7 verschiedene Pokémon-Arten",
@@ -3479,7 +3415,6 @@
   "Make 3 Great Throws in a row": "Mache 3 große Würfe in Folge",
   "Make 5 Great Curveball Throws in a row": "Mache 5 großartige Curveball-Würfe in Folge",
   "Make 5 Nice Throws": "Mache 5 schöne Überwürfe",
-  "Win a raid": "Gewinne einen Raid",
   "Win a three-star raid or higher": "Gewinne einen Drei-Sterne-Raid oder höher",
   "Win 5 raids": "Gewinne 5 Raids",
   "Explore 2 km": "2 km erkunden",
