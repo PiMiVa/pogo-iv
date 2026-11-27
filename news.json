@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T12:48:07Z",
+ "generated": "2026-11-27T22:07:52Z",
  "gbl": [
   {
    "name": "Master League and Mega Catch Cup: Great League Edition",
@@ -1119,6 +1119,23 @@
  ],
  "news": [
   {
+   "title": "A PvP Analysis on the GBL Season 29 Move Rebalance – Part 1: Redistributed Moves",
+   "titleDe": "Eine PvP-Analyse zum Move-Rebalancing der GBL-Saison 29 – Teil 1: Neu verteilte Moves",
+   "link": "https://pokemongohub.net/post/pvp/a-pvp-analysis-on-the-gbl-season-29-move-rebalance-part-1-redistributed-moves/",
+   "date": "Fri, 27 Nov 2026 15:31:28 +0000",
+   "categories": [
+    "Meta",
+    "Trainer Battles",
+    "daydream destinations move updates",
+    "daydream destinations pvp",
+    "daydream destinations season",
+    "GBL Season 29",
+    "Move Rebalance",
+    "pvp meta",
+    "under the lights"
+   ]
+  },
+  {
    "title": "Pokémon News This Week: Free Snom Ornament, Regulations M-D, Duolingo Collaboration, and More",
    "titleDe": "Pokémon-News dieser Woche: Kostenloses Snom-Ornament, Vorschriften M–D, Zusammenarbeit mit Duolingo und mehr",
    "link": "https://pokemongohub.net/post/news/pokemon-news-this-week-free-snom-ornament-regulations-m-d-duolingo-collaboration-and-more/",
@@ -1327,6 +1344,8 @@
    "categories": [
     "Events",
     "Guides",
+    "Meta",
+    "Trainer Battles",
     "daydream destinations",
     "daydream destinations pvp",
     "gbl",
@@ -1519,24 +1538,6 @@
     "meta",
     "pawniard community day",
     "PvE"
-   ]
-  },
-  {
-   "title": "A PvP Analysis on Kowtwo Cleave Kingambit (November Community Day)",
-   "titleDe": "Eine PvP-Analyse zu Kowtwo-Spalt-Kingambit (Community Day im November)",
-   "link": "https://pokemongohub.net/post/pvp/a-pvp-analysis-on-kowtwo-cleave-kingambit-november-community-day/",
-   "date": "Thu, 19 Nov 2026 10:46:08 +0000",
-   "categories": [
-    "Meta",
-    "Trainer Battles",
-    "kingambit",
-    "kingambit community day",
-    "kingambit kowtow cleave",
-    "kingambit meta",
-    "kingambit pvp",
-    "kowtow cleave",
-    "November Community Day",
-    "under the lights"
    ]
   }
  ],
@@ -3186,7 +3187,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3236,6 +3237,7 @@
  },
  "codes": [],
  "translations": {
+  "A PvP Analysis on the GBL Season 29 Move Rebalance – Part 1: Redistributed Moves": "Eine PvP-Analyse zum Move-Rebalancing der GBL-Saison 29 – Teil 1: Neu verteilte Moves",
   "Pokémon News This Week: Free Snom Ornament, Regulations M-D, Duolingo Collaboration, and More": "Pokémon-News dieser Woche: Kostenloses Snom-Ornament, Vorschriften M–D, Zusammenarbeit mit Duolingo und mehr",
   "Super Mega Clefable Raid Day": "Super-Mega-Flamara-Raid-Tag",
   "Is Mega Clefable any good for Pokémon GO Raids?": "Ist Mega-Pippi gut für Pokémon-GO-Raubzüge geeignet?",
@@ -3265,7 +3267,6 @@
   "Pokémon GO December 2026 Community Day: All featured Pokémon, Bonuses & Exclusive Moves": "Pokémon GO Community Day im Dezember 2026: Alle vorgestellten Pokémon, Boni und exklusiven Attacken",
   "ANA Launches Blue Pokémon Jet for Pokémon’s 30th Anniversary": "ANA führt anlässlich des 30. Jubiläums von Pokémon den Blue Pokémon Jet ein",
   "Pawniard Community Day: Is Kowtow Cleave Kingambit Worth It?": "Community Day mit Pawniard: Ist Kowtow Cleave Kingambit es wert?",
-  "A PvP Analysis on Kowtwo Cleave Kingambit (November Community Day)": "Eine PvP-Analyse zu Kowtwo-Spalt-Kingambit (Community Day im November)",
   "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) Raid-Stunde",
   "Noibat Spotlight Hour": "Noibat Spotlight Hour",
   "Clefable Super Mega Raid Day": "Clefable-Super-Mega-Raid-Tag",
