@@ -1107,6 +1107,7 @@ button.outline { background: transparent; border: 1px solid var(--line, #DDD); c
 .group-pill.trade { background: #2F7FD1; color: #fff; }
 .sort-group.trade { background: #DCEEFB; }
 .chip.trade-chip { background: #DCEEFB; color: #1E5A85; border-color: transparent; }
+.chip.special-chip { background: var(--lilac); color: var(--lilac-t); border-color: transparent; }
 .rules { display: flex; flex-direction: column; gap: 8px; margin: 8px 0; }
 .rules > summary { cursor: pointer; font-weight: 600; color: var(--accent, #7b6cf0); }
 .rule { background: var(--mist); border-radius: 14px; padding: 8px 10px; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
@@ -1425,3 +1426,14 @@ main.setup h2 { font-size: 1.2rem; margin: 4px 0 0; text-wrap: balance; }
 
 /* Kumpel-Aufgaben beim Entwickeln (25.11.2026): orange wie „Wartet auf Event“, wie in der App (Pogo.warn). */
 .task-note { color: #B86E00; font-weight: 600; }
+
+/* PvP-Prüfung 27.11.2026: „Was fehlt deinem Team?“ unter dem besten Team, wie in der App (SuggestCard). */
+.suggest-card .line { align-items: center; gap: 10px; }
+.suggest-bulb { display: inline-flex; align-items: center; justify-content: center; flex: none; width: 40px; height: 40px; border-radius: 50%; background: var(--butter); color: var(--butter-t); }
+.suggest-row { display: flex; align-items: center; gap: 10px; background: var(--mist); border-radius: 14px; padding: 8px; margin-top: 8px; }
+.suggest-row .grow { min-width: 0; }
+.suggest-side { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; flex: none; }
+.suggest-gain { color: var(--good); font-size: 1rem; }
+.suggest-pill { border-radius: 999px; padding: 2px 8px; font-size: .75rem; font-weight: 700; color: #fff; white-space: nowrap; }
+.suggest-pill.have { background: var(--good); }
+.suggest-pill.missing { background: #B86E00; }
