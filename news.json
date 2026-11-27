@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T02:59:22Z",
+ "generated": "2026-11-27T12:48:07Z",
  "gbl": [
   {
    "name": "Master League and Mega Catch Cup: Great League Edition",
@@ -1119,6 +1119,34 @@
  ],
  "news": [
   {
+   "title": "Pokémon News This Week: Free Snom Ornament, Regulations M-D, Duolingo Collaboration, and More",
+   "titleDe": "Pokémon-News dieser Woche: Kostenloses Snom-Ornament, Vorschriften M–D, Zusammenarbeit mit Duolingo und mehr",
+   "link": "https://pokemongohub.net/post/news/pokemon-news-this-week-free-snom-ornament-regulations-m-d-duolingo-collaboration-and-more/",
+   "date": "Fri, 27 Nov 2026 09:49:44 +0000",
+   "categories": [
+    "News",
+    "30th celebration event",
+    "casetify",
+    "duolingo",
+    "galar",
+    "pokemon champions",
+    "pokemon news",
+    "poketoon",
+    "regulation m-d",
+    "snom",
+    "t-shirt"
+   ]
+  },
+  {
+   "title": "Super Mega Clefable Raid Day",
+   "titleDe": "Super-Mega-Flamara-Raid-Tag",
+   "link": "https://pokemongohub.net/post/event/super-mega-clefable-raid-day/",
+   "date": "Fri, 27 Nov 2026 09:14:11 +0000",
+   "categories": [
+    "Events"
+   ]
+  },
+  {
    "title": "Is Mega Clefable any good for Pokémon GO Raids?",
    "titleDe": "Ist Mega-Pippi gut für Pokémon-GO-Raubzüge geeignet?",
    "link": "https://pokemongohub.net/post/meta/is-mega-clefable-any-good-for-pokemon-go-raids/",
@@ -1210,6 +1238,19 @@
     "noivern",
     "november 2026 spotlight hour",
     "Shiny Noibat"
+   ]
+  },
+  {
+   "title": "Pokémon Sleep: New Moon Day (December 2026)",
+   "titleDe": "Pokémon Schlaf: Tag des Neumonds (Dezember 2026)",
+   "link": "https://pokemongohub.net/post/sleep/pokemon-sleep-new-moon-day-december-2026/",
+   "date": "Wed, 25 Nov 2026 08:26:50 +0000",
+   "categories": [
+    "Pokémon Sleep",
+    "darkrai",
+    "december 2026",
+    "new moon day",
+    "pokemon sleep"
    ]
   },
   {
@@ -1496,59 +1537,6 @@
     "kowtow cleave",
     "November Community Day",
     "under the lights"
-   ]
-  },
-  {
-   "title": "Pokémon News This Week: Pokémon Happy Meals, Shiny Xerneas, Play! Prizes and More",
-   "titleDe": "Pokémon-News dieser Woche: Pokémon Happy Meals, Shiny Xerneas, Play!-Preise und mehr",
-   "link": "https://pokemongohub.net/post/news/pokemon-news-this-week-pokemon-happy-meals-shiny-xerneas-play-prizes-and-more/",
-   "date": "Thu, 19 Nov 2026 08:23:07 +0000",
-   "categories": [
-    "News",
-    "delta reign",
-    "groudon promo code",
-    "happy meal",
-    "mcdonalds",
-    "play pokemon december 2026 prizes",
-    "pokopia mystery gift",
-    "shiny xerneas code",
-    "shiny xernias pokemon legends z-a"
-   ]
-  },
-  {
-   "title": "Hisuian Goodra and Magnet Bomb Magnezone… Any Use in PvP?",
-   "titleDe": "Hisui-Goodra und Magnetbombe-Magnezone … Sind sie im PvP nützlich?",
-   "link": "https://pokemongohub.net/post/pvp/hisuian-goodra-and-magnet-bomb-magnezone-any-use-in-pvp/",
-   "date": "Wed, 18 Nov 2026 14:56:47 +0000",
-   "categories": [
-    "Meta",
-    "Trainer Battles",
-    "Dialga",
-    "go wild area 2026",
-    "go wild area meta",
-    "hisuian goodra",
-    "hisuian goodra pvp",
-    "Magnet Bomb",
-    "magnezone",
-    "magnezone pvp",
-    "pvp",
-    "shadow magnezone",
-    "under the lights"
-   ]
-  },
-  {
-   "title": "Grookey, Scorbunny and Sobble Spotlight Hour: Last Minute Guide",
-   "titleDe": "Spotlight-Stunde mit Chimpep, Hopplo und Memmeon: Last-Minute-Leitfaden",
-   "link": "https://pokemongohub.net/post/event/gen-8-starters-spotlight-hour/",
-   "date": "Wed, 18 Nov 2026 12:24:00 +0000",
-   "categories": [
-    "Events",
-    "gen 8 starters",
-    "grookey",
-    "november 2026 spotlight hour",
-    "november spotlight hour",
-    "scorbunny",
-    "sobble"
    ]
   }
  ],
@@ -2656,7 +2644,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2679,7 +2667,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2690,7 +2678,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2701,7 +2689,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2712,7 +2700,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2746,7 +2734,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2781,7 +2769,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2792,7 +2780,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2816,7 +2804,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2842,7 +2830,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2853,7 +2841,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2864,7 +2852,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2898,7 +2886,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2933,7 +2921,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2971,7 +2959,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2982,7 +2970,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2993,7 +2981,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3004,7 +2992,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3015,7 +3003,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3026,7 +3014,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3037,7 +3025,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3048,7 +3036,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3059,7 +3047,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3070,7 +3058,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3081,7 +3069,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3092,7 +3080,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3103,7 +3091,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3114,7 +3102,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3140,7 +3128,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3169,7 +3157,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-26",
+   "fetched": "2026-11-27",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3248,6 +3236,8 @@
  },
  "codes": [],
  "translations": {
+  "Pokémon News This Week: Free Snom Ornament, Regulations M-D, Duolingo Collaboration, and More": "Pokémon-News dieser Woche: Kostenloses Snom-Ornament, Vorschriften M–D, Zusammenarbeit mit Duolingo und mehr",
+  "Super Mega Clefable Raid Day": "Super-Mega-Flamara-Raid-Tag",
   "Is Mega Clefable any good for Pokémon GO Raids?": "Ist Mega-Pippi gut für Pokémon-GO-Raubzüge geeignet?",
   "Pokémon Champions Celebration Brings Eight Legendary Raid Bosses to Pokémon GO": "Die Pokémon-Champions-Feier bringt acht legendäre Raid-Bosse zu Pokémon GO",
   "Gigantamax Inteleon Max Battle Day: Shiny Debut & Bonuses": "Gigadynamax-Inteleon-Max-Kampftag: Shiny-Debüt & Boni",
@@ -3255,6 +3245,7 @@
   "Tropical Paradise Brings Pyukumuku and Super Max Mega Slowbro to Pokémon GO": "Tropisches Paradies bringt Pyukumuku und Super-Max-Mega-Sleimok in Pokémon GO",
   "Pokémon GO December 2026 Events, Raids & Spotlight Hours": "Pokémon GO – Events, Raids und Spotlight-Stunden im Dezember 2026",
   "Noibat Spotlight Hour: Last Minute Guide (November 2026)": "Noibat-Spotlight-Stunde: Last-Minute-Leitfaden (November 2026)",
+  "Pokémon Sleep: New Moon Day (December 2026)": "Pokémon Schlaf: Tag des Neumonds (Dezember 2026)",
   "Pokémon Sleep: Super Skill Week Vol. 4": "Pokémon Schlaf: Super-Fähigkeiten-Woche – Ausgabe 4",
   "Daydream Destinations: Choose Your Path Timed Research Dates": "Tagtraum-Reiseziele: Wähle deinen Weg – Termine für die zeitlich begrenzte Forschung",
   "Pokémon GO December 2026 GO Pass: Kyurem, Deluxe Rewards, and Milestone Bonuses": "Pokémon GO GO-Pass für Dezember 2026: Kyurem, Deluxe-Belohnungen und Meilenstein-Boni",
@@ -3275,9 +3266,6 @@
   "ANA Launches Blue Pokémon Jet for Pokémon’s 30th Anniversary": "ANA führt anlässlich des 30. Jubiläums von Pokémon den Blue Pokémon Jet ein",
   "Pawniard Community Day: Is Kowtow Cleave Kingambit Worth It?": "Community Day mit Pawniard: Ist Kowtow Cleave Kingambit es wert?",
   "A PvP Analysis on Kowtwo Cleave Kingambit (November Community Day)": "Eine PvP-Analyse zu Kowtwo-Spalt-Kingambit (Community Day im November)",
-  "Pokémon News This Week: Pokémon Happy Meals, Shiny Xerneas, Play! Prizes and More": "Pokémon-News dieser Woche: Pokémon Happy Meals, Shiny Xerneas, Play!-Preise und mehr",
-  "Hisuian Goodra and Magnet Bomb Magnezone… Any Use in PvP?": "Hisui-Goodra und Magnetbombe-Magnezone … Sind sie im PvP nützlich?",
-  "Grookey, Scorbunny and Sobble Spotlight Hour: Last Minute Guide": "Spotlight-Stunde mit Chimpep, Hopplo und Memmeon: Last-Minute-Leitfaden",
   "Deoxys (Normal, Defense, Attack, and Speed Formes) Raid Hour": "Deoxys (Normal-, Verteidigungs-, Angriffs- und Geschwindigkeitsformen) Raid-Stunde",
   "Noibat Spotlight Hour": "Noibat Spotlight Hour",
   "Clefable Super Mega Raid Day": "Clefable-Super-Mega-Raid-Tag",
