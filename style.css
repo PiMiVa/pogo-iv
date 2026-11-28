@@ -1437,3 +1437,9 @@ main.setup h2 { font-size: 1.2rem; margin: 4px 0 0; text-wrap: balance; }
 .suggest-pill { border-radius: 999px; padding: 2px 8px; font-size: .75rem; font-weight: 700; color: #fff; white-space: nowrap; }
 .suggest-pill.have { background: var(--good); }
 .suggest-pill.missing { background: #B86E00; }
+/* Ausbauplan: Wahl Stufe 40/50 und Super-Max (28.11.2026), gewählt = lila Rand wie die App. */
+.step-block.up-choice.on { background: var(--chosen); box-shadow: 0 0 0 2px var(--violet); }
+.step-block.up-choice b { font-size: 14px; color: var(--ink, #15151A); }
+/* Raids: Schalter Super-Mega-Raid unter dem Boss (28.11.2026). */
+.super-mega { background: #fff; border-radius: 16px; padding: 8px 12px; display: flex; flex-direction: column; gap: 4px; margin: 6px 0; }
+.super-mega .line.keep-moves { margin: 0; padding: 0; background: none; }
