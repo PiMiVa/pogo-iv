@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T04:01:59Z",
+ "generated": "2026-11-28T13:17:04Z",
  "gbl": [
   {
    "name": "Master League and Mega Catch Cup: Great League Edition",
@@ -1119,6 +1119,47 @@
  ],
  "news": [
   {
+   "title": "Super Mega Clefable Raid Day",
+   "titleDe": "Super-Mega-Flamara-Raid-Tag",
+   "link": "https://pokemongohub.net/post/event/super-mega-clefable-raid-day/",
+   "date": "Sat, 28 Nov 2026 05:00:11 +0000",
+   "categories": [
+    "Events"
+   ]
+  },
+  {
+   "title": "Super Mega Clefable Raid Guide",
+   "titleDe": "Raid-Anleitung für Super-Mega-Flamara",
+   "link": "https://pokemongohub.net/post/guide/super-mega-clefable-raid-guide/",
+   "date": "Sat, 28 Nov 2026 04:55:45 +0000",
+   "categories": [
+    "Guides",
+    "mega clefable",
+    "mega clefable counters",
+    "mega clefable raid",
+    "mega clefable raid guide",
+    "raid guide",
+    "super mega clefable"
+   ]
+  },
+  {
+   "title": "Is Mega Clefable any good for Pokémon GO Raids?",
+   "titleDe": "Ist Mega-Pippi gut für Pokémon-GO-Raubzüge geeignet?",
+   "link": "https://pokemongohub.net/post/meta/is-mega-clefable-any-good-for-pokemon-go-raids/",
+   "date": "Sat, 28 Nov 2026 04:50:36 +0000",
+   "categories": [
+    "Meta",
+    "Clefable",
+    "fairy types",
+    "mega clefable",
+    "mega clefable analysis",
+    "mega clefable meta",
+    "mega clefable pve",
+    "Mega Evolution",
+    "moonblast"
+   ]
+  },
+  {
    "title": "A PvP Analysis on the GBL Season 29 Move Rebalance – Part 1: Redistributed Moves",
    "titleDe": "Eine PvP-Analyse zum Move-Rebalancing der GBL-Saison 29 – Teil 1: Neu verteilte Moves",
    "link": "https://pokemongohub.net/post/pvp/a-pvp-analysis-on-the-gbl-season-29-move-rebalance-part-1-redistributed-moves/",
@@ -1152,32 +1193,6 @@
     "regulation m-d",
     "snom",
     "t-shirt"
-   ]
-  },
-  {
-   "title": "Super Mega Clefable Raid Day",
-   "titleDe": "Super-Mega-Flamara-Raid-Tag",
-   "link": "https://pokemongohub.net/post/event/super-mega-clefable-raid-day/",
-   "date": "Fri, 27 Nov 2026 09:14:11 +0000",
-   "categories": [
-    "Events"
-   ]
-  },
-  {
-   "title": "Is Mega Clefable any good for Pokémon GO Raids?",
-   "titleDe": "Ist Mega-Pippi gut für Pokémon-GO-Raubzüge geeignet?",
-   "link": "https://pokemongohub.net/post/meta/is-mega-clefable-any-good-for-pokemon-go-raids/",
-   "date": "Thu, 26 Nov 2026 13:18:36 +0000",
-   "categories": [
-    "Meta",
-    "Clefable",
-    "fairy types",
-    "mega clefable",
-    "mega clefable analysis",
-    "mega clefable meta",
-    "mega clefable pve",
-    "Mega Evolution",
-    "moonblast"
    ]
   },
   {
@@ -1381,21 +1396,6 @@
     "twilight wishes",
     "twilight wishes meta",
     "twilight wishes pve"
-   ]
-  },
-  {
-   "title": "Super Mega Clefable Raid Guide",
-   "titleDe": "Raid-Anleitung für Super-Mega-Flamara",
-   "link": "https://pokemongohub.net/post/guide/super-mega-clefable-raid-guide/",
-   "date": "Mon, 23 Nov 2026 13:05:45 +0000",
-   "categories": [
-    "Guides",
-    "mega clefable",
-    "mega clefable counters",
-    "mega clefable raid",
-    "mega clefable raid guide",
-    "raid guide",
-    "super mega clefable"
    ]
   },
   {
@@ -2645,7 +2645,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2668,7 +2668,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2679,7 +2679,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2690,7 +2690,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2701,7 +2701,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2735,7 +2735,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2770,7 +2770,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2781,7 +2781,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2805,7 +2805,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2831,7 +2831,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2842,7 +2842,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2853,7 +2853,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2887,7 +2887,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2922,7 +2922,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2960,7 +2960,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2971,7 +2971,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2982,7 +2982,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -2993,7 +2993,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3004,7 +3004,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3015,7 +3015,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3026,7 +3026,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3037,7 +3037,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3048,7 +3048,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3059,7 +3059,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3070,7 +3070,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3081,7 +3081,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3092,7 +3092,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3103,7 +3103,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [],
    "ticketBonusesDe": []
   },
@@ -3129,7 +3129,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3158,7 +3158,7 @@
    "ticketBonuses": [],
    "moves": [],
    "ticket": "",
-   "fetched": "2026-11-27",
+   "fetched": "2026-11-28",
    "bonusesDe": [
     "Erhöhter Sternenstaub zum Fangen von Minior",
     "Erhöhte Chance, Minior jeden Tag von 17:00 Uhr bis 21:00 Uhr Ortszeit zu begegnen"
@@ -3237,10 +3237,11 @@
  },
  "codes": [],
  "translations": {
+  "Super Mega Clefable Raid Day": "Super-Mega-Flamara-Raid-Tag",
+  "Super Mega Clefable Raid Guide": "Raid-Anleitung für Super-Mega-Flamara",
+  "Is Mega Clefable any good for Pokémon GO Raids?": "Ist Mega-Pippi gut für Pokémon-GO-Raubzüge geeignet?",
   "A PvP Analysis on the GBL Season 29 Move Rebalance – Part 1: Redistributed Moves": "Eine PvP-Analyse zum Move-Rebalancing der GBL-Saison 29 – Teil 1: Neu verteilte Moves",
   "Pokémon News This Week: Free Snom Ornament, Regulations M-D, Duolingo Collaboration, and More": "Pokémon-News dieser Woche: Kostenloses Snom-Ornament, Vorschriften M–D, Zusammenarbeit mit Duolingo und mehr",
-  "Super Mega Clefable Raid Day": "Super-Mega-Flamara-Raid-Tag",
-  "Is Mega Clefable any good for Pokémon GO Raids?": "Ist Mega-Pippi gut für Pokémon-GO-Raubzüge geeignet?",
   "Pokémon Champions Celebration Brings Eight Legendary Raid Bosses to Pokémon GO": "Die Pokémon-Champions-Feier bringt acht legendäre Raid-Bosse zu Pokémon GO",
   "Gigantamax Inteleon Max Battle Day: Shiny Debut & Bonuses": "Gigadynamax-Inteleon-Max-Kampftag: Shiny-Debüt & Boni",
   "Pokémon TCG Pocket: Winter Holidays Themed Promo Card Event": "Pokémon-Sammelkartenspiel-Pocket: Promo-Karten-Event zum Thema Winterferien",
@@ -3256,7 +3257,6 @@
   "GO Battle League Daydream Destinations Update": "Update zu den Traumziel-Destinationen der GO Kampf-Liga",
   "Pokémon GO Twilight Wishes (2026)": "Pokémon GO – Dämmerungswünsche (2026)",
   "Twilight Wishes: Your Go-To PvE Guide": "Dämmerungswünsche: Dein PvE-Leitfaden",
-  "Super Mega Clefable Raid Guide": "Raid-Anleitung für Super-Mega-Flamara",
   "This Week in Pokémon GO (November 23-29): Mega Clefable, Deoxys Raids, and Noibat Spotlight Hour": "Diese Woche in Pokémon GO (23.–29. November): Mega-Pippi, Deoxys-Raids und Noibat-Spotlight-Stunde",
   "Dynamax Espurr Max Monday: Event Guide": "Dynamax-Purrloin-Max-Montag: Event-Leitfaden",
   "A (Spending) Guide For Eternatus – The Most Expensive Pokémon In Pokémon GO": "Ein (Ausgaben-)Leitfaden für Eternatus – das teuerste Pokémon in Pokémon GO",
