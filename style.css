@@ -164,6 +164,7 @@ button:disabled { opacity: .45; cursor: default; }
 .league.hyper { background: var(--hyper-bg); color: #ffcc33; }
 .league.master { background: #6e3caa; }
 .league.little { background: #3c9a5a; }
+.league.raid { background: #2373b8; }
 .meta { background: var(--tonal); color: var(--tonal-text); }
 
 /* IV-Balken */
